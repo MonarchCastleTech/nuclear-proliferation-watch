@@ -1,11 +1,10 @@
 {
   "meta": {
     "project": "nuclear-proliferation-watch",
-    "generated": "2026-08-05T22:58:46.511045+00:00",
+    "generated": "2026-08-11T03:21:10.420039+00:00",
     "mode": "live",
     "sources": [
       "gdelt_articles",
-      "nuclear_news",
       "exchange_rates"
     ],
     "version": "1.0.0"
@@ -34,296 +33,6 @@
   ],
   "live_data": {
     "gdelt_articles": [],
-    "nuclear_news": [
-      {
-        "title": "El acuerdo de Donald Trump con Arabia Saudí pone en riesgo la no proliferación nuclear",
-        "url": "https://www.abc.es/internacional/acuerdo-donald-trump-arabia-saudi-pone-riesgo-20260803011634-nt.html",
-        "domain": "abc.es",
-        "language": "Spanish",
-        "tone": 0,
-        "seendate": "20260802T234500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "El acuerdo de Donald Trump con Arabia Saudí pone en riesgo la no proliferación nuclear",
-        "url": "https://www.diariovasco.com/internacional/acuerdo-donald-trump-arabia-saudi-pone-riesgo-20260803011634-nt.html",
-        "domain": "diariovasco.com",
-        "language": "Spanish",
-        "tone": 0,
-        "seendate": "20260803T000000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "El acuerdo de Donald Trump con Arabia Saudí pone en riesgo la no proliferación nuclear",
-        "url": "https://www.diariosur.es/internacional/acuerdo-donald-trump-arabia-saudi-pone-riesgo-20260803011634-nt.html",
-        "domain": "diariosur.es",
-        "language": "Spanish",
-        "tone": 0,
-        "seendate": "20260803T003000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "El acuerdo de Donald Trump con Arabia Saudí pone en riesgo la no proliferación nuclear",
-        "url": "https://www.elcomercio.es/internacional/acuerdo-donald-trump-arabia-saudi-pone-riesgo-20260803011634-nt.html",
-        "domain": "elcomercio.es",
-        "language": "Spanish",
-        "tone": 0,
-        "seendate": "20260802T234500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "El acuerdo de Donald Trump con Arabia Saudí pone en riesgo la no proliferación nuclear",
-        "url": "https://www.eldiariomontanes.es/internacional/acuerdo-donald-trump-arabia-saudi-pone-riesgo-20260803011634-nt.html",
-        "domain": "eldiariomontanes.es",
-        "language": "Spanish",
-        "tone": 0,
-        "seendate": "20260802T234500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "El acuerdo de Donald Trump con Arabia Saudí pone en riesgo la no proliferación nuclear",
-        "url": "https://www.hoy.es/internacional/acuerdo-donald-trump-arabia-saudi-pone-riesgo-20260803011634-nt.html",
-        "domain": "hoy.es",
-        "language": "Spanish",
-        "tone": 0,
-        "seendate": "20260803T013000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "El acuerdo de Donald Trump con Arabia Saudí pone en riesgo la no proliferación nuclear",
-        "url": "https://www.larioja.com/internacional/acuerdo-donald-trump-arabia-saudi-pone-riesgo-20260803011634-nt.html",
-        "domain": "larioja.com",
-        "language": "Spanish",
-        "tone": 0,
-        "seendate": "20260803T000000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "El acuerdo de Donald Trump con Arabia Saudí pone en riesgo la no proliferación nuclear",
-        "url": "https://www.canarias7.es/internacional/acuerdo-donald-trump-arabia-saudi-pone-riesgo-20260803011634-nt.html",
-        "domain": "canarias7.es",
-        "language": "Spanish",
-        "tone": 0,
-        "seendate": "20260802T234500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Best of Both Sides : A Saudi reactor is not a Saudi bomb",
-        "url": "https://indianexpress.com/article/opinion/columns/us-saudi-arabia-civil-nuclear-deal-donald-trump-10811151/",
-        "domain": "indianexpress.com",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260731T021500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Поки США бомблять Іран , Трамп дозволив ядерні розроблення сусідній країні . У чому річ ? ",
-        "url": "https://gordonua.com/ukr/section-politics/news-poka-ssha-bombyat-yran-tramp-razreshyl-yadernyie-razrabotky-sosedney-strane-v-chem-delo-31-07-2026.html",
-        "domain": "gordonua.com",
-        "language": "Ukrainian",
-        "tone": 0,
-        "seendate": "20260731T193000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "US - Saudi nuclear deal leads to concern about nuclear weapons",
-        "url": "https://www.csmonitor.com/World/Middle-East/2026/0803/Saudi-Arabia-nuclear-power-Westinghouse-nuclear-weapons-United-States-U.S",
-        "domain": "csmonitor.com",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260803T161500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Πυρηνική συμφωνία ΗΠΑ και Σαουδικής Αραβίας",
-        "url": "https://www.capital.gr/arthra/4008630/puriniki-sumfonia-ipa-kai-saoudikis-arabias/",
-        "domain": "capital.gr",
-        "language": "Greek",
-        "tone": 0,
-        "seendate": "20260801T071500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "A new arms race ? How Trump Saudi nuclear deal could destabilise Middle East",
-        "url": "https://www.theweek.in/theweek/more/2026/08/01/a-new-arms-race-how-trumps-saudi-nuclear-deal-could-destabilise-middle-east.html",
-        "domain": "theweek.in",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260802T033000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Best of Both Sides : Saudi - US deal is a recipe for nuclear proliferation",
-        "url": "https://indianexpress.com/article/opinion/columns/donald-trump-saudi-nuclear-deal-middle-east-arms-race-10811153/",
-        "domain": "indianexpress.com",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260731T021500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Other Voices : US - Saudi nuclear agreement further erodes safeguards",
-        "url": "https://www.post-journal.com/opinion/in-our-opinion/2026/07/other-voices-us-saudi-nuclear-agreement-further-erodes-safeguards/",
-        "domain": "post-journal.com",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260731T084500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Washington nuclear double standard in West Asia",
-        "url": "https://aliran.com/web-specials/washingtons-nuclear-double-standard-in-west-asia",
-        "domain": "aliran.com",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260730T134500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "The Next Iran Nuclear Deal : Lessons from Iran , Iraq , Libya , Syria , and North Korea • Stimson Center",
-        "url": "https://www.stimson.org/2026/the-next-iran-nuclear-deal-lessons-from-iran-iraq-libya-syria-and-north-korea/",
-        "domain": "stimson.org",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260801T193000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Canada silence on the U . S . and Saudi Arabia nuclear agreement isnt neutrality . It something much worse « nuclear - news",
-        "url": "https://nuclear-news.net/2026/07/30/3-b-canadas-silence-on-the-u-s-and-saudi-arabias-nuclear-agreement-isnt-neutrality-its-something-much-worse/",
-        "domain": "nuclear-news.net",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260730T091500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Trump Saudi Gambit : Another Iran in the Making ? – Mishpacha",
-        "url": "https://mishpacha.com/trumps-saudi-gambit-another-iran-in-the-making/",
-        "domain": "mishpacha.com",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260730T134500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "U . S .- Saudi nuclear deal risks unleashing a Middle Eastern arms race",
-        "url": "https://www.theglobeandmail.com/opinion/article-us-saudi-nuclear-deal-middle-east/",
-        "domain": "theglobeandmail.com",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260730T130000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "ROZHODNUTÍ : Trumpův saúdský jaderný horor - Neviditelný pes",
-        "url": "https://neviditelnypes.lidovky.cz/zahranici/rozhodnuti-trumpuv-saudsky-jaderny-horor.A260804_181340_p_zahranici_nef",
-        "domain": "neviditelnypes.lidovky.cz",
-        "language": "Czech",
-        "tone": 0,
-        "seendate": "20260805T011500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Ядерное сдерживание на Ближнем Востоке 2026",
-        "url": "https://jtimes.ru/yadernoe-sderzhivanie-blizhnij-vostok-2026/",
-        "domain": "jtimes.ru",
-        "language": "Russian",
-        "tone": 0,
-        "seendate": "20260731T160000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Medio Oriente accordo sul disarmo completo di Hamas Trump",
-        "url": "https://www.zazoom.it/2026-07-31/medio-oriente-accordo-sul-disarmo-completo-di-hamas-trump-israele-lascera-gaza/19521035/",
-        "domain": "zazoom.it",
-        "language": "Italian",
-        "tone": 0,
-        "seendate": "20260731T054500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Trump administration is repurposing federal land for AI data centers - Las Vegas Sun News",
-        "url": "https://lasvegassun.com/news/2026/jul/31/trump-administration-is-repurposing-federal-land-f/",
-        "domain": "lasvegassun.com",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260731T124500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "جريدة الرياض | شراكة « سعودية - أميركية » تدفع برنامج الطاقة النووية السلمية إلى مرحلة جديدة",
-        "url": "https://www.alriyadh.com/2200209",
-        "domain": "alriyadh.com",
-        "language": "Arabic",
-        "tone": 0,
-        "seendate": "20260730T230000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "US - Saudi nuclear agreement further erodes safeguards",
-        "url": "https://www.ironmountaindailynews.com/opinion/editorials/2026/08/us-saudi-nuclear-agreement-further-erodes-safeguards/",
-        "domain": "ironmountaindailynews.com",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260803T090000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Lightbridge Corporation ( NASDAQ : LTBR ) Joins Solactive Nuclear Index Tracked By Global X Uranium ETF ( NYSE Arca : URA ) ",
-        "url": "https://www.foreignpolicyjournal.com/2026/07/29/lightbridge-corporation-nasdaq-ltbr-joins-solactive-nuclear-index-tracked-by-global-x-uranium-etf-nyse-arca-ura/",
-        "domain": "foreignpolicyjournal.com",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260730T013000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Iran IRGC commander vows to pursue nuclear weapons until US disarms",
-        "url": "https://www.foxnews.com/world/nuclear-experts-urge-trump-not-let-iran-steer-talks-away-from-regimes-atomic-threat",
-        "domain": "foxnews.com",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260805T203000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "ASP Isotopes Issues Letter to Shareholders",
-        "url": "https://www.manilatimes.net/2026/08/04/tmt-newswire/globenewswire/aspisotopes-issues-letter-to-shareholders/2397970",
-        "domain": "manilatimes.net",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260804T130000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Up to 5 , 000 Metric Tons of Uranium Shipped From Congo to China , Report Says – NaturalNews . com",
-        "url": "https://www.naturalnews.com/2026-08-03-5000-metric-tons-uranium-shipped-congo-china.html",
-        "domain": "naturalnews.com",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260803T231500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "The US - Saudi nuclear agreement further erodes international safeguards",
-        "url": "https://www.thedailyreview.com/opinion/columns_editorials/the-us-saudi-nuclear-agreement-further-erodes-international-safeguards/article_15ab1bf2-e607-41c5-9f33-bef15074b682.html",
-        "domain": "thedailyreview.com",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260730T103000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "José Sarney :  El presidente argentino es hostil a Brasil  ",
-        "url": "https://www.analisisdigital.com.ar/nacionales/2026/08/02/jose-sarney-el-presidente-argentino-es-hostil-brasil",
-        "domain": "analisisdigital.com.ar",
-        "language": "Spanish",
-        "tone": 0,
-        "seendate": "20260803T013000Z",
-        "source": "GDELT"
-      }
-    ],
     "exchange_rates": [
       {
         "currency": "USD",
@@ -335,15 +44,15 @@
       },
       {
         "currency": "AFN",
-        "rate": 65.72
+        "rate": 65.51
       },
       {
         "currency": "ALL",
-        "rate": 81.07
+        "rate": 80.66
       },
       {
         "currency": "AMD",
-        "rate": 366.47
+        "rate": 366.5
       },
       {
         "currency": "ANG",
@@ -351,11 +60,11 @@
       },
       {
         "currency": "AOA",
-        "rate": 926.54
+        "rate": 925.26
       },
       {
         "currency": "ARS",
-        "rate": 1496.45
+        "rate": 1498.09
       },
       {
         "currency": "AUD",
@@ -371,7 +80,7 @@
       },
       {
         "currency": "BAM",
-        "rate": 1.7
+        "rate": 1.69
       },
       {
         "currency": "BBD",
@@ -379,11 +88,11 @@
       },
       {
         "currency": "BDT",
-        "rate": 123.71
+        "rate": 123.59
       },
       {
         "currency": "BGN",
-        "rate": 1.7
+        "rate": 1.69
       },
       {
         "currency": "BHD",
@@ -391,7 +100,7 @@
       },
       {
         "currency": "BIF",
-        "rate": 2991.62
+        "rate": 2991.46
       },
       {
         "currency": "BMD",
@@ -403,12 +112,12 @@
       },
       {
         "currency": "BOB",
-        "rate": 12.17
+        "rate": 11.96
       }
     ]
   },
   "entities": [],
   "events": [],
   "timeseries": [],
-  "llm_summary": "**Intelligence Brief: Nuclear Proliferation Watch (Live Mode)**\n\nCurrent monitoring across GDELT, specialized nuclear news wires, and financial indicators shows **no significant proliferation events detected** in the latest ingestion cycle. The absence of alerts across all three source vectors—open-source media, technical trade publications, and economic proxies—suggests a stable threat posture with no immediate breakout signals or covert procurement spikes. Analysts should maintain baseline surveillance thresholds; the next brief will trigger automatically upon detection of enrichment anomalies, sanction evasion patterns, or relevant diplomatic shifts."
+  "llm_summary": "Pending API key..."
 }
