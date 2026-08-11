@@ -1,0 +1,26 @@
+# Nuclear Proliferation Watch Configuration
+project:
+  id: nuclear-proliferation-watch
+  name: "Nuclear Proliferation Watch"
+  description: "Track nuclear material movement and facility expansion."
+
+openrouter:
+  model: "openrouter/free"
+  fallback_model: "openrouter/free"
+
+gdelt_query: "nuclear proliferation enrichment IAEA"
+include_forex: true
+
+sources:
+  - name: "GDELT"
+
+refresh:
+  interval_hours: 6
+  retry_attempts: 3
+
+scoring:
+  scale: "1-10"
+  thresholds:
+    high: 7
+    medium: 4
+    low: 0
