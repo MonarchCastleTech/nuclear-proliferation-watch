@@ -1,10 +1,11 @@
 {
   "meta": {
     "project": "nuclear-proliferation-watch",
-    "generated": "2026-08-11T03:21:10.420039+00:00",
+    "generated": "2026-08-11T07:57:10.786102+00:00",
     "mode": "live",
     "sources": [
       "gdelt_articles",
+      "nuclear_news",
       "exchange_rates"
     ],
     "version": "1.0.0"
@@ -33,6 +34,179 @@
   ],
   "live_data": {
     "gdelt_articles": [],
+    "nuclear_news": [
+      {
+        "title": "Cum ar putea acordul dintre SUA și Arabia Saudită să încurajeze alte țări să ia în considerare armele nucleare",
+        "url": "https://www.digi24.ro/stiri/externe/cum-ar-putea-acordul-dintre-sua-si-arabia-saudita-sa-incurajeze-alte-tari-sa-ia-in-considerare-armele-nucleare-3893127",
+        "domain": "digi24.ro",
+        "language": "Romanian",
+        "tone": 0,
+        "seendate": "20260810T061500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Saudi Arabia wants nukes if Iran develops them",
+        "url": "https://www.kiwiblog.co.nz/2026/08/saudi_arabia_wants_nukes_if_iran_develops_them.html/comment-page-1",
+        "domain": "kiwiblog.co.nz",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260811T001500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "The U . S .- Saudi Agreement for Civil Nuclear Cooperation : Answers to Frequently Asked Questions",
+        "url": "https://www.armscontrol.org/blog/2026-08-07/us-saudi-agreement-civil-nuclear-cooperation-answers-frequently-asked-questions",
+        "domain": "armscontrol.org",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260807T183000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "How US conditions on Saudi nuclear accord could torpedo the deal",
+        "url": "https://www.thenationalnews.com/business/energy/2026/08/10/how-us-conditions-on-saudi-nuclear-accord-could-torpedo-the-deal/",
+        "domain": "thenationalnews.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260810T061500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "ROZHODNUTÍ : Trumpův saúdský jaderný horor - Neviditelný pes",
+        "url": "https://neviditelnypes.lidovky.cz/zahranici/rozhodnuti-trumpuv-saudsky-jaderny-horor.A260804_181340_p_zahranici_nef",
+        "domain": "neviditelnypes.lidovky.cz",
+        "language": "Czech",
+        "tone": 0,
+        "seendate": "20260805T011500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "The U . S .- Saudi Nuclear Deal Is a Symptom of Middle East Policy Delusions",
+        "url": "https://www.worldpoliticsreview.com/us-saudi-nuclear-deal-middle-east-iran-gulf/",
+        "domain": "worldpoliticsreview.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260806T150000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Στον πυρηνικό δρόμο : Η νεοσυσταθείσα κυβερνητική επιτροπή , το lobbying της γαλλικής « ΔΕΗ » και το ελληνικό δίλημμα",
+        "url": "https://www.efsyn.gr/oikonomia/1443015/ston-pyriniko-dromo-i-neosystatheisa-kyvernitiki-epitropi-to-lobbying-tis-gallikis-dei-kai-to-elliniko-dilimma/",
+        "domain": "efsyn.gr",
+        "language": "Greek",
+        "tone": 0,
+        "seendate": "20260806T114500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Στον πυρηνικό δρόμο : Η νεοσυσταθείσα κυβερνητική επιτροπή , το lobbying της γαλλικής « ΔΕΗ » και το ελληνικό δίλημμα",
+        "url": "https://www.inewsgr.com/351/ston-pyriniko-dromo-i-neosystatheisa-kyvernitiki-epitropi-to-lobbying-tis-gallikis-dei-kai-to-elliniko-dilimma.htm",
+        "domain": "inewsgr.com",
+        "language": "Greek",
+        "tone": 0,
+        "seendate": "20260806T114500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Nuclear experts urge Trump not to let Iran steer talks away from regime atomic threat",
+        "url": "https://www.yahoo.com/news/politics/articles/nuclear-experts-urge-trump-not-193219686.html",
+        "domain": "yahoo.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260805T230000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Alliana confirma interés de EE . UU . en la exploración de uranio - Política",
+        "url": "https://www.abc.com.py/politica/2026/08/06/alliana-confirma-interes-de-eeuu-en-la-exploracion-de-uranio/",
+        "domain": "abc.com.py",
+        "language": "Spanish",
+        "tone": 0,
+        "seendate": "20260807T001500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Israel Vetoes Trump in the Middle East Again",
+        "url": "https://www.theamericanconservative.com/israel-vetoes-trump-in-the-middle-east-again/",
+        "domain": "theamericanconservative.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260806T073000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Iran IRGC commander vows to pursue nuclear weapons until US disarms",
+        "url": "https://www.foxnews.com/world/nuclear-experts-urge-trump-not-let-iran-steer-talks-away-from-regimes-atomic-threat",
+        "domain": "foxnews.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260805T203000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "ASP Isotopes Issues Letter to Shareholders",
+        "url": "https://www.manilatimes.net/2026/08/04/tmt-newswire/globenewswire/aspisotopes-issues-letter-to-shareholders/2397970",
+        "domain": "manilatimes.net",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260804T130000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Radio Station WHMI 93 . 5 FM Livingston County Michigan News , Weather , Traffic , Sports , School Updates , and the Best Classic Hit",
+        "url": "https://www.whmi.com/news/fox/nuclear-experts-urge-trump-not-let-iran-steer-talks-away-from-regimes-atomic-threat",
+        "domain": "whmi.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260805T231500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "World under the nuclear shadow",
+        "url": "https://nepalitimes.com/world-under-the-nuclear-shadow",
+        "domain": "nepalitimes.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260807T151500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Iran Has Changed the Question . Washington Has No Answer",
+        "url": "https://countercurrents.org/2026/08/iran-has-changed-the-question-washington-has-no-answer/",
+        "domain": "countercurrents.org",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260808T054500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Pakistan : la puissance nucléaire qui inquiète Israël",
+        "url": "https://libnanews.com/pakistan-la-puissance-nucleaire-qui-inquiete-israel/",
+        "domain": "libnanews.com",
+        "language": "French",
+        "tone": 0,
+        "seendate": "20260810T191500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "专业除甲醛产品 2026专业品牌实测+新房急入住安全解析 _ 中华网",
+        "url": "https://tech.china.com/jujiao/2026/0806/1934374.html",
+        "domain": "tech.china.com",
+        "language": "Chinese",
+        "tone": 0,
+        "seendate": "20260806T040000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Вторгнення Росії в Україну . Події за травень 2026 року",
+        "url": "https://ua.korrespondent.net/ukraine/politics/4900168-vtorhnennia-rosii-v-ukrainu-podii-za-traven-2026-roku",
+        "domain": "ua.korrespondent.net",
+        "language": "Ukrainian",
+        "tone": 0,
+        "seendate": "20260805T231500Z",
+        "source": "GDELT"
+      }
+    ],
     "exchange_rates": [
       {
         "currency": "USD",
