@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "nuclear-proliferation-watch",
-    "generated": "2026-08-12T14:07:11.366704+00:00",
+    "generated": "2026-08-12T19:49:48.647870+00:00",
     "mode": "live",
     "sources": [
       "gdelt_articles",
@@ -33,17 +33,7 @@
     }
   ],
   "live_data": {
-    "gdelt_articles": [
-      {
-        "title": "US - Saudi nuclear deal : Why Washington should renegotiate to stop proliferation",
-        "url": "https://www.jpost.com/opinion/article-905065",
-        "domain": "jpost.com",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260811T143000Z",
-        "source": "GDELT"
-      }
-    ],
+    "gdelt_articles": [],
     "nuclear_news": [
       {
         "title": "US - Saudi nuclear deal : Why Washington should renegotiate to stop proliferation",
@@ -336,27 +326,8 @@
       }
     ]
   },
-  "entities": [
-    {
-      "id": 1,
-      "name": "US - Saudi nuclear deal : Why Washington should renegotiate ",
-      "score": 5.0,
-      "category": "news",
-      "last_seen": "20260811T143000Z",
-      "source": "jpost.com"
-    }
-  ],
-  "events": [
-    {
-      "title": "US - Saudi nuclear deal : Why Washington should renegotiate to stop proliferation",
-      "url": "https://www.jpost.com/opinion/article-905065",
-      "domain": "jpost.com",
-      "language": "English",
-      "tone": 0,
-      "seendate": "20260811T143000Z",
-      "source": "GDELT"
-    }
-  ],
+  "entities": [],
+  "events": [],
   "timeseries": [],
   "llm_summary": "Pending API key..."
 }
