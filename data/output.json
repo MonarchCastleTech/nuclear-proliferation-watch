@@ -1,11 +1,10 @@
 {
   "meta": {
     "project": "nuclear-proliferation-watch",
-    "generated": "2026-08-12T19:49:48.647870+00:00",
+    "generated": "2026-08-13T03:15:15.151579+00:00",
     "mode": "live",
     "sources": [
       "gdelt_articles",
-      "nuclear_news",
       "exchange_rates"
     ],
     "version": "1.0.0"
@@ -34,215 +33,6 @@
   ],
   "live_data": {
     "gdelt_articles": [],
-    "nuclear_news": [
-      {
-        "title": "US - Saudi nuclear deal : Why Washington should renegotiate to stop proliferation",
-        "url": "https://www.jpost.com/opinion/article-905065",
-        "domain": "jpost.com",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260811T143000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "US - Saudi nuclear deal : Why Washington should renegotiate to stop proliferation",
-        "url": "http://www.jpost.com/opinion/article-905065",
-        "domain": "jpost.com",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260811T134500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Izrael : Były szef Mosadu : wiele razy zwiedziliśmy nuklearne zakłady Fordo w Iranie",
-        "url": "https://www.wnp.pl/rynki/izrael-byly-szef-mosadu-wiele-razy-zwiedzilismy-nuklearne-zaklady-fordo-w-iranie,1089155.html",
-        "domain": "wnp.pl",
-        "language": "Polish",
-        "tone": 0,
-        "seendate": "20260811T190000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Cum ar putea acordul dintre SUA și Arabia Saudită să încurajeze alte țări să ia în considerare armele nucleare",
-        "url": "https://www.digi24.ro/stiri/externe/cum-ar-putea-acordul-dintre-sua-si-arabia-saudita-sa-incurajeze-alte-tari-sa-ia-in-considerare-armele-nucleare-3893127",
-        "domain": "digi24.ro",
-        "language": "Romanian",
-        "tone": 0,
-        "seendate": "20260810T061500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Saudi Arabia wants nukes if Iran develops them",
-        "url": "https://www.kiwiblog.co.nz/2026/08/saudi_arabia_wants_nukes_if_iran_develops_them.html/comment-page-1",
-        "domain": "kiwiblog.co.nz",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260811T001500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "The U . S .- Saudi Agreement for Civil Nuclear Cooperation : Answers to Frequently Asked Questions",
-        "url": "https://www.armscontrol.org/blog/2026-08-07/us-saudi-agreement-civil-nuclear-cooperation-answers-frequently-asked-questions",
-        "domain": "armscontrol.org",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260807T183000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "How US conditions on Saudi nuclear accord could torpedo the deal",
-        "url": "https://www.thenationalnews.com/business/energy/2026/08/10/how-us-conditions-on-saudi-nuclear-accord-could-torpedo-the-deal/",
-        "domain": "thenationalnews.com",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260810T061500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "The U . S .- Saudi Nuclear Deal Is a Symptom of Middle East Policy Delusions",
-        "url": "https://www.worldpoliticsreview.com/us-saudi-nuclear-deal-middle-east-iran-gulf/",
-        "domain": "worldpoliticsreview.com",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260806T150000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Στον πυρηνικό δρόμο : Η νεοσυσταθείσα κυβερνητική επιτροπή , το lobbying της γαλλικής « ΔΕΗ » και το ελληνικό δίλημμα",
-        "url": "https://www.efsyn.gr/oikonomia/1443015/ston-pyriniko-dromo-i-neosystatheisa-kyvernitiki-epitropi-to-lobbying-tis-gallikis-dei-kai-to-elliniko-dilimma/",
-        "domain": "efsyn.gr",
-        "language": "Greek",
-        "tone": 0,
-        "seendate": "20260806T114500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Στον πυρηνικό δρόμο : Η νεοσυσταθείσα κυβερνητική επιτροπή , το lobbying της γαλλικής « ΔΕΗ » και το ελληνικό δίλημμα",
-        "url": "https://www.inewsgr.com/351/ston-pyriniko-dromo-i-neosystatheisa-kyvernitiki-epitropi-to-lobbying-tis-gallikis-dei-kai-to-elliniko-dilimma.htm",
-        "domain": "inewsgr.com",
-        "language": "Greek",
-        "tone": 0,
-        "seendate": "20260806T114500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Nuclear experts urge Trump not to let Iran steer talks away from regime atomic threat",
-        "url": "https://www.yahoo.com/news/politics/articles/nuclear-experts-urge-trump-not-193219686.html",
-        "domain": "yahoo.com",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260805T230000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Alliana confirma interés de EE . UU . en la exploración de uranio - Política",
-        "url": "https://www.abc.com.py/politica/2026/08/06/alliana-confirma-interes-de-eeuu-en-la-exploracion-de-uranio/",
-        "domain": "abc.com.py",
-        "language": "Spanish",
-        "tone": 0,
-        "seendate": "20260807T001500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Israel Vetoes Trump in the Middle East Again",
-        "url": "https://www.theamericanconservative.com/israel-vetoes-trump-in-the-middle-east-again/",
-        "domain": "theamericanconservative.com",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260806T073000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Iran IRGC commander vows to pursue nuclear weapons until US disarms",
-        "url": "https://www.foxnews.com/world/nuclear-experts-urge-trump-not-let-iran-steer-talks-away-from-regimes-atomic-threat",
-        "domain": "foxnews.com",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260805T203000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "A deal without safeguards",
-        "url": "https://www.record-bee.com/2026/08/12/a-deal-without-safeguards/",
-        "domain": "record-bee.com",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260812T133000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Droht ein nukleares Wettrüsten in Nahost ? ",
-        "url": "https://monde-diplomatique.de/artikel/!5884847",
-        "domain": "monde-diplomatique.de",
-        "language": "German",
-        "tone": 0,
-        "seendate": "20260811T224500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Radio Station WHMI 93 . 5 FM Livingston County Michigan News , Weather , Traffic , Sports , School Updates , and the Best Classic Hit",
-        "url": "https://www.whmi.com/news/fox/nuclear-experts-urge-trump-not-let-iran-steer-talks-away-from-regimes-atomic-threat",
-        "domain": "whmi.com",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260805T231500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Trump war on Iran | Opinion",
-        "url": "https://www.uatrav.com/opinion/article_99dbfc14-2dbc-4c3a-a19f-4eecdb4512ea.html",
-        "domain": "uatrav.com",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260811T221500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "World under the nuclear shadow",
-        "url": "https://nepalitimes.com/world-under-the-nuclear-shadow",
-        "domain": "nepalitimes.com",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260807T151500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Iran Has Changed the Question . Washington Has No Answer",
-        "url": "https://countercurrents.org/2026/08/iran-has-changed-the-question-washington-has-no-answer/",
-        "domain": "countercurrents.org",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260808T054500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Pakistan : la puissance nucléaire qui inquiète Israël",
-        "url": "https://libnanews.com/pakistan-la-puissance-nucleaire-qui-inquiete-israel/",
-        "domain": "libnanews.com",
-        "language": "French",
-        "tone": 0,
-        "seendate": "20260810T191500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "专业除甲醛产品 2026专业品牌实测+新房急入住安全解析 _ 中华网",
-        "url": "https://tech.china.com/jujiao/2026/0806/1934374.html",
-        "domain": "tech.china.com",
-        "language": "Chinese",
-        "tone": 0,
-        "seendate": "20260806T040000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Вторгнення Росії в Україну . Події за травень 2026 року",
-        "url": "https://ua.korrespondent.net/ukraine/politics/4900168-vtorhnennia-rosii-v-ukrainu-podii-za-traven-2026-roku",
-        "domain": "ua.korrespondent.net",
-        "language": "Ukrainian",
-        "tone": 0,
-        "seendate": "20260805T231500Z",
-        "source": "GDELT"
-      }
-    ],
     "exchange_rates": [
       {
         "currency": "USD",
@@ -254,15 +44,15 @@
       },
       {
         "currency": "AFN",
-        "rate": 65.23
+        "rate": 65.11
       },
       {
         "currency": "ALL",
-        "rate": 80.6
+        "rate": 80.62
       },
       {
         "currency": "AMD",
-        "rate": 366.49
+        "rate": 366.02
       },
       {
         "currency": "ANG",
@@ -270,11 +60,11 @@
       },
       {
         "currency": "AOA",
-        "rate": 926.67
+        "rate": 923.71
       },
       {
         "currency": "ARS",
-        "rate": 1492.18
+        "rate": 1492.55
       },
       {
         "currency": "AUD",
@@ -290,7 +80,7 @@
       },
       {
         "currency": "BAM",
-        "rate": 1.69
+        "rate": 1.7
       },
       {
         "currency": "BBD",
@@ -298,11 +88,11 @@
       },
       {
         "currency": "BDT",
-        "rate": 123.53
+        "rate": 123.23
       },
       {
         "currency": "BGN",
-        "rate": 1.69
+        "rate": 1.7
       },
       {
         "currency": "BHD",
@@ -310,7 +100,7 @@
       },
       {
         "currency": "BIF",
-        "rate": 2991.59
+        "rate": 2990.55
       },
       {
         "currency": "BMD",
@@ -322,7 +112,7 @@
       },
       {
         "currency": "BOB",
-        "rate": 11.93
+        "rate": 11.87
       }
     ]
   },
