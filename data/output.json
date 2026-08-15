@@ -1,10 +1,11 @@
 {
   "meta": {
     "project": "nuclear-proliferation-watch",
-    "generated": "2026-08-15T07:17:02.592853+00:00",
+    "generated": "2026-08-15T13:18:47.147115+00:00",
     "mode": "live",
     "sources": [
       "gdelt_articles",
+      "nuclear_news",
       "exchange_rates"
     ],
     "version": "1.0.0"
@@ -33,6 +34,143 @@
   ],
   "live_data": {
     "gdelt_articles": [],
+    "nuclear_news": [
+      {
+        "title": "US - Saudi nuclear deal : Why Washington should renegotiate to stop proliferation",
+        "url": "https://www.jpost.com/opinion/article-905065",
+        "domain": "jpost.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260811T143000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "US - Saudi nuclear deal : Why Washington should renegotiate to stop proliferation",
+        "url": "http://www.jpost.com/opinion/article-905065",
+        "domain": "jpost.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260811T134500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Izrael : Były szef Mosadu : wiele razy zwiedziliśmy nuklearne zakłady Fordo w Iranie",
+        "url": "https://www.wnp.pl/rynki/izrael-byly-szef-mosadu-wiele-razy-zwiedzilismy-nuklearne-zaklady-fordo-w-iranie,1089155.html",
+        "domain": "wnp.pl",
+        "language": "Polish",
+        "tone": 0,
+        "seendate": "20260811T190000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Cum ar putea acordul dintre SUA și Arabia Saudită să încurajeze alte țări să ia în considerare armele nucleare",
+        "url": "https://www.digi24.ro/stiri/externe/cum-ar-putea-acordul-dintre-sua-si-arabia-saudita-sa-incurajeze-alte-tari-sa-ia-in-considerare-armele-nucleare-3893127",
+        "domain": "digi24.ro",
+        "language": "Romanian",
+        "tone": 0,
+        "seendate": "20260810T061500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Saudi Arabia wants nukes if Iran develops them",
+        "url": "https://www.kiwiblog.co.nz/2026/08/saudi_arabia_wants_nukes_if_iran_develops_them.html/comment-page-1",
+        "domain": "kiwiblog.co.nz",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260811T001500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "How US conditions on Saudi nuclear accord could torpedo the deal",
+        "url": "https://www.thenationalnews.com/business/energy/2026/08/10/how-us-conditions-on-saudi-nuclear-accord-could-torpedo-the-deal/",
+        "domain": "thenationalnews.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260810T061500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Undersea nuclear race : South Korea advances submarine plan as North Korea builds its own",
+        "url": "https://timesofindia.indiatimes.com/defence/international/undersea-nuclear-race-south-korea-advances-submarine-plan-as-north-korea-builds-its-own/articleshow/133208460.cms",
+        "domain": "timesofindia.indiatimes.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260813T113000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "هآرتس : بمساعدة ترامب .. هكذا فتح نتنياهو أحضان الشرق الأوسط للتسلح النووي",
+        "url": "https://www.alquds.co.uk/%D9%87%D8%A2%D8%B1%D8%AA%D8%B3-%D8%A8%D9%85%D8%B3%D8%A7%D8%B9%D8%AF%D8%A9-%D8%AA%D8%B1%D8%A7%D9%85%D8%A8-%D9%87%D9%83%D8%B0%D8%A7-%D9%81%D8%AA%D8%AD-%D9%86%D8%AA%D9%86%D9%8A%D8%A7%D9%87%D9%88/",
+        "domain": "alquds.co.uk",
+        "language": "Arabic",
+        "tone": 0,
+        "seendate": "20260814T141500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Press Statement of Jang Kum Chol , First Vice - Minister and Director General of Tenth Department of DPRK Foreign Ministry",
+        "url": "https://www.globalsecurity.org/wmd/library/news/dprk/2026/dprk-260812-kcna01.htm",
+        "domain": "globalsecurity.org",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260813T141500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "A deal without safeguards",
+        "url": "https://www.record-bee.com/2026/08/12/a-deal-without-safeguards/",
+        "domain": "record-bee.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260812T133000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Droht ein nukleares Wettrüsten in Nahost ? ",
+        "url": "https://monde-diplomatique.de/artikel/!5884847",
+        "domain": "monde-diplomatique.de",
+        "language": "German",
+        "tone": 0,
+        "seendate": "20260811T224500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Trump war on Iran | Opinion",
+        "url": "https://www.uatrav.com/opinion/article_99dbfc14-2dbc-4c3a-a19f-4eecdb4512ea.html",
+        "domain": "uatrav.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260811T221500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "الهند في عامها الثمانين .. 8 عقود من التقدّم والتنمية",
+        "url": "https://www.okaz.com.sa/local/saudi-arabia/2261339",
+        "domain": "okaz.com.sa",
+        "language": "Arabic",
+        "tone": 0,
+        "seendate": "20260814T200000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Lombra di Dimona , la dottrina della sopravvivenzanellera della sfida esistenziale",
+        "url": "https://www.ilriformista.it/lombra-di-dimona-la-dottrina-della-sopravvivenzanellera-della-sfida-esistenziale-526223/",
+        "domain": "ilriformista.it",
+        "language": "Italian",
+        "tone": 0,
+        "seendate": "20260814T174500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Pakistan : la puissance nucléaire qui inquiète Israël",
+        "url": "https://libnanews.com/pakistan-la-puissance-nucleaire-qui-inquiete-israel/",
+        "domain": "libnanews.com",
+        "language": "French",
+        "tone": 0,
+        "seendate": "20260810T191500Z",
+        "source": "GDELT"
+      }
+    ],
     "exchange_rates": [
       {
         "currency": "USD",
