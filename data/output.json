@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "nuclear-proliferation-watch",
-    "generated": "2026-08-20T07:28:12.460400+00:00",
+    "generated": "2026-08-20T13:33:58.076548+00:00",
     "mode": "live",
     "sources": [
       "gdelt_articles",
