@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "nuclear-proliferation-watch",
-    "generated": "2026-08-21T13:32:59.736174+00:00",
+    "generated": "2026-08-21T19:15:26.126227+00:00",
     "mode": "live",
     "sources": [
       "gdelt_articles",
@@ -99,15 +99,6 @@
         "source": "GDELT"
       },
       {
-        "title": "هآرتس : بمساعدة ترامب .. هكذا فتح نتنياهو أحضان الشرق الأوسط للتسلح النووي",
-        "url": "https://www.alquds.co.uk/%D9%87%D8%A2%D8%B1%D8%AA%D8%B3-%D8%A8%D9%85%D8%B3%D8%A7%D8%B9%D8%AF%D8%A9-%D8%AA%D8%B1%D8%A7%D9%85%D8%A8-%D9%87%D9%83%D8%B0%D8%A7-%D9%81%D8%AA%D8%AD-%D9%86%D8%AA%D9%86%D9%8A%D8%A7%D9%87%D9%88/",
-        "domain": "alquds.co.uk",
-        "language": "Arabic",
-        "tone": 0,
-        "seendate": "20260814T141500Z",
-        "source": "GDELT"
-      },
-      {
         "title": "Πυρηνικός εφιάλτης λόγω Trump : Τέλος η αμερικανική « ομπρέλα » – Ευρώπη και Ασία ετοιμάζονται για τις δικές τους βόμβες",
         "url": "https://www.bankingnews.gr/diethni/articles/894495/pyrinikos-efialtis-logo-trump-telos-i-amerikaniki-omprela-evropi-kai-asia-etoimazontai-gia-tis-dikes-tous-vomves",
         "domain": "bankingnews.gr",
@@ -186,15 +177,6 @@
         "language": "Spanish",
         "tone": 0,
         "seendate": "20260816T190000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Lombra di Dimona , la dottrina della sopravvivenzanellera della sfida esistenziale",
-        "url": "https://www.ilriformista.it/lombra-di-dimona-la-dottrina-della-sopravvivenzanellera-della-sfida-esistenziale-526223/",
-        "domain": "ilriformista.it",
-        "language": "Italian",
-        "tone": 0,
-        "seendate": "20260814T174500Z",
         "source": "GDELT"
       }
     ],
