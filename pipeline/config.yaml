@@ -1,14 +1,14 @@
-# Nuclear Proliferation Watch Configuration
+﻿# Nuclear Proliferation Watch Configuration
 project:
   id: nuclear-proliferation-watch
   name: "Nuclear Proliferation Watch"
   description: "Track nuclear material movement and facility expansion."
 
 openrouter:
-  model: "openrouter/free"
-  fallback_model: "openrouter/free"
+  model: "z-ai/glm-5.2:free"
+  fallback_model: "google/gemma-4-31b-it:free"
 
-gdelt_query: "nuclear proliferation enrichment IAEA"
+gdelt_query: "(nuclear OR enrichment OR IAEA)"
 include_forex: true
 
 sources:
