@@ -1,11 +1,10 @@
 {
   "meta": {
     "project": "nuclear-proliferation-watch",
-    "generated": "2026-08-21T19:15:26.126227+00:00",
+    "generated": "2026-08-22T02:05:50.391961+00:00",
     "mode": "live",
     "sources": [
       "gdelt_articles",
-      "nuclear_news",
       "exchange_rates"
     ],
     "version": "1.0.0"
@@ -34,152 +33,6 @@
   ],
   "live_data": {
     "gdelt_articles": [],
-    "nuclear_news": [
-      {
-        "title": "Opinie | The US - Saudi nuclear deal raises radioactive questions",
-        "url": "https://www.nrc.nl/nieuws/2026/08/20/the-us-saudi-nuclear-deal-raises-radioactive-questions-a4934465",
-        "domain": "nrc.nl",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260820T221500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "A fraying U . S . umbrella is raising the risk of nuclear cascade",
-        "url": "https://www.cnbc.com/2026/08/19/nuclear-proliferation-defense-risk-trump-umbrella-.html",
-        "domain": "cnbc.com",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260819T011500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "ماذا يعني وصول حاملة طائرات أميركية جديدة للشرق الأوسط ؟ ",
-        "url": "http://www.albawaba.com/ar/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%85%D8%A7%D8%B0%D8%A7-%D9%8A%D8%B9%D9%86%D9%8A-%D9%88%D8%B5%D9%88%D9%84-%D8%AD%D8%A7%D9%85%D9%84%D8%A9-%D8%B7%D8%A7%D8%A6%D8%B1%D8%A7%D8%AA-%D8%A3%D9%85%D9%8A%D8%B1%D9%83%D9%8A%D8%A9-1635463",
-        "domain": "albawaba.com",
-        "language": "Arabic",
-        "tone": 0,
-        "seendate": "20260820T183000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "مبادرة وطنية لإتلاف بقايا المواد النووية في سوريا بالتعاون مع الوكالة الدولية",
-        "url": "https://sana.sy/locals/2556405/",
-        "domain": "sana.sy",
-        "language": "Arabic",
-        "tone": 0,
-        "seendate": "20260818T210000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Iran Nuclear Capabilities Fast Facts",
-        "url": "https://kesq.com/news/national-world/cnn-world/2026/08/17/irans-nuclear-capabilities-fast-facts-6/",
-        "domain": "kesq.com",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260818T031500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "جريدة البلاد | ترامب يحذر من عواقب اقتصادية على أي دولة تدعم إيران",
-        "url": "https://www.albiladpress.com/news/2026/6520/arab-and-world/1015043.html",
-        "domain": "albiladpress.com",
-        "language": "Arabic",
-        "tone": 0,
-        "seendate": "20260820T090000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Trump dreigt Oman met militaire actie over deal met Iran",
-        "url": "https://newsmonkey.be/trump-dreigt-oman-vanwege-scheepvaartdeal-met-iran/",
-        "domain": "newsmonkey.be",
-        "language": "Dutch",
-        "tone": 0,
-        "seendate": "20260818T004500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Πυρηνικός εφιάλτης λόγω Trump : Τέλος η αμερικανική « ομπρέλα » – Ευρώπη και Ασία ετοιμάζονται για τις δικές τους βόμβες",
-        "url": "https://www.bankingnews.gr/diethni/articles/894495/pyrinikos-efialtis-logo-trump-telos-i-amerikaniki-omprela-evropi-kai-asia-etoimazontai-gia-tis-dikes-tous-vomves",
-        "domain": "bankingnews.gr",
-        "language": "Greek",
-        "tone": 0,
-        "seendate": "20260819T070000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Siria impulsa iniciativa para cerrar el legado nuclear del derrocado régimen",
-        "url": "https://sana.sy/es/local/2328122/",
-        "domain": "sana.sy",
-        "language": "Spanish",
-        "tone": 0,
-        "seendate": "20260819T091500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Estancado en Irán , Donald Trump recurre a un rostro conocido : el norcoreano Kim Jong - un",
-        "url": "https://tn.com.ar/internacional/2026/08/18/estancado-en-iran-donald-trump-recurre-a-un-rostro-conocido-el-norcoreano-kim-jong-un/",
-        "domain": "tn.com.ar",
-        "language": "Spanish",
-        "tone": 0,
-        "seendate": "20260819T003000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Ante el atolladero en Irán , Trump recurre a un rostro conocido : Kim Jong Un de Corea del Norte",
-        "url": "https://www.clarin.com/new-york-times-international-weekly/atolladero-iran-trump-recurre-rostro-conocido-kim-jong-corea-norte_0_q29pfviX7a.html",
-        "domain": "clarin.com",
-        "language": "Spanish",
-        "tone": 0,
-        "seendate": "20260818T133000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Facing quagmire in Iran , Trump turns to a familiar face : North Korea Kim Jong Un",
-        "url": "https://www.nzherald.co.nz/world/facing-quagmire-in-iran-trump-turns-to-a-familiar-face-north-koreas-kim-jong-un/premium/M5TF6XTSIJHB3C4SGAT6OT6VTQ/",
-        "domain": "nzherald.co.nz",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260818T043000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "الهند في عامها الثمانين .. 8 عقود من التقدّم والتنمية",
-        "url": "https://www.okaz.com.sa/local/saudi-arabia/2261339",
-        "domain": "okaz.com.sa",
-        "language": "Arabic",
-        "tone": 0,
-        "seendate": "20260814T200000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Трамп загруз у війні з Іраном і знову звертається до Кім Чен Ина . Навіщо потрібна ядерна зброя – New York Times",
-        "url": "https://ipress.ua/articles/tramp_zagruz_u_viyni_z_iranom_i_znovu_zvertaietsya_do_kim_chen_yna_navishcho_potribna_yaderna_zbroya__new_york_times_389247.html",
-        "domain": "ipress.ua",
-        "language": "Ukrainian",
-        "tone": 0,
-        "seendate": "20260818T164500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "When an empire meets its limit – Iran , Trump and the battle for Hormuz",
-        "url": "https://www.middleeastmonitor.com/20260818-when-an-empire-meets-its-limit-iran-trump-and-the-battle-for-hormuz/",
-        "domain": "middleeastmonitor.com",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260818T151500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "La bomba vuelve a ser una posibilidad real",
-        "url": "https://www.surysur.net/la-bomba-vuelve-a-ser-una-posibilidad-real/",
-        "domain": "surysur.net",
-        "language": "Spanish",
-        "tone": 0,
-        "seendate": "20260816T190000Z",
-        "source": "GDELT"
-      }
-    ],
     "exchange_rates": [
       {
         "currency": "USD",
@@ -191,15 +44,15 @@
       },
       {
         "currency": "AFN",
-        "rate": 65.15
+        "rate": 74.77
       },
       {
         "currency": "ALL",
-        "rate": 79.42
+        "rate": 87.5
       },
       {
         "currency": "AMD",
-        "rate": 364.88
+        "rate": 356.51
       },
       {
         "currency": "ANG",
@@ -207,15 +60,15 @@
       },
       {
         "currency": "AOA",
-        "rate": 925.24
+        "rate": 934.92
       },
       {
         "currency": "ARS",
-        "rate": 1497.29
+        "rate": 1497.45
       },
       {
         "currency": "AUD",
-        "rate": 1.41
+        "rate": 1.4
       },
       {
         "currency": "AWG",
@@ -223,7 +76,7 @@
       },
       {
         "currency": "AZN",
-        "rate": 1.7
+        "rate": 1.59
       },
       {
         "currency": "BAM",
@@ -235,7 +88,7 @@
       },
       {
         "currency": "BDT",
-        "rate": 122.21
+        "rate": 121.86
       },
       {
         "currency": "BGN",
@@ -247,7 +100,7 @@
       },
       {
         "currency": "BIF",
-        "rate": 2990.34
+        "rate": 2665.4
       },
       {
         "currency": "BMD",
@@ -259,7 +112,7 @@
       },
       {
         "currency": "BOB",
-        "rate": 11.53
+        "rate": 7.01
       }
     ]
   },
