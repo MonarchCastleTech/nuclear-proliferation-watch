@@ -1,15 +1,13 @@
 {
   "meta": {
     "project": "nuclear-proliferation-watch",
-    "generated": "2026-08-22T16:36:32.793929+00:00",
+    "generated": "2026-08-22T19:06:02.309898+00:00",
     "mode": "live",
     "sources": [
       "gdelt_articles",
       "exchange_rates"
     ],
-    "source_notes": [
-      "GDELT unavailable; headlines sourced via Google News RSS fallback."
-    ],
+    "source_notes": [],
     "version": "1.1.0"
   },
   "stats": [
@@ -20,7 +18,7 @@
     },
     {
       "label": "News Domains",
-      "value": "37",
+      "value": "41",
       "delta": "deduplicated"
     },
     {
@@ -37,454 +35,454 @@
   "live_data": {
     "gdelt_articles": [
       {
-        "title": "Joint Statement by the Minister of Foreign Affairs and Expatriates of the Syrian Arab Republic and the Director General of the International Atomic Energy Agency | IAEA",
-        "url": "https://news.google.com/rss/articles/CBMirwJBVV95cUxQVGxoNExaaUJwbkNqVmpuQVc5c1NDMWxMQ3dsNHl0VFNpa0kzb2JacUxzZk9CTW9hZ1ZBeXdXU1ZTVFFqcG9EeklINjNqZGZmNDZfczVPbFAxUm40cnVYY205T09fVzdXZHZDVERFcVhwbkNMNV9SZnRJVEQ0SGpBd2E5c28tQm02UmFfSkJyRHZLZ1NNc3RwR0htUF9KNXVTUHF6NTZDYmh2cWZMWjZSQlFER01wREFuOFY2RDIyeS1VZm9uZFBsampfVUw5NlFQSG5sd2cwb3RkRmljdHBLcDhHU0ZyZDU5Q2ZGSjl6VnRQaUQ0Yy1iMmJPTDhPdWJlbEhnbVlLbUFMLTVTZEY0VFAxMGxDajlhRURqd1oxVzlab2dzS2tfR1VUVUpoWXc?oc=5",
-        "domain": "internationalatomicenergyagency",
-        "language": "",
+        "title": "Sprott : Европа нарастила закупки российского урана на 7 % за год",
+        "url": "https://life.ru/p/1914891",
+        "domain": "life.ru",
+        "language": "Russian",
         "tone": 0,
-        "seendate": "20260818T123107Z",
-        "source": "GoogleNews"
+        "seendate": "20260822T124500Z",
+        "source": "GDELT"
       },
       {
-        "title": "UN inspectors visit undeclared Syrian nuclear sites for first time",
-        "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1HN2R5Z3VIcU1uNklxRHU0ZWtTYWp2SDVwYVRuT3p6WnctbFRvMmVlckFZNUZscl9mVVVJd05UNHUyM0NDa1otLXZtdDJudTRpc0JkcklpNjNJWFlYLVJIWTNNeUhnd0toS1RPaQ?oc=5",
-        "domain": "axios",
-        "language": "",
+        "title": "Лихачев заявил о срыве Киевом ротации экспертов МАГАТЭ на ЗАЭС",
+        "url": "https://iz.ru/2153241/2026-08-22/likhachev-zaiavil-o-sryve-kievom-rotatcii-ekspertov-magate-na-zaes",
+        "domain": "iz.ru",
+        "language": "Russian",
         "tone": 0,
-        "seendate": "20260818T165608Z",
-        "source": "GoogleNews"
+        "seendate": "20260822T123000Z",
+        "source": "GDELT"
       },
       {
-        "title": "Strategy or Scramble? Security Implications of Emerging Technologies in Nuclear Energy",
-        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNM05Pc3ZzQVE5THRjM2gtOVdDYXowbTN3SGRpdzU0b041VW5VOTlMRThMTWg4N3VWcXpkaVQ2R1N4ZHlaUF83YWN0UDNtb2pQRmJIcFl3elhSYmw4dGNXWTVtU3JHWENjbDM4YWxKdHliSzF4NXBuQkhtYngzbXFhS3cwbWJvWGJ4M3JNRzNqTGJFNUJiZEFCSzVxWmM4Qlg4VXRhNTJUSllvalZLcnVoTTRDSHl5dw?oc=5",
-        "domain": "jamesmartincenterfornonproliferationstudies",
-        "language": "",
+        "title": "Lurer . com | « Մեծամորի ատոմակայանի դեմ արշավը պառակտիչ նպատակ ունի »․ Զախարովա",
+        "url": "https://lurer.com/article/748663/am",
+        "domain": "lurer.com",
+        "language": "Armenian",
         "tone": 0,
-        "seendate": "20260821T220515Z",
-        "source": "GoogleNews"
+        "seendate": "20260822T141500Z",
+        "source": "GDELT"
       },
       {
-        "title": "Why Nuclear Energy Is Making a Global Comeback",
-        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOVXZzbGtia3VKVlo3bzhxRjRNUDhHQ2pobGJLUkZUZ2J4Y2hDRjNfTjhHS3NST1FLS01kdjh5LXZ6STQ1VFBGMmktTnIyYWl0VHVZUUFJejduanhKVjd4Zlc2X0ZEbTZIQXBTT1pWbWZpTHl6SHZ3aHMzTG43U2p6elFvMXlNS2NaWmRZ?oc=5",
-        "domain": "councilonforeignrelations",
-        "language": "",
+        "title": "Մոսկվան արձագանքել է Մեծամորի ԱԷԿ - ը փակելու վերաբերյալ կոչերին",
+        "url": "https://www.1in.am/3750752.html",
+        "domain": "1in.am",
+        "language": "Armenian",
         "tone": 0,
-        "seendate": "20260821T090000Z",
-        "source": "GoogleNews"
+        "seendate": "20260822T171500Z",
+        "source": "GDELT"
       },
       {
-        "title": "Russia’s Rosatom Returns Workers to Iran’s Bushehr Nuclear Plant",
-        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQbmlHVnlKQlJEd3UtZ3V1Y0hvNUdkMlhQTzNzb1luRkpDR3NHZTBhRkt1Yl83VHE3N3YyZS0xUFBjN3JnZnlLbkh3RFJEWEYzYXl4UHl1eEZGYndGZHpBQzVvN2FGbmpiMmxLdG04a3ZCNE9EcUlxSkN0NXRmV0dWOW52UnJOZHluRDFCTmQyOE9IeEdvemtaSnJ2SU1QN28ybkp0eGJMc0JnMVk1ZHBZanViaDR3Zw?oc=5",
-        "domain": "bloomberg.com",
-        "language": "",
+        "title": "Насколько Европа зависит от российского урана : данные аналитиков",
+        "url": "https://iz.ru/2153235/zavisimost-evropy-ot-rossiiskogo-urana-vyrosla-na-7-v-2025-godu-izi",
+        "domain": "iz.ru",
+        "language": "Russian",
         "tone": 0,
-        "seendate": "20260822T131526Z",
-        "source": "GoogleNews"
+        "seendate": "20260822T114500Z",
+        "source": "GDELT"
       },
       {
-        "title": "Watchdog excavates suspected nuclear site as Syria pledges safeguards",
-        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQaVZiYllNeXkzcnNPMUF2cHAyUEd2WDU0ekRSdU53NFcwT2o5TTBvSERwR1VOelpEZEhRMjFKNDN3bTBKZDkycldyVlVVdnZ4SVFrd3dnM0RsTXB1QmJkdmU5TERWbzBvVTg3UTVQZDVvRHdTYmoySktSSVZMNXFRaVY0Y0JLMFh5NGsyb0UtaUJpc0pmOGVDT0laYko0XzFJNlBMSlhaZkI0bUFOdVlycVNR?oc=5",
-        "domain": "nbcnews",
-        "language": "",
+        "title": "Захарова : закрытие Мецаморской АЭС вброс против РФ и Армении",
+        "url": "https://www.mk.ru/politics/2026/08/22/zakharova-zakrytie-mecamorskoy-aes-vbros-protiv-rf-i-armenii.html",
+        "domain": "mk.ru",
+        "language": "Russian",
         "tone": 0,
-        "seendate": "20260819T084926Z",
-        "source": "GoogleNews"
+        "seendate": "20260822T163000Z",
+        "source": "GDELT"
       },
       {
-        "title": "Panelists talk domestic enrichment expansion at Global 2026",
-        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQb2RiZ2dHQmJDZnVSb1VFNEpkS2twdEpxd0hOWGhPN3hfVFYzalNJS0s4STlpazhwS0J0bG5Pd1dTczU2UHROOUIwOFZBc29HUWNpNjBTRGNQakZCU3Q5eVQ0UWRFUDRESmlIWEw3V1VqdUZaZEw0TDdwR3BZak1aZWlSRGE2dTIzSlFKd1JKWkpLSTlTR3R1WkFKaVVsWjg?oc=5",
-        "domain": "americannuclearsociety--ans",
-        "language": "",
+        "title": "МИД РФ : вбросы о Мецаморской АЭС попытка раскола с Арменией",
+        "url": "https://runews24.ru/politics/22/08/2026/mid-rf-vbrosyi-o-meczamorskoj-aes-popyitka-raskola-s-armeniej",
+        "domain": "runews24.ru",
+        "language": "Russian",
         "tone": 0,
-        "seendate": "20260821T183002Z",
-        "source": "GoogleNews"
+        "seendate": "20260822T180000Z",
+        "source": "GDELT"
       },
       {
-        "title": "Nuclear power, primary election results, and more...",
-        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQaXVkeFAxQVBQZktIREdJeEFfcjBZeVNPbDV4M1ZiMW45TzNjR3NFTHJDM2pMaGJUNGYwRkNxMmxpQ1prWU5haXZGNnBwTmR6V2RIdmZ2YlBIcExYcDUwemlSWXJWRTItYS1renFpTXBpckwwZFh2MnVGZlNWTFBqdHJpaktqb2NxaER5QXIyUFdZV0gwM0ItRTRVbjNGUlJ4cDNIUEhTVHp2cWNkZ1Y4?oc=5",
-        "domain": "wyomingpublicmedia",
-        "language": "",
+        "title": "Европа увеличила закупки российского ядерного топлива | Северная Америка",
+        "url": "https://fedpress.ru/news/northern-america/economy/3448843",
+        "domain": "fedpress.ru",
+        "language": "Russian",
         "tone": 0,
-        "seendate": "20260821T234400Z",
-        "source": "GoogleNews"
+        "seendate": "20260822T140000Z",
+        "source": "GDELT"
       },
       {
-        "title": "‘Nearshore’ blends surfing and nuclear warfare in Steve Hawk’s debut novel",
-        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNdlR5czhmUnhTR25ybUExdUZyWDg0X1JfRUhzdHd6OGo4MlA1OTR0OGpJa0dWeTQzTFB0SWpYc0JzU21GYVZzczVJWVNLMTFhOHRWRGw4Nlp4bGN2WlplZGZ5VnVDZ1d4ZWVBRHNMSGZaSFV3ejRiU2JiSWNyUG1uWjl5WmNiYmFCb0lqRlVBa2I0dUxPMUJQOVRxNHZrNUpaVVRtcWZibnhHT1JOZzNZ?oc=5",
-        "domain": "orangecountyregister",
-        "language": "",
+        "title": "Визит Гросси на ЗАЭС не снят с повестки , РФ гарантирует безопасность",
+        "url": "https://www.vesti.ru/ns/likhachev-vizit-grossi-na-zaehs-ne-snyat-s-povestki-rf-garantiruet-bezopasnost",
+        "domain": "vesti.ru",
+        "language": "Russian",
         "tone": 0,
-        "seendate": "20260822T143428Z",
-        "source": "GoogleNews"
+        "seendate": "20260822T131500Z",
+        "source": "GDELT"
       },
       {
-        "title": "NASA’s nuclear Dragonfly copter to search for signs of life on Titan: ‘A lot’s riding on it’",
-        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNZUg4NWNpTmVHcG9RUGdRWGNlUXMyQlBPN2NjN1pyTWJlUmRkZ19BT0wtUk1ld2VMd0UtSm41NFlVMmllTlhITktselNhUnVmaXlsQTdid3JCNU5KWjFmendXTDFtQkV1OVA2dF9fd3ZFUjJBbVdaSl9KcGxNTE93OFR2REpXSTlvOFlWVmxQYnVCZjBOVlFF?oc=5",
-        "domain": "losangelestimes",
-        "language": "",
+        "title": "ՄԱԿ - ի գլխավոր քարտուղարի ընտրություններ . նոր առաջատարը հայտնի է",
+        "url": "https://www.1in.am/3750522.html",
+        "domain": "1in.am",
+        "language": "Armenian",
         "tone": 0,
-        "seendate": "20260822T100000Z",
-        "source": "GoogleNews"
+        "seendate": "20260822T101500Z",
+        "source": "GDELT"
       },
       {
-        "title": "Healey will host regional summit on nuclear, fusion tech",
-        "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9BbXhtWmIycl84bkh6RkxTZGlPbXB4enZMbHVYY0x5X2lvdXFTcDY2U0J0QTZtTG0xNTJ6YzMyRFdadG1fYjdTdGdYdHFaSFBhQWdza0RDUHdhMXUzTlJFMm85blkzUFBEcW5qQw?oc=5",
-        "domain": "greenfieldrecorder",
-        "language": "",
+        "title": "أستاذ علوم سياسية : إيران تسعى للحفاظ على مكاسبها الاستراتيجية عبر التفاوض مع واشنطن",
+        "url": "https://www.shorouknews.com/news/view.aspx?cdate=22082026&id=319171a8-6779-4413-8b2a-ba28e5b770cf",
+        "domain": "shorouknews.com",
+        "language": "Arabic",
         "tone": 0,
-        "seendate": "20260821T212102Z",
-        "source": "GoogleNews"
+        "seendate": "20260822T161500Z",
+        "source": "GDELT"
       },
       {
-        "title": "How a failed project could help solve the world’s biggest energy need",
-        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNc0dHbGQzVmM1ajJHZ3YwQlROcGxQWk1GRy1lRUdUMWt4THAzeDIwZDhJcE9BbGV1M3NlRk9URmNFb21MeEF3N0haOHExSWNON0djd3RtajdlYWxLUFM0U0ZZbzBqNk41QVJlU0pFYWkzVFZEOTJVci1JOWo1clZpYWFzWEktM1hrcVY3YVppckdWMjhYQ3ZKdWoyNmFoVTZVbE9fbUtn?oc=5",
-        "domain": "thewashingtonpost",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260821T160000Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Romania adopts new measures to boost Danube waters to cool Cernavoda nuclear plant",
-        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOTEloQl93UWRETzBXZ3hIZWM1eDZFREpLN0NDZkMwM3hZVXhpMjI2dnBWdmxIVV81WVVRVG1nVEE5NkVHYTlqSE9RQWQxMy03Tl94RUU4WDZQRkc2cFBJVU0xYy1DdHpFOFRoLUVkajd0dkplRVNmZkhlSERNV1NpR3M2TXlxaGo2LWR3Yzk1ZUdtUXdmNVdKVWNJN2tHSU1qOHRIcWRZcWRZaGRkMjF6cWFSVFJNbE11U0VINW5ERDZ5QUo4ajRv?oc=5",
-        "domain": "reuters",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260822T085143Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Nuclear training center, ROTC building named for Lindsey Graham among USC's 2027 budget asks",
-        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQcWZ0aTZzSnhMS194c3NGZ1AtV3h1V1llM0s2M19DUU9WQ3lVV01Fc3RhbE9PQW5NOS1KQWZjZFhqS2dyLWR4ODhGQk12YmZhR0U1MnduVzBfRnVYSGZ6MHZSQzVnTExhUDI1bjlWbjlwdGpSbWF2SDFLNDNPMUdOenNWSkg1Q3hNdEh6RkVEMk1GdC1MMFJLeVV2N0lVQkstaHZKTVRsSENneEZPdUxsRFdfMVBlbEpObjRLeGFtNVdBVnRHYkU0cA?oc=5",
-        "domain": "southcarolinadailygazette",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260821T194329Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Sandy Mush anti-nuclear waste campaign memorialized in new archival collection",
-        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQM2VpdUJZclBPVkNweE4ydUZlYnQ3N0JZaWNsNFVqcXBoQ0tVYktuT0tmakw5V1JlVHJydEF6V0ZtenpTQTRJTHdmOWk0a19UT3M3UWI3YTNZbEt4RC1ESkM0VHlmbDh6LUZXRTJHSEJDejQ1TTlfbll5LU9PbWZEZXNyN3hJMDNjVFFMcXRUbnN0NzZFUllDUmZMVmRTemZHeVJQd2RNZU5iSmNObW5BXy0zc1RyZHpnZVBjd2c3RVprY0U3SGdwag?oc=5",
-        "domain": "blueridgepublicradio",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260821T191500Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Inside the Race to Build America’s First Nuclear Reactor in a Generation",
-        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOc05nV0tYemxYMVBHajRjUXUtM0pWNjZLQ2F6MlBGdTZtUlc0ZjI4SGFBZWZQU1JHY3lRZTV5ZnVtTm1JcGJBM2puc1FsUWx0SWNKUnFLbTU2U1RLbnduWkRPZmFaWmtYazVvbldsTUJ5OHpaRVpYSnlOV2NzSEx2cGJ1TzZxU2Q3YzY1NVBrTmpvSnhqZFVsc0dGRmJUZXVXTFFmbTh4djR3OWYxNmgxekQ1NG9mRmtzbXc?oc=5",
-        "domain": "wsj",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260818T185600Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "IAEA Revamps Major Nuclear Power Database",
-        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNcHhiYnNmZnhoTlUwc3YyaWxxRkZXSDg3UE9qbG1sNFNOaGJHTkZ2OE41alRxMFUxWDIzVjlFbktRX2I3NFJ3MHNoeXhfVjFYb2p5R2NHUGI1TXFGUFFXbS1rYUZHODk2U3Nvck10Z2ljODJsdmhIaUR0bkFhQ2c5SWtqRQ?oc=5",
-        "domain": "internationalatomicenergyagency",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260821T073005Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Hungary to Restart a Nuclear Reactor as Danube Starts to Rise",
-        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQcWJXVm5HNm8zSEJBakhKNTFia0hLRjZEaklEMFlTV05oay1oS21DbXMxWnY5YW5YMnVvZnk5OTVyM0h0RDBrSVRsRVQ4MVNXY3h1cE04bG9TcV9sZ21LOHBTUnBEWUw1WkNOeEtpVkZnWWdtYTJqTk5pZEdoN09IeHJMTDczQ3lLUmJERDhjVmJPOVd1RlVzdnNoQTNENXB2cWxKUzc4YVFqQmhqQWZTX2R3?oc=5",
-        "domain": "bloomberg.com",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260822T161449Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Russian-held Zaporizhzhia nuclear plant loses external power supply",
-        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOaWlKV0RUU0lqVEhJdVJ2NmJXeXNIQlFuMDQ2eGstbW4wWFEwcHdfdE1landiUHpHVTM1c0dWVkpMLWc4Q0ZVWXBUWFBIaFotM1pvczFvakhyS2d4a1dBNVFEZDZwRzBpSWZhb0tmdDBjVG5OcXh2MDJCZWxnOWZ4dm5QV3FBaXU1UzU2SXRlSEhYUFNPQThibmxjSjgtZS0xU29UUjBvUUpjbjM4bGRFbHEzMFlBR3hCM1FZ?oc=5",
-        "domain": "reuters",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260820T062600Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Update 363 – IAEA Director General Statement on Situation in Ukraine",
-        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxObm9BZElGb0lWcTFIXy1uYVIwbFBnTE1Na0x2UDhhVElubFhFWmVHMjlJc09NVUFfQkl5SUdZZkJjczJqTUZPV25YeG9KeE52d1BaTmZsRUZGRkthUUV5SzZrODNfRG1nTDhlbERONTNiYkJxQjZPRm9XdG55N1lic3ZoN3dhSWhRWTFubGNSNjJsbHJjSXJVSExVaUtLYnN3dGNsaDFaNWpaY3BkUDJXTQ?oc=5",
-        "domain": "internationalatomicenergyagency",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260820T164926Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Donald Trump Effectively Just Told Iran to Get a Nuclear Weapon",
-        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxONlFja2NaTHRyRFF2WEFpcVRsbVg3YmxzTzFsdmc1aHo2eHRoN29GcWxLT05BMTR1ckZ0Rk9GTDVWZ0E4UXlRZXliRFJIUUdERjNmOVBFN0RCQ1lnZ1JhZWlobVhnMGh0cDNxRTJPTzVxS1BET2NCYTlVakhFQ2pSQ1hpTUNMM09EalpMUDN0cUp0Y3M?oc=5",
-        "domain": "theatlantic",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260820T165443Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Blue Ghost to carry nuclear power source to the Moon",
-        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOaXIyNS0tWVJQdWczWUtSa0o2RU13NXZQa242S1ExeUs1eV9sMmtkSHRwajR2ZzRMVUM1bkZuWTQzYldLRVNiQXRDTGxIRlprUU00UDh0WlBXeVBXOVNTZEZjUEN6N2w5a0dqMWZSZzJWY3BCb1RsWnViTk9aYWhsbndUbm43V3pZVWFtTDNJeXctTnJlbVl2eW1adnM?oc=5",
-        "domain": "worldnuclearnews",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260821T213257Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "India’s Nuclear Opening Comes With a High Security Bar",
-        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPRlB3UmxGaS1XUGsxRV9IUUpBMmhkcm9zSFhHWEk3dlgtRThwYXk5NkJGcnpSa0NBOV9rXzZTS1REOUNvS0ltSHVZd2JKNjFDVmFhZXNFZ1N2ZDk4eng0NXhlSHBnYzVTekpmVEJaRzNVeXM0Umx0ZWF3aXI0WV9BZlFCMkxNb05fNi0xNHNKeUZMNXVLTEY2OE5sMEs2UlVkMk00N3ljV05OQlo5?oc=5",
-        "domain": "bloomberg.com",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260821T231248Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "France’s nuclear reactors are running hot and still keeping the lights on",
-        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOTUdtQlo0OHBKdjFIWHNlZ0liM1JlLVpENzUwRU1JVE56UXpGbGFqWVgtV25Ea3dKNUlyZjhaYmxhSG44ZVQ4RTJ1X2diZThuYVhGdmY4Tkl1VUw3aGtoU2xEeGFmck9UVGw0Ym52eUZSOW5yZW95aEJMb1NRUGVORHY1X2lFMVhtbEtGU2VUajgwd2FmQzFWalo4SHJDaTFJbGtTODRGcE04Y00?oc=5",
-        "domain": "theconversation",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260820T165537Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "3 Nuclear Energy Stocks Riding The Push For Reliable Power",
-        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOaDFRZVBYaU8wR2FrNWVQbWxKaEhROXdfUTZzNnZubmU5QUNiYXVCOS1RUGQwQzlQdGI1OUx2UTBrakRzZVp0ZkVmLXoyR1FFQzRWbk1ab2V3Tkl2RG8zMWZfcS01QkZCLXl6cjEyMTcwb19Oano1THhOSFM3VFd3Um5qTWZqU2FMcC13aERLSVkxeUEwMTJxbGdnN29NdFJpZHRXSHByRU0tWWhTakItbVIwb2t0QjJEOGdSS1RKSFdjRzlvbmZhU01IdXPSAdIBQVVfeXFMTU5Ib1g2c2xDVUJWSmNhSXU3RVJJa1hQc0ctVlcyYUtvUV9DVlVBUG8xbFRGdVFSdHBjaFRmZkc1OUVXX0VtQm9YNG9wN0E3d1pWcVFBZkNrU3otNmRsLVEzVU45TzdEZDdzV1c2cmtDZWxfYTJwVmJEYmZIaFhPeVR4N3dNVVZXRGxRekxJNXhWTE9wRTY2TTBMUWs1dV9oWU02X2ZoREw2OW1KdU41OUFPbl9GZ081eTZrOFdGbFgtQm1rLVg2YVF0Nzh6cDRhSjhn?oc=5",
-        "domain": "simplywall.st",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260822T113649Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "South Korea estimates North Korea has up to 120 nuclear warheads, far above Trump's figure",
-        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPai1rZ0dWNGExT2VoOUNnVEs4X01iZlpPVkU0aUlQTE9aNVJXNThnV0k3aEtZMm9yNmxBWWgwTVJzdFMzN2s0ZUR5amstVHNtQnNESkdRQklHV2Jtbm4wRm84OEN0WlVZU0ZuV3lNX3ZkVnlzbG1mYkU2dnRHS0xnQzY0U1Z1amx4d0hRMnkyNmxsejlnN1ZCTFVKenRyUXdXaDdibUVBaktqT3l3N3dJTldHaFR0N19WQUtTNklFV09NLVNzWFo0ZEhhZ1gxYjhqNmhIS2hRN3U?oc=5",
-        "domain": "reuters",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260820T043600Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Bulgaria's nuclear plant to cut capacity due to Danube's low water level",
-        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQSjVMX0pHZktlVkJlUG95ekRhTmswMWRpaGJncjlEWm9zRWI2ZU1kRktVVmZ2YmdOYl9XbjFJTEdHRWw2SlA1V2xJVnA3TEZ3YThsMGZPUmllbkI2c1I2NlBrZGM1ZmY0TnMwRnZmTkFvUGYtbkVTcUtIam1Pb1lpQi05NHZqNWxtem96TEgxcnA1YzU0VkRMRDFHdjZZUTVYZExRdEFZWUFLVk5kLUR4ZnBmZ2NGVWZoSV9VSWNn?oc=5",
-        "domain": "reuters",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260820T160733Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Trump says Kim Jong Un has 57 ‘very powerful’ nuclear weapons. Seoul says he has far more.",
-        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOa3hnbzBhWlNmQk9seXpDZXI5ZlE4N1UtTmRiTzNjaG9aNzRvOFU5R21QRXNIT3Z6a1ljV0V6WHBvdlNzZXRONmJzZV9KcmJNMExqaVhPaG5kODRmUjRfOXI5ZjhNNVRlQ1NxYjFUelV0VmtVcFVBZk9vUlZlV2pfS3ZjbXZhM2cxMWdMc1dQZnB2VndEVzhtc1FZNnY1NWVDNGlDYllvMWZVN1FyUF9SZE9odw?oc=5",
-        "domain": "nbcnews",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260820T095234Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Romania Moves to Safeguard Nuclear Plant on Record Low Danube",
-        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNTTdPbnJKNmVsaEhJMTdYUHBLcEh5dGx4TmFVaFdxQWtwNUJpaEVTeDlWOVNYQVNSbnl1VHVUNWs0M0lDaC1NZ1F2Ri1FNXNmNXBVTXZGYVFibVFudE81WTFCOFRaTXBFbUtUNEpPLXlZbzJ3MHZlRnFCVHRITlpvUklINHFUUkxkbm03RlktMFpPbjhJaXBXLTJvelJXVUQ1Qzd5SGc3VjZtV1ZKNnFvZFZoQXhWck9jV3pDcA?oc=5",
-        "domain": "energyconnects",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260822T110422Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "IAEA project focuses on research reactor testing of fuels and materials",
-        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNNjZ0NDVxbHJMbFpSdmtJVU5Uc0ZsMVhOLVVUNF9vNDBEQldQejFLVVR5QnJqWkJnNXlkeENoZUJRS0hPTElYVm5RZWQxZXQyYzFBY28xQlRJUnVmZjZQUVJ0QTljX2Y1MFpaVFphZExtVElHWWtMRERCeWNMcTJqYnFob1R4V3F1YS16RWNVY3M0YTUzaEhURWEyRThXeVduell4bGdBbDd6dW5iU1ZCWUpzMA?oc=5",
-        "domain": "worldnuclearnews",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260821T213259Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Trump warns North Korea has ’57 very powerful nuclear weapons’",
-        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQYUE1YTRfdHBrdC1yNFNHbHNWWWQ4ZlM2Y295S3kxUzFpVWU1Z0tvcGpoZUJxQnNVRTBhVzVISDhPdUxHUW1GbzlMTVpHVmJzcDhhWlB0RVcxRXFMNDNaMHpPOFhXcUpuem9HWkg1bGJLN2ZrcGZSZmx3YnJWQW9BVFVTdlN1UDFyQXFn0gGQAUFVX3lxTE81a1NlbUxQOWZfR1RSbGZFQVpSdU03anotWnhYb1ZjdUNlUGJ5eE05NmhiNHAwWGdITmlhbUdZOHRydGhDNDYwdVM4d0RqVm9pZmRWaFBaQWYwUHM2YU9SODcyUG16X2t2WWVBOWY3d1BhUVRyVXFGWFFYeEQzbUsza3ZJSzFKSVQ1VTF4RXJwNw?oc=5",
-        "domain": "thehill",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260819T183800Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Reagan and nuclear de-escalation",
-        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNTl9jQmhXVklXWGZfRUpmdEJlVW1nbnFRNHJiVlU4N3pXV3NLNGxBMlA0ZEFyUUtqblFZNGl1V3lVNU8zTWNfaUNDOXhMb2Q1MWdtbnlva2xqcDd6aG5JaXNCM3haZHFfeFhBNTMzbGJWTGxMU1JkeFN1bTB3c0ZUaWd2RS0xNGhQVzBOcm15SVVPc0hsUmNJN2x6Nndpbk9BTDFKZmFmd3hSdjd1RGtCMzhjeGtXU1JSZDlVZkNLU09xOWw2?oc=5",
-        "domain": "northeastmississippidailyjournal",
-        "language": "",
+        "title": "أستاذ علوم سياسية : إيران تسعى للحفاظ على مكاسبها الاستراتيجية عبر التفاوض مع واشنطن",
+        "url": "https://www.elwatannews.com/news/details/8343940",
+        "domain": "elwatannews.com",
+        "language": "Arabic",
         "tone": 0,
         "seendate": "20260822T084500Z",
-        "source": "GoogleNews"
+        "source": "GDELT"
       },
       {
-        "title": "Romania Moves to Safeguard Nuclear Plant on Record Low Danube",
-        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPNEJLMWNzWlpLbnZYUENUZWxHQ1JZWWx2c1Ata1Blb3hKeU0zN25vV3dwMXVMaWV2UGNiVWtiTFVlblZObFFHay1NWThxOFdaWEwzeGU1cXAxUzhydGd4MVUyQjE5bzg1ZjQxWVN5bkllaTRzdVlibWR0Ml9LNFBwN0RNMFg1UzFrQkZsUHJLankxZzBBWHNBWS13OWNUTVZTMS1XWm9VZUMzbDVmUi03Nk9n?oc=5",
-        "domain": "bloomberg.com",
-        "language": "",
+        "title": "Diferentemente do Ocidente , Rússia oferece parcerias nucleares sem contrapartidas , diz analista",
+        "url": "https://noticiabrasil.net.br/20260822/diferentemente-do-ocidente-russia-oferece-parcerias-nucleares-sem-contrapartidas-diz-analista-53411351.html",
+        "domain": "noticiabrasil.net.br",
+        "language": "Portuguese",
         "tone": 0,
-        "seendate": "20260822T064600Z",
-        "source": "GoogleNews"
+        "seendate": "20260822T100000Z",
+        "source": "GDELT"
       },
       {
-        "title": "IAEA research project to develop hazard detection for edible insects",
-        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQY1YyV1NwSklKd1ZGSHZST0ZYazFBZU5EWXQ5X1ZETVVYNXRDZUN6WF9xMW1KaW9SR1pHaThXb0dtOUdLTjZuQXB2bWtIZS1acDE2VWZYbGFoSUh5U1JCSG1QZkJOZlJLRWFIQ1ROWVdTekdCVGdMSTZlZDdLQklrZDJIb0ZKSUxCbHZkcmZqZmk5bi13UVZsSEQzQVlGak5fd0w3dnA2QS1PQ2c?oc=5",
-        "domain": "americannuclearsociety--ans",
-        "language": "",
+        "title": "Каролин Родригес - Биркетт вышла в лидеры на голосовании за пост генсека ООН",
+        "url": "https://www.vedomosti.ru/politics/news/2026/08/22/1222952-rodriges-birkett-vishla-v-lideri",
+        "domain": "vedomosti.ru",
+        "language": "Russian",
         "tone": 0,
-        "seendate": "20260821T154012Z",
-        "source": "GoogleNews"
+        "seendate": "20260821T223000Z",
+        "source": "GDELT"
       },
       {
-        "title": "TerraPower’s nuclear reactor has a secret weapon for powering AI data centers",
-        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNZFNEQ0dvb0VSM3lPbWdrelkzOHpsWGJ4NWlqRG5WTGlCMXVKN19hU2VTZk5heXNJekFPQ2w4WFZybHBvaVpsTHN3bVE5U0g1bGI1LXNpWXdnX1JPbC1tcnA0Q20wZ2p0VGs2cno4SVNBdnV1SWJmOUltN3gwRnBfWmw5US01N3pVcDRHT1J0Z0hETlZaam54ZUZxYXJfQWNtZVc3ZFpUa2tFdWJQdmRvSg?oc=5",
-        "domain": "techcrunch",
-        "language": "",
+        "title": "На иранскую АЭС  Бушер  вернулись 42 российских специалиста",
+        "url": "https://profile.ru/news/politics/na-iranskuju-aes-busher-vernulis-42-rossijskih-specialista-1893670/",
+        "domain": "profile.ru",
+        "language": "Russian",
         "tone": 0,
-        "seendate": "20260819T154453Z",
-        "source": "GoogleNews"
+        "seendate": "20260822T160000Z",
+        "source": "GDELT"
       },
       {
-        "title": "Xavier Becerra avoids backing nuclear energy in bid to govern power-starved California",
-        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOX1hQd0VXcWRqeFFvR3l6c0tQVjlNVDZkUW10Z0FUMDV0RGlYQzN4RVNLejc1SElGTnVrX0g4dkhFbWtMUTNVUk1HVFpJazFKU3dMeGxrSjR3MGI0X1Z4WXczLTR3dTZPSWpfYVpMN0R3VmVkQUw2eUZzN3R4bE11LTk1WGJKVXJaR3hMalFvYnB2SGkzODUxS1pQX2tVU0JXb0VVRl81VE41eUNUM2ZpQXhDVlhTMU1qdEdlN0dKZEtyMnI2ZmpUUw?oc=5",
-        "domain": "washingtonexaminer",
-        "language": "",
+        "title": "Голосование на пост генсека ООН : кто лидер ? ",
+        "url": "https://haqqin.az/newsarchive/391430",
+        "domain": "haqqin.az",
+        "language": "Russian",
         "tone": 0,
-        "seendate": "20260822T090000Z",
-        "source": "GoogleNews"
+        "seendate": "20260821T223000Z",
+        "source": "GDELT"
       },
       {
-        "title": "Why Russia Could Mediate US-Iran Nuclear Talks",
-        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNYW5hSlFEQ0ZPRWJxY1N5bWxNdTl1M3BZMnplSDlpbXVJT3ZHLVpicUpNdGxQMEd1WU1VNlZFV0NsZHZGaEp1WGp6WTY5aEFmNkF5clpUZjZfRWlxYnprX2d4S2NBd19WeXA3dUJBZzFwSWVoM0dFSWRwa0lGTEpSRFBEd1FfTXNCY1k0?oc=5",
-        "domain": "thenationalinterest",
-        "language": "",
+        "title": "Стал известен лидер предварительного голосования за пост генсека ООН",
+        "url": "https://www.vesti.ru/ns/stal-izvesten-lider-predvaritelnogo-golosovaniya-za-post-genseka-oon",
+        "domain": "vesti.ru",
+        "language": "Russian",
         "tone": 0,
-        "seendate": "20260822T012808Z",
-        "source": "GoogleNews"
+        "seendate": "20260822T000000Z",
+        "source": "GDELT"
       },
       {
-        "title": "Trump reveals exact number of North Korea's nuclear weapons",
-        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQV0FkTlF3M1U1aGFaeWZHTE9SeWRtbUlFb2RpSEs1RmNZZXpMYVhEOHZtTlcxYWdDTDI4YWx2aGEwdmNpamVhSjR2c0VIaktLdldMdE5vRzE2Rzg2VEJSc3loRnZ3Q1JNZDQybmVpOWR4M0o4M0tlTU9zNGZ5UXdXVUplTHhiMks3VWc5S254a1FTd9IBlwFBVV95cUxOd2prS0ZpTnZQRmtiUzMxR0w0d2R0NnFHbTllRk1zQnRFY1hmbDg1SUwzdnhEOHQ4SzhIbnNJWHN0VmZwR3QxTFo0THVmVld6TVRDekQxOGhzSjQ2UnI2LWk4dTkyV052N0R4MWhDMGMyZk8wMDE5MDNwR1l0LW9OZ2MzRG53eTZqTU9RSVp6a0xiQ1JEbmZj?oc=5",
-        "domain": "foxnews",
-        "language": "",
+        "title": "Родригес - Биркетт стала лидером в голосовании за пост генсека ООН :: Новости дня / ВЗГЛЯД",
+        "url": "https://vz.ru/news/2026/8/21/1444812.html",
+        "domain": "vz.ru",
+        "language": "Russian",
         "tone": 0,
-        "seendate": "20260820T100034Z",
-        "source": "GoogleNews"
+        "seendate": "20260821T203000Z",
+        "source": "GDELT"
       },
       {
-        "title": "54 California officials urge Diablo Canyon nuclear plant extension beyond 2030 as Newsom defers decision to next governor",
-        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE94aUVzZ0p0MzZfX2pfdlJXMzljZVFwN0xaODkyZTBubTJYdG91aDBOM3VLWFJhMVV5UnRlSXQyb19mRGxhUTQxOEgtYWtCVnJadlJnMDZnOWh3elVZT21wRGVOX3EweFNjWXA2Nm9ubExxV0lBa1FLODVrc3E5QVE?oc=5",
-        "domain": "energiesmedia",
-        "language": "",
+        "title": "Exfiscal del caso Nicolás Petro reveló que tuvo problemas con Luz Adriana Camargo por no retirar un cargo",
+        "url": "https://www.elpais.com.co/politica/exfiscal-del-caso-nicolas-petro-revelo-fue-castigada-por-luz-adriana-camargo-tras-no-retirar-un-cargo-de-este-proceso-judicial-2219.html",
+        "domain": "elpais.com.co",
+        "language": "Spanish",
         "tone": 0,
-        "seendate": "20260822T154103Z",
-        "source": "GoogleNews"
+        "seendate": "20260822T140000Z",
+        "source": "GDELT"
       },
       {
-        "title": "Athabasca Uranium Juniors Advance as AI Lifts Nuclear Demand",
-        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQUXJ5aTVRbTNJcVY4MV9wSnNvMWQwaWl3Yi1mdW5pM2t1YlNVSWRDQWtPeWNuMERBSUNDbjMxNUgySVN5YVVyYTZacHBnTWZqUUszbUExQlB6VUJkdF96a0U2N0E5M1l6ZDRjbXpJOGtFZVRhNXNVa0Q0bFdLZUdxN25TajRmSGtwRXltOW1TUXJiMmpjanNhSEduckxHeU1OR2VFRDFCR0V5NTBxRGQzWWYzTk83Rktpa0E?oc=5",
-        "domain": "streetwisereports",
-        "language": "",
+        "title": "Onu : Rodrigues - Birkett , Grynspan e Grossi in testa per il dopo Guterres - Notizie",
+        "url": "https://www.ansa.it/sito/notizie/mondo/2026/08/22/onu-rodrigues-birkett-grynspan-e-grossi-in-testa-per-il-dopo-guterres_9fe9813b-7af5-499d-9770-99550847d153.html",
+        "domain": "ansa.it",
+        "language": "Italian",
         "tone": 0,
-        "seendate": "20260822T102605Z",
-        "source": "GoogleNews"
+        "seendate": "20260822T023000Z",
+        "source": "GDELT"
       },
       {
-        "title": "Urenco breaks ground for new enrichment capacity",
-        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNQU9LbmhMeWVNNHNUeWh0WEpmVUs1WDZ4YTJBNFI4SmN4ZkhnSlJuZTQ2dl9uZmZtdzIwQVBLUkNvRmhGMmJyNFBMTU93Y21WQTcxU0g4M1hzbXpaZUU2Vl9yX2pyRy00OHYyVG51V0FoV094MWZqaWN0UkpnYk14Z1dwMFNhd3NCYmE1YjMyU3hXX0J0OXNR?oc=5",
-        "domain": "worldnuclearnews",
-        "language": "",
+        "title": "Onu : Rodrigues - Birkett , Grynspan e Grossi in testa per il dopo Guterres - America Latina",
+        "url": "https://www.ansa.it/sito/notizie/mondo/americalatina/2026/08/22/onu-rodrigues-birkett-grynspan-e-grossi-in-testa-per-il-dopo-guterres_ea399bba-7ae7-4073-9a78-32da0945c289.html",
+        "domain": "ansa.it",
+        "language": "Italian",
         "tone": 0,
-        "seendate": "20260819T145328Z",
-        "source": "GoogleNews"
+        "seendate": "20260822T051500Z",
+        "source": "GDELT"
       },
       {
-        "title": "Nuclear Power Summit Tackles Regional Energy Needs",
-        "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1haG56cDFKVVpHUmluVGp3YkRsZjZqV1RxNXUxLUEyYXNmUmRNNmpFVEtmeEVZdTVhRXZnRnBGRlNYQXBPTmU3V092eVlxTHdGMDRkZjJJenNvSVNWdG1Hb1lka3FuZ0tyOTFJQ0o0UQ?oc=5",
-        "domain": "cbia",
-        "language": "",
+        "title": "Onu : Rodrigues - Birkett , Grynspan e Grossi in testa per il dopo Guterres",
+        "url": "https://www.gazzettadiparma.it/italia-mondo/2026/08/22/news/onu-rodrigues-birkett-grynspan-e-grossi-in-testa-per-il-dopo-guterres-963049/",
+        "domain": "gazzettadiparma.it",
+        "language": "Italian",
         "tone": 0,
-        "seendate": "20260821T123906Z",
-        "source": "GoogleNews"
+        "seendate": "20260822T053000Z",
+        "source": "GDELT"
       },
       {
-        "title": "3 Nuclear Energy Stocks Backed by Cash and AI Power Demand",
-        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOSFhvd284SS1RMHlaWV9KS0ZOZ3FIRXBmeTdtZEdFUFBhSXhmU3JYbW82NTllblVKNjhiVE9iLXNBZ2c0eFF4LTNHT0I3NUNrWEp1ZHdwcHg0TTNfbGY1ZzFHZjB1Zi0wN2Z1NkZORjVuVmZ2dkU3ZEtxdy1MTWNxQzd2TjJQWThsZWJKQlhXNDVVLV9QZG5UMUhyZjBxTXlGcDNEQTV2Qnh2b1BjMWx0MDRjNjI5WWNFQ1pSamRZUDFvSmw4d2hqdi03R0bSAdIBQVVfeXFMT01kdXNqQ0c1VlMxRDR4d201NC1rb1hQWjBJYnVsYVp0bDZNNDI2R0F5dkh6REhMeW5CNFctYjg1a0h6OTNTM3VtQVdpSzVGaGRaZVpPNmZ3V21lUEVWcWdTcWlweXJ2QjJJZEtoU1hxSmswamRTd1lsSGloOGlLNEFfRzFSaWJPazJLWTFUY1FYelFpUmV5VmdQSmhMX0c5MWhNem1ySkY2ZU9qRXNES2k0Z2xjNkkxSVBkYzRzNE1heHFKN3dQNmxBdEI4akEzRzR3?oc=5",
-        "domain": "simplywall.st",
-        "language": "",
+        "title": "OSN vybírá nového šéfa . Ve hře je Guyanka i Bacheletová",
+        "url": "https://www.idnes.cz/zpravy/zahranicni/osn-guyana-hlasovani-organizace.A260821_200838_zahranicni_votr",
+        "domain": "idnes.cz",
+        "language": "Czech",
         "tone": 0,
-        "seendate": "20260822T073452Z",
-        "source": "GoogleNews"
+        "seendate": "20260821T211500Z",
+        "source": "GDELT"
       },
       {
-        "title": "ASPI Stock (ASPI) Opinions on Debt Restructuring and Nuclear Demand",
-        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOWHRadzBIUUc5cUFQSldYSWRIQ3ZoR0lPcUlPNlNOb2NYMV8tNkRDaEJPdHJfOXB5VEd0N1kwYnM3YVZ2ZkpZVHIzbC1yd2NHeVFZTU5hZDRHdDNETl9hU3VCQVZab01FRTlZSkpOeFZaazEwdkZ1SDBONHd3TlRqTGNnUGhCaERoNGN0b2tCVVhnVGxab2laQXV2SUxXNnNrN0NCNmNGRQ?oc=5",
-        "domain": "quiverquantitative",
-        "language": "",
+        "title": "Гайанский дипломат вырвалась вперед во втором раунде неофициального голосования в Совбезе ООН",
+        "url": "https://runews24.ru/politics/22/08/2026/gajanskij-diplomat-vyirvalas-vpered-vo-vtorom-raunde-neoficzialnogo-golosovaniya-v-sovbeze-oon",
+        "domain": "runews24.ru",
+        "language": "Russian",
         "tone": 0,
-        "seendate": "20260822T140300Z",
-        "source": "GoogleNews"
+        "seendate": "20260822T104500Z",
+        "source": "GDELT"
       },
       {
-        "title": "New book reveals preparations for Trinity nuclear test",
-        "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNbUxnRXduQlptMDBMYkdXYV9ib3E3Xzhjc1dPTE5pak11QTh6Z21nVWFyM29lMVNtNHcybnVZWWZYMHpPZ0hCZ2lSNmpJaWZuaXhUTTlQZ1Jzc1k5Q0pXY2cyS1FBZTNKUWJBS3ItU29Seld4eHRWaXJtZkxSYU5zQXdWS25mZWc0bkh6bWFJWk1HOGxvRWtibUlFaGhLRzQ1aWc0MHNmYkdHS0RFMjU1b2Q4cVQyVXVZOEt4dndpOHBicWZ5ZFZHNDNWekhkbGwzb2V1aXRFTTlURi1mSjc3QnNSTFd1QjNFOUNpNlhXZzVoWnpuVlhtMVl4M3NEY094R1Y4?oc=5",
-        "domain": "livescience",
-        "language": "",
+        "title": "Ukraine at 35 : Winter is coming to Zelenskys state of corruption",
+        "url": "http://www.bignewsnetwork.com/news/279257984/ukraine-at-35-winter-is-coming-to-zelenskys-state-of-corruption",
+        "domain": "bignewsnetwork.com",
+        "language": "English",
         "tone": 0,
-        "seendate": "20260822T120000Z",
-        "source": "GoogleNews"
+        "seendate": "20260822T123000Z",
+        "source": "GDELT"
       },
       {
-        "title": "Pakistan’s Nuclear Arsenal is Becoming More Vulnerable",
-        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNVWhiRVRFaEtiSjdSR3YzTDUtR3dmRDcwTEtUaURXLWZzVGV3ZUQ3VkJWb0pTLXNZeVBzU0NfMmNCZzJOSi1jT3phd01XX1BOTVFsRFRoYnl4ajFReURzRnlldmVPeFBfRU5xU3lQMkstUFdZTEYyQ3A3Yy1Hazl5WlpEU1FtSFd5OXp3TEtMVGM?oc=5",
-        "domain": "irregularwarfareinitiative",
-        "language": "",
+        "title": "Ukraine at 35 : Winter is coming to Zelenskys state of corruption",
+        "url": "http://www.israelherald.com/news/279257984/ukraine-at-35-winter-is-coming-to-zelenskys-state-of-corruption",
+        "domain": "israelherald.com",
+        "language": "English",
         "tone": 0,
-        "seendate": "20260821T051347Z",
-        "source": "GoogleNews"
+        "seendate": "20260822T153000Z",
+        "source": "GDELT"
       },
       {
-        "title": "EDF to prepare site for two new nuclear reactors at Gravelines plant in France",
-        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNSXpRLTNVeGwwalh5UWF3ZUNpU0xRaTI2Qkk5VjVCUnlQdFVTSURXLXU5ZmY1STlDQ3BkYWhQYjZYb2xBdnhaQzFKdEZnY1VrSXBIVTZZVlprdV9XV2pHU1gxLWdmWURBZEJNTm1WT1lkbGloS0lUeENQMWo5eWhlYVZlMU01TUJVOHUw?oc=5",
-        "domain": "yahoofinanceaustralia",
-        "language": "",
+        "title": "Ukraine at 35 : Winter is coming to Zelenskys state of corruption",
+        "url": "http://www.middleeaststar.com/news/279257984/ukraine-at-35-winter-is-coming-to-zelenskys-state-of-corruption",
+        "domain": "middleeaststar.com",
+        "language": "English",
         "tone": 0,
-        "seendate": "20260822T145202Z",
-        "source": "GoogleNews"
+        "seendate": "20260822T141500Z",
+        "source": "GDELT"
       },
       {
-        "title": "Floating nuclear power was a Russian curiosity. Now others want to give it a shot",
-        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQYUVMZ2p0Q19OOHUzWkxvd0dzVnUzMEJDdjZxemVONXRsRUF0MDhHcVBSMjdONlBHOUd4YktYUXdjaUljeHhvbmhhel96aVFyTHlKdVRIc1pTVlN1bGRKN0p3UElWMFhUZHhNSjgydGxTbC02eG9MWTBuTDZITTVuZGFHbS1DTHN6WlEyMW95VW1oVDNtaC1lYXByM2pqTUp0V19WaFprajZXZGZsZVJXZUdWLVJDV2JTZmcxVjEtdEVIak51c0hV?oc=5",
-        "domain": "bellonafoundation",
-        "language": "",
+        "title": "Ukraine at 35 : Winter is coming to Zelenskys state of corruption",
+        "url": "http://www.greekherald.com/news/279257984/ukraine-at-35-winter-is-coming-to-zelenskys-state-of-corruption",
+        "domain": "greekherald.com",
+        "language": "English",
         "tone": 0,
-        "seendate": "20260820T151246Z",
-        "source": "GoogleNews"
+        "seendate": "20260822T160000Z",
+        "source": "GDELT"
       },
       {
-        "title": "NAVFAC Southeast Awards $264 Million Contract for Nuclear Power Training Facility Expansion in South Carolina",
-        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQcFRZWk9meWRFaENrcDdtUmNYV0p0WnlfMUJIN1k4NFJLX0VISVJraHhSX2cwYnZnb210UkZBOVFUV0VSbVljUFRuQW9ISkl4N201RmdLdW11dUl0Yk51dUpnZWhtejl5TGtfTWFGUTJrbkw4NEFQS01JU283X0JCTktMOVljSTBqb2tDNU1WWmk1cG5Kb0Zyc0JReldscTJCQ2ZPMVN2N09nNjcxMUZmeGFscUlWdzN6WUtHSHMwQXNYaDh0cUtDblJ3RmdCdlpaNWxmZQ?oc=5",
-        "domain": "dvids",
-        "language": "",
+        "title": "Ukraine at 35 : Winter is coming to Zelenskys state of corruption",
+        "url": "http://www.calcuttanews.net/news/279257984/ukraine-at-35-winter-is-coming-to-zelenskys-state-of-corruption",
+        "domain": "calcuttanews.net",
+        "language": "English",
         "tone": 0,
-        "seendate": "20260821T133100Z",
-        "source": "GoogleNews"
+        "seendate": "20260822T144500Z",
+        "source": "GDELT"
       },
       {
-        "title": "All Those Nuclear Tests Decades Ago Have Revealed Something New About Our Planet's Core",
-        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPMFVfUlotRDlhV1A1UWVoQTdhZElRbWtyblAtOXpkZ21FZ08wUHJUTzNHLVVXdEhnSFRLdjBGUy1HbUZJYkFjVHU1STdiRVB0aXBfM2FaTGhvY0I3MFAwZXhVT2MySmprRUZRX0lZb1hyYllVODh1bnhGWWVYaHhzSHVSWU5jYUt5LUpubTNEWDZHdm41dG84ZWNlX1NlQWJTQ2RKakVwSXBOVFRCNkhuQ2tmSm45dw?oc=5",
-        "domain": "sciencealert",
-        "language": "",
+        "title": "Ukraine at 35 : Winter is coming to Zelenskys state of corruption",
+        "url": "http://www.milwaukeesun.com/news/279257984/ukraine-at-35-winter-is-coming-to-zelenskys-state-of-corruption",
+        "domain": "milwaukeesun.com",
+        "language": "English",
         "tone": 0,
-        "seendate": "20260822T080040Z",
-        "source": "GoogleNews"
+        "seendate": "20260822T171500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Ukraine at 35 : Winter is coming to Zelenskys state of corruption",
+        "url": "http://www.mexicostar.com/news/279257984/ukraine-at-35-winter-is-coming-to-zelenskys-state-of-corruption",
+        "domain": "mexicostar.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260822T141500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Ukraine at 35 : Winter is coming to Zelenskys state of corruption",
+        "url": "http://www.sanantoniopost.com/news/279257984/ukraine-at-35-winter-is-coming-to-zelenskys-state-of-corruption",
+        "domain": "sanantoniopost.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260822T163000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Ukraine at 35 : Winter is coming to Zelenskys state of corruption",
+        "url": "http://www.iraqsun.com/news/279257984/ukraine-at-35-winter-is-coming-to-zelenskys-state-of-corruption",
+        "domain": "iraqsun.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260822T164500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Ukraine at 35 : Winter is coming to Zelenskys state of corruption",
+        "url": "http://www.europesun.com/news/279257984/ukraine-at-35-winter-is-coming-to-zelenskys-state-of-corruption",
+        "domain": "europesun.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260822T143000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Ukraine at 35 : Winter is coming to Zelensky state of corruption",
+        "url": "http://www.europesun.com/news/279257998/ukraine-at-35-winter-is-coming-to-zelensky-state-of-corruption",
+        "domain": "europesun.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260822T143000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Ukraine at 35 : Winter is coming to Zelenskys state of corruption",
+        "url": "http://www.russiaherald.com/news/279257984/ukraine-at-35-winter-is-coming-to-zelenskys-state-of-corruption",
+        "domain": "russiaherald.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260822T150000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Представитель Гайаны Родригес - Биркетт лидирует в голосовании на пост главы ООН",
+        "url": "https://life.ru/p/1914763",
+        "domain": "life.ru",
+        "language": "Russian",
+        "tone": 0,
+        "seendate": "20260821T234500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Захарова ответила на призывы закрыть Мецаморскую АЭС : безопасность станции , срок службы до 2036 года",
+        "url": "https://news.mail.ru/politics/72082462/",
+        "domain": "news.mail.ru",
+        "language": "Russian",
+        "tone": 0,
+        "seendate": "20260822T161500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Đồng minh Mỹ trước sự  phập phù  của Tổng thống Trump",
+        "url": "https://thanhnien.vn/dong-minh-my-truoc-su-phap-phu-cua-tong-thong-trump-18526082122040706.htm",
+        "domain": "thanhnien.vn",
+        "language": "Vietnamese",
+        "tone": 0,
+        "seendate": "20260821T234500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Quinto allanamiento en La Paz : alquilaban por Bs 25 . 000 un ambiente para la oficina de Cerimedo",
+        "url": "https://eldeber.com.bo/pais/quinto-allanamiento-paz-alquilaban-bs-25-000-ambiente-oficina-cerimedo-fiscalia_1787334129",
+        "domain": "eldeber.com.bo",
+        "language": "Spanish",
+        "tone": 0,
+        "seendate": "20260821T203000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Kreise : Birkett liegt bei Abstimmung über Guterres - Nachfolge vorn",
+        "url": "https://www.finanzen.net/nachricht/aktien/kreise-birkett-liegt-bei-abstimmung-ueber-guterres-nachfolge-vorn-15894260",
+        "domain": "finanzen.net",
+        "language": "German",
+        "tone": 0,
+        "seendate": "20260822T064500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Kreise : Birkett liegt bei Abstimmung über Guterres - Nachfolge vorn",
+        "url": "https://www.finanznachrichten.de/nachrichten-2026-08/69379868-kreise-birkett-liegt-bei-abstimmung-ueber-guterres-nachfolge-vorn-016.htm",
+        "domain": "finanznachrichten.de",
+        "language": "German",
+        "tone": 0,
+        "seendate": "20260822T064500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "El ministro Aramayo califica de marginales y ocasionales los contactos de Cerimedo con el gobierno de Paz",
+        "url": "https://eju.tv/2026/08/el-ministro-aramayo-califica-de-marginales-y-ocasionales-los-contactos-de-cerimedo-con-el-gobierno-de-paz/",
+        "domain": "eju.tv",
+        "language": "Spanish",
+        "tone": 0,
+        "seendate": "20260822T010000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Max Verstappen kan niet verrassen , George Russell soeverein naar de zege in sprintrace Zandvoort",
+        "url": "https://drimble.nl/regio/noord-holland/haarlem/107772576/max-verstappen-kan-niet-verrassen-george-russell-soeverein-naar-de-zege-in-sprintrace-zandvoort.html",
+        "domain": "drimble.nl",
+        "language": "Dutch",
+        "tone": 0,
+        "seendate": "20260822T110000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Regen komt nét te laat voor spektakel in Zandvoort : Verstappen kan niet verrassen , Russell wint sprintrace",
+        "url": "https://drimble.nl/regio/noord-holland/haarlem/107772721/regen-komt-net-te-laat-voor-spektakel-in-zandvoort-verstappen-kan-niet-verrassen-russell-wint-sprintrace.html",
+        "domain": "drimble.nl",
+        "language": "Dutch",
+        "tone": 0,
+        "seendate": "20260822T113000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Abogado de Gaby Carrizo retira solicitud de cambio de medida cautelar ; seguirá en detención domiciliaria",
+        "url": "https://www.prensa.com/judiciales/abogado-de-gaby-carrizo-retira-solicitud-de-cambio-de-medida-cautelar-seguira-en-detencion-domiciliaria/",
+        "domain": "prensa.com",
+        "language": "Spanish",
+        "tone": 0,
+        "seendate": "20260821T211500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Regen komt nét te laat voor spektakel in Zandvoort : Verstappen kan niet verrassen , Russell wint sprintrace",
+        "url": "https://drimble.nl/regio/noord-holland/haarlem/107772663/regen-komt-net-te-laat-voor-spektakel-in-zandvoort-verstappen-kan-niet-verrassen-russell-wint-sprintrace.html",
+        "domain": "drimble.nl",
+        "language": "Dutch",
+        "tone": 0,
+        "seendate": "20260822T111500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Pforzheimer Sedanquartier strotzt vor Potenzial : Geheime Aktion soll markantes Zeichen setzen - Pforzheim",
+        "url": "https://www.pz-news.de/pforzheim_artikel,-Pforzheimer-Sedanquartier-strotzt-vor-Potenzial-Geheime-Aktion-soll-markantes-Zeichen-setzen-_arid,2365189.html",
+        "domain": "pz-news.de",
+        "language": "German",
+        "tone": 0,
+        "seendate": "20260822T110000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Fiscal del caso Nicolás Petro lanzó fuerte denuncia contra Luz Adriana Camargo",
+        "url": "https://www.pulzo.com/nacion/fiscal-caso-nicolas-petro-lanzo-fuerte-denuncia-contra-luz-adriana-camargo-PP5281438",
+        "domain": "pulzo.com",
+        "language": "Spanish",
+        "tone": 0,
+        "seendate": "20260822T131500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Cine este noua favorită pentru funcția de secretar general al ONU . A primit cele mai multe voturi în Consiliul de Securitate",
+        "url": "https://www.digi24.ro/stiri/externe/cine-este-favorita-pentru-functia-de-secretar-general-al-onu-a-primit-cele-mai-multe-voturi-in-consiliul-de-securitate-3917119",
+        "domain": "digi24.ro",
+        "language": "Romanian",
+        "tone": 0,
+        "seendate": "20260822T160000Z",
+        "source": "GDELT"
       }
     ],
     "exchange_rates": [
@@ -573,139 +571,139 @@
   "entities": [],
   "events": [
     {
-      "title": "Joint Statement by the Minister of Foreign Affairs and Expatriates of the Syrian Arab Republic and the Director General of the International Atomic Energy Agency | IAEA",
-      "url": "https://news.google.com/rss/articles/CBMirwJBVV95cUxQVGxoNExaaUJwbkNqVmpuQVc5c1NDMWxMQ3dsNHl0VFNpa0kzb2JacUxzZk9CTW9hZ1ZBeXdXU1ZTVFFqcG9EeklINjNqZGZmNDZfczVPbFAxUm40cnVYY205T09fVzdXZHZDVERFcVhwbkNMNV9SZnRJVEQ0SGpBd2E5c28tQm02UmFfSkJyRHZLZ1NNc3RwR0htUF9KNXVTUHF6NTZDYmh2cWZMWjZSQlFER01wREFuOFY2RDIyeS1VZm9uZFBsampfVUw5NlFQSG5sd2cwb3RkRmljdHBLcDhHU0ZyZDU5Q2ZGSjl6VnRQaUQ0Yy1iMmJPTDhPdWJlbEhnbVlLbUFMLTVTZEY0VFAxMGxDajlhRURqd1oxVzlab2dzS2tfR1VUVUpoWXc?oc=5",
-      "domain": "internationalatomicenergyagency",
-      "language": "",
+      "title": "Sprott : Европа нарастила закупки российского урана на 7 % за год",
+      "url": "https://life.ru/p/1914891",
+      "domain": "life.ru",
+      "language": "Russian",
       "tone": 0,
-      "seendate": "20260818T123107Z",
-      "source": "GoogleNews"
+      "seendate": "20260822T124500Z",
+      "source": "GDELT"
     },
     {
-      "title": "UN inspectors visit undeclared Syrian nuclear sites for first time",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1HN2R5Z3VIcU1uNklxRHU0ZWtTYWp2SDVwYVRuT3p6WnctbFRvMmVlckFZNUZscl9mVVVJd05UNHUyM0NDa1otLXZtdDJudTRpc0JkcklpNjNJWFlYLVJIWTNNeUhnd0toS1RPaQ?oc=5",
-      "domain": "axios",
-      "language": "",
+      "title": "Лихачев заявил о срыве Киевом ротации экспертов МАГАТЭ на ЗАЭС",
+      "url": "https://iz.ru/2153241/2026-08-22/likhachev-zaiavil-o-sryve-kievom-rotatcii-ekspertov-magate-na-zaes",
+      "domain": "iz.ru",
+      "language": "Russian",
       "tone": 0,
-      "seendate": "20260818T165608Z",
-      "source": "GoogleNews"
+      "seendate": "20260822T123000Z",
+      "source": "GDELT"
     },
     {
-      "title": "Strategy or Scramble? Security Implications of Emerging Technologies in Nuclear Energy",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNM05Pc3ZzQVE5THRjM2gtOVdDYXowbTN3SGRpdzU0b041VW5VOTlMRThMTWg4N3VWcXpkaVQ2R1N4ZHlaUF83YWN0UDNtb2pQRmJIcFl3elhSYmw4dGNXWTVtU3JHWENjbDM4YWxKdHliSzF4NXBuQkhtYngzbXFhS3cwbWJvWGJ4M3JNRzNqTGJFNUJiZEFCSzVxWmM4Qlg4VXRhNTJUSllvalZLcnVoTTRDSHl5dw?oc=5",
-      "domain": "jamesmartincenterfornonproliferationstudies",
-      "language": "",
+      "title": "Lurer . com | « Մեծամորի ատոմակայանի դեմ արշավը պառակտիչ նպատակ ունի »․ Զախարովա",
+      "url": "https://lurer.com/article/748663/am",
+      "domain": "lurer.com",
+      "language": "Armenian",
       "tone": 0,
-      "seendate": "20260821T220515Z",
-      "source": "GoogleNews"
+      "seendate": "20260822T141500Z",
+      "source": "GDELT"
     },
     {
-      "title": "Why Nuclear Energy Is Making a Global Comeback",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOVXZzbGtia3VKVlo3bzhxRjRNUDhHQ2pobGJLUkZUZ2J4Y2hDRjNfTjhHS3NST1FLS01kdjh5LXZ6STQ1VFBGMmktTnIyYWl0VHVZUUFJejduanhKVjd4Zlc2X0ZEbTZIQXBTT1pWbWZpTHl6SHZ3aHMzTG43U2p6elFvMXlNS2NaWmRZ?oc=5",
-      "domain": "councilonforeignrelations",
-      "language": "",
+      "title": "Մոսկվան արձագանքել է Մեծամորի ԱԷԿ - ը փակելու վերաբերյալ կոչերին",
+      "url": "https://www.1in.am/3750752.html",
+      "domain": "1in.am",
+      "language": "Armenian",
       "tone": 0,
-      "seendate": "20260821T090000Z",
-      "source": "GoogleNews"
+      "seendate": "20260822T171500Z",
+      "source": "GDELT"
     },
     {
-      "title": "Russia’s Rosatom Returns Workers to Iran’s Bushehr Nuclear Plant",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQbmlHVnlKQlJEd3UtZ3V1Y0hvNUdkMlhQTzNzb1luRkpDR3NHZTBhRkt1Yl83VHE3N3YyZS0xUFBjN3JnZnlLbkh3RFJEWEYzYXl4UHl1eEZGYndGZHpBQzVvN2FGbmpiMmxLdG04a3ZCNE9EcUlxSkN0NXRmV0dWOW52UnJOZHluRDFCTmQyOE9IeEdvemtaSnJ2SU1QN28ybkp0eGJMc0JnMVk1ZHBZanViaDR3Zw?oc=5",
-      "domain": "bloomberg.com",
-      "language": "",
+      "title": "Насколько Европа зависит от российского урана : данные аналитиков",
+      "url": "https://iz.ru/2153235/zavisimost-evropy-ot-rossiiskogo-urana-vyrosla-na-7-v-2025-godu-izi",
+      "domain": "iz.ru",
+      "language": "Russian",
       "tone": 0,
-      "seendate": "20260822T131526Z",
-      "source": "GoogleNews"
+      "seendate": "20260822T114500Z",
+      "source": "GDELT"
     },
     {
-      "title": "Watchdog excavates suspected nuclear site as Syria pledges safeguards",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQaVZiYllNeXkzcnNPMUF2cHAyUEd2WDU0ekRSdU53NFcwT2o5TTBvSERwR1VOelpEZEhRMjFKNDN3bTBKZDkycldyVlVVdnZ4SVFrd3dnM0RsTXB1QmJkdmU5TERWbzBvVTg3UTVQZDVvRHdTYmoySktSSVZMNXFRaVY0Y0JLMFh5NGsyb0UtaUJpc0pmOGVDT0laYko0XzFJNlBMSlhaZkI0bUFOdVlycVNR?oc=5",
-      "domain": "nbcnews",
-      "language": "",
+      "title": "Захарова : закрытие Мецаморской АЭС вброс против РФ и Армении",
+      "url": "https://www.mk.ru/politics/2026/08/22/zakharova-zakrytie-mecamorskoy-aes-vbros-protiv-rf-i-armenii.html",
+      "domain": "mk.ru",
+      "language": "Russian",
       "tone": 0,
-      "seendate": "20260819T084926Z",
-      "source": "GoogleNews"
+      "seendate": "20260822T163000Z",
+      "source": "GDELT"
     },
     {
-      "title": "Panelists talk domestic enrichment expansion at Global 2026",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQb2RiZ2dHQmJDZnVSb1VFNEpkS2twdEpxd0hOWGhPN3hfVFYzalNJS0s4STlpazhwS0J0bG5Pd1dTczU2UHROOUIwOFZBc29HUWNpNjBTRGNQakZCU3Q5eVQ0UWRFUDRESmlIWEw3V1VqdUZaZEw0TDdwR3BZak1aZWlSRGE2dTIzSlFKd1JKWkpLSTlTR3R1WkFKaVVsWjg?oc=5",
-      "domain": "americannuclearsociety--ans",
-      "language": "",
+      "title": "МИД РФ : вбросы о Мецаморской АЭС попытка раскола с Арменией",
+      "url": "https://runews24.ru/politics/22/08/2026/mid-rf-vbrosyi-o-meczamorskoj-aes-popyitka-raskola-s-armeniej",
+      "domain": "runews24.ru",
+      "language": "Russian",
       "tone": 0,
-      "seendate": "20260821T183002Z",
-      "source": "GoogleNews"
+      "seendate": "20260822T180000Z",
+      "source": "GDELT"
     },
     {
-      "title": "Nuclear power, primary election results, and more...",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQaXVkeFAxQVBQZktIREdJeEFfcjBZeVNPbDV4M1ZiMW45TzNjR3NFTHJDM2pMaGJUNGYwRkNxMmxpQ1prWU5haXZGNnBwTmR6V2RIdmZ2YlBIcExYcDUwemlSWXJWRTItYS1renFpTXBpckwwZFh2MnVGZlNWTFBqdHJpaktqb2NxaER5QXIyUFdZV0gwM0ItRTRVbjNGUlJ4cDNIUEhTVHp2cWNkZ1Y4?oc=5",
-      "domain": "wyomingpublicmedia",
-      "language": "",
+      "title": "Европа увеличила закупки российского ядерного топлива | Северная Америка",
+      "url": "https://fedpress.ru/news/northern-america/economy/3448843",
+      "domain": "fedpress.ru",
+      "language": "Russian",
       "tone": 0,
-      "seendate": "20260821T234400Z",
-      "source": "GoogleNews"
+      "seendate": "20260822T140000Z",
+      "source": "GDELT"
     },
     {
-      "title": "‘Nearshore’ blends surfing and nuclear warfare in Steve Hawk’s debut novel",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNdlR5czhmUnhTR25ybUExdUZyWDg0X1JfRUhzdHd6OGo4MlA1OTR0OGpJa0dWeTQzTFB0SWpYc0JzU21GYVZzczVJWVNLMTFhOHRWRGw4Nlp4bGN2WlplZGZ5VnVDZ1d4ZWVBRHNMSGZaSFV3ejRiU2JiSWNyUG1uWjl5WmNiYmFCb0lqRlVBa2I0dUxPMUJQOVRxNHZrNUpaVVRtcWZibnhHT1JOZzNZ?oc=5",
-      "domain": "orangecountyregister",
-      "language": "",
+      "title": "Визит Гросси на ЗАЭС не снят с повестки , РФ гарантирует безопасность",
+      "url": "https://www.vesti.ru/ns/likhachev-vizit-grossi-na-zaehs-ne-snyat-s-povestki-rf-garantiruet-bezopasnost",
+      "domain": "vesti.ru",
+      "language": "Russian",
       "tone": 0,
-      "seendate": "20260822T143428Z",
-      "source": "GoogleNews"
+      "seendate": "20260822T131500Z",
+      "source": "GDELT"
     },
     {
-      "title": "NASA’s nuclear Dragonfly copter to search for signs of life on Titan: ‘A lot’s riding on it’",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNZUg4NWNpTmVHcG9RUGdRWGNlUXMyQlBPN2NjN1pyTWJlUmRkZ19BT0wtUk1ld2VMd0UtSm41NFlVMmllTlhITktselNhUnVmaXlsQTdid3JCNU5KWjFmendXTDFtQkV1OVA2dF9fd3ZFUjJBbVdaSl9KcGxNTE93OFR2REpXSTlvOFlWVmxQYnVCZjBOVlFF?oc=5",
-      "domain": "losangelestimes",
-      "language": "",
+      "title": "ՄԱԿ - ի գլխավոր քարտուղարի ընտրություններ . նոր առաջատարը հայտնի է",
+      "url": "https://www.1in.am/3750522.html",
+      "domain": "1in.am",
+      "language": "Armenian",
+      "tone": 0,
+      "seendate": "20260822T101500Z",
+      "source": "GDELT"
+    },
+    {
+      "title": "أستاذ علوم سياسية : إيران تسعى للحفاظ على مكاسبها الاستراتيجية عبر التفاوض مع واشنطن",
+      "url": "https://www.shorouknews.com/news/view.aspx?cdate=22082026&id=319171a8-6779-4413-8b2a-ba28e5b770cf",
+      "domain": "shorouknews.com",
+      "language": "Arabic",
+      "tone": 0,
+      "seendate": "20260822T161500Z",
+      "source": "GDELT"
+    },
+    {
+      "title": "أستاذ علوم سياسية : إيران تسعى للحفاظ على مكاسبها الاستراتيجية عبر التفاوض مع واشنطن",
+      "url": "https://www.elwatannews.com/news/details/8343940",
+      "domain": "elwatannews.com",
+      "language": "Arabic",
+      "tone": 0,
+      "seendate": "20260822T084500Z",
+      "source": "GDELT"
+    },
+    {
+      "title": "Diferentemente do Ocidente , Rússia oferece parcerias nucleares sem contrapartidas , diz analista",
+      "url": "https://noticiabrasil.net.br/20260822/diferentemente-do-ocidente-russia-oferece-parcerias-nucleares-sem-contrapartidas-diz-analista-53411351.html",
+      "domain": "noticiabrasil.net.br",
+      "language": "Portuguese",
       "tone": 0,
       "seendate": "20260822T100000Z",
-      "source": "GoogleNews"
+      "source": "GDELT"
     },
     {
-      "title": "Healey will host regional summit on nuclear, fusion tech",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9BbXhtWmIycl84bkh6RkxTZGlPbXB4enZMbHVYY0x5X2lvdXFTcDY2U0J0QTZtTG0xNTJ6YzMyRFdadG1fYjdTdGdYdHFaSFBhQWdza0RDUHdhMXUzTlJFMm85blkzUFBEcW5qQw?oc=5",
-      "domain": "greenfieldrecorder",
-      "language": "",
+      "title": "Каролин Родригес - Биркетт вышла в лидеры на голосовании за пост генсека ООН",
+      "url": "https://www.vedomosti.ru/politics/news/2026/08/22/1222952-rodriges-birkett-vishla-v-lideri",
+      "domain": "vedomosti.ru",
+      "language": "Russian",
       "tone": 0,
-      "seendate": "20260821T212102Z",
-      "source": "GoogleNews"
+      "seendate": "20260821T223000Z",
+      "source": "GDELT"
     },
     {
-      "title": "How a failed project could help solve the world’s biggest energy need",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNc0dHbGQzVmM1ajJHZ3YwQlROcGxQWk1GRy1lRUdUMWt4THAzeDIwZDhJcE9BbGV1M3NlRk9URmNFb21MeEF3N0haOHExSWNON0djd3RtajdlYWxLUFM0U0ZZbzBqNk41QVJlU0pFYWkzVFZEOTJVci1JOWo1clZpYWFzWEktM1hrcVY3YVppckdWMjhYQ3ZKdWoyNmFoVTZVbE9fbUtn?oc=5",
-      "domain": "thewashingtonpost",
-      "language": "",
+      "title": "На иранскую АЭС  Бушер  вернулись 42 российских специалиста",
+      "url": "https://profile.ru/news/politics/na-iranskuju-aes-busher-vernulis-42-rossijskih-specialista-1893670/",
+      "domain": "profile.ru",
+      "language": "Russian",
       "tone": 0,
-      "seendate": "20260821T160000Z",
-      "source": "GoogleNews"
-    },
-    {
-      "title": "Romania adopts new measures to boost Danube waters to cool Cernavoda nuclear plant",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOTEloQl93UWRETzBXZ3hIZWM1eDZFREpLN0NDZkMwM3hZVXhpMjI2dnBWdmxIVV81WVVRVG1nVEE5NkVHYTlqSE9RQWQxMy03Tl94RUU4WDZQRkc2cFBJVU0xYy1DdHpFOFRoLUVkajd0dkplRVNmZkhlSERNV1NpR3M2TXlxaGo2LWR3Yzk1ZUdtUXdmNVdKVWNJN2tHSU1qOHRIcWRZcWRZaGRkMjF6cWFSVFJNbE11U0VINW5ERDZ5QUo4ajRv?oc=5",
-      "domain": "reuters",
-      "language": "",
-      "tone": 0,
-      "seendate": "20260822T085143Z",
-      "source": "GoogleNews"
-    },
-    {
-      "title": "Nuclear training center, ROTC building named for Lindsey Graham among USC's 2027 budget asks",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQcWZ0aTZzSnhMS194c3NGZ1AtV3h1V1llM0s2M19DUU9WQ3lVV01Fc3RhbE9PQW5NOS1KQWZjZFhqS2dyLWR4ODhGQk12YmZhR0U1MnduVzBfRnVYSGZ6MHZSQzVnTExhUDI1bjlWbjlwdGpSbWF2SDFLNDNPMUdOenNWSkg1Q3hNdEh6RkVEMk1GdC1MMFJLeVV2N0lVQkstaHZKTVRsSENneEZPdUxsRFdfMVBlbEpObjRLeGFtNVdBVnRHYkU0cA?oc=5",
-      "domain": "southcarolinadailygazette",
-      "language": "",
-      "tone": 0,
-      "seendate": "20260821T194329Z",
-      "source": "GoogleNews"
-    },
-    {
-      "title": "Sandy Mush anti-nuclear waste campaign memorialized in new archival collection",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQM2VpdUJZclBPVkNweE4ydUZlYnQ3N0JZaWNsNFVqcXBoQ0tVYktuT0tmakw5V1JlVHJydEF6V0ZtenpTQTRJTHdmOWk0a19UT3M3UWI3YTNZbEt4RC1ESkM0VHlmbDh6LUZXRTJHSEJDejQ1TTlfbll5LU9PbWZEZXNyN3hJMDNjVFFMcXRUbnN0NzZFUllDUmZMVmRTemZHeVJQd2RNZU5iSmNObW5BXy0zc1RyZHpnZVBjd2c3RVprY0U3SGdwag?oc=5",
-      "domain": "blueridgepublicradio",
-      "language": "",
-      "tone": 0,
-      "seendate": "20260821T191500Z",
-      "source": "GoogleNews"
+      "seendate": "20260822T160000Z",
+      "source": "GDELT"
     }
   ],
   "timeseries": [],
