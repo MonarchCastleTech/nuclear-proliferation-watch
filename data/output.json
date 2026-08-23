@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "nuclear-proliferation-watch",
-    "generated": "2026-08-23T13:22:36.792918+00:00",
+    "generated": "2026-08-23T19:06:40.816173+00:00",
     "mode": "live",
     "sources": [
       "gdelt_articles",
@@ -18,7 +18,7 @@
     },
     {
       "label": "News Domains",
-      "value": "46",
+      "value": "47",
       "delta": "deduplicated"
     },
     {
@@ -71,12 +71,12 @@
         "source": "GDELT"
       },
       {
-        "title": "Lurer . com | « Մեծամորի ատոմակայանի դեմ արշավը պառակտիչ նպատակ ունի »․ Զախարովա",
-        "url": "https://lurer.com/article/748663/am",
-        "domain": "lurer.com",
-        "language": "Armenian",
+        "title": "NDR 2026 : Semakau , Bukom and Pulau Sudong to be merged into new island for industrial , power needs",
+        "url": "https://www.channelnewsasia.com/singapore/national-day-rally-2026-semakau-bukom-new-island-power-6335816",
+        "domain": "channelnewsasia.com",
+        "language": "English",
         "tone": 0,
-        "seendate": "20260822T141500Z",
+        "seendate": "20260823T133000Z",
         "source": "GDELT"
       },
       {
@@ -116,15 +116,6 @@
         "source": "GDELT"
       },
       {
-        "title": "Մոսկվան արձագանքել է Մեծամորի ԱԷԿ - ը փակելու վերաբերյալ կոչերին",
-        "url": "https://www.1in.am/3750752.html",
-        "domain": "1in.am",
-        "language": "Armenian",
-        "tone": 0,
-        "seendate": "20260822T171500Z",
-        "source": "GDELT"
-      },
-      {
         "title": "Iran security chief says Trump  recklessnes sparked fresh race to acquire nukes",
         "url": "http://www.iranherald.com/news/279259308/iran-security-chief-says-trump-recklessness-sparked-fresh-race-to-acquire-nukes",
         "domain": "iranherald.com",
@@ -152,30 +143,21 @@
         "source": "GDELT"
       },
       {
-        "title": "Захарова : закрытие Мецаморской АЭС вброс против РФ и Армении",
-        "url": "https://www.mk.ru/politics/2026/08/22/zakharova-zakrytie-mecamorskoy-aes-vbros-protiv-rf-i-armenii.html",
-        "domain": "mk.ru",
-        "language": "Russian",
+        "title": "Programa nuclear da Marinha lidera gasto militar brasileiro",
+        "url": "https://www.bahianoticias.com.br/folha/noticia/406029-programa-nuclear-da-marinha-lidera-gasto-militar-brasileiro",
+        "domain": "bahianoticias.com.br",
+        "language": "Portuguese",
         "tone": 0,
-        "seendate": "20260822T163000Z",
+        "seendate": "20260823T150000Z",
         "source": "GDELT"
       },
       {
-        "title": "МИД РФ : вбросы о Мецаморской АЭС попытка раскола с Арменией",
-        "url": "https://runews24.ru/politics/22/08/2026/mid-rf-vbrosyi-o-meczamorskoj-aes-popyitka-raskola-s-armeniej",
-        "domain": "runews24.ru",
-        "language": "Russian",
+        "title": "wild shores of singapore : New  Western Island  to merge all southern reefs",
+        "url": "https://wildshores.blogspot.com/2026/08/new-western-island-to-merge-all.html",
+        "domain": "wildshores.blogspot.com",
+        "language": "English",
         "tone": 0,
-        "seendate": "20260822T180000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Европа увеличила закупки российского ядерного топлива | Северная Америка",
-        "url": "https://fedpress.ru/news/northern-america/economy/3448843",
-        "domain": "fedpress.ru",
-        "language": "Russian",
-        "tone": 0,
-        "seendate": "20260822T140000Z",
+        "seendate": "20260823T164500Z",
         "source": "GDELT"
       },
       {
@@ -206,15 +188,6 @@
         "source": "GDELT"
       },
       {
-        "title": "أستاذ علوم سياسية : إيران تسعى للحفاظ على مكاسبها الاستراتيجية عبر التفاوض مع واشنطن",
-        "url": "https://www.shorouknews.com/news/view.aspx?cdate=22082026&id=319171a8-6779-4413-8b2a-ba28e5b770cf",
-        "domain": "shorouknews.com",
-        "language": "Arabic",
-        "tone": 0,
-        "seendate": "20260822T161500Z",
-        "source": "GDELT"
-      },
-      {
         "title": "Турция между газом и атомом : кому мешает союз Анкары и Москвы",
         "url": "https://www.mk.ru/politics/2026/08/23/turciya-mezhdu-gazom-i-atomom-komu-meshaet-soyuz-ankary-i-moskvy.html",
         "domain": "mk.ru",
@@ -233,12 +206,21 @@
         "source": "GDELT"
       },
       {
-        "title": "На иранскую АЭС  Бушер  вернулись 42 российских специалиста",
-        "url": "https://profile.ru/news/politics/na-iranskuju-aes-busher-vernulis-42-rossijskih-specialista-1893670/",
-        "domain": "profile.ru",
-        "language": "Russian",
+        "title": "بين الانسحاب النووي والبحث عن وساطة روسية .. تصعيد ترامب يعيد ملف خروج إيران من معاهدة عدم انتشار الأسلحة النووية إلى الواجهة .. ويختبر ازدواجية المعايير النووية",
+        "url": "https://www.vetogate.com/5718181",
+        "domain": "vetogate.com",
+        "language": "Arabic",
         "tone": 0,
-        "seendate": "20260822T160000Z",
+        "seendate": "20260823T133000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Irán busca poner fin a la guerra con Estados Unidos y retomar el diálogo :  Es el mejor camino  ",
+        "url": "https://www.diariopanorama.com/noticia/564074/iran-busca-poner-fin-guerra-estados-unidos-retomar-dialogo-el-mejor-camino",
+        "domain": "diariopanorama.com",
+        "language": "Spanish",
+        "tone": 0,
+        "seendate": "20260823T144500Z",
         "source": "GDELT"
       },
       {
@@ -251,12 +233,30 @@
         "source": "GDELT"
       },
       {
-        "title": "Caso Cerimedo : exmilitar Fritz y su esposa son imputados por enriquecimiento ilícito",
-        "url": "https://eju.tv/2026/08/caso-cerimedo-exmilitar-fritz-y-su-esposa-son-imputados-por-enriquecimiento-ilicito/",
-        "domain": "eju.tv",
+        "title": "Най - важните новини за деня , 23 август 2026 г . ",
+        "url": "https://www.actualno.com/society/naj-vajnite-novini-za-denja-23-avgust-2026-g-news_2631804.html",
+        "domain": "actualno.com",
+        "language": "Bulgarian",
+        "tone": 0,
+        "seendate": "20260823T171500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Karya Nukila Amal hingga Ari Pahala Hutabarat Jadi Pemenang Kusala Sastra Khatulistiwa 2026",
+        "url": "https://www.jawapos.com/entertainment/2608230370/karya-nukila-amal-hingga-ari-pahala-hutabarat-jadi-pemenang-kusala-sastra-khatulistiwa-2026",
+        "domain": "jawapos.com",
+        "language": "Indonesian",
+        "tone": 0,
+        "seendate": "20260823T133000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Irán busca poner fin a la guerra con EEUU y retomar el diálogo : Es el mejor camino",
+        "url": "https://www.ambito.com/mundo/iran-busca-poner-fin-la-guerra-eeuu-y-retomar-el-dialogo-es-el-mejor-camino-n6313784",
+        "domain": "ambito.com",
         "language": "Spanish",
         "tone": 0,
-        "seendate": "20260822T231500Z",
+        "seendate": "20260823T131500Z",
         "source": "GDELT"
       },
       {
@@ -269,12 +269,21 @@
         "source": "GDELT"
       },
       {
-        "title": "Exfiscal del caso Nicolás Petro reveló que tuvo problemas con Luz Adriana Camargo por no retirar un cargo",
-        "url": "https://www.elpais.com.co/politica/exfiscal-del-caso-nicolas-petro-revelo-fue-castigada-por-luz-adriana-camargo-tras-no-retirar-un-cargo-de-este-proceso-judicial-2219.html",
-        "domain": "elpais.com.co",
+        "title": "Caso Cerimedo : exmilitar Fritz y su esposa son imputados por enriquecimiento ilícito",
+        "url": "https://eju.tv/2026/08/caso-cerimedo-exmilitar-fritz-y-su-esposa-son-imputados-por-enriquecimiento-ilicito/",
+        "domain": "eju.tv",
         "language": "Spanish",
         "tone": 0,
-        "seendate": "20260822T140000Z",
+        "seendate": "20260822T231500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "El exfiscal Carlos Ferrer advirtió sobre las justificaciones  increíbles  en causas por enriquecimiento ilícito",
+        "url": "https://www.elesquiu.com/nacionales/2026/8/23/el-exfiscal-carlos-ferrer-advirtio-sobre-las-justificaciones-increibles-en-causas-por-enriquecimient-593830.html",
+        "domain": "elesquiu.com",
+        "language": "Spanish",
+        "tone": 0,
+        "seendate": "20260823T174500Z",
         "source": "GDELT"
       },
       {
@@ -287,111 +296,12 @@
         "source": "GDELT"
       },
       {
-        "title": "Ukraine at 35 : Winter is coming to Zelenskys state of corruption",
-        "url": "http://www.israelherald.com/news/279257984/ukraine-at-35-winter-is-coming-to-zelenskys-state-of-corruption",
-        "domain": "israelherald.com",
-        "language": "English",
+        "title": "Caso Cerimedo : exmilitar Gironda va a la cárcel y su esposa se beneficia con detención domiciliaria",
+        "url": "https://eju.tv/2026/08/caso-cerimedo-exmilitar-gironda-va-a-la-carcel-y-su-esposa-se-beneficia-con-detencion-domiciliaria/",
+        "domain": "eju.tv",
+        "language": "Spanish",
         "tone": 0,
-        "seendate": "20260822T153000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Ukraine at 35 : Winter is coming to Zelenskys state of corruption",
-        "url": "http://www.middleeaststar.com/news/279257984/ukraine-at-35-winter-is-coming-to-zelenskys-state-of-corruption",
-        "domain": "middleeaststar.com",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260822T141500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Ukraine at 35 : Winter is coming to Zelenskys state of corruption",
-        "url": "http://www.greekherald.com/news/279257984/ukraine-at-35-winter-is-coming-to-zelenskys-state-of-corruption",
-        "domain": "greekherald.com",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260822T160000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Ukraine at 35 : Winter is coming to Zelenskys state of corruption",
-        "url": "http://www.calcuttanews.net/news/279257984/ukraine-at-35-winter-is-coming-to-zelenskys-state-of-corruption",
-        "domain": "calcuttanews.net",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260822T144500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Ukraine at 35 : Winter is coming to Zelenskys state of corruption",
-        "url": "http://www.milwaukeesun.com/news/279257984/ukraine-at-35-winter-is-coming-to-zelenskys-state-of-corruption",
-        "domain": "milwaukeesun.com",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260822T171500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Ukraine at 35 : Winter is coming to Zelenskys state of corruption",
-        "url": "http://www.mexicostar.com/news/279257984/ukraine-at-35-winter-is-coming-to-zelenskys-state-of-corruption",
-        "domain": "mexicostar.com",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260822T141500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Ukraine at 35 : Winter is coming to Zelenskys state of corruption",
-        "url": "http://www.sanantoniopost.com/news/279257984/ukraine-at-35-winter-is-coming-to-zelenskys-state-of-corruption",
-        "domain": "sanantoniopost.com",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260822T163000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Ukraine at 35 : Winter is coming to Zelenskys state of corruption",
-        "url": "http://www.iraqsun.com/news/279257984/ukraine-at-35-winter-is-coming-to-zelenskys-state-of-corruption",
-        "domain": "iraqsun.com",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260822T164500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Ukraine at 35 : Winter is coming to Zelenskys state of corruption",
-        "url": "http://www.europesun.com/news/279257984/ukraine-at-35-winter-is-coming-to-zelenskys-state-of-corruption",
-        "domain": "europesun.com",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260822T143000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Ukraine at 35 : Winter is coming to Zelensky state of corruption",
-        "url": "http://www.europesun.com/news/279257998/ukraine-at-35-winter-is-coming-to-zelensky-state-of-corruption",
-        "domain": "europesun.com",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260822T143000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Ukraine at 35 : Winter is coming to Zelenskys state of corruption",
-        "url": "http://www.russiaherald.com/news/279257984/ukraine-at-35-winter-is-coming-to-zelenskys-state-of-corruption",
-        "domain": "russiaherald.com",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260822T150000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Захарова ответила на призывы закрыть Мецаморскую АЭС : безопасность станции , срок службы до 2036 года",
-        "url": "https://news.mail.ru/politics/72082462/",
-        "domain": "news.mail.ru",
-        "language": "Russian",
-        "tone": 0,
-        "seendate": "20260822T161500Z",
+        "seendate": "20260823T164500Z",
         "source": "GDELT"
       },
       {
@@ -440,30 +350,12 @@
         "source": "GDELT"
       },
       {
-        "title": "Cine este noua favorită pentru funcția de secretar general al ONU . A primit cele mai multe voturi în Consiliul de Securitate",
-        "url": "https://www.digi24.ro/stiri/externe/cine-este-favorita-pentru-functia-de-secretar-general-al-onu-a-primit-cele-mai-multe-voturi-in-consiliul-de-securitate-3917119",
-        "domain": "digi24.ro",
-        "language": "Romanian",
-        "tone": 0,
-        "seendate": "20260822T160000Z",
-        "source": "GDELT"
-      },
-      {
         "title": "Mohsen Rezaee | The Islamic apparatchik",
         "url": "https://www.thehindu.com/news/international/mohsen-rezaee-the-islamic-apparatchik/article71378773.ece",
         "domain": "thehindu.com",
         "language": "English",
         "tone": 0,
         "seendate": "20260822T213000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "  Si le quitamos el lavado , ¿ qué hacemos ?: exfiscal del caso de Nicolás Petro denuncia presuntas presiones de la Fiscal General",
-        "url": "https://www.eltiempo.com/justicia/delitos/si-le-quitamos-el-lavado-que-hacemos-exfiscal-del-caso-de-nicolas-petro-denuncia-presuntas-presiones-de-la-fiscal-general-3580231",
-        "domain": "eltiempo.com",
-        "language": "Spanish",
-        "tone": 0,
-        "seendate": "20260822T141500Z",
         "source": "GDELT"
       },
       {
@@ -476,12 +368,120 @@
         "source": "GDELT"
       },
       {
-        "title": "Exfiscal del caso de Nicolás Petro denuncia presiones de fiscal Camargo para retirar el delito de lavado de activos del proceso",
-        "url": "https://www.elheraldo.co/colombia/2026/08/22/exfiscal-del-caso-de-nicolas-petro-denuncia-presiones-de-fiscal-camargo-para-retirar-el-delito-de-lavado-de-activos-del-proceso/",
-        "domain": "elheraldo.co",
+        "title": "Este es el fiscal que hereda el caso de Nicolás Petro tras la polémica salida de Lucy Laborde , quien denunció presiones",
+        "url": "https://www.semana.com/nacion/articulo/este-es-el-fiscal-que-hereda-el-caso-de-nicolas-petro-tras-la-polemica-salida-de-lucy-laborde-quien-denuncio-presiones/202611/",
+        "domain": "semana.com",
         "language": "Spanish",
         "tone": 0,
-        "seendate": "20260822T183000Z",
+        "seendate": "20260823T154500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Sức ép từ Tổng thống Trump có thể thúc đẩy Hàn Quốc theo đuổi chương trình hạt nhân",
+        "url": "https://baomoi.com/suc-ep-tu-tong-thong-trump-co-the-thuc-day-han-quoc-theo-duoi-chuong-trinh-hat-nhan-c55894470.epi",
+        "domain": "baomoi.com",
+        "language": "Vietnamese",
+        "tone": 0,
+        "seendate": "20260823T070000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "ട്രംപ് സൃഷ്ടിക്കുന്നത് ആണവ അരക്ഷിതാവസ്ഥ , കൂടുതൽ രാജ്യങ്ങൾ ആണവായുധം സ്വന്തമാക്കാൻ മോഹിക്കുന്നു - ഇറാൻ",
+        "url": "https://www.mathrubhumi.com/news/world/iran-criticizes-trump-nuclear-insecurity-v2idgoct",
+        "domain": "mathrubhumi.com",
+        "language": "Malayalam",
+        "tone": 0,
+        "seendate": "20260823T064500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Mađarska ponovo pokrenula reaktor nuklearke Pakš : Elektrana uskoro radi punom snagom - Povezane vesti",
+        "url": "https://naslovi.net/tema/2558180",
+        "domain": "naslovi.net",
+        "language": "Serbian",
+        "tone": 0,
+        "seendate": "20260823T120000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Sức ép từ ông Trump có thể thúc đẩy Hàn Quốc theo đuổi vũ khí hạt nhân",
+        "url": "https://baotintuc.vn/the-gioi/suc-ep-tu-tong-thong-trump-co-the-thuc-day-han-quoc-theo-duoi-chuong-trinh-hat-nhan-20260822233009927.htm",
+        "domain": "baotintuc.vn",
+        "language": "Vietnamese",
+        "tone": 0,
+        "seendate": "20260823T063000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Nuclear power plants unaffected by earthquake off southwest coast : authorities",
+        "url": "https://www.koreatimes.co.kr/southkorea/20260823/nuclear-power-plants-unaffected-by-earthquake-off-southwest-coast-authorities",
+        "domain": "koreatimes.co.kr",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260823T014500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Caso Nicolás Petro cambia de fiscal : Juan Martín Parada asumirá el proceso",
+        "url": "https://www.vanguardia.com/colombia/2026/08/23/caso-nicolas-petro-cambia-de-fiscal-juan-martin-parada-asumira-el-proceso/",
+        "domain": "vanguardia.com",
+        "language": "Spanish",
+        "tone": 0,
+        "seendate": "20260823T181500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Відмова України від ядерної зброї : політик розповів , як прийняли таке рішення",
+        "url": "https://www.unian.ua/weapons/vidmova-ukrajini-vid-yadernoji-zbroji-politik-rozpoviv-yak-priynyali-take-rishennya-13478196.html",
+        "domain": "unian.ua",
+        "language": "Ukrainian",
+        "tone": 0,
+        "seendate": "20260823T154500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Quake - prone Indonesia first nuclear power plant plan stokes safety fears",
+        "url": "https://www.scmp.com/news/asia/southeast-asia/article/3364952/quake-prone-indonesias-first-nuclear-power-plant-plan-stokes-safety-fears",
+        "domain": "scmp.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260823T050000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Ukraine and Iran Wars Expose the Flaws in Nuclear Deterrence | Opinion",
+        "url": "https://www.newsweek.com/ukraine-and-iran-wars-expose-the-flaws-in-nuclear-deterrence-opinion-12341963",
+        "domain": "newsweek.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260823T120000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "匈牙利唯一核电站预计星期三恢复满负荷运转",
+        "url": "https://www.zaobao.com.sg/news/world/story20260824-9563634",
+        "domain": "zaobao.com.sg",
+        "language": "Chinese",
+        "tone": 0,
+        "seendate": "20260823T164500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Όταν η σύμβαση δεν δίνει τη λύση , το δίκαιο δεν σταματά εκεί",
+        "url": "https://www.philenews.com/oikonomia/kypros/article/1761433/otan-i-simvasi-den-dini-ti-lisi-to-dikeo-den-stamata-eki/",
+        "domain": "philenews.com",
+        "language": "Greek",
+        "tone": 0,
+        "seendate": "20260823T040000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "匈牙利保克什核电站3号机组恢复发电 -- 国际 -- 人民网",
+        "url": "http://world.people.com.cn/n1/2026/0823/c1002-40784513.html",
+        "domain": "world.people.com.cn",
+        "language": "Chinese",
+        "tone": 0,
+        "seendate": "20260823T044500Z",
         "source": "GDELT"
       }
     ],
@@ -607,12 +607,12 @@
       "source": "GDELT"
     },
     {
-      "title": "Lurer . com | « Մեծամորի ատոմակայանի դեմ արշավը պառակտիչ նպատակ ունի »․ Զախարովա",
-      "url": "https://lurer.com/article/748663/am",
-      "domain": "lurer.com",
-      "language": "Armenian",
+      "title": "NDR 2026 : Semakau , Bukom and Pulau Sudong to be merged into new island for industrial , power needs",
+      "url": "https://www.channelnewsasia.com/singapore/national-day-rally-2026-semakau-bukom-new-island-power-6335816",
+      "domain": "channelnewsasia.com",
+      "language": "English",
       "tone": 0,
-      "seendate": "20260822T141500Z",
+      "seendate": "20260823T133000Z",
       "source": "GDELT"
     },
     {
@@ -652,15 +652,6 @@
       "source": "GDELT"
     },
     {
-      "title": "Մոսկվան արձագանքել է Մեծամորի ԱԷԿ - ը փակելու վերաբերյալ կոչերին",
-      "url": "https://www.1in.am/3750752.html",
-      "domain": "1in.am",
-      "language": "Armenian",
-      "tone": 0,
-      "seendate": "20260822T171500Z",
-      "source": "GDELT"
-    },
-    {
       "title": "Iran security chief says Trump  recklessnes sparked fresh race to acquire nukes",
       "url": "http://www.iranherald.com/news/279259308/iran-security-chief-says-trump-recklessness-sparked-fresh-race-to-acquire-nukes",
       "domain": "iranherald.com",
@@ -688,21 +679,30 @@
       "source": "GDELT"
     },
     {
-      "title": "Захарова : закрытие Мецаморской АЭС вброс против РФ и Армении",
-      "url": "https://www.mk.ru/politics/2026/08/22/zakharova-zakrytie-mecamorskoy-aes-vbros-protiv-rf-i-armenii.html",
-      "domain": "mk.ru",
-      "language": "Russian",
+      "title": "Programa nuclear da Marinha lidera gasto militar brasileiro",
+      "url": "https://www.bahianoticias.com.br/folha/noticia/406029-programa-nuclear-da-marinha-lidera-gasto-militar-brasileiro",
+      "domain": "bahianoticias.com.br",
+      "language": "Portuguese",
       "tone": 0,
-      "seendate": "20260822T163000Z",
+      "seendate": "20260823T150000Z",
       "source": "GDELT"
     },
     {
-      "title": "МИД РФ : вбросы о Мецаморской АЭС попытка раскола с Арменией",
-      "url": "https://runews24.ru/politics/22/08/2026/mid-rf-vbrosyi-o-meczamorskoj-aes-popyitka-raskola-s-armeniej",
-      "domain": "runews24.ru",
-      "language": "Russian",
+      "title": "wild shores of singapore : New  Western Island  to merge all southern reefs",
+      "url": "https://wildshores.blogspot.com/2026/08/new-western-island-to-merge-all.html",
+      "domain": "wildshores.blogspot.com",
+      "language": "English",
       "tone": 0,
-      "seendate": "20260822T180000Z",
+      "seendate": "20260823T164500Z",
+      "source": "GDELT"
+    },
+    {
+      "title": "Pakistan nuclear programme prioritises warhead over energy needs : Report",
+      "url": "https://www.prokerala.com/news/articles/a1803740.html",
+      "domain": "prokerala.com",
+      "language": "English",
+      "tone": 0,
+      "seendate": "20260823T121500Z",
       "source": "GDELT"
     }
   ],
