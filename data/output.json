@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "nuclear-proliferation-watch",
-    "generated": "2026-08-24T02:13:27.876788+00:00",
+    "generated": "2026-08-24T07:45:51.307270+00:00",
     "mode": "live",
     "sources": [
       "news_articles",
@@ -18,7 +18,7 @@
     },
     {
       "label": "News Domains",
-      "value": "41",
+      "value": "40",
       "delta": "deduplicated"
     },
     {
@@ -53,42 +53,6 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Preventing and Managing Nuclear Risk in Northeast Asia",
-        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPX3VqZ0FvRk5ybGhnTHdxVGxLSENNZEg3YmN4c1BJM0Q2UEI1elBkVXgzeF95V3BSRVFBR01YZnpwb2x1VHBOendlSTJlZjZLNTExcE5vZVZUSmRnTkQtUG1Rb3dqeVQ0am5ONzRXbjQxUFNjc2p2YzZ1UDFYU2JsbXVmOWZvcEhG?oc=5",
-        "domain": "todapeaceinstitute",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260824T020237Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Finland open to talks on extending France's nuclear umbrella across Europe",
-        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1tYV84YlZBOFdCRHRHRkpHY1RtMUFuLXVFM1F3RTlWbVBiaXMzSTYzVVdOazFWeGw5U3J3Nnc2VVY0Y1htYlRRbV9mZWxIaF9ZMS1jTXozdDlJdw?oc=5",
-        "domain": "japanwirebykyodonews",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260824T013600Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Connecticut joins New England summit exploring future of advanced nuclear energy",
-        "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPSENpOThZV1UtRkdsTWJxRUM4QnRXd0ZOUlNjQmN6SEJUZUFZMUhZdjBwUlIyOFd2bmtHN1UweTdFSTFYeDh0ZlBud241eFk2dXRNbFJzRVBiUVBoUTN5eDZ1NlRwakNJWkdNLVpHTVRpWVFuUFRHRmU5bDlfeU9qY2ItMVBkTElQUDh6TndYbTZOaV80RlBVQTQ2QTFsajVTS2RIQUR1WnVVWElvOGlmVXNSZGZzdldYdXVsa0lZSWRwQ3B0U01fVmgwWi1vSHUyTng5MlRjamVXeHdrVTZRWWFHRHg0N29nQmY1SXcxYkJzMENR?oc=5",
-        "domain": "fox61.com",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260824T000200Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Oil major Eni bets on nuclear fusion becoming its ‘next refinery’",
-        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPQy12WTkzOE5wZGh1eU9QMVFtM1VWOXl0TVJHdFlEOFdSOGZJeFJSN19wdng0aVFPbU5SLTYwT3RXTC05bGcyRnFkMXFEeU5wUXhUUHRlZTNyclUxSC1UbjhtNFg1MUh0NUhpaGJOZm5LQXRGRktkeVNUcGJkUnpBQUZYVGs?oc=5",
-        "domain": "financialtimes",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260823T100008Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "Iran security chief hints at nuclear doctrine shift after US attacks",
         "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBZRWZQQjlaOGQ0TVljZE5OZ3J3OFRLZmEtS0JFcTMyM2VyTnpVRXZZLW9UY21xdjNmVXdVV1k4SzJ0RVlkWFVvZngzbkV0RTdCbXc?oc=5",
         "domain": "iraninternational",
@@ -98,12 +62,30 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Donald Trump has made the world go nuclear",
-        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPcUZDVmJFQnI4QnNHYmNjcDhYeXhXeDgwQW0yLXpsSFZVVHhnbEJndTMtbTRrWFdGeGFNT1ZSVmpZTlpBMEFrRGhTeG9mWTEtRWpxVkM5aDZfWU05aHgyUEg2dm9xbGdQeGtIbXl5NTlOT1VQZVF0cXd5dlZqSkNqZW9n?oc=5",
-        "domain": "salon.com",
+        "title": "Preventing and Managing Nuclear Risk in Northeast Asia",
+        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPX3VqZ0FvRk5ybGhnTHdxVGxLSENNZEg3YmN4c1BJM0Q2UEI1elBkVXgzeF95V3BSRVFBR01YZnpwb2x1VHBOendlSTJlZjZLNTExcE5vZVZUSmRnTkQtUG1Rb3dqeVQ0am5ONzRXbjQxUFNjc2p2YzZ1UDFYU2JsbXVmOWZvcEhG?oc=5",
+        "domain": "todapeaceinstitute",
         "language": "",
         "tone": 0,
-        "seendate": "20260823T104532Z",
+        "seendate": "20260824T020237Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Global Power Construction Spending Led by Nuclear, Wind",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNTzRRaVZsRE1DS1ZsNWRycHF6WmJCbmNZcVdGcDdPalZoZWRzVEd5YlNkLUc2REU1QWNDdFo5eWFySkRXb2dYaEt5YVFiUVpwbjNQN0dlVlYwd2djblMxV1NHUWt0emt2QmRmRGw1OG5aWjdoejVZV2Y1TDFjRWdBcTRQdkFBek5mYmhzRUh1ZV83QUgyd2FoUVAzbi1TRExnWWNMRkhBYktWQQ?oc=5",
+        "domain": "industrialinforesources",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260824T070231Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Finland open to talks on extending France's nuclear umbrella across Europe",
+        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1tYV84YlZBOFdCRHRHRkpHY1RtMUFuLXVFM1F3RTlWbVBiaXMzSTYzVVdOazFWeGw5U3J3Nnc2VVY0Y1htYlRRbV9mZWxIaF9ZMS1jTXozdDlJdw?oc=5",
+        "domain": "japanwirebykyodonews",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260824T013600Z",
         "source": "GoogleNews"
       },
       {
@@ -125,12 +107,66 @@
         "source": "GoogleNews"
       },
       {
+        "title": "Hungary Paks nuclear plant could operate at full capacity by Wednesday, PM Magyar says",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNZEJfVzdZd1FzS096TGhjb19XSF9hYnJfazRCOF8zeF9qMkJMOW5Bbm1ZSEwycjJiT1hXci05RFViS1haSDRObmdTb2dvdDVzZjY3SlNnQV80bjhrNEcyOVI5azhybnFpVlVrUmpDQTB4UHNrWURkdXQ3dklqZ2Vucm5ob3RiVTNSRGpqTVRxX0Z1R0gtTTJVb1BYYk8yajNBMFZ2N2FWOHdhYXYycFlsSHpuZzdnOEpPOVN3ckU1SWljVEp1bXdHSQ?oc=5",
+        "domain": "reuters",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260823T085543Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "North Korea tears down South Korean churches, apartments at aborted nuclear site",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxORTFYc2s1SHpabDZVTk9VMFJ2anljZnRIUnRnMFNUNkEyTWlSOEFSeUN2emxIYU9hSGdTckRQbFFoNGVfeXZEM1RMZTJkY2l1RWtuLTE5UnFac1BMcHBHb2djSDZzSWpHcUtvOFRJdmVCN01QVHVxYWh6cXVwVUR4YUdubW1VOHBZc0N6NUd3bXdkb2xKNzk0ckF0ejhobEhTSVQ2UzV6WXNnM0U?oc=5",
+        "domain": "nknews",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260824T064006Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Connecticut joins New England summit exploring future of advanced nuclear energy",
+        "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPSENpOThZV1UtRkdsTWJxRUM4QnRXd0ZOUlNjQmN6SEJUZUFZMUhZdjBwUlIyOFd2bmtHN1UweTdFSTFYeDh0ZlBud241eFk2dXRNbFJzRVBiUVBoUTN5eDZ1NlRwakNJWkdNLVpHTVRpWVFuUFRHRmU5bDlfeU9qY2ItMVBkTElQUDh6TndYbTZOaV80RlBVQTQ2QTFsajVTS2RIQUR1WnVVWElvOGlmVXNSZGZzdldYdXVsa0lZSWRwQ3B0U01fVmgwWi1vSHUyTng5MlRjamVXeHdrVTZRWWFHRHg0N29nQmY1SXcxYkJzMENR?oc=5",
+        "domain": "fox61.com",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260824T000200Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "How a failed project could help solve the world’s biggest energy need",
         "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNc0dHbGQzVmM1ajJHZ3YwQlROcGxQWk1GRy1lRUdUMWt4THAzeDIwZDhJcE9BbGV1M3NlRk9URmNFb21MeEF3N0haOHExSWNON0djd3RtajdlYWxLUFM0U0ZZbzBqNk41QVJlU0pFYWkzVFZEOTJVci1JOWo1clZpYWFzWEktM1hrcVY3YVppckdWMjhYQ3ZKdWoyNmFoVTZVbE9fbUtn?oc=5",
         "domain": "thewashingtonpost",
         "language": "",
         "tone": 0,
         "seendate": "20260821T160000Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Oil major Eni bets on nuclear fusion becoming its ‘next refinery’",
+        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPQy12WTkzOE5wZGh1eU9QMVFtM1VWOXl0TVJHdFlEOFdSOGZJeFJSN19wdng0aVFPbU5SLTYwT3RXTC05bGcyRnFkMXFEeU5wUXhUUHRlZTNyclUxSC1UbjhtNFg1MUh0NUhpaGJOZm5LQXRGRktkeVNUcGJkUnpBQUZYVGs?oc=5",
+        "domain": "financialtimes",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260823T100008Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Hungary Targets Reaching Full Capacity at Nuclear Plant Mid-Week",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOb3hrSWVOdVk1Q3JUdTFkMXdDTnotUEFhYllhY01sMkcxUnhRZEFPbjc1ZFZFQkRhQUZZN1VVb1N0cTI4ZlhGR05Yc3hLWU5VbXYyaThtRWptbXgwUm56WDZyMjNYNEU0dVVlZDlIZ3ZaSU9SbDlBT05KcWxpd0xGYl9hTzBqUjZoOEl4YXN3eHdGSGV6dlgxZWgzeTN0ZXluN1llbUozMFhTUk5JUmViTkswVEVqWnJQTmlBU1E2c3k?oc=5",
+        "domain": "energyconnects",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260824T054526Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Donald Trump has made the world go nuclear",
+        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPcUZDVmJFQnI4QnNHYmNjcDhYeXhXeDgwQW0yLXpsSFZVVHhnbEJndTMtbTRrWFdGeGFNT1ZSVmpZTlpBMEFrRGhTeG9mWTEtRWpxVkM5aDZfWU05aHgyUEg2dm9xbGdQeGtIbXl5NTlOT1VQZVF0cXd5dlZqSkNqZW9n?oc=5",
+        "domain": "salon.com",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260823T104532Z",
         "source": "GoogleNews"
       },
       {
@@ -143,48 +179,21 @@
         "source": "GoogleNews"
       },
       {
+        "title": "Donald Trump Effectively Just Told Iran to Get a Nuclear Weapon",
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxONlFja2NaTHRyRFF2WEFpcVRsbVg3YmxzTzFsdmc1aHo2eHRoN29GcWxLT05BMTR1ckZ0Rk9GTDVWZ0E4UXlRZXliRFJIUUdERjNmOVBFN0RCQ1lnZ1JhZWlobVhnMGh0cDNxRTJPTzVxS1BET2NCYTlVakhFQ2pSQ1hpTUNMM09EalpMUDN0cUp0Y3M?oc=5",
+        "domain": "theatlantic",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260820T165443Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "Proposed nuclear power merger, what it means for ratepayers in Connecticut",
         "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQeVQ2X1dUMXVzQ3pnQXFIamZXaTZzb1RNMHE4N3NNZGQxRjQycnRJWHhYTDhVOGpIdGZObEJSS0xIUWNpMHpLaFZZZnR3alVuT05jY01ITTM3TlRXNTluUDVUZzBZVXBwTjRiMW5YT1BXRFFSd0Q4Si1iTGttdnJUaWo4cFR1VlhZUnQ1QURON2pBU1gwdEk4N1ZSS0stcTNWdUtKWGxUaENlOTNXeWotbkxjTXpPOWFk0gG-AUFVX3lxTE1UajZCUDdnNXR3WExXNllNcXhxNjVhSWV0TXZjRms4bTl1UUJWYnltbGNlWVBJT01GVEZPemdFNVpqcnBWcmNBbThXLTd0MzBSTVlTZjZFaXVPUDNTOENJNU5vM0tlekZYN05TZEJaN3MyYnBhRnRJNHZncWN0c1BCUzVVeGpJV1NEcS0wQW9EZ0Q5eHBzclZIRDhRdUFLbUZNZUJPODkxZGxrZk9WSlBLZXBUb1hCMEhfY0x1ZWc?oc=5",
         "domain": "wtnh.com",
         "language": "",
         "tone": 0,
         "seendate": "20260823T143000Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Hungary Targets Reaching Full Capacity at Nuclear Plant Mid-Week",
-        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOODVCalZsN0J0NlBqc21tTTZpYTlxMlpBMTBRVHJ3aTN1VkRmVTRoeHQ3Rmp2NjRtN1BJYjRzeE1Vc3pONWl2WktjdTBmSGpzZnltWmg4R01jcE1SME03YUZwaFFGdkh6V2tPdHFXd1JONkgyUlZwX05lbDNHWWFqVDVVOWVFREVXa2VDUWVVXzd0U2R5Sk16VE83MHNXWUFGZ0tjaDNYMW9WY1lSSXlkZkFiaUctZw?oc=5",
-        "domain": "bloomberg.com",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260823T144429Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Books: ‘Nearshore’ blends surfing and nuclear warfare",
-        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOVy1xVFhGRHdOclQ5T0UtZF9qeXFDYWc0eHRxbVJMd0xjUk8tc0RVS0N4ZmRINWR2RGV3TXY1WkltRVFidzU4elVaRlIyVDVBR1NKb3hQRUpHNzg4UmhJZFllSDJmOE1oQnZkSEVMU0M2MG9nOFNMQXR5UzhpT0VGUVY1ZmcyOGRtaFc0eHhkUnZmd1Zhb0phTzd4S0FFUnB3XzZERTFuOG5oR0ZBQlhxcnpzcW8?oc=5",
-        "domain": "montereyherald",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260823T160431Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Nuclear power is China’s key for transitioning to a fully renewable grid design",
-        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOX3ZCaXNERFhlRjZGV1pnN0JlemZHUmtEMlRKazdjVHNGMmhwNHlxQTdGN2x6TndrZVdmVEU2U1BtbzJrZ2c1U0ZqNHJiclFwaU1YeTNUM3lkdHhrTjk2LTIxN3RCQlc0cjlVa0pGUXB2bkw3T3FLTUZERVoxOTRVMXgxX3NKZnFCbE1paFJQRG5VLW9rMERJT0pERHpvUG9kT1RFcThtM3JpS2k0UmRMbXMydThlQQ?oc=5",
-        "domain": "fastcompany",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260823T101357Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Inside the Race to Build America’s First Nuclear Reactor in a Generation",
-        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOc05nV0tYemxYMVBHajRjUXUtM0pWNjZLQ2F6MlBGdTZtUlc0ZjI4SGFBZWZQU1JHY3lRZTV5ZnVtTm1JcGJBM2puc1FsUWx0SWNKUnFLbTU2U1RLbnduWkRPZmFaWmtYazVvbldsTUJ5OHpaRVpYSnlOV2NzSEx2cGJ1TzZxU2Q3YzY1NVBrTmpvSnhqZFVsc0dGRmJUZXVXTFFmbTh4djR3OWYxNmgxekQ1NG9mRmtzbXc?oc=5",
-        "domain": "wsj",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260818T185600Z",
         "source": "GoogleNews"
       },
       {
@@ -197,57 +206,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Russia’s Rosatom Returns Workers to Iran’s Bushehr Nuclear Plant",
-        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQbmlHVnlKQlJEd3UtZ3V1Y0hvNUdkMlhQTzNzb1luRkpDR3NHZTBhRkt1Yl83VHE3N3YyZS0xUFBjN3JnZnlLbkh3RFJEWEYzYXl4UHl1eEZGYndGZHpBQzVvN2FGbmpiMmxLdG04a3ZCNE9EcUlxSkN0NXRmV0dWOW52UnJOZHluRDFCTmQyOE9IeEdvemtaSnJ2SU1QN28ybkp0eGJMc0JnMVk1ZHBZanViaDR3Zw?oc=5",
-        "domain": "bloomberg.com",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260822T131526Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "Secret White House bunker undercuts Trump’s ballroom lawsuit, ex-officials say",
         "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPRG0yU1RpS1pST0xTRjJxS0lqT1ZEbEhuVzlsb2xGOWVGVEJXTExGVzZXSDRER0l4dW42VWMtY255Z1o4SG9ZNmo2ODlTRWNjR2pVWVAyVEx1eHhrSVpTWVpPUTFiMzJ5X2VPRS03RlZkMlVuNTNNN1V1d1VPaTczRWxpWUh2YUdKcFJaX1NOazA0QUpMR1BxeFlGcnBCTGFCcER4em1qWDRFZUVTMmNERWVjTmpBcFpYR1hRZUtpX2JfYlpIa0Rr?oc=5",
         "domain": "thewashingtonpost",
         "language": "",
         "tone": 0,
-        "seendate": "20260824T020536Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Donald Trump Effectively Just Told Iran to Get a Nuclear Weapon",
-        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxONlFja2NaTHRyRFF2WEFpcVRsbVg3YmxzTzFsdmc1aHo2eHRoN29GcWxLT05BMTR1ckZ0Rk9GTDVWZ0E4UXlRZXliRFJIUUdERjNmOVBFN0RCQ1lnZ1JhZWlobVhnMGh0cDNxRTJPTzVxS1BET2NCYTlVakhFQ2pSQ1hpTUNMM09EalpMUDN0cUp0Y3M?oc=5",
-        "domain": "theatlantic",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260820T165443Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Trump says Kim Jong Un has 57 ‘very powerful’ nuclear weapons. Seoul says he has far more.",
-        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOa3hnbzBhWlNmQk9seXpDZXI5ZlE4N1UtTmRiTzNjaG9aNzRvOFU5R21QRXNIT3Z6a1ljV0V6WHBvdlNzZXRONmJzZV9KcmJNMExqaVhPaG5kODRmUjRfOXI5ZjhNNVRlQ1NxYjFUelV0VmtVcFVBZk9vUlZlV2pfS3ZjbXZhM2cxMWdMc1dQZnB2VndEVzhtc1FZNnY1NWVDNGlDYllvMWZVN1FyUF9SZE9odw?oc=5",
-        "domain": "nbcnews",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260820T095234Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "OPED-NUCLEAR-TENSIONS-REAGAN-COMMENTARY-FILEPIC-GET",
-        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPX1Q0TkJnQXdBTUMtTUJrdl9mRk9ORzB5TmkzbFBDR3I5Ym1jM3A4ZWVqQ2hlNE5TekoxMllZdnkwcldYczZFZFhsTHhHU3VjTE5yLS1haHYwSm9RTVFkRkE2azdzZVV0bGs1bTN6enVpcnRUNUZpRnJYTVVYUGFwR1IwZmh2bWpoekhjTzZQUV9pYkxDZWp3TUNnQUdOX2FOWHZGRnlUNnFxR0syQ0NEN1Rib0ZZeXp0OXUteUhfNG8tRnJSNWxB?oc=5",
-        "domain": "yakimaherald-republic",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260823T204927Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "53,000 Fukushima nuclear plant workers receive high radiation doses",
-        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNaW9Pb0otaXFHeHVlbUpIUkxVQUNkSTYtdlNCMEU0YVdZdl92c05tVUdjV0VjRWVUNzNiUHg5cWpxd1VLdERvTTBKNk5OekhaMVB2X1ZHR2Vjb1VvalloMDdtLVZ0N1BPTkJScFc2d2dpME56NUxGZy1FdGlQeENvdUp4MjVaZVdETWtLS01uTQ?oc=5",
-        "domain": "thejapantimes",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260823T224500Z",
+        "seendate": "20260824T055535Z",
         "source": "GoogleNews"
       },
       {
@@ -260,39 +224,84 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Hungary Paks nuclear plant could operate at full capacity by Wednesday, PM Magyar says",
-        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNZEJfVzdZd1FzS096TGhjb19XSF9hYnJfazRCOF8zeF9qMkJMOW5Bbm1ZSEwycjJiT1hXci05RFViS1haSDRObmdTb2dvdDVzZjY3SlNnQV80bjhrNEcyOVI5azhybnFpVlVrUmpDQTB4UHNrWURkdXQ3dklqZ2Vucm5ob3RiVTNSRGpqTVRxX0Z1R0gtTTJVb1BYYk8yajNBMFZ2N2FWOHdhYXYycFlsSHpuZzdnOEpPOVN3ckU1SWljVEp1bXdHSQ?oc=5",
-        "domain": "reuters",
+        "title": "Hungary Targets Reaching Full Capacity at Nuclear Plant Mid-Week",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOODVCalZsN0J0NlBqc21tTTZpYTlxMlpBMTBRVHJ3aTN1VkRmVTRoeHQ3Rmp2NjRtN1BJYjRzeE1Vc3pONWl2WktjdTBmSGpzZnltWmg4R01jcE1SME03YUZwaFFGdkh6V2tPdHFXd1JONkgyUlZwX05lbDNHWWFqVDVVOWVFREVXa2VDUWVVXzd0U2R5Sk16VE83MHNXWUFGZ0tjaDNYMW9WY1lSSXlkZkFiaUctZw?oc=5",
+        "domain": "bloomberg",
         "language": "",
         "tone": 0,
-        "seendate": "20260823T085543Z",
+        "seendate": "20260823T144429Z",
         "source": "GoogleNews"
       },
       {
-        "title": "Hitachi Stock and Other Nuclear Energy Picks Tied to Germany’s Power Demand",
-        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNOTZNMVFMZmhQUDQ5V0RxbEZjUXNDLUdfYXA3VnF6ZWJ5WjBLMW9sdi15WGhUVF9QaGwzTmZZUXN6bzhjS1lqWlhNbHVVWkFlOFdVUXBPcUxESkRvc0hSMzZnUzlEdk9COVRnbEVPTjdLZFJmdFJ2WlRjOXpyZlZzZnlvS094OHAtdUlza1QyeFFYbm5BWkcxOG1CVmNVTE9KVzNRUnNzd0txQTlqQTlWeEVWcmZqbHB6WUI0X0xDNDM2RjhrNm0yRDN1WlpacmR40gHWAUFVX3lxTFBfQUxON1hqUFllT3N0LXEzQWFqSVcxeDhFN05ZSWRiNjJhWVc3UDVqU3NkSkd4RFNKQnNpTDB5d2Q0c2VLZTBWcW00VWxzSDd5dVBRSEpocEFnYUNaQ0c3Zko1aFFRRnRDc2tEM29jOXZMSy1Dc1FrZWVRekhpdG40cmR6QTJHUEhuRERmazZjTnUta2QwRmhjXzJLMWhWOUVhbXZMRnhxalMyUVlrUzduZ0NlVGZNTXBzcjRLdEV1clYtMlVJWTFjOHZWY3R1QllXUnpSV1E?oc=5",
-        "domain": "simplywall.st",
+        "title": "Russia’s Rosatom Returns Workers to Iran’s Bushehr Nuclear Plant",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQbmlHVnlKQlJEd3UtZ3V1Y0hvNUdkMlhQTzNzb1luRkpDR3NHZTBhRkt1Yl83VHE3N3YyZS0xUFBjN3JnZnlLbkh3RFJEWEYzYXl4UHl1eEZGYndGZHpBQzVvN2FGbmpiMmxLdG04a3ZCNE9EcUlxSkN0NXRmV0dWOW52UnJOZHluRDFCTmQyOE9IeEdvemtaSnJ2SU1QN28ybkp0eGJMc0JnMVk1ZHBZanViaDR3Zw?oc=5",
+        "domain": "bloomberg",
         "language": "",
         "tone": 0,
-        "seendate": "20260823T225357Z",
+        "seendate": "20260822T131526Z",
         "source": "GoogleNews"
       },
       {
-        "title": "Trump’s “57 nukes” and the hollowing out of North Korean denuclearisation",
-        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOdk5JUzJLZjl3N1VjZEZpU1RybVprOXhRcGtuOHdObl9fQTE4Vy1tSGRhYno0THN6U3RTa2UzbXYtMk1ld2FVeHRLM3E5SWQwWGJiU2Mtd1hIUXJrZkppSmM3Yl9oQzFWVm5tV01oUlJYYnJJSTdTdE5kU3ctMG9zUW1ISTZZZ0lGVU5XWXJ2bGNEaFpNbzlfSy1RX1BkdUNtS0lrbGw5d0FVSnVuU2J4Z2NhekpoTHdESUdweUVNbHg4MFZm?oc=5",
-        "domain": "lowyinstitute",
+        "title": "Inside the Race to Build America’s First Nuclear Reactor in a Generation",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOc05nV0tYemxYMVBHajRjUXUtM0pWNjZLQ2F6MlBGdTZtUlc0ZjI4SGFBZWZQU1JHY3lRZTV5ZnVtTm1JcGJBM2puc1FsUWx0SWNKUnFLbTU2U1RLbnduWkRPZmFaWmtYazVvbldsTUJ5OHpaRVpYSnlOV2NzSEx2cGJ1TzZxU2Q3YzY1NVBrTmpvSnhqZFVsc0dGRmJUZXVXTFFmbTh4djR3OWYxNmgxekQ1NG9mRmtzbXc?oc=5",
+        "domain": "wsj",
         "language": "",
         "tone": 0,
-        "seendate": "20260823T170027Z",
+        "seendate": "20260818T185600Z",
         "source": "GoogleNews"
       },
       {
-        "title": "As nuclear tensions spread worldwide, Reagan’s lessons are more relevant than ever",
-        "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPM09URXpfWDFIMmpxQ3VpcXMtVFpfVEJVOWpneVl2YWk2dDA0N0ZXTFFvWDY4cl9QbUVPam1tdWlvdHY5aDZsMy1CSWZUSlk4X3ByYmYxRW1abVJRMDNBQnhRbkdMcVBuTGU5SGxwdFFDWWo1d293UHBIdThaR0FHeTMxUTFDb0pyZ1BRQV9jMDRJaEF0TVpHQkJob2pEVjA1MWRaMU9Sck00dk0yUjVHY3c2U2c0c0pLSDU4U3JwYnF5d1B1N3BCLWxxTkpLQUZaVFMxOU1PWE9IaVRNeDFjbzN1OHdINTdhZk5IZGxYd3kybHdSR3ZQdQ?oc=5",
-        "domain": "fairbanksdailynews-miner",
+        "title": "Books: ‘Nearshore’ blends surfing and nuclear warfare",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOVy1xVFhGRHdOclQ5T0UtZF9qeXFDYWc0eHRxbVJMd0xjUk8tc0RVS0N4ZmRINWR2RGV3TXY1WkltRVFidzU4elVaRlIyVDVBR1NKb3hQRUpHNzg4UmhJZFllSDJmOE1oQnZkSEVMU0M2MG9nOFNMQXR5UzhpT0VGUVY1ZmcyOGRtaFc0eHhkUnZmd1Zhb0phTzd4S0FFUnB3XzZERTFuOG5oR0ZBQlhxcnpzcW8?oc=5",
+        "domain": "montereyherald",
         "language": "",
         "tone": 0,
-        "seendate": "20260823T140000Z",
+        "seendate": "20260823T160431Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "53,000 Fukushima nuclear plant workers received high radiation doses: report",
+        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNaW9Pb0otaXFHeHVlbUpIUkxVQUNkSTYtdlNCMEU0YVdZdl92c05tVUdjV0VjRWVUNzNiUHg5cWpxd1VLdERvTTBKNk5OekhaMVB2X1ZHR2Vjb1VvalloMDdtLVZ0N1BPTkJScFc2d2dpME56NUxGZy1FdGlQeENvdUp4MjVaZVdETWtLS01uTQ?oc=5",
+        "domain": "thejapantimes",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260823T224500Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Trump's outreach to Kim signals shift in nuclear policy, raising risks for Seoul: experts",
+        "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBkUzJwZjdlaTY5c3NFT3hiVlBNd3J6aC1oUG9uTkNacFNFVDZtcGpNcWdiOWtUUnl4dGlrcnpYQlc1dWJOVTNCZXl1R1dhM2NJMnVBOUpzTQ?oc=5",
+        "domain": "thekoreaherald",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260824T062445Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Trump plays nuclear poker with Kim Jong Un — but who holds the cards?",
+        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNNjRjQ1dNWlVDZ2xuVzBlRjB2YVRxb1hUXzNpNkhORWlDOUV0Zk5ZaGVCdlVFQTRsYmNMT0plNmFvQzRxWl8yUkoxY1FtMGIyMVdwZTdNZE4wdUxTSHhjZGNyMVhjaVluV1ZoNWtCc0IxSUpFYjZmTjBjUE9IaGVaMnUycXZtN1VETjRJaVJDTdIBlAFBVV95cUxQZEpCM3p6WFcyY3FDUHlHZjF5Rmh6Si1CaTh3dVE5Z0VQWmNEZ0N0OS1WSjZZcGhHZmFSYVhiMVhNeDRSQmFlQTY0YWJCRVFpLXliZTc0cU9PeENjcTN5dmoxUWZmNGpRWkpEdjNPX1RPTzhGUFFfQ3lmU0F5YVoxRGJVVmdnWDZ6YU1BSUhPakJIZmxh?oc=5",
+        "domain": "foxnews",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260823T090046Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "OPED-NUCLEAR-TENSIONS-REAGAN-COMMENTARY-FILEPIC-GET",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPX1Q0TkJnQXdBTUMtTUJrdl9mRk9ORzB5TmkzbFBDR3I5Ym1jM3A4ZWVqQ2hlNE5TekoxMllZdnkwcldYczZFZFhsTHhHU3VjTE5yLS1haHYwSm9RTVFkRkE2azdzZVV0bGs1bTN6enVpcnRUNUZpRnJYTVVYUGFwR1IwZmh2bWpoekhjTzZQUV9pYkxDZWp3TUNnQUdOX2FOWHZGRnlUNnFxR0syQ0NEN1Rib0ZZeXp0OXUteUhfNG8tRnJSNWxB?oc=5",
+        "domain": "yakimaherald-republic",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260823T204927Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Nuclear power is China’s key for transitioning to a fully renewable grid design",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOX3ZCaXNERFhlRjZGV1pnN0JlemZHUmtEMlRKazdjVHNGMmhwNHlxQTdGN2x6TndrZVdmVEU2U1BtbzJrZ2c1U0ZqNHJiclFwaU1YeTNUM3lkdHhrTjk2LTIxN3RCQlc0cjlVa0pGUXB2bkw3T3FLTUZERVoxOTRVMXgxX3NKZnFCbE1paFJQRG5VLW9rMERJT0pERHpvUG9kT1RFcThtM3JpS2k0UmRMbXMydThlQQ?oc=5",
+        "domain": "fastcompany",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260823T101357Z",
         "source": "GoogleNews"
       },
       {
@@ -314,39 +323,21 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Urenco breaks ground for new enrichment capacity",
-        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNQU9LbmhMeWVNNHNUeWh0WEpmVUs1WDZ4YTJBNFI4SmN4ZkhnSlJuZTQ2dl9uZmZtdzIwQVBLUkNvRmhGMmJyNFBMTU93Y21WQTcxU0g4M1hzbXpaZUU2Vl9yX2pyRy00OHYyVG51V0FoV094MWZqaWN0UkpnYk14Z1dwMFNhd3NCYmE1YjMyU3hXX0J0OXNR?oc=5",
-        "domain": "worldnuclearnews",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260819T145328Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Hungary to Restart a Nuclear Reactor as Danube Starts to Rise",
-        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPaWc1UEczOHF5SGoyRU5DRngwWU1Hb2YyVXVUV2NQdkRXeWhnc2ZKR2tUaHdrTm02U2VwWl9PenRoVHdQZ056TlRNRGVzc3BuWGpvSUZKOHVWOGRJWVpjU3dIRzBwU3JQRTlzT0t1TnVkejQxM2F6LUFEUFBLQW9ReE5SOGg4S2VNdVRwT3M5bm5tTFVMRmg0QW4xQXVWVkdiT3JVSHVkRF9WT0F3cklMWm5CQVBnU2F1bmpiSGln?oc=5",
-        "domain": "energyconnects",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260823T080508Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Jellyfish shut down a French nuclear reactor twice in a row, but they are far from the only animals targeting our infrastructure",
-        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBjSTBGMTc2UncxRE5OZjVpUmJTeDJ5RjZTcmF4TnJjMEZiSExCZy1zbHVoTUhTYlVBUlpnOVl6VmZscFM1dzhiYjBsQ0lzSlA5eUQyWGtzaDFBTmQxdmw1dXY1QnRVWTZyRU1RZVpnZExfbngwdWc?oc=5",
-        "domain": "energiesmedia",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260823T134055Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "Civil Nuclear Credit Award Cycle 1",
         "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFA2OXlPQk5UZ3k1elRBNExFM3hpYmVHbjU5OGVfYTJXOW5DSzFwVWJEVk55WU1lTktiTndxQ0xfRFAwMHhwUUFZMmtyR2swcV9lRHR1M050QkR1WEpzSEE0YXdUajRQdnlaeDZ2Ug?oc=5",
         "domain": "departmentofenergy.gov",
         "language": "",
         "tone": 0,
         "seendate": "20260814T070000Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Urenco breaks ground for new enrichment capacity",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNQU9LbmhMeWVNNHNUeWh0WEpmVUs1WDZ4YTJBNFI4SmN4ZkhnSlJuZTQ2dl9uZmZtdzIwQVBLUkNvRmhGMmJyNFBMTU93Y21WQTcxU0g4M1hzbXpaZUU2Vl9yX2pyRy00OHYyVG51V0FoV094MWZqaWN0UkpnYk14Z1dwMFNhd3NCYmE1YjMyU3hXX0J0OXNR?oc=5",
+        "domain": "worldnuclearnews",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260819T145328Z",
         "source": "GoogleNews"
       },
       {
@@ -359,12 +350,21 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Hungary to Restart a Nuclear Reactor as Danube Starts to Rise",
-        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQcWJXVm5HNm8zSEJBakhKNTFia0hLRjZEaklEMFlTV05oay1oS21DbXMxWnY5YW5YMnVvZnk5OTVyM0h0RDBrSVRsRVQ4MVNXY3h1cE04bG9TcV9sZ21LOHBTUnBEWUw1WkNOeEtpVkZnWWdtYTJqTk5pZEdoN09IeHJMTDczQ3lLUmJERDhjVmJPOVd1RlVzdnNoQTNENXB2cWxKUzc4YVFqQmhqQWZTX2R3?oc=5",
-        "domain": "bloomberg.com",
+        "title": "Trump’s “57 nukes” and the hollowing out of North Korean denuclearisation",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOdk5JUzJLZjl3N1VjZEZpU1RybVprOXhRcGtuOHdObl9fQTE4Vy1tSGRhYno0THN6U3RTa2UzbXYtMk1ld2FVeHRLM3E5SWQwWGJiU2Mtd1hIUXJrZkppSmM3Yl9oQzFWVm5tV01oUlJYYnJJSTdTdE5kU3ctMG9zUW1ISTZZZ0lGVU5XWXJ2bGNEaFpNbzlfSy1RX1BkdUNtS0lrbGw5d0FVSnVuU2J4Z2NhekpoTHdESUdweUVNbHg4MFZm?oc=5",
+        "domain": "lowyinstitute",
         "language": "",
         "tone": 0,
-        "seendate": "20260822T161449Z",
+        "seendate": "20260823T170027Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "How AI is giving nuclear power a second chance",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOMTZ0VHlUWVZyYlFEaHVjT1Bzc05rNWhpeTdNM3RIMkR0anJFTnRxU3RuNm1SS2RVTnBiT2p6RnJJOFRyeFRCaVItTl84QnUzVmxwR2toQndXREdObUR1Ul9VLVNxenlqSkpzRVRXQjBoUU44MlA2OVBlbWV6NVRjeGZFNmNZSjZXT2R2QWV30gGWAUFVX3lxTE0xRlhxSDRSN04tYkwzdE5CVE1hY2toSGJHb24xd1U2MkItSEIzVnJ6RXBRSWFuTE5NQ0lOeHdZUWEyWEs5MmJuZkFJdUl1VF94R1JmTnN0QzdqVzhpLW1rZnZBMHBXRFR4dm9fTTFJNXY2bWwxcUNuMlRTWVJaWXhkd2lFV1pZd05iYUpGdHBBMnlES2N1UQ?oc=5",
+        "domain": "batonrougebusinessreport",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260821T140747Z",
         "source": "GoogleNews"
       },
       {
@@ -386,30 +386,30 @@
         "source": "GoogleNews"
       },
       {
-        "title": "The Ukraine and Iran wars expose fundamental flaws in nuclear deterrence",
-        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQMlVyYXl3WmdYeHRMdm9vRFNyMkEzVzdZbGlUWDg2ZUJjMEJ1a0FqQXF4MEp6cTdIUEtaeHBCVzFvTXd0T09PVloyMmI1aFZCM0xSeS1yV2Y3bWJjb1V4Mk8tazVfV1RsYlNCUzI3UkZ2M2JmOU9kQ2R3ZEFqZHBOdjA4Rmc4cEtSdGlwUmZ6aG00MHFuZ0Z0R0huSWMzSXdTN0Rwbw?oc=5",
-        "domain": "newsweek",
+        "title": "Hitachi Stock and Other Nuclear Energy Picks Tied to Germany’s Power Demand",
+        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNOTZNMVFMZmhQUDQ5V0RxbEZjUXNDLUdfYXA3VnF6ZWJ5WjBLMW9sdi15WGhUVF9QaGwzTmZZUXN6bzhjS1lqWlhNbHVVWkFlOFdVUXBPcUxESkRvc0hSMzZnUzlEdk9COVRnbEVPTjdLZFJmdFJ2WlRjOXpyZlZzZnlvS094OHAtdUlza1QyeFFYbm5BWkcxOG1CVmNVTE9KVzNRUnNzd0txQTlqQTlWeEVWcmZqbHB6WUI0X0xDNDM2RjhrNm0yRDN1WlpacmR40gHWAUFVX3lxTFBfQUxON1hqUFllT3N0LXEzQWFqSVcxeDhFN05ZSWRiNjJhWVc3UDVqU3NkSkd4RFNKQnNpTDB5d2Q0c2VLZTBWcW00VWxzSDd5dVBRSEpocEFnYUNaQ0c3Zko1aFFRRnRDc2tEM29jOXZMSy1Dc1FrZWVRekhpdG40cmR6QTJHUEhuRERmazZjTnUta2QwRmhjXzJLMWhWOUVhbXZMRnhxalMyUVlrUzduZ0NlVGZNTXBzcjRLdEV1clYtMlVJWTFjOHZWY3R1QllXUnpSV1E?oc=5",
+        "domain": "simplywall.st",
         "language": "",
         "tone": 0,
-        "seendate": "20260823T090000Z",
+        "seendate": "20260823T225357Z",
         "source": "GoogleNews"
       },
       {
-        "title": "The US Navy Aircraft Carrier USS Enterprise Has 8 Nuclear Reactors. Every Carrier Built Since Has Had 2. And Now She Needs to Be Scrapped",
-        "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxOMmtSZmdaOGRMakloNlA5V1BMMkR0UzRSc01WT1g0WjBHUUgyYm5yOXR4V09qU0xWQ0Z2Y2FpNEszcWVYSkY2U21ZblhCdkFKVjVCRFl0TTFmZHAzOFk1N05uekN3RDFlcW9XNVBpTVpQLVZMUE05ZGhUVnBmbjltS3czaUhqVGJFVExKRTY1c2xnY1F0YzZyMWliU1AwajZoa3I0R3hvQV8tbTJOaU9OM0RTTENXN3JEdnFNZkxKOTVTVDNtcjIxdjNmY3N5Y3hFNG0xa0o2MnNMYjBEbS1mTEhyRElGV3FMYVRfYmNxYjJZLS1PaGc1bzFaMDVGczVUaGc?oc=5",
-        "domain": "19fortyfive",
+        "title": "Hungary to Restart a Nuclear Reactor as Danube Starts to Rise",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQcWJXVm5HNm8zSEJBakhKNTFia0hLRjZEaklEMFlTV05oay1oS21DbXMxWnY5YW5YMnVvZnk5OTVyM0h0RDBrSVRsRVQ4MVNXY3h1cE04bG9TcV9sZ21LOHBTUnBEWUw1WkNOeEtpVkZnWWdtYTJqTk5pZEdoN09IeHJMTDczQ3lLUmJERDhjVmJPOVd1RlVzdnNoQTNENXB2cWxKUzc4YVFqQmhqQWZTX2R3?oc=5",
+        "domain": "bloomberg",
         "language": "",
         "tone": 0,
-        "seendate": "20260823T144003Z",
+        "seendate": "20260822T161449Z",
         "source": "GoogleNews"
       },
       {
-        "title": "India's Corporate Heavyweights Go the Homegrown Reactor Route for a 100 GW Nuclear Target",
-        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOYjJTSG94alNpTHZWS1kwcDVFcEtLcFRmUDlFQTB4elJPQUN3UFdyb2xqU21pYk44WkFmcGk5eVVsY2dVdm5tQ29DU2VDTDg1VXNFM082MGI3VWpaalZBa2h4cGZ6TnRmeWNnWnJ0alNEWE52TjN5dW1kdHd1Z2xpR2JXZGlhbzlUa3FqNkZRSTBkdw?oc=5",
-        "domain": "briefsfinance",
+        "title": "AI Demand Fuels Global Nuclear Fusion Investment Surge",
+        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNdm5ub0Z3NUhVdmxLa1JENTNHajQxWWtpcEpwME9MODdFbDVLUDNKM1Z4SUxRbmdiUkQ3blJGRE05aFNjZm0xTzFUQVR5eXVGQnZIRVVLNkVqSzJ4RjFnSTVsV0FXQmJxcWdRVVY2WG9VM1hEeGhSTHozbUlQcU4tTm4xWHJWM3ps?oc=5",
+        "domain": "news.google.com",
         "language": "",
         "tone": 0,
-        "seendate": "20260823T160401Z",
+        "seendate": "20260824T050515Z",
         "source": "GoogleNews"
       },
       {
@@ -422,30 +422,30 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Nuclear Maritime Propulsion: Investment Implications of Port Corpus Christi's Endorsement - News and Statistics",
-        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQUGNBZjZiUkFiU1h1WWk3VjdpRjZXRnZOc1ZWeFdqLWZmQWNGS0VrZmwzbk84aG5TdjU2QTdwREZtQnduMDlwSTdhakZDSHdDcFdMeENEQ0JlZ0ZTRWI1LXRlNlo0czY1LUg5ZDItOEhkalBwN0pRZ2NlWWI3UTFrTllXLURVWlVGRkRXTWo4SlZwekhiUTk1RVVwcUdaTHowNTA1ZGR0cnh5Tl9vRjNXcXMzaWFxSklLcUxXTg?oc=5",
-        "domain": "indexbox",
+        "title": "As nuclear tensions spread worldwide, Reagan’s lessons are more relevant than ever",
+        "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPM09URXpfWDFIMmpxQ3VpcXMtVFpfVEJVOWpneVl2YWk2dDA0N0ZXTFFvWDY4cl9QbUVPam1tdWlvdHY5aDZsMy1CSWZUSlk4X3ByYmYxRW1abVJRMDNBQnhRbkdMcVBuTGU5SGxwdFFDWWo1d293UHBIdThaR0FHeTMxUTFDb0pyZ1BRQV9jMDRJaEF0TVpHQkJob2pEVjA1MWRaMU9Sck00dk0yUjVHY3c2U2c0c0pLSDU4U3JwYnF5d1B1N3BCLWxxTkpLQUZaVFMxOU1PWE9IaVRNeDFjbzN1OHdINTdhZk5IZGxYd3kybHdSR3ZQdQ?oc=5",
+        "domain": "fairbanksdailynews-miner",
         "language": "",
         "tone": 0,
-        "seendate": "20260824T001100Z",
+        "seendate": "20260823T140000Z",
         "source": "GoogleNews"
       },
       {
-        "title": "Earth’s outer core is an ocean of liquid metal whose volume roughly equals that of Mars. Seismic waves from repeated French nuclear tests at Mururoa have now revealed parts of it changing over only a few years: signals arrived up to 0.2 seconds early or late,",
-        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNZkNGcHV6YnpLZFBIcXBOMG10NnhuOE9NaXNJWGxiMWxRSXhkX3YtVTUtMHdNaWdUVHJkZERYcHNZOW40cGZmYUs1UzNIajktY2Y4cEs0WTVCUFR4ek5sLTlPV1VyMzgwQUNLeTFLZ3Vkd09Zdjk1MGR0UE5XMVdNeU9SVUlvUQ?oc=5",
-        "domain": "spacedaily",
+        "title": "Hungary’s 2 GW nuclear plant nears full capacity as drought eases",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPajk5WnF3YVFDWWdnMzFOODE0dURESDVlOFo4cjNXSGQ2Sm5QbUhwZGMzS2x0VTZaTWQtQzZrWXdQY0lZdGZZNWU2ZXJJUUU4dDdiOEctV2s5MkpuRU1BRzdpVXVfR2VNWVk1Y1hIbUV1YlFpek1NdUJCTjRBcHI0Z2pSX1hNbFdrODgwbk9JdHBqQk5YbzJsZ20yUXdTM1gwQ2EyRGVqWXBvUmY2dFJNeC13bjJfc19VVXZWQ0NidTd5aXZYWjJwVA?oc=5",
+        "domain": "montelnews",
         "language": "",
         "tone": 0,
-        "seendate": "20260823T180000Z",
+        "seendate": "20260824T055353Z",
         "source": "GoogleNews"
       },
       {
-        "title": "Is Iran Moving Toward a Nuclear Bomb?",
-        "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBYcVA0cWdIRmlSQ1RuT09Idk43ZUxiUDBwTjF3akc4ZGxxN0ZEU2ZoaFF1STBrTUZBaGRfWFZhOUlTMVJpTHZhRWNoQnBGLXZ3REJlWG9qMkNzNGhqRjJyXzRqaXNFbjA?oc=5",
-        "domain": "wananewsagency",
+        "title": "EDF authorised to prepare site for two new nuclear reactors in France",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPYWtKSlJrSE1xYmpCS1RkZmxVcGhXNW41dWFxVEsyemM2SC1EQ2JFTWozZFFBZlNpeVZyam1SS3diME1jMU5OV2FLNmx2WC1aODRUSHhudjJOV0YzSzRKenVRUm1KSDB5VHFnQjBFU2t1SG1Da2xXcUVWWVNXcjk3R0NGRjVubmc0cnRwWjlndUc1SnR3ZFVlNDAwUmg1Zk5INWZzN1BEbkVfVHZobVg5X1pSblI2ck84UGlULTh5NzJmUQ?oc=5",
+        "domain": "euronews.com",
         "language": "",
         "tone": 0,
-        "seendate": "20260823T095006Z",
+        "seendate": "20260822T120033Z",
         "source": "GoogleNews"
       },
       {
@@ -458,21 +458,21 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Trump plays nuclear poker with Kim Jong Un — but who holds the cards?",
-        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNNjRjQ1dNWlVDZ2xuVzBlRjB2YVRxb1hUXzNpNkhORWlDOUV0Zk5ZaGVCdlVFQTRsYmNMT0plNmFvQzRxWl8yUkoxY1FtMGIyMVdwZTdNZE4wdUxTSHhjZGNyMVhjaVluV1ZoNWtCc0IxSUpFYjZmTjBjUE9IaGVaMnUycXZtN1VETjRJaVJDTdIBlAFBVV95cUxQZEpCM3p6WFcyY3FDUHlHZjF5Rmh6Si1CaTh3dVE5Z0VQWmNEZ0N0OS1WSjZZcGhHZmFSYVhiMVhNeDRSQmFlQTY0YWJCRVFpLXliZTc0cU9PeENjcTN5dmoxUWZmNGpRWkpEdjNPX1RPTzhGUFFfQ3lmU0F5YVoxRGJVVmdnWDZ6YU1BSUhPakJIZmxh?oc=5",
-        "domain": "foxnews",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260823T090046Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "Scoop: U.S. brokers secret deal on clandestine Syrian nuclear site",
         "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBmd1BzQTNERk10a0Nla0xsaFc2cEoxZ2d2N3p3QmMtMjd2bmVJRkxiMVFEdlBDSmQyYjhXeE1lOVBaUllkZ2J0c2Vpd1hXTEJxWFM2VHhfRko4anVwWnlEMC1xNTVXTDBoOFd0LWljcTNJU0k?oc=5",
         "domain": "axios",
         "language": "",
         "tone": 0,
         "seendate": "20260810T070000Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Scott Bessent Says Trump Dismantled Iran's Military, 'Buried' Its Nuclear Program as Economic 'D-Day' Beg",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPNU9xUm45TEtnUWZZZGJTNkdTX1ZINXVrd09ERjFjNHhtT25DRHhuZF84akVSaC13aE83U2hveTN5alpNaEdyUmhrb3JiZmpXSVM0WG9jMnh3VklYYkVWQ2RBX0xHTGdUbVRMMWYxZ01OdXI1RFRWZVBlRHgzalE3RUx6c29pTUpnX0JuNGY1RXhSUVhWQW1MT2psZ2xoSVhrVFM2cWhyNVZWRC11UnJ2UE9sQzdXYVdTMlBWYW0wY1Jsc0FY?oc=5",
+        "domain": "benzinga",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260824T062418Z",
         "source": "GoogleNews"
       },
       {
@@ -589,42 +589,6 @@
       "source": "GoogleNews"
     },
     {
-      "title": "Preventing and Managing Nuclear Risk in Northeast Asia",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPX3VqZ0FvRk5ybGhnTHdxVGxLSENNZEg3YmN4c1BJM0Q2UEI1elBkVXgzeF95V3BSRVFBR01YZnpwb2x1VHBOendlSTJlZjZLNTExcE5vZVZUSmRnTkQtUG1Rb3dqeVQ0am5ONzRXbjQxUFNjc2p2YzZ1UDFYU2JsbXVmOWZvcEhG?oc=5",
-      "domain": "todapeaceinstitute",
-      "language": "",
-      "tone": 0,
-      "seendate": "20260824T020237Z",
-      "source": "GoogleNews"
-    },
-    {
-      "title": "Finland open to talks on extending France's nuclear umbrella across Europe",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1tYV84YlZBOFdCRHRHRkpHY1RtMUFuLXVFM1F3RTlWbVBiaXMzSTYzVVdOazFWeGw5U3J3Nnc2VVY0Y1htYlRRbV9mZWxIaF9ZMS1jTXozdDlJdw?oc=5",
-      "domain": "japanwirebykyodonews",
-      "language": "",
-      "tone": 0,
-      "seendate": "20260824T013600Z",
-      "source": "GoogleNews"
-    },
-    {
-      "title": "Connecticut joins New England summit exploring future of advanced nuclear energy",
-      "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPSENpOThZV1UtRkdsTWJxRUM4QnRXd0ZOUlNjQmN6SEJUZUFZMUhZdjBwUlIyOFd2bmtHN1UweTdFSTFYeDh0ZlBud241eFk2dXRNbFJzRVBiUVBoUTN5eDZ1NlRwakNJWkdNLVpHTVRpWVFuUFRHRmU5bDlfeU9qY2ItMVBkTElQUDh6TndYbTZOaV80RlBVQTQ2QTFsajVTS2RIQUR1WnVVWElvOGlmVXNSZGZzdldYdXVsa0lZSWRwQ3B0U01fVmgwWi1vSHUyTng5MlRjamVXeHdrVTZRWWFHRHg0N29nQmY1SXcxYkJzMENR?oc=5",
-      "domain": "fox61.com",
-      "language": "",
-      "tone": 0,
-      "seendate": "20260824T000200Z",
-      "source": "GoogleNews"
-    },
-    {
-      "title": "Oil major Eni bets on nuclear fusion becoming its ‘next refinery’",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPQy12WTkzOE5wZGh1eU9QMVFtM1VWOXl0TVJHdFlEOFdSOGZJeFJSN19wdng0aVFPbU5SLTYwT3RXTC05bGcyRnFkMXFEeU5wUXhUUHRlZTNyclUxSC1UbjhtNFg1MUh0NUhpaGJOZm5LQXRGRktkeVNUcGJkUnpBQUZYVGs?oc=5",
-      "domain": "financialtimes",
-      "language": "",
-      "tone": 0,
-      "seendate": "20260823T100008Z",
-      "source": "GoogleNews"
-    },
-    {
       "title": "Iran security chief hints at nuclear doctrine shift after US attacks",
       "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBZRWZQQjlaOGQ0TVljZE5OZ3J3OFRLZmEtS0JFcTMyM2VyTnpVRXZZLW9UY21xdjNmVXdVV1k4SzJ0RVlkWFVvZngzbkV0RTdCbXc?oc=5",
       "domain": "iraninternational",
@@ -634,12 +598,30 @@
       "source": "GoogleNews"
     },
     {
-      "title": "Donald Trump has made the world go nuclear",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPcUZDVmJFQnI4QnNHYmNjcDhYeXhXeDgwQW0yLXpsSFZVVHhnbEJndTMtbTRrWFdGeGFNT1ZSVmpZTlpBMEFrRGhTeG9mWTEtRWpxVkM5aDZfWU05aHgyUEg2dm9xbGdQeGtIbXl5NTlOT1VQZVF0cXd5dlZqSkNqZW9n?oc=5",
-      "domain": "salon.com",
+      "title": "Preventing and Managing Nuclear Risk in Northeast Asia",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPX3VqZ0FvRk5ybGhnTHdxVGxLSENNZEg3YmN4c1BJM0Q2UEI1elBkVXgzeF95V3BSRVFBR01YZnpwb2x1VHBOendlSTJlZjZLNTExcE5vZVZUSmRnTkQtUG1Rb3dqeVQ0am5ONzRXbjQxUFNjc2p2YzZ1UDFYU2JsbXVmOWZvcEhG?oc=5",
+      "domain": "todapeaceinstitute",
       "language": "",
       "tone": 0,
-      "seendate": "20260823T104532Z",
+      "seendate": "20260824T020237Z",
+      "source": "GoogleNews"
+    },
+    {
+      "title": "Global Power Construction Spending Led by Nuclear, Wind",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNTzRRaVZsRE1DS1ZsNWRycHF6WmJCbmNZcVdGcDdPalZoZWRzVEd5YlNkLUc2REU1QWNDdFo5eWFySkRXb2dYaEt5YVFiUVpwbjNQN0dlVlYwd2djblMxV1NHUWt0emt2QmRmRGw1OG5aWjdoejVZV2Y1TDFjRWdBcTRQdkFBek5mYmhzRUh1ZV83QUgyd2FoUVAzbi1TRExnWWNMRkhBYktWQQ?oc=5",
+      "domain": "industrialinforesources",
+      "language": "",
+      "tone": 0,
+      "seendate": "20260824T070231Z",
+      "source": "GoogleNews"
+    },
+    {
+      "title": "Finland open to talks on extending France's nuclear umbrella across Europe",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1tYV84YlZBOFdCRHRHRkpHY1RtMUFuLXVFM1F3RTlWbVBiaXMzSTYzVVdOazFWeGw5U3J3Nnc2VVY0Y1htYlRRbV9mZWxIaF9ZMS1jTXozdDlJdw?oc=5",
+      "domain": "japanwirebykyodonews",
+      "language": "",
+      "tone": 0,
+      "seendate": "20260824T013600Z",
       "source": "GoogleNews"
     },
     {
@@ -661,6 +643,33 @@
       "source": "GoogleNews"
     },
     {
+      "title": "Hungary Paks nuclear plant could operate at full capacity by Wednesday, PM Magyar says",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNZEJfVzdZd1FzS096TGhjb19XSF9hYnJfazRCOF8zeF9qMkJMOW5Bbm1ZSEwycjJiT1hXci05RFViS1haSDRObmdTb2dvdDVzZjY3SlNnQV80bjhrNEcyOVI5azhybnFpVlVrUmpDQTB4UHNrWURkdXQ3dklqZ2Vucm5ob3RiVTNSRGpqTVRxX0Z1R0gtTTJVb1BYYk8yajNBMFZ2N2FWOHdhYXYycFlsSHpuZzdnOEpPOVN3ckU1SWljVEp1bXdHSQ?oc=5",
+      "domain": "reuters",
+      "language": "",
+      "tone": 0,
+      "seendate": "20260823T085543Z",
+      "source": "GoogleNews"
+    },
+    {
+      "title": "North Korea tears down South Korean churches, apartments at aborted nuclear site",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxORTFYc2s1SHpabDZVTk9VMFJ2anljZnRIUnRnMFNUNkEyTWlSOEFSeUN2emxIYU9hSGdTckRQbFFoNGVfeXZEM1RMZTJkY2l1RWtuLTE5UnFac1BMcHBHb2djSDZzSWpHcUtvOFRJdmVCN01QVHVxYWh6cXVwVUR4YUdubW1VOHBZc0N6NUd3bXdkb2xKNzk0ckF0ejhobEhTSVQ2UzV6WXNnM0U?oc=5",
+      "domain": "nknews",
+      "language": "",
+      "tone": 0,
+      "seendate": "20260824T064006Z",
+      "source": "GoogleNews"
+    },
+    {
+      "title": "Connecticut joins New England summit exploring future of advanced nuclear energy",
+      "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPSENpOThZV1UtRkdsTWJxRUM4QnRXd0ZOUlNjQmN6SEJUZUFZMUhZdjBwUlIyOFd2bmtHN1UweTdFSTFYeDh0ZlBud241eFk2dXRNbFJzRVBiUVBoUTN5eDZ1NlRwakNJWkdNLVpHTVRpWVFuUFRHRmU5bDlfeU9qY2ItMVBkTElQUDh6TndYbTZOaV80RlBVQTQ2QTFsajVTS2RIQUR1WnVVWElvOGlmVXNSZGZzdldYdXVsa0lZSWRwQ3B0U01fVmgwWi1vSHUyTng5MlRjamVXeHdrVTZRWWFHRHg0N29nQmY1SXcxYkJzMENR?oc=5",
+      "domain": "fox61.com",
+      "language": "",
+      "tone": 0,
+      "seendate": "20260824T000200Z",
+      "source": "GoogleNews"
+    },
+    {
       "title": "How a failed project could help solve the world’s biggest energy need",
       "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNc0dHbGQzVmM1ajJHZ3YwQlROcGxQWk1GRy1lRUdUMWt4THAzeDIwZDhJcE9BbGV1M3NlRk9URmNFb21MeEF3N0haOHExSWNON0djd3RtajdlYWxLUFM0U0ZZbzBqNk41QVJlU0pFYWkzVFZEOTJVci1JOWo1clZpYWFzWEktM1hrcVY3YVppckdWMjhYQ3ZKdWoyNmFoVTZVbE9fbUtn?oc=5",
       "domain": "thewashingtonpost",
@@ -670,39 +679,30 @@
       "source": "GoogleNews"
     },
     {
-      "title": "YOUR VIEW: The zero-carbon nuclear ‘bamboozle’",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNbkYwTk9TNVJlaW1EWVcwbGpYQjdBS3c1ZWo3U2pTQ3l4allua2g5Y09SS2hCdG8wM2JGRHQyRTVRMEhrb1V0UFlkOVhrU3k0OWFzeWtqMGc5MkNtWmZyS1pGZXZjbmNKLWdfTGYzLTFMYmZZdDJrMkFBSHVSTVVyNkxVM0VYcjQ?oc=5",
-      "domain": "plymouthindependent",
+      "title": "Oil major Eni bets on nuclear fusion becoming its ‘next refinery’",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPQy12WTkzOE5wZGh1eU9QMVFtM1VWOXl0TVJHdFlEOFdSOGZJeFJSN19wdng0aVFPbU5SLTYwT3RXTC05bGcyRnFkMXFEeU5wUXhUUHRlZTNyclUxSC1UbjhtNFg1MUh0NUhpaGJOZm5LQXRGRktkeVNUcGJkUnpBQUZYVGs?oc=5",
+      "domain": "financialtimes",
       "language": "",
       "tone": 0,
-      "seendate": "20260824T005747Z",
-      "source": "GoogleNews"
-    },
-    {
-      "title": "Proposed nuclear power merger, what it means for ratepayers in Connecticut",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQeVQ2X1dUMXVzQ3pnQXFIamZXaTZzb1RNMHE4N3NNZGQxRjQycnRJWHhYTDhVOGpIdGZObEJSS0xIUWNpMHpLaFZZZnR3alVuT05jY01ITTM3TlRXNTluUDVUZzBZVXBwTjRiMW5YT1BXRFFSd0Q4Si1iTGttdnJUaWo4cFR1VlhZUnQ1QURON2pBU1gwdEk4N1ZSS0stcTNWdUtKWGxUaENlOTNXeWotbkxjTXpPOWFk0gG-AUFVX3lxTE1UajZCUDdnNXR3WExXNllNcXhxNjVhSWV0TXZjRms4bTl1UUJWYnltbGNlWVBJT01GVEZPemdFNVpqcnBWcmNBbThXLTd0MzBSTVlTZjZFaXVPUDNTOENJNU5vM0tlekZYN05TZEJaN3MyYnBhRnRJNHZncWN0c1BCUzVVeGpJV1NEcS0wQW9EZ0Q5eHBzclZIRDhRdUFLbUZNZUJPODkxZGxrZk9WSlBLZXBUb1hCMEhfY0x1ZWc?oc=5",
-      "domain": "wtnh.com",
-      "language": "",
-      "tone": 0,
-      "seendate": "20260823T143000Z",
+      "seendate": "20260823T100008Z",
       "source": "GoogleNews"
     },
     {
       "title": "Hungary Targets Reaching Full Capacity at Nuclear Plant Mid-Week",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOODVCalZsN0J0NlBqc21tTTZpYTlxMlpBMTBRVHJ3aTN1VkRmVTRoeHQ3Rmp2NjRtN1BJYjRzeE1Vc3pONWl2WktjdTBmSGpzZnltWmg4R01jcE1SME03YUZwaFFGdkh6V2tPdHFXd1JONkgyUlZwX05lbDNHWWFqVDVVOWVFREVXa2VDUWVVXzd0U2R5Sk16VE83MHNXWUFGZ0tjaDNYMW9WY1lSSXlkZkFiaUctZw?oc=5",
-      "domain": "bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOb3hrSWVOdVk1Q3JUdTFkMXdDTnotUEFhYllhY01sMkcxUnhRZEFPbjc1ZFZFQkRhQUZZN1VVb1N0cTI4ZlhGR05Yc3hLWU5VbXYyaThtRWptbXgwUm56WDZyMjNYNEU0dVVlZDlIZ3ZaSU9SbDlBT05KcWxpd0xGYl9hTzBqUjZoOEl4YXN3eHdGSGV6dlgxZWgzeTN0ZXluN1llbUozMFhTUk5JUmViTkswVEVqWnJQTmlBU1E2c3k?oc=5",
+      "domain": "energyconnects",
       "language": "",
       "tone": 0,
-      "seendate": "20260823T144429Z",
+      "seendate": "20260824T054526Z",
       "source": "GoogleNews"
     },
     {
-      "title": "Books: ‘Nearshore’ blends surfing and nuclear warfare",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOVy1xVFhGRHdOclQ5T0UtZF9qeXFDYWc0eHRxbVJMd0xjUk8tc0RVS0N4ZmRINWR2RGV3TXY1WkltRVFidzU4elVaRlIyVDVBR1NKb3hQRUpHNzg4UmhJZFllSDJmOE1oQnZkSEVMU0M2MG9nOFNMQXR5UzhpT0VGUVY1ZmcyOGRtaFc0eHhkUnZmd1Zhb0phTzd4S0FFUnB3XzZERTFuOG5oR0ZBQlhxcnpzcW8?oc=5",
-      "domain": "montereyherald",
+      "title": "Donald Trump has made the world go nuclear",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPcUZDVmJFQnI4QnNHYmNjcDhYeXhXeDgwQW0yLXpsSFZVVHhnbEJndTMtbTRrWFdGeGFNT1ZSVmpZTlpBMEFrRGhTeG9mWTEtRWpxVkM5aDZfWU05aHgyUEg2dm9xbGdQeGtIbXl5NTlOT1VQZVF0cXd5dlZqSkNqZW9n?oc=5",
+      "domain": "salon.com",
       "language": "",
       "tone": 0,
-      "seendate": "20260823T160431Z",
+      "seendate": "20260823T104532Z",
       "source": "GoogleNews"
     }
   ],
