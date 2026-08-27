@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "nuclear-proliferation-watch",
-    "generated": "2026-08-27T21:23:42.361919+00:00",
+    "generated": "2026-08-27T22:36:48.688270+00:00",
     "mode": "live",
     "sources": [
       "IAEA official pages",
@@ -14,7 +14,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-08-27T21:23:42.353423+00:00",
+    "issued_at": "2026-08-27T22:36:48.679780+00:00",
     "horizon": "0-30 days",
     "classification": "nuclear-escalation-pressure-not-test-or-weapon-probability",
     "score": 12.0,
@@ -28,7 +28,7 @@
         "available": true,
         "score": 34.3,
         "current_14d_weight": 7.8,
-        "current_14d_titles": 26,
+        "current_14d_titles": 28,
         "baseline_periods": 8,
         "baseline_median": 0.0,
         "anomaly_z": 7.8,
@@ -135,6 +135,17 @@
     "history": [
       {
         "timestamp": "2026-08-27T21:23:42.353423+00:00",
+        "score": 12.0,
+        "level": "BASELINE",
+        "components": {
+          "iaea_safeguards_strain": 34.3,
+          "npwmd_designation_delta": 0.0,
+          "facility_security_incidents": 0.0,
+          "test_site_seismicity": 0.0
+        }
+      },
+      {
+        "timestamp": "2026-08-27T22:36:48.679780+00:00",
         "score": 12.0,
         "level": "BASELINE",
         "components": {
@@ -366,12 +377,12 @@
           "source": "GoogleNews"
         },
         {
-          "title": "Optimizing nuclear power reactor efficiency with LEU+ fuels",
+          "title": "Optimizing nuclear power reactor efficiency with LEU+ fuels | IAEA",
           "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOSWtXSnpBSEQtNEQ4QTJOLTV3MWgwTXMxUmFlQVFZaVV3Zm16clJCaFA4cXFmdEx3TFlvVGRYRFRnbDlqSE0xS09Ja0tjLU9TLXNYYWRBLVZXanZkdjdOTktEZnBXbVRHSXZnZkJDTHhvV3cwd285RGx4XzhybDItb1lDZWd3dlFycDVUTlhWYlE?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
-          "seendate": "20260522T233649Z",
+          "seendate": "20260815T025148Z",
           "source": "GoogleNews"
         },
         {
@@ -426,6 +437,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20260601T164650Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Supporting Analytical Capacity through Collaboration",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPMi1GWWhaLTdYVDdKQk4waEdJUlZIcmM4SDVXNGdiTVhIQTdFRFhUbm93anAyRE1yY2pLMENmNHdLc0ZneUoxT0kxYkZLb2k2NGFadEZ3UC1RVWo3c3VaNExFMXQzY29XRUg0RnJ1SnY5bWh5cGVMM191NkdiOURoX091Z1pfVkN2cTRuRTZvYm1xODU3cDNlaUhJNXlFeTlzRmZYS25jWDJlQQ?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260820T152024Z",
           "source": "GoogleNews"
         },
         {
@@ -624,6 +644,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20260729T070000Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Board of Governors | IAEA",
+          "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9Zd0V1MXBqbGV3VmFRQ2xnbkV3eF9YVjJoSUpXekdPRTd3OExGZ0gxTm0yMEs3aVNoYnJvQk1kRDIwZmptV1lQU0NCZXFfUQ?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20251014T203744Z",
           "source": "GoogleNews"
         },
         {
@@ -1083,24 +1112,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20260529T070000Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "Technical Meeting on Advancing Collaboration through the Global Partnership of Municipalities with Nuclear Facilities",
-          "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE56WDVmbHNUcDBwYm5IcWRybHVNYnR2cEl5ZjRmbEp2R1RJckdoZTdMSXQ1SHpoS1I2NWJTSHJJek0yX25FWTByX0xrU2Jkdw?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260127T205554Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "Healthy Soil, Healthy Crops in Seychelles",
-          "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1kRVV0LTA0NFR6cGthNmd4YlhMd2ViTlVpTGhOeUVVRmZSRWo5eFVGWDVmc1FVemFsbmgzWkd4TmRYTXRUY2c?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260717T070000Z",
           "source": "GoogleNews"
         }
       ],
