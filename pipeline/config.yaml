@@ -1,26 +1,14 @@
-﻿# Nuclear Proliferation Watch Configuration
 project:
   id: nuclear-proliferation-watch
   name: "Nuclear Proliferation Watch"
-  description: "Track nuclear material movement and facility expansion."
-
-openrouter:
-  model: "nvidia/nemotron-3-super-120b-a12b:free"
-  fallback_model: "z-ai/glm-5.2:free"
-
-news_query: "(nuclear OR enrichment OR IAEA)"
-include_forex: true
+  description: "Public-data early warning for nuclear-escalation pressure."
 
 sources:
-  - name: "Google News RSS"
+  - name: "IAEA official pages"
+  - name: "IAEA NEWS"
+  - name: "OFAC Sanctions List Service"
+  - name: "USGS Earthquake Catalog"
 
 refresh:
   interval_hours: 6
-  retry_attempts: 3
-
-scoring:
-  scale: "1-10"
-  thresholds:
-    high: 7
-    medium: 4
-    low: 0
+  retry_attempts: 5

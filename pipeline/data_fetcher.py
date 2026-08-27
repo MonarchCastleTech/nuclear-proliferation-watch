@@ -2,8 +2,155 @@
 """Shared data fetchers for MCT Intelligence projects."""
 import os
 import json
+import csv
+import hashlib
+import io
+import re
 import requests
+from bs4 import BeautifulSoup
+from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timezone, timedelta
+from pathlib import Path
+
+CACHE_MAX_AGE = timedelta(hours=72)
+
+
+def _cache_path(name):
+    root = Path(os.path.expanduser("~")) / ".cache" / "nuclear-proliferation-watch"
+    root.mkdir(parents=True, exist_ok=True)
+    return root / f"{name}.json"
+
+
+def _read_recent_cache(name):
+    try:
+        payload = json.loads(_cache_path(name).read_text(encoding="utf-8"))
+        fetched = datetime.fromisoformat(str(payload.get("fetched_at", "")).replace("Z", "+00:00"))
+        if fetched.tzinfo is None:
+            fetched = fetched.replace(tzinfo=timezone.utc)
+        if timedelta(0) <= datetime.now(timezone.utc) - fetched <= CACHE_MAX_AGE:
+            return payload.get("data")
+    except (OSError, ValueError, json.JSONDecodeError):
+        pass
+    return None
+
+
+def _write_cache(name, data):
+    _cache_path(name).write_text(json.dumps({"fetched_at": datetime.now(timezone.utc).isoformat(), "data": data}), encoding="utf-8")
+
+
+def fetch_iaea_signal_titles(max_results=100):
+    """Fetch official IAEA page titles through a public indexed feed."""
+    query = "site:iaea.org (safeguards OR enrichment OR inspectors OR undeclared OR verification OR proliferation) when:120d"
+    rows = fetch_google_news_rss(query, max_results)
+    official = [row for row in rows if row.get("domain") == "internationalatomicenergyagency" or "iaea" in str(row.get("link", ""))]
+    return {"signals": official, "query": query, "cached": False}
+
+
+def fetch_iaea_news_events():
+    """Parse the IAEA-hosted Nuclear Events Web-based System."""
+    try:
+        response = requests.get("https://www-news.iaea.org/EventList.aspx?ps=100", timeout=40, headers={"User-Agent": "nuclear-proliferation-watch/2.0"})
+        response.raise_for_status()
+        soup = BeautifulSoup(response.text, "html.parser")
+        events = []
+        for heading in soup.select("h4 a[href]"):
+            cell = heading.find_parent("td")
+            if not cell:
+                continue
+            header = cell.select_one("span.float-right-margin")
+            detail = cell.find("p")
+            metadata = " ".join((header.get_text(" ", strip=True) if header else "").split())
+            country_match = re.match(r"(.+?),\s*(\d{2}\s+\w+\s+\d{4})(?:,\s*INES:\s*([^,]+))?", metadata)
+            reported = re.search(r"Reported by\s+(.+?)\s+of\s+(.+?)\s+on\s+(\d{2}\s+\w+\s+\d{4})", detail.get_text(" ", strip=True) if detail else "", re.I)
+            href = str(heading.get("href") or "")
+            events.append({
+                "title": " ".join(heading.get_text(" ", strip=True).split()),
+                "url": "https://www-news.iaea.org/" + href.lstrip("/"),
+                "country": country_match.group(1).strip() if country_match else "Unknown",
+                "event_date": country_match.group(2) if country_match else None,
+                "ines": country_match.group(3).strip() if country_match and country_match.group(3) else None,
+                "reported_by": reported.group(1).strip() if reported else None,
+                "reported_date": reported.group(3) if reported else None,
+                "description": " ".join((detail.get_text(" ", strip=True) if detail else "").split())[:800],
+                "source": "IAEA NEWS",
+            })
+        if not events:
+            raise ValueError("IAEA NEWS returned no events")
+        data = {"events": events, "cached": False}
+        _write_cache("iaea-news", data)
+        return data
+    except Exception as exc:
+        print(f"[IAEA-NEWS] Error: {exc}")
+        cached = _read_recent_cache("iaea-news")
+        if cached:
+            cached["cached"] = True
+            return cached
+        return {}
+
+
+def fetch_ofac_wmd_snapshot():
+    """Download official SDN CSV and retain NPWMD program entries only."""
+    url = "https://sanctionslistservice.ofac.treas.gov/api/PublicationPreview/exports/SDN.CSV"
+    try:
+        response = requests.get(url, timeout=55, headers={"User-Agent": "nuclear-proliferation-watch/2.0"})
+        response.raise_for_status()
+        entries = []
+        for row in csv.reader(io.StringIO(response.content.decode("utf-8-sig", errors="replace"))):
+            if len(row) >= 4 and str(row[0]).strip().isdigit() and "NPWMD" in str(row[3]).upper():
+                entries.append({"id": str(row[0]).strip(), "name": str(row[1]).strip(), "type": str(row[2]).strip(), "program": str(row[3]).strip()})
+        if not entries:
+            raise ValueError("official SDN CSV contained no NPWMD entries")
+        publish = re.search(r"/(\d{4}-\d{2}-\d{2})/", response.url)
+        data = {"entries": entries, "count": len(entries), "publish_date": publish.group(1) if publish else None, "sha256": hashlib.sha256(response.content).hexdigest(), "cached": False}
+        _write_cache("ofac-npwmd", data)
+        return data
+    except Exception as exc:
+        print(f"[OFAC-NPWMD] Error: {exc}")
+        cached = _read_recent_cache("ofac-npwmd")
+        if cached:
+            cached["cached"] = True
+            return cached
+        return {}
+
+
+TEST_SITES = {
+    "Punggye-ri": (41.29, 129.09), "Lop Nur": (41.69, 88.42), "Novaya Zemlya": (73.40, 54.90),
+    "Semipalatinsk": (50.44, 78.75), "Nevada National Security Site": (37.12, -116.05),
+    "Chagai": (28.90, 64.95), "Pokhran": (27.10, 71.80), "Reggane": (26.72, 0.17),
+}
+
+
+def _fetch_site_seismicity(item):
+    site, (lat, lon) = item
+    start = (datetime.now(timezone.utc) - timedelta(days=365)).date().isoformat()
+    response = requests.get("https://earthquake.usgs.gov/fdsnws/event/1/query", params={
+        "format": "geojson", "starttime": start, "latitude": lat, "longitude": lon,
+        "maxradiuskm": 250, "minmagnitude": 1.5, "orderby": "time", "limit": 2000,
+    }, timeout=45, headers={"User-Agent": "nuclear-proliferation-watch/2.0"})
+    response.raise_for_status()
+    rows = []
+    for feature in response.json().get("features", []):
+        props, coordinates = feature.get("properties", {}), feature.get("geometry", {}).get("coordinates", [0, 0, 0])
+        rows.append({"id": feature.get("id"), "site": site, "site_lat": lat, "site_lon": lon, "time": props.get("time"), "magnitude": props.get("mag"), "magnitude_type": props.get("magType"), "event_type": props.get("type"), "place": props.get("place"), "url": props.get("url"), "lon": coordinates[0], "lat": coordinates[1], "depth_km": coordinates[2], "source": "USGS"})
+    return rows
+
+
+def fetch_test_site_seismicity():
+    """Fetch one-year USGS public seismicity around declared historical test areas."""
+    try:
+        with ThreadPoolExecutor(max_workers=4) as executor:
+            batches = list(executor.map(_fetch_site_seismicity, TEST_SITES.items()))
+        events = [row for batch in batches for row in batch]
+        data = {"events": events, "sites": [{"name": name, "lat": coords[0], "lon": coords[1]} for name, coords in TEST_SITES.items()], "cached": False}
+        _write_cache("test-site-seismicity", data)
+        return data
+    except Exception as exc:
+        print(f"[USGS-TEST-SITES] Error: {exc}")
+        cached = _read_recent_cache("test-site-seismicity")
+        if cached:
+            cached["cached"] = True
+            return cached
+        return {}
 
 def fetch_nasa_firms(api_key=None, region="world", days=1):
     """Fetch NASA FIRMS fire/thermal anomaly data."""

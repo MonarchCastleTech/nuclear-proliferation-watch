@@ -1,134 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Nuclear Proliferation Watch &mdash; MCT Intelligence</title>
-  <meta name="description" content="Open-source monitoring signals for nuclear facilities and proliferation risk.">
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nuclear Proliferation Watch — MCT Intelligence</title>
+  <meta name="description" content="Autonomous public-data early warning for nuclear-escalation pressure.">
   <meta name="theme-color" content="#071522">
   <link rel="canonical" href="https://monarchcastletech.github.io/nuclear-proliferation-watch/">
-  <link rel="icon" href="assets/product-logo.svg?v=2" type="image/svg+xml">
-  <meta property="og:title" content="Nuclear Proliferation Watch">
-  <meta property="og:description" content="Open-source monitoring signals for nuclear facilities and proliferation risk.">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://monarchcastletech.github.io/nuclear-proliferation-watch/">
-  <meta property="og:image" content="https://monarchcastletech.github.io/nuclear-proliferation-watch/assets/mct-mark.png">
-  <link rel="stylesheet" href="assets/style.css">
+  <link rel="icon" href="assets/product-logo.svg?v=4" type="image/svg+xml"><link rel="stylesheet" href="assets/style.css?v=4">
 </head>
 <body data-project="nuclear-proliferation-watch">
   <a class="skip-link" href="#overview">Skip to dashboard</a>
-  <header class="header">
-    <div class="header-brand">
-      <img class="brand-mark" src="assets/mct-mark.png" alt="Monarch Castle Technologies">
-      <img class="product-logo" src="assets/product-logo.svg?v=2" alt="Nuclear Proliferation Watch">
-      <div>
-        <h1 class="visually-hidden">Nuclear Proliferation Watch</h1>
-      </div>
-    </div>
-    <div class="header-meta">
-      <div class="live-dot"></div>
-      <span id="data-mode">Auto-refresh: 6h</span>
-      <span>|</span>
-      <span>Generated: <span id="generated-time">&mdash;</span></span>
-    </div>
-  </header>
-
-  <nav class="nav-tabs" aria-label="Dashboard sections">
-    <a class="nav-tab active" href="#overview">Overview</a>
-    <a class="nav-tab" href="#map">Map</a>
-    <a class="nav-tab" href="#llm-summary">Analysis</a>
-    <a class="nav-tab" href="#sources">Sources</a>
-  </nav>
+  <header class="header"><div class="header-brand"><img class="brand-mark" src="assets/mct-mark.png" alt="Monarch Castle Technologies"><img class="product-logo" src="assets/product-logo.svg?v=4" alt="Nuclear Proliferation Watch"><h1 class="visually-hidden">Nuclear Proliferation Watch</h1></div><div class="header-meta"><i class="live-dot"></i><span id="data-mode">Loading</span><span>·</span><span id="generated-time">—</span></div></header>
+  <nav class="nav-tabs" aria-label="Dashboard sections"><a class="nav-tab active" href="#overview">Early Warning</a><a class="nav-tab" href="#signals">Signals</a><a class="nav-tab" href="#methodology">Methodology</a><a class="nav-tab" href="#sources">Sources</a></nav>
 
   <main class="main" id="overview">
-    <div class="alert alert-info" id="status-message">
-      <strong>Intelligence Status:</strong> Track nuclear material movement, facility expansion, and procurement networks.
-    </div>
-
+    <section class="warning-lead card" aria-labelledby="warning-title">
+      <div><p class="warning-kicker">0–30 day public-data outlook</p><h2 id="warning-title">Nuclear-escalation pressure</h2><p class="warning-deck">Safeguards strain, official WMD designations, reported facility-security incidents, and tightly filtered test-site seismic anomalies. Not proof or prediction of a nuclear test or weaponization.</p></div>
+      <div class="warning-score" aria-live="polite"><strong id="warning-score">—</strong><span>/100</span><b id="warning-level">LOADING</b></div>
+      <div class="warning-meta"><div><span>Confidence</span><strong id="warning-confidence">—</strong></div><div><span>Forecast horizon</span><strong id="warning-horizon">—</strong></div><div><span>Cross-domain concurrence</span><strong id="warning-concurrence">—</strong></div><div><span>Data health</span><strong id="warning-health">—</strong></div></div>
+      <div class="warning-components" id="warning-components"></div>
+    </section>
     <div class="stat-grid" id="stat-grid"></div>
 
-    <div class="grid grid-map">
+    <section class="grid grid-map" id="signals">
       <div>
-        <div class="card">
-          <div class="card-header">
-            <div>
-              <div class="card-title">Global Activity Map</div>
-              <div class="card-subtitle">Geolocated coverage Â· updates every 6 hours</div>
-            </div>
-          </div>
-          <div class="map-container" id="map"></div>
-        </div>
-
-        <div class="card" style="margin-top:1.5rem">
-          <div class="card-header">
-            <div>
-              <div class="card-title">Trend Analysis</div>
-              <div class="card-subtitle">Signal activity by hour Â· current snapshot</div>
-            </div>
-          </div>
-          <div class="chart-container" id="timeseries-chart"></div>
-        </div>
+        <div class="card"><div class="card-header"><div><div class="card-title">Safeguards Strain Radar</div><div class="card-subtitle">Current 14 days against prior IAEA-title periods</div></div></div><div id="signal-radar" class="radar-list"></div></div>
+        <div class="card chart-card"><div class="card-header"><div><div class="card-title">Warning History</div><div class="card-subtitle">Accepted autonomous runs · 0–100 scale</div></div></div><div class="chart-container" id="timeseries-chart"></div></div>
       </div>
+      <aside class="sidebar">
+        <div class="card"><div class="card-header"><div><div class="card-title">NPWMD Snapshot Change</div><div class="card-subtitle">Exact entity IDs in the official OFAC program</div></div></div><div id="npwmd-delta"></div></div>
+        <div class="card"><div class="card-header"><div><div class="card-title">Active Alerts</div><div class="card-subtitle">Components above watch threshold</div></div></div><div id="warning-alerts"></div></div>
+        <div class="card"><div class="card-header"><div><div class="card-title">Current Evidence</div><div class="card-subtitle">Official titles and reported events</div></div></div><div id="event-list"></div></div>
+      </aside>
+    </section>
 
-      <div class="sidebar">
-        <div class="card">
-          <div class="card-header">
-            <div>
-              <div class="card-title">Source Activity</div>
-              <div class="card-subtitle">Domains ranked by signal count</div>
-            </div>
-          </div>
-          <table class="data-table">
-            <thead>
-              <tr><th>Source</th><th>Tone</th><th>Signals</th><th>Share</th></tr>
-            </thead>
-            <tbody id="entity-rows">
-            </tbody>
-          </table>
-        </div>
-
-        <div class="card">
-          <div class="card-header">
-            <div>
-              <div class="card-title">Recent Events</div>
-              <div class="card-subtitle">Last 24 hours</div>
-            </div>
-          </div>
-          <div id="event-list"></div>
-        </div>
-
-        
-
-        <div class="card">
-          <div class="card-header">
-            <div class="card-title">AI Analysis</div>
-          </div>
-          <div id="llm-summary" style="font-size:0.8125rem;color:var(--text-secondary)">
-            <p>Automated analyst brief will appear here once the next data refresh completes.</p>
-          </div>
-        </div>
-
-        <div class="card">
-          <div class="card-header">
-            <div class="card-title" id="sources">Data Sources</div>
-          </div>
-              <div id="source-tags">
-        <span class="tag-source">IAEA</span>
-              <span class="tag-source">Google News RSS</span>
-              <span class="tag-source">Satellite Imagery</span>
-              <span class="tag-source">ACA</span>
-              <span class="tag-source">Customs Data</span>
+    <section class="methodology" id="methodology" aria-labelledby="methodology-title">
+      <p class="warning-kicker">Reproducible by design</p><h2 id="methodology-title">Methodology</h2>
+      <p>The index estimates public nuclear-escalation pressure over the next 0–30 days. It does not estimate weaponization, a nuclear test, or the status of any facility. Inputs are public and rules are fixed before each run.</p>
+      <div class="method-grid">
+        <article><strong>35%</strong><h3>IAEA safeguards strain</h3><p>Predeclared access, verification, enrichment and non-compliance terms in official IAEA page titles; latest 14 days versus prior periods using median/MAD.</p></article>
+        <article><strong>25%</strong><h3>NPWMD designation delta</h3><p>Exact added and removed entity IDs between accepted official OFAC SDN snapshots, restricted to the NPWMD program.</p></article>
+        <article><strong>20%</strong><h3>Facility security incidents</h3><p>Attack, projectile, sabotage, loss and damage language in the IAEA-hosted Nuclear Events Web-based System.</p></article>
+        <article><strong>20%</strong><h3>Test-site seismicity</h3><p>USGS events score only if shallow M3.5+ within 75 km of a historical test area, or explicitly catalogued as nuclear explosion.</p></article>
       </div>
-      </div>
-      </div>
-    </div>
+      <div class="method-note"><strong>Aggregation.</strong> Available components are reweighted to 100%. A five-point concurrence bonus requires both an official indicator and an independent physical indicator above watch. Missing data is not scored as zero. Cached data expires after 72 hours; total IAEA failure preserves the last-good publication.</div>
+      <div class="method-note"><strong>Critical limitation.</strong> Seismic waveforms alone cannot identify a nuclear explosion. CTBTO uses seismic, hydroacoustic, infrasound and radionuclide evidence plus expert review. This dashboard makes no test claim without that verification.</div>
+      <div class="method-note"><strong>Reproduction.</strong> GitHub Actions runs every six hours, tests the model, commits accepted snapshots and output, then deploys the same file shown here. Formulae, evidence, scores and URLs are in <a href="data/output.json">data/output.json</a>.</div>
+    </section>
+
+    <section class="card sources-card" id="sources"><div class="card-header"><div><div class="card-title">Primary Sources</div><div class="card-subtitle">Official safeguards, incidents, designations, and public geophysics</div></div></div><div class="source-links"><a href="https://www.iaea.org/newscenter">IAEA official pages</a><a href="https://www-news.iaea.org/">IAEA NEWS</a><a href="https://ofac.treasury.gov/sanctions-list-service">OFAC Sanctions List Service</a><a href="https://earthquake.usgs.gov/fdsnws/event/1/">USGS Earthquake Catalog</a><a href="https://www.ctbto.org/our-work/international-data-centre">CTBTO method caveat</a></div></section>
   </main>
-
-  <footer class="footer">
-    <p>Nuclear Proliferation Watch &mdash; <a href="https://monarchcastletech.github.io/">Monarch Castle Technologies</a></p>
-    <p style="margin-top:0.5rem">Auto-refreshed every 6 hours via GitHub Actions &bull; Source data available in <code>data/</code></p>
-  </footer>
-
-  <script src="assets/app.js"></script>
-</body>
-</html>
+  <footer class="footer"><p>Nuclear Proliferation Watch — <a href="https://monarchcastletech.github.io/">Monarch Castle Technologies</a></p><p>Autonomous six-hour refresh · public methodology · versioned source snapshots</p></footer>
+  <script src="assets/app.js?v=4"></script>
+</body></html>

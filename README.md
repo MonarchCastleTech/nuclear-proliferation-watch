@@ -4,6 +4,16 @@
 
 Open-source monitoring signals for nuclear facilities and proliferation risk.
 
+The autonomous warning model estimates public nuclear-escalation pressure over a 0–30 day horizon. It is not proof or prediction of weaponization, a nuclear test, or facility status.
+
+## Reproducible model
+
+Four predeclared components: IAEA safeguards/access strain (35%), official NPWMD designation deltas (25%), IAEA-hosted facility-security incidents (20%), and tightly filtered USGS seismic anomalies near historical test areas (20%). Available weights are renormalized. A five-point concurrence bonus requires both official and physical elevation.
+
+Seismic events score only if shallow M3.5+ and within 75 km, or catalogued explicitly as a nuclear explosion. Even then, the model makes no nuclear-test claim: CTBTO radionuclide evidence and expert analysis are required.
+
+GitHub Actions runs every six hours, tests before refresh, caches sources for at most 72 hours, preserves last-good output on total IAEA failure, commits accepted snapshots, and deploys GitHub Pages. Formulae and evidence are published in `data/output.json`.
+
 **Live dashboard:** https://monarchcastletech.github.io/nuclear-proliferation-watch/
 
 ## Run locally

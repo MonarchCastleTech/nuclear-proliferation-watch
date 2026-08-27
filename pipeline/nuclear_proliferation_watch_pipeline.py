@@ -1,135 +1,88 @@
-# -*- coding: utf-8 -*-
-"""Canonical project data pipeline. Identity and sources come from config.yaml."""
+"""Autonomous public-data pipeline for nuclear-escalation early warning."""
 import json
 import os
 import sys
-import time
+from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timezone
 
 import yaml
 
 sys.path.insert(0, os.path.dirname(__file__))
-from data_fetcher import fetch_exchange_rates, fetch_google_news_rss, safe_fetch
-from openrouter_llm import analyze_with_llm
-
-SNAPSHOT_SIZE = 50
-EVENT_LIMIT = 15
+from data_fetcher import fetch_iaea_news_events, fetch_iaea_signal_titles, fetch_ofac_wmd_snapshot, fetch_test_site_seismicity
+from nuclear_warning_model import build_nuclear_warning
 
 
 def load_config():
-    path = os.path.join(os.path.dirname(__file__), "config.yaml")
-    with open(path, "r", encoding="utf-8") as handle:
+    with open(os.path.join(os.path.dirname(__file__), "config.yaml"), encoding="utf-8") as handle:
         return yaml.safe_load(handle)
 
 
 def load_previous():
     try:
-        with open("data/output.json", "r", encoding="utf-8") as handle:
+        with open("data/output.json", encoding="utf-8") as handle:
             return json.load(handle)
     except (OSError, json.JSONDecodeError):
         return {}
 
 
-def extract_live_data(config):
-    live = {}
-    query = config.get("news_query") or "geopolitical risk"
-    print(f"[LIVE] News query: {query}")
-
-    articles = safe_fetch(fetch_google_news_rss, query, SNAPSHOT_SIZE) or []
-    if articles:
-        live["news_articles"] = articles[:SNAPSHOT_SIZE]
-        print(f"  News RSS: {len(articles)} articles")
-
-    if config.get("include_forex"):
-        rates = safe_fetch(fetch_exchange_rates, "USD")
-        if rates:
-            live["exchange_rates"] = rates[:20]
-            print(f"  Forex: {len(live['exchange_rates'])} rates")
-
-    return live
+def _retain(live, previous, key, notes):
+    if live.get(key) or not previous.get(key):
+        return
+    live[key] = dict(previous[key])
+    live[key]["retained"] = True
+    notes.append(f"{key} unavailable; retained last accepted snapshot.")
 
 
-def retain_previous(live, previous):
+def fetch_all(previous):
+    with ThreadPoolExecutor(max_workers=4) as executor:
+        jobs = {
+            "iaea_titles": executor.submit(fetch_iaea_signal_titles),
+            "iaea_events": executor.submit(fetch_iaea_news_events),
+            "ofac_npwmd": executor.submit(fetch_ofac_wmd_snapshot),
+            "test_site_seismicity": executor.submit(fetch_test_site_seismicity),
+        }
+    live = {key: job.result() for key, job in jobs.items()}
     notes = []
     previous_live = previous.get("live_data") or {}
-    for key in ("news_articles"):
-        if not live.get("news_articles") and previous_live.get(key):
-            live["news_articles"] = previous_live[key][:SNAPSHOT_SIZE]
-            notes.append("News feed unavailable; retained last validated snapshot.")
-            print(f"  {key}: retained {len(live['news_articles'])} items from previous run")
-            break
-    return notes
+    for key in jobs:
+        _retain(live, previous_live, key, notes)
+    return {key: value for key, value in live.items() if value}, notes
 
 
-def build_stats(articles, feeds):
-    domains = len({a.get("domain") for a in articles if a.get("domain")})
-    tones = [float(a.get("tone")) for a in articles if isinstance(a.get("tone"), (int, float))]
-    mean_tone = sum(tones) / len(tones) if tones else 0.0
-    tone_index = round(max(0, min(100, 50 + mean_tone * 5)))
-    direction = "positive" if mean_tone > 0.2 else ("negative" if mean_tone < -0.2 else "neutral")
+def build_stats(warning):
+    health = warning.get("data_health") or {}
+    npwmd = next((row for row in warning.get("components", []) if row.get("id") == "npwmd_designation_delta"), {})
     return [
-        {"label": "Articles Tracked", "value": str(len(articles)), "delta": "live" if articles else "none"},
-        {"label": "News Domains", "value": str(domains), "delta": "deduplicated"},
-        {"label": "Tone Index", "value": f"{tone_index}/100 ({direction})", "delta": "news scale"},
-        {"label": "Live Feeds", "value": str(feeds), "delta": "connected"},
+        {"label": "Escalation Pressure", "value": f"{warning.get('score', 0):.1f}/100", "delta": warning.get("level", "UNAVAILABLE")},
+        {"label": "IAEA Signals", "value": str(health.get("iaea_titles", 0)), "delta": "official indexed pages"},
+        {"label": "NPWMD Entries", "value": str(health.get("npwmd_entries", 0)), "delta": f"{(npwmd.get('added_count') or 0):+d} since snapshot"},
+        {"label": "Model Coverage", "value": f"{health.get('available_components', 0)}/4", "delta": warning.get("confidence", "LOW") + " confidence"},
     ]
 
 
 def main():
-    config = load_config()
-    project = (config.get("project") or {}).get("id", "unknown-project")
-    title = (config.get("project") or {}).get("name", project)
-    print(f"=== {title} pipeline ===")
-
-    previous = load_previous()
-    live = extract_live_data(config)
-    notes = retain_previous(live, previous)
-
-    articles = live.get("news_articles", [])
-    fresh_news = bool(articles) and not any("retained" in note for note in notes)
-    mode = "live" if fresh_news else ("partial" if articles else "unavailable")
-
-    llm_summary = ""
-    api_key = os.environ.get("OPENROUTER_API_KEY")
-    if api_key and articles:
-        print("[LLM] Analyzing with OpenRouter...")
-        llm_summary = analyze_with_llm(
-            {
-                "meta": {"project": project, "mode": mode},
-                "events": articles[:5],
-                "stats": build_stats(articles, len(live)),
-            },
-            config.get("openrouter"),
-            api_key,
-        )
-        if llm_summary:
-            print("[LLM] Summary received")
-
+    config, previous = load_config(), load_previous()
+    live, notes = fetch_all(previous)
+    if not live.get("iaea_titles") and not live.get("iaea_events"):
+        print("No IAEA source available; preserving last-good output.")
+        return False
+    warning = build_nuclear_warning(
+        live.get("iaea_titles") or {}, live.get("ofac_npwmd") or {},
+        live.get("iaea_events") or {}, live.get("test_site_seismicity") or {},
+        previous_npwmd=(previous.get("live_data") or {}).get("ofac_npwmd"), previous_warning=previous.get("early_warning"),
+    )
+    retained = warning.get("data_health", {}).get("retained_components", [])
     output = {
-        "meta": {
-            "project": project,
-            "generated": datetime.now(timezone.utc).isoformat(),
-            "mode": mode,
-            "sources": [key for key, value in live.items() if value],
-            "source_notes": notes,
-            "version": "1.2.0",
-        },
-        "stats": build_stats(articles, len(live)),
-        "live_data": live,
-        "entities": [],
-        "events": articles[:EVENT_LIMIT],
-        "timeseries": [],
-        "llm_summary": llm_summary,
+        "meta": {"project": config["project"]["id"], "generated": datetime.now(timezone.utc).isoformat(), "mode": "partial" if retained else "live", "sources": [row["name"] for row in warning["sources"]], "source_notes": notes, "version": "2.0.0"},
+        "early_warning": warning, "stats": build_stats(warning), "live_data": live,
+        "events": (warning["components"][0].get("evidence") or []) + (warning["components"][2].get("evidence") or []),
     }
-
     os.makedirs("data", exist_ok=True)
-    out_path = os.path.join("data", "output.json")
-    with open(out_path, "w", encoding="utf-8") as handle:
+    with open("data/output.json", "w", encoding="utf-8") as handle:
         json.dump(output, handle, indent=2, ensure_ascii=False)
-
-    size = os.path.getsize(out_path)
-    print(f"Done. {out_path} ({size} bytes) mode={mode} articles={len(articles)}")
+    print(f"Done. mode={output['meta']['mode']} score={warning['score']} level={warning['level']} coverage={warning['data_health']['available_components']}/4")
+    return True
 
 
 if __name__ == "__main__":
-    main()
+    raise SystemExit(0 if main() else 2)
