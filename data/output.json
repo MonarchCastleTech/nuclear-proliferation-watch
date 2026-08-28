@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "nuclear-proliferation-watch",
-    "generated": "2026-08-28T12:14:56.223844+00:00",
+    "generated": "2026-08-28T22:41:20.515088+00:00",
     "mode": "live",
     "sources": [
       "IAEA official pages",
@@ -14,10 +14,10 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-08-28T12:14:56.210910+00:00",
+    "issued_at": "2026-08-28T22:41:20.506583+00:00",
     "horizon": "0-30 days",
     "classification": "nuclear-escalation-pressure-not-test-or-weapon-probability",
-    "score": 11.1,
+    "score": 8.4,
     "level": "BASELINE",
     "confidence": "HIGH",
     "confidence_score": 100.0,
@@ -26,23 +26,17 @@
         "id": "iaea_safeguards_strain",
         "label": "IAEA safeguards and access strain",
         "available": true,
-        "score": 31.7,
-        "current_14d_weight": 6.8,
-        "current_14d_titles": 23,
+        "score": 23.9,
+        "current_14d_weight": 3.8,
+        "current_14d_titles": 21,
         "baseline_periods": 8,
         "baseline_median": 0.0,
-        "anomaly_z": 6.8,
+        "anomaly_z": 3.8,
         "evidence": [
           {
             "title": "Reaching the future Safeguards workforce: Early Career Avenues in the Department of Safeguards",
             "url": null,
             "date": "2026-08-20",
-            "weight": 1.0
-          },
-          {
-            "title": "Safeguards Direct Portal: Improving information exchange with the IAEA Department of Safeguards",
-            "url": null,
-            "date": "2026-08-21",
             "weight": 1.0
           },
           {
@@ -52,19 +46,7 @@
             "weight": 1.0
           },
           {
-            "title": "From Concept to Implementation: Safeguards by Design implementation strategies for effective and efficient safeguards",
-            "url": null,
-            "date": "2026-08-20",
-            "weight": 1.0
-          },
-          {
             "title": "Safeguards Equipment Insight: Asset Management and Monitoring Equipment for Radiation",
-            "url": null,
-            "date": "2026-08-20",
-            "weight": 1.0
-          },
-          {
-            "title": "Third Joint Event of FNRBA, AFRA and AFCONE on Development and Implementation of Nuclear and Radiological Safety, Security and Safeguards in Africa | IAEA",
             "url": null,
             "date": "2026-08-20",
             "weight": 1.0
@@ -89,8 +71,8 @@
         "removed_count": 0,
         "added": [],
         "removed": [],
-        "publish_date": "2026-08-25",
-        "sha256": "8f76b2b8aaa0a58678dbc925627fcecf2016dff0b44c7894fdfbc73de65c787a",
+        "publish_date": "2026-08-27",
+        "sha256": "a2ccea04237a13459009bc527502bb6a08d4e84fe97b46fcce1ed621e9a8301e",
         "retained": false
       },
       {
@@ -111,7 +93,7 @@
         "available": true,
         "score": 0.0,
         "current_30d_diagnostic_weight": 0.0,
-        "events_considered": 1817,
+        "events_considered": 1822,
         "sites_monitored": 8,
         "anomaly_z": 0.0,
         "evidence": [],
@@ -155,6 +137,17 @@
         "level": "BASELINE",
         "components": {
           "iaea_safeguards_strain": 31.7,
+          "npwmd_designation_delta": 0.0,
+          "facility_security_incidents": 0.0,
+          "test_site_seismicity": 0.0
+        }
+      },
+      {
+        "timestamp": "2026-08-28T22:41:20.506583+00:00",
+        "score": 8.4,
+        "level": "BASELINE",
+        "components": {
+          "iaea_safeguards_strain": 23.9,
           "npwmd_designation_delta": 0.0,
           "facility_security_incidents": 0.0,
           "test_site_seismicity": 0.0
@@ -206,7 +199,7 @@
   "stats": [
     {
       "label": "Escalation Pressure",
-      "value": "11.1/100",
+      "value": "8.4/100",
       "delta": "BASELINE"
     },
     {
@@ -229,7 +222,7 @@
     "iaea_titles": {
       "signals": [
         {
-          "title": "Joint Statement - ATLAS Ministerial Launch Event",
+          "title": "Joint Statement - ATLAS Ministerial Launch Event | IAEA",
           "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPRmdYck85QzhxUEJqZVVPdmlJNzJyelVVZm5WdzRRSVMyUnhaN0swdkF1V0JVVXFDY2Y5S0lDOTNVRTJ1MXgydE5XQUlyTUlNRjV3Vy1nMDBOcVdPR1Fmc084dlF4YjdZODVRZUJwYU5FOFpxQUdaNTFwMTYwOEpBSV9aM2M3M21KZUZpMmpob2FEeVpWcVE?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
@@ -256,21 +249,21 @@
           "source": "GoogleNews"
         },
         {
+          "title": "ATLAS LAUNCHED",
+          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1GaU1fU2w1Vk00RGc4VFFjelZpZmlxMl93ajNYVndnandvNEN2WGNKZlVsUGFWSjZzc2djTEVOYUJfRTc0X29VRk52ZzBBLV9LaGRQOEsxSFZfQmx0d0NDWnNocnZxNmR5MnN1QkNaRFdKdw?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260828T141404Z",
+          "source": "GoogleNews"
+        },
+        {
           "title": "IAEA-led Study Finds 5-star Rating System Can Help Make CT Imaging Safer",
           "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQeHhuSVhXVGh3VHU1MldhNW0xTldHTEhrenRKT0ZnVm53WDNjbmMzT1FyOW1MXzV6Sy13cERXaElZemdidm0zV2UtZlVyajhRSDlFOTRMTUlSd01jUTJOdl9WaXF2aGQtTnBRdVZLWWVzdFNySWpiRE9Dcy1VaWh1TlBoMnJZMEhxRXhnUGhKcjdQczgxYWd4MGxnUUlmOXAtZ3RULUo3ZTlHWVhY?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
           "seendate": "20260825T071215Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "IAEA Revamps Major Nuclear Power Database",
-          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNcHhiYnNmZnhoTlUwc3YyaWxxRkZXSDg3UE9qbG1sNFNOaGJHTkZ2OE41alRxMFUxWDIzVjlFbktRX2I3NFJ3MHNoeXhfVjFYb2p5R2NHUGI1TXFGUFFXbS1rYUZHODk2U3Nvck10Z2ljODJsdmhIaUR0bkFhQ2c5SWtqRQ?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260821T073005Z",
           "source": "GoogleNews"
         },
         {
@@ -283,21 +276,21 @@
           "source": "GoogleNews"
         },
         {
+          "title": "IAEA Revamps Major Nuclear Power Database",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNcHhiYnNmZnhoTlUwc3YyaWxxRkZXSDg3UE9qbG1sNFNOaGJHTkZ2OE41alRxMFUxWDIzVjlFbktRX2I3NFJ3MHNoeXhfVjFYb2p5R2NHUGI1TXFGUFFXbS1rYUZHODk2U3Nvck10Z2ljODJsdmhIaUR0bkFhQ2c5SWtqRQ?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260821T073005Z",
+          "source": "GoogleNews"
+        },
+        {
           "title": "Update 363 – IAEA Director General Statement on Situation in Ukraine",
           "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxObm9BZElGb0lWcTFIXy1uYVIwbFBnTE1Na0x2UDhhVElubFhFWmVHMjlJc09NVUFfQkl5SUdZZkJjczJqTUZPV25YeG9KeE52d1BaTmZsRUZGRkthUUV5SzZrODNfRG1nTDhlbERONTNiYkJxQjZPRm9XdG55N1lic3ZoN3dhSWhRWTFubGNSNjJsbHJjSXJVSExVaUtLYnN3dGNsaDFaNWpaY3BkUDJXTQ?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
-          "seendate": "20260820T164926Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "Joint Statement by the Minister of Foreign Affairs and Expatriates of the Syrian Arab Republic and the Director General of the International Atomic Energy Agency | IAEA",
-          "url": "https://news.google.com/rss/articles/CBMirwJBVV95cUxQVGxoNExaaUJwbkNqVmpuQVc5c1NDMWxMQ3dsNHl0VFNpa0kzb2JacUxzZk9CTW9hZ1ZBeXdXU1ZTVFFqcG9EeklINjNqZGZmNDZfczVPbFAxUm40cnVYY205T09fVzdXZHZDVERFcVhwbkNMNV9SZnRJVEQ0SGpBd2E5c28tQm02UmFfSkJyRHZLZ1NNc3RwR0htUF9KNXVTUHF6NTZDYmh2cWZMWjZSQlFER01wREFuOFY2RDIyeS1VZm9uZFBsampfVUw5NlFQSG5sd2cwb3RkRmljdHBLcDhHU0ZyZDU5Q2ZGSjl6VnRQaUQ0Yy1iMmJPTDhPdWJlbEhnbVlLbUFMLTVTZEY0VFAxMGxDajlhRURqd1oxVzlab2dzS2tfR1VUVUpoWXc?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260818T070000Z",
+          "seendate": "20260820T070000Z",
           "source": "GoogleNews"
         },
         {
@@ -307,15 +300,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20260820T155732Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "Safeguards Direct Portal: Improving information exchange with the IAEA Department of Safeguards",
-          "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5ETHpETkxMc0pYNG1ZMUNJZVFGbXFmdGxWUnBqWHhqVEJ6M0l1VU8xRXY4ZktuWFdBVUpRTFBicUprYlpSYmpReDRGOA?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260821T001030Z",
           "source": "GoogleNews"
         },
         {
@@ -337,12 +321,12 @@
           "source": "GoogleNews"
         },
         {
-          "title": "From Concept to Implementation: Safeguards by Design implementation strategies for effective and efficient safeguards",
-          "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNYjNiSVFFVU9zMEFfWDBTVjlGZG5fTWI2MkJ3MW94U1YtRVJ3UG05RkRadjJpZW52VWt0SVVoS0RpMDlfRUxPd0wtQS0zQ0IzLUVfa3RuZFdjUy12Z2FoeEFJRmtxZlN3TXgxM1JZWkxxNmxBSEJXWDhQXzRBN21iSzZJaHQtVXA3UUdTeUZzWW81elFFeTdubDdQR1hlN3lyMDJ6YUNTNlFDQXZhZjlPWGlkU1NlVVpPclAtSmp4Z3BWdEI3d3pFQlo3S2FvS2JyMkVicW1YQ21VTVNIT3JvczZoN1YwR2JUUDh0eFNtN1FCM2lKd0RHb0Q0ZUtuZFU?oc=5",
+          "title": "Joint Statement by the Minister of Foreign Affairs and Expatriates of the Syrian Arab Republic and the Director General of the International Atomic Energy Agency | IAEA",
+          "url": "https://news.google.com/rss/articles/CBMirwJBVV95cUxQVGxoNExaaUJwbkNqVmpuQVc5c1NDMWxMQ3dsNHl0VFNpa0kzb2JacUxzZk9CTW9hZ1ZBeXdXU1ZTVFFqcG9EeklINjNqZGZmNDZfczVPbFAxUm40cnVYY205T09fVzdXZHZDVERFcVhwbkNMNV9SZnRJVEQ0SGpBd2E5c28tQm02UmFfSkJyRHZLZ1NNc3RwR0htUF9KNXVTUHF6NTZDYmh2cWZMWjZSQlFER01wREFuOFY2RDIyeS1VZm9uZFBsampfVUw5NlFQSG5sd2cwb3RkRmljdHBLcDhHU0ZyZDU5Q2ZGSjl6VnRQaUQ0Yy1iMmJPTDhPdWJlbEhnbVlLbUFMLTVTZEY0VFAxMGxDajlhRURqd1oxVzlab2dzS2tfR1VUVUpoWXc?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
-          "seendate": "20260820T083335Z",
+          "seendate": "20260818T070000Z",
           "source": "GoogleNews"
         },
         {
@@ -460,15 +444,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20260313T194636Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "Third Joint Event of FNRBA, AFRA and AFCONE on Development and Implementation of Nuclear and Radiological Safety, Security and Safeguards in Africa | IAEA",
-          "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBVTXZVV0xzMlBSdWJUMm91Mk5ySUhXUnBoamdCb3F1VFVCU1RZdVJBQjRRQkJCcFhFRXkwdzNBSDdJRXp1UzhjM19Udw?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260820T160855Z",
           "source": "GoogleNews"
         },
         {
@@ -850,6 +825,15 @@
           "source": "GoogleNews"
         },
         {
+          "title": "Nuclear Energy Side Events at the 70th IAEA General Conference",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOcHpya3RIRUQwUU56N0hMWUxOeGdmXzRQWXdOaXUybEVNTHhjaTg3aG12UDliSmJDT19ndFRGdFJoMFlLOWhSZVJ1WU9GdFBKVEJoeG9ZQnZ0OEZ1VWZQaENYVnhWMjc5aERrVVRFa281RVlmd1hzbEhtN2lBelgzejJBbk9CZ1VPNWRLWXhMTlhOc1B4Tk1wbEhoWGFlR1k?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260824T105413Z",
+          "source": "GoogleNews"
+        },
+        {
           "title": "Media Invited to Launch of IAEA Initiative on Maritime Nuclear Applications in Washington, D.C.",
           "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQOTNuR0lKUmFzaE9ZNTNXTnp4ZUMzYVZ4S1VfWTVUZ1l0eXhvajk2VVk3cnowU2F2bHdDaVBXX1ZGcXdzUmRFMUQ0MlVHdjFLOFBodGVFcGd3cVFxNHRZcDM2dGg5NmlOSk1PLUpaMjJvZ2pZak93NFZRSmh5QWx3aVVMMTd6NWdwZERQdnU4S2NyWHdUM2twSDdSanRTZElRdk4wdlRlUDQ2S3VBWnJ5OHBCcUFrZFVsdmxoQVJiY1VOeUcxWDFQN2tZUF9BQVJnbWdjbW9B?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -937,15 +921,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20260525T183001Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "A Framework for the Education of Multidisciplinary Paediatric Cancer Care Teams",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQR2g3dmJleWd0Zm80MU1IYk9POWkxdjVqU1QyS2JWLU81V1dxTHY4YUs0TnktQnRDRDAxbFY5N1kwUEliTmZGTndBbG16RlB6YVJlb2xSQXBXVVVSemNISlVhUTJtM1ZIODRyNWpiSjBRZEpNeFgwMzA4QTBHSUt0OGpfd2J6Q0U2WVlUY0dPdFp3NEE1dGJhdENPcEdlV0tVZi1ocDF2eERBTzFMU0EtbTF0MzdHQjFwQWc?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260820T151505Z",
           "source": "GoogleNews"
         },
         {
@@ -1084,6 +1059,15 @@
           "source": "GoogleNews"
         },
         {
+          "title": "A Framework for the Education of Multidisciplinary Paediatric Cancer Care Teams",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQR2g3dmJleWd0Zm80MU1IYk9POWkxdjVqU1QyS2JWLU81V1dxTHY4YUs0TnktQnRDRDAxbFY5N1kwUEliTmZGTndBbG16RlB6YVJlb2xSQXBXVVVSemNISlVhUTJtM1ZIODRyNWpiSjBRZEpNeFgwMzA4QTBHSUt0OGpfd2J6Q0U2WVlUY0dPdFp3NEE1dGJhdENPcEdlV0tVZi1ocDF2eERBTzFMU0EtbTF0MzdHQjFwQWc?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260820T151505Z",
+          "source": "GoogleNews"
+        },
+        {
           "title": "Healthy Soil, Healthy Crops in Seychelles",
           "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1kRVV0LTA0NFR6cGthNmd4YlhMd2ViTlVpTGhOeUVVRmZSRWo5eFVGWDVmc1FVemFsbmgzWkd4TmRYTXRUY2c?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -1117,6 +1101,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20260525T184209Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Technical Meeting on Advanced Techniques for Radioactive Waste Characterization",
+          "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1pd3AwUlY2OU5HdGpDMC1Dai1BNFpTaEFlS2RNMUljMk5IdHBZaC1UeDRscUY2WWpXZjJBQjBHZW1ldFoyblQ5eXkySnJsQQ?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260108T070441Z",
           "source": "GoogleNews"
         }
       ],
@@ -8533,8 +8526,8 @@
         }
       ],
       "count": 1195,
-      "publish_date": "2026-08-25",
-      "sha256": "8f76b2b8aaa0a58678dbc925627fcecf2016dff0b44c7894fdfbc73de65c787a",
+      "publish_date": "2026-08-27",
+      "sha256": "a2ccea04237a13459009bc527502bb6a08d4e84fe97b46fcce1ed621e9a8301e",
       "cached": false
     },
     "test_site_seismicity": {
@@ -8764,6 +8757,70 @@
           "source": "USGS"
         },
         {
+          "id": "nn00923949",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1787950861987,
+          "magnitude": 2.63,
+          "magnitude_type": "ml",
+          "event_type": "earthquake",
+          "place": "17 km SSW of Beatty, Nevada",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00923949",
+          "lon": -116.805,
+          "lat": 36.7591,
+          "depth_km": 9.4183,
+          "source": "USGS"
+        },
+        {
+          "id": "ci41538416",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1787950201970,
+          "magnitude": 1.55,
+          "magnitude_type": "ml",
+          "event_type": "earthquake",
+          "place": "13 km WSW of Searles Valley, CA",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41538416",
+          "lon": -117.540333333333,
+          "lat": 35.733,
+          "depth_km": 6.68,
+          "source": "USGS"
+        },
+        {
+          "id": "ci41538360",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1787946451800,
+          "magnitude": 2.03,
+          "magnitude_type": "ml",
+          "event_type": "earthquake",
+          "place": "10 km ENE of Coso Junction, CA",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41538360",
+          "lon": -117.845666666667,
+          "lat": 36.0685,
+          "depth_km": 2.15,
+          "source": "USGS"
+        },
+        {
+          "id": "ci41538264",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1787936777090,
+          "magnitude": 1.7,
+          "magnitude_type": "ml",
+          "event_type": "earthquake",
+          "place": "13 km SW of Searles Valley, CA",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41538264",
+          "lon": -117.521166666667,
+          "lat": 35.7036666666667,
+          "depth_km": 9.63,
+          "source": "USGS"
+        },
+        {
           "id": "nc75426287",
           "site": "Nevada National Security Site",
           "site_lat": 37.12,
@@ -8784,15 +8841,31 @@
           "site": "Nevada National Security Site",
           "site_lat": 37.12,
           "site_lon": -116.05,
-          "time": 1787892293260,
-          "magnitude": 1.59,
+          "time": 1787892293240,
+          "magnitude": 1.62,
           "magnitude_type": "ml",
           "event_type": "earthquake",
           "place": "9 km NE of Coso Junction, CA",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41537928",
-          "lon": -117.870833333333,
-          "lat": 36.094,
-          "depth_km": 3.46,
+          "lon": -117.873,
+          "lat": 36.0938333333333,
+          "depth_km": 3.54,
+          "source": "USGS"
+        },
+        {
+          "id": "ci41537736",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1787862045250,
+          "magnitude": 1.5,
+          "magnitude_type": "mh",
+          "event_type": "earthquake",
+          "place": "10 km ENE of Coso Junction, CA",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41537736",
+          "lon": -117.844,
+          "lat": 36.068,
+          "depth_km": 2.38,
           "source": "USGS"
         },
         {
@@ -37665,31 +37738,13 @@
       "weight": 1.0
     },
     {
-      "title": "Safeguards Direct Portal: Improving information exchange with the IAEA Department of Safeguards",
-      "url": null,
-      "date": "2026-08-21",
-      "weight": 1.0
-    },
-    {
       "title": "Video Archive 313 - Safeguards Japan; Sources Georgia",
       "url": null,
       "date": "2026-08-23",
       "weight": 1.0
     },
     {
-      "title": "From Concept to Implementation: Safeguards by Design implementation strategies for effective and efficient safeguards",
-      "url": null,
-      "date": "2026-08-20",
-      "weight": 1.0
-    },
-    {
       "title": "Safeguards Equipment Insight: Asset Management and Monitoring Equipment for Radiation",
-      "url": null,
-      "date": "2026-08-20",
-      "weight": 1.0
-    },
-    {
-      "title": "Third Joint Event of FNRBA, AFRA and AFCONE on Development and Implementation of Nuclear and Radiological Safety, Security and Safeguards in Africa | IAEA",
       "url": null,
       "date": "2026-08-20",
       "weight": 1.0
