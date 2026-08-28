@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "nuclear-proliferation-watch",
-    "generated": "2026-08-27T22:36:48.688270+00:00",
+    "generated": "2026-08-28T12:14:56.223844+00:00",
     "mode": "live",
     "sources": [
       "IAEA official pages",
@@ -14,10 +14,10 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-08-27T22:36:48.679780+00:00",
+    "issued_at": "2026-08-28T12:14:56.210910+00:00",
     "horizon": "0-30 days",
     "classification": "nuclear-escalation-pressure-not-test-or-weapon-probability",
-    "score": 12.0,
+    "score": 11.1,
     "level": "BASELINE",
     "confidence": "HIGH",
     "confidence_score": 100.0,
@@ -26,19 +26,13 @@
         "id": "iaea_safeguards_strain",
         "label": "IAEA safeguards and access strain",
         "available": true,
-        "score": 34.3,
-        "current_14d_weight": 7.8,
-        "current_14d_titles": 28,
+        "score": 31.7,
+        "current_14d_weight": 6.8,
+        "current_14d_titles": 23,
         "baseline_periods": 8,
         "baseline_median": 0.0,
-        "anomaly_z": 7.8,
+        "anomaly_z": 6.8,
         "evidence": [
-          {
-            "title": "Strengthening the Effectiveness and Improving the Efficiency of Agency Safeguards",
-            "url": null,
-            "date": "2026-08-18",
-            "weight": 1.0
-          },
           {
             "title": "Reaching the future Safeguards workforce: Early Career Avenues in the Department of Safeguards",
             "url": null,
@@ -117,7 +111,7 @@
         "available": true,
         "score": 0.0,
         "current_30d_diagnostic_weight": 0.0,
-        "events_considered": 1815,
+        "events_considered": 1817,
         "sites_monitored": 8,
         "anomaly_z": 0.0,
         "evidence": [],
@@ -150,6 +144,17 @@
         "level": "BASELINE",
         "components": {
           "iaea_safeguards_strain": 34.3,
+          "npwmd_designation_delta": 0.0,
+          "facility_security_incidents": 0.0,
+          "test_site_seismicity": 0.0
+        }
+      },
+      {
+        "timestamp": "2026-08-28T12:14:56.210910+00:00",
+        "score": 11.1,
+        "level": "BASELINE",
+        "components": {
+          "iaea_safeguards_strain": 31.7,
           "npwmd_designation_delta": 0.0,
           "facility_security_incidents": 0.0,
           "test_site_seismicity": 0.0
@@ -201,7 +206,7 @@
   "stats": [
     {
       "label": "Escalation Pressure",
-      "value": "12.0/100",
+      "value": "11.1/100",
       "delta": "BASELINE"
     },
     {
@@ -269,15 +274,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "Update 363 – IAEA Director General Statement on Situation in Ukraine",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxObm9BZElGb0lWcTFIXy1uYVIwbFBnTE1Na0x2UDhhVElubFhFWmVHMjlJc09NVUFfQkl5SUdZZkJjczJqTUZPV25YeG9KeE52d1BaTmZsRUZGRkthUUV5SzZrODNfRG1nTDhlbERONTNiYkJxQjZPRm9XdG55N1lic3ZoN3dhSWhRWTFubGNSNjJsbHJjSXJVSExVaUtLYnN3dGNsaDFaNWpaY3BkUDJXTQ?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260820T164926Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "Review of State of the Art Thermal Hydraulics of Fast Reactors",
           "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPX2RiaGFSbkVlS3hYZVBwckdEY0tYOHlwSFdZTEZXXzRCU2J0U2d6dl95YXNBaTFQaUVVUEVsQXc1ZGRVYk1hNm1UMVhOelhiSmZ5U09IMXJ6cWpqcTA5dDBIVTAyX21oVklacHA1cDJyMloxcnpfSjdacmpZRE1STUNCU3B4MEdsSkVzUWI1M1hzLVRFdGdPa0JGOERwNlBxVlNmYg?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -287,17 +283,17 @@
           "source": "GoogleNews"
         },
         {
-          "title": "Joint Statement by the Minister of Foreign Affairs and Expatriates of the Syrian Arab Republic and the Director General of the International Atomic Energy Agency | IAEA",
-          "url": "https://news.google.com/rss/articles/CBMirwJBVV95cUxQVGxoNExaaUJwbkNqVmpuQVc5c1NDMWxMQ3dsNHl0VFNpa0kzb2JacUxzZk9CTW9hZ1ZBeXdXU1ZTVFFqcG9EeklINjNqZGZmNDZfczVPbFAxUm40cnVYY205T09fVzdXZHZDVERFcVhwbkNMNV9SZnRJVEQ0SGpBd2E5c28tQm02UmFfSkJyRHZLZ1NNc3RwR0htUF9KNXVTUHF6NTZDYmh2cWZMWjZSQlFER01wREFuOFY2RDIyeS1VZm9uZFBsampfVUw5NlFQSG5sd2cwb3RkRmljdHBLcDhHU0ZyZDU5Q2ZGSjl6VnRQaUQ0Yy1iMmJPTDhPdWJlbEhnbVlLbUFMLTVTZEY0VFAxMGxDajlhRURqd1oxVzlab2dzS2tfR1VUVUpoWXc?oc=5",
+          "title": "Update 363 – IAEA Director General Statement on Situation in Ukraine",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxObm9BZElGb0lWcTFIXy1uYVIwbFBnTE1Na0x2UDhhVElubFhFWmVHMjlJc09NVUFfQkl5SUdZZkJjczJqTUZPV25YeG9KeE52d1BaTmZsRUZGRkthUUV5SzZrODNfRG1nTDhlbERONTNiYkJxQjZPRm9XdG55N1lic3ZoN3dhSWhRWTFubGNSNjJsbHJjSXJVSExVaUtLYnN3dGNsaDFaNWpaY3BkUDJXTQ?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
-          "seendate": "20260818T070000Z",
+          "seendate": "20260820T164926Z",
           "source": "GoogleNews"
         },
         {
-          "title": "Strengthening the Effectiveness and Improving the Efficiency of Agency Safeguards",
-          "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFBLTExSTUxjR3pHc3FDSTBaMERfVEV2X2Njb3pTTnR3b0hoLVJMZXJ0aW5OTW03bUdBd2ZVYVdhWUd3Q0VYQ2Z3?oc=5",
+          "title": "Joint Statement by the Minister of Foreign Affairs and Expatriates of the Syrian Arab Republic and the Director General of the International Atomic Energy Agency | IAEA",
+          "url": "https://news.google.com/rss/articles/CBMirwJBVV95cUxQVGxoNExaaUJwbkNqVmpuQVc5c1NDMWxMQ3dsNHl0VFNpa0kzb2JacUxzZk9CTW9hZ1ZBeXdXU1ZTVFFqcG9EeklINjNqZGZmNDZfczVPbFAxUm40cnVYY205T09fVzdXZHZDVERFcVhwbkNMNV9SZnRJVEQ0SGpBd2E5c28tQm02UmFfSkJyRHZLZ1NNc3RwR0htUF9KNXVTUHF6NTZDYmh2cWZMWjZSQlFER01wREFuOFY2RDIyeS1VZm9uZFBsampfVUw5NlFQSG5sd2cwb3RkRmljdHBLcDhHU0ZyZDU5Q2ZGSjl6VnRQaUQ0Yy1iMmJPTDhPdWJlbEhnbVlLbUFMLTVTZEY0VFAxMGxDajlhRURqd1oxVzlab2dzS2tfR1VUVUpoWXc?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
@@ -437,15 +433,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20260601T164650Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "Supporting Analytical Capacity through Collaboration",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPMi1GWWhaLTdYVDdKQk4waEdJUlZIcmM4SDVXNGdiTVhIQTdFRFhUbm93anAyRE1yY2pLMENmNHdLc0ZneUoxT0kxYkZLb2k2NGFadEZ3UC1RVWo3c3VaNExFMXQzY29XRUg0RnJ1SnY5bWh5cGVMM191NkdiOURoX091Z1pfVkN2cTRuRTZvYm1xODU3cDNlaUhJNXlFeTlzRmZYS25jWDJlQQ?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260820T152024Z",
           "source": "GoogleNews"
         },
         {
@@ -629,24 +616,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "Home: International Conference on Effective Nuclear and Radiation Regulatory Systems: Strengthening Competence, Agility, and Connection in the Modern Era | IAEA",
-          "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBOckw0NTJfTTdXTy13cVpETkFUei12VWhXOEY4cTdDc0RZUDdZUXc1N19zTERBVGxQMEZpWExsZGt5N2RHWnZnYVRiWHRJZw?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20250425T193921Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "IAEA and George Washington University Law School Conclude First Summer School on the Legal Framework for Nuclear Energy",
-          "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxORnFNN21oTXZBUHR5T0ZwVjRCelFraEJiNlRuYTl2SldrX1NWY2F3YUlabV9la0lja3RYZFJ1SVRSSjhIdTFNWnVpci1CYnI0dUJLQnJPbm01NWhkalh0Rm5rRUUyX3oxUmNDSUc2WTdrQ1ZpQU5pQzlpU3FXNlE1c1VUc24zcHhYZnoySXNtWVhFcmc4ZUJoYWotWE4xUDR4NU84cHV6akI0UlpLUFBrVVBwdDJ5UE1CckdWMlRnSFpsMk9iOXhJendid3FNTVhQQVZReVJrTzFZd3FIYmdMelBwaUE3dl9rQkdR?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260729T070000Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "Board of Governors | IAEA",
           "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9Zd0V1MXBqbGV3VmFRQ2xnbkV3eF9YVjJoSUpXekdPRTd3OExGZ0gxTm0yMEs3aVNoYnJvQk1kRDIwZmptV1lQU0NCZXFfUQ?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -674,12 +643,12 @@
           "source": "GoogleNews"
         },
         {
-          "title": "70th IAEA General Conference",
-          "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1XVXN0MlB4SzJ0TlJ0N0hZZzdIcnVjRjRRSmppNXJhYnlTOGptR0ktaG5FMzR1U3gza05sQ1p6VVVDdTlxTlV5ZEhIZw?oc=5",
+          "title": "IAEA and George Washington University Law School Conclude First Summer School on the Legal Framework for Nuclear Energy",
+          "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxORnFNN21oTXZBUHR5T0ZwVjRCelFraEJiNlRuYTl2SldrX1NWY2F3YUlabV9la0lja3RYZFJ1SVRSSjhIdTFNWnVpci1CYnI0dUJLQnJPbm01NWhkalh0Rm5rRUUyX3oxUmNDSUc2WTdrQ1ZpQU5pQzlpU3FXNlE1c1VUc24zcHhYZnoySXNtWVhFcmc4ZUJoYWotWE4xUDR4NU84cHV6akI0UlpLUFBrVVBwdDJ5UE1CckdWMlRnSFpsMk9iOXhJendid3FNTVhQQVZReVJrTzFZd3FIYmdMelBwaUE3dl9rQkdR?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
-          "seendate": "20260430T021316Z",
+          "seendate": "20260729T070000Z",
           "source": "GoogleNews"
         },
         {
@@ -773,15 +742,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "Technical Basis for the Emergency Planning Zone for Small Modular Reactors",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQTk80NFpubUR2b1lrbE5EQUcyNW1wVWJ4QXhTdEVzbnRDSmlnNkZ3NkJqRGxlVk9jb3lmN3Y2ZUo3TEhWQUNnQURSWmV1QlFwNXlpczA4Zmw2cmxSbnZ4R2tSSVZaSGdDcG85T3hPRDJyWDdIdWRzLU55eVNUOTU5eHBPTTJralM1QUR3WS1OVUpTaXlScUlMNzdWd0RqcjlDV2V5YXVHMmV1WmxSS0NrZnF2aw?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260729T012806Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "Home: International Conference on Topical Issues in Nuclear Installation Safety | IAEA",
           "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1hM0NUREFfazQtbUZubHNNNHJmMW5JUkhIelhxb19SZjk3ZFlvNmZ5RUc2Uk9CbE1yUzczZ3JsVG40LW5iUFpCM2RB?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -872,15 +832,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "Japan Continues to Meet International Safety Standards in ALPS Treated Water Discharge, IAEA Reports Confirm",
-          "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOYXdWRmRKZll3MUs0U3QyUFUtQXRUenRJUkg5VEc1Z0kyOXB4SFluRU04dUs2RGg1NWFuYktFR0J3WHZTcm5Vc3NBcWNScXI4QS1yUmVCTmZ5U1lBTTBQekVtbmJsUElFOVMtZGZZRkFaTXpTRGdCMGNrQm9xQkgyeTdBMnJxbjVLNGhPSU8zNFh4eWJwT016LUUwaV9LcUpiV0x4X3NVTFdyRHRCSEpzNW9RcmkwT0dFN05hV1hUTy1qb0txN0hlQnN3emJKVE9ZeGtrd19MSXB0MXhtZXBzRFg2MnRoeVk?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260430T070000Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "Barbados Signs its First Country Programme Framework (CPF) for 2026–2031",
           "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQelZ2THNKYjFCR25YNUVkc2xuRGE3SmJ4eWpMVUVpWDFuSDlpTDdYSkhpUnFheEhuSXVlc0NqWF9YVUF0NVhhS1lyMzhZWHlGcFZlaWE3SUdxQWVwWTlMWkFjTkpiSWNBN2ZhUTYyZEtxT3NtRTVqQkRuS3d2Sy1qN1RaYXRZQUowZlIwUDhDVUF6WkVCLUR0dXVFa2RIMzJuMVBDWTI1d2ZMZw?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -968,6 +919,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20260701T100738Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Technical Basis for the Emergency Planning Zone for Small Modular Reactors",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQTk80NFpubUR2b1lrbE5EQUcyNW1wVWJ4QXhTdEVzbnRDSmlnNkZ3NkJqRGxlVk9jb3lmN3Y2ZUo3TEhWQUNnQURSWmV1QlFwNXlpczA4Zmw2cmxSbnZ4R2tSSVZaSGdDcG85T3hPRDJyWDdIdWRzLU55eVNUOTU5eHBPTTJralM1QUR3WS1OVUpTaXlScUlMNzdWd0RqcjlDV2V5YXVHMmV1WmxSS0NrZnF2aw?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260729T012806Z",
           "source": "GoogleNews"
         },
         {
@@ -1112,6 +1072,51 @@
           "language": "",
           "tone": 0,
           "seendate": "20260529T070000Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Technical Meeting on Advancing Collaboration through the Global Partnership of Municipalities with Nuclear Facilities",
+          "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE56WDVmbHNUcDBwYm5IcWRybHVNYnR2cEl5ZjRmbEp2R1RJckdoZTdMSXQ1SHpoS1I2NWJTSHJJek0yX25FWTByX0xrU2Jkdw?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260127T205554Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Healthy Soil, Healthy Crops in Seychelles",
+          "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1kRVV0LTA0NFR6cGthNmd4YlhMd2ViTlVpTGhOeUVVRmZSRWo5eFVGWDVmc1FVemFsbmgzWkd4TmRYTXRUY2c?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260717T070000Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Human Health Series",
+          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1URTY0WnlLdnpSTDhPcGRvZk1pT0VDa3RYazlHMDR0aFYwblMzYlZpb0lZNTAzZkFreEdQMDNrQlY3Q1BtVzluZ3lfaV9wamVaREFRWC1RTHZnZXZ3TXdTZUtfN0pCTmNlcVZR?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260731T212231Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Participation and Registration: Second International Conference on Accelerators for Research and Innovation | IAEA",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFB3ZnB4ZldQdVlaX1VhRDN5WEpRNzBCSkxlVlplZ05EVXZaX0lTbm1zdGlTaGlUZmFLaWQ5Ukk3TzhBbmlOOElRZWxkY0VzdDdlX2tOVTdhUFE3QnBzcHVhcnNyYm5WN29JRnVDUXNYdnRKc2k1azd6OQ?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20250703T235302Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "International Conference on Integrated Medical Imaging in Cardiovascular Diseases (IMIC-2027) -Participation and Registration | IAEA",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9vTENrY05nSkZRWjRRcjJfTUJFSHNyQzctdGxrdGVBb1RwVUVCLVNrYXo4T2ZiWVQ2WTRFYlhSWmFSSDkwdTByZFpyVUM2blp4RVdtOVRabTNmZ3UxVkMxUERyR054WWZFd3Jpd20wWEJaRkdm?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260525T184209Z",
           "source": "GoogleNews"
         }
       ],
@@ -8756,6 +8761,38 @@
           "lon": 87.9952,
           "lat": 41.8774,
           "depth_km": 10,
+          "source": "USGS"
+        },
+        {
+          "id": "nc75426287",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1787917837810,
+          "magnitude": 1.53,
+          "magnitude_type": "md",
+          "event_type": "earthquake",
+          "place": "18 km SW of Toms Place, CA",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75426287",
+          "lon": -118.837501525879,
+          "lat": 37.4591674804688,
+          "depth_km": 2.32999992370605,
+          "source": "USGS"
+        },
+        {
+          "id": "ci41537928",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1787892293260,
+          "magnitude": 1.59,
+          "magnitude_type": "ml",
+          "event_type": "earthquake",
+          "place": "9 km NE of Coso Junction, CA",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41537928",
+          "lon": -117.870833333333,
+          "lat": 36.094,
+          "depth_km": 3.46,
           "source": "USGS"
         },
         {
@@ -37621,12 +37658,6 @@
     }
   },
   "events": [
-    {
-      "title": "Strengthening the Effectiveness and Improving the Efficiency of Agency Safeguards",
-      "url": null,
-      "date": "2026-08-18",
-      "weight": 1.0
-    },
     {
       "title": "Reaching the future Safeguards workforce: Early Career Avenues in the Department of Safeguards",
       "url": null,
