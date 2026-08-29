@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "nuclear-proliferation-watch",
-    "generated": "2026-08-28T22:41:20.515088+00:00",
+    "generated": "2026-08-29T07:25:29.727291+00:00",
     "mode": "live",
     "sources": [
       "IAEA official pages",
@@ -14,7 +14,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-08-28T22:41:20.506583+00:00",
+    "issued_at": "2026-08-29T07:25:29.717093+00:00",
     "horizon": "0-30 days",
     "classification": "nuclear-escalation-pressure-not-test-or-weapon-probability",
     "score": 8.4,
@@ -28,7 +28,7 @@
         "available": true,
         "score": 23.9,
         "current_14d_weight": 3.8,
-        "current_14d_titles": 21,
+        "current_14d_titles": 19,
         "baseline_periods": 8,
         "baseline_median": 0.0,
         "anomaly_z": 3.8,
@@ -93,7 +93,7 @@
         "available": true,
         "score": 0.0,
         "current_30d_diagnostic_weight": 0.0,
-        "events_considered": 1822,
+        "events_considered": 1823,
         "sites_monitored": 8,
         "anomaly_z": 0.0,
         "evidence": [],
@@ -144,6 +144,17 @@
       },
       {
         "timestamp": "2026-08-28T22:41:20.506583+00:00",
+        "score": 8.4,
+        "level": "BASELINE",
+        "components": {
+          "iaea_safeguards_strain": 23.9,
+          "npwmd_designation_delta": 0.0,
+          "facility_security_incidents": 0.0,
+          "test_site_seismicity": 0.0
+        }
+      },
+      {
+        "timestamp": "2026-08-29T07:25:29.717093+00:00",
         "score": 8.4,
         "level": "BASELINE",
         "components": {
@@ -249,12 +260,12 @@
           "source": "GoogleNews"
         },
         {
-          "title": "ATLAS LAUNCHED",
-          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1GaU1fU2w1Vk00RGc4VFFjelZpZmlxMl93ajNYVndnandvNEN2WGNKZlVsUGFWSjZzc2djTEVOYUJfRTc0X29VRk52ZzBBLV9LaGRQOEsxSFZfQmx0d0NDWnNocnZxNmR5MnN1QkNaRFdKdw?oc=5",
+          "title": "Atomic Technologies Licensed for Applications at Sea (ATLAS) Launched",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNQ1lxeEdhalJKU2dQQW1USWNseHduc3Znc2FQX3huRExQSGJvc2NYMm5sdlYwY0dwYmVpRlNmY3UwVjN1dm5rTlpwOV9aQTN5VFVzV2w3SG4xaXVfeWU4NjZsLXRsMjJHRGUwdjZDTHBCZHVjRFBoUWtRTEduR01zbmpsRHU4VzlNOEZ0S0UtOUphWVBtUnMtcUlVNS1KT0hSNUtlb2RLV2tBRGRyMlFpOVp5ZkVha3M?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
-          "seendate": "20260828T141404Z",
+          "seendate": "20260828T221915Z",
           "source": "GoogleNews"
         },
         {
@@ -789,15 +800,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "Advisory Service to Support In-Service Inspections of Research Reactors (ISIRR)",
-          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPVzBZSldhcjcycF9veTZVNWJBQXFLZzhBN2NhODlIbEFZOGxMd0sxdlg3T1pQOVBzbnIyZUpkbGNtVTJ1S180ZUktZThBeklROGpDYXI2XzZISlY2Y1ZlYmNjbXE0ZEc2TjFiNzhpV0lpWEVvMlI5bEtEcU1RUEwtenFlVmdfNGZCQzVRMFYxam1oZzZBQkQ0SDc1RVFTRWpuVEx2bUoydFpVR3hLejdKektrQndiSnZfcVRnSHNmY0w?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260825T103116Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "Reference Data Series",
           "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBqYVlDZUxDamk1V2c4UmxNUVFQaE15Y2VfaGwyWjJjSGQ1VnRVS1hwUnpvOFJ2eGFLemtPcHJ2cXpIOW9pZDhEdTdtRTFBMkI0c2dKWG1nd29BUGI0U1RNb0txSjhoSi1BcU01Szdn?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -831,6 +833,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20260824T105413Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Update 364 – IAEA Director General Statement on Situation in Ukraine",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPT0U3T0FmUC1LRFRmMGhBb3UyRE1mWkFuakt1VzlZNDJMUEl6Y01HYzdPazg3UktNWTFzR1c2d0lfWURIaFktajBqOHBqS183bGFLMVpHbDdzRjBLZmRoZXNuSzZXb3l1U3UycUNESGsxS1BMWWExOHRGRGFqVHVhNnpiN2pzeXVkakpwWnlIU0hxcXZVWEMtUlMyWEVxLVFFVE9HVENhSTUzUnE5aGlXUFJn?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260829T070453Z",
           "source": "GoogleNews"
         },
         {
@@ -888,15 +899,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "Strengthening Coordination in Nuclear Emergency Preparedness and Response",
-          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPZ0h0MGJqWEU0b0d1QzI3aFlRZm1ZZkFEblJ4ZFhwRE9EYngtRW1jR002WDJ1YkUxamt0SjFJckZlbDJXTUdfMGRuNlJ1aUxNcDBKOHJUYW9VUHRXaWR5UkoxNWQ2R0lJTXlaMnF0T194bUdPbEJpVHVmU0xBU0NsUEVEUlJmcjE3bC1DX04weFEzZGlNVWlYZG5TQXYwbTZPanF6SzJ3XzBPbzJldGNIVDJMcU05TkZjQkdxTFdpaUVkYk5TbHc3aQ?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260820T124106Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "National Industrial Involvement to Support a Nuclear Power Programme",
           "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPOWgzd19XSFNEWmhHbkZkT1pNWEh5RzI4azFRV1VCQ254d3Z3SlprTEYzOW9ocTlIdFJ3cDJOalpjS3JPajRtdlBId3hWVC1BOE9zZUcwMUVLZVlzMWZBY1d0Vm9td2tZQmlha0pIbXNJdGVPRzFjZVJ1Mk1tSjNmS3lldUVyVlFfaWppQ0FRRUxIN3UwZngwSGl6RUtLMG9uNUxMMEVMUFZQek0?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -912,15 +914,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20260729T012806Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "International Conference on Integrated Medical Imaging in Cardiovascular Diseases (IMIC-2027) - Abstract and Paper Submission | IAEA",
-          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1IZVYxdm42Uk9pTVNHaDFtOUJPWEZscVZ4Tm5tNk1yZGZDOXMwdDcxRHNrX0p2aTNWOVYzd3hrSTBPQ2xfN08wYzMwT293TDJ3UmtfRnc3VHFmMXhzX1ZxeUJNXzNfQ1ZrSVprVi1YUG9abTQ?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260525T183001Z",
           "source": "GoogleNews"
         },
         {
@@ -1011,6 +1004,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20260504T070000Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "International Conference on Integrated Medical Imaging in Cardiovascular Diseases (IMIC-2027) - Abstract and Paper Submission | IAEA",
+          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1IZVYxdm42Uk9pTVNHaDFtOUJPWEZscVZ4Tm5tNk1yZGZDOXMwdDcxRHNrX0p2aTNWOVYzd3hrSTBPQ2xfN08wYzMwT293TDJ3UmtfRnc3VHFmMXhzX1ZxeUJNXzNfQ1ZrSVprVi1YUG9abTQ?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260525T183001Z",
           "source": "GoogleNews"
         },
         {
@@ -1110,6 +1112,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20260108T070441Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Contribution to the Research on Advancing Surveillance and Control Techniques Against the New World Screwworm",
+          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5fM3k3UVpCV21hWWVvTUZnUEtfY2hkQkRBb3BLNG1LRFZDczVxaHdQd3d6V1hxSGZMd1dlWjIzQ1NDWGx5RHBJM2ROZkt4ckZ1?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260629T191549Z",
           "source": "GoogleNews"
         }
       ],
@@ -8757,19 +8768,51 @@
           "source": "USGS"
         },
         {
+          "id": "ci41538624",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1787987342840,
+          "magnitude": 1.8,
+          "magnitude_type": "ml",
+          "event_type": "earthquake",
+          "place": "43 km SW of Stovepipe Wells, CA",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41538624",
+          "lon": -117.4455,
+          "lat": 36.2941666666667,
+          "depth_km": 1.67,
+          "source": "USGS"
+        },
+        {
+          "id": "nc75426627",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1787969735090,
+          "magnitude": 1.78,
+          "magnitude_type": "md",
+          "event_type": "earthquake",
+          "place": "13 km WSW of Toms Place, CA",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75426627",
+          "lon": -118.8193359375,
+          "lat": 37.52783203125,
+          "depth_km": 3.03999996185303,
+          "source": "USGS"
+        },
+        {
           "id": "nn00923949",
           "site": "Nevada National Security Site",
           "site_lat": 37.12,
           "site_lon": -116.05,
-          "time": 1787950861987,
-          "magnitude": 2.63,
+          "time": 1787950862559,
+          "magnitude": 2.67,
           "magnitude_type": "ml",
           "event_type": "earthquake",
           "place": "17 km SSW of Beatty, Nevada",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00923949",
-          "lon": -116.805,
-          "lat": 36.7591,
-          "depth_km": 9.4183,
+          "lon": -116.8033,
+          "lat": 36.7524,
+          "depth_km": 4.183,
           "source": "USGS"
         },
         {
@@ -10373,6 +10416,22 @@
           "source": "USGS"
         },
         {
+          "id": "nc75420702",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1787072890710,
+          "magnitude": 1.54,
+          "magnitude_type": "md",
+          "event_type": "earthquake",
+          "place": "18 km SW of Toms Place, CA",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75420702",
+          "lon": -118.839166666667,
+          "lat": 37.4546666666667,
+          "depth_km": 2.52,
+          "source": "USGS"
+        },
+        {
           "id": "nn00923444",
           "site": "Nevada National Security Site",
           "site_lat": 37.12,
@@ -10442,14 +10501,14 @@
           "site_lat": 37.12,
           "site_lon": -116.05,
           "time": 1786986718210,
-          "magnitude": 2.44,
+          "magnitude": 2.53,
           "magnitude_type": "md",
           "event_type": "earthquake",
           "place": "18 km SW of Toms Place, CA",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75420137",
-          "lon": -118.832496643066,
-          "lat": 37.4478340148926,
-          "depth_km": 2.46000003814697,
+          "lon": -118.832,
+          "lat": 37.4473333333333,
+          "depth_km": 3.68,
           "source": "USGS"
         },
         {
@@ -37522,38 +37581,6 @@
           "lon": -118.839,
           "lat": 37.4433333333333,
           "depth_km": 4.1,
-          "source": "USGS"
-        },
-        {
-          "id": "nn00903294",
-          "site": "Nevada National Security Site",
-          "site_lat": 37.12,
-          "site_lon": -116.05,
-          "time": 1756393471366,
-          "magnitude": 1.5,
-          "magnitude_type": "ml",
-          "event_type": "earthquake",
-          "place": "27 km SE of Alamo, Nevada",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00903294",
-          "lon": -114.9554,
-          "lat": 37.1767,
-          "depth_km": 7,
-          "source": "USGS"
-        },
-        {
-          "id": "nn00903290",
-          "site": "Nevada National Security Site",
-          "site_lat": 37.12,
-          "site_lon": -116.05,
-          "time": 1756388224488,
-          "magnitude": 2.3,
-          "magnitude_type": "ml",
-          "event_type": "earthquake",
-          "place": "79 km NE of Tonopah, Nevada",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00903290",
-          "lon": -116.488,
-          "lat": 38.4765,
-          "depth_km": 0,
           "source": "USGS"
         },
         {
