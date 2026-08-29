@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "nuclear-proliferation-watch",
-    "generated": "2026-08-29T07:25:29.727291+00:00",
+    "generated": "2026-08-29T16:52:37.721845+00:00",
     "mode": "live",
     "sources": [
       "IAEA official pages",
@@ -14,10 +14,10 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-08-29T07:25:29.717093+00:00",
+    "issued_at": "2026-08-29T16:52:37.713595+00:00",
     "horizon": "0-30 days",
     "classification": "nuclear-escalation-pressure-not-test-or-weapon-probability",
-    "score": 8.4,
+    "score": 3.9,
     "level": "BASELINE",
     "confidence": "HIGH",
     "confidence_score": 100.0,
@@ -26,12 +26,12 @@
         "id": "iaea_safeguards_strain",
         "label": "IAEA safeguards and access strain",
         "available": true,
-        "score": 23.9,
-        "current_14d_weight": 3.8,
-        "current_14d_titles": 19,
+        "score": 11.2,
+        "current_14d_weight": 2.8,
+        "current_14d_titles": 18,
         "baseline_periods": 8,
         "baseline_median": 0.0,
-        "anomaly_z": 3.8,
+        "anomaly_z": 2.8,
         "evidence": [
           {
             "title": "Reaching the future Safeguards workforce: Early Career Avenues in the Department of Safeguards",
@@ -43,12 +43,6 @@
             "title": "Video Archive 313 - Safeguards Japan; Sources Georgia",
             "url": null,
             "date": "2026-08-23",
-            "weight": 1.0
-          },
-          {
-            "title": "Safeguards Equipment Insight: Asset Management and Monitoring Equipment for Radiation",
-            "url": null,
-            "date": "2026-08-20",
             "weight": 1.0
           },
           {
@@ -93,7 +87,7 @@
         "available": true,
         "score": 0.0,
         "current_30d_diagnostic_weight": 0.0,
-        "events_considered": 1823,
+        "events_considered": 1824,
         "sites_monitored": 8,
         "anomaly_z": 0.0,
         "evidence": [],
@@ -163,6 +157,17 @@
           "facility_security_incidents": 0.0,
           "test_site_seismicity": 0.0
         }
+      },
+      {
+        "timestamp": "2026-08-29T16:52:37.713595+00:00",
+        "score": 3.9,
+        "level": "BASELINE",
+        "components": {
+          "iaea_safeguards_strain": 11.2,
+          "npwmd_designation_delta": 0.0,
+          "facility_security_incidents": 0.0,
+          "test_site_seismicity": 0.0
+        }
       }
     ],
     "data_health": {
@@ -210,7 +215,7 @@
   "stats": [
     {
       "label": "Escalation Pressure",
-      "value": "8.4/100",
+      "value": "3.9/100",
       "delta": "BASELINE"
     },
     {
@@ -260,6 +265,15 @@
           "source": "GoogleNews"
         },
         {
+          "title": "Update 364 – IAEA Director General Statement on Situation in Ukraine",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPT0U3T0FmUC1LRFRmMGhBb3UyRE1mWkFuakt1VzlZNDJMUEl6Y01HYzdPazg3UktNWTFzR1c2d0lfWURIaFktajBqOHBqS183bGFLMVpHbDdzRjBLZmRoZXNuSzZXb3l1U3UycUNESGsxS1BMWWExOHRGRGFqVHVhNnpiN2pzeXVkakpwWnlIU0hxcXZVWEMtUlMyWEVxLVFFVE9HVENhSTUzUnE5aGlXUFJn?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260829T044935Z",
+          "source": "GoogleNews"
+        },
+        {
           "title": "Atomic Technologies Licensed for Applications at Sea (ATLAS) Launched",
           "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNQ1lxeEdhalJKU2dQQW1USWNseHduc3Znc2FQX3huRExQSGJvc2NYMm5sdlYwY0dwYmVpRlNmY3UwVjN1dm5rTlpwOV9aQTN5VFVzV2w3SG4xaXVfeWU4NjZsLXRsMjJHRGUwdjZDTHBCZHVjRFBoUWtRTEduR01zbmpsRHU4VzlNOEZ0S0UtOUphWVBtUnMtcUlVNS1KT0hSNUtlb2RLV2tBRGRyMlFpOVp5ZkVha3M?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -269,12 +283,30 @@
           "source": "GoogleNews"
         },
         {
+          "title": "Malaysia Strengthens Nuclear Workforce Planning Capacity",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPYVpPVThLNW9QdUt5elZMV3R3MzdCWGRCWTlGQkh1Sm93TFdQTWhNLWhDQWNJeUFKdW9vSDZuNTNZMllPODhfcVdDMHctT0lLUGViVUJCSW1qWERJVG5BOGNLN3VuWnNBd3ppUG5ROGpqRjlURmpJUm0wZGh3Q2l4WHNkcEZhMEQxVGZ2NTdGYllReU5qaG85Yg?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260826T085221Z",
+          "source": "GoogleNews"
+        },
+        {
           "title": "IAEA-led Study Finds 5-star Rating System Can Help Make CT Imaging Safer",
           "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQeHhuSVhXVGh3VHU1MldhNW0xTldHTEhrenRKT0ZnVm53WDNjbmMzT1FyOW1MXzV6Sy13cERXaElZemdidm0zV2UtZlVyajhRSDlFOTRMTUlSd01jUTJOdl9WaXF2aGQtTnBRdVZLWWVzdFNySWpiRE9Dcy1VaWh1TlBoMnJZMEhxRXhnUGhKcjdQczgxYWd4MGxnUUlmOXAtZ3RULUo3ZTlHWVhY?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
           "seendate": "20260825T071215Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "International High-level Forum on the ATLAS Launch | IAEA",
+          "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFAwOUVjcklwUEtJNHdmSE8xS1FPQ2h3VUlQdXM4RnB0elMxVkFCTkJzdjV2cG55TVdrUHJTWlVSTTNDZ1VhNEV0OHBUekk?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260827T070000Z",
           "source": "GoogleNews"
         },
         {
@@ -329,24 +361,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20260823T191131Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "Joint Statement by the Minister of Foreign Affairs and Expatriates of the Syrian Arab Republic and the Director General of the International Atomic Energy Agency | IAEA",
-          "url": "https://news.google.com/rss/articles/CBMirwJBVV95cUxQVGxoNExaaUJwbkNqVmpuQVc5c1NDMWxMQ3dsNHl0VFNpa0kzb2JacUxzZk9CTW9hZ1ZBeXdXU1ZTVFFqcG9EeklINjNqZGZmNDZfczVPbFAxUm40cnVYY205T09fVzdXZHZDVERFcVhwbkNMNV9SZnRJVEQ0SGpBd2E5c28tQm02UmFfSkJyRHZLZ1NNc3RwR0htUF9KNXVTUHF6NTZDYmh2cWZMWjZSQlFER01wREFuOFY2RDIyeS1VZm9uZFBsampfVUw5NlFQSG5sd2cwb3RkRmljdHBLcDhHU0ZyZDU5Q2ZGSjl6VnRQaUQ0Yy1iMmJPTDhPdWJlbEhnbVlLbUFMLTVTZEY0VFAxMGxDajlhRURqd1oxVzlab2dzS2tfR1VUVUpoWXc?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260818T070000Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "Safeguards Equipment Insight: Asset Management and Monitoring Equipment for Radiation",
-          "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5KM2lBcTJ0cDRWa2xMWV9TdU1GeGV6RTdhQTdmeUM1YzZhMXdYaDBrLWd5a0Z6OGpuYUdLYmw4SDE1UVY0VXRqTWtzaw?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260820T175418Z",
           "source": "GoogleNews"
         },
         {
@@ -490,7 +504,7 @@
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
-          "seendate": "20260814T093143Z",
+          "seendate": "20260523T020120Z",
           "source": "GoogleNews"
         },
         {
@@ -617,15 +631,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20260723T070000Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "The Science Behind U.S. Advanced Reactors: From Innovation to Deployment",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQV3oyTXE1VmVfVDh6UU1IVlNfOWhFZDhPT3FyWjNidzFibC02TGs1Ny1kSVBsZy1idXNURmp0V3Myb3Y3YTZCUXRGZ3hkdTZrNFlpdFNjUXBVU1JmbHRnOGN6SFVUeEtIaFNjT2hVMkVmLXRjSk5mdVV6T3BQdTFSejJLYXl2bzN5elJrdUVOVDZOR2MwU0ZlcFBTLWtNUFBaU0FlNzBtdmhnaWprQ0ZSSk03UEhISmV1TUxNaldUSjNId1U?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260820T152242Z",
           "source": "GoogleNews"
         },
         {
@@ -836,15 +841,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "Update 364 – IAEA Director General Statement on Situation in Ukraine",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPT0U3T0FmUC1LRFRmMGhBb3UyRE1mWkFuakt1VzlZNDJMUEl6Y01HYzdPazg3UktNWTFzR1c2d0lfWURIaFktajBqOHBqS183bGFLMVpHbDdzRjBLZmRoZXNuSzZXb3l1U3UycUNESGsxS1BMWWExOHRGRGFqVHVhNnpiN2pzeXVkakpwWnlIU0hxcXZVWEMtUlMyWEVxLVFFVE9HVENhSTUzUnE5aGlXUFJn?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260829T070453Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "Media Invited to Launch of IAEA Initiative on Maritime Nuclear Applications in Washington, D.C.",
           "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQOTNuR0lKUmFzaE9ZNTNXTnp4ZUMzYVZ4S1VfWTVUZ1l0eXhvajk2VVk3cnowU2F2bHdDaVBXX1ZGcXdzUmRFMUQ0MlVHdjFLOFBodGVFcGd3cVFxNHRZcDM2dGg5NmlOSk1PLUpaMjJvZ2pZak93NFZRSmh5QWx3aVVMMTd6NWdwZERQdnU4S2NyWHdUM2twSDdSanRTZElRdk4wdlRlUDQ2S3VBWnJ5OHBCcUFrZFVsdmxoQVJiY1VOeUcxWDFQN2tZUF9BQVJnbWdjbW9B?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -872,15 +868,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "70th IAEA General Conference - Technical Cooperation",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOYzc3N2hjTkxLY0k5ZWlPRWIxS2xyZUxLZXN1eDBfcjhkbnE2X3VnWTFhakFwS2J3YkZXWWY5UlE5VHZCSUsxU3NBcEJ1cExibjBfSzVYemZYWTV6T1p1LUdEWVA2bzdVdUR6djN4S2pPMUxJa3VGWGVmWU5hQkZKaFlyWmZ5bDVrY1dXc3k5M29iUzdGV2piOEdtOHBwUE5EU09pbnFfQzEtRHphdGE0?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260811T070418Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "Update 355 – IAEA Director General Statement on Situation in Ukraine",
           "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQcWVqaTR2ai1MWjB2dDVDMloyYTY3bUhDbEtnWjdFZllZTjhiYm9wbXc5Z3N5aTJWSjJEWXN2cDl6Y09zcWlPVUE4c0Z4Q3o1Qm9IZktvVzV4X2NpSVFKbjhPZ0JCeWVUOE15U0FpMzc1OUpHQW9SSkxrcVZsczRHTWZTSHo0YkRjRnVtM25qcHpqckU4Q1Atd1dMY3lyX3lVdXc0MlY3RTFaNFNpUHF5bw?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -905,15 +892,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20260701T100738Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "Technical Basis for the Emergency Planning Zone for Small Modular Reactors",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQTk80NFpubUR2b1lrbE5EQUcyNW1wVWJ4QXhTdEVzbnRDSmlnNkZ3NkJqRGxlVk9jb3lmN3Y2ZUo3TEhWQUNnQURSWmV1QlFwNXlpczA4Zmw2cmxSbnZ4R2tSSVZaSGdDcG85T3hPRDJyWDdIdWRzLU55eVNUOTU5eHBPTTJralM1QUR3WS1OVUpTaXlScUlMNzdWd0RqcjlDV2V5YXVHMmV1WmxSS0NrZnF2aw?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260729T012806Z",
           "source": "GoogleNews"
         },
         {
@@ -1121,6 +1099,33 @@
           "language": "",
           "tone": 0,
           "seendate": "20260629T191549Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "The essential role of stakeholder engagement throughout the nuclear fuel cycle",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQcG5oektneTZ4MzhXUFpJUXBKUTNOQk5XaEpOR2hMU09IYkFCVWNobDBjVmRWNEVZOEJWd2w1QjNRR1pzcEFLMGl5ZlEyZnFxSEpZeGxLZlBWX0RlbXJxT1hOU0tSbVVPUERYbDA2dFViRDBoU2lqU3Rxd0toUzkwYmtSdDNzTUpJZHM1VFNCX1NHX1h0MEZMbTNxLTdNQkhhYkZFUU5EM0MtQnM?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260523T021144Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Participation and Registration: International Conference on Topical Issues in Nuclear Installation Safety | IAEA",
+          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBHV1dYeXFlY093R002dTlxVzVKUmxBMl9PcFhweDJyVVN3ajJYa2o1STAwdFlmYU5DMElLMTZzRU51Rmd0SzFVejZ4Q2RQVFU5OW1hem9lenRmMHNyS0poNkxmRkFkVGowbmNObGVWQTBjcm8?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20250531T113349Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Shared Commitment to Nuclear Safety Reaffirmed at the Convention on Nuclear Safety Review Meeting",
+          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNRFdJU2I0SDR5YTQ1MTRyZ01vaDlZaWtoRnl1em1WWk1mX3c4YXhPSml4X0pOOUtHR2dWQlg1UVYyc21fT0ZabkZsMHhwamFKcmNZYXVVYms2ZWV6ZG1ndHpkTmdqTVQyTmNLNDh3UHJNRURybU5oZ0tlbGFZRHBYVEI5WExVV2E5WTF1RDhJeWo3bmw2MlJGaXcwYUNqUWZlYTZlZk1Zd0laOC1oLTV5LTU0Q3VCWHg3WHREVmYteWlWTHdEV0x2VTN3V0EyQQ?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260519T070000Z",
           "source": "GoogleNews"
         }
       ],
@@ -8768,6 +8773,22 @@
           "source": "USGS"
         },
         {
+          "id": "nn00923972",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1788009319852,
+          "magnitude": 1.69,
+          "magnitude_type": "ml",
+          "event_type": "earthquake",
+          "place": "30 km SSW of Alamo, Nevada",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00923972",
+          "lon": -115.3027,
+          "lat": 37.1093,
+          "depth_km": 8.6259,
+          "source": "USGS"
+        },
+        {
           "id": "ci41538624",
           "site": "Nevada National Security Site",
           "site_lat": 37.12,
@@ -10420,15 +10441,15 @@
           "site": "Nevada National Security Site",
           "site_lat": 37.12,
           "site_lon": -116.05,
-          "time": 1787072890710,
-          "magnitude": 1.54,
+          "time": 1787072890700,
+          "magnitude": 2.03,
           "magnitude_type": "md",
           "event_type": "earthquake",
           "place": "18 km SW of Toms Place, CA",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75420702",
-          "lon": -118.839166666667,
-          "lat": 37.4546666666667,
-          "depth_km": 2.52,
+          "lon": -118.837666666667,
+          "lat": 37.4536666666667,
+          "depth_km": 2.34,
           "source": "USGS"
         },
         {
@@ -37768,12 +37789,6 @@
       "title": "Video Archive 313 - Safeguards Japan; Sources Georgia",
       "url": null,
       "date": "2026-08-23",
-      "weight": 1.0
-    },
-    {
-      "title": "Safeguards Equipment Insight: Asset Management and Monitoring Equipment for Radiation",
-      "url": null,
-      "date": "2026-08-20",
       "weight": 1.0
     },
     {
