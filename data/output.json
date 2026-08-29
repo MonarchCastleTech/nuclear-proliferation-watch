@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "nuclear-proliferation-watch",
-    "generated": "2026-08-29T16:52:37.721845+00:00",
+    "generated": "2026-08-29T21:16:41.048109+00:00",
     "mode": "live",
     "sources": [
       "IAEA official pages",
@@ -14,7 +14,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-08-29T16:52:37.713595+00:00",
+    "issued_at": "2026-08-29T21:16:41.039803+00:00",
     "horizon": "0-30 days",
     "classification": "nuclear-escalation-pressure-not-test-or-weapon-probability",
     "score": 3.9,
@@ -87,7 +87,7 @@
         "available": true,
         "score": 0.0,
         "current_30d_diagnostic_weight": 0.0,
-        "events_considered": 1824,
+        "events_considered": 1825,
         "sites_monitored": 8,
         "anomaly_z": 0.0,
         "evidence": [],
@@ -160,6 +160,17 @@
       },
       {
         "timestamp": "2026-08-29T16:52:37.713595+00:00",
+        "score": 3.9,
+        "level": "BASELINE",
+        "components": {
+          "iaea_safeguards_strain": 11.2,
+          "npwmd_designation_delta": 0.0,
+          "facility_security_incidents": 0.0,
+          "test_site_seismicity": 0.0
+        }
+      },
+      {
+        "timestamp": "2026-08-29T21:16:41.039803+00:00",
         "score": 3.9,
         "level": "BASELINE",
         "components": {
@@ -284,7 +295,7 @@
         },
         {
           "title": "Malaysia Strengthens Nuclear Workforce Planning Capacity",
-          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPYVpPVThLNW9QdUt5elZMV3R3MzdCWGRCWTlGQkh1Sm93TFdQTWhNLWhDQWNJeUFKdW9vSDZuNTNZMllPODhfcVdDMHctT0lLUGViVUJCSW1qWERJVG5BOGNLN3VuWnNBd3ppUG5ROGpqRjlURmpJUm0wZGh3Q2l4WHNkcEZhMEQxVGZ2NTdGYllReU5qaG85Yg?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQcVoxY01DZG1PV295SUpRUFhFeGtyZ2xJRkNlTUctZjZhbVdZRU85bTlFTW0wcjZiVmF4d3NWc1otaVpOTGpFNy1ySXhXXy03UTZManlSUnVzcFhFX1hyZUYwcVUyeHlqeUFIYTVLNS1VNFlIdmtNdWpOSG5nZ0lxR3NObHhrYzZnS1llQTRiMmFWUWlEdC1v?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
@@ -589,15 +600,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "Project Listing - CRP",
-          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9sMmJIRmpRdm15dGVyOTRaMjU1WWxmV092VXhRVDNHb3RPNUJic0cwXzhlNElVLVlfWmduMWFSSDktZ1JjdHFsbzZzbkJuc0laVTU2aEplSDZXaFVDd1ByeUlIUi1PWWpGMEM3aXRLWQ?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20251019T091459Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "IAEA Mission Says Egypt is Committed to Strengthening its National Regulatory Framework for Safety",
           "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOUjh5bDhtMzQtQk02cVFwV2lfbWZsQW5UV3RFdS1ENndLN0xNSFlka3ZDYmtmSFZoUkFvN1pNcHd2V29KaGhscTkzVnRhZmRPNzZYSF9oSDZSeVhTdzgzd2o5YWpiVXdZZ0hLeW94NkFWU095aHp5alBvM2VvYndXclJENllnNG90MzluWVhkeWFpdXdlanZfQU9yLW51dE0wUVNvVG9TcDRCa2Nqajl6bGNNREJVLU1KU25YeG1kd1IyY2g5NlMzU3J5S2REelBBX0tjdVJ4Q1NFRDA?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -787,15 +789,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "Requirements Engineering in the Life Cycle of Instrumentation and Control Systems in Nuclear Power Plants",
-          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQdFlrMlFsQlRVeVM5Z0JqRC15NGRaX3hMTzFaTlkzWHhheFFnZnByV0lVS2NjNnAyU1RIdFdDbTJkdjBmXzNzX2xSRjZnRFYtX1VjWkk4dTl5U2hrUzFET0tXV0ZNOW1yS1p0emluT1dIWHlBTmpDUDV3cThnZVJwa2hlLVZmZjluSlkyTjN5MnpYSzhsY2ZScW5NdFRHaVR0T0JwX0JIamNzemNiN0RwemFEWlZ4ZUtjSnNNR0l3SXk5QVlFSWhqTXV5N0s1d25DLUs1VnhQc280Z3ZP?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260730T183959Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "Good Practices in Implementing Plant and Equipment Reliability Programmes in Operating Nuclear Power Plants",
           "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQNThMSGhlenAxemhsNWNlb1BDYTNHRmRJMk00eUFnYUFXWkNFazF3TDVUd1Nra1A5QmRVZG1KT2lER1hBSGNNS1NoR2pTeE80dENubklKX1lqTU5mdnMzWWtaaW9IclFLU2I0Y1Fyb19GTl9pVmlBZm0xelEwVTBVUTYzLUNjTVI0QlVTRzRFSm1LUlBYeWFlYXozODQwQ29WUWstQTc5LU50dmw2UWRyUkVyZWlqQUVVZmpwa200aEVKMGx0M2FJRDZsMmZhWktETElIWUtrV3BkdEJuZUdV?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -865,6 +858,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20260812T070000Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Requirements Engineering in the Life Cycle of Instrumentation and Control Systems in Nuclear Power Plants",
+          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQdFlrMlFsQlRVeVM5Z0JqRC15NGRaX3hMTzFaTlkzWHhheFFnZnByV0lVS2NjNnAyU1RIdFdDbTJkdjBmXzNzX2xSRjZnRFYtX1VjWkk4dTl5U2hrUzFET0tXV0ZNOW1yS1p0emluT1dIWHlBTmpDUDV3cThnZVJwa2hlLVZmZjluSlkyTjN5MnpYSzhsY2ZScW5NdFRHaVR0T0JwX0JIamNzemNiN0RwemFEWlZ4ZUtjSnNNR0l3SXk5QVlFSWhqTXV5N0s1d25DLUs1VnhQc280Z3ZP?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260730T183959Z",
           "source": "GoogleNews"
         },
         {
@@ -1126,6 +1128,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20260519T070000Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Exhibition: International Conference on Topical Issues in Nuclear Installation Safety | IAEA",
+          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1CZmlpaEhVT253VTVOYUl6Nk1xLUx2R0NyUU1wWWdTbGRyUmV0OVlOaXc4Y3NXbGlDdDFoeExBV0dfU0dmLVdkcTBYMTd5X0FSX1RSQmdtVjY?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20250531T113241Z",
           "source": "GoogleNews"
         }
       ],
@@ -8773,6 +8784,22 @@
           "source": "USGS"
         },
         {
+          "id": "ci41538848",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1788027237350,
+          "magnitude": 2.1,
+          "magnitude_type": "ml",
+          "event_type": "earthquake",
+          "place": "16 km SSE of Lone Pine, CA",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41538848",
+          "lon": -117.991,
+          "lat": 36.4536666666667,
+          "depth_km": 6.76,
+          "source": "USGS"
+        },
+        {
           "id": "nn00923972",
           "site": "Nevada National Security Site",
           "site_lat": 37.12,
@@ -10409,15 +10436,15 @@
           "site": "Nevada National Security Site",
           "site_lat": 37.12,
           "site_lon": -116.05,
-          "time": 1787090099120,
-          "magnitude": 2.54,
+          "time": 1787090099340,
+          "magnitude": 2.61,
           "magnitude_type": "md",
           "event_type": "earthquake",
           "place": "11 km SW of Round Valley, CA",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75420867",
-          "lon": -118.692497253418,
-          "lat": 37.3466682434082,
-          "depth_km": 17.4599990844727,
+          "lon": -118.691,
+          "lat": 37.3456666666667,
+          "depth_km": 14.35,
           "source": "USGS"
         },
         {
