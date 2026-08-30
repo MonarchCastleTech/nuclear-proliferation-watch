@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "nuclear-proliferation-watch",
-    "generated": "2026-08-30T05:51:41.940178+00:00",
+    "generated": "2026-08-30T12:15:19.768717+00:00",
     "mode": "live",
     "sources": [
       "IAEA official pages",
@@ -14,7 +14,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-08-30T05:51:41.931563+00:00",
+    "issued_at": "2026-08-30T12:15:19.760281+00:00",
     "horizon": "0-30 days",
     "classification": "nuclear-escalation-pressure-not-test-or-weapon-probability",
     "score": 7.5,
@@ -190,6 +190,17 @@
           "facility_security_incidents": 0.0,
           "test_site_seismicity": 0.0
         }
+      },
+      {
+        "timestamp": "2026-08-30T12:15:19.760281+00:00",
+        "score": 7.5,
+        "level": "BASELINE",
+        "components": {
+          "iaea_safeguards_strain": 21.3,
+          "npwmd_designation_delta": 0.0,
+          "facility_security_incidents": 0.0,
+          "test_site_seismicity": 0.0
+        }
       }
     ],
     "data_health": {
@@ -350,15 +361,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "Update 363 – IAEA Director General Statement on Situation in Ukraine",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxObm9BZElGb0lWcTFIXy1uYVIwbFBnTE1Na0x2UDhhVElubFhFWmVHMjlJc09NVUFfQkl5SUdZZkJjczJqTUZPV25YeG9KeE52d1BaTmZsRUZGRkthUUV5SzZrODNfRG1nTDhlbERONTNiYkJxQjZPRm9XdG55N1lic3ZoN3dhSWhRWTFubGNSNjJsbHJjSXJVSExVaUtLYnN3dGNsaDFaNWpaY3BkUDJXTQ?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260820T070000Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "Reaching the future Safeguards workforce: Early Career Avenues in the Department of Safeguards",
           "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5RbTJNRTkxZGxBNEUzanctVE5NSkZMZUlJWGtqMTlWX2c4b2FrNGpzTVFKR3pDSTEwc0IxSTcxdFVkT3JWOW1kajZ0dw?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -368,12 +370,12 @@
           "source": "GoogleNews"
         },
         {
-          "title": "IAEA Archives Results",
-          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE8wd0VSVXNiR0JXU2FUWV9hdVFEUXpoXzdKaENXcGJJdkc3MGV6aGI5M0FmckNvSXVUM1R4ZWxzQkZ2VnVDbUI2VWZ4V3MxZ0d4QWFpUzlyZHZyOTFmbTVneDFPMlEzUG5jQzdrdVV1UnF3dW1JWV9LSQ?oc=5",
+          "title": "Update 363 – IAEA Director General Statement on Situation in Ukraine",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxObm9BZElGb0lWcTFIXy1uYVIwbFBnTE1Na0x2UDhhVElubFhFWmVHMjlJc09NVUFfQkl5SUdZZkJjczJqTUZPV25YeG9KeE52d1BaTmZsRUZGRkthUUV5SzZrODNfRG1nTDhlbERONTNiYkJxQjZPRm9XdG55N1lic3ZoN3dhSWhRWTFubGNSNjJsbHJjSXJVSExVaUtLYnN3dGNsaDFaNWpaY3BkUDJXTQ?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
-          "seendate": "20260822T133910Z",
+          "seendate": "20260820T070000Z",
           "source": "GoogleNews"
         },
         {
@@ -485,6 +487,15 @@
           "source": "GoogleNews"
         },
         {
+          "title": "IAEA Director General Joins International Experts Sampling Seawater Near Fukushima",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNazFyd0Z6OERfaW45VG9xUjRoOGxYM281N0duQ3BvTW1lalY5UTlFQnNOVTBpbkY1a1l0dWpLeVNxNk5VZFVWRk1DV1pvc2NCanVwajRBb0VUVTRLbzVWWk1jYlFoOXhyUTJ3UG5EMzllWlpWNjZGT2NGNzdaSThuX09xV1I0Q3RpOVVtd0RzT0NHS2RIdmdFS0dwRGttZ1lEdWJJNVlxenBZa3B1VVEtOF90RGxWNlpXYkNsYmh3N0pNa3FIQ1E?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260624T070000Z",
+          "source": "GoogleNews"
+        },
+        {
           "title": "IAEA to Launch ATLAS: Pioneering Nuclear Solutions for Shipping and Offshore Energy, Washington, August 26-27, 2026",
           "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNRDVTbGRZSGxDb0YtYU55cUtCQWdnM0NkTWZoS2FaSlpXbk91WVE4MEFDS0FiWFdMLWl1ZTlXbktnOHZ3SHdzUVdkQk0xWEpka3FBVWdDYVBDeTl6VXNlRk1UZDZHbzRPWk95Mk5Xci1lNm0xeWc5dVhfa3UwcXQyejAxcDdoU2lRTjJDaWVrc1JVRHZVeDhzaFFUbUhwb0I5NTQtbDBlZmJrMzFWMm9wZC1fTFBPR09sSjRpY0tSZ1l3NVFiR2RHV0pucTJMdGp5dmQyd1FtN0tYcjVxNm05N0t5T3JCU0NYQXlkTQ?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -584,6 +595,15 @@
           "source": "GoogleNews"
         },
         {
+          "title": "Resolutions and Other Decisions of the General Conference | IAEA",
+          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1oazMzcGoyWlZRYkY1cW1HRmJnRi0xZXBxcUk0RmpvbnBKajhZeTlBSEd0SUJLaVRwSmhGNVZVNDVJYlhmUzk0R0J2WEpKVnJy?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260826T070000Z",
+          "source": "GoogleNews"
+        },
+        {
           "title": "International Training Course on Safety and Security in the Management of Disused Sealed Radioactive Sources",
           "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE84MzNIRWxMMFczaS1TVHpHT05xdm9HRHpqb0xKYjVaZHRnYnI0V05PaU1xeE1wVkp2aTBtZnZ1aFJJQ1hDdVlsaEZpc3duUQ?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -626,15 +646,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20250531T022425Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "Board of Governors | IAEA",
-          "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9Zd0V1MXBqbGV3VmFRQ2xnbkV3eF9YVjJoSUpXekdPRTd3OExGZ0gxTm0yMEs3aVNoYnJvQk1kRDIwZmptV1lQU0NCZXFfUQ?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20251014T203744Z",
           "source": "GoogleNews"
         },
         {
@@ -1025,15 +1036,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "IAEA Director General Joins International Experts Sampling Seawater Near Fukushima",
-          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNazFyd0Z6OERfaW45VG9xUjRoOGxYM281N0duQ3BvTW1lalY5UTlFQnNOVTBpbkY1a1l0dWpLeVNxNk5VZFVWRk1DV1pvc2NCanVwajRBb0VUVTRLbzVWWk1jYlFoOXhyUTJ3UG5EMzllWlpWNjZGT2NGNzdaSThuX09xV1I0Q3RpOVVtd0RzT0NHS2RIdmdFS0dwRGttZ1lEdWJJNVlxenBZa3B1VVEtOF90RGxWNlpXYkNsYmh3N0pNa3FIQ1E?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260624T070000Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "IAEA-Led Mission Conducts Source Water Sampling at Fukushima Daiichi Nuclear Power Station Under Additional Measures | IAEA",
           "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOYW56Q1ZGaTZFS2QzWGRUY1pBTC1mRzNLeXN0SmN5Z1RUcWZCRGxTYS1mcWhzNEZVTVZsel9lU3NaWFk1VWhMMkxEY2pyMkZ2SmJOOHFBVVJPWUJ2ZHJMMURrMi1BTGYzbGxJbWxCX0gxa3pZMUg1dkRhbGFDZ1lpMFhxeWo4amdtcE9LZUVNakptS0hEeHNwd09jcXIzTS1vR05leDFhblFQQmRKWWllQkZ5T2R2TzA5azRCNXF6cVRLNi14REZMczBfYVhkVE9JS2VicUJXZGVDQ19OajcycUh4RXRXRHNYVWdYZGhrSWVkdE0?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -1094,6 +1096,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20260525T184209Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Selma Ali",
+          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9YN3h3S2pfSkc0aXo4LVpjRFVEMTR4X3JpbXB4ZWdzczB3dlRPNW1TRnpqNTU3QXJ3dUNfRTVvTVV0NU9UODZWeTJMQ1p0UUE?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260523T020757Z",
           "source": "GoogleNews"
         },
         {
