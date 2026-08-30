@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "nuclear-proliferation-watch",
-    "generated": "2026-08-30T12:15:19.768717+00:00",
+    "generated": "2026-08-30T16:58:33.861263+00:00",
     "mode": "live",
     "sources": [
       "IAEA official pages",
@@ -14,7 +14,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-08-30T12:15:19.760281+00:00",
+    "issued_at": "2026-08-30T16:58:33.854257+00:00",
     "horizon": "0-30 days",
     "classification": "nuclear-escalation-pressure-not-test-or-weapon-probability",
     "score": 7.5,
@@ -28,7 +28,7 @@
         "available": true,
         "score": 21.3,
         "current_14d_weight": 2.8,
-        "current_14d_titles": 18,
+        "current_14d_titles": 16,
         "baseline_periods": 8,
         "baseline_median": 0.0,
         "anomaly_z": 2.8,
@@ -87,7 +87,7 @@
         "available": true,
         "score": 0.0,
         "current_30d_diagnostic_weight": 0.0,
-        "events_considered": 1825,
+        "events_considered": 1827,
         "sites_monitored": 8,
         "anomaly_z": 0.0,
         "evidence": [],
@@ -201,6 +201,17 @@
           "facility_security_incidents": 0.0,
           "test_site_seismicity": 0.0
         }
+      },
+      {
+        "timestamp": "2026-08-30T16:58:33.854257+00:00",
+        "score": 7.5,
+        "level": "BASELINE",
+        "components": {
+          "iaea_safeguards_strain": 21.3,
+          "npwmd_designation_delta": 0.0,
+          "facility_security_incidents": 0.0,
+          "test_site_seismicity": 0.0
+        }
       }
     ],
     "data_health": {
@@ -289,21 +300,21 @@
           "source": "GoogleNews"
         },
         {
-          "title": "Detection of Unintended or Accidental Medical Exposures in Radiotherapy Through Patient Response",
-          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQWlhZelptbW5PTU1RMHQ5dDRiS0tIMTlZUU1GcERfS3F4bnBfZzhkWHFPMnF1MU05NnRMd09xTDNEellCR1R2ajdya2c4OVJqR3hJMUJENi1zQ1FINUZIaFc4Q3JtQkpwOV9HZG5CbDV6RjRuWjFVWFlDeTJUaHpzTlg4VEV2c0tQWTFoVmxicGJvSTJUdGVfWjUyLWVhclJTUUVyTFZZalROMHA2dGFmamdndmtyejJTTVR0eU9BRm1wbVF2cEZ2dm82MkphdWdp?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260825T145023Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "Update 364 – IAEA Director General Statement on Situation in Ukraine",
           "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPT0U3T0FmUC1LRFRmMGhBb3UyRE1mWkFuakt1VzlZNDJMUEl6Y01HYzdPazg3UktNWTFzR1c2d0lfWURIaFktajBqOHBqS183bGFLMVpHbDdzRjBLZmRoZXNuSzZXb3l1U3UycUNESGsxS1BMWWExOHRGRGFqVHVhNnpiN2pzeXVkakpwWnlIU0hxcXZVWEMtUlMyWEVxLVFFVE9HVENhSTUzUnE5aGlXUFJn?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
           "seendate": "20260829T044935Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Detection of Unintended or Accidental Medical Exposures in Radiotherapy Through Patient Response",
+          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQWlhZelptbW5PTU1RMHQ5dDRiS0tIMTlZUU1GcERfS3F4bnBfZzhkWHFPMnF1MU05NnRMd09xTDNEellCR1R2ajdya2c4OVJqR3hJMUJENi1zQ1FINUZIaFc4Q3JtQkpwOV9HZG5CbDV6RjRuWjFVWFlDeTJUaHpzTlg4VEV2c0tQWTFoVmxicGJvSTJUdGVfWjUyLWVhclJTUUVyTFZZalROMHA2dGFmamdndmtyejJTTVR0eU9BRm1wbVF2cEZ2dm82MkphdWdp?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260825T145023Z",
           "source": "GoogleNews"
         },
         {
@@ -325,15 +336,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "IAEA-led Study Finds 5-star Rating System Can Help Make CT Imaging Safer",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQeHhuSVhXVGh3VHU1MldhNW0xTldHTEhrenRKT0ZnVm53WDNjbmMzT1FyOW1MXzV6Sy13cERXaElZemdidm0zV2UtZlVyajhRSDlFOTRMTUlSd01jUTJOdl9WaXF2aGQtTnBRdVZLWWVzdFNySWpiRE9Dcy1VaWh1TlBoMnJZMEhxRXhnUGhKcjdQczgxYWd4MGxnUUlmOXAtZ3RULUo3ZTlHWVhY?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260825T071215Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "International High-level Forum on the ATLAS Launch | IAEA",
           "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFAwOUVjcklwUEtJNHdmSE8xS1FPQ2h3VUlQdXM4RnB0elMxVkFCTkJzdjV2cG55TVdrUHJTWlVSTTNDZ1VhNEV0OHBUekk?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -343,21 +345,21 @@
           "source": "GoogleNews"
         },
         {
+          "title": "IAEA-led Study Finds 5-star Rating System Can Help Make CT Imaging Safer",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQeHhuSVhXVGh3VHU1MldhNW0xTldHTEhrenRKT0ZnVm53WDNjbmMzT1FyOW1MXzV6Sy13cERXaElZemdidm0zV2UtZlVyajhRSDlFOTRMTUlSd01jUTJOdl9WaXF2aGQtTnBRdVZLWWVzdFNySWpiRE9Dcy1VaWh1TlBoMnJZMEhxRXhnUGhKcjdQczgxYWd4MGxnUUlmOXAtZ3RULUo3ZTlHWVhY?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260825T071215Z",
+          "source": "GoogleNews"
+        },
+        {
           "title": "Review of State of the Art Thermal Hydraulics of Fast Reactors",
-          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPX2RiaGFSbkVlS3hYZVBwckdEY0tYOHlwSFdZTEZXXzRCU2J0U2d6dl95YXNBaTFQaUVVUEVsQXc1ZGRVYk1hNm1UMVhOelhiSmZ5U09IMXJ6cWpqcTA5dDBIVTAyX21oVklacHA1cDJyMloxcnpfSjdacmpZRE1STUNCU3B4MEdsSkVzUWI1M1hzLVRFdGdPa0JGOERwNlBxVlNmYg?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNbjhTdnNpVnN1WThSSEoyLVFhT1A5UGowbU03SEpYLWRhaWVNaTRISU91M1J3M1dyanVWNXk4UG9RX2pFLU83YllSTmNhVGVqek5WcEFGNkxSYmFZTjBJcXZQYVJjTFZIeGVJMFZoYkFxSjRSZ01ybFRNLVNCckxucjc3VVFBc3d4amxNV0FlSnVNRGROQ3VOYTRoSGZMbFd6dE1N?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
           "seendate": "20260826T115219Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "IAEA Revamps Major Nuclear Power Database",
-          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNcHhiYnNmZnhoTlUwc3YyaWxxRkZXSDg3UE9qbG1sNFNOaGJHTkZ2OE41alRxMFUxWDIzVjlFbktRX2I3NFJ3MHNoeXhfVjFYb2p5R2NHUGI1TXFGUFFXbS1rYUZHODk2U3Nvck10Z2ljODJsdmhIaUR0bkFhQ2c5SWtqRQ?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260821T073005Z",
           "source": "GoogleNews"
         },
         {
@@ -370,21 +372,21 @@
           "source": "GoogleNews"
         },
         {
-          "title": "Update 363 – IAEA Director General Statement on Situation in Ukraine",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxObm9BZElGb0lWcTFIXy1uYVIwbFBnTE1Na0x2UDhhVElubFhFWmVHMjlJc09NVUFfQkl5SUdZZkJjczJqTUZPV25YeG9KeE52d1BaTmZsRUZGRkthUUV5SzZrODNfRG1nTDhlbERONTNiYkJxQjZPRm9XdG55N1lic3ZoN3dhSWhRWTFubGNSNjJsbHJjSXJVSExVaUtLYnN3dGNsaDFaNWpaY3BkUDJXTQ?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260820T070000Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "Video Archive 313 - Safeguards Japan; Sources Georgia",
           "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5mdW1uVUt2N0NQYjBSd0NzR1hKa0g3alZCS0hkOUpSQ0VlbzBpWmtSNVZJOVBxbS1QdVctdWFmN0oxVkZyc2tXRTFMRUI2Q0RsWFpqYU4xNkd1VVllM2QwU2ViU1h4bHdaMUVtNFA2RFA5SmdqM3ItYg?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
           "seendate": "20260823T191131Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Update 363 – IAEA Director General Statement on Situation in Ukraine",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxObm9BZElGb0lWcTFIXy1uYVIwbFBnTE1Na0x2UDhhVElubFhFWmVHMjlJc09NVUFfQkl5SUdZZkJjczJqTUZPV25YeG9KeE52d1BaTmZsRUZGRkthUUV5SzZrODNfRG1nTDhlbERONTNiYkJxQjZPRm9XdG55N1lic3ZoN3dhSWhRWTFubGNSNjJsbHJjSXJVSExVaUtLYnN3dGNsaDFaNWpaY3BkUDJXTQ?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260820T070000Z",
           "source": "GoogleNews"
         },
         {
@@ -469,6 +471,15 @@
           "source": "GoogleNews"
         },
         {
+          "title": "IAEA Revamps Major Nuclear Power Database",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNcHhiYnNmZnhoTlUwc3YyaWxxRkZXSDg3UE9qbG1sNFNOaGJHTkZ2OE41alRxMFUxWDIzVjlFbktRX2I3NFJ3MHNoeXhfVjFYb2p5R2NHUGI1TXFGUFFXbS1rYUZHODk2U3Nvck10Z2ljODJsdmhIaUR0bkFhQ2c5SWtqRQ?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260821T073005Z",
+          "source": "GoogleNews"
+        },
+        {
           "title": "IAEA Helps Transport High Enriched Nuclear Fuel from Venezuela to the US",
           "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQS0NQLW9OSlFwSzgwTFJldVVIWkNSZlpVNXRWbnVMMjFxZHBENlAwZk9mTTJMWDJlSXd0VDVHcXhKQ3lqSHJkT1c2RmcyM2VubGExVWhMSnQ2U0Jtd0ZLRlBLN2JTc0lNcHhvckJyZ2cwRmFveFpsbWF0elgwbnV3aXpWX3BNdkRXNGNweGRnUXhNU1BvakZrcjZNUDU5VkNEZG1hcEpmY0V0WjBsSXpKVFpGWmF0SC02?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -511,15 +522,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20260702T070000Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "Publications advanced search",
-          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBTRlNkVFBpeF9WR3h2QUpnYUwzeW1YMXZLOHF2SjVRWTRFRy1xWVdOTUFGZ1o0eFZJejB5LVdzZVdWVnh2eWpqOWp2aVE5WmJ5X1o4LUVRTVV3YmUta083dTBYX2FpZmVRS3NJ?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260821T141740Z",
           "source": "GoogleNews"
         },
         {
@@ -685,15 +687,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "Update 362 – IAEA Director General Statement on Situation in Ukraine",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQZ1kzQW5WWjZRY2plQzRVanZ5TE56OWozdlpHOEY0QXhHNWtMT0R0YXlMcEtRV2RxMjBhT2NTTHd1QWZzb2JMR3lTWDNHZFZIbEpmOFVRaDU4VVpGUFVYY1BnUHlkS2xuRkRqaURVVk9TTTNhaUptVEpEN3RqbGZpN3FPMXdjSzRCSVN6UzFVUk5RRlYwQWMxYTFwajFGOWkwQ3E1ZV84eW90SmpXcmFzdg?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260814T070000Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "FR26 Closes in Beijing as Fast Reactor Systems Move From Innovation to Implementation",
           "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNcTdkVmh2eGd4T2FrM0pxUFU2RlhmTUhtejVUWWpVLTNld2VYeVFBWnJsTExCbmFELTYxZkVqbnI1MkppZzVtVzhKNjFmY01zUzd5UFM4MXhFUXRMcHFkZzRJTEc0cDBfUHF1eWY1R2xKVjhLem1RZHF0T2Y0MWNyUmZTMm51MVFGakw4UHZOZmwtRENyZEFmMWpWYUlQZnFBbXVQcVh1dWFYdVJXUXpsMUs3YkRuSHNxRmlaRGpn?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -817,15 +810,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20260814T221027Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "Advisory Service to Support In-Service Inspections of Research Reactors (ISIRR)",
-          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNLUh5eU16UWRiVTI0bTdBN0JlN21WQ3VxTVRuNUNGLVVoSDNkM3NHeVYwb3FuSTFVZzZ1S0RXazdBV2Qtc2c4d0RFN2VCamttbHpKTEpIa2dzQkk5VGJ4T0tjRlpHWl9IWk9IMGVhejJGX1pXZ1MyZTFNYUZyMUpaamdqYzg4VW9KM3hEUjlRLWEtMVhqMFg0RXN6N3NqZUVIbUNEb0s4YTY2YkZzcTllMVp1WDR4R1YzNXRoZDNRbw?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260825T103116Z",
           "source": "GoogleNews"
         },
         {
@@ -1126,7 +1110,7 @@
           "source": "GoogleNews"
         },
         {
-          "title": "The essential role of stakeholder engagement throughout the nuclear fuel cycle",
+          "title": "The essential role of stakeholder engagement throughout the nuclear fuel cycle | IAEA",
           "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQcG5oektneTZ4MzhXUFpJUXBKUTNOQk5XaEpOR2hMU09IYkFCVWNobDBjVmRWNEVZOEJWd2w1QjNRR1pzcEFLMGl5ZlEyZnFxSEpZeGxLZlBWX0RlbXJxT1hOU0tSbVVPUERYbDA2dFViRDBoU2lqU3Rxd0toUzkwYmtSdDNzTUpJZHM1VFNCX1NHX1h0MEZMbTNxLTdNQkhhYkZFUU5EM0MtQnM?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
@@ -1159,6 +1143,33 @@
           "language": "",
           "tone": 0,
           "seendate": "20250531T113241Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "First IAEA Training on Public Communication in Nuclear Security",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxONjFzcmdYeFpzNmpFV3U4SGlzYi1JdXBWcnE0ejZvVjFMNjFiTGVpV3lUWEFwS0NWZ3k4aTBnWnRfTk5sOFBLSVUzejYxZ2Q1ZHBJOWU3S05yTk96T0luNHlPdHNOT05GQjA3dTBKZ0poMDRZbEtMWmR0VC1COUVpR3BmblFQSTBhTzkzUmJ4Y1ZrZW05eXlxTzU0dVdFZmdB?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260707T070000Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Improving the Understanding of Irradiation Creep Behaviour in Nuclear Graphite Models and Mechanisms",
+          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPN1lzQm0tOVJIc0pON2xCaEQ2MXlJZXBnaEZJUVRTWFhEUGdlbWgweXVjNXpQVTBHWTFaS1F4ODB3S1ZiREtmb1dKVV9BMExwSXZpZUN6NGdjVTlOdEpJTWJIemhzTGNmYzBfUDAtUktwbEYxZkc0djFZOG5XTTVKckFQQjAyUjhySFhFVk5yenZSdkJQUktCUU92cUVUTUJoVU4tZGZUa1M3OGh6VmRtWGtoelkzellJWF9PTVFTbi10SkhHU2JXa2JGSE51cWRZQTBSaklR?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260604T120939Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "IAEA Assists Austria with Nuclear Security Measures for Eurovision 2026",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQdFZiQ0hIXzdqQ0xfS2ZZNjlPcmt3WldRdU1hanh3TmVLWjJzaElQREV0VGE0ZVlFNkZvZF9ITXZIaUxoSXItb3hsTGFrYzdCQjNxT19zNVBnaEdUU1VmRGxKcmxaVWRPWGI5QUN0UWI1NDNwdHRkR1RCbmYxN2h0UEk5TlB5NDQ1Qm0zY3ZOdzlITzFxYUJodV9aSV9rOEEwM3dScGU1cTBrRnY2Xzc3SnpJRTZsRjQ?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260517T070000Z",
           "source": "GoogleNews"
         }
       ],
@@ -8803,6 +8814,38 @@
           "lon": 87.9952,
           "lat": 41.8774,
           "depth_km": 10,
+          "source": "USGS"
+        },
+        {
+          "id": "nn00924002",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1788107499419,
+          "magnitude": 1.73,
+          "magnitude_type": "ml",
+          "event_type": "earthquake",
+          "place": "81 km NE of Tonopah, Nevada",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00924002",
+          "lon": -116.4705,
+          "lat": 38.4846,
+          "depth_km": 2.3284,
+          "source": "USGS"
+        },
+        {
+          "id": "nn00924001",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1788106507101,
+          "magnitude": 1.74,
+          "magnitude_type": "ml",
+          "event_type": "earthquake",
+          "place": "87 km NE of Tonopah, Nevada",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00924001",
+          "lon": -116.4012,
+          "lat": 38.5104,
+          "depth_km": 1.4894,
           "source": "USGS"
         },
         {
