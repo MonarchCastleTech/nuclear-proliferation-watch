@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "nuclear-proliferation-watch",
-    "generated": "2026-08-30T16:58:33.861263+00:00",
+    "generated": "2026-08-30T21:35:44.081793+00:00",
     "mode": "live",
     "sources": [
       "IAEA official pages",
@@ -14,7 +14,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-08-30T16:58:33.854257+00:00",
+    "issued_at": "2026-08-30T21:35:44.074338+00:00",
     "horizon": "0-30 days",
     "classification": "nuclear-escalation-pressure-not-test-or-weapon-probability",
     "score": 7.5,
@@ -87,7 +87,7 @@
         "available": true,
         "score": 0.0,
         "current_30d_diagnostic_weight": 0.0,
-        "events_considered": 1827,
+        "events_considered": 1828,
         "sites_monitored": 8,
         "anomaly_z": 0.0,
         "evidence": [],
@@ -204,6 +204,17 @@
       },
       {
         "timestamp": "2026-08-30T16:58:33.854257+00:00",
+        "score": 7.5,
+        "level": "BASELINE",
+        "components": {
+          "iaea_safeguards_strain": 21.3,
+          "npwmd_designation_delta": 0.0,
+          "facility_security_incidents": 0.0,
+          "test_site_seismicity": 0.0
+        }
+      },
+      {
+        "timestamp": "2026-08-30T21:35:44.074338+00:00",
         "score": 7.5,
         "level": "BASELINE",
         "components": {
@@ -381,15 +392,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "Update 363 – IAEA Director General Statement on Situation in Ukraine",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxObm9BZElGb0lWcTFIXy1uYVIwbFBnTE1Na0x2UDhhVElubFhFWmVHMjlJc09NVUFfQkl5SUdZZkJjczJqTUZPV25YeG9KeE52d1BaTmZsRUZGRkthUUV5SzZrODNfRG1nTDhlbERONTNiYkJxQjZPRm9XdG55N1lic3ZoN3dhSWhRWTFubGNSNjJsbHJjSXJVSExVaUtLYnN3dGNsaDFaNWpaY3BkUDJXTQ?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260820T070000Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "Safeguarding the nuclear fuel cycle | IAEA",
           "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE44UW5vYWdaTzlHdWpqN0pJTGJhU1VuMlFMODg5c1Z0REljdU1wWS1vX1MtVGlIM19zaDlCXzZQOC1pYnlVeURjT2tRQkJWd3pIbnBHNV80Tjc0VGtkWjVUc0VxLURiZjJ3NFRBa25tQXNzUQ?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -471,15 +473,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "IAEA Revamps Major Nuclear Power Database",
-          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNcHhiYnNmZnhoTlUwc3YyaWxxRkZXSDg3UE9qbG1sNFNOaGJHTkZ2OE41alRxMFUxWDIzVjlFbktRX2I3NFJ3MHNoeXhfVjFYb2p5R2NHUGI1TXFGUFFXbS1rYUZHODk2U3Nvck10Z2ljODJsdmhIaUR0bkFhQ2c5SWtqRQ?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260821T073005Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "IAEA Helps Transport High Enriched Nuclear Fuel from Venezuela to the US",
           "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQS0NQLW9OSlFwSzgwTFJldVVIWkNSZlpVNXRWbnVMMjFxZHBENlAwZk9mTTJMWDJlSXd0VDVHcXhKQ3lqSHJkT1c2RmcyM2VubGExVWhMSnQ2U0Jtd0ZLRlBLN2JTc0lNcHhvckJyZ2cwRmFveFpsbWF0elgwbnV3aXpWX3BNdkRXNGNweGRnUXhNU1BvakZrcjZNUDU5VkNEZG1hcEpmY0V0WjBsSXpKVFpGWmF0SC02?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -495,6 +488,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20260313T194636Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Update 363 – IAEA Director General Statement on Situation in Ukraine",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxObm9BZElGb0lWcTFIXy1uYVIwbFBnTE1Na0x2UDhhVElubFhFWmVHMjlJc09NVUFfQkl5SUdZZkJjczJqTUZPV25YeG9KeE52d1BaTmZsRUZGRkthUUV5SzZrODNfRG1nTDhlbERONTNiYkJxQjZPRm9XdG55N1lic3ZoN3dhSWhRWTFubGNSNjJsbHJjSXJVSExVaUtLYnN3dGNsaDFaNWpaY3BkUDJXTQ?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260820T070000Z",
           "source": "GoogleNews"
         },
         {
@@ -585,6 +587,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20150409T043334Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "IAEA Revamps Major Nuclear Power Database",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNcHhiYnNmZnhoTlUwc3YyaWxxRkZXSDg3UE9qbG1sNFNOaGJHTkZ2OE41alRxMFUxWDIzVjlFbktRX2I3NFJ3MHNoeXhfVjFYb2p5R2NHUGI1TXFGUFFXbS1rYUZHODk2U3Nvck10Z2ljODJsdmhIaUR0bkFhQ2c5SWtqRQ?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260821T073005Z",
           "source": "GoogleNews"
         },
         {
@@ -1083,15 +1094,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "Selma Ali",
-          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9YN3h3S2pfSkc0aXo4LVpjRFVEMTR4X3JpbXB4ZWdzczB3dlRPNW1TRnpqNTU3QXJ3dUNfRTVvTVV0NU9UODZWeTJMQ1p0UUE?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260523T020757Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "Technical Meeting on Advanced Techniques for Radioactive Waste Characterization",
           "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1pd3AwUlY2OU5HdGpDMC1Dai1BNFpTaEFlS2RNMUljMk5IdHBZaC1UeDRscUY2WWpXZjJBQjBHZW1ldFoyblQ5eXkySnJsQQ?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -1170,6 +1172,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20260517T070000Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "International Symposium on Trends in Radiopharmaceuticals - Exhibition",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBFNjAyT3p5LW5CQ291Tmw5dUlrcTJuQmlJWExHcXdBdlNJT21nc1pleHlBM2hNVWh6ZnNEQ0haTUkxQ1p3aHRETUZfTF9DQWhuMWdCeGpiVVdmZm8?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260512T031728Z",
           "source": "GoogleNews"
         }
       ],
@@ -8814,6 +8825,22 @@
           "lon": 87.9952,
           "lat": 41.8774,
           "depth_km": 10,
+          "source": "USGS"
+        },
+        {
+          "id": "nc75427372",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1788125506560,
+          "magnitude": 2.37,
+          "magnitude_type": "md",
+          "event_type": "earthquake",
+          "place": "19 km SW of Toms Place, CA",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75427372",
+          "lon": -118.833335876465,
+          "lat": 37.4416656494141,
+          "depth_km": 2.1800000667572,
           "source": "USGS"
         },
         {
