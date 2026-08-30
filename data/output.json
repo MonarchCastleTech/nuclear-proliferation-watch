@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "nuclear-proliferation-watch",
-    "generated": "2026-08-29T21:16:41.048109+00:00",
+    "generated": "2026-08-30T05:51:41.940178+00:00",
     "mode": "live",
     "sources": [
       "IAEA official pages",
@@ -14,10 +14,10 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-08-29T21:16:41.039803+00:00",
+    "issued_at": "2026-08-30T05:51:41.931563+00:00",
     "horizon": "0-30 days",
     "classification": "nuclear-escalation-pressure-not-test-or-weapon-probability",
-    "score": 3.9,
+    "score": 7.5,
     "level": "BASELINE",
     "confidence": "HIGH",
     "confidence_score": 100.0,
@@ -26,7 +26,7 @@
         "id": "iaea_safeguards_strain",
         "label": "IAEA safeguards and access strain",
         "available": true,
-        "score": 11.2,
+        "score": 21.3,
         "current_14d_weight": 2.8,
         "current_14d_titles": 18,
         "baseline_periods": 8,
@@ -179,6 +179,17 @@
           "facility_security_incidents": 0.0,
           "test_site_seismicity": 0.0
         }
+      },
+      {
+        "timestamp": "2026-08-30T05:51:41.931563+00:00",
+        "score": 7.5,
+        "level": "BASELINE",
+        "components": {
+          "iaea_safeguards_strain": 21.3,
+          "npwmd_designation_delta": 0.0,
+          "facility_security_incidents": 0.0,
+          "test_site_seismicity": 0.0
+        }
       }
     ],
     "data_health": {
@@ -226,7 +237,7 @@
   "stats": [
     {
       "label": "Escalation Pressure",
-      "value": "3.9/100",
+      "value": "7.5/100",
       "delta": "BASELINE"
     },
     {
@@ -465,15 +476,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "Update 356 – IAEA Director General Statement on Situation in Ukraine",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNaHRTY3NaY1ZUb2VvWkhzMHo4RE5LbWxsY0ZxOXMzOHV3UzlyMWFrZFh0alJ5dm1xZlBzY09oSXdRNG1zaC1GUVltcHNsbmc3MzZxYmg2M3prUmhmT25MLV91UVNiUHRwdU1hd0RrRGJPTGppVzhmcmoxd1Jlc0Z3eTV4TTgycUxEQzNHZkJlVWt4ajZqWnVBd0hzQ3hDV0pVcUVzNUtyN3VFV1l4Z3hDbg?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260702T070000Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "Rafael Mariano Grossi | IAEA",
           "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE55OXJZWUVIRFBqSFJtNXRubUVQWEg0TXNZdG9CdzZWUTBFcUx1MkVOMUEyeXlCMXRDS0dFSXFfMjRrdGZoSEpDaDdhc18yOWpOTzhCY2UyMmQ3T0U?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -489,6 +491,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20260601T070000Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Update 356 – IAEA Director General Statement on Situation in Ukraine",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNaHRTY3NaY1ZUb2VvWkhzMHo4RE5LbWxsY0ZxOXMzOHV3UzlyMWFrZFh0alJ5dm1xZlBzY09oSXdRNG1zaC1GUVltcHNsbmc3MzZxYmg2M3prUmhmT25MLV91UVNiUHRwdU1hd0RrRGJPTGppVzhmcmoxd1Jlc0Z3eTV4TTgycUxEQzNHZkJlVWt4ajZqWnVBd0hzQ3hDV0pVcUVzNUtyN3VFV1l4Z3hDbg?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260702T070000Z",
           "source": "GoogleNews"
         },
         {
@@ -798,6 +809,15 @@
           "source": "GoogleNews"
         },
         {
+          "title": "Advisory Service to Support In-Service Inspections of Research Reactors (ISIRR)",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNLUh5eU16UWRiVTI0bTdBN0JlN21WQ3VxTVRuNUNGLVVoSDNkM3NHeVYwb3FuSTFVZzZ1S0RXazdBV2Qtc2c4d0RFN2VCamttbHpKTEpIa2dzQkk5VGJ4T0tjRlpHWl9IWk9IMGVhejJGX1pXZ1MyZTFNYUZyMUpaamdqYzg4VW9KM3hEUjlRLWEtMVhqMFg0RXN6N3NqZUVIbUNEb0s4YTY2YkZzcTllMVp1WDR4R1YzNXRoZDNRbw?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260825T103116Z",
+          "source": "GoogleNews"
+        },
+        {
           "title": "Reference Data Series",
           "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBqYVlDZUxDamk1V2c4UmxNUVFQaE15Y2VfaGwyWjJjSGQ1VnRVS1hwUnpvOFJ2eGFLemtPcHJ2cXpIOW9pZDhEdTdtRTFBMkI0c2dKWG1nd29BUGI0U1RNb0txSjhoSi1BcU01Szdn?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -825,15 +845,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "Nuclear Energy Side Events at the 70th IAEA General Conference",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOcHpya3RIRUQwUU56N0hMWUxOeGdmXzRQWXdOaXUybEVNTHhjaTg3aG12UDliSmJDT19ndFRGdFJoMFlLOWhSZVJ1WU9GdFBKVEJoeG9ZQnZ0OEZ1VWZQaENYVnhWMjc5aERrVVRFa281RVlmd1hzbEhtN2lBelgzejJBbk9CZ1VPNWRLWXhMTlhOc1B4Tk1wbEhoWGFlR1k?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260824T105413Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "Media Invited to Launch of IAEA Initiative on Maritime Nuclear Applications in Washington, D.C.",
           "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQOTNuR0lKUmFzaE9ZNTNXTnp4ZUMzYVZ4S1VfWTVUZ1l0eXhvajk2VVk3cnowU2F2bHdDaVBXX1ZGcXdzUmRFMUQ0MlVHdjFLOFBodGVFcGd3cVFxNHRZcDM2dGg5NmlOSk1PLUpaMjJvZ2pZak93NFZRSmh5QWx3aVVMMTd6NWdwZERQdnU4S2NyWHdUM2twSDdSanRTZElRdk4wdlRlUDQ2S3VBWnJ5OHBCcUFrZFVsdmxoQVJiY1VOeUcxWDFQN2tZUF9BQVJnbWdjbW9B?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -852,21 +863,21 @@
           "source": "GoogleNews"
         },
         {
-          "title": "IAEA Observes Progress in Safety at Research Reactor in the Philippines",
-          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQNHcxNXVRaEJGM1dlTXE5Y0RrWGJ0OXJZSFc5bjJocGtZY240UkJWOWFHSHY0dVk2bkxVd2g1UVFoM0M5dFRIbDRCYmd4TDZTWVFyREdFQXRyVTg3UHF6RzBYVW5ROFQtdHpyTU0tZEZsamtIc3VNdXRPUmREOHJSTXl5NDAxRDlpUmwtX181QWhSZVVCYklyMWxCa1lXbS1GOWJ3SFEtYWpXYlZpYzFGSTlrdzJqOWM?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260812T070000Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "Requirements Engineering in the Life Cycle of Instrumentation and Control Systems in Nuclear Power Plants",
           "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQdFlrMlFsQlRVeVM5Z0JqRC15NGRaX3hMTzFaTlkzWHhheFFnZnByV0lVS2NjNnAyU1RIdFdDbTJkdjBmXzNzX2xSRjZnRFYtX1VjWkk4dTl5U2hrUzFET0tXV0ZNOW1yS1p0emluT1dIWHlBTmpDUDV3cThnZVJwa2hlLVZmZjluSlkyTjN5MnpYSzhsY2ZScW5NdFRHaVR0T0JwX0JIamNzemNiN0RwemFEWlZ4ZUtjSnNNR0l3SXk5QVlFSWhqTXV5N0s1d25DLUs1VnhQc280Z3ZP?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
           "seendate": "20260730T183959Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "70th IAEA General Conference - Technical Cooperation",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOYzc3N2hjTkxLY0k5ZWlPRWIxS2xyZUxLZXN1eDBfcjhkbnE2X3VnWTFhakFwS2J3YkZXWWY5UlE5VHZCSUsxU3NBcEJ1cExibjBfSzVYemZYWTV6T1p1LUdEWVA2bzdVdUR6djN4S2pPMUxJa3VGWGVmWU5hQkZKaFlyWmZ5bDVrY1dXc3k5M29iUzdGV2piOEdtOHBwUE5EU09pbnFfQzEtRHphdGE0?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260811T070418Z",
           "source": "GoogleNews"
         },
         {
@@ -956,7 +967,7 @@
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
-          "seendate": "20260627T072257Z",
+          "seendate": "20260612T231010Z",
           "source": "GoogleNews"
         },
         {
@@ -8781,6 +8792,54 @@
           "lon": 87.9952,
           "lat": 41.8774,
           "depth_km": 10,
+          "source": "USGS"
+        },
+        {
+          "id": "ci41539032",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1788066360750,
+          "magnitude": 1.58,
+          "magnitude_type": "ml",
+          "event_type": "earthquake",
+          "place": "23 km N of Ridgecrest, CA",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41539032",
+          "lon": -117.672833333333,
+          "lat": 35.8281666666667,
+          "depth_km": 6.81,
+          "source": "USGS"
+        },
+        {
+          "id": "nn00923980",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1788048013286,
+          "magnitude": 1.61,
+          "magnitude_type": "ml",
+          "event_type": "earthquake",
+          "place": "6 km SW of Mina, Nevada",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00923980",
+          "lon": -118.1653,
+          "lat": 38.3485,
+          "depth_km": 4.3546,
+          "source": "USGS"
+        },
+        {
+          "id": "nn00923978",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1788038735552,
+          "magnitude": 1.55,
+          "magnitude_type": "ml",
+          "event_type": "earthquake",
+          "place": "60 km S of Kingston, Nevada",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00923978",
+          "lon": -117.0296,
+          "lat": 38.6651,
+          "depth_km": 6.5206,
           "source": "USGS"
         },
         {
@@ -37581,54 +37640,6 @@
           "lon": -118.825833333333,
           "lat": 37.5436666666667,
           "depth_km": 4.09,
-          "source": "USGS"
-        },
-        {
-          "id": "ci41278848",
-          "site": "Nevada National Security Site",
-          "site_lat": 37.12,
-          "site_lon": -116.05,
-          "time": 1756507458170,
-          "magnitude": 1.72,
-          "magnitude_type": "ml",
-          "event_type": "earthquake",
-          "place": "10 km NE of Coso Junction, CA",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41278848",
-          "lon": -117.887,
-          "lat": 36.119,
-          "depth_km": 4.54,
-          "source": "USGS"
-        },
-        {
-          "id": "ci41278136",
-          "site": "Nevada National Security Site",
-          "site_lat": 37.12,
-          "site_lon": -116.05,
-          "time": 1756466126770,
-          "magnitude": 1.53,
-          "magnitude_type": "ml",
-          "event_type": "earthquake",
-          "place": "30 km ESE of Johannesburg, CA",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41278136",
-          "lon": -117.3533333,
-          "lat": 35.234,
-          "depth_km": 2.22,
-          "source": "USGS"
-        },
-        {
-          "id": "nc75230227",
-          "site": "Nevada National Security Site",
-          "site_lat": 37.12,
-          "site_lon": -116.05,
-          "time": 1756446508080,
-          "magnitude": 2.2,
-          "magnitude_type": "md",
-          "event_type": "earthquake",
-          "place": "19 km SW of Toms Place, CA",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75230227",
-          "lon": -118.839,
-          "lat": 37.4433333333333,
-          "depth_km": 4.1,
           "source": "USGS"
         },
         {
