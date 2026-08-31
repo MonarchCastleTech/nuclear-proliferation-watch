@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "nuclear-proliferation-watch",
-    "generated": "2026-08-31T06:14:26.652553+00:00",
+    "generated": "2026-08-31T14:26:55.386979+00:00",
     "mode": "live",
     "sources": [
       "IAEA official pages",
@@ -14,7 +14,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-08-31T06:14:26.643794+00:00",
+    "issued_at": "2026-08-31T14:26:55.378889+00:00",
     "horizon": "0-30 days",
     "classification": "nuclear-escalation-pressure-not-test-or-weapon-probability",
     "score": 6.7,
@@ -28,7 +28,7 @@
         "available": true,
         "score": 19.2,
         "current_14d_weight": 2.0,
-        "current_14d_titles": 17,
+        "current_14d_titles": 18,
         "baseline_periods": 8,
         "baseline_median": 0.0,
         "anomaly_z": 2.0,
@@ -81,7 +81,7 @@
         "available": true,
         "score": 0.0,
         "current_30d_diagnostic_weight": 0.0,
-        "events_considered": 1828,
+        "events_considered": 1832,
         "sites_monitored": 8,
         "anomaly_z": 0.0,
         "evidence": [],
@@ -220,6 +220,17 @@
       },
       {
         "timestamp": "2026-08-31T06:14:26.643794+00:00",
+        "score": 6.7,
+        "level": "BASELINE",
+        "components": {
+          "iaea_safeguards_strain": 19.2,
+          "npwmd_designation_delta": 0.0,
+          "facility_security_incidents": 0.0,
+          "test_site_seismicity": 0.0
+        }
+      },
+      {
+        "timestamp": "2026-08-31T14:26:55.378889+00:00",
         "score": 6.7,
         "level": "BASELINE",
         "components": {
@@ -496,15 +507,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "IAEA Director General Joins International Experts Sampling Seawater Near Fukushima",
-          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNazFyd0Z6OERfaW45VG9xUjRoOGxYM281N0duQ3BvTW1lalY5UTlFQnNOVTBpbkY1a1l0dWpLeVNxNk5VZFVWRk1DV1pvc2NCanVwajRBb0VUVTRLbzVWWk1jYlFoOXhyUTJ3UG5EMzllWlpWNjZGT2NGNzdaSThuX09xV1I0Q3RpOVVtd0RzT0NHS2RIdmdFS0dwRGttZ1lEdWJJNVlxenBZa3B1VVEtOF90RGxWNlpXYkNsYmh3N0pNa3FIQ1E?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260624T070000Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "IAEA to Launch ATLAS: Pioneering Nuclear Solutions for Shipping and Offshore Energy, Washington, August 26-27, 2026",
           "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNRDVTbGRZSGxDb0YtYU55cUtCQWdnM0NkTWZoS2FaSlpXbk91WVE4MEFDS0FiWFdMLWl1ZTlXbktnOHZ3SHdzUVdkQk0xWEpka3FBVWdDYVBDeTl6VXNlRk1UZDZHbzRPWk95Mk5Xci1lNm0xeWc5dVhfa3UwcXQyejAxcDdoU2lRTjJDaWVrc1JVRHZVeDhzaFFUbUhwb0I5NTQtbDBlZmJrMzFWMm9wZC1fTFBPR09sSjRpY0tSZ1l3NVFiR2RHV0pucTJMdGp5dmQyd1FtN0tYcjVxNm05N0t5T3JCU0NYQXlkTQ?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -604,15 +606,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "Update 363 – IAEA Director General Statement on Situation in Ukraine",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxObm9BZElGb0lWcTFIXy1uYVIwbFBnTE1Na0x2UDhhVElubFhFWmVHMjlJc09NVUFfQkl5SUdZZkJjczJqTUZPV25YeG9KeE52d1BaTmZsRUZGRkthUUV5SzZrODNfRG1nTDhlbERONTNiYkJxQjZPRm9XdG55N1lic3ZoN3dhSWhRWTFubGNSNjJsbHJjSXJVSExVaUtLYnN3dGNsaDFaNWpaY3BkUDJXTQ?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260820T070000Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "International Training Course on Safety and Security in the Management of Disused Sealed Radioactive Sources",
           "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE84MzNIRWxMMFczaS1TVHpHT05xdm9HRHpqb0xKYjVaZHRnYnI0V05PaU1xeE1wVkp2aTBtZnZ1aFJJQ1hDdVlsaEZpc3duUQ?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -637,6 +630,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20250531T052238Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Update 363 – IAEA Director General Statement on Situation in Ukraine",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxObm9BZElGb0lWcTFIXy1uYVIwbFBnTE1Na0x2UDhhVElubFhFWmVHMjlJc09NVUFfQkl5SUdZZkJjczJqTUZPV25YeG9KeE52d1BaTmZsRUZGRkthUUV5SzZrODNfRG1nTDhlbERONTNiYkJxQjZPRm9XdG55N1lic3ZoN3dhSWhRWTFubGNSNjJsbHJjSXJVSExVaUtLYnN3dGNsaDFaNWpaY3BkUDJXTQ?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260820T070000Z",
           "source": "GoogleNews"
         },
         {
@@ -676,12 +678,12 @@
           "source": "GoogleNews"
         },
         {
-          "title": "IAEA Revamps Major Nuclear Power Database",
-          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNcHhiYnNmZnhoTlUwc3YyaWxxRkZXSDg3UE9qbG1sNFNOaGJHTkZ2OE41alRxMFUxWDIzVjlFbktRX2I3NFJ3MHNoeXhfVjFYb2p5R2NHUGI1TXFGUFFXbS1rYUZHODk2U3Nvck10Z2ljODJsdmhIaUR0bkFhQ2c5SWtqRQ?oc=5",
+          "title": "Tritium Level Far Below Japan’s Operational Limit in 23rd Batch of ALPS Treated Water, IAEA Confirms",
+          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOSGMtVTdqWUwwUU5IT1lXek5hZlFlbmhrWDZfeThQa2IxYmhQRzh6RExraUFnNS1WaHRnTlhGMVJxSXhpcjdnRFBNSllrdUo3SjJsN3lKM2ZqY0ZiT2lCWlNmWGdsUDFiY2NSMjU0M1BCZGJoM0x2dFNxOUdwdDItS195dFIyd1c3d1hKazNQZGVWVnFaRV9pc2FmcldDSXVNSTVWMWhBNFF1Zml6bW5tQ2hXQnhSQ1Q0TjM2UFhOYmV3bEgwSjdRc3FfQXhLWm9MOFFPWkxCcHdiYkdu?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
-          "seendate": "20260821T073005Z",
+          "seendate": "20260831T053804Z",
           "source": "GoogleNews"
         },
         {
@@ -745,6 +747,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20260708T070000Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "IAEA Revamps Major Nuclear Power Database",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNcHhiYnNmZnhoTlUwc3YyaWxxRkZXSDg3UE9qbG1sNFNOaGJHTkZ2OE41alRxMFUxWDIzVjlFbktRX2I3NFJ3MHNoeXhfVjFYb2p5R2NHUGI1TXFGUFFXbS1rYUZHODk2U3Nvck10Z2ljODJsdmhIaUR0bkFhQ2c5SWtqRQ?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260821T073005Z",
           "source": "GoogleNews"
         },
         {
@@ -1036,6 +1047,15 @@
           "source": "GoogleNews"
         },
         {
+          "title": "IAEA Director General Joins International Experts Sampling Seawater Near Fukushima",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNazFyd0Z6OERfaW45VG9xUjRoOGxYM281N0duQ3BvTW1lalY5UTlFQnNOVTBpbkY1a1l0dWpLeVNxNk5VZFVWRk1DV1pvc2NCanVwajRBb0VUVTRLbzVWWk1jYlFoOXhyUTJ3UG5EMzllWlpWNjZGT2NGNzdaSThuX09xV1I0Q3RpOVVtd0RzT0NHS2RIdmdFS0dwRGttZ1lEdWJJNVlxenBZa3B1VVEtOF90RGxWNlpXYkNsYmh3N0pNa3FIQ1E?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260624T070000Z",
+          "source": "GoogleNews"
+        },
+        {
           "title": "IAEA-Led Mission Conducts Source Water Sampling at Fukushima Daiichi Nuclear Power Station Under Additional Measures | IAEA",
           "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOYW56Q1ZGaTZFS2QzWGRUY1pBTC1mRzNLeXN0SmN5Z1RUcWZCRGxTYS1mcWhzNEZVTVZsel9lU3NaWFk1VWhMMkxEY2pyMkZ2SmJOOHFBVVJPWUJ2ZHJMMURrMi1BTGYzbGxJbWxCX0gxa3pZMUg1dkRhbGFDZ1lpMFhxeWo4amdtcE9LZUVNakptS0hEeHNwd09jcXIzTS1vR05leDFhblFQQmRKWWllQkZ5T2R2TzA5azRCNXF6cVRLNi14REZMczBfYVhkVE9JS2VicUJXZGVDQ19OajcycUh4RXRXRHNYVWdYZGhrSWVkdE0?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -1108,6 +1128,15 @@
           "source": "GoogleNews"
         },
         {
+          "title": "Technical Reports Series",
+          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE54Sm95UGRBU1lYQWozMjBRVmVhZjlac3lLS1NJbmloTTh5Z3NERW1zNFNpNmVoTnVQNFdWTjJKeDRwbGVrNEMtbmxyWHZNMzBmdEd3T2l6S0taclZnS1JHLTRMb0RTWjNvVHpPQlV3VXFHUQ?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260731T233206Z",
+          "source": "GoogleNews"
+        },
+        {
           "title": "Contribution to the Research on Advancing Surveillance and Control Techniques Against the New World Screwworm",
           "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5fM3k3UVpCV21hWWVvTUZnUEtfY2hkQkRBb3BLNG1LRFZDczVxaHdQd3d6V1hxSGZMd1dlWjIzQ1NDWGx5RHBJM2ROZkt4ckZ1?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -1168,24 +1197,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20260604T120939Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "IAEA Assists Austria with Nuclear Security Measures for Eurovision 2026",
-          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQdFZiQ0hIXzdqQ0xfS2ZZNjlPcmt3WldRdU1hanh3TmVLWjJzaElQREV0VGE0ZVlFNkZvZF9ITXZIaUxoSXItb3hsTGFrYzdCQjNxT19zNVBnaEdUU1VmRGxKcmxaVWRPWGI5QUN0UWI1NDNwdHRkR1RCbmYxN2h0UEk5TlB5NDQ1Qm0zY3ZOdzlITzFxYUJodV9aSV9rOEEwM3dScGU1cTBrRnY2Xzc3SnpJRTZsRjQ?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260517T070000Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "International Symposium on Trends in Radiopharmaceuticals - Exhibition",
-          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBFNjAyT3p5LW5CQ291Tmw5dUlrcTJuQmlJWExHcXdBdlNJT21nc1pleHlBM2hNVWh6ZnNEQ0haTUkxQ1p3aHRETUZfTF9DQWhuMWdCeGpiVVdmZm8?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260512T031728Z",
           "source": "GoogleNews"
         }
       ],
@@ -8833,6 +8844,54 @@
           "source": "USGS"
         },
         {
+          "id": "nn00924026",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1788168388502,
+          "magnitude": 1.64,
+          "magnitude_type": "ml",
+          "event_type": "earthquake",
+          "place": "52 km ESE of Beatty, Nevada",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00924026",
+          "lon": -116.2712,
+          "lat": 36.6495,
+          "depth_km": 3.7044,
+          "source": "USGS"
+        },
+        {
+          "id": "nn00924019",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1788167362216,
+          "magnitude": 1.55,
+          "magnitude_type": "ml",
+          "event_type": "earthquake",
+          "place": "52 km ESE of Beatty, Nevada",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00924019",
+          "lon": -116.2672,
+          "lat": 36.6525,
+          "depth_km": 6.7386,
+          "source": "USGS"
+        },
+        {
+          "id": "nn00924015",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1788159760387,
+          "magnitude": 1.5,
+          "magnitude_type": "ml",
+          "event_type": "earthquake",
+          "place": "33 km NNW of Rachel, Nevada",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00924015",
+          "lon": -115.8363,
+          "lat": 37.9408,
+          "depth_km": 0.7901,
+          "source": "USGS"
+        },
+        {
           "id": "ci41539472",
           "site": "Nevada National Security Site",
           "site_lat": 37.12,
@@ -10238,6 +10297,22 @@
           "lon": -116.5089,
           "lat": 38.4515,
           "depth_km": 5.3606,
+          "source": "USGS"
+        },
+        {
+          "id": "nc75421517",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1787176500170,
+          "magnitude": 2.11,
+          "magnitude_type": "md",
+          "event_type": "earthquake",
+          "place": "4 km ENE of Bishop, CA",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75421517",
+          "lon": -118.348,
+          "lat": 37.3761666666667,
+          "depth_km": 8.53,
           "source": "USGS"
         },
         {
