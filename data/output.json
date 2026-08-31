@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "nuclear-proliferation-watch",
-    "generated": "2026-08-30T21:35:44.081793+00:00",
+    "generated": "2026-08-31T06:14:26.652553+00:00",
     "mode": "live",
     "sources": [
       "IAEA official pages",
@@ -14,10 +14,10 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-08-30T21:35:44.074338+00:00",
+    "issued_at": "2026-08-31T06:14:26.643794+00:00",
     "horizon": "0-30 days",
     "classification": "nuclear-escalation-pressure-not-test-or-weapon-probability",
-    "score": 7.5,
+    "score": 6.7,
     "level": "BASELINE",
     "confidence": "HIGH",
     "confidence_score": 100.0,
@@ -26,12 +26,12 @@
         "id": "iaea_safeguards_strain",
         "label": "IAEA safeguards and access strain",
         "available": true,
-        "score": 21.3,
-        "current_14d_weight": 2.8,
-        "current_14d_titles": 16,
+        "score": 19.2,
+        "current_14d_weight": 2.0,
+        "current_14d_titles": 17,
         "baseline_periods": 8,
         "baseline_median": 0.0,
-        "anomaly_z": 2.8,
+        "anomaly_z": 2.0,
         "evidence": [
           {
             "title": "Reaching the future Safeguards workforce: Early Career Avenues in the Department of Safeguards",
@@ -44,12 +44,6 @@
             "url": null,
             "date": "2026-08-23",
             "weight": 1.0
-          },
-          {
-            "title": "50 years of IAEA - Euratom Cooperation: Challenges and lessons learned for a safer world",
-            "url": null,
-            "date": "2026-08-20",
-            "weight": 0.8
           }
         ],
         "retained": false
@@ -223,6 +217,17 @@
           "facility_security_incidents": 0.0,
           "test_site_seismicity": 0.0
         }
+      },
+      {
+        "timestamp": "2026-08-31T06:14:26.643794+00:00",
+        "score": 6.7,
+        "level": "BASELINE",
+        "components": {
+          "iaea_safeguards_strain": 19.2,
+          "npwmd_designation_delta": 0.0,
+          "facility_security_incidents": 0.0,
+          "test_site_seismicity": 0.0
+        }
       }
     ],
     "data_health": {
@@ -270,7 +275,7 @@
   "stats": [
     {
       "label": "Escalation Pressure",
-      "value": "7.5/100",
+      "value": "6.7/100",
       "delta": "BASELINE"
     },
     {
@@ -302,15 +307,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "IAEA Launches ATLAS as Countries Explore Nuclear Power for Shipping and Offshore Energy",
-          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOMkFxQ0tKejgtSkszMlpJSjQwRnFHUGpUUUk5d1YtQnpjMWFHOTk0eHQ1dWJ1LW1LcG4yb0wwYUtVM3VjTWdfQVFUcXpkUXRubUJOUGtjU05haW4wcnhBSXJKc1dqb2FVWkJJdmpfZTdsaDF1TjhKaEd3ZmU2dl9iVUpseFFlemtWRG85cm1DQzFjRnU2R05wSV8yY1RmNmRLa053RkdpUWRRdDJudDdLdjVwSnBaOWItX0lqWExzOHFzbTVuN1NyRG5ZVGE?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260826T053035Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "Update 364 – IAEA Director General Statement on Situation in Ukraine",
           "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPT0U3T0FmUC1LRFRmMGhBb3UyRE1mWkFuakt1VzlZNDJMUEl6Y01HYzdPazg3UktNWTFzR1c2d0lfWURIaFktajBqOHBqS183bGFLMVpHbDdzRjBLZmRoZXNuSzZXb3l1U3UycUNESGsxS1BMWWExOHRGRGFqVHVhNnpiN2pzeXVkakpwWnlIU0hxcXZVWEMtUlMyWEVxLVFFVE9HVENhSTUzUnE5aGlXUFJn?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -326,6 +322,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20260825T145023Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "IAEA Launches ATLAS as Countries Explore Nuclear Power for Shipping and Offshore Energy",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOMkFxQ0tKejgtSkszMlpJSjQwRnFHUGpUUUk5d1YtQnpjMWFHOTk0eHQ1dWJ1LW1LcG4yb0wwYUtVM3VjTWdfQVFUcXpkUXRubUJOUGtjU05haW4wcnhBSXJKc1dqb2FVWkJJdmpfZTdsaDF1TjhKaEd3ZmU2dl9iVUpseFFlemtWRG85cm1DQzFjRnU2R05wSV8yY1RmNmRLa053RkdpUWRRdDJudDdLdjVwSnBaOWItX0lqWExzOHFzbTVuN1NyRG5ZVGE?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260826T053035Z",
           "source": "GoogleNews"
         },
         {
@@ -491,15 +496,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "Update 363 – IAEA Director General Statement on Situation in Ukraine",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxObm9BZElGb0lWcTFIXy1uYVIwbFBnTE1Na0x2UDhhVElubFhFWmVHMjlJc09NVUFfQkl5SUdZZkJjczJqTUZPV25YeG9KeE52d1BaTmZsRUZGRkthUUV5SzZrODNfRG1nTDhlbERONTNiYkJxQjZPRm9XdG55N1lic3ZoN3dhSWhRWTFubGNSNjJsbHJjSXJVSExVaUtLYnN3dGNsaDFaNWpaY3BkUDJXTQ?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260820T070000Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "IAEA Director General Joins International Experts Sampling Seawater Near Fukushima",
           "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNazFyd0Z6OERfaW45VG9xUjRoOGxYM281N0duQ3BvTW1lalY5UTlFQnNOVTBpbkY1a1l0dWpLeVNxNk5VZFVWRk1DV1pvc2NCanVwajRBb0VUVTRLbzVWWk1jYlFoOXhyUTJ3UG5EMzllWlpWNjZGT2NGNzdaSThuX09xV1I0Q3RpOVVtd0RzT0NHS2RIdmdFS0dwRGttZ1lEdWJJNVlxenBZa3B1VVEtOF90RGxWNlpXYkNsYmh3N0pNa3FIQ1E?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -590,15 +586,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "IAEA Revamps Major Nuclear Power Database",
-          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNcHhiYnNmZnhoTlUwc3YyaWxxRkZXSDg3UE9qbG1sNFNOaGJHTkZ2OE41alRxMFUxWDIzVjlFbktRX2I3NFJ3MHNoeXhfVjFYb2p5R2NHUGI1TXFGUFFXbS1rYUZHODk2U3Nvck10Z2ljODJsdmhIaUR0bkFhQ2c5SWtqRQ?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260821T073005Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "Press Arrangements for IAEA Board of Governors Meeting, 5 June 2026",
           "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPX1VFV1dSUGM1b3V2dmxqUko4ZUVNVlJ3dUZYelFFRDJlVEZsNVprQjVoWGNYcGFEcV9XT1h6aFlNdVFhSG9jblF2ZzNLbUVUa3U5M3YzdDBMX3lRdmZJeXBqX0dYZ0s3WEFwTEhVMWFKQzUzM0VJemxwQk9SUUJ4YWtlbnFQMGhsd2xydXdMZzlQZjBlMk5JM3VkYWdWbzF2WnpUaFVaQm5HYVVpS1liS2xDRQ?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -614,6 +601,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20260826T070000Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Update 363 – IAEA Director General Statement on Situation in Ukraine",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxObm9BZElGb0lWcTFIXy1uYVIwbFBnTE1Na0x2UDhhVElubFhFWmVHMjlJc09NVUFfQkl5SUdZZkJjczJqTUZPV25YeG9KeE52d1BaTmZsRUZGRkthUUV5SzZrODNfRG1nTDhlbERONTNiYkJxQjZPRm9XdG55N1lic3ZoN3dhSWhRWTFubGNSNjJsbHJjSXJVSExVaUtLYnN3dGNsaDFaNWpaY3BkUDJXTQ?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260820T070000Z",
           "source": "GoogleNews"
         },
         {
@@ -671,6 +667,24 @@
           "source": "GoogleNews"
         },
         {
+          "title": "The Science Behind U.S. Advanced Reactors: From Innovation to Deployment",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQV3oyTXE1VmVfVDh6UU1IVlNfOWhFZDhPT3FyWjNidzFibC02TGs1Ny1kSVBsZy1idXNURmp0V3Myb3Y3YTZCUXRGZ3hkdTZrNFlpdFNjUXBVU1JmbHRnOGN6SFVUeEtIaFNjT2hVMkVmLXRjSk5mdVV6T3BQdTFSejJLYXl2bzN5elJrdUVOVDZOR2MwU0ZlcFBTLWtNUFBaU0FlNzBtdmhnaWprQ0ZSSk03UEhISmV1TUxNaldUSjNId1U?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260820T152242Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "IAEA Revamps Major Nuclear Power Database",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNcHhiYnNmZnhoTlUwc3YyaWxxRkZXSDg3UE9qbG1sNFNOaGJHTkZ2OE41alRxMFUxWDIzVjlFbktRX2I3NFJ3MHNoeXhfVjFYb2p5R2NHUGI1TXFGUFFXbS1rYUZHODk2U3Nvck10Z2ljODJsdmhIaUR0bkFhQ2c5SWtqRQ?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260821T073005Z",
+          "source": "GoogleNews"
+        },
+        {
           "title": "IAEA and George Washington University Law School Conclude First Summer School on the Legal Framework for Nuclear Energy",
           "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxORnFNN21oTXZBUHR5T0ZwVjRCelFraEJiNlRuYTl2SldrX1NWY2F3YUlabV9la0lja3RYZFJ1SVRSSjhIdTFNWnVpci1CYnI0dUJLQnJPbm01NWhkalh0Rm5rRUUyX3oxUmNDSUc2WTdrQ1ZpQU5pQzlpU3FXNlE1c1VUc24zcHhYZnoySXNtWVhFcmc4ZUJoYWotWE4xUDR4NU84cHV6akI0UlpLUFBrVVBwdDJ5UE1CckdWMlRnSFpsMk9iOXhJendid3FNTVhQQVZReVJrTzFZd3FIYmdMelBwaUE3dl9rQkdR?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -721,16 +735,7 @@
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
-          "seendate": "20260511T211434Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "50 years of IAEA - Euratom Cooperation: Challenges and lessons learned for a safer world",
-          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOVTNUYW8wcDNVbkRjTDBVcHFLTWtjbW1aLUZKcHdLYjhhaTlDajNDMHc3aTlISGNaLW01TGRRUEVaTUR1OHN0RFZyRzVVeWVKS1RwUGs4cFJZZnFVMXFPQ1NDLXNUR18xZXU0T2RnUXR4UFJCQ3gycGxFalRnMW9YaE5mUTdIRTNQWlAxVi1zZFdFNDhhTm5Lc1dLMklMN3lTY2hvT1JMOFBzOWcyZkpHM3BfdDBQQnoya0VRT3hhZW1zMmpuejJxTC1IaWdnYkt0ajFYYkdpM0U?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260820T152354Z",
+          "seendate": "20260827T070000Z",
           "source": "GoogleNews"
         },
         {
@@ -806,30 +811,12 @@
           "source": "GoogleNews"
         },
         {
-          "title": "International Law Series",
-          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9PNkdac0NBYmMxRi1KOEtLa3dqT3lfTHFQZzFUZnI0dW1GVGdNb1lhOG9Sa1E5Ml8wS25salpod1U0aUxEMkVmQ0tKbDBBeFFPNWdjYldOU1l1VldSa1BYTlAxZGJvYUp1Sm5MUXo5SzJCQQ?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260731T233206Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "Good Practices in Implementing Plant and Equipment Reliability Programmes in Operating Nuclear Power Plants",
           "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQNThMSGhlenAxemhsNWNlb1BDYTNHRmRJMk00eUFnYUFXWkNFazF3TDVUd1Nra1A5QmRVZG1KT2lER1hBSGNNS1NoR2pTeE80dENubklKX1lqTU5mdnMzWWtaaW9IclFLU2I0Y1Fyb19GTl9pVmlBZm0xelEwVTBVUTYzLUNjTVI0QlVTRzRFSm1LUlBYeWFlYXozODQwQ29WUWstQTc5LU50dmw2UWRyUkVyZWlqQUVVZmpwa200aEVKMGx0M2FJRDZsMmZhWktETElIWUtrV3BkdEJuZUdV?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
           "seendate": "20260814T221027Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "Reference Data Series",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBqYVlDZUxDamk1V2c4UmxNUVFQaE15Y2VfaGwyWjJjSGQ1VnRVS1hwUnpvOFJ2eGFLemtPcHJ2cXpIOW9pZDhEdTdtRTFBMkI0c2dKWG1nd29BUGI0U1RNb0txSjhoSi1BcU01Szdn?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260801T020310Z",
           "source": "GoogleNews"
         },
         {
@@ -914,6 +901,15 @@
           "source": "GoogleNews"
         },
         {
+          "title": "International Law Series",
+          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9PNkdac0NBYmMxRi1KOEtLa3dqT3lfTHFQZzFUZnI0dW1GVGdNb1lhOG9Sa1E5Ml8wS25salpod1U0aUxEMkVmQ0tKbDBBeFFPNWdjYldOU1l1VldSa1BYTlAxZGJvYUp1Sm5MUXo5SzJCQQ?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260731T233206Z",
+          "source": "GoogleNews"
+        },
+        {
           "title": "Technical Meeting on Circular Economy Principles in Uranium Production",
           "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE91QWhzVEtBckJqRE5VanlqM1ZXSnByMUxlZFNrR1BRSG9oVmVUdnB6NS16TVFiMkZkLUdhWjYwSDRyZ2dER2tGT1dnNFJQZw?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -992,6 +988,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20260528T070000Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Reference Data Series",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBqYVlDZUxDamk1V2c4UmxNUVFQaE15Y2VfaGwyWjJjSGQ1VnRVS1hwUnpvOFJ2eGFLemtPcHJ2cXpIOW9pZDhEdTdtRTFBMkI0c2dKWG1nd29BUGI0U1RNb0txSjhoSi1BcU01Szdn?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260801T020310Z",
           "source": "GoogleNews"
         },
         {
@@ -8825,6 +8830,22 @@
           "lon": 87.9952,
           "lat": 41.8774,
           "depth_km": 10,
+          "source": "USGS"
+        },
+        {
+          "id": "ci41539472",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1788140124310,
+          "magnitude": 1.52,
+          "magnitude_type": "ml",
+          "event_type": "earthquake",
+          "place": "17 km W of Searles Valley, CA",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41539472",
+          "lon": -117.5935,
+          "lat": 35.767,
+          "depth_km": 6.66,
           "source": "USGS"
         },
         {
@@ -37708,22 +37729,6 @@
           "source": "USGS"
         },
         {
-          "id": "nc75230617",
-          "site": "Nevada National Security Site",
-          "site_lat": 37.12,
-          "site_lon": -116.05,
-          "time": 1756526063290,
-          "magnitude": 2.44,
-          "magnitude_type": "md",
-          "event_type": "earthquake",
-          "place": "13 km W of Toms Place, CA",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75230617",
-          "lon": -118.825833333333,
-          "lat": 37.5436666666667,
-          "depth_km": 4.09,
-          "source": "USGS"
-        },
-        {
           "id": "us6000sqwh",
           "site": "Chagai",
           "site_lat": 28.9,
@@ -37909,12 +37914,6 @@
       "url": null,
       "date": "2026-08-23",
       "weight": 1.0
-    },
-    {
-      "title": "50 years of IAEA - Euratom Cooperation: Challenges and lessons learned for a safer world",
-      "url": null,
-      "date": "2026-08-20",
-      "weight": 0.8
     }
   ]
 }
