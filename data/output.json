@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "nuclear-proliferation-watch",
-    "generated": "2026-09-01T05:41:41.169197+00:00",
+    "generated": "2026-09-01T12:02:38.435888+00:00",
     "mode": "live",
     "sources": [
       "IAEA official pages",
@@ -14,7 +14,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-09-01T05:41:41.160987+00:00",
+    "issued_at": "2026-09-01T12:02:38.427902+00:00",
     "horizon": "0-30 days",
     "classification": "nuclear-escalation-pressure-not-test-or-weapon-probability",
     "score": 6.7,
@@ -28,7 +28,7 @@
         "available": true,
         "score": 19.2,
         "current_14d_weight": 2.0,
-        "current_14d_titles": 18,
+        "current_14d_titles": 17,
         "baseline_periods": 8,
         "baseline_median": 0.0,
         "anomaly_z": 2.0,
@@ -261,6 +261,17 @@
           "facility_security_incidents": 0.0,
           "test_site_seismicity": 0.0
         }
+      },
+      {
+        "timestamp": "2026-09-01T12:02:38.427902+00:00",
+        "score": 6.7,
+        "level": "BASELINE",
+        "components": {
+          "iaea_safeguards_strain": 19.2,
+          "npwmd_designation_delta": 0.0,
+          "facility_security_incidents": 0.0,
+          "test_site_seismicity": 0.0
+        }
       }
     ],
     "data_health": {
@@ -340,21 +351,21 @@
           "source": "GoogleNews"
         },
         {
-          "title": "Update 364 – IAEA Director General Statement on Situation in Ukraine",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOZ0N4bkFMNmhoRW1sM0hBVE9rSEtoUHF2RzZYSHF6blhtaS1iOG5acXVxcFl1c0ZnV3VYWWJIQkdBNmVXTHcyQXZxcTJXTTV3OWVoaTMwcElHSllYSnQxbHBXeTdnaG9FdGFoUmVjb0hmRm1QeFhCVVJsOHRCTThlY3R4eUJTclBqaDFIZFRMdVh5TmZxM2NObkY3NHFoZjdBWnE2WUMyLXlKNWFNUTlIZw?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260829T044935Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "Detection of Unintended or Accidental Medical Exposures in Radiotherapy Through Patient Response",
           "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQWlhZelptbW5PTU1RMHQ5dDRiS0tIMTlZUU1GcERfS3F4bnBfZzhkWHFPMnF1MU05NnRMd09xTDNEellCR1R2ajdya2c4OVJqR3hJMUJENi1zQ1FINUZIaFc4Q3JtQkpwOV9HZG5CbDV6RjRuWjFVWFlDeTJUaHpzTlg4VEV2c0tQWTFoVmxicGJvSTJUdGVfWjUyLWVhclJTUUVyTFZZalROMHA2dGFmamdndmtyejJTTVR0eU9BRm1wbVF2cEZ2dm82MkphdWdp?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
           "seendate": "20260825T145023Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Update 364 – IAEA Director General Statement on Situation in Ukraine",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOZ0N4bkFMNmhoRW1sM0hBVE9rSEtoUHF2RzZYSHF6blhtaS1iOG5acXVxcFl1c0ZnV3VYWWJIQkdBNmVXTHcyQXZxcTJXTTV3OWVoaTMwcElHSllYSnQxbHBXeTdnaG9FdGFoUmVjb0hmRm1QeFhCVVJsOHRCTThlY3R4eUJTclBqaDFIZFRMdVh5TmZxM2NObkY3NHFoZjdBWnE2WUMyLXlKNWFNUTlIZw?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260829T044935Z",
           "source": "GoogleNews"
         },
         {
@@ -376,21 +387,21 @@
           "source": "GoogleNews"
         },
         {
-          "title": "Malaysia Strengthens Nuclear Workforce Planning Capacity",
-          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQcVoxY01DZG1PV295SUpRUFhFeGtyZ2xJRkNlTUctZjZhbVdZRU85bTlFTW0wcjZiVmF4d3NWc1otaVpOTGpFNy1ySXhXXy03UTZManlSUnVzcFhFX1hyZUYwcVUyeHlqeUFIYTVLNS1VNFlIdmtNdWpOSG5nZ0lxR3NObHhrYzZnS1llQTRiMmFWUWlEdC1v?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260826T085221Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "IAEA Launches ATLAS as Countries Explore Nuclear Power for Shipping and Offshore Energy",
           "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOMkFxQ0tKejgtSkszMlpJSjQwRnFHUGpUUUk5d1YtQnpjMWFHOTk0eHQ1dWJ1LW1LcG4yb0wwYUtVM3VjTWdfQVFUcXpkUXRubUJOUGtjU05haW4wcnhBSXJKc1dqb2FVWkJJdmpfZTdsaDF1TjhKaEd3ZmU2dl9iVUpseFFlemtWRG85cm1DQzFjRnU2R05wSV8yY1RmNmRLa053RkdpUWRRdDJudDdLdjVwSnBaOWItX0lqWExzOHFzbTVuN1NyRG5ZVGE?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
           "seendate": "20260826T053035Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Malaysia Strengthens Nuclear Workforce Planning Capacity",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQcVoxY01DZG1PV295SUpRUFhFeGtyZ2xJRkNlTUctZjZhbVdZRU85bTlFTW0wcjZiVmF4d3NWc1otaVpOTGpFNy1ySXhXXy03UTZManlSUnVzcFhFX1hyZUYwcVUyeHlqeUFIYTVLNS1VNFlIdmtNdWpOSG5nZ0lxR3NObHhrYzZnS1llQTRiMmFWUWlEdC1v?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260826T085221Z",
           "source": "GoogleNews"
         },
         {
@@ -709,15 +720,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "IAEA and George Washington University Law School Conclude First Summer School on the Legal Framework for Nuclear Energy",
-          "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxORnFNN21oTXZBUHR5T0ZwVjRCelFraEJiNlRuYTl2SldrX1NWY2F3YUlabV9la0lja3RYZFJ1SVRSSjhIdTFNWnVpci1CYnI0dUJLQnJPbm01NWhkalh0Rm5rRUUyX3oxUmNDSUc2WTdrQ1ZpQU5pQzlpU3FXNlE1c1VUc24zcHhYZnoySXNtWVhFcmc4ZUJoYWotWE4xUDR4NU84cHV6akI0UlpLUFBrVVBwdDJ5UE1CckdWMlRnSFpsMk9iOXhJendid3FNTVhQQVZReVJrTzFZd3FIYmdMelBwaUE3dl9rQkdR?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260729T070000Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "Update 351 – IAEA Director General Statement on Situation in Ukraine",
           "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOYVlyLXhhUmNUZ0swMXlRbmJ3dGhTY3JLbWFFZnRzZ081QmNqVGktOFhraERzSFdnN1JMOXl3WkJFLThBVlVMd3h1Y2RmdUZ2YW95SzhfSTRyTVhRMU9YUjZnY3EzR3hkdlJaU184MnkzNmJRNlVaSHZxTkgtRXl0UkY4NDFTdnpJaVFvQlJKa3NxcEtFZ2NiWFJXcnJWODd6YWdCOHNMNkx4UkhDdzdGag?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -1024,15 +1026,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "IAEA Rays of Hope Initiative Delivers Critical Equipment to Restore Radiotherapy Services in Sudan",
-          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOT2VHOS1oUlNmSUlGSVZ6VS05Qm5Ib2RKRU1maG1tNGhyQ2pyOTF5QkppajdHd09zdVRmOThkbTl4OXFOMnpWQWJRWVZOYVRZdnE2UHFwOFpDRVBHekI0bXVpUVZTWVRmU0RfdE9ZNUc2M1Y5ejlwWGh5WkhLTThhSF93UjN5REJyNHRjQzl3ZnZGX0x0SWs4QUNQUHNvdnNONzZqdks0ZWtQdFpJa1NoRS1JY3JrZDFTT3JFZ2lFTDVWUlBjZFk1ZUVSTXdvdVNtOTBRZFFNdjlQT00?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260504T070000Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "International Conference on Integrated Medical Imaging in Cardiovascular Diseases (IMIC-2027) - Abstract and Paper Submission | IAEA",
           "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1IZVYxdm42Uk9pTVNHaDFtOUJPWEZscVZ4Tm5tNk1yZGZDOXMwdDcxRHNrX0p2aTNWOVYzd3hrSTBPQ2xfN08wYzMwT293TDJ3UmtfRnc3VHFmMXhzX1ZxeUJNXzNfQ1ZrSVprVi1YUG9abTQ?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -1219,6 +1212,24 @@
           "language": "",
           "tone": 0,
           "seendate": "20260517T070000Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "International Symposium on Trends in Radiopharmaceuticals - Exhibition",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBFNjAyT3p5LW5CQ291Tmw5dUlrcTJuQmlJWExHcXdBdlNJT21nc1pleHlBM2hNVWh6ZnNEQ0haTUkxQ1p3aHRETUZfTF9DQWhuMWdCeGpiVVdmZm8?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260512T031728Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Webinar on Radionuclides Contamination in Food and Applicable Measurement Techniques",
+          "url": "https://news.google.com/rss/articles/CBMingJBVV95cUxOSjg2Um16d1pmeUlIY1ctV3pvRmliVmtsZHZVZnBocHhIaEV0MTIyZ1g1ZTFRNGhObnA1YU5RTENuRGphZW9hRTU1LTVTa1ZRdmdmMC1qMHVobTVuSmtJWVNXQnlLU3ZFdmRZcHlnRUZ5NGtDVTdHeWRUUXhIMjBPNmZSTW9lWWcxMEtSY2NuMnQ3VHdEVkRLOGtpeHMyUjhWclRkOVBNOTZoTlNseXRlVUdQMzNZLUp3R3pEQmp1eUxBMWEzeUcteldFNmJ3N2xXenFsaHI3bWd0eE1lZTExZmhHR1ZlaWdqM3pFUGFvX1ZwWjRBMDR3dXp2RTNCREs1Y3JHQzdicmowYWkwcFNJZVA3RjRtbWhxVkpUdzJR?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260519T063836Z",
           "source": "GoogleNews"
         }
       ],
