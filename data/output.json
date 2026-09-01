@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "nuclear-proliferation-watch",
-    "generated": "2026-09-01T16:56:11.674000+00:00",
+    "generated": "2026-09-01T21:21:25.402246+00:00",
     "mode": "live",
     "sources": [
       "IAEA official pages",
@@ -14,10 +14,10 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-09-01T16:56:11.664343+00:00",
+    "issued_at": "2026-09-01T21:21:25.393876+00:00",
     "horizon": "0-30 days",
     "classification": "nuclear-escalation-pressure-not-test-or-weapon-probability",
-    "score": 3.4,
+    "score": 6.7,
     "level": "BASELINE",
     "confidence": "HIGH",
     "confidence_score": 100.0,
@@ -26,13 +26,19 @@
         "id": "iaea_safeguards_strain",
         "label": "IAEA safeguards and access strain",
         "available": true,
-        "score": 9.6,
-        "current_14d_weight": 1.0,
-        "current_14d_titles": 18,
+        "score": 19.2,
+        "current_14d_weight": 2.0,
+        "current_14d_titles": 19,
         "baseline_periods": 8,
         "baseline_median": 0.0,
-        "anomaly_z": 1.0,
+        "anomaly_z": 2.0,
         "evidence": [
+          {
+            "title": "Video Archive 313 - Safeguards Japan; Sources Georgia",
+            "url": null,
+            "date": "2026-08-23",
+            "weight": 1.0
+          },
           {
             "title": "Reaching the future Safeguards workforce: Early Career Avenues in the Department of Safeguards",
             "url": null,
@@ -277,6 +283,17 @@
           "facility_security_incidents": 0.0,
           "test_site_seismicity": 0.0
         }
+      },
+      {
+        "timestamp": "2026-09-01T21:21:25.393876+00:00",
+        "score": 6.7,
+        "level": "BASELINE",
+        "components": {
+          "iaea_safeguards_strain": 19.2,
+          "npwmd_designation_delta": 0.0,
+          "facility_security_incidents": 0.0,
+          "test_site_seismicity": 0.0
+        }
       }
     ],
     "data_health": {
@@ -324,7 +341,7 @@
   "stats": [
     {
       "label": "Escalation Pressure",
-      "value": "3.4/100",
+      "value": "6.7/100",
       "delta": "BASELINE"
     },
     {
@@ -434,6 +451,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20260826T115219Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Video Archive 313 - Safeguards Japan; Sources Georgia",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5mdW1uVUt2N0NQYjBSd0NzR1hKa0g3alZCS0hkOUpSQ0VlbzBpWmtSNVZJOVBxbS1QdVctdWFmN0oxVkZyc2tXRTFMRUI2Q0RsWFpqYU4xNkd1VVllM2QwU2ViU1h4bHdaMUVtNFA2RFA5SmdqM3ItYg?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260823T191131Z",
           "source": "GoogleNews"
         },
         {
@@ -770,15 +796,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "Training Course on Ocean Alkalinity Enhancement - Assessing the Impact on Marine Organisms",
-          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPdDVTWTBhSmgtY3NadFE4bG5OVzVGZHNXUDhBbDltTmpPMVpaSFR3OUwxdUYtLXNwYTJ1blFxeEIwcHJVeGhmVXI5dXdULXZwLXhIbTM0QkZwR1JkNFEwcWtXTDN4Y3JEY2lSbWkzMUlaYzdrNTg2dVZoZElmRjFqbWV0Z2FOOFlHRmstQUNvX2UyejZPUmUxeEZPWU9udFlzLTZjeXZPMVo0YzZJTkk3aUVza1AyMjk3UkVnU0VIbVEwSnZhYmhYVVdkY1Rra0RTcC1fLWdlV1dZZw?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260721T142539Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "IAEA Holds First SMR School in a Technology Provider Country",
           "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOdmFzVHlXb2tVMjZ3T3VoLVZlQXlXRHJGSnl4NWJOZzV4am9tUm1zREdBRS1iRzNDbTJpeG9GN284VVhXZWFJUjcwZ3ZZWVBsTUhhT2FQTG5JbHVBS3F0d3F5NFlIUHBWWXNZcThqT3Y2WTM5S3ZoY3FUTGR4REpUQjBpaWNKeUp2RVJFbURpd0xkZkR3MmowaUFtcmg?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -1040,15 +1057,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "Reference Data Series",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBqYVlDZUxDamk1V2c4UmxNUVFQaE15Y2VfaGwyWjJjSGQ1VnRVS1hwUnpvOFJ2eGFLemtPcHJ2cXpIOW9pZDhEdTdtRTFBMkI0c2dKWG1nd29BUGI0U1RNb0txSjhoSi1BcU01Szdn?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260801T020310Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "International Conference on Integrated Medical Imaging in Cardiovascular Diseases (IMIC-2027) - Abstract and Paper Submission | IAEA",
           "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1IZVYxdm42Uk9pTVNHaDFtOUJPWEZscVZ4Tm5tNk1yZGZDOXMwdDcxRHNrX0p2aTNWOVYzd3hrSTBPQ2xfN08wYzMwT293TDJ3UmtfRnc3VHFmMXhzX1ZxeUJNXzNfQ1ZrSVprVi1YUG9abTQ?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -1235,6 +1243,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20260517T070000Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "International Symposium on Trends in Radiopharmaceuticals - Exhibition",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBFNjAyT3p5LW5CQ291Tmw5dUlrcTJuQmlJWExHcXdBdlNJT21nc1pleHlBM2hNVWh6ZnNEQ0haTUkxQ1p3aHRETUZfTF9DQWhuMWdCeGpiVVdmZm8?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260512T031728Z",
           "source": "GoogleNews"
         }
       ],
@@ -37872,6 +37889,12 @@
     }
   },
   "events": [
+    {
+      "title": "Video Archive 313 - Safeguards Japan; Sources Georgia",
+      "url": null,
+      "date": "2026-08-23",
+      "weight": 1.0
+    },
     {
       "title": "Reaching the future Safeguards workforce: Early Career Avenues in the Department of Safeguards",
       "url": null,
