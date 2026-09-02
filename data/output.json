@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "nuclear-proliferation-watch",
-    "generated": "2026-09-01T21:21:25.402246+00:00",
+    "generated": "2026-09-02T05:06:08.258929+00:00",
     "mode": "live",
     "sources": [
       "IAEA official pages",
@@ -14,10 +14,10 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-09-01T21:21:25.393876+00:00",
+    "issued_at": "2026-09-02T05:06:08.250822+00:00",
     "horizon": "0-30 days",
     "classification": "nuclear-escalation-pressure-not-test-or-weapon-probability",
-    "score": 6.7,
+    "score": 3.4,
     "level": "BASELINE",
     "confidence": "HIGH",
     "confidence_score": 100.0,
@@ -26,19 +26,13 @@
         "id": "iaea_safeguards_strain",
         "label": "IAEA safeguards and access strain",
         "available": true,
-        "score": 19.2,
-        "current_14d_weight": 2.0,
+        "score": 9.6,
+        "current_14d_weight": 1.0,
         "current_14d_titles": 19,
         "baseline_periods": 8,
         "baseline_median": 0.0,
-        "anomaly_z": 2.0,
+        "anomaly_z": 1.0,
         "evidence": [
-          {
-            "title": "Video Archive 313 - Safeguards Japan; Sources Georgia",
-            "url": null,
-            "date": "2026-08-23",
-            "weight": 1.0
-          },
           {
             "title": "Reaching the future Safeguards workforce: Early Career Avenues in the Department of Safeguards",
             "url": null,
@@ -81,7 +75,7 @@
         "available": true,
         "score": 0.0,
         "current_30d_diagnostic_weight": 0.0,
-        "events_considered": 1823,
+        "events_considered": 1818,
         "sites_monitored": 8,
         "anomaly_z": 0.0,
         "evidence": [],
@@ -294,6 +288,17 @@
           "facility_security_incidents": 0.0,
           "test_site_seismicity": 0.0
         }
+      },
+      {
+        "timestamp": "2026-09-02T05:06:08.250822+00:00",
+        "score": 3.4,
+        "level": "BASELINE",
+        "components": {
+          "iaea_safeguards_strain": 9.6,
+          "npwmd_designation_delta": 0.0,
+          "facility_security_incidents": 0.0,
+          "test_site_seismicity": 0.0
+        }
       }
     ],
     "data_health": {
@@ -341,7 +346,7 @@
   "stats": [
     {
       "label": "Escalation Pressure",
-      "value": "6.7/100",
+      "value": "3.4/100",
       "delta": "BASELINE"
     },
     {
@@ -365,7 +370,7 @@
       "signals": [
         {
           "title": "Tritium Level Far Below Japan’s Operational Limit in 23rd Batch of ALPS Treated Water, IAEA Confirms",
-          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOSGMtVTdqWUwwUU5IT1lXek5hZlFlbmhrWDZfeThQa2IxYmhQRzh6RExraUFnNS1WaHRnTlhGMVJxSXhpcjdnRFBNSllrdUo3SjJsN3lKM2ZqY0ZiT2lCWlNmWGdsUDFiY2NSMjU0M1BCZGJoM0x2dFNxOUdwdDItS195dFIyd1c3d1hKazNQZGVWVnFaRV9pc2FmcldDSXVNSTVWMWhBNFF1Zml6bW5tQ2hXQnhSQ1Q0TjM2UFhOYmV3bEgwSjdRc3FfQXhLWm9MOFFPWkxCcHdiYkdu?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPQkVSMDNSRGZsbTFWNDZOYmU3bE4wTTl0clNhZS1mN2N1NTZLVngyX19PWXFaMVpNOXM5Sk9ZYzZ5MVFjaUtfRkpSZF9NLU9KcmFZMzVnM2FYajVwd2ZuSnVVNy1heWhxWUZkbHNJQ0t0WTE5Y2tkdHQxMng0SEtMTWdiX0t3WFBBdzV4THlMb3Vxd19ONDAxTE5QVkVXU0ZzUkhqTUExRV82VUJPX1ZKZE4xNXgwMnZ0cTFkODVzLVJ1cFdDeWJubzZKbFBOM0x4dFdsZ2NPUFV5aG8?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
@@ -418,21 +423,21 @@
           "source": "GoogleNews"
         },
         {
-          "title": "Malaysia Strengthens Nuclear Workforce Planning Capacity",
-          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQcVoxY01DZG1PV295SUpRUFhFeGtyZ2xJRkNlTUctZjZhbVdZRU85bTlFTW0wcjZiVmF4d3NWc1otaVpOTGpFNy1ySXhXXy03UTZManlSUnVzcFhFX1hyZUYwcVUyeHlqeUFIYTVLNS1VNFlIdmtNdWpOSG5nZ0lxR3NObHhrYzZnS1llQTRiMmFWUWlEdC1v?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260826T085221Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "International High-level Forum on the ATLAS Launch | IAEA",
           "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFAwOUVjcklwUEtJNHdmSE8xS1FPQ2h3VUlQdXM4RnB0elMxVkFCTkJzdjV2cG55TVdrUHJTWlVSTTNDZ1VhNEV0OHBUekk?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
           "seendate": "20260827T070000Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Malaysia Strengthens Nuclear Workforce Planning Capacity",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQcVoxY01DZG1PV295SUpRUFhFeGtyZ2xJRkNlTUctZjZhbVdZRU85bTlFTW0wcjZiVmF4d3NWc1otaVpOTGpFNy1ySXhXXy03UTZManlSUnVzcFhFX1hyZUYwcVUyeHlqeUFIYTVLNS1VNFlIdmtNdWpOSG5nZ0lxR3NObHhrYzZnS1llQTRiMmFWUWlEdC1v?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260826T085221Z",
           "source": "GoogleNews"
         },
         {
@@ -451,15 +456,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20260826T115219Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "Video Archive 313 - Safeguards Japan; Sources Georgia",
-          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5mdW1uVUt2N0NQYjBSd0NzR1hKa0g3alZCS0hkOUpSQ0VlbzBpWmtSNVZJOVBxbS1QdVctdWFmN0oxVkZyc2tXRTFMRUI2Q0RsWFpqYU4xNkd1VVllM2QwU2ViU1h4bHdaMUVtNFA2RFA5SmdqM3ItYg?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260823T191131Z",
           "source": "GoogleNews"
         },
         {
@@ -877,6 +873,15 @@
           "source": "GoogleNews"
         },
         {
+          "title": "Advisory Service to Support In-Service Inspections of Research Reactors (ISIRR)",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNLUh5eU16UWRiVTI0bTdBN0JlN21WQ3VxTVRuNUNGLVVoSDNkM3NHeVYwb3FuSTFVZzZ1S0RXazdBV2Qtc2c4d0RFN2VCamttbHpKTEpIa2dzQkk5VGJ4T0tjRlpHWl9IWk9IMGVhejJGX1pXZ1MyZTFNYUZyMUpaamdqYzg4VW9KM3hEUjlRLWEtMVhqMFg0RXN6N3NqZUVIbUNEb0s4YTY2YkZzcTllMVp1WDR4R1YzNXRoZDNRbw?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260825T103116Z",
+          "source": "GoogleNews"
+        },
+        {
           "title": "Services Series",
           "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE54dmRCcFZ4WVA0Tjdlek92Wk9EOGJTdldPMkFNcUFyWUpJandGN1NDYmxrb0ppTFFMX1M5eUVJUzRZVVRaTWRLcm5yMjNGaENIX1NNOWtMaVF6WGFQQmJyekNJU2Vndw?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -901,15 +906,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20260611T070000Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "Nuclear Energy Side Events at the 70th IAEA General Conference",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOcHpya3RIRUQwUU56N0hMWUxOeGdmXzRQWXdOaXUybEVNTHhjaTg3aG12UDliSmJDT19ndFRGdFJoMFlLOWhSZVJ1WU9GdFBKVEJoeG9ZQnZ0OEZ1VWZQaENYVnhWMjc5aERrVVRFa281RVlmd1hzbEhtN2lBelgzejJBbk9CZ1VPNWRLWXhMTlhOc1B4Tk1wbEhoWGFlR1k?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260824T105413Z",
           "source": "GoogleNews"
         },
         {
@@ -964,6 +960,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20260701T100738Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Nuclear Energy Side Events at the 70th IAEA General Conference",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOcHpya3RIRUQwUU56N0hMWUxOeGdmXzRQWXdOaXUybEVNTHhjaTg3aG12UDliSmJDT19ndFRGdFJoMFlLOWhSZVJ1WU9GdFBKVEJoeG9ZQnZ0OEZ1VWZQaENYVnhWMjc5aERrVVRFa281RVlmd1hzbEhtN2lBelgzejJBbk9CZ1VPNWRLWXhMTlhOc1B4Tk1wbEhoWGFlR1k?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260824T105413Z",
           "source": "GoogleNews"
         },
         {
@@ -1147,15 +1152,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "International Conference on Integrated Medical Imaging in Cardiovascular Diseases (IMIC-2027) -Participation and Registration | IAEA",
-          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9vTENrY05nSkZRWjRRcjJfTUJFSHNyQzctdGxrdGVBb1RwVUVCLVNrYXo4T2ZiWVQ2WTRFYlhSWmFSSDkwdTByZFpyVUM2blp4RVdtOVRabTNmZ3UxVkMxUERyR054WWZFd3Jpd20wWEJaRkdm?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260525T184209Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "Technical Meeting on Advanced Techniques for Radioactive Waste Characterization",
           "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1pd3AwUlY2OU5HdGpDMC1Dai1BNFpTaEFlS2RNMUljMk5IdHBZaC1UeDRscUY2WWpXZjJBQjBHZW1ldFoyblQ5eXkySnJsQQ?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -1252,6 +1248,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20260512T031728Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Webinar on Radionuclides Contamination in Food and Applicable Measurement Techniques",
+          "url": "https://news.google.com/rss/articles/CBMingJBVV95cUxOSjg2Um16d1pmeUlIY1ctV3pvRmliVmtsZHZVZnBocHhIaEV0MTIyZ1g1ZTFRNGhObnA1YU5RTENuRGphZW9hRTU1LTVTa1ZRdmdmMC1qMHVobTVuSmtJWVNXQnlLU3ZFdmRZcHlnRUZ5NGtDVTdHeWRUUXhIMjBPNmZSTW9lWWcxMEtSY2NuMnQ3VHdEVkRLOGtpeHMyUjhWclRkOVBNOTZoTlNseXRlVUdQMzNZLUp3R3pEQmp1eUxBMWEzeUcteldFNmJ3N2xXenFsaHI3bWd0eE1lZTExZmhHR1ZlaWdqM3pFUGFvX1ZwWjRBMDR3dXp2RTNCREs1Y3JHQzdicmowYWkwcFNJZVA3RjRtbWhxVkpUdzJR?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260519T063836Z",
           "source": "GoogleNews"
         }
       ],
@@ -37635,86 +37640,6 @@
           "source": "USGS"
         },
         {
-          "id": "uu80116076",
-          "site": "Nevada National Security Site",
-          "site_lat": 37.12,
-          "site_lon": -116.05,
-          "time": 1756741568090,
-          "magnitude": 1.57,
-          "magnitude_type": "md",
-          "event_type": "earthquake",
-          "place": "1 km SSW of Newcastle, Utah",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uu80116076",
-          "lon": -113.557333333333,
-          "lat": 37.6566666666667,
-          "depth_km": 1.66,
-          "source": "USGS"
-        },
-        {
-          "id": "uu80116026",
-          "site": "Nevada National Security Site",
-          "site_lat": 37.12,
-          "site_lon": -116.05,
-          "time": 1756728020440,
-          "magnitude": 1.58,
-          "magnitude_type": "ml",
-          "event_type": "earthquake",
-          "place": "19 km E of Littlefield, Arizona",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uu80116026",
-          "lon": -113.712166666667,
-          "lat": 36.8648333333333,
-          "depth_km": 19.73,
-          "source": "USGS"
-        },
-        {
-          "id": "ci41280528",
-          "site": "Nevada National Security Site",
-          "site_lat": 37.12,
-          "site_lon": -116.05,
-          "time": 1756710915830,
-          "magnitude": 1.68,
-          "magnitude_type": "ml",
-          "event_type": "earthquake",
-          "place": "12 km S of Olancha, CA",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41280528",
-          "lon": -118.0321667,
-          "lat": 36.1711667,
-          "depth_km": 3.2,
-          "source": "USGS"
-        },
-        {
-          "id": "ci41280512",
-          "site": "Nevada National Security Site",
-          "site_lat": 37.12,
-          "site_lon": -116.05,
-          "time": 1756707968610,
-          "magnitude": 2.19,
-          "magnitude_type": "ml",
-          "event_type": "earthquake",
-          "place": "10 km NE of Coso Junction, CA",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41280512",
-          "lon": -117.8593333,
-          "lat": 36.1066667,
-          "depth_km": 3.29,
-          "source": "USGS"
-        },
-        {
-          "id": "ci41280400",
-          "site": "Nevada National Security Site",
-          "site_lat": 37.12,
-          "site_lon": -116.05,
-          "time": 1756692884730,
-          "magnitude": 2.54,
-          "magnitude_type": "ml",
-          "event_type": "earthquake",
-          "place": "18 km S of Trona, CA",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41280400",
-          "lon": -117.4086667,
-          "lat": 35.6051667,
-          "depth_km": 7.9,
-          "source": "USGS"
-        },
-        {
           "id": "us6000sqwh",
           "site": "Chagai",
           "site_lat": 28.9,
@@ -37889,12 +37814,6 @@
     }
   },
   "events": [
-    {
-      "title": "Video Archive 313 - Safeguards Japan; Sources Georgia",
-      "url": null,
-      "date": "2026-08-23",
-      "weight": 1.0
-    },
     {
       "title": "Reaching the future Safeguards workforce: Early Career Avenues in the Department of Safeguards",
       "url": null,
