@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "nuclear-proliferation-watch",
-    "generated": "2026-09-02T11:44:38.706761+00:00",
+    "generated": "2026-09-02T16:52:24.369381+00:00",
     "mode": "live",
     "sources": [
       "IAEA official pages",
@@ -14,10 +14,10 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-09-02T11:44:38.700308+00:00",
+    "issued_at": "2026-09-02T16:52:24.360917+00:00",
     "horizon": "0-30 days",
     "classification": "nuclear-escalation-pressure-not-test-or-weapon-probability",
-    "score": 7.0,
+    "score": 5.0,
     "level": "BASELINE",
     "confidence": "HIGH",
     "confidence_score": 100.0,
@@ -26,9 +26,9 @@
         "id": "iaea_safeguards_strain",
         "label": "IAEA safeguards and access strain",
         "available": true,
-        "score": 17.3,
+        "score": 7.2,
         "current_14d_weight": 1.8,
-        "current_14d_titles": 19,
+        "current_14d_titles": 21,
         "baseline_periods": 8,
         "baseline_median": 0.0,
         "anomaly_z": 1.8,
@@ -67,12 +67,24 @@
         "id": "facility_security_incidents",
         "label": "IAEA-reported facility security incidents",
         "available": true,
-        "score": 4.5,
-        "current_30d_weight": 1.6,
+        "score": 12.6,
+        "current_30d_weight": 3.2,
         "baseline_months": 11,
         "baseline_median": 1.6,
-        "anomaly_z": 0.0,
+        "anomaly_z": 0.67,
         "evidence": [
+          {
+            "title": "Worker Exceeded Statuary Annual Whole Body Dose Limits",
+            "url": "https://www-news.iaea.org/ErfView.aspx?mId=0ccdddda-907d-45a1-b67d-1e2bbdba2e43",
+            "country": "Germany",
+            "event_date": "27 Jul 2026",
+            "ines": "2",
+            "reported_by": "Gesellschaft für Anlagen und Reaktorsicherheit (GRS) mbH",
+            "reported_date": "02 Sep 2026",
+            "description": "On 27 July 2026, an employee performed a Gamma radiography measurement using a Se-75 source with an activity of 1.48 TBq. After completing the measurement, the employee inadvertently failed to retract the source into its safety position in a shieled container. Subsequently, he carried out... Reported by Gesellschaft für Anlagen und Reaktorsicherheit (GRS) mbH of Germany on 02 Sep 2026. Last update on 02 Sep 2026",
+            "source": "IAEA NEWS",
+            "weight": 1.6
+          },
           {
             "title": "Misdelivered Transport Package",
             "url": "https://www-news.iaea.org/ErfView.aspx?mId=21300535-88b1-419e-8221-2e0efb30e6cc",
@@ -329,6 +341,17 @@
           "facility_security_incidents": 4.5,
           "test_site_seismicity": 0.0
         }
+      },
+      {
+        "timestamp": "2026-09-02T16:52:24.360917+00:00",
+        "score": 5.0,
+        "level": "BASELINE",
+        "components": {
+          "iaea_safeguards_strain": 7.2,
+          "npwmd_designation_delta": 0.0,
+          "facility_security_incidents": 12.6,
+          "test_site_seismicity": 0.0
+        }
       }
     ],
     "data_health": {
@@ -336,7 +359,7 @@
       "retained_components": [],
       "iaea_titles": 99,
       "npwmd_entries": 1195,
-      "iaea_events": 22,
+      "iaea_events": 23,
       "test_sites": 8
     },
     "method": {
@@ -376,7 +399,7 @@
   "stats": [
     {
       "label": "Escalation Pressure",
-      "value": "7.0/100",
+      "value": "5.0/100",
       "delta": "BASELINE"
     },
     {
@@ -480,6 +503,15 @@
           "source": "GoogleNews"
         },
         {
+          "title": "Press Arrangements for IAEA Board of Governors Meeting, 7–11 September 2026",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxONnBiZFZTX1J2TEdCaTItdlBGdzUwdGV6RUhINXpDZmFhVXRrS2xjVlRlR2dwbkdsOTFidEhWOGZNbHktYUJfaUlyZF9abmVsbzBCWjhPLWF5eWlVYW1FS3Z0N3NQNzRNYUFBSjVPa1dVQmNVWF9aNmJqVjRsSzJaTnFFU19yb3JCWDRZSHdFUFlwM0YtRUc5VzBEN1N5dk10YVNuT2VxdkVlSmlqenRaeWhRblVhNHRFWTlIZnd5Zw?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260902T123247Z",
+          "source": "GoogleNews"
+        },
+        {
           "title": "Reaching the future Safeguards workforce: Early Career Avenues in the Department of Safeguards",
           "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5RbTJNRTkxZGxBNEUzanctVE5NSkZMZUlJWGtqMTlWX2c4b2FrNGpzTVFKR3pDSTEwc0IxSTcxdFVkT3JWOW1kajZ0dw?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -495,6 +527,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20260818T070000Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Technical Cooperation Side Events at the 70th IAEA General Conference",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNRmFPTFdqRnBHNlNtTjBsZnFfZ1dpc0xRUFk2RzYySnJqX3ZlZFgwQkc4LTRUVU5fUlB5R3ppSWl6TFh6US1nOHdYWGZFLVFQVDBvbEJ5NjlJbVNIeU1jcHRIcXdrRHl6Y3BJaUlTa2tETDVlN290UkRCUENvYkdheVRqX0lVM3ozQjA3Nk1td29NMWlIdW9HTlAtSlZPc25yV2dpb3lEaVM3dw?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260902T063243Z",
           "source": "GoogleNews"
         },
         {
@@ -759,6 +800,15 @@
           "source": "GoogleNews"
         },
         {
+          "title": "Update 363 – IAEA Director General Statement on Situation in Ukraine",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxObm9BZElGb0lWcTFIXy1uYVIwbFBnTE1Na0x2UDhhVElubFhFWmVHMjlJc09NVUFfQkl5SUdZZkJjczJqTUZPV25YeG9KeE52d1BaTmZsRUZGRkthUUV5SzZrODNfRG1nTDhlbERONTNiYkJxQjZPRm9XdG55N1lic3ZoN3dhSWhRWTFubGNSNjJsbHJjSXJVSExVaUtLYnN3dGNsaDFaNWpaY3BkUDJXTQ?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260820T070000Z",
+          "source": "GoogleNews"
+        },
+        {
           "title": "Update 351 – IAEA Director General Statement on Situation in Ukraine",
           "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOYVlyLXhhUmNUZ0swMXlRbmJ3dGhTY3JLbWFFZnRzZ081QmNqVGktOFhraERzSFdnN1JMOXl3WkJFLThBVlVMd3h1Y2RmdUZ2YW95SzhfSTRyTVhRMU9YUjZnY3EzR3hkdlJaU184MnkzNmJRNlVaSHZxTkgtRXl0UkY4NDFTdnpJaVFvQlJKa3NxcEtFZ2NiWFJXcnJWODd6YWdCOHNMNkx4UkhDdzdGag?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -912,15 +962,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "Technical Cooperation Side Events at the 70th IAEA General Conference",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNRmFPTFdqRnBHNlNtTjBsZnFfZ1dpc0xRUFk2RzYySnJqX3ZlZFgwQkc4LTRUVU5fUlB5R3ppSWl6TFh6US1nOHdYWGZFLVFQVDBvbEJ5NjlJbVNIeU1jcHRIcXdrRHl6Y3BJaUlTa2tETDVlN290UkRCUENvYkdheVRqX0lVM3ozQjA3Nk1td29NMWlIdW9HTlAtSlZPc25yV2dpb3lEaVM3dw?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260902T095823Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "Services Series",
           "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE54dmRCcFZ4WVA0Tjdlek92Wk9EOGJTdldPMkFNcUFyWUpJandGN1NDYmxrb0ppTFFMX1M5eUVJUzRZVVRaTWRLcm5yMjNGaENIX1NNOWtMaVF6WGFQQmJyekNJU2Vndw?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -972,15 +1013,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20260730T183959Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "70th IAEA General Conference - Technical Cooperation",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOYzc3N2hjTkxLY0k5ZWlPRWIxS2xyZUxLZXN1eDBfcjhkbnE2X3VnWTFhakFwS2J3YkZXWWY5UlE5VHZCSUsxU3NBcEJ1cExibjBfSzVYemZYWTV6T1p1LUdEWVA2bzdVdUR6djN4S2pPMUxJa3VGWGVmWU5hQkZKaFlyWmZ5bDVrY1dXc3k5M29iUzdGV2piOEdtOHBwUE5EU09pbnFfQzEtRHphdGE0?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260811T070418Z",
           "source": "GoogleNews"
         },
         {
@@ -1200,15 +1232,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "International Conference on Integrated Medical Imaging in Cardiovascular Diseases (IMIC-2027) -Participation and Registration | IAEA",
-          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9vTENrY05nSkZRWjRRcjJfTUJFSHNyQzctdGxrdGVBb1RwVUVCLVNrYXo4T2ZiWVQ2WTRFYlhSWmFSSDkwdTByZFpyVUM2blp4RVdtOVRabTNmZ3UxVkMxUERyR054WWZFd3Jpd20wWEJaRkdm?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260525T184209Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "Technical Meeting on Advanced Techniques for Radioactive Waste Characterization",
           "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1pd3AwUlY2OU5HdGpDMC1Dai1BNFpTaEFlS2RNMUljMk5IdHBZaC1UeDRscUY2WWpXZjJBQjBHZW1ldFoyblQ5eXkySnJsQQ?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -1295,6 +1318,17 @@
     },
     "iaea_events": {
       "events": [
+        {
+          "title": "Worker Exceeded Statuary Annual Whole Body Dose Limits",
+          "url": "https://www-news.iaea.org/ErfView.aspx?mId=0ccdddda-907d-45a1-b67d-1e2bbdba2e43",
+          "country": "Germany",
+          "event_date": "27 Jul 2026",
+          "ines": "2",
+          "reported_by": "Gesellschaft für Anlagen und Reaktorsicherheit (GRS) mbH",
+          "reported_date": "02 Sep 2026",
+          "description": "On 27 July 2026, an employee performed a Gamma radiography measurement using a Se-75 source with an activity of 1.48 TBq. After completing the measurement, the employee inadvertently failed to retract the source into its safety position in a shieled container. Subsequently, he carried out... Reported by Gesellschaft für Anlagen und Reaktorsicherheit (GRS) mbH of Germany on 02 Sep 2026. Last update on 02 Sep 2026",
+          "source": "IAEA NEWS"
+        },
         {
           "title": "Misdelivered Transport Package",
           "url": "https://www-news.iaea.org/ErfView.aspx?mId=21300535-88b1-419e-8221-2e0efb30e6cc",
@@ -37882,6 +37916,18 @@
       "url": null,
       "date": "2026-09-02",
       "weight": 0.8
+    },
+    {
+      "title": "Worker Exceeded Statuary Annual Whole Body Dose Limits",
+      "url": "https://www-news.iaea.org/ErfView.aspx?mId=0ccdddda-907d-45a1-b67d-1e2bbdba2e43",
+      "country": "Germany",
+      "event_date": "27 Jul 2026",
+      "ines": "2",
+      "reported_by": "Gesellschaft für Anlagen und Reaktorsicherheit (GRS) mbH",
+      "reported_date": "02 Sep 2026",
+      "description": "On 27 July 2026, an employee performed a Gamma radiography measurement using a Se-75 source with an activity of 1.48 TBq. After completing the measurement, the employee inadvertently failed to retract the source into its safety position in a shieled container. Subsequently, he carried out... Reported by Gesellschaft für Anlagen und Reaktorsicherheit (GRS) mbH of Germany on 02 Sep 2026. Last update on 02 Sep 2026",
+      "source": "IAEA NEWS",
+      "weight": 1.6
     },
     {
       "title": "Misdelivered Transport Package",
