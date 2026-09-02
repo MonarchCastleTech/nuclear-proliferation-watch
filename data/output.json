@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "nuclear-proliferation-watch",
-    "generated": "2026-09-02T05:06:08.258929+00:00",
+    "generated": "2026-09-02T11:44:38.706761+00:00",
     "mode": "live",
     "sources": [
       "IAEA official pages",
@@ -14,10 +14,10 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-09-02T05:06:08.250822+00:00",
+    "issued_at": "2026-09-02T11:44:38.700308+00:00",
     "horizon": "0-30 days",
     "classification": "nuclear-escalation-pressure-not-test-or-weapon-probability",
-    "score": 3.4,
+    "score": 7.0,
     "level": "BASELINE",
     "confidence": "HIGH",
     "confidence_score": 100.0,
@@ -26,18 +26,24 @@
         "id": "iaea_safeguards_strain",
         "label": "IAEA safeguards and access strain",
         "available": true,
-        "score": 9.6,
-        "current_14d_weight": 1.0,
+        "score": 17.3,
+        "current_14d_weight": 1.8,
         "current_14d_titles": 19,
         "baseline_periods": 8,
         "baseline_median": 0.0,
-        "anomaly_z": 1.0,
+        "anomaly_z": 1.8,
         "evidence": [
           {
             "title": "Reaching the future Safeguards workforce: Early Career Avenues in the Department of Safeguards",
             "url": null,
             "date": "2026-08-20",
             "weight": 1.0
+          },
+          {
+            "title": "Technical Cooperation Side Events at the 70th IAEA General Conference",
+            "url": null,
+            "date": "2026-09-02",
+            "weight": 0.8
           }
         ],
         "retained": false
@@ -61,12 +67,25 @@
         "id": "facility_security_incidents",
         "label": "IAEA-reported facility security incidents",
         "available": true,
-        "score": 0.0,
-        "current_30d_weight": 0.0,
+        "score": 4.5,
+        "current_30d_weight": 1.6,
         "baseline_months": 11,
         "baseline_median": 1.6,
-        "anomaly_z": -0.67,
-        "evidence": [],
+        "anomaly_z": 0.0,
+        "evidence": [
+          {
+            "title": "Misdelivered Transport Package",
+            "url": "https://www-news.iaea.org/ErfView.aspx?mId=21300535-88b1-419e-8221-2e0efb30e6cc",
+            "country": "United Kingdom",
+            "event_date": "25 Jun 2026",
+            "ines": "2",
+            "reported_by": "Office for Nuclear Regulation (ONR)",
+            "reported_date": "02 Sep 2026",
+            "description": "Topspeed Couriers Ltd was carrying a Type A package containing radioactive material in the form of a 555 GBq special form Selenium-75 source intended for industrial radiography. The package was delivered to the wrong location in Aberdeen. Later after one hour the organisation which had incorrectly... Reported by Office for Nuclear Regulation (ONR) of United Kingdom on 02 Sep 2026. Last update on 02 Sep 2026",
+            "source": "IAEA NEWS",
+            "weight": 1.6
+          }
+        ],
         "retained": false
       },
       {
@@ -75,7 +94,7 @@
         "available": true,
         "score": 0.0,
         "current_30d_diagnostic_weight": 0.0,
-        "events_considered": 1818,
+        "events_considered": 1819,
         "sites_monitored": 8,
         "anomaly_z": 0.0,
         "evidence": [],
@@ -299,6 +318,17 @@
           "facility_security_incidents": 0.0,
           "test_site_seismicity": 0.0
         }
+      },
+      {
+        "timestamp": "2026-09-02T11:44:38.700308+00:00",
+        "score": 7.0,
+        "level": "BASELINE",
+        "components": {
+          "iaea_safeguards_strain": 17.3,
+          "npwmd_designation_delta": 0.0,
+          "facility_security_incidents": 4.5,
+          "test_site_seismicity": 0.0
+        }
       }
     ],
     "data_health": {
@@ -306,7 +336,7 @@
       "retained_components": [],
       "iaea_titles": 99,
       "npwmd_entries": 1195,
-      "iaea_events": 21,
+      "iaea_events": 22,
       "test_sites": 8
     },
     "method": {
@@ -346,7 +376,7 @@
   "stats": [
     {
       "label": "Escalation Pressure",
-      "value": "3.4/100",
+      "value": "7.0/100",
       "delta": "BASELINE"
     },
     {
@@ -438,15 +468,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20260826T085221Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "IAEA-led Study Finds 5-star Rating System Can Help Make CT Imaging Safer",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQeHhuSVhXVGh3VHU1MldhNW0xTldHTEhrenRKT0ZnVm53WDNjbmMzT1FyOW1MXzV6Sy13cERXaElZemdidm0zV2UtZlVyajhRSDlFOTRMTUlSd01jUTJOdl9WaXF2aGQtTnBRdVZLWWVzdFNySWpiRE9Dcy1VaWh1TlBoMnJZMEhxRXhnUGhKcjdQczgxYWd4MGxnUUlmOXAtZ3RULUo3ZTlHWVhY?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260825T071215Z",
           "source": "GoogleNews"
         },
         {
@@ -630,15 +651,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "Country Programme Frameworks",
-          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPODFocUhzR1N3dVJiMnJRSXpGdjhXMk9LZWpLTFZkR2lsTDdhaHowQkYxd096aTZWV3NXYXgyVWtvR2NHQnlIbmpKVEdJMVJXdldaOERyUDAyNlB5NDBueTV1R2x4OG1YWTVpNmhtbmdoY3ltZHpqQVFKUWNGZ2VKSkYzYzNOLXpRUWZmZmVDXzBSZlU?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20180618T183815Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "IAEA Concludes International Physical Protection Advisory Follow-Up Mission in China",
           "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQeGN1aGpSZVE2b1lpZ01sczhLdzFiTGJ1d3ZGU1JTUkV4VkJ6dDhPX2tHaHVIajR6aUFERG5WY2tBdnZqZ0tNd0JVbFFReE5QTzZSS1VJWUR3TEZuMHVHeU91b3hsVnBWUFlfWG5vQzM0ZXU4XzlKOTJjWkMxTE1JVTFvM1p1bW1nNS1zUWFQcG10bjhnR0M4MFpwV2cwVklPUUo0VFBxQUt4emFCSHVmdWFKajcwbDNWU3VLZzllVGhLdk9MY1RBZw?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -654,6 +666,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20150409T043334Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Country Programme Frameworks",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPODFocUhzR1N3dVJiMnJRSXpGdjhXMk9LZWpLTFZkR2lsTDdhaHowQkYxd096aTZWV3NXYXgyVWtvR2NHQnlIbmpKVEdJMVJXdldaOERyUDAyNlB5NDBueTV1R2x4OG1YWTVpNmhtbmdoY3ltZHpqQVFKUWNGZ2VKSkYzYzNOLXpRUWZmZmVDXzBSZlU?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20180618T183815Z",
           "source": "GoogleNews"
         },
         {
@@ -792,6 +813,15 @@
           "source": "GoogleNews"
         },
         {
+          "title": "Training Course on Ocean Alkalinity Enhancement - Assessing the Impact on Marine Organisms",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPdDVTWTBhSmgtY3NadFE4bG5OVzVGZHNXUDhBbDltTmpPMVpaSFR3OUwxdUYtLXNwYTJ1blFxeEIwcHJVeGhmVXI5dXdULXZwLXhIbTM0QkZwR1JkNFEwcWtXTDN4Y3JEY2lSbWkzMUlaYzdrNTg2dVZoZElmRjFqbWV0Z2FOOFlHRmstQUNvX2UyejZPUmUxeEZPWU9udFlzLTZjeXZPMVo0YzZJTkk3aUVza1AyMjk3UkVnU0VIbVEwSnZhYmhYVVdkY1Rra0RTcC1fLWdlV1dZZw?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260721T142539Z",
+          "source": "GoogleNews"
+        },
+        {
           "title": "IAEA Holds First SMR School in a Technology Provider Country",
           "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOdmFzVHlXb2tVMjZ3T3VoLVZlQXlXRHJGSnl4NWJOZzV4am9tUm1zREdBRS1iRzNDbTJpeG9GN284VVhXZWFJUjcwZ3ZZWVBsTUhhT2FQTG5JbHVBS3F0d3F5NFlIUHBWWXNZcThqT3Y2WTM5S3ZoY3FUTGR4REpUQjBpaWNKeUp2RVJFbURpd0xkZkR3MmowaUFtcmg?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -882,6 +912,15 @@
           "source": "GoogleNews"
         },
         {
+          "title": "Technical Cooperation Side Events at the 70th IAEA General Conference",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNRmFPTFdqRnBHNlNtTjBsZnFfZ1dpc0xRUFk2RzYySnJqX3ZlZFgwQkc4LTRUVU5fUlB5R3ppSWl6TFh6US1nOHdYWGZFLVFQVDBvbEJ5NjlJbVNIeU1jcHRIcXdrRHl6Y3BJaUlTa2tETDVlN290UkRCUENvYkdheVRqX0lVM3ozQjA3Nk1td29NMWlIdW9HTlAtSlZPc25yV2dpb3lEaVM3dw?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260902T095823Z",
+          "source": "GoogleNews"
+        },
+        {
           "title": "Services Series",
           "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE54dmRCcFZ4WVA0Tjdlek92Wk9EOGJTdldPMkFNcUFyWUpJandGN1NDYmxrb0ppTFFMX1M5eUVJUzRZVVRaTWRLcm5yMjNGaENIX1NNOWtMaVF6WGFQQmJyekNJU2Vndw?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -969,6 +1008,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20260824T105413Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Technical Meeting on Powering and Cooling Data Centres using Small Modular Reactors",
+          "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1jUzA4R0JnNHZoTXNlNVdNcjlCZXVNUWoyRXF4LS0tUWxKVnd6REpJZkJ6YUlSdFpxLWd5dmVGamE2b2hQRU9jT0ZtWG00dw?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260303T145535Z",
           "source": "GoogleNews"
         },
         {
@@ -1152,6 +1200,15 @@
           "source": "GoogleNews"
         },
         {
+          "title": "International Conference on Integrated Medical Imaging in Cardiovascular Diseases (IMIC-2027) -Participation and Registration | IAEA",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9vTENrY05nSkZRWjRRcjJfTUJFSHNyQzctdGxrdGVBb1RwVUVCLVNrYXo4T2ZiWVQ2WTRFYlhSWmFSSDkwdTByZFpyVUM2blp4RVdtOVRabTNmZ3UxVkMxUERyR054WWZFd3Jpd20wWEJaRkdm?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260525T184209Z",
+          "source": "GoogleNews"
+        },
+        {
           "title": "Technical Meeting on Advanced Techniques for Radioactive Waste Characterization",
           "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1pd3AwUlY2OU5HdGpDMC1Dai1BNFpTaEFlS2RNMUljMk5IdHBZaC1UeDRscUY2WWpXZjJBQjBHZW1ldFoyblQ5eXkySnJsQQ?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -1231,33 +1288,6 @@
           "tone": 0,
           "seendate": "20260604T120939Z",
           "source": "GoogleNews"
-        },
-        {
-          "title": "IAEA Assists Austria with Nuclear Security Measures for Eurovision 2026",
-          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQdFZiQ0hIXzdqQ0xfS2ZZNjlPcmt3WldRdU1hanh3TmVLWjJzaElQREV0VGE0ZVlFNkZvZF9ITXZIaUxoSXItb3hsTGFrYzdCQjNxT19zNVBnaEdUU1VmRGxKcmxaVWRPWGI5QUN0UWI1NDNwdHRkR1RCbmYxN2h0UEk5TlB5NDQ1Qm0zY3ZOdzlITzFxYUJodV9aSV9rOEEwM3dScGU1cTBrRnY2Xzc3SnpJRTZsRjQ?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260517T070000Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "International Symposium on Trends in Radiopharmaceuticals - Exhibition",
-          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBFNjAyT3p5LW5CQ291Tmw5dUlrcTJuQmlJWExHcXdBdlNJT21nc1pleHlBM2hNVWh6ZnNEQ0haTUkxQ1p3aHRETUZfTF9DQWhuMWdCeGpiVVdmZm8?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260512T031728Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "Webinar on Radionuclides Contamination in Food and Applicable Measurement Techniques",
-          "url": "https://news.google.com/rss/articles/CBMingJBVV95cUxOSjg2Um16d1pmeUlIY1ctV3pvRmliVmtsZHZVZnBocHhIaEV0MTIyZ1g1ZTFRNGhObnA1YU5RTENuRGphZW9hRTU1LTVTa1ZRdmdmMC1qMHVobTVuSmtJWVNXQnlLU3ZFdmRZcHlnRUZ5NGtDVTdHeWRUUXhIMjBPNmZSTW9lWWcxMEtSY2NuMnQ3VHdEVkRLOGtpeHMyUjhWclRkOVBNOTZoTlNseXRlVUdQMzNZLUp3R3pEQmp1eUxBMWEzeUcteldFNmJ3N2xXenFsaHI3bWd0eE1lZTExZmhHR1ZlaWdqM3pFUGFvX1ZwWjRBMDR3dXp2RTNCREs1Y3JHQzdicmowYWkwcFNJZVA3RjRtbWhxVkpUdzJR?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260519T063836Z",
-          "source": "GoogleNews"
         }
       ],
       "query": "site:iaea.org (safeguards OR enrichment OR inspectors OR undeclared OR verification OR proliferation) when:120d",
@@ -1265,6 +1295,17 @@
     },
     "iaea_events": {
       "events": [
+        {
+          "title": "Misdelivered Transport Package",
+          "url": "https://www-news.iaea.org/ErfView.aspx?mId=21300535-88b1-419e-8221-2e0efb30e6cc",
+          "country": "United Kingdom",
+          "event_date": "25 Jun 2026",
+          "ines": "2",
+          "reported_by": "Office for Nuclear Regulation (ONR)",
+          "reported_date": "02 Sep 2026",
+          "description": "Topspeed Couriers Ltd was carrying a Type A package containing radioactive material in the form of a 555 GBq special form Selenium-75 source intended for industrial radiography. The package was delivered to the wrong location in Aberdeen. Later after one hour the organisation which had incorrectly... Reported by Office for Nuclear Regulation (ONR) of United Kingdom on 02 Sep 2026. Last update on 02 Sep 2026",
+          "source": "IAEA NEWS"
+        },
         {
           "title": "Exposure of a worker to a level of 50% of the statutory dose limit",
           "url": "https://www-news.iaea.org/ErfView.aspx?mId=b067998c-a44e-4d69-b762-8aaf87a17e54",
@@ -8901,6 +8942,22 @@
           "lon": 87.9952,
           "lat": 41.8774,
           "depth_km": 10,
+          "source": "USGS"
+        },
+        {
+          "id": "nn00924086",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1788334625535,
+          "magnitude": 1.74,
+          "magnitude_type": "ml",
+          "event_type": "earthquake",
+          "place": "21 km SSE of Dyer, Nevada",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00924086",
+          "lon": -117.9751,
+          "lat": 37.4888,
+          "depth_km": 0.5518,
           "source": "USGS"
         },
         {
@@ -37819,6 +37876,24 @@
       "url": null,
       "date": "2026-08-20",
       "weight": 1.0
+    },
+    {
+      "title": "Technical Cooperation Side Events at the 70th IAEA General Conference",
+      "url": null,
+      "date": "2026-09-02",
+      "weight": 0.8
+    },
+    {
+      "title": "Misdelivered Transport Package",
+      "url": "https://www-news.iaea.org/ErfView.aspx?mId=21300535-88b1-419e-8221-2e0efb30e6cc",
+      "country": "United Kingdom",
+      "event_date": "25 Jun 2026",
+      "ines": "2",
+      "reported_by": "Office for Nuclear Regulation (ONR)",
+      "reported_date": "02 Sep 2026",
+      "description": "Topspeed Couriers Ltd was carrying a Type A package containing radioactive material in the form of a 555 GBq special form Selenium-75 source intended for industrial radiography. The package was delivered to the wrong location in Aberdeen. Later after one hour the organisation which had incorrectly... Reported by Office for Nuclear Regulation (ONR) of United Kingdom on 02 Sep 2026. Last update on 02 Sep 2026",
+      "source": "IAEA NEWS",
+      "weight": 1.6
     }
   ]
 }
