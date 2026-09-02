@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "nuclear-proliferation-watch",
-    "generated": "2026-09-02T16:52:24.369381+00:00",
+    "generated": "2026-09-02T21:19:34.171097+00:00",
     "mode": "live",
     "sources": [
       "IAEA official pages",
@@ -14,7 +14,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-09-02T16:52:24.360917+00:00",
+    "issued_at": "2026-09-02T21:19:34.162708+00:00",
     "horizon": "0-30 days",
     "classification": "nuclear-escalation-pressure-not-test-or-weapon-probability",
     "score": 5.0,
@@ -28,7 +28,7 @@
         "available": true,
         "score": 7.2,
         "current_14d_weight": 1.8,
-        "current_14d_titles": 21,
+        "current_14d_titles": 20,
         "baseline_periods": 8,
         "baseline_median": 0.0,
         "anomaly_z": 1.8,
@@ -352,6 +352,17 @@
           "facility_security_incidents": 12.6,
           "test_site_seismicity": 0.0
         }
+      },
+      {
+        "timestamp": "2026-09-02T21:19:34.162708+00:00",
+        "score": 5.0,
+        "level": "BASELINE",
+        "components": {
+          "iaea_safeguards_strain": 7.2,
+          "npwmd_designation_delta": 0.0,
+          "facility_security_incidents": 12.6,
+          "test_site_seismicity": 0.0
+        }
       }
     ],
     "data_health": {
@@ -467,21 +478,21 @@
           "source": "GoogleNews"
         },
         {
-          "title": "IAEA Launches ATLAS as Countries Explore Nuclear Power for Shipping and Offshore Energy",
-          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOMkFxQ0tKejgtSkszMlpJSjQwRnFHUGpUUUk5d1YtQnpjMWFHOTk0eHQ1dWJ1LW1LcG4yb0wwYUtVM3VjTWdfQVFUcXpkUXRubUJOUGtjU05haW4wcnhBSXJKc1dqb2FVWkJJdmpfZTdsaDF1TjhKaEd3ZmU2dl9iVUpseFFlemtWRG85cm1DQzFjRnU2R05wSV8yY1RmNmRLa053RkdpUWRRdDJudDdLdjVwSnBaOWItX0lqWExzOHFzbTVuN1NyRG5ZVGE?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260826T053035Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "International High-level Forum on the ATLAS Launch | IAEA",
           "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFAwOUVjcklwUEtJNHdmSE8xS1FPQ2h3VUlQdXM4RnB0elMxVkFCTkJzdjV2cG55TVdrUHJTWlVSTTNDZ1VhNEV0OHBUekk?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
           "seendate": "20260827T070000Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "IAEA Launches ATLAS as Countries Explore Nuclear Power for Shipping and Offshore Energy",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOMkFxQ0tKejgtSkszMlpJSjQwRnFHUGpUUUk5d1YtQnpjMWFHOTk0eHQ1dWJ1LW1LcG4yb0wwYUtVM3VjTWdfQVFUcXpkUXRubUJOUGtjU05haW4wcnhBSXJKc1dqb2FVWkJJdmpfZTdsaDF1TjhKaEd3ZmU2dl9iVUpseFFlemtWRG85cm1DQzFjRnU2R05wSV8yY1RmNmRLa053RkdpUWRRdDJudDdLdjVwSnBaOWItX0lqWExzOHFzbTVuN1NyRG5ZVGE?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260826T053035Z",
           "source": "GoogleNews"
         },
         {
@@ -504,7 +515,7 @@
         },
         {
           "title": "Press Arrangements for IAEA Board of Governors Meeting, 7–11 September 2026",
-          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxONnBiZFZTX1J2TEdCaTItdlBGdzUwdGV6RUhINXpDZmFhVXRrS2xjVlRlR2dwbkdsOTFidEhWOGZNbHktYUJfaUlyZF9abmVsbzBCWjhPLWF5eWlVYW1FS3Z0N3NQNzRNYUFBSjVPa1dVQmNVWF9aNmJqVjRsSzJaTnFFU19yb3JCWDRZSHdFUFlwM0YtRUc5VzBEN1N5dk10YVNuT2VxdkVlSmlqenRaeWhRblVhNHRFWTlIZnd5Zw?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQb1I4WWpHLUJSWmlxVHNoWHFacmhydmNNcHgyOTJkOXcxNUxvMDJQRzhwb0lTalE3V1ZTVDFRSU8xRHN0ZVhQUTVEaFFiWWFyeWs4ZTZvOFZlRHBta0ZwejVFMm1KVm5NeGswLWpBSms3aFdURmN5Yk55T1QyRzYzUVM4R0ZNV2ZzMy1qQm9KNk9VU3B3LS1ydWYxNXV2aXNjNFFGZXdHbmtRSjZDWUdfbVJLOWFDZDg0Q20ydk5B?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
@@ -743,6 +754,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20260215T101500Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Past Events Listing",
+          "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE9XbEtCT3Ixekd5eHBSd1FWUU9fcS1Ma3dtMWNhM3JDTTRSZDRzUzg3SzhjbnR6MkpQRHFlZXptS0ZNTDRnUFE?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20181122T115540Z",
           "source": "GoogleNews"
         },
         {
@@ -1031,15 +1051,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20260701T100738Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "Nuclear Energy Side Events at the 70th IAEA General Conference",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOcHpya3RIRUQwUU56N0hMWUxOeGdmXzRQWXdOaXUybEVNTHhjaTg3aG12UDliSmJDT19ndFRGdFJoMFlLOWhSZVJ1WU9GdFBKVEJoeG9ZQnZ0OEZ1VWZQaENYVnhWMjc5aERrVVRFa281RVlmd1hzbEhtN2lBelgzejJBbk9CZ1VPNWRLWXhMTlhOc1B4Tk1wbEhoWGFlR1k?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260824T105413Z",
           "source": "GoogleNews"
         },
         {
@@ -8979,19 +8990,19 @@
           "source": "USGS"
         },
         {
-          "id": "nn00924086",
+          "id": "nc75428632",
           "site": "Nevada National Security Site",
           "site_lat": 37.12,
           "site_lon": -116.05,
-          "time": 1788334625535,
-          "magnitude": 1.74,
-          "magnitude_type": "ml",
+          "time": 1788334626030,
+          "magnitude": 2.15,
+          "magnitude_type": "md",
           "event_type": "earthquake",
-          "place": "21 km SSE of Dyer, Nevada",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00924086",
-          "lon": -117.9751,
-          "lat": 37.4888,
-          "depth_km": 0.5518,
+          "place": "11 km N of Deep Springs, CA",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75428632",
+          "lon": -117.991833333333,
+          "lat": 37.4678333333333,
+          "depth_km": 8.71,
           "source": "USGS"
         },
         {
