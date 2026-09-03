@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "nuclear-proliferation-watch",
-    "generated": "2026-09-02T21:19:34.171097+00:00",
+    "generated": "2026-09-03T05:06:43.146262+00:00",
     "mode": "live",
     "sources": [
       "IAEA official pages",
@@ -14,10 +14,10 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-09-02T21:19:34.162708+00:00",
+    "issued_at": "2026-09-03T05:06:43.138627+00:00",
     "horizon": "0-30 days",
     "classification": "nuclear-escalation-pressure-not-test-or-weapon-probability",
-    "score": 5.0,
+    "score": 6.2,
     "level": "BASELINE",
     "confidence": "HIGH",
     "confidence_score": 100.0,
@@ -26,18 +26,24 @@
         "id": "iaea_safeguards_strain",
         "label": "IAEA safeguards and access strain",
         "available": true,
-        "score": 7.2,
-        "current_14d_weight": 1.8,
-        "current_14d_titles": 20,
+        "score": 10.4,
+        "current_14d_weight": 2.6,
+        "current_14d_titles": 21,
         "baseline_periods": 8,
         "baseline_median": 0.0,
-        "anomaly_z": 1.8,
+        "anomaly_z": 2.6,
         "evidence": [
           {
             "title": "Reaching the future Safeguards workforce: Early Career Avenues in the Department of Safeguards",
             "url": null,
             "date": "2026-08-20",
             "weight": 1.0
+          },
+          {
+            "title": "Webinar on Practical Approaches to Regulatory Cooperation: Leveraging of Reviews and the Regulatory Cooperation Toolkit | IAEA",
+            "url": null,
+            "date": "2026-09-02",
+            "weight": 0.8
           },
           {
             "title": "Technical Cooperation Side Events at the 70th IAEA General Conference",
@@ -363,6 +369,17 @@
           "facility_security_incidents": 12.6,
           "test_site_seismicity": 0.0
         }
+      },
+      {
+        "timestamp": "2026-09-03T05:06:43.138627+00:00",
+        "score": 6.2,
+        "level": "BASELINE",
+        "components": {
+          "iaea_safeguards_strain": 10.4,
+          "npwmd_designation_delta": 0.0,
+          "facility_security_incidents": 12.6,
+          "test_site_seismicity": 0.0
+        }
       }
     ],
     "data_health": {
@@ -410,7 +427,7 @@
   "stats": [
     {
       "label": "Escalation Pressure",
-      "value": "5.0/100",
+      "value": "6.2/100",
       "delta": "BASELINE"
     },
     {
@@ -469,15 +486,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "Joint Statement - ATLAS Ministerial Launch Event | IAEA",
-          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPRmdYck85QzhxUEJqZVVPdmlJNzJyelVVZm5WdzRRSVMyUnhaN0swdkF1V0JVVXFDY2Y5S0lDOTNVRTJ1MXgydE5XQUlyTUlNRjV3Vy1nMDBOcVdPR1Fmc084dlF4YjdZODVRZUJwYU5FOFpxQUdaNTFwMTYwOEpBSV9aM2M3M21KZUZpMmpob2FEeVpWcVE?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260826T122426Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "International High-level Forum on the ATLAS Launch | IAEA",
           "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFAwOUVjcklwUEtJNHdmSE8xS1FPQ2h3VUlQdXM4RnB0elMxVkFCTkJzdjV2cG55TVdrUHJTWlVSTTNDZ1VhNEV0OHBUekk?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -487,12 +495,12 @@
           "source": "GoogleNews"
         },
         {
-          "title": "IAEA Launches ATLAS as Countries Explore Nuclear Power for Shipping and Offshore Energy",
-          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOMkFxQ0tKejgtSkszMlpJSjQwRnFHUGpUUUk5d1YtQnpjMWFHOTk0eHQ1dWJ1LW1LcG4yb0wwYUtVM3VjTWdfQVFUcXpkUXRubUJOUGtjU05haW4wcnhBSXJKc1dqb2FVWkJJdmpfZTdsaDF1TjhKaEd3ZmU2dl9iVUpseFFlemtWRG85cm1DQzFjRnU2R05wSV8yY1RmNmRLa053RkdpUWRRdDJudDdLdjVwSnBaOWItX0lqWExzOHFzbTVuN1NyRG5ZVGE?oc=5",
+          "title": "Joint Statement - ATLAS Ministerial Launch Event | IAEA",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPRmdYck85QzhxUEJqZVVPdmlJNzJyelVVZm5WdzRRSVMyUnhaN0swdkF1V0JVVXFDY2Y5S0lDOTNVRTJ1MXgydE5XQUlyTUlNRjV3Vy1nMDBOcVdPR1Fmc084dlF4YjdZODVRZUJwYU5FOFpxQUdaNTFwMTYwOEpBSV9aM2M3M21KZUZpMmpob2FEeVpWcVE?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
-          "seendate": "20260826T053035Z",
+          "seendate": "20260826T122426Z",
           "source": "GoogleNews"
         },
         {
@@ -502,6 +510,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20260826T085221Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "IAEA Launches ATLAS as Countries Explore Nuclear Power for Shipping and Offshore Energy",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOMkFxQ0tKejgtSkszMlpJSjQwRnFHUGpUUUk5d1YtQnpjMWFHOTk0eHQ1dWJ1LW1LcG4yb0wwYUtVM3VjTWdfQVFUcXpkUXRubUJOUGtjU05haW4wcnhBSXJKc1dqb2FVWkJJdmpfZTdsaDF1TjhKaEd3ZmU2dl9iVUpseFFlemtWRG85cm1DQzFjRnU2R05wSV8yY1RmNmRLa053RkdpUWRRdDJudDdLdjVwSnBaOWItX0lqWExzOHFzbTVuN1NyRG5ZVGE?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260826T053035Z",
           "source": "GoogleNews"
         },
         {
@@ -538,15 +555,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20260818T070000Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "Technical Cooperation Side Events at the 70th IAEA General Conference",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNRmFPTFdqRnBHNlNtTjBsZnFfZ1dpc0xRUFk2RzYySnJqX3ZlZFgwQkc4LTRUVU5fUlB5R3ppSWl6TFh6US1nOHdYWGZFLVFQVDBvbEJ5NjlJbVNIeU1jcHRIcXdrRHl6Y3BJaUlTa2tETDVlN290UkRCUENvYkdheVRqX0lVM3ozQjA3Nk1td29NMWlIdW9HTlAtSlZPc25yV2dpb3lEaVM3dw?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260902T063243Z",
           "source": "GoogleNews"
         },
         {
@@ -721,6 +729,15 @@
           "source": "GoogleNews"
         },
         {
+          "title": "Past Events Listing",
+          "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE9XbEtCT3Ixekd5eHBSd1FWUU9fcS1Ma3dtMWNhM3JDTTRSZDRzUzg3SzhjbnR6MkpQRHFlZXptS0ZNTDRnUFE?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20181122T115540Z",
+          "source": "GoogleNews"
+        },
+        {
           "title": "Country Programme Frameworks",
           "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPODFocUhzR1N3dVJiMnJRSXpGdjhXMk9LZWpLTFZkR2lsTDdhaHowQkYxd096aTZWV3NXYXgyVWtvR2NHQnlIbmpKVEdJMVJXdldaOERyUDAyNlB5NDBueTV1R2x4OG1YWTVpNmhtbmdoY3ltZHpqQVFKUWNGZ2VKSkYzYzNOLXpRUWZmZmVDXzBSZlU?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -754,15 +771,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20260215T101500Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "Past Events Listing",
-          "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE9XbEtCT3Ixekd5eHBSd1FWUU9fcS1Ma3dtMWNhM3JDTTRSZDRzUzg3SzhjbnR6MkpQRHFlZXptS0ZNTDRnUFE?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20181122T115540Z",
           "source": "GoogleNews"
         },
         {
@@ -835,6 +843,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20260522T070000Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Update 360 – IAEA Director General Statement on Situation in Ukraine",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPQWJQcGRwVlJuVHNFalhqMjFQczFfSTdyNW9WbFpZSG9WSnZZcTVDME9DQWZmZVNRV24zOWZ4OTg1MmRmYkdTZW4yN2lkU0phNGJJQWRENXpCNFhYOVQtdU5tV1FPZ3A3RjRWTHV6bDBSN1NZSVZQZ0hpM1JfRjRnbWdSeEdReVhfRGRZRVlTNTZreHBYOXpJdHRkNHBVWjFNaE9Vd1NZZERTN3BhcHlWVQ?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260730T070000Z",
           "source": "GoogleNews"
         },
         {
@@ -973,12 +990,30 @@
           "source": "GoogleNews"
         },
         {
+          "title": "Webinar on Practical Approaches to Regulatory Cooperation: Leveraging of Reviews and the Regulatory Cooperation Toolkit | IAEA",
+          "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNdkN2RE5HRmozZFVzb1pSTl9lV3dBTDRpVGRjQlBsV1lQSG5FdjJlRC1uN0tHYkpLZ3NVczJHSUNQdXYxLWlxSlhGVVo1QV9qYVo5SS1YUkR2Q1N5QXQyOUpDUURQNW9JZzZfTXdtSXh3dG05S3Y5OVZMVHdFTGN5OWoza1htY3pUWnBidHpaRHBtTkYtRl9xeGNDUk1Dek9oYWtlek5kcHFDNTg1OHZWNEEtRVpOVUFweHpYYm5KTmZNc2h6Zm9WUnpXSFNGWE9yNHo1dV94Z1VlNDZpOS1BMy14TGVSZGU2X1lrSg?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260902T154149Z",
+          "source": "GoogleNews"
+        },
+        {
           "title": "Advisory Service to Support In-Service Inspections of Research Reactors (ISIRR)",
           "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNLUh5eU16UWRiVTI0bTdBN0JlN21WQ3VxTVRuNUNGLVVoSDNkM3NHeVYwb3FuSTFVZzZ1S0RXazdBV2Qtc2c4d0RFN2VCamttbHpKTEpIa2dzQkk5VGJ4T0tjRlpHWl9IWk9IMGVhejJGX1pXZ1MyZTFNYUZyMUpaamdqYzg4VW9KM3hEUjlRLWEtMVhqMFg0RXN6N3NqZUVIbUNEb0s4YTY2YkZzcTllMVp1WDR4R1YzNXRoZDNRbw?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
           "seendate": "20260825T103116Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Technical Cooperation Side Events at the 70th IAEA General Conference",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQVW1fYnRUdFh4blZOSXdKaFdCdUp4OEU3bFJrYWdQbmFudVgzbUFvYVdCS0Q2NGV2dU9SV2JpOEw1djExZWt4bmZFSFNnVGxBMEYwd1JXLWNMcVJyLWpSMGZVcWIwQTA3WHd3M21xSWNjRDRpLXR3dHdXN0FDcDJXSXVaR3J4TXFiVHU3cVV4TEt6TmlGMl9GQWdUQk1sNFJyN3J4d0N2SWY?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260902T063243Z",
           "source": "GoogleNews"
         },
         {
@@ -1303,24 +1338,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20250531T113241Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "First IAEA Training on Public Communication in Nuclear Security",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxONjFzcmdYeFpzNmpFV3U4SGlzYi1JdXBWcnE0ejZvVjFMNjFiTGVpV3lUWEFwS0NWZ3k4aTBnWnRfTk5sOFBLSVUzejYxZ2Q1ZHBJOWU3S05yTk96T0luNHlPdHNOT05GQjA3dTBKZ0poMDRZbEtMWmR0VC1COUVpR3BmblFQSTBhTzkzUmJ4Y1ZrZW05eXlxTzU0dVdFZmdB?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260707T070000Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "Improving the Understanding of Irradiation Creep Behaviour in Nuclear Graphite Models and Mechanisms",
-          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPN1lzQm0tOVJIc0pON2xCaEQ2MXlJZXBnaEZJUVRTWFhEUGdlbWgweXVjNXpQVTBHWTFaS1F4ODB3S1ZiREtmb1dKVV9BMExwSXZpZUN6NGdjVTlOdEpJTWJIemhzTGNmYzBfUDAtUktwbEYxZkc0djFZOG5XTTVKckFQQjAyUjhySFhFVk5yenZSdkJQUktCUU92cUVUTUJoVU4tZGZUa1M3OGh6VmRtWGtoelkzellJWF9PTVFTbi10SkhHU2JXa2JGSE51cWRZQTBSaklR?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260604T120939Z",
           "source": "GoogleNews"
         }
       ],
@@ -8990,6 +9007,38 @@
           "source": "USGS"
         },
         {
+          "id": "nn00924139",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1788409911260,
+          "magnitude": 2.45,
+          "magnitude_type": "ml",
+          "event_type": "earthquake",
+          "place": "30 km NNW of Dyer, Nevada",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00924139",
+          "lon": -118.1541,
+          "lat": 37.9311,
+          "depth_km": 10.0791,
+          "source": "USGS"
+        },
+        {
+          "id": "nc75428947",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1788386731340,
+          "magnitude": 1.67,
+          "magnitude_type": "md",
+          "event_type": "earthquake",
+          "place": "18 km SW of Toms Place, CA",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75428947",
+          "lon": -118.83032989502,
+          "lat": 37.4529991149902,
+          "depth_km": 1.00999999046326,
+          "source": "USGS"
+        },
+        {
           "id": "nc75428632",
           "site": "Nevada National Security Site",
           "site_lat": 37.12,
@@ -9682,15 +9731,15 @@
           "site": "Nevada National Security Site",
           "site_lat": 37.12,
           "site_lon": -116.05,
-          "time": 1787577790670,
-          "magnitude": 2.85,
+          "time": 1787577790730,
+          "magnitude": 2.76,
           "magnitude_type": "md",
           "event_type": "earthquake",
-          "place": "19 km SW of Toms Place, CA",
+          "place": "18 km SW of Toms Place, CA",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75424162",
-          "lon": -118.833335876465,
-          "lat": 37.4463348388672,
-          "depth_km": 2.05999994277954,
+          "lon": -118.833666666667,
+          "lat": 37.4493333333333,
+          "depth_km": 2.62,
           "source": "USGS"
         },
         {
@@ -9794,15 +9843,15 @@
           "site": "Nevada National Security Site",
           "site_lat": 37.12,
           "site_lon": -116.05,
-          "time": 1787561858290,
-          "magnitude": 2.25,
+          "time": 1787561858260,
+          "magnitude": 2.26,
           "magnitude_type": "md",
           "event_type": "earthquake",
           "place": "19 km SW of Toms Place, CA",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75424047",
-          "lon": -118.833831787109,
-          "lat": 37.4485015869141,
-          "depth_km": 2.86999988555908,
+          "lon": -118.834666666667,
+          "lat": 37.448,
+          "depth_km": 2.77,
           "source": "USGS"
         },
         {
@@ -9810,15 +9859,15 @@
           "site": "Nevada National Security Site",
           "site_lat": 37.12,
           "site_lon": -116.05,
-          "time": 1787561774310,
-          "magnitude": 2.15,
+          "time": 1787561774300,
+          "magnitude": 2.12,
           "magnitude_type": "md",
           "event_type": "earthquake",
-          "place": "18 km SW of Toms Place, CA",
+          "place": "19 km SW of Toms Place, CA",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75424042",
-          "lon": -118.832168579102,
-          "lat": 37.4490013122559,
-          "depth_km": 1.89999997615814,
+          "lon": -118.834166666667,
+          "lat": 37.4486666666667,
+          "depth_km": 2.6,
           "source": "USGS"
         },
         {
@@ -37710,38 +37759,6 @@
           "source": "USGS"
         },
         {
-          "id": "nn00903680",
-          "site": "Nevada National Security Site",
-          "site_lat": 37.12,
-          "site_lon": -116.05,
-          "time": 1756837493946,
-          "magnitude": 1.5,
-          "magnitude_type": "ml",
-          "event_type": "earthquake",
-          "place": "27 km SE of Caliente, Nevada",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00903680",
-          "lon": -114.3218,
-          "lat": 37.4183,
-          "depth_km": 7.8,
-          "source": "USGS"
-        },
-        {
-          "id": "ci41281200",
-          "site": "Nevada National Security Site",
-          "site_lat": 37.12,
-          "site_lon": -116.05,
-          "time": 1756796036620,
-          "magnitude": 1.94,
-          "magnitude_type": "ml",
-          "event_type": "earthquake",
-          "place": "11 km NE of Coso Junction, CA",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41281200",
-          "lon": -117.8645,
-          "lat": 36.119,
-          "depth_km": 2.36,
-          "source": "USGS"
-        },
-        {
           "id": "us6000sqwh",
           "site": "Chagai",
           "site_lat": 28.9,
@@ -37921,6 +37938,12 @@
       "url": null,
       "date": "2026-08-20",
       "weight": 1.0
+    },
+    {
+      "title": "Webinar on Practical Approaches to Regulatory Cooperation: Leveraging of Reviews and the Regulatory Cooperation Toolkit | IAEA",
+      "url": null,
+      "date": "2026-09-02",
+      "weight": 0.8
     },
     {
       "title": "Technical Cooperation Side Events at the 70th IAEA General Conference",
