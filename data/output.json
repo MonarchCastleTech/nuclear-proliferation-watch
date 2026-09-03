@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "nuclear-proliferation-watch",
-    "generated": "2026-09-03T16:41:31.360546+00:00",
+    "generated": "2026-09-03T21:22:01.826327+00:00",
     "mode": "live",
     "sources": [
       "IAEA official pages",
@@ -14,7 +14,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-09-03T16:41:31.351860+00:00",
+    "issued_at": "2026-09-03T21:22:01.817960+00:00",
     "horizon": "0-30 days",
     "classification": "nuclear-escalation-pressure-not-test-or-weapon-probability",
     "score": 7.9,
@@ -396,6 +396,17 @@
           "facility_security_incidents": 12.6,
           "test_site_seismicity": 0.0
         }
+      },
+      {
+        "timestamp": "2026-09-03T21:22:01.817960+00:00",
+        "score": 7.9,
+        "level": "BASELINE",
+        "components": {
+          "iaea_safeguards_strain": 15.4,
+          "npwmd_designation_delta": 0.0,
+          "facility_security_incidents": 12.6,
+          "test_site_seismicity": 0.0
+        }
       }
     ],
     "data_health": {
@@ -538,15 +549,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "Review of State of the Art Thermal Hydraulics of Fast Reactors",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNbjhTdnNpVnN1WThSSEoyLVFhT1A5UGowbU03SEpYLWRhaWVNaTRISU91M1J3M1dyanVWNXk4UG9RX2pFLU83YllSTmNhVGVqek5WcEFGNkxSYmFZTjBJcXZQYVJjTFZIeGVJMFZoYkFxSjRSZ01ybFRNLVNCckxucjc3VVFBc3d4amxNV0FlSnVNRGROQ3VOYTRoSGZMbFd6dE1N?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260826T115219Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "Reaching the future Safeguards workforce: Early Career Avenues in the Department of Safeguards",
           "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5RbTJNRTkxZGxBNEUzanctVE5NSkZMZUlJWGtqMTlWX2c4b2FrNGpzTVFKR3pDSTEwc0IxSTcxdFVkT3JWOW1kajZ0dw?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -592,7 +594,7 @@
           "source": "GoogleNews"
         },
         {
-          "title": "Optimizing nuclear power reactor efficiency with LEU+ fuels | IAEA",
+          "title": "Optimizing nuclear power reactor efficiency with LEU+ fuels",
           "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOSWtXSnpBSEQtNEQ4QTJOLTV3MWgwTXMxUmFlQVFZaVV3Zm16clJCaFA4cXFmdEx3TFlvVGRYRFRnbDlqSE0xS09Ja0tjLU9TLXNYYWRBLVZXanZkdjdOTktEZnBXbVRHSXZnZkJDTHhvV3cwd285RGx4XzhybDItb1lDZWd3dlFycDVUTlhWYlE?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
@@ -808,15 +810,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "International Conference on Topical Issues in Nuclear Installation Safety - News | IAEA",
-          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE04czN5RW1JOUpScDU2aVhjNm14Uk00VWdyYThod0JraTlqNGFtd042RWo2NXRpam9xcTRaZHNIcmozM3ZBUHAxckNvT0cwaGFP?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20250531T022425Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "Update 359 – IAEA Director General Statement on Situation in Ukraine",
           "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNMUs0cGFLa0FTNmJwNHkxRTlBQjRob3h1N0E1MDJrbzRPWE5ra1dSUzhhcjVjR3VfQjlkdzhaeW5LT2JyRDF6WWRFNzM4UXRBbWFBdmhvdGF1eENHYzFSWTczUGM3SllXRWxDdWpXN3Y3bmliZjE3V3EtbWVSekc2a1dXTUkyd1dzU25ISEcyLTgzUUhLOGNrOGtXQ3o4dkFUb0ljLXZyXzJrZEJXVEhKUg?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -832,6 +825,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20260820T152242Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "International Conference on Topical Issues in Nuclear Installation Safety - News | IAEA",
+          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE04czN5RW1JOUpScDU2aVhjNm14Uk00VWdyYThod0JraTlqNGFtd042RWo2NXRpam9xcTRaZHNIcmozM3ZBUHAxckNvT0cwaGFP?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20250531T022425Z",
           "source": "GoogleNews"
         },
         {
@@ -877,6 +879,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20260710T070000Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Tritium Level Far Below Japan’s Operational Limit in 22nd Batch of ALPS Treated Water, IAEA Confirms",
+          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOTTc5bFNJR0FkNUZxQUN0aEZ0aFVEWGw2ZkhDM3dYZC0wSkd5bFhiZEJuS25lU2VWejhwX1pZUjUwZGxqaUppNDF4bUNtTGhTMk5adVR0V1ZoU0Q5N2tlQi1uVnR4WjEwUnREOVFuNGFrVW9wT0xjU3lzaVlhRUo5T01Nb3Zpd0VEcE8zbXJJYjdxT2JQVVlLS0c4X2JzOUxrbFR4aWo0Z3RqRFVQVUNhRGFTU3llemliZGxESjB5cTdyWTVkTkoyYTJYb1dXbEZkSENtRmx3SmpZNjQ?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260730T070000Z",
           "source": "GoogleNews"
         },
         {
@@ -1042,6 +1053,15 @@
           "source": "GoogleNews"
         },
         {
+          "title": "Review of State of the Art Thermal Hydraulics of Fast Reactors",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNbjhTdnNpVnN1WThSSEoyLVFhT1A5UGowbU03SEpYLWRhaWVNaTRISU91M1J3M1dyanVWNXk4UG9RX2pFLU83YllSTmNhVGVqek5WcEFGNkxSYmFZTjBJcXZQYVJjTFZIeGVJMFZoYkFxSjRSZ01ybFRNLVNCckxucjc3VVFBc3d4amxNV0FlSnVNRGROQ3VOYTRoSGZMbFd6dE1N?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260826T115219Z",
+          "source": "GoogleNews"
+        },
+        {
           "title": "Barbados Signs its First Country Programme Framework (CPF) for 2026–2031",
           "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQelZ2THNKYjFCR25YNUVkc2xuRGE3SmJ4eWpMVUVpWDFuSDlpTDdYSkhpUnFheEhuSXVlc0NqWF9YVUF0NVhhS1lyMzhZWHlGcFZlaWE3SUdxQWVwWTlMWkFjTkpiSWNBN2ZhUTYyZEtxT3NtRTVqQkRuS3d2Sy1qN1RaYXRZQUowZlIwUDhDVUF6WkVCLUR0dXVFa2RIMzJuMVBDWTI1d2ZMZw?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -1075,15 +1095,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20260716T063321Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "Detection of Unintended or Accidental Medical Exposures in Radiotherapy Through Patient Response",
-          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQWlhZelptbW5PTU1RMHQ5dDRiS0tIMTlZUU1GcERfS3F4bnBfZzhkWHFPMnF1MU05NnRMd09xTDNEellCR1R2ajdya2c4OVJqR3hJMUJENi1zQ1FINUZIaFc4Q3JtQkpwOV9HZG5CbDV6RjRuWjFVWFlDeTJUaHpzTlg4VEV2c0tQWTFoVmxicGJvSTJUdGVfWjUyLWVhclJTUUVyTFZZalROMHA2dGFmamdndmtyejJTTVR0eU9BRm1wbVF2cEZ2dm82MkphdWdp?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260825T145023Z",
           "source": "GoogleNews"
         },
         {
@@ -1285,21 +1296,21 @@
           "source": "GoogleNews"
         },
         {
+          "title": "Detection of Unintended or Accidental Medical Exposures in Radiotherapy Through Patient Response",
+          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQWlhZelptbW5PTU1RMHQ5dDRiS0tIMTlZUU1GcERfS3F4bnBfZzhkWHFPMnF1MU05NnRMd09xTDNEellCR1R2ajdya2c4OVJqR3hJMUJENi1zQ1FINUZIaFc4Q3JtQkpwOV9HZG5CbDV6RjRuWjFVWFlDeTJUaHpzTlg4VEV2c0tQWTFoVmxicGJvSTJUdGVfWjUyLWVhclJTUUVyTFZZalROMHA2dGFmamdndmtyejJTTVR0eU9BRm1wbVF2cEZ2dm82MkphdWdp?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260825T145023Z",
+          "source": "GoogleNews"
+        },
+        {
           "title": "Healthy Soil, Healthy Crops in Seychelles",
           "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1kRVV0LTA0NFR6cGthNmd4YlhMd2ViTlVpTGhOeUVVRmZSRWo5eFVGWDVmc1FVemFsbmgzWkd4TmRYTXRUY2c?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
           "seendate": "20260717T070000Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "Human Health Series",
-          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1URTY0WnlLdnpSTDhPcGRvZk1pT0VDa3RYazlHMDR0aFYwblMzYlZpb0lZNTAzZkFreEdQMDNrQlY3Q1BtVzluZ3lfaV9wamVaREFRWC1RTHZnZXZ3TXdTZUtfN0pCTmNlcVZR?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260731T212231Z",
           "source": "GoogleNews"
         },
         {
@@ -9027,15 +9038,15 @@
           "site": "Nevada National Security Site",
           "site_lat": 37.12,
           "site_lon": -116.05,
-          "time": 1788447096604,
-          "magnitude": 1.56,
+          "time": 1788447090661,
+          "magnitude": 2.02,
           "magnitude_type": "ml",
           "event_type": "earthquake",
-          "place": "42 km SSW of Goldfield, Nevada",
+          "place": "21 km SSW of Silver Peak, Nevada",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00924158",
-          "lon": -117.4355,
-          "lat": 37.3579,
-          "depth_km": 3.2819,
+          "lon": -117.7553,
+          "lat": 37.5875,
+          "depth_km": 4.1723,
           "source": "USGS"
         },
         {
@@ -9043,15 +9054,15 @@
           "site": "Nevada National Security Site",
           "site_lat": 37.12,
           "site_lon": -116.05,
-          "time": 1788443068924,
-          "magnitude": 1.76,
+          "time": 1788443069040,
+          "magnitude": 1.73,
           "magnitude_type": "ml",
           "event_type": "earthquake",
-          "place": "48 km E of Big Pine, California",
+          "place": "43 km E of Big Pine, California",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00924152",
-          "lon": -117.7438,
-          "lat": 37.1725,
-          "depth_km": 0.0347,
+          "lon": -117.8004,
+          "lat": 37.1519,
+          "depth_km": 0,
           "source": "USGS"
         },
         {
@@ -9731,15 +9742,15 @@
           "site": "Nevada National Security Site",
           "site_lat": 37.12,
           "site_lon": -116.05,
-          "time": 1787595198110,
-          "magnitude": 2.34,
+          "time": 1787595197960,
+          "magnitude": 2.26,
           "magnitude_type": "md",
           "event_type": "earthquake",
           "place": "18 km SW of Toms Place, CA",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75424297",
-          "lon": -118.834999084473,
-          "lat": 37.4576683044434,
-          "depth_km": 1.9099999666214,
+          "lon": -118.838333333333,
+          "lat": 37.4531666666667,
+          "depth_km": 0.57,
           "source": "USGS"
         },
         {
@@ -9747,15 +9758,15 @@
           "site": "Nevada National Security Site",
           "site_lat": 37.12,
           "site_lon": -116.05,
-          "time": 1787580550090,
-          "magnitude": 2.34,
+          "time": 1787580550080,
+          "magnitude": 2.57,
           "magnitude_type": "md",
           "event_type": "earthquake",
           "place": "18 km SW of Toms Place, CA",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75424192",
-          "lon": -118.833168029785,
-          "lat": 37.4483337402344,
-          "depth_km": 3.04999995231628,
+          "lon": -118.8345,
+          "lat": 37.4495,
+          "depth_km": 3.13,
           "source": "USGS"
         },
         {
@@ -9763,15 +9774,15 @@
           "site": "Nevada National Security Site",
           "site_lat": 37.12,
           "site_lon": -116.05,
-          "time": 1787579299130,
-          "magnitude": 1.87,
+          "time": 1787579298940,
+          "magnitude": 1.86,
           "magnitude_type": "md",
           "event_type": "earthquake",
-          "place": "17 km SW of Toms Place, CA",
+          "place": "19 km SW of Toms Place, CA",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75424187",
-          "lon": -118.823669433594,
-          "lat": 37.4613342285156,
-          "depth_km": 2.75999999046326,
+          "lon": -118.836833333333,
+          "lat": 37.4486666666667,
+          "depth_km": 1.79,
           "source": "USGS"
         },
         {
