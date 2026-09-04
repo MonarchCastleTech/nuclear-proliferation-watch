@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "nuclear-proliferation-watch",
-    "generated": "2026-09-03T21:22:01.826327+00:00",
+    "generated": "2026-09-04T05:07:55.848334+00:00",
     "mode": "live",
     "sources": [
       "IAEA official pages",
@@ -14,7 +14,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-09-03T21:22:01.817960+00:00",
+    "issued_at": "2026-09-04T05:07:55.839906+00:00",
     "horizon": "0-30 days",
     "classification": "nuclear-escalation-pressure-not-test-or-weapon-probability",
     "score": 7.9,
@@ -106,7 +106,7 @@
         "available": true,
         "score": 0.0,
         "current_30d_diagnostic_weight": 0.0,
-        "events_considered": 1822,
+        "events_considered": 1823,
         "sites_monitored": 8,
         "anomaly_z": 0.0,
         "evidence": [],
@@ -407,12 +407,23 @@
           "facility_security_incidents": 12.6,
           "test_site_seismicity": 0.0
         }
+      },
+      {
+        "timestamp": "2026-09-04T05:07:55.839906+00:00",
+        "score": 7.9,
+        "level": "BASELINE",
+        "components": {
+          "iaea_safeguards_strain": 15.4,
+          "npwmd_designation_delta": 0.0,
+          "facility_security_incidents": 12.6,
+          "test_site_seismicity": 0.0
+        }
       }
     ],
     "data_health": {
       "available_components": 4,
       "retained_components": [],
-      "iaea_titles": 99,
+      "iaea_titles": 98,
       "npwmd_entries": 1195,
       "iaea_events": 23,
       "test_sites": 8
@@ -459,7 +470,7 @@
     },
     {
       "label": "IAEA Signals",
-      "value": "99",
+      "value": "98",
       "delta": "official indexed pages"
     },
     {
@@ -690,15 +701,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20260702T070000Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "How Nuclear Science Enhances Seafood Safety in Namibia",
-          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPMVh5VkhtdjlNQTg0MEZneXd2UDNDLVlNQTVwdnZCMDluN3VYWHBMb1lfYjdVSDcyVkpnZXdSdVBMUUs1X3NaM3lYTlJNZGh0WjBfQ3RsWVpFOEpqRE9mNExpZ254aUdOcXFVc3BRUUdJS1hMajZ6OWMxdmdnVzhFb2t2d1Z3dXpKOTRMRHNiVmVqV1ZLMnVMSHpHYWQ3WlZGZWxqMGJR?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260605T070000Z",
           "source": "GoogleNews"
         },
         {
@@ -1188,15 +1190,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "Лакшман Валивети",
-          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9CU3FBckhUUWVJZUg3bGdHN2dhcVBDYzg4NHlEazNoWjVjQ3JmbVlXc0wwNWJtbHZCZXRwR3RWNmRKR196dEpXdVBDLTFvUGdU?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260709T060313Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "Competence, Agility and Connection in the Spotlight at IAEA RegCon2026 Conference for Nuclear and Radiation Regulators",
           "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxNLXhGdGlLdm5sYXU4bkx4WlcyeEpsblp0Zk40bTNMTHhlTkpRdy1iRXlieVlhZzBFWDU1Y1NYRGxuaDI1MnQ4cU40dE5HOXBSeVdadmtpdEJhVXRBYlVlcF9odDliak5uZmlOZ09QUkV4eTZiMnFCaTkwMUdabDlGWEZ2aW9UNGgyNGQxMGp2WVZBV1ZqYnpSTG5yR0NtUkdUN3lva2JaRTlXYlB3clZLaFh5dmJBVUxlemZBZDk0SmhLV2ZQQkRQN0RTUFRBU1dxS1BleWpzdC1Va2RhWlB5b2hEWWd3YjAyOXNaaG9pM2tKNk9Sbi1OanJPLVVJbXNK?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -1365,6 +1358,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20250531T113349Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Shared Commitment to Nuclear Safety Reaffirmed at the Convention on Nuclear Safety Review Meeting",
+          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNRFdJU2I0SDR5YTQ1MTRyZ01vaDlZaWtoRnl1em1WWk1mX3c4YXhPSml4X0pOOUtHR2dWQlg1UVYyc21fT0ZabkZsMHhwamFKcmNZYXVVYms2ZWV6ZG1ndHpkTmdqTVQyTmNLNDh3UHJNRURybU5oZ0tlbGFZRHBYVEI5WExVV2E5WTF1RDhJeWo3bmw2MlJGaXcwYUNqUWZlYTZlZk1Zd0laOC1oLTV5LTU0Q3VCWHg3WHREVmYteWlWTHdEV0x2VTN3V0EyQQ?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260519T070000Z",
           "source": "GoogleNews"
         }
       ],
@@ -9034,6 +9036,38 @@
           "source": "USGS"
         },
         {
+          "id": "nn00924179",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1788483129177,
+          "magnitude": 2.29,
+          "magnitude_type": "ml",
+          "event_type": "earthquake",
+          "place": "5 km NE of Nellis Air Force Base, Nevada",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00924179",
+          "lon": -115.0139,
+          "lat": 36.2857,
+          "depth_km": 0.0056,
+          "source": "USGS"
+        },
+        {
+          "id": "nn00924171",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1788470652931,
+          "magnitude": 1.86,
+          "magnitude_type": "ml",
+          "event_type": "explosion",
+          "place": "58 km S of Kingston, Nevada",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00924171",
+          "lon": -117.0688,
+          "lat": 38.6791,
+          "depth_km": 6.416,
+          "source": "USGS"
+        },
+        {
           "id": "nn00924158",
           "site": "Nevada National Security Site",
           "site_lat": 37.12,
@@ -9550,15 +9584,15 @@
           "site": "Nevada National Security Site",
           "site_lat": 37.12,
           "site_lon": -116.05,
-          "time": 1787651516700,
-          "magnitude": 2.55,
+          "time": 1787651516450,
+          "magnitude": 2.59,
           "magnitude_type": "md",
           "event_type": "earthquake",
           "place": "13 km W of Round Valley, CA",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75424817",
-          "lon": -118.740501403809,
-          "lat": 37.4128341674805,
-          "depth_km": 11.7700004577637,
+          "lon": -118.7415,
+          "lat": 37.4105,
+          "depth_km": 15.17,
           "source": "USGS"
         },
         {
@@ -37815,22 +37849,6 @@
           "lon": -117.8606667,
           "lat": 36.1053333,
           "depth_km": 2.91,
-          "source": "USGS"
-        },
-        {
-          "id": "ci41282400",
-          "site": "Nevada National Security Site",
-          "site_lat": 37.12,
-          "site_lon": -116.05,
-          "time": 1756922924250,
-          "magnitude": 1.66,
-          "magnitude_type": "ml",
-          "event_type": "earthquake",
-          "place": "11 km NE of Coso Junction, CA",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41282400",
-          "lon": -117.8605,
-          "lat": 36.108,
-          "depth_km": 3.2,
           "source": "USGS"
         },
         {
