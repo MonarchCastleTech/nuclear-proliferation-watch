@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "nuclear-proliferation-watch",
-    "generated": "2026-09-04T11:45:08.855405+00:00",
+    "generated": "2026-09-04T16:36:28.861327+00:00",
     "mode": "live",
     "sources": [
       "IAEA official pages",
@@ -14,10 +14,10 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-09-04T11:45:08.846901+00:00",
+    "issued_at": "2026-09-04T16:36:28.854780+00:00",
     "horizon": "0-30 days",
     "classification": "nuclear-escalation-pressure-not-test-or-weapon-probability",
-    "score": 7.9,
+    "score": 9.8,
     "level": "BASELINE",
     "confidence": "HIGH",
     "confidence_score": 100.0,
@@ -26,13 +26,19 @@
         "id": "iaea_safeguards_strain",
         "label": "IAEA safeguards and access strain",
         "available": true,
-        "score": 15.4,
-        "current_14d_weight": 1.6,
+        "score": 20.8,
+        "current_14d_weight": 2.6,
         "current_14d_titles": 18,
         "baseline_periods": 8,
         "baseline_median": 0.0,
-        "anomaly_z": 1.6,
+        "anomaly_z": 2.6,
         "evidence": [
+          {
+            "title": "Innovation and Resilience in a Changing World - Safeguards as a Shared Responsibility - Social Media Toolkit | IAEA",
+            "url": null,
+            "date": "2026-09-04",
+            "weight": 1.0
+          },
           {
             "title": "Webinar on Practical Approaches to Regulatory Cooperation: Leveraging of Reviews and the Regulatory Cooperation Toolkit | IAEA",
             "url": null,
@@ -59,8 +65,8 @@
         "removed_count": 0,
         "added": [],
         "removed": [],
-        "publish_date": "2026-09-02",
-        "sha256": "447d09384cf840252569a30b5db51d8cc4aefb396c085168246ee04e7ba2693c",
+        "publish_date": "2026-09-03",
+        "sha256": "0ffb4504696e2f5adecbd23a3f27c27e8264447a8021752f1043c74422650f5f",
         "retained": false
       },
       {
@@ -429,6 +435,17 @@
           "facility_security_incidents": 12.6,
           "test_site_seismicity": 0.0
         }
+      },
+      {
+        "timestamp": "2026-09-04T16:36:28.854780+00:00",
+        "score": 9.8,
+        "level": "BASELINE",
+        "components": {
+          "iaea_safeguards_strain": 20.8,
+          "npwmd_designation_delta": 0.0,
+          "facility_security_incidents": 12.6,
+          "test_site_seismicity": 0.0
+        }
       }
     ],
     "data_health": {
@@ -476,7 +493,7 @@
   "stats": [
     {
       "label": "Escalation Pressure",
-      "value": "7.9/100",
+      "value": "9.8/100",
       "delta": "BASELINE"
     },
     {
@@ -526,15 +543,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "International High-level Forum on the ATLAS Launch | IAEA",
-          "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFAwOUVjcklwUEtJNHdmSE8xS1FPQ2h3VUlQdXM4RnB0elMxVkFCTkJzdjV2cG55TVdrUHJTWlVSTTNDZ1VhNEV0OHBUekk?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260827T070000Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "IAEA Launches ATLAS as Countries Explore Nuclear Power for Shipping and Offshore Energy",
           "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOMkFxQ0tKejgtSkszMlpJSjQwRnFHUGpUUUk5d1YtQnpjMWFHOTk0eHQ1dWJ1LW1LcG4yb0wwYUtVM3VjTWdfQVFUcXpkUXRubUJOUGtjU05haW4wcnhBSXJKc1dqb2FVWkJJdmpfZTdsaDF1TjhKaEd3ZmU2dl9iVUpseFFlemtWRG85cm1DQzFjRnU2R05wSV8yY1RmNmRLa053RkdpUWRRdDJudDdLdjVwSnBaOWItX0lqWExzOHFzbTVuN1NyRG5ZVGE?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -568,6 +576,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20260826T070000Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Innovation and Resilience in a Changing World - Safeguards as a Shared Responsibility - Social Media Toolkit | IAEA",
+          "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5RNklucUNoTkpENFRvX09rMFNuMnJqdURXNm4yTFJvODVSVVBjVURFUllpRGpVUWJIekRHWnYxOGVKTUd3MU12YXZoYw?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260904T010717Z",
           "source": "GoogleNews"
         },
         {
@@ -760,6 +777,15 @@
           "source": "GoogleNews"
         },
         {
+          "title": "China’s CNNC Medical Designated as 20th Rays of Hope Anchor Centre",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOWTJwSUs5UjNCamlzRlFtRnpjSFhBOEsxUl96MXozdjliMW9jaFpycG1acjhHVEJ1UE1ITVh5UGlNMEdHb3BGajZIVmVmRWxkQjRMN0dVZ2JPczJrVEtuRi01X1FQR3BhTm1nOVV3WjhUeUJKWmdPOWN3RFdfQUMzZ0hmaTFXVWlHSkF4M0U4RHAyNmpqVEd0ZnU4OEk5Q2U5UG1j?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260626T070000Z",
+          "source": "GoogleNews"
+        },
+        {
           "title": "Past Events Listing",
           "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE9XbEtCT3Ixekd5eHBSd1FWUU9fcS1Ma3dtMWNhM3JDTTRSZDRzUzg3SzhjbnR6MkpQRHFlZXptS0ZNTDRnUFE?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -892,6 +918,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20260730T070000Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "International High-level Forum on the ATLAS Launch | IAEA",
+          "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFAwOUVjcklwUEtJNHdmSE8xS1FPQ2h3VUlQdXM4RnB0elMxVkFCTkJzdjV2cG55TVdrUHJTWlVSTTNDZ1VhNEV0OHBUekk?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260827T070000Z",
           "source": "GoogleNews"
         },
         {
@@ -1120,6 +1155,15 @@
           "source": "GoogleNews"
         },
         {
+          "title": "70th IAEA General Conference - Technical Cooperation",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOYzc3N2hjTkxLY0k5ZWlPRWIxS2xyZUxLZXN1eDBfcjhkbnE2X3VnWTFhakFwS2J3YkZXWWY5UlE5VHZCSUsxU3NBcEJ1cExibjBfSzVYemZYWTV6T1p1LUdEWVA2bzdVdUR6djN4S2pPMUxJa3VGWGVmWU5hQkZKaFlyWmZ5bDVrY1dXc3k5M29iUzdGV2piOEdtOHBwUE5EU09pbnFfQzEtRHphdGE0?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260811T070418Z",
+          "source": "GoogleNews"
+        },
+        {
           "title": "Update 355 – IAEA Director General Statement on Situation in Ukraine",
           "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQcWVqaTR2ai1MWjB2dDVDMloyYTY3bUhDbEtnWjdFZllZTjhiYm9wbXc5Z3N5aTJWSjJEWXN2cDl6Y09zcWlPVUE4c0Z4Q3o1Qm9IZktvVzV4X2NpSVFKbjhPZ0JCeWVUOE15U0FpMzc1OUpHQW9SSkxrcVZsczRHTWZTSHo0YkRjRnVtM25qcHpqckU4Q1Atd1dMY3lyX3lVdXc0MlY3RTFaNFNpUHF5bw?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -1309,15 +1353,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "Detection of Unintended or Accidental Medical Exposures in Radiotherapy Through Patient Response",
-          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQWlhZelptbW5PTU1RMHQ5dDRiS0tIMTlZUU1GcERfS3F4bnBfZzhkWHFPMnF1MU05NnRMd09xTDNEellCR1R2ajdya2c4OVJqR3hJMUJENi1zQ1FINUZIaFc4Q3JtQkpwOV9HZG5CbDV6RjRuWjFVWFlDeTJUaHpzTlg4VEV2c0tQWTFoVmxicGJvSTJUdGVfWjUyLWVhclJTUUVyTFZZalROMHA2dGFmamdndmtyejJTTVR0eU9BRm1wbVF2cEZ2dm82MkphdWdp?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260825T145023Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "TECDOC Series",
           "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5QanRtZVdBX0V2VGRfZE9zajdTeU1pQ0dhQnEyQkJEVDZqVTZJcG5Ec0hJcEEwdXhCaW1XR3hiRDFrT28wekswNnEyQVNYZzhacmRoRzdoZXhvZFIxLTFPZEpDMA?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -1369,24 +1404,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20260629T191549Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "The essential role of stakeholder engagement throughout the nuclear fuel cycle | IAEA",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQcG5oektneTZ4MzhXUFpJUXBKUTNOQk5XaEpOR2hMU09IYkFCVWNobDBjVmRWNEVZOEJWd2w1QjNRR1pzcEFLMGl5ZlEyZnFxSEpZeGxLZlBWX0RlbXJxT1hOU0tSbVVPUERYbDA2dFViRDBoU2lqU3Rxd0toUzkwYmtSdDNzTUpJZHM1VFNCX1NHX1h0MEZMbTNxLTdNQkhhYkZFUU5EM0MtQnM?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260523T021144Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "Participation and Registration: International Conference on Topical Issues in Nuclear Installation Safety | IAEA",
-          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBHV1dYeXFlY093R002dTlxVzVKUmxBMl9PcFhweDJyVVN3ajJYa2o1STAwdFlmYU5DMElLMTZzRU51Rmd0SzFVejZ4Q2RQVFU5OW1hem9lenRmMHNyS0poNkxmRkFkVGowbmNObGVWQTBjcm8?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20250531T113349Z",
           "source": "GoogleNews"
         }
       ],
@@ -8825,8 +8842,8 @@
         }
       ],
       "count": 1195,
-      "publish_date": "2026-09-02",
-      "sha256": "447d09384cf840252569a30b5db51d8cc4aefb396c085168246ee04e7ba2693c",
+      "publish_date": "2026-09-03",
+      "sha256": "0ffb4504696e2f5adecbd23a3f27c27e8264447a8021752f1043c74422650f5f",
       "cached": false
     },
     "test_site_seismicity": {
@@ -9056,19 +9073,19 @@
           "source": "USGS"
         },
         {
-          "id": "nn00924179",
+          "id": "nn00924188",
           "site": "Nevada National Security Site",
           "site_lat": 37.12,
           "site_lon": -116.05,
-          "time": 1788483129177,
-          "magnitude": 2.29,
+          "time": 1788536091899,
+          "magnitude": 1.5,
           "magnitude_type": "ml",
           "event_type": "earthquake",
-          "place": "5 km NE of Nellis Air Force Base, Nevada",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00924179",
-          "lon": -115.0139,
-          "lat": 36.2857,
-          "depth_km": 0.0056,
+          "place": "77 km NE of Tonopah, Nevada",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00924188",
+          "lon": -116.4996,
+          "lat": 38.4556,
+          "depth_km": 9.3203,
           "source": "USGS"
         },
         {
@@ -38046,6 +38063,12 @@
     }
   },
   "events": [
+    {
+      "title": "Innovation and Resilience in a Changing World - Safeguards as a Shared Responsibility - Social Media Toolkit | IAEA",
+      "url": null,
+      "date": "2026-09-04",
+      "weight": 1.0
+    },
     {
       "title": "Webinar on Practical Approaches to Regulatory Cooperation: Leveraging of Reviews and the Regulatory Cooperation Toolkit | IAEA",
       "url": null,
