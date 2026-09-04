@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "nuclear-proliferation-watch",
-    "generated": "2026-09-04T05:07:55.848334+00:00",
+    "generated": "2026-09-04T11:45:08.855405+00:00",
     "mode": "live",
     "sources": [
       "IAEA official pages",
@@ -14,7 +14,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-09-04T05:07:55.839906+00:00",
+    "issued_at": "2026-09-04T11:45:08.846901+00:00",
     "horizon": "0-30 days",
     "classification": "nuclear-escalation-pressure-not-test-or-weapon-probability",
     "score": 7.9,
@@ -418,12 +418,23 @@
           "facility_security_incidents": 12.6,
           "test_site_seismicity": 0.0
         }
+      },
+      {
+        "timestamp": "2026-09-04T11:45:08.846901+00:00",
+        "score": 7.9,
+        "level": "BASELINE",
+        "components": {
+          "iaea_safeguards_strain": 15.4,
+          "npwmd_designation_delta": 0.0,
+          "facility_security_incidents": 12.6,
+          "test_site_seismicity": 0.0
+        }
       }
     ],
     "data_health": {
       "available_components": 4,
       "retained_components": [],
-      "iaea_titles": 98,
+      "iaea_titles": 99,
       "npwmd_entries": 1195,
       "iaea_events": 23,
       "test_sites": 8
@@ -470,7 +481,7 @@
     },
     {
       "label": "IAEA Signals",
-      "value": "98",
+      "value": "99",
       "delta": "official indexed pages"
     },
     {
@@ -538,7 +549,7 @@
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
-          "seendate": "20260826T085221Z",
+          "seendate": "20260826T070000Z",
           "source": "GoogleNews"
         },
         {
@@ -610,7 +621,7 @@
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
-          "seendate": "20260815T025148Z",
+          "seendate": "20260522T233649Z",
           "source": "GoogleNews"
         },
         {
@@ -674,6 +685,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20260508T070000Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Country Programme Frameworks",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPODFocUhzR1N3dVJiMnJRSXpGdjhXMk9LZWpLTFZkR2lsTDdhaHowQkYxd096aTZWV3NXYXgyVWtvR2NHQnlIbmpKVEdJMVJXdldaOERyUDAyNlB5NDBueTV1R2x4OG1YWTVpNmhtbmdoY3ltZHpqQVFKUWNGZ2VKSkYzYzNOLXpRUWZmZmVDXzBSZlU?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20180618T183815Z",
           "source": "GoogleNews"
         },
         {
@@ -749,15 +769,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "Country Programme Frameworks",
-          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPODFocUhzR1N3dVJiMnJRSXpGdjhXMk9LZWpLTFZkR2lsTDdhaHowQkYxd096aTZWV3NXYXgyVWtvR2NHQnlIbmpKVEdJMVJXdldaOERyUDAyNlB5NDBueTV1R2x4OG1YWTVpNmhtbmdoY3ltZHpqQVFKUWNGZ2VKSkYzYzNOLXpRUWZmZmVDXzBSZlU?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20180618T183815Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "Press Arrangements for IAEA Board of Governors Meeting, 5 June 2026",
           "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPX1VFV1dSUGM1b3V2dmxqUko4ZUVNVlJ3dUZYelFFRDJlVEZsNVprQjVoWGNYcGFEcV9XT1h6aFlNdVFhSG9jblF2ZzNLbUVUa3U5M3YzdDBMX3lRdmZJeXBqX0dYZ0s3WEFwTEhVMWFKQzUzM0VJemxwQk9SUUJ4YWtlbnFQMGhsd2xydXdMZzlQZjBlMk5JM3VkYWdWbzF2WnpUaFVaQm5HYVVpS1liS2xDRQ?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -791,6 +802,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20260625T070000Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "NEWS",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNNXBLOHZ3MTdITmV3eWZhODJ6TXZPMXZ1Sk1TdFdQd2hMX3dYdC1Rd0xRMjUydXl4d1d3WGFONTgzMFVMZDg4aUsxM3JPN2VQdm8zUUZxdnk5UTJqQjJ1cWFzQUd3Z2FZWnZxZF9NYnNTX2JyQ0tRQl9sMzZPSXYxNlVLc2xUQQ?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260605T070000Z",
           "source": "GoogleNews"
         },
         {
@@ -1298,6 +1318,15 @@
           "source": "GoogleNews"
         },
         {
+          "title": "TECDOC Series",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5QanRtZVdBX0V2VGRfZE9zajdTeU1pQ0dhQnEyQkJEVDZqVTZJcG5Ec0hJcEEwdXhCaW1XR3hiRDFrT28wekswNnEyQVNYZzhacmRoRzdoZXhvZFIxLTFPZEpDMA?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260801T001021Z",
+          "source": "GoogleNews"
+        },
+        {
           "title": "Healthy Soil, Healthy Crops in Seychelles",
           "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1kRVV0LTA0NFR6cGthNmd4YlhMd2ViTlVpTGhOeUVVRmZSRWo5eFVGWDVmc1FVemFsbmgzWkd4TmRYTXRUY2c?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -1358,15 +1387,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20250531T113349Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "Shared Commitment to Nuclear Safety Reaffirmed at the Convention on Nuclear Safety Review Meeting",
-          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNRFdJU2I0SDR5YTQ1MTRyZ01vaDlZaWtoRnl1em1WWk1mX3c4YXhPSml4X0pOOUtHR2dWQlg1UVYyc21fT0ZabkZsMHhwamFKcmNZYXVVYms2ZWV6ZG1ndHpkTmdqTVQyTmNLNDh3UHJNRURybU5oZ0tlbGFZRHBYVEI5WExVV2E5WTF1RDhJeWo3bmw2MlJGaXcwYUNqUWZlYTZlZk1Zd0laOC1oLTV5LTU0Q3VCWHg3WHREVmYteWlWTHdEV0x2VTN3V0EyQQ?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260519T070000Z",
           "source": "GoogleNews"
         }
       ],
