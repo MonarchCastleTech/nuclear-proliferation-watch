@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "nuclear-proliferation-watch",
-    "generated": "2026-09-06T15:48:32.880593+00:00",
+    "generated": "2026-09-06T20:51:18.614448+00:00",
     "mode": "live",
     "sources": [
       "IAEA official pages",
@@ -14,7 +14,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-09-06T15:48:32.872215+00:00",
+    "issued_at": "2026-09-06T20:51:18.606060+00:00",
     "horizon": "0-30 days",
     "classification": "nuclear-escalation-pressure-not-test-or-weapon-probability",
     "score": 9.8,
@@ -534,6 +534,17 @@
           "facility_security_incidents": 12.6,
           "test_site_seismicity": 0.0
         }
+      },
+      {
+        "timestamp": "2026-09-06T20:51:18.606060+00:00",
+        "score": 9.8,
+        "level": "BASELINE",
+        "components": {
+          "iaea_safeguards_strain": 20.8,
+          "npwmd_designation_delta": 0.0,
+          "facility_security_incidents": 12.6,
+          "test_site_seismicity": 0.0
+        }
       }
     ],
     "data_health": {
@@ -667,21 +678,21 @@
           "source": "GoogleNews"
         },
         {
-          "title": "From Concept to Implementation: Safeguards by Design implementation strategies for effective and efficient safeguards",
-          "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNYjNiSVFFVU9zMEFfWDBTVjlGZG5fTWI2MkJ3MW94U1YtRVJ3UG05RkRadjJpZW52VWt0SVVoS0RpMDlfRUxPd0wtQS0zQ0IzLUVfa3RuZFdjUy12Z2FoeEFJRmtxZlN3TXgxM1JZWkxxNmxBSEJXWDhQXzRBN21iSzZJaHQtVXA3UUdTeUZzWW81elFFeTdubDdQR1hlN3lyMDJ6YUNTNlFDQXZhZjlPWGlkU1NlVVpPclAtSmp4Z3BWdEI3d3pFQlo3S2FvS2JyMkVicW1YQ21VTVNIT3JvczZoN1YwR2JUUDh0eFNtN1FCM2lKd0RHb0Q0ZUtuZFU?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260820T083335Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "Reaching the future Safeguards workforce: Early Career Avenues in the Department of Safeguards",
           "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5RbTJNRTkxZGxBNEUzanctVE5NSkZMZUlJWGtqMTlWX2c4b2FrNGpzTVFKR3pDSTEwc0IxSTcxdFVkT3JWOW1kajZ0dw?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
           "seendate": "20260820T155732Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Safeguards Direct Portal: Improving information exchange with the IAEA Department of Safeguards",
+          "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5ETHpETkxMc0pYNG1ZMUNJZVFGbXFmdGxWUnBqWHhqVEJ6M0l1VU8xRXY4ZktuWFdBVUpRTFBicUprYlpSYmpReDRGOA?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260821T001030Z",
           "source": "GoogleNews"
         },
         {
@@ -700,6 +711,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20260902T123248Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Safeguards Equipment Workshops: Non-Destructive Assay, Surveillance, Unattended Monitoring, and Seals and Containment | IAEA",
+          "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1ab0lLNXpVaXpMY1lnRGFTckd6TnVwZGkzNHZoOExEcEVFdnJnRFZxQ0ZlTktFWnJUeW5kWm1JaXpUSWFMREhRV0NRZw?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260820T150731Z",
           "source": "GoogleNews"
         },
         {
@@ -997,6 +1017,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20250531T022425Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Update 363 – IAEA Director General Statement on Situation in Ukraine",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxObm9BZElGb0lWcTFIXy1uYVIwbFBnTE1Na0x2UDhhVElubFhFWmVHMjlJc09NVUFfQkl5SUdZZkJjczJqTUZPV25YeG9KeE52d1BaTmZsRUZGRkthUUV5SzZrODNfRG1nTDhlbERONTNiYkJxQjZPRm9XdG55N1lic3ZoN3dhSWhRWTFubGNSNjJsbHJjSXJVSExVaUtLYnN3dGNsaDFaNWpaY3BkUDJXTQ?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260820T070000Z",
           "source": "GoogleNews"
         },
         {
@@ -1315,6 +1344,15 @@
           "source": "GoogleNews"
         },
         {
+          "title": "Proceedings Series",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9jRFA2R3k5RHp2bzRDa2JjLXJIdlJpSElSLV9MRVM4VGhZRkUxVFRaY1lRU2RGeENWU3RtcGNLd1ZjaWlxLXNhRDM4dHNyWDhjZGR2NEQ0aERUWURCNm8tMU1JWDhSZFhSQ2NfSzNpaVVIUGs5R2c?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260801T080536Z",
+          "source": "GoogleNews"
+        },
+        {
           "title": "Atomic Scholarship for the Shared Future",
           "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPMmtmSml2cDBqYktkWGFxak5rd3ZzR2pTdkVJcmtkR25hZHlqR08wUUIzc3F4NlB3cE9ab0hmYkJsWms2MHc2elN0N2d5VDZwSlVWbnc2Z2NRNmFGcTktcWY0eEhPX2ExX1AwLUl6OHIyZG91YXBNcHVKRG9vNWkwdE8yZHJZTXJnakhfdVNiLU91ZWFCQ3dEWU1QS08?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -1375,15 +1413,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20260605T070000Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "Malaysia Emerges as a Regional Provider of Non-destructive Testing",
-          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPYlR5MGw0ZDBlaVlSUTQtbUg5RVZ6VjhtdVYxZVJjN3dQWFJncTVQT3dpeDlOem1fNzZfcTFuc0NsNjNXXzhiaURlbXpuVFhyRkRMT0hXbFBzTFRIX29iNERPbmo3VW9SS0lFUnNrRlVJQUFzVUhRSWh4OVdueDgyQ0NUcFM3NEp5ZF9ZRzcxNHdBQXlRU0R6T29EUElvc0t3OUN1NQ?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260807T070000Z",
           "source": "GoogleNews"
         },
         {
@@ -1459,39 +1488,21 @@
           "source": "GoogleNews"
         },
         {
+          "title": "Reference Data Series",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBqYVlDZUxDamk1V2c4UmxNUVFQaE15Y2VfaGwyWjJjSGQ1VnRVS1hwUnpvOFJ2eGFLemtPcHJ2cXpIOW9pZDhEdTdtRTFBMkI0c2dKWG1nd29BUGI0U1RNb0txSjhoSi1BcU01Szdn?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260801T020310Z",
+          "source": "GoogleNews"
+        },
+        {
           "title": "International Conference on Integrated Medical Imaging in Cardiovascular Diseases (IMIC-2027) - Abstract and Paper Submission | IAEA",
           "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1IZVYxdm42Uk9pTVNHaDFtOUJPWEZscVZ4Tm5tNk1yZGZDOXMwdDcxRHNrX0p2aTNWOVYzd3hrSTBPQ2xfN08wYzMwT293TDJ3UmtfRnc3VHFmMXhzX1ZxeUJNXzNfQ1ZrSVprVi1YUG9abTQ?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
           "seendate": "20260525T183001Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "IAEA Nuclear Information Repository Experiences Record Growth",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQZjg1aDRwLVJhUm5SVEViQkh0aHB1T213WTIycXBJZ0gtRWwwcEpNMHdsVVdydVhrd2ZjUTliQXlmenpPOTNmZENCMVFKQUNaVXVCay1fTzQ1bGtLd2xNd29hOTExUkN1ZjQxcWw2Qm5ER2RhV1F6dTVIYl80aWdjRGNpb3BNeHFxMjJOdXhIeDJJc1VmUUZybU1XU0NZQ1dh?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260512T070000Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "Turkmenistan Hosts Nuclear Security Workshop",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQcDdhOG9EeVhlOS1ZaXY5bUljdV9hNXg2YW9mdWdCWUprTmRJd0NlbTRLZU4wMW0yLVh1NkNPS2lqX2NMMzFCTVVEdEFKRXdKcHJLN2FmQU1RTE1oNEdMQllVZkRWQ0s4RC05MWt2VVJjNXJ3N25DblY0MDBUeWgzV1oyM29XeW8?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260522T070000Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "IAEA Director General Joins International Experts Sampling Seawater Near Fukushima",
-          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNazFyd0Z6OERfaW45VG9xUjRoOGxYM281N0duQ3BvTW1lalY5UTlFQnNOVTBpbkY1a1l0dWpLeVNxNk5VZFVWRk1DV1pvc2NCanVwajRBb0VUVTRLbzVWWk1jYlFoOXhyUTJ3UG5EMzllWlpWNjZGT2NGNzdaSThuX09xV1I0Q3RpOVVtd0RzT0NHS2RIdmdFS0dwRGttZ1lEdWJJNVlxenBZa3B1VVEtOF90RGxWNlpXYkNsYmh3N0pNa3FIQ1E?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260624T070000Z",
           "source": "GoogleNews"
         }
       ],
