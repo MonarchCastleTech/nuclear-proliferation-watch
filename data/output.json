@@ -1,8 +1,8 @@
 {
   "meta": {
     "project": "nuclear-proliferation-watch",
-    "generated": "2026-09-07T05:14:46.574938+00:00",
-    "mode": "partial",
+    "generated": "2026-09-07T13:02:27.419399+00:00",
+    "mode": "live",
     "sources": [
       "IAEA official pages",
       "IAEA Nuclear Events Web-based System",
@@ -14,13 +14,13 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-09-07T05:14:46.570014+00:00",
+    "issued_at": "2026-09-07T13:02:27.411569+00:00",
     "horizon": "0-30 days",
     "classification": "nuclear-escalation-pressure-not-test-or-weapon-probability",
     "score": 9.8,
     "level": "BASELINE",
     "confidence": "HIGH",
-    "confidence_score": 97.0,
+    "confidence_score": 100.0,
     "components": [
       {
         "id": "iaea_safeguards_strain",
@@ -28,7 +28,7 @@
         "available": true,
         "score": 20.8,
         "current_14d_weight": 2.6,
-        "current_14d_titles": 23,
+        "current_14d_titles": 24,
         "baseline_periods": 8,
         "baseline_median": 0.4,
         "anomaly_z": 3.71,
@@ -112,11 +112,11 @@
         "available": true,
         "score": 0.0,
         "current_30d_diagnostic_weight": 0.0,
-        "events_considered": 1824,
+        "events_considered": 1820,
         "sites_monitored": 8,
         "anomaly_z": 0.0,
         "evidence": [],
-        "retained": true,
+        "retained": false,
         "caveat": "Only shallow M3.5+ events within 75 km or catalogued nuclear-explosion types score. USGS waveforms alone cannot identify a nuclear explosion; CTBTO radionuclide and expert analysis are required."
       }
     ],
@@ -556,13 +556,22 @@
           "facility_security_incidents": 12.6,
           "test_site_seismicity": 0.0
         }
+      },
+      {
+        "timestamp": "2026-09-07T13:02:27.411569+00:00",
+        "score": 9.8,
+        "level": "BASELINE",
+        "components": {
+          "iaea_safeguards_strain": 20.8,
+          "npwmd_designation_delta": 0.0,
+          "facility_security_incidents": 12.6,
+          "test_site_seismicity": 0.0
+        }
       }
     ],
     "data_health": {
       "available_components": 4,
-      "retained_components": [
-        "test_site_seismicity"
-      ],
+      "retained_components": [],
       "iaea_titles": 99,
       "npwmd_entries": 1195,
       "iaea_events": 23,
@@ -655,6 +664,15 @@
           "source": "GoogleNews"
         },
         {
+          "title": "IAEA Director General's Introductory Statement to the Board of Governors",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNSkJudmE3cWZXam0xNW1CRUFaTGVrRWd2dWtMb1N5WEUySV9BanQwem0wUTVXbF9obWZONEktOFNWbjBhU00ya2htRlM1TzBnN1lhV25WLWdfTE1mS2VScVprRGtVSVhIRFVPMy01VUpjbXRRYWF2aUpxSkNING02NUNZeHhFNFRQRllRbzNCWjBsVGczb2p6cmp2SkdLV0ZraXp4MDMyMnBOdllIdXFoZFdad24weUJ6QkVfTHhqU3lORVg5RlVrNXlGcw?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260907T094833Z",
+          "source": "GoogleNews"
+        },
+        {
           "title": "Tritium Level Far Below Japan’s Operational Limit in 23rd Batch of ALPS Treated Water, IAEA Confirms",
           "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPQkVSMDNSRGZsbTFWNDZOYmU3bE4wTTl0clNhZS1mN2N1NTZLVngyX19PWXFaMVpNOXM5Sk9ZYzZ5MVFjaUtfRkpSZF9NLU9KcmFZMzVnM2FYajVwd2ZuSnVVNy1heWhxWUZkbHNJQ0t0WTE5Y2tkdHQxMng0SEtMTWdiX0t3WFBBdzV4THlMb3Vxd19ONDAxTE5QVkVXU0ZzUkhqTUExRV82VUJPX1ZKZE4xNXgwMnZ0cTFkODVzLVJ1cFdDeWJubzZKbFBOM0x4dFdsZ2NPUFV5aG8?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -683,7 +701,7 @@
         },
         {
           "title": "Innovation and Resilience in a Changing World - Safeguards as a Shared Responsibility - Social Media Toolkit | IAEA",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE51TFhDZ3RzZUpZMG00YzdrSHB5cmNhMW5ZNkJMb19KRHNBSFc2M1JGVlM4WDlDNXFXeDYyQkNVazB3a3JnOUVvVFE1anBwVEdsT0xaX2RWUUFFaTRJcmYzZ1NVMElCQjg?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9Ta3FlWTRKdEIxS2FsTjhxcDlxV1VUSHQtdlVmaG9KT2ZEZDJxYzNmMEhpSzlVQl9ibmMxdlEzZEFJeEtzeVF5Y3h2aURRaHVmSThzaFlQbGxCRWhsNDAwYm1KQUs2Zw?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
@@ -1507,15 +1525,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20260525T183001Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "IAEA Nuclear Information Repository Experiences Record Growth",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQZjg1aDRwLVJhUm5SVEViQkh0aHB1T213WTIycXBJZ0gtRWwwcEpNMHdsVVdydVhrd2ZjUTliQXlmenpPOTNmZENCMVFKQUNaVXVCay1fTzQ1bGtLd2xNd29hOTExUkN1ZjQxcWw2Qm5ER2RhV1F6dTVIYl80aWdjRGNpb3BNeHFxMjJOdXhIeDJJc1VmUUZybU1XU0NZQ1dh?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260512T070000Z",
           "source": "GoogleNews"
         }
       ],
@@ -37937,70 +37946,6 @@
           "source": "USGS"
         },
         {
-          "id": "nc75234147",
-          "site": "Nevada National Security Site",
-          "site_lat": 37.12,
-          "site_lon": -116.05,
-          "time": 1757202534410,
-          "magnitude": 2.15,
-          "magnitude_type": "md",
-          "event_type": "earthquake",
-          "place": "9 km SE of Deep Springs, CA",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75234147",
-          "lon": -117.922833333333,
-          "lat": 37.3116666666667,
-          "depth_km": 5.97,
-          "source": "USGS"
-        },
-        {
-          "id": "nn00903906",
-          "site": "Nevada National Security Site",
-          "site_lat": 37.12,
-          "site_lon": -116.05,
-          "time": 1757155534583,
-          "magnitude": 1.9,
-          "magnitude_type": "ml",
-          "event_type": "earthquake",
-          "place": "19 km WSW of Alamo, Nevada",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00903906",
-          "lon": -115.3638,
-          "lat": 37.2922,
-          "depth_km": 11.1,
-          "source": "USGS"
-        },
-        {
-          "id": "ci41284624",
-          "site": "Nevada National Security Site",
-          "site_lat": 37.12,
-          "site_lon": -116.05,
-          "time": 1757155336710,
-          "magnitude": 1.82,
-          "magnitude_type": "ml",
-          "event_type": "earthquake",
-          "place": "28 km N of Kernville, CA",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41284624",
-          "lon": -118.3665,
-          "lat": 36.006,
-          "depth_km": 2.63,
-          "source": "USGS"
-        },
-        {
-          "id": "uu80116756",
-          "site": "Nevada National Security Site",
-          "site_lat": 37.12,
-          "site_lon": -116.05,
-          "time": 1757135102900,
-          "magnitude": 1.51,
-          "magnitude_type": "ml",
-          "event_type": "earthquake",
-          "place": "11 km NNW of Beryl Junction, Utah",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uu80116756",
-          "lon": -113.722333333333,
-          "lat": 37.7965,
-          "depth_km": -0.28,
-          "source": "USGS"
-        },
-        {
           "id": "us6000tkwa",
           "site": "Chagai",
           "site_lat": 28.9,
@@ -38187,7 +38132,7 @@
           "lon": 0.17
         }
       ],
-      "cached": true
+      "cached": false
     }
   },
   "events": [
