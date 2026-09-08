@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "nuclear-proliferation-watch",
-    "generated": "2026-09-08T11:45:12.164446+00:00",
+    "generated": "2026-09-08T16:51:14.102303+00:00",
     "mode": "live",
     "sources": [
       "IAEA official pages",
@@ -14,10 +14,10 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-09-08T11:45:12.156442+00:00",
+    "issued_at": "2026-09-08T16:51:14.094702+00:00",
     "horizon": "0-30 days",
     "classification": "nuclear-escalation-pressure-not-test-or-weapon-probability",
-    "score": 9.8,
+    "score": 9.1,
     "level": "BASELINE",
     "confidence": "HIGH",
     "confidence_score": 100.0,
@@ -26,12 +26,12 @@
         "id": "iaea_safeguards_strain",
         "label": "IAEA safeguards and access strain",
         "available": true,
-        "score": 20.8,
-        "current_14d_weight": 2.6,
+        "score": 18.7,
+        "current_14d_weight": 1.8,
         "current_14d_titles": 26,
         "baseline_periods": 8,
         "baseline_median": 0.4,
-        "anomaly_z": 3.71,
+        "anomaly_z": 2.36,
         "evidence": [
           {
             "title": "Innovation and Resilience in a Changing World - Safeguards as a Shared Responsibility - Social Media Toolkit | IAEA",
@@ -41,12 +41,6 @@
           },
           {
             "title": "Webinar on Practical Approaches to Regulatory Cooperation: Leveraging of Reviews and the Regulatory Cooperation Toolkit | IAEA",
-            "url": null,
-            "date": "2026-09-02",
-            "weight": 0.8
-          },
-          {
-            "title": "Technical Cooperation Side Events at the 70th IAEA General Conference",
             "url": null,
             "date": "2026-09-02",
             "weight": 0.8
@@ -65,8 +59,8 @@
         "removed_count": 0,
         "added": [],
         "removed": [],
-        "publish_date": "2026-09-03",
-        "sha256": "0ffb4504696e2f5adecbd23a3f27c27e8264447a8021752f1043c74422650f5f",
+        "publish_date": "2026-09-04",
+        "sha256": "1c878982988268de843cd09f5fbc511bd0f0591928db5af5e8e0a5807064c520",
         "retained": false
       },
       {
@@ -600,6 +594,17 @@
           "facility_security_incidents": 12.6,
           "test_site_seismicity": 0.0
         }
+      },
+      {
+        "timestamp": "2026-09-08T16:51:14.094702+00:00",
+        "score": 9.1,
+        "level": "BASELINE",
+        "components": {
+          "iaea_safeguards_strain": 18.7,
+          "npwmd_designation_delta": 0.0,
+          "facility_security_incidents": 12.6,
+          "test_site_seismicity": 0.0
+        }
       }
     ],
     "data_health": {
@@ -647,7 +652,7 @@
   "stats": [
     {
       "label": "Escalation Pressure",
-      "value": "9.8/100",
+      "value": "9.1/100",
       "delta": "BASELINE"
     },
     {
@@ -706,15 +711,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "Nuclear Techniques Improve Rice Varieties, Boost Yields in Lao PDR",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQbWpjTF9xSE1DMEM1eWRRNHRQVElRVENNZGNzRmV5RkZJZGFydndObk4zQ25aUW4yUVpLNVd6RGFnNmQwWUxwVHBkdFdYS1ZYYWtLU0hjR0JodkVpaHVsUl82aGhaaXlxeFc2amFmSjRSY0RkUXJtdDJ6dl9BaVB3UmxjNHM3dXV1R1c0TjI2OE1Hem0zekprOVc4YkY1dHFmcmlN?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260831T123002Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "Update 364 – IAEA Director General Statement on Situation in Ukraine",
           "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOZ0N4bkFMNmhoRW1sM0hBVE9rSEtoUHF2RzZYSHF6blhtaS1iOG5acXVxcFl1c0ZnV3VYWWJIQkdBNmVXTHcyQXZxcTJXTTV3OWVoaTMwcElHSllYSnQxbHBXeTdnaG9FdGFoUmVjb0hmRm1QeFhCVVJsOHRCTThlY3R4eUJTclBqaDFIZFRMdVh5TmZxM2NObkY3NHFoZjdBWnE2WUMyLXlKNWFNUTlIZw?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -733,6 +729,15 @@
           "source": "GoogleNews"
         },
         {
+          "title": "Nuclear Techniques Improve Rice Varieties, Boost Yields in Lao PDR",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQbWpjTF9xSE1DMEM1eWRRNHRQVElRVENNZGNzRmV5RkZJZGFydndObk4zQ25aUW4yUVpLNVd6RGFnNmQwWUxwVHBkdFdYS1ZYYWtLU0hjR0JodkVpaHVsUl82aGhaaXlxeFc2amFmSjRSY0RkUXJtdDJ6dl9BaVB3UmxjNHM3dXV1R1c0TjI2OE1Hem0zekprOVc4YkY1dHFmcmlN?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260831T123002Z",
+          "source": "GoogleNews"
+        },
+        {
           "title": "Innovation and Resilience in a Changing World - Safeguards as a Shared Responsibility - Social Media Toolkit | IAEA",
           "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9Ta3FlWTRKdEIxS2FsTjhxcDlxV1VUSHQtdlVmaG9KT2ZEZDJxYzNmMEhpSzlVQl9ibmMxdlEzZEFJeEtzeVF5Y3h2aURRaHVmSThzaFlQbGxCRWhsNDAwYm1KQUs2Zw?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -748,6 +753,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20260820T083335Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Reaching the future Safeguards workforce: Early Career Avenues in the Department of Safeguards",
+          "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5RbTJNRTkxZGxBNEUzanctVE5NSkZMZUlJWGtqMTlWX2c4b2FrNGpzTVFKR3pDSTEwc0IxSTcxdFVkT3JWOW1kajZ0dw?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260820T155732Z",
           "source": "GoogleNews"
         },
         {
@@ -949,6 +963,15 @@
           "source": "GoogleNews"
         },
         {
+          "title": "Publications advanced search",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9ndkwxZlljdVRpVlUzZHJ0aS1oYzFxMm5BeXhQMkphMTlvMXM3M3F4cUdtSnVXSHRmakJvcDFESnZBSTB3OUN5YlFuM090TENBVjhYM3Fkd2kxWi1YbFFyak9fMmJsMm5WVExFWUNB?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260908T054952Z",
+          "source": "GoogleNews"
+        },
+        {
           "title": "IAEA Concludes International Physical Protection Advisory Follow-Up Mission in China",
           "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQeGN1aGpSZVE2b1lpZ01sczhLdzFiTGJ1d3ZGU1JTUkV4VkJ6dDhPX2tHaHVIajR6aUFERG5WY2tBdnZqZ0tNd0JVbFFReE5QTzZSS1VJWUR3TEZuMHVHeU91b3hsVnBWUFlfWG5vQzM0ZXU4XzlKOTJjWkMxTE1JVTFvM1p1bW1nNS1zUWFQcG10bjhnR0M4MFpwV2cwVklPUUo0VFBxQUt4emFCSHVmdWFKajcwbDNWU3VLZzllVGhLdk9MY1RBZw?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -964,15 +987,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20260626T070000Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "What is the nuclear fuel cycle? | IAEA",
-          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9jZmxCemZWMlpIRzNTRG83Z19VaXEwSm9EV2YtNFBUaHc3YnBnTVJyTjZiNUFZbWZqRW0zM2hIdW84RmM3d3ZoaGZHbEdxUW5CMUhTeDhpMkdtQUlXUlE1M0dHNk9kd3RJSW5r?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260523T015333Z",
           "source": "GoogleNews"
         },
         {
@@ -1012,12 +1026,12 @@
           "source": "GoogleNews"
         },
         {
-          "title": "Publications advanced search",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5sUGxYVFdudzg2QWQ4TmstMndFNElaQk1kWnR2RzV5aDZqUmpiOVd6YXR2YjNTMnJLZFZWUUJOQ2JlZDdiV2dGWldSMGRZNTA1OGNTRnNfSTRibkE2cWxBWWdkYzROd2Q2dlBaX3p3?oc=5",
+          "title": "What is the nuclear fuel cycle? | IAEA",
+          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9jZmxCemZWMlpIRzNTRG83Z19VaXEwSm9EV2YtNFBUaHc3YnBnTVJyTjZiNUFZbWZqRW0zM2hIdW84RmM3d3ZoaGZHbEdxUW5CMUhTeDhpMkdtQUlXUlE1M0dHNk9kd3RJSW5r?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
-          "seendate": "20260905T194458Z",
+          "seendate": "20260523T015333Z",
           "source": "GoogleNews"
         },
         {
@@ -1027,6 +1041,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20260215T101500Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Monographs",
+          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1ic2FmY3dWSEZ3NEQ2aGp3UVA3eDFtRGFQa2poUG82aU8xWnRUbFRyaTZ5N3h2Ty1QWmJDYjVZM1FldkhqTk5nd1JtNDNqdWlEQXhBa01MV1VndFRTb08zV2pZZXBQUmhZRmJB?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260907T164102Z",
           "source": "GoogleNews"
         },
         {
@@ -1126,15 +1149,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20260729T070000Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "IAEA Launches ATLAS as Countries Explore Nuclear Power for Shipping and Offshore Energy",
-          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOMkFxQ0tKejgtSkszMlpJSjQwRnFHUGpUUUk5d1YtQnpjMWFHOTk0eHQ1dWJ1LW1LcG4yb0wwYUtVM3VjTWdfQVFUcXpkUXRubUJOUGtjU05haW4wcnhBSXJKc1dqb2FVWkJJdmpfZTdsaDF1TjhKaEd3ZmU2dl9iVUpseFFlemtWRG85cm1DQzFjRnU2R05wSV8yY1RmNmRLa053RkdpUWRRdDJudDdLdjVwSnBaOWItX0lqWExzOHFzbTVuN1NyRG5ZVGE?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260826T070000Z",
           "source": "GoogleNews"
         },
         {
@@ -1327,15 +1341,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "Webinar on Practical Approaches to Regulatory Cooperation: Leveraging of Reviews and the Regulatory Cooperation Toolkit | IAEA",
-          "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNdkN2RE5HRmozZFVzb1pSTl9lV3dBTDRpVGRjQlBsV1lQSG5FdjJlRC1uN0tHYkpLZ3NVczJHSUNQdXYxLWlxSlhGVVo1QV9qYVo5SS1YUkR2Q1N5QXQyOUpDUURQNW9JZzZfTXdtSXh3dG05S3Y5OVZMVHdFTGN5OWoza1htY3pUWnBidHpaRHBtTkYtRl9xeGNDUk1Dek9oYWtlek5kcHFDNTg1OHZWNEEtRVpOVUFweHpYYm5KTmZNc2h6Zm9WUnpXSFNGWE9yNHo1dV94Z1VlNDZpOS1BMy14TGVSZGU2X1lrSg?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260902T154149Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "Advisory Service to Support In-Service Inspections of Research Reactors (ISIRR)",
           "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNLUh5eU16UWRiVTI0bTdBN0JlN21WQ3VxTVRuNUNGLVVoSDNkM3NHeVYwb3FuSTFVZzZ1S0RXazdBV2Qtc2c4d0RFN2VCamttbHpKTEpIa2dzQkk5VGJ4T0tjRlpHWl9IWk9IMGVhejJGX1pXZ1MyZTFNYUZyMUpaamdqYzg4VW9KM3hEUjlRLWEtMVhqMFg0RXN6N3NqZUVIbUNEb0s4YTY2YkZzcTllMVp1WDR4R1YzNXRoZDNRbw?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -1363,21 +1368,21 @@
           "source": "GoogleNews"
         },
         {
+          "title": "Webinar on Practical Approaches to Regulatory Cooperation: Leveraging of Reviews and the Regulatory Cooperation Toolkit | IAEA",
+          "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNdkN2RE5HRmozZFVzb1pSTl9lV3dBTDRpVGRjQlBsV1lQSG5FdjJlRC1uN0tHYkpLZ3NVczJHSUNQdXYxLWlxSlhGVVo1QV9qYVo5SS1YUkR2Q1N5QXQyOUpDUURQNW9JZzZfTXdtSXh3dG05S3Y5OVZMVHdFTGN5OWoza1htY3pUWnBidHpaRHBtTkYtRl9xeGNDUk1Dek9oYWtlek5kcHFDNTg1OHZWNEEtRVpOVUFweHpYYm5KTmZNc2h6Zm9WUnpXSFNGWE9yNHo1dV94Z1VlNDZpOS1BMy14TGVSZGU2X1lrSg?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260902T154149Z",
+          "source": "GoogleNews"
+        },
+        {
           "title": "TECDOC Series",
           "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9MZjQtWDdlM3ViTERRSmZZeTJRU0dpM2hRcUVUT2p2RWQ3cnlmVXluZU1OcHV0aHNqSld3TzFfUndVc2lmYmJhUVc5SU9UcFZXcG5sT3dxcW5vMWVhSE1RVDF6SkpibHlvLUYtYU13?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
           "seendate": "20260907T122212Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "Technical Cooperation Side Events at the 70th IAEA General Conference",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQVW1fYnRUdFh4blZOSXdKaFdCdUp4OEU3bFJrYWdQbmFudVgzbUFvYVdCS0Q2NGV2dU9SV2JpOEw1djExZWt4bmZFSFNnVGxBMEYwd1JXLWNMcVJyLWpSMGZVcWIwQTA3WHd3M21xSWNjRDRpLXR3dHdXN0FDcDJXSXVaR3J4TXFiVHU3cVV4TEt6TmlGMl9GQWdUQk1sNFJyN3J4d0N2SWY?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260902T063243Z",
           "source": "GoogleNews"
         },
         {
@@ -1498,6 +1503,15 @@
           "source": "GoogleNews"
         },
         {
+          "title": "IAEA Hosts Workshop for International Financial Institutions on Nuclear Financing",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPb0llQ09ZU1ZnMHZ2Njl4MHpLX3dieEFxeE5jQzNpU18zRFRHR0pwQ2NFTGRjZmw0U29BTmNoaF94VlhfUXU4WElSVVlhVy1LR1R3RkFsWjA3YU1ham1EemVzV1RodVE3UE1hV0JUckNMWjJKNExJX3ZqOG9ZbG1KRnZvSjdlYTI5elVOcjRHQlZOdWxLT0hvMWRmYjVMVjhVLWpBZEtiWWxfZU9PUmp1Mm9xRTR6VlBR?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260908T110229Z",
+          "source": "GoogleNews"
+        },
+        {
           "title": "National Industrial Involvement to Support a Nuclear Power Programme",
           "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPOWgzd19XSFNEWmhHbkZkT1pNWEh5RzI4azFRV1VCQ254d3Z3SlprTEYzOW9ocTlIdFJ3cDJOalpjS3JPajRtdlBId3hWVC1BOE9zZUcwMUVLZVlzMWZBY1d0Vm9td2tZQmlha0pIbXNJdGVPRzFjZVJ1Mk1tSjNmS3lldUVyVlFfaWppQ0FRRUxIN3UwZngwSGl6RUtLMG9uNUxMMEVMUFZQek0?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -1549,15 +1563,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20260611T210642Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "Outlooks",
-          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1tYXFackQ0MHZpLW9QUDFZcThpYVN3Yjlkdy1Jb2M0ZVM5UTBxdU4zbjlFOTBDYUpwdkVDVk1UWHJRcm1PZlk5cVZyUjRwelR0VzZSSXhYT21DVzk3?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260806T104112Z",
           "source": "GoogleNews"
         }
       ],
@@ -8996,8 +9001,8 @@
         }
       ],
       "count": 1195,
-      "publish_date": "2026-09-03",
-      "sha256": "0ffb4504696e2f5adecbd23a3f27c27e8264447a8021752f1043c74422650f5f",
+      "publish_date": "2026-09-04",
+      "sha256": "1c878982988268de843cd09f5fbc511bd0f0591928db5af5e8e0a5807064c520",
       "cached": false
     },
     "test_site_seismicity": {
@@ -38177,12 +38182,6 @@
     },
     {
       "title": "Webinar on Practical Approaches to Regulatory Cooperation: Leveraging of Reviews and the Regulatory Cooperation Toolkit | IAEA",
-      "url": null,
-      "date": "2026-09-02",
-      "weight": 0.8
-    },
-    {
-      "title": "Technical Cooperation Side Events at the 70th IAEA General Conference",
       "url": null,
       "date": "2026-09-02",
       "weight": 0.8
