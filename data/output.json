@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "nuclear-proliferation-watch",
-    "generated": "2026-09-08T05:17:48.003811+00:00",
+    "generated": "2026-09-08T11:45:12.164446+00:00",
     "mode": "live",
     "sources": [
       "IAEA official pages",
@@ -14,7 +14,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-09-08T05:17:47.997209+00:00",
+    "issued_at": "2026-09-08T11:45:12.156442+00:00",
     "horizon": "0-30 days",
     "classification": "nuclear-escalation-pressure-not-test-or-weapon-probability",
     "score": 9.8,
@@ -28,7 +28,7 @@
         "available": true,
         "score": 20.8,
         "current_14d_weight": 2.6,
-        "current_14d_titles": 27,
+        "current_14d_titles": 26,
         "baseline_periods": 8,
         "baseline_median": 0.4,
         "anomaly_z": 3.71,
@@ -589,12 +589,23 @@
           "facility_security_incidents": 12.6,
           "test_site_seismicity": 0.0
         }
+      },
+      {
+        "timestamp": "2026-09-08T11:45:12.156442+00:00",
+        "score": 9.8,
+        "level": "BASELINE",
+        "components": {
+          "iaea_safeguards_strain": 20.8,
+          "npwmd_designation_delta": 0.0,
+          "facility_security_incidents": 12.6,
+          "test_site_seismicity": 0.0
+        }
       }
     ],
     "data_health": {
       "available_components": 4,
       "retained_components": [],
-      "iaea_titles": 98,
+      "iaea_titles": 99,
       "npwmd_entries": 1195,
       "iaea_events": 23,
       "test_sites": 8
@@ -641,7 +652,7 @@
     },
     {
       "label": "IAEA Signals",
-      "value": "98",
+      "value": "99",
       "delta": "official indexed pages"
     },
     {
@@ -695,6 +706,15 @@
           "source": "GoogleNews"
         },
         {
+          "title": "Nuclear Techniques Improve Rice Varieties, Boost Yields in Lao PDR",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQbWpjTF9xSE1DMEM1eWRRNHRQVElRVENNZGNzRmV5RkZJZGFydndObk4zQ25aUW4yUVpLNVd6RGFnNmQwWUxwVHBkdFdYS1ZYYWtLU0hjR0JodkVpaHVsUl82aGhaaXlxeFc2amFmSjRSY0RkUXJtdDJ6dl9BaVB3UmxjNHM3dXV1R1c0TjI2OE1Hem0zekprOVc4YkY1dHFmcmlN?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260831T123002Z",
+          "source": "GoogleNews"
+        },
+        {
           "title": "Update 364 – IAEA Director General Statement on Situation in Ukraine",
           "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOZ0N4bkFMNmhoRW1sM0hBVE9rSEtoUHF2RzZYSHF6blhtaS1iOG5acXVxcFl1c0ZnV3VYWWJIQkdBNmVXTHcyQXZxcTJXTTV3OWVoaTMwcElHSllYSnQxbHBXeTdnaG9FdGFoUmVjb0hmRm1QeFhCVVJsOHRCTThlY3R4eUJTclBqaDFIZFRMdVh5TmZxM2NObkY3NHFoZjdBWnE2WUMyLXlKNWFNUTlIZw?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -713,15 +733,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "Nuclear Techniques Improve Rice Varieties, Boost Yields in Lao PDR",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQbWpjTF9xSE1DMEM1eWRRNHRQVElRVENNZGNzRmV5RkZJZGFydndObk4zQ25aUW4yUVpLNVd6RGFnNmQwWUxwVHBkdFdYS1ZYYWtLU0hjR0JodkVpaHVsUl82aGhaaXlxeFc2amFmSjRSY0RkUXJtdDJ6dl9BaVB3UmxjNHM3dXV1R1c0TjI2OE1Hem0zekprOVc4YkY1dHFmcmlN?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260831T123002Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "Innovation and Resilience in a Changing World - Safeguards as a Shared Responsibility - Social Media Toolkit | IAEA",
           "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9Ta3FlWTRKdEIxS2FsTjhxcDlxV1VUSHQtdlVmaG9KT2ZEZDJxYzNmMEhpSzlVQl9ibmMxdlEzZEFJeEtzeVF5Y3h2aURRaHVmSThzaFlQbGxCRWhsNDAwYm1KQUs2Zw?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -737,15 +748,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20260820T083335Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "Reaching the future Safeguards workforce: Early Career Avenues in the Department of Safeguards",
-          "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5RbTJNRTkxZGxBNEUzanctVE5NSkZMZUlJWGtqMTlWX2c4b2FrNGpzTVFKR3pDSTEwc0IxSTcxdFVkT3JWOW1kajZ0dw?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260820T155732Z",
           "source": "GoogleNews"
         },
         {
@@ -782,15 +784,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20260820T150731Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "Rafael Mariano Grossi | IAEA",
-          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE55OXJZWUVIRFBqSFJtNXRubUVQWEg0TXNZdG9CdzZWUTBFcUx1MkVOMUEyeXlCMXRDS0dFSXFfMjRrdGZoSEpDaDdhc18yOWpOTzhCY2UyMmQ3T0U?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260313T194636Z",
           "source": "GoogleNews"
         },
         {
@@ -866,6 +859,15 @@
           "source": "GoogleNews"
         },
         {
+          "title": "Board of Governors Implementation of the NPT Safeguards Agreement and relevant provisions of the United Nations Security Council",
+          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5QanBxYkZZRzdTVVdyeGlYT2RTcTBQNHJWYzFmRmpuSE5kTUxqbzhJVXNiQkdCUEl6dDlPUEtyOE4ydElUdVFOLWFXdkZBWVpPNjJWVFVpTTQ2eU9XMjJ5TldkRjdMQQ?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260604T070000Z",
+          "source": "GoogleNews"
+        },
+        {
           "title": "What is Cherenkov Radiation? | IAEA",
           "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE50M1dSSEwxTTF1WEFhc0g2WHJhV0Y5amo4dmJRYkdjeXo3aEp4X1BoWk9jOEp2bVh6MXV1YlMxWmZacXRMZkFQOEUzSjRINEhYMzZyekZ3N3cyTlh1QXAzSE95M3IxNmduZUV4dVBkWlc?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -881,6 +883,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20260601T164650Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Rafael Mariano Grossi | IAEA",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE55OXJZWUVIRFBqSFJtNXRubUVQWEg0TXNZdG9CdzZWUTBFcUx1MkVOMUEyeXlCMXRDS0dFSXFfMjRrdGZoSEpDaDdhc18yOWpOTzhCY2UyMmQ3T0U?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260313T194636Z",
           "source": "GoogleNews"
         },
         {
@@ -1028,6 +1039,15 @@
           "source": "GoogleNews"
         },
         {
+          "title": "NEWS",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNNXBLOHZ3MTdITmV3eWZhODJ6TXZPMXZ1Sk1TdFdQd2hMX3dYdC1Rd0xRMjUydXl4d1d3WGFONTgzMFVMZDg4aUsxM3JPN2VQdm8zUUZxdnk5UTJqQjJ1cWFzQUd3Z2FZWnZxZF9NYnNTX2JyQ0tRQl9sMzZPSXYxNlVLc2xUQQ?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260605T070000Z",
+          "source": "GoogleNews"
+        },
+        {
           "title": "IAEA Mission Says Egypt is Committed to Strengthening its National Regulatory Framework for Safety",
           "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOUjh5bDhtMzQtQk02cVFwV2lfbWZsQW5UV3RFdS1ENndLN0xNSFlka3ZDYmtmSFZoUkFvN1pNcHd2V29KaGhscTkzVnRhZmRPNzZYSF9oSDZSeVhTdzgzd2o5YWpiVXdZZ0hLeW94NkFWU095aHp5alBvM2VvYndXclJENllnNG90MzluWVhkeWFpdXdlanZfQU9yLW51dE0wUVNvVG9TcDRCa2Nqajl6bGNNREJVLU1KU25YeG1kd1IyY2g5NlMzU3J5S2REelBBX0tjdVJ4Q1NFRDA?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -1043,6 +1063,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20260520T070000Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Board of Governors | IAEA",
+          "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9Zd0V1MXBqbGV3VmFRQ2xnbkV3eF9YVjJoSUpXekdPRTd3OExGZ0gxTm0yMEs3aVNoYnJvQk1kRDIwZmptV1lQU0NCZXFfUQ?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20251014T203744Z",
           "source": "GoogleNews"
         },
         {
@@ -1253,15 +1282,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "Home: International Conference on Topical Issues in Nuclear Installation Safety | IAEA",
-          "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1hM0NUREFfazQtbUZubHNNNHJmMW5JUkhIelhxb19SZjk3ZFlvNmZ5RUc2Uk9CbE1yUzczZ3JsVG40LW5iUFpCM2RB?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20250531T042112Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "Update 350 – IAEA Director General Statement on Situation in Ukraine",
           "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPVEw2bXd1U2NaUUJWUHpLd3hUVndkVWIwMG41dmJwSHMzUjRtbnFhTmR5Q3UwOEZLOEdSeVVmYUZCU3BkYmFkYjRiY293b3RsQVozSWZWaFFGS0JNN0g4S3JTRC1VUXdUcXZrak93TlNZNHo0X1pzZXQ3Q3dRQW1IM1lCeldTM093dUp6a3BHZlY0ckZMRV93TDNsVTZlenZac0FFNXlpWV9UbUVDcHJEVA?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -1334,6 +1354,15 @@
           "source": "GoogleNews"
         },
         {
+          "title": "Home: International Conference on Topical Issues in Nuclear Installation Safety | IAEA",
+          "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1hM0NUREFfazQtbUZubHNNNHJmMW5JUkhIelhxb19SZjk3ZFlvNmZ5RUc2Uk9CbE1yUzczZ3JsVG40LW5iUFpCM2RB?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20250531T042112Z",
+          "source": "GoogleNews"
+        },
+        {
           "title": "TECDOC Series",
           "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9MZjQtWDdlM3ViTERRSmZZeTJRU0dpM2hRcUVUT2p2RWQ3cnlmVXluZU1OcHV0aHNqSld3TzFfUndVc2lmYmJhUVc5SU9UcFZXcG5sT3dxcW5vMWVhSE1RVDF6SkpibHlvLUYtYU13?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -1358,6 +1387,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20260809T204030Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Atlas of Isotope Hydrology and Water Quality — Central African Republic",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPMzVxcFlWbTFUY0R0ZllyMklDdkNITWM5WVdiTU1JYnFkNVAzTWt5dkI3UU85bVFaUDU4ZHlqTWphZmxRQmpfdy1mT0JrZ2FqMi1pWnpSbmx3WGNHaGozblBFZFZOd21ZNHdodjV1OGJqZDVpQmU1UkFzVmFQMVBGbWZfXzJSU0FZSEhVVGdBRUV1bTlSMnVMNWZlVkxrZkFPbXB4MGptX29RMzBUaGc?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260908T105958Z",
           "source": "GoogleNews"
         },
         {
@@ -1487,6 +1525,15 @@
           "source": "GoogleNews"
         },
         {
+          "title": "Proceedings Series",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1YT01TM1phTkctbWpjbGRGS3E1RWtUTC01UHlWTk5BX09TbmhEb2RMWHJUVl8xMGlnNnFCUHhjcHU4RmZLTWF5cDVMcmdHcVNfRzZ2QjEydlRvRm9PQy00SjZILVlOclkzUDlTNFF2c3Vsa0poZUE?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260801T065924Z",
+          "source": "GoogleNews"
+        },
+        {
           "title": "IAEA Director General Marks Milestone in Uzbekistan’s Nuclear Power Programme",
           "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPbUNySHRIQ1JjemV3cHJHTnRGdm5KUFVhR0I2WUhRTGduUE9rSnhITERNZkE4SXB5dTNaaUpWTzZsYWRDV0tsd2tRWVZ3SjlPY0tVdVNjanlIT25paDdVZlktXzN1RVNPWmRIWGZ1TllCMks2cG9scXJhUDRJcDQtejFBUzVad0thUHgtcm8wQzQ0c3NicVptelBsS21rbUxqdl85Vzdza2lMZWVYR0V0UDBB?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -1505,39 +1552,12 @@
           "source": "GoogleNews"
         },
         {
-          "title": "Strategic Roadmap for Decommissioning of Graphite Reactors",
-          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNRDdWVU9MTGx1dWRhaWV6b1Y2ZWNBbFJ4NGVRc2l1T1hVY2NVVU9nVkhQN0RmanlFbk5qVkpJM2Z1bFBvcUdLMU1JTzFhWFkxM044N2ZockxBeGdtWkNObU03eVdMS0FDVjF2M2tPeDBKOVFYemY3MENpSXdGZE83emlmZl9zWWN2UUg4ZGZjYnlQRk91UEZ5cDdUWVprQQ?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260901T151342Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "Outlooks",
           "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1tYXFackQ0MHZpLW9QUDFZcThpYVN3Yjlkdy1Jb2M0ZVM5UTBxdU4zbjlFOTBDYUpwdkVDVk1UWHJRcm1PZlk5cVZyUjRwelR0VzZSSXhYT21DVzk3?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
           "seendate": "20260806T104112Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "Radioisotopes and Radiopharmaceuticals Series",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPMGE3NTk3cmtob3NFRmg2ZDltZ1hCRUN0YTkyT09wYjh1N1lMdnJ2NHllVWRuQzg5SFkwaDl0bTc4RXdsLTJMSmVRRXU0YVk3RUtlTVd4cHJCNnN5VXRRTl9yU1VaSXFfRVlqdzBiTzNYeTNpVEUyVWJIYlFGV1J3ZVViZ3dMMXB2XzNya3JB?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260801T230537Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "Update 358 – IAEA Director General Statement on Situation in Ukraine",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNTXNfZFhnYWJ4WXlyN2F2QXp4MkhWVGJudmY1dGkyVW1mbV9tWnFHTWJuRnJ4TW1TNjlDOUhfTVJ1YjNEOTJBNk5uVktJenlnandNUFpGMWpCOXNDbXA5WnhiUkxQZzFwTkVNS2czTDRGNHF5NlVaOEhBVV9UN0tQdWpOeFFDYkdPM2g4V0ptWVBvdnZfaG9hbElvVzY2MHVXcGE0dGRLbTdBX21QQ3FnNA?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260715T070000Z",
           "source": "GoogleNews"
         }
       ],
