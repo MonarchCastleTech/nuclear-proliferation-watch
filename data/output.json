@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "nuclear-proliferation-watch",
-    "generated": "2026-09-09T16:53:56.466192+00:00",
+    "generated": "2026-09-09T21:13:25.230535+00:00",
     "mode": "live",
     "sources": [
       "IAEA official pages",
@@ -14,7 +14,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-09-09T16:53:56.457515+00:00",
+    "issued_at": "2026-09-09T21:13:25.224540+00:00",
     "horizon": "0-30 days",
     "classification": "nuclear-escalation-pressure-not-test-or-weapon-probability",
     "score": 11.4,
@@ -28,7 +28,7 @@
         "available": true,
         "score": 25.4,
         "current_14d_weight": 4.4,
-        "current_14d_titles": 27,
+        "current_14d_titles": 26,
         "baseline_periods": 8,
         "baseline_median": 0.8,
         "anomaly_z": 4.86,
@@ -661,6 +661,17 @@
           "facility_security_incidents": 12.6,
           "test_site_seismicity": 0.0
         }
+      },
+      {
+        "timestamp": "2026-09-09T21:13:25.224540+00:00",
+        "score": 11.4,
+        "level": "BASELINE",
+        "components": {
+          "iaea_safeguards_strain": 25.4,
+          "npwmd_designation_delta": 0.0,
+          "facility_security_incidents": 12.6,
+          "test_site_seismicity": 0.0
+        }
       }
     ],
     "data_health": {
@@ -965,15 +976,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "Nuclear Techniques Improve Rice Varieties, Boost Yields in Lao PDR",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQbWpjTF9xSE1DMEM1eWRRNHRQVElRVENNZGNzRmV5RkZJZGFydndObk4zQ25aUW4yUVpLNVd6RGFnNmQwWUxwVHBkdFdYS1ZYYWtLU0hjR0JodkVpaHVsUl82aGhaaXlxeFc2amFmSjRSY0RkUXJtdDJ6dl9BaVB3UmxjNHM3dXV1R1c0TjI2OE1Hem0zekprOVc4YkY1dHFmcmlN?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260831T070000Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "IAEA to Launch ATLAS: Pioneering Nuclear Solutions for Shipping and Offshore Energy, Washington, August 26-27, 2026",
           "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNRDVTbGRZSGxDb0YtYU55cUtCQWdnM0NkTWZoS2FaSlpXbk91WVE4MEFDS0FiWFdMLWl1ZTlXbktnOHZ3SHdzUVdkQk0xWEpka3FBVWdDYVBDeTl6VXNlRk1UZDZHbzRPWk95Mk5Xci1lNm0xeWc5dVhfa3UwcXQyejAxcDdoU2lRTjJDaWVrc1JVRHZVeDhzaFFUbUhwb0I5NTQtbDBlZmJrMzFWMm9wZC1fTFBPR09sSjRpY0tSZ1l3NVFiR2RHV0pucTJMdGp5dmQyd1FtN0tYcjVxNm05N0t5T3JCU0NYQXlkTQ?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -1109,6 +1111,15 @@
           "source": "GoogleNews"
         },
         {
+          "title": "Nuclear Techniques Improve Rice Varieties, Boost Yields in Lao PDR",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQbWpjTF9xSE1DMEM1eWRRNHRQVElRVENNZGNzRmV5RkZJZGFydndObk4zQ25aUW4yUVpLNVd6RGFnNmQwWUxwVHBkdFdYS1ZYYWtLU0hjR0JodkVpaHVsUl82aGhaaXlxeFc2amFmSjRSY0RkUXJtdDJ6dl9BaVB3UmxjNHM3dXV1R1c0TjI2OE1Hem0zekprOVc4YkY1dHFmcmlN?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260831T070000Z",
+          "source": "GoogleNews"
+        },
+        {
           "title": "International Training Course on Safety and Security in the Management of Disused Sealed Radioactive Sources",
           "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE84MzNIRWxMMFczaS1TVHpHT05xdm9HRHpqb0xKYjVaZHRnYnI0V05PaU1xeE1wVkp2aTBtZnZ1aFJJQ1hDdVlsaEZpc3duUQ?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -1151,6 +1162,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20260624T070000Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "70th IAEA General Conference",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFB0c1JMazJsR3VPQkE4ZkJyZzl6NGQzNmtwT2FUcUxqU1lBbXU2eEZYRW5OMkxiZ2NVVXNLYl8yNmlmNHQ1XzNmWjQxckhtbmZtdmJxazJIV2s0SHhPeUxNTmdwbE1XZEQ0ZGNUWW5CV2JqX1RFYzlibjFR?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260726T121502Z",
           "source": "GoogleNews"
         },
         {
@@ -1429,7 +1449,7 @@
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
-          "seendate": "20260909T142841Z",
+          "seendate": "20260909T084810Z",
           "source": "GoogleNews"
         },
         {
@@ -1541,6 +1561,15 @@
           "source": "GoogleNews"
         },
         {
+          "title": "Improving the Understanding of Irradiation Creep Behaviour in Nuclear Graphite Models and Mechanisms",
+          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPN1lzQm0tOVJIc0pON2xCaEQ2MXlJZXBnaEZJUVRTWFhEUGdlbWgweXVjNXpQVTBHWTFaS1F4ODB3S1ZiREtmb1dKVV9BMExwSXZpZUN6NGdjVTlOdEpJTWJIemhzTGNmYzBfUDAtUktwbEYxZkc0djFZOG5XTTVKckFQQjAyUjhySFhFVk5yenZSdkJQUktCUU92cUVUTUJoVU4tZGZUa1M3OGh6VmRtWGtoelkzellJWF9PTVFTbi10SkhHU2JXa2JGSE51cWRZQTBSaklR?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260604T120939Z",
+          "source": "GoogleNews"
+        },
+        {
           "title": "Implications of ICRU Report 95: Operational Quantities for External Radiation Exposure",
           "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPa0JJSDFHbi0yS1R4RnFfdl8xVmI1TWI3VjNmMWFjSXZ4eDZJTlR6amtueVdPQWZiVkw5MlJ0RlI1VGxoR1NkVWF2ZzhuT3hNZ04ya0d6NEVuUEdoSmFjYlNTSkhNRUpReXMzVFNXZjh3dVVnaTVGSEpLaG94NXVkX3h6c2U2a1ZSYThFN18tQlI3WXpYVk90TG9iME5RanE0cjRtOTVHb282QzNHQW9GSERNbEJ6cHZ4QkdyLWJJZjQwZw?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -1601,24 +1630,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20260904T061620Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "IAEA Hosts Workshop for International Financial Institutions on Nuclear Financing",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPb0llQ09ZU1ZnMHZ2Njl4MHpLX3dieEFxeE5jQzNpU18zRFRHR0pwQ2NFTGRjZmw0U29BTmNoaF94VlhfUXU4WElSVVlhVy1LR1R3RkFsWjA3YU1ham1EemVzV1RodVE3UE1hV0JUckNMWjJKNExJX3ZqOG9ZbG1KRnZvSjdlYTI5elVOcjRHQlZOdWxLT0hvMWRmYjVMVjhVLWpBZEtiWWxfZU9PUmp1Mm9xRTR6VlBR?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260908T110229Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "National Industrial Involvement to Support a Nuclear Power Programme",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPOWgzd19XSFNEWmhHbkZkT1pNWEh5RzI4azFRV1VCQ254d3Z3SlprTEYzOW9ocTlIdFJ3cDJOalpjS3JPajRtdlBId3hWVC1BOE9zZUcwMUVLZVlzMWZBY1d0Vm9td2tZQmlha0pIbXNJdGVPRzFjZVJ1Mk1tSjNmS3lldUVyVlFfaWppQ0FRRUxIN3UwZngwSGl6RUtLMG9uNUxMMEVMUFZQek0?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260701T100738Z",
           "source": "GoogleNews"
         }
       ],
@@ -9298,9 +9309,9 @@
           "event_type": "earthquake",
           "place": "28 km WSW of Olancha, CA",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41543472",
-          "lon": -118.279,
-          "lat": 36.1543333333333,
-          "depth_km": 8.26,
+          "lon": -118.280833333333,
+          "lat": 36.1551666666667,
+          "depth_km": 7.99,
           "source": "USGS"
         },
         {
@@ -9309,14 +9320,14 @@
           "site_lat": 37.12,
           "site_lon": -116.05,
           "time": 1788955745120,
-          "magnitude": 2.53,
+          "magnitude": 2.52,
           "magnitude_type": "ml",
           "event_type": "earthquake",
           "place": "28 km WSW of Olancha, CA",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41543464",
-          "lon": -118.279166666667,
-          "lat": 36.1548333333333,
-          "depth_km": 8.01,
+          "lon": -118.2765,
+          "lat": 36.1533333333333,
+          "depth_km": 7.82,
           "source": "USGS"
         },
         {
