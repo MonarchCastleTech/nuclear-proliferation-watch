@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "nuclear-proliferation-watch",
-    "generated": "2026-09-09T05:18:55.040107+00:00",
+    "generated": "2026-09-09T11:53:47.821131+00:00",
     "mode": "live",
     "sources": [
       "IAEA official pages",
@@ -14,10 +14,10 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-09-09T05:18:55.031687+00:00",
+    "issued_at": "2026-09-09T11:53:47.812444+00:00",
     "horizon": "0-30 days",
     "classification": "nuclear-escalation-pressure-not-test-or-weapon-probability",
-    "score": 7.5,
+    "score": 10.0,
     "level": "BASELINE",
     "confidence": "HIGH",
     "confidence_score": 100.0,
@@ -26,17 +26,23 @@
         "id": "iaea_safeguards_strain",
         "label": "IAEA safeguards and access strain",
         "available": true,
-        "score": 14.1,
-        "current_14d_weight": 1.8,
-        "current_14d_titles": 26,
+        "score": 21.3,
+        "current_14d_weight": 2.8,
+        "current_14d_titles": 25,
         "baseline_periods": 8,
         "baseline_median": 0.8,
-        "anomaly_z": 1.35,
+        "anomaly_z": 2.7,
         "evidence": [
           {
             "title": "Innovation and Resilience in a Changing World - Safeguards as a Shared Responsibility - Social Media Toolkit | IAEA",
             "url": null,
             "date": "2026-09-04",
+            "weight": 1.0
+          },
+          {
+            "title": "APPLICATION OF SAFEGUARDS IN THE DEMOCRATIC PEOPLE’S REPUBLIC OF KOREA",
+            "url": null,
+            "date": "2026-08-28",
             "weight": 1.0
           },
           {
@@ -106,7 +112,7 @@
         "available": true,
         "score": 0.0,
         "current_30d_diagnostic_weight": 0.0,
-        "events_considered": 1820,
+        "events_considered": 1821,
         "sites_monitored": 8,
         "anomaly_z": 0.0,
         "evidence": [],
@@ -627,6 +633,17 @@
           "facility_security_incidents": 12.6,
           "test_site_seismicity": 0.0
         }
+      },
+      {
+        "timestamp": "2026-09-09T11:53:47.812444+00:00",
+        "score": 10.0,
+        "level": "BASELINE",
+        "components": {
+          "iaea_safeguards_strain": 21.3,
+          "npwmd_designation_delta": 0.0,
+          "facility_security_incidents": 12.6,
+          "test_site_seismicity": 0.0
+        }
       }
     ],
     "data_health": {
@@ -674,7 +691,7 @@
   "stats": [
     {
       "label": "Escalation Pressure",
-      "value": "7.5/100",
+      "value": "10.0/100",
       "delta": "BASELINE"
     },
     {
@@ -766,6 +783,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20260904T121525Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "APPLICATION OF SAFEGUARDS IN THE DEMOCRATIC PEOPLE’S REPUBLIC OF KOREA",
+          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1HMjRmZ282VjdaazFlRmtZUWdBZFpMOUZ3WGt6dU1sc2h3dUhBSzlMUG1yYlJxS0R6OEFHV0YyWFdUZFlYWllJOUN0SUstUWQxQjNuSEFFVkx5UThGZ0ZkeHllU2lfZw?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260828T070000Z",
           "source": "GoogleNews"
         },
         {
@@ -1576,15 +1602,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20260801T065924Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "IAEA Director General Marks Milestone in Uzbekistan’s Nuclear Power Programme",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPbUNySHRIQ1JjemV3cHJHTnRGdm5KUFVhR0I2WUhRTGduUE9rSnhITERNZkE4SXB5dTNaaUpWTzZsYWRDV0tsd2tRWVZ3SjlPY0tVdVNjanlIT25paDdVZlktXzN1RVNPWmRIWGZ1TllCMks2cG9scXJhUDRJcDQtejFBUzVad0thUHgtcm8wQzQ0c3NicVptelBsS21rbUxqdl85Vzdza2lMZWVYR0V0UDBB?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260605T070000Z",
           "source": "GoogleNews"
         }
       ],
@@ -9254,6 +9271,22 @@
           "source": "USGS"
         },
         {
+          "id": "nc75432232",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1788935499870,
+          "magnitude": 1.97,
+          "magnitude_type": "md",
+          "event_type": "earthquake",
+          "place": "19 km SW of Toms Place, CA",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75432232",
+          "lon": -118.841667175293,
+          "lat": 37.4511680603027,
+          "depth_km": 1.03999996185303,
+          "source": "USGS"
+        },
+        {
           "id": "nn00924244",
           "site": "Nevada National Security Site",
           "site_lat": 37.12,
@@ -9642,15 +9675,15 @@
           "site": "Nevada National Security Site",
           "site_lat": 37.12,
           "site_lon": -116.05,
-          "time": 1788125506560,
+          "time": 1788125506620,
           "magnitude": 2.37,
           "magnitude_type": "md",
           "event_type": "earthquake",
-          "place": "19 km SW of Toms Place, CA",
+          "place": "18 km SW of Toms Place, CA",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75427372",
-          "lon": -118.833335876465,
-          "lat": 37.4416656494141,
-          "depth_km": 2.1800000667572,
+          "lon": -118.829333333333,
+          "lat": 37.4456666666667,
+          "depth_km": 3.12,
           "source": "USGS"
         },
         {
@@ -38200,6 +38233,12 @@
       "title": "Innovation and Resilience in a Changing World - Safeguards as a Shared Responsibility - Social Media Toolkit | IAEA",
       "url": null,
       "date": "2026-09-04",
+      "weight": 1.0
+    },
+    {
+      "title": "APPLICATION OF SAFEGUARDS IN THE DEMOCRATIC PEOPLE’S REPUBLIC OF KOREA",
+      "url": null,
+      "date": "2026-08-28",
       "weight": 1.0
     },
     {
