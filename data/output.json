@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "nuclear-proliferation-watch",
-    "generated": "2026-09-09T11:53:47.821131+00:00",
+    "generated": "2026-09-09T16:53:56.466192+00:00",
     "mode": "live",
     "sources": [
       "IAEA official pages",
@@ -14,10 +14,10 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-09-09T11:53:47.812444+00:00",
+    "issued_at": "2026-09-09T16:53:56.457515+00:00",
     "horizon": "0-30 days",
     "classification": "nuclear-escalation-pressure-not-test-or-weapon-probability",
-    "score": 10.0,
+    "score": 11.4,
     "level": "BASELINE",
     "confidence": "HIGH",
     "confidence_score": 100.0,
@@ -26,23 +26,29 @@
         "id": "iaea_safeguards_strain",
         "label": "IAEA safeguards and access strain",
         "available": true,
-        "score": 21.3,
-        "current_14d_weight": 2.8,
-        "current_14d_titles": 25,
+        "score": 25.4,
+        "current_14d_weight": 4.4,
+        "current_14d_titles": 27,
         "baseline_periods": 8,
         "baseline_median": 0.8,
-        "anomaly_z": 2.7,
+        "anomaly_z": 4.86,
         "evidence": [
           {
-            "title": "Innovation and Resilience in a Changing World - Safeguards as a Shared Responsibility - Social Media Toolkit | IAEA",
+            "title": "INPRO Methodology for Sustainability Assessments of Nuclear Energy Systems: Proliferation Resistance",
             "url": null,
-            "date": "2026-09-04",
-            "weight": 1.0
+            "date": "2026-09-09",
+            "weight": 1.6
           },
           {
             "title": "APPLICATION OF SAFEGUARDS IN THE DEMOCRATIC PEOPLE’S REPUBLIC OF KOREA",
             "url": null,
             "date": "2026-08-28",
+            "weight": 1.0
+          },
+          {
+            "title": "Innovation and Resilience in a Changing World - Safeguards as a Shared Responsibility - Social Media Toolkit | IAEA",
+            "url": null,
+            "date": "2026-09-04",
             "weight": 1.0
           },
           {
@@ -65,8 +71,8 @@
         "removed_count": 0,
         "added": [],
         "removed": [],
-        "publish_date": "2026-09-04",
-        "sha256": "1c878982988268de843cd09f5fbc511bd0f0591928db5af5e8e0a5807064c520",
+        "publish_date": "2026-09-08",
+        "sha256": "1420bb7f85703354657128718c8e670f94c01d461b6dff9c446582bb0eaeeb70",
         "retained": false
       },
       {
@@ -112,7 +118,7 @@
         "available": true,
         "score": 0.0,
         "current_30d_diagnostic_weight": 0.0,
-        "events_considered": 1821,
+        "events_considered": 1823,
         "sites_monitored": 8,
         "anomaly_z": 0.0,
         "evidence": [],
@@ -644,6 +650,17 @@
           "facility_security_incidents": 12.6,
           "test_site_seismicity": 0.0
         }
+      },
+      {
+        "timestamp": "2026-09-09T16:53:56.457515+00:00",
+        "score": 11.4,
+        "level": "BASELINE",
+        "components": {
+          "iaea_safeguards_strain": 25.4,
+          "npwmd_designation_delta": 0.0,
+          "facility_security_incidents": 12.6,
+          "test_site_seismicity": 0.0
+        }
       }
     ],
     "data_health": {
@@ -691,7 +708,7 @@
   "stats": [
     {
       "label": "Escalation Pressure",
-      "value": "10.0/100",
+      "value": "11.4/100",
       "delta": "BASELINE"
     },
     {
@@ -713,6 +730,15 @@
   "live_data": {
     "iaea_titles": {
       "signals": [
+        {
+          "title": "APPLICATION OF SAFEGUARDS IN THE DEMOCRATIC PEOPLE’S REPUBLIC OF KOREA",
+          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1HMjRmZ282VjdaazFlRmtZUWdBZFpMOUZ3WGt6dU1sc2h3dUhBSzlMUG1yYlJxS0R6OEFHV0YyWFdUZFlYWllJOUN0SUstUWQxQjNuSEFFVkx5UThGZ0ZkeHllU2lfZw?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260828T070000Z",
+          "source": "GoogleNews"
+        },
         {
           "title": "IAEA Director General's Introductory Statement to the Board of Governors",
           "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPbW9JcGhHaGhiMTQ0X2lDWXBtclkxaU9fSTRZSmxwQWN5NnMycTdZQlM3NHcxN0JGT1RvUnVKRkdSWFhzQk5oTEtPbWttSDlvRFgyZWtiV3VHRGZQWmR6TmhjT0dxMHR0QXktUXVZSlJodzZMb3NhTnJRd0xBTm5kOHQ3S1BDTkNWdFpvZGpkX2Jpd3hUZ3A2SFdXZFMwRXpmR1ZYdTcyYmloRGFzWWxlZVhjekczdmJ6RUdGMjFEZDhSVjFpUnlKYnNn?oc=5",
@@ -768,12 +794,12 @@
           "source": "GoogleNews"
         },
         {
-          "title": "Nuclear Techniques Improve Rice Varieties, Boost Yields in Lao PDR",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQbWpjTF9xSE1DMEM1eWRRNHRQVElRVENNZGNzRmV5RkZJZGFydndObk4zQ25aUW4yUVpLNVd6RGFnNmQwWUxwVHBkdFdYS1ZYYWtLU0hjR0JodkVpaHVsUl82aGhaaXlxeFc2amFmSjRSY0RkUXJtdDJ6dl9BaVB3UmxjNHM3dXV1R1c0TjI2OE1Hem0zekprOVc4YkY1dHFmcmlN?oc=5",
+          "title": "INPRO Methodology for Sustainability Assessments of Nuclear Energy Systems: Proliferation Resistance",
+          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOVHdtNVlnTHVvdThJd2RySGtqYk9xRTJURzRJbUpzX0htNFZsVmR0ZmNBX1BJY0ZkYm5DemRxTWxqNjdKTEM3Y2wtSjhxcWlHaXVRTjItYmdPWThIUHAtdEc1RGZYamFOTVVwMmtrNjdCWmJXUFAxZFFZckY3dVM5c0Jzb3NKM0hOWDdVTVBUZnM3TE1XT1lvemlZUkQ4RFM4R2dPU2Z1WG5FRURQaHdZTlJvdDByXzZZY2pBbFJZZGhRLXRqQ3kta2tERml5WUg1RGVLN0ln?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
-          "seendate": "20260831T123002Z",
+          "seendate": "20260909T132133Z",
           "source": "GoogleNews"
         },
         {
@@ -783,15 +809,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20260904T121525Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "APPLICATION OF SAFEGUARDS IN THE DEMOCRATIC PEOPLE’S REPUBLIC OF KOREA",
-          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1HMjRmZ282VjdaazFlRmtZUWdBZFpMOUZ3WGt6dU1sc2h3dUhBSzlMUG1yYlJxS0R6OEFHV0YyWFdUZFlYWllJOUN0SUstUWQxQjNuSEFFVkx5UThGZ0ZkeHllU2lfZw?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260828T070000Z",
           "source": "GoogleNews"
         },
         {
@@ -837,6 +854,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20260820T150731Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "IAEA Launches ATLAS as Countries Explore Nuclear Power for Shipping and Offshore Energy",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOMkFxQ0tKejgtSkszMlpJSjQwRnFHUGpUUUk5d1YtQnpjMWFHOTk0eHQ1dWJ1LW1LcG4yb0wwYUtVM3VjTWdfQVFUcXpkUXRubUJOUGtjU05haW4wcnhBSXJKc1dqb2FVWkJJdmpfZTdsaDF1TjhKaEd3ZmU2dl9iVUpseFFlemtWRG85cm1DQzFjRnU2R05wSV8yY1RmNmRLa053RkdpUWRRdDJudDdLdjVwSnBaOWItX0lqWExzOHFzbTVuN1NyRG5ZVGE?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260826T070000Z",
           "source": "GoogleNews"
         },
         {
@@ -936,6 +962,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20260601T164650Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Nuclear Techniques Improve Rice Varieties, Boost Yields in Lao PDR",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQbWpjTF9xSE1DMEM1eWRRNHRQVElRVENNZGNzRmV5RkZJZGFydndObk4zQ25aUW4yUVpLNVd6RGFnNmQwWUxwVHBkdFdYS1ZYYWtLU0hjR0JodkVpaHVsUl82aGhaaXlxeFc2amFmSjRSY0RkUXJtdDJ6dl9BaVB3UmxjNHM3dXV1R1c0TjI2OE1Hem0zekprOVc4YkY1dHFmcmlN?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260831T070000Z",
           "source": "GoogleNews"
         },
         {
@@ -1074,15 +1109,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "Technical Meeting on Nuclear Fuel Cycle Options for Current and Advanced Reactors",
-          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1zQjRFT3VXaUEwT2NvM2h0SFotcDFUMVppOXNVTGp4VXYxTkNRbGw4ZzRuQUZUVVpjQ0hNeFJ4M0drRjVlVlJTUWVQaDNKcG8?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260903T011515Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "International Training Course on Safety and Security in the Management of Disused Sealed Radioactive Sources",
           "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE84MzNIRWxMMFczaS1TVHpHT05xdm9HRHpqb0xKYjVaZHRnYnI0V05PaU1xeE1wVkp2aTBtZnZ1aFJJQ1hDdVlsaEZpc3duUQ?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -1125,15 +1151,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20260624T070000Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "70th IAEA General Conference",
-          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFB0c1JMazJsR3VPQkE4ZkJyZzl6NGQzNmtwT2FUcUxqU1lBbXU2eEZYRW5OMkxiZ2NVVXNLYl8yNmlmNHQ1XzNmWjQxckhtbmZtdmJxazJIV2s0SHhPeUxNTmdwbE1XZEQ0ZGNUWW5CV2JqX1RFYzlibjFR?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260726T121502Z",
           "source": "GoogleNews"
         },
         {
@@ -1407,6 +1424,15 @@
           "source": "GoogleNews"
         },
         {
+          "title": "Ukrainian NPP Workers’ Children Meet with DG, Tour IAEA HQ as Part of Summer Camp Programme Hosted by Austria",
+          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOdUJ5Y1Bja2MwQ0g1WDVjWWxOdzc2NG9wOXl6eWpNQkp0UE9wZTdILVNPS0EtbjNqdWpTdUJpSEpFU1U0bjVqTWp0Q21BRUZfMmRfUnpTRHdITDRBZ1VZOUtZa0tJU1owelBSaF95QzlvMlJma3NGWldwMXB0VkIyTDdkN0VIZXdQTGxUUUszLVhfOEdPMFVvZ0ZrdXdDc2hjSWRhSHdTVkZ2SDV5NHpEb0R2b05wNXJlYkFJZzJWaERJNnUtZzRjclR2cXBHWVMxNXhQSUVTako4STBV?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260909T142841Z",
+          "source": "GoogleNews"
+        },
+        {
           "title": "Proceedings Series",
           "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE96RF9KSkVvZDlDYlV5QkMxSVlzUGdHcXpWTFZYRVpCYUtKVk8tQ2VJa1lCNWhiR184dDNuUG45NklLN3JJUV9TdmJrQ1RkWXpoNElqNVh0LVZwWG14b0p5ZEpQdlhfZURiX1F1OXhrdUR3cGZT?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -1431,6 +1457,24 @@
           "language": "",
           "tone": 0,
           "seendate": "20260901T142844Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Press Arrangements for the 70th IAEA General Conference, 14–18 September",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOZVlHeVJ1Y0JMaWk5b3h6empCZlZzaHdvVENuOGxJWGpLWHh2cEMwMHM5OXBhaXFDdlpTSkhfRnVpUHhxR2dLWDl6dnA4RVh4OGtFak95RlJMdGpLb3ZOUksxZnVybkc4ZXRTRjJBUGhUeDZqcGkzSlgzZTR6M1RYS0FhYWw1T2ZiTXpMZ2NVNzVFYUlCQkpSM0hMSFFPR2pLXzBBOHVpczM2R0NIVHRWczhmZkpKXzItMWw4?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260909T131916Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "How Nuclear Science Enhances Seafood Safety in Namibia",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPMVh5VkhtdjlNQTg0MEZneXd2UDNDLVlNQTVwdnZCMDluN3VYWHBMb1lfYjdVSDcyVkpnZXdSdVBMUUs1X3NaM3lYTlJNZGh0WjBfQ3RsWVpFOEpqRE9mNExpZ254aUdOcXFVc3BRUUdJS1hMajZ6OWMxdmdnVzhFb2t2d1Z3dXpKOTRMRHNiVmVqV1ZLMnVMSHpHYWQ3WlZGZWxqMGJR?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260605T070000Z",
           "source": "GoogleNews"
         },
         {
@@ -1575,33 +1619,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20260701T100738Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "Review of State of the Art Thermal Hydraulics of Fast Reactors",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNbjhTdnNpVnN1WThSSEoyLVFhT1A5UGowbU03SEpYLWRhaWVNaTRISU91M1J3M1dyanVWNXk4UG9RX2pFLU83YllSTmNhVGVqek5WcEFGNkxSYmFZTjBJcXZQYVJjTFZIeGVJMFZoYkFxSjRSZ01ybFRNLVNCckxucjc3VVFBc3d4amxNV0FlSnVNRGROQ3VOYTRoSGZMbFd6dE1N?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260826T115219Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "Technical Meeting on Powering and Cooling Data Centres using Small Modular Reactors",
-          "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1jUzA4R0JnNHZoTXNlNVdNcjlCZXVNUWoyRXF4LS0tUWxKVnd6REpJZkJ6YUlSdFpxLWd5dmVGamE2b2hQRU9jT0ZtWG00dw?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260303T145535Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "Proceedings Series",
-          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1YT01TM1phTkctbWpjbGRGS3E1RWtUTC01UHlWTk5BX09TbmhEb2RMWHJUVl8xMGlnNnFCUHhjcHU4RmZLTWF5cDVMcmdHcVNfRzZ2QjEydlRvRm9PQy00SjZILVlOclkzUDlTNFF2c3Vsa0poZUE?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260801T065924Z",
           "source": "GoogleNews"
         }
       ],
@@ -9040,8 +9057,8 @@
         }
       ],
       "count": 1195,
-      "publish_date": "2026-09-04",
-      "sha256": "1c878982988268de843cd09f5fbc511bd0f0591928db5af5e8e0a5807064c520",
+      "publish_date": "2026-09-08",
+      "sha256": "1420bb7f85703354657128718c8e670f94c01d461b6dff9c446582bb0eaeeb70",
       "cached": false
     },
     "test_site_seismicity": {
@@ -9268,6 +9285,38 @@
           "lon": 87.9952,
           "lat": 41.8774,
           "depth_km": 10,
+          "source": "USGS"
+        },
+        {
+          "id": "ci41543472",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1788955831680,
+          "magnitude": 1.69,
+          "magnitude_type": "ml",
+          "event_type": "earthquake",
+          "place": "28 km WSW of Olancha, CA",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41543472",
+          "lon": -118.279,
+          "lat": 36.1543333333333,
+          "depth_km": 8.26,
+          "source": "USGS"
+        },
+        {
+          "id": "ci41543464",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1788955745120,
+          "magnitude": 2.53,
+          "magnitude_type": "ml",
+          "event_type": "earthquake",
+          "place": "28 km WSW of Olancha, CA",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41543464",
+          "lon": -118.279166666667,
+          "lat": 36.1548333333333,
+          "depth_km": 8.01,
           "source": "USGS"
         },
         {
@@ -38230,15 +38279,21 @@
   },
   "events": [
     {
-      "title": "Innovation and Resilience in a Changing World - Safeguards as a Shared Responsibility - Social Media Toolkit | IAEA",
+      "title": "INPRO Methodology for Sustainability Assessments of Nuclear Energy Systems: Proliferation Resistance",
       "url": null,
-      "date": "2026-09-04",
-      "weight": 1.0
+      "date": "2026-09-09",
+      "weight": 1.6
     },
     {
       "title": "APPLICATION OF SAFEGUARDS IN THE DEMOCRATIC PEOPLE’S REPUBLIC OF KOREA",
       "url": null,
       "date": "2026-08-28",
+      "weight": 1.0
+    },
+    {
+      "title": "Innovation and Resilience in a Changing World - Safeguards as a Shared Responsibility - Social Media Toolkit | IAEA",
+      "url": null,
+      "date": "2026-09-04",
       "weight": 1.0
     },
     {
