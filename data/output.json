@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "nuclear-proliferation-watch",
-    "generated": "2026-09-09T21:13:25.230535+00:00",
+    "generated": "2026-09-10T05:20:09.773774+00:00",
     "mode": "live",
     "sources": [
       "IAEA official pages",
@@ -14,7 +14,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-09-09T21:13:25.224540+00:00",
+    "issued_at": "2026-09-10T05:20:09.765307+00:00",
     "horizon": "0-30 days",
     "classification": "nuclear-escalation-pressure-not-test-or-weapon-probability",
     "score": 11.4,
@@ -28,7 +28,7 @@
         "available": true,
         "score": 25.4,
         "current_14d_weight": 4.4,
-        "current_14d_titles": 26,
+        "current_14d_titles": 27,
         "baseline_periods": 8,
         "baseline_median": 0.8,
         "anomaly_z": 4.86,
@@ -49,6 +49,12 @@
             "title": "Innovation and Resilience in a Changing World - Safeguards as a Shared Responsibility - Social Media Toolkit | IAEA",
             "url": null,
             "date": "2026-09-04",
+            "weight": 1.0
+          },
+          {
+            "title": "Implementation of the NPT Safeguards Agreement and relevant provisions of United Nations Security Council resolutions in the Isl",
+            "url": null,
+            "date": "2026-09-09",
             "weight": 1.0
           },
           {
@@ -118,7 +124,7 @@
         "available": true,
         "score": 0.0,
         "current_30d_diagnostic_weight": 0.0,
-        "events_considered": 1823,
+        "events_considered": 1820,
         "sites_monitored": 8,
         "anomaly_z": 0.0,
         "evidence": [],
@@ -672,6 +678,17 @@
           "facility_security_incidents": 12.6,
           "test_site_seismicity": 0.0
         }
+      },
+      {
+        "timestamp": "2026-09-10T05:20:09.765307+00:00",
+        "score": 11.4,
+        "level": "BASELINE",
+        "components": {
+          "iaea_safeguards_strain": 25.4,
+          "npwmd_designation_delta": 0.0,
+          "facility_security_incidents": 12.6,
+          "test_site_seismicity": 0.0
+        }
       }
     ],
     "data_health": {
@@ -796,15 +813,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "Tritium Level Far Below Japan’s Operational Limit in 23rd Batch of ALPS Treated Water, IAEA Confirms",
-          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPQkVSMDNSRGZsbTFWNDZOYmU3bE4wTTl0clNhZS1mN2N1NTZLVngyX19PWXFaMVpNOXM5Sk9ZYzZ5MVFjaUtfRkpSZF9NLU9KcmFZMzVnM2FYajVwd2ZuSnVVNy1heWhxWUZkbHNJQ0t0WTE5Y2tkdHQxMng0SEtMTWdiX0t3WFBBdzV4THlMb3Vxd19ONDAxTE5QVkVXU0ZzUkhqTUExRV82VUJPX1ZKZE4xNXgwMnZ0cTFkODVzLVJ1cFdDeWJubzZKbFBOM0x4dFdsZ2NPUFV5aG8?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260831T070000Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "INPRO Methodology for Sustainability Assessments of Nuclear Energy Systems: Proliferation Resistance",
           "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOVHdtNVlnTHVvdThJd2RySGtqYk9xRTJURzRJbUpzX0htNFZsVmR0ZmNBX1BJY0ZkYm5DemRxTWxqNjdKTEM3Y2wtSjhxcWlHaXVRTjItYmdPWThIUHAtdEc1RGZYamFOTVVwMmtrNjdCWmJXUFAxZFFZckY3dVM5c0Jzb3NKM0hOWDdVTVBUZnM3TE1XT1lvemlZUkQ4RFM4R2dPU2Z1WG5FRURQaHdZTlJvdDByXzZZY2pBbFJZZGhRLXRqQ3kta2tERml5WUg1RGVLN0ln?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -823,12 +831,30 @@
           "source": "GoogleNews"
         },
         {
+          "title": "Implementation of the NPT Safeguards Agreement and relevant provisions of United Nations Security Council resolutions in the Isl",
+          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE82SnRXenNPemtablJ1b192ZzI1Um9OT1VpZ18wRkZkdUtVLVV3QWRFVm1jbEFSRm5KajNHOFZGQ2NyUjJfckVnTEkwckI3aXdHQjZZeGdVS2psdTB0bzhsaXdLcm5oZw?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260909T191823Z",
+          "source": "GoogleNews"
+        },
+        {
           "title": "Safeguards Direct Portal: Improving information exchange with the IAEA Department of Safeguards",
           "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5ETHpETkxMc0pYNG1ZMUNJZVFGbXFmdGxWUnBqWHhqVEJ6M0l1VU8xRXY4ZktuWFdBVUpRTFBicUprYlpSYmpReDRGOA?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
           "seendate": "20260821T001030Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Tritium Level Far Below Japan’s Operational Limit in 23rd Batch of ALPS Treated Water, IAEA Confirms",
+          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPQkVSMDNSRGZsbTFWNDZOYmU3bE4wTTl0clNhZS1mN2N1NTZLVngyX19PWXFaMVpNOXM5Sk9ZYzZ5MVFjaUtfRkpSZF9NLU9KcmFZMzVnM2FYajVwd2ZuSnVVNy1heWhxWUZkbHNJQ0t0WTE5Y2tkdHQxMng0SEtMTWdiX0t3WFBBdzV4THlMb3Vxd19ONDAxTE5QVkVXU0ZzUkhqTUExRV82VUJPX1ZKZE4xNXgwMnZ0cTFkODVzLVJ1cFdDeWJubzZKbFBOM0x4dFdsZ2NPUFV5aG8?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260831T070000Z",
           "source": "GoogleNews"
         },
         {
@@ -865,15 +891,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20260820T150731Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "IAEA Launches ATLAS as Countries Explore Nuclear Power for Shipping and Offshore Energy",
-          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOMkFxQ0tKejgtSkszMlpJSjQwRnFHUGpUUUk5d1YtQnpjMWFHOTk0eHQ1dWJ1LW1LcG4yb0wwYUtVM3VjTWdfQVFUcXpkUXRubUJOUGtjU05haW4wcnhBSXJKc1dqb2FVWkJJdmpfZTdsaDF1TjhKaEd3ZmU2dl9iVUpseFFlemtWRG85cm1DQzFjRnU2R05wSV8yY1RmNmRLa053RkdpUWRRdDJudDdLdjVwSnBaOWItX0lqWExzOHFzbTVuN1NyRG5ZVGE?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260826T070000Z",
           "source": "GoogleNews"
         },
         {
@@ -1111,15 +1128,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "Nuclear Techniques Improve Rice Varieties, Boost Yields in Lao PDR",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQbWpjTF9xSE1DMEM1eWRRNHRQVElRVENNZGNzRmV5RkZJZGFydndObk4zQ25aUW4yUVpLNVd6RGFnNmQwWUxwVHBkdFdYS1ZYYWtLU0hjR0JodkVpaHVsUl82aGhaaXlxeFc2amFmSjRSY0RkUXJtdDJ6dl9BaVB3UmxjNHM3dXV1R1c0TjI2OE1Hem0zekprOVc4YkY1dHFmcmlN?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260831T070000Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "International Training Course on Safety and Security in the Management of Disused Sealed Radioactive Sources",
           "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE84MzNIRWxMMFczaS1TVHpHT05xdm9HRHpqb0xKYjVaZHRnYnI0V05PaU1xeE1wVkp2aTBtZnZ1aFJJQ1hDdVlsaEZpc3duUQ?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -1246,6 +1254,15 @@
           "source": "GoogleNews"
         },
         {
+          "title": "IAEA Launches ATLAS as Countries Explore Nuclear Power for Shipping and Offshore Energy",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOMkFxQ0tKejgtSkszMlpJSjQwRnFHUGpUUUk5d1YtQnpjMWFHOTk0eHQ1dWJ1LW1LcG4yb0wwYUtVM3VjTWdfQVFUcXpkUXRubUJOUGtjU05haW4wcnhBSXJKc1dqb2FVWkJJdmpfZTdsaDF1TjhKaEd3ZmU2dl9iVUpseFFlemtWRG85cm1DQzFjRnU2R05wSV8yY1RmNmRLa053RkdpUWRRdDJudDdLdjVwSnBaOWItX0lqWExzOHFzbTVuN1NyRG5ZVGE?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260826T070000Z",
+          "source": "GoogleNews"
+        },
+        {
           "title": "Update 351 – IAEA Director General Statement on Situation in Ukraine",
           "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOYVlyLXhhUmNUZ0swMXlRbmJ3dGhTY3JLbWFFZnRzZ081QmNqVGktOFhraERzSFdnN1JMOXl3WkJFLThBVlVMd3h1Y2RmdUZ2YW95SzhfSTRyTVhRMU9YUjZnY3EzR3hkdlJaU184MnkzNmJRNlVaSHZxTkgtRXl0UkY4NDFTdnpJaVFvQlJKa3NxcEtFZ2NiWFJXcnJWODd6YWdCOHNMNkx4UkhDdzdGag?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -1300,15 +1317,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "Update 362 – IAEA Director General Statement on Situation in Ukraine",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQZ1kzQW5WWjZRY2plQzRVanZ5TE56OWozdlpHOEY0QXhHNWtMT0R0YXlMcEtRV2RxMjBhT2NTTHd1QWZzb2JMR3lTWDNHZFZIbEpmOFVRaDU4VVpGUFVYY1BnUHlkS2xuRkRqaURVVk9TTTNhaUptVEpEN3RqbGZpN3FPMXdjSzRCSVN6UzFVUk5RRlYwQWMxYTFwajFGOWkwQ3E1ZV84eW90SmpXcmFzdg?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260814T070000Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "Tritium Level Far Below Japan’s Operational Limit in 22nd Batch of ALPS Treated Water, IAEA Confirms",
           "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOTTc5bFNJR0FkNUZxQUN0aEZ0aFVEWGw2ZkhDM3dYZC0wSkd5bFhiZEJuS25lU2VWejhwX1pZUjUwZGxqaUppNDF4bUNtTGhTMk5adVR0V1ZoU0Q5N2tlQi1uVnR4WjEwUnREOVFuNGFrVW9wT0xjU3lzaVlhRUo5T01Nb3Zpd0VEcE8zbXJJYjdxT2JQVVlLS0c4X2JzOUxrbFR4aWo0Z3RqRFVQVUNhRGFTU3llemliZGxESjB5cTdyWTVkTkoyYTJYb1dXbEZkSENtRmx3SmpZNjQ?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -1345,12 +1353,30 @@
           "source": "GoogleNews"
         },
         {
+          "title": "Update 362 – IAEA Director General Statement on Situation in Ukraine",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQZ1kzQW5WWjZRY2plQzRVanZ5TE56OWozdlpHOEY0QXhHNWtMT0R0YXlMcEtRV2RxMjBhT2NTTHd1QWZzb2JMR3lTWDNHZFZIbEpmOFVRaDU4VVpGUFVYY1BnUHlkS2xuRkRqaURVVk9TTTNhaUptVEpEN3RqbGZpN3FPMXdjSzRCSVN6UzFVUk5RRlYwQWMxYTFwajFGOWkwQ3E1ZV84eW90SmpXcmFzdg?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260814T070000Z",
+          "source": "GoogleNews"
+        },
+        {
           "title": "Monographs",
           "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE11R2dYcmF3YWpVWEFjLUg5ZUFoTUJkMWlCQ3lXTmRDNHpmSmt6dk5jNGQ5YUpCZ1d1MWhTcUpzQXpnSk1BcER5SkxyaUlCa1I0Nklmc2g2czRPdTlqcWpoLTF1N2ZPQWhSUkxZ?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
           "seendate": "20260907T081026Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Nuclear Techniques Improve Rice Varieties, Boost Yields in Lao PDR",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQbWpjTF9xSE1DMEM1eWRRNHRQVElRVENNZGNzRmV5RkZJZGFydndObk4zQ25aUW4yUVpLNVd6RGFnNmQwWUxwVHBkdFdYS1ZYYWtLU0hjR0JodkVpaHVsUl82aGhaaXlxeFc2amFmSjRSY0RkUXJtdDJ6dl9BaVB3UmxjNHM3dXV1R1c0TjI2OE1Hem0zekprOVc4YkY1dHFmcmlN?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260831T070000Z",
           "source": "GoogleNews"
         },
         {
@@ -1558,15 +1584,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20260814T070000Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "Improving the Understanding of Irradiation Creep Behaviour in Nuclear Graphite Models and Mechanisms",
-          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPN1lzQm0tOVJIc0pON2xCaEQ2MXlJZXBnaEZJUVRTWFhEUGdlbWgweXVjNXpQVTBHWTFaS1F4ODB3S1ZiREtmb1dKVV9BMExwSXZpZUN6NGdjVTlOdEpJTWJIemhzTGNmYzBfUDAtUktwbEYxZkc0djFZOG5XTTVKckFQQjAyUjhySFhFVk5yenZSdkJQUktCUU92cUVUTUJoVU4tZGZUa1M3OGh6VmRtWGtoelkzellJWF9PTVFTbi10SkhHU2JXa2JGSE51cWRZQTBSaklR?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260604T120939Z",
           "source": "GoogleNews"
         },
         {
@@ -38051,54 +38068,6 @@
           "source": "USGS"
         },
         {
-          "id": "ci41287520",
-          "site": "Nevada National Security Site",
-          "site_lat": 37.12,
-          "site_lon": -116.05,
-          "time": 1757451813950,
-          "magnitude": 2.05,
-          "magnitude_type": "ml",
-          "event_type": "earthquake",
-          "place": "25 km N of Trona, CA",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41287520",
-          "lon": -117.3255,
-          "lat": 35.9863333,
-          "depth_km": 2.37,
-          "source": "USGS"
-        },
-        {
-          "id": "ci41286800",
-          "site": "Nevada National Security Site",
-          "site_lat": 37.12,
-          "site_lon": -116.05,
-          "time": 1757401667080,
-          "magnitude": 1.95,
-          "magnitude_type": "ml",
-          "event_type": "earthquake",
-          "place": "21 km ESE of Little Lake, CA",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41286800",
-          "lon": -117.6776667,
-          "lat": 35.8986667,
-          "depth_km": 2.62,
-          "source": "USGS"
-        },
-        {
-          "id": "ci41286720",
-          "site": "Nevada National Security Site",
-          "site_lat": 37.12,
-          "site_lon": -116.05,
-          "time": 1757389913370,
-          "magnitude": 2.2,
-          "magnitude_type": "ml",
-          "event_type": "earthquake",
-          "place": "21 km E of Little Lake, CA",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41286720",
-          "lon": -117.6771667,
-          "lat": 35.8998333,
-          "depth_km": 2.71,
-          "source": "USGS"
-        },
-        {
           "id": "us6000tkwa",
           "site": "Chagai",
           "site_lat": 28.9,
@@ -38305,6 +38274,12 @@
       "title": "Innovation and Resilience in a Changing World - Safeguards as a Shared Responsibility - Social Media Toolkit | IAEA",
       "url": null,
       "date": "2026-09-04",
+      "weight": 1.0
+    },
+    {
+      "title": "Implementation of the NPT Safeguards Agreement and relevant provisions of United Nations Security Council resolutions in the Isl",
+      "url": null,
+      "date": "2026-09-09",
       "weight": 1.0
     },
     {
