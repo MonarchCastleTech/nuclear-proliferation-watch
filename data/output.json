@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "nuclear-proliferation-watch",
-    "generated": "2026-09-10T11:51:20.843132+00:00",
+    "generated": "2026-09-10T16:41:59.056445+00:00",
     "mode": "live",
     "sources": [
       "IAEA official pages",
@@ -14,7 +14,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-09-10T11:51:20.834556+00:00",
+    "issued_at": "2026-09-10T16:41:59.048174+00:00",
     "horizon": "0-30 days",
     "classification": "nuclear-escalation-pressure-not-test-or-weapon-probability",
     "score": 11.4,
@@ -28,7 +28,7 @@
         "available": true,
         "score": 25.4,
         "current_14d_weight": 4.4,
-        "current_14d_titles": 25,
+        "current_14d_titles": 27,
         "baseline_periods": 8,
         "baseline_median": 0.4,
         "anomaly_z": 6.74,
@@ -43,6 +43,18 @@
             "title": "APPLICATION OF SAFEGUARDS IN THE DEMOCRATIC PEOPLE’S REPUBLIC OF KOREA",
             "url": null,
             "date": "2026-08-28",
+            "weight": 1.0
+          },
+          {
+            "title": "Implementation of the NPT Safeguards Agreement and relevant provisions of the United Nations Security Council resolutions in the",
+            "url": null,
+            "date": "2026-09-01",
+            "weight": 1.0
+          },
+          {
+            "title": "Implementation of the NPT Safeguards Agreement in the Syrian Arab Republic",
+            "url": null,
+            "date": "2026-09-09",
             "weight": 1.0
           },
           {
@@ -700,6 +712,17 @@
           "facility_security_incidents": 12.6,
           "test_site_seismicity": 0.0
         }
+      },
+      {
+        "timestamp": "2026-09-10T16:41:59.048174+00:00",
+        "score": 11.4,
+        "level": "BASELINE",
+        "components": {
+          "iaea_safeguards_strain": 25.4,
+          "npwmd_designation_delta": 0.0,
+          "facility_security_incidents": 12.6,
+          "test_site_seismicity": 0.0
+        }
       }
     ],
     "data_health": {
@@ -806,6 +829,15 @@
           "source": "GoogleNews"
         },
         {
+          "title": "Update 364 – IAEA Director General Statement on Situation in Ukraine",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOZ0N4bkFMNmhoRW1sM0hBVE9rSEtoUHF2RzZYSHF6blhtaS1iOG5acXVxcFl1c0ZnV3VYWWJIQkdBNmVXTHcyQXZxcTJXTTV3OWVoaTMwcElHSllYSnQxbHBXeTdnaG9FdGFoUmVjb0hmRm1QeFhCVVJsOHRCTThlY3R4eUJTclBqaDFIZFRMdVh5TmZxM2NObkY3NHFoZjdBWnE2WUMyLXlKNWFNUTlIZw?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260829T070000Z",
+          "source": "GoogleNews"
+        },
+        {
           "title": "IAEA Reviews Finland's Nuclear and Radiological Emergency Preparedness and Response",
           "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNa09KZVpWWXppc1MyM0FlRnBmbWo3LW5QcHhIZ1pncFJJNnN1MHNCOXkxQ0Y3UlBkSnUtMHhSWmg2UWxYXzVhZGZTTVJfeUxKc3UyUmNDYXMwZDFINTdBYUpFaEl2RGpmNGRsQzdoUlpkY3lYRlE3c2N2N3VBTjEtU29vMEZYa0cxZzRzX2g2UXBoZWFWQ0s2YmJHZlFyY2FKejZBMzJlMW5QY0RzQ2c5WGFQYWpfRzVnYVV1aG1qY3pwSDZHdmc?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -815,12 +847,21 @@
           "source": "GoogleNews"
         },
         {
-          "title": "Update 364 – IAEA Director General Statement on Situation in Ukraine",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOZ0N4bkFMNmhoRW1sM0hBVE9rSEtoUHF2RzZYSHF6blhtaS1iOG5acXVxcFl1c0ZnV3VYWWJIQkdBNmVXTHcyQXZxcTJXTTV3OWVoaTMwcElHSllYSnQxbHBXeTdnaG9FdGFoUmVjb0hmRm1QeFhCVVJsOHRCTThlY3R4eUJTclBqaDFIZFRMdVh5TmZxM2NObkY3NHFoZjdBWnE2WUMyLXlKNWFNUTlIZw?oc=5",
+          "title": "Implementation of the NPT Safeguards Agreement and relevant provisions of the United Nations Security Council resolutions in the",
+          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5ycHNHQkFQbFNWWGpWZVJJX2FfcFVyRUlwRk5KYVliOVdfenM3MDNqZHFUQWdjMGNBdkJlWHpqMGo1dnpLNlJUZmtVMFo0Z3RNYldWWjVxVDJZSEsyMWdJRzNyUFZPZw?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
-          "seendate": "20260829T070000Z",
+          "seendate": "20260901T070000Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Implementation of the NPT Safeguards Agreement in the Syrian Arab Republic",
+          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE4tZVlxQVdiNXk4cUlrdHVwWmZnMm0xM3BFSnVVVzZZR2Z1V0xDZ0hpZXpnaEc4V1dkVDVGVG9qajBFdHNLUndUMHBSV054eDhyblg5YVBPYmp4RzZjcXRlQk9NS0JMZw?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260909T070000Z",
           "source": "GoogleNews"
         },
         {
@@ -995,15 +1036,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "Tritium Level Far Below Japan’s Operational Limit in 23rd Batch of ALPS Treated Water, IAEA Confirms",
-          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPQkVSMDNSRGZsbTFWNDZOYmU3bE4wTTl0clNhZS1mN2N1NTZLVngyX19PWXFaMVpNOXM5Sk9ZYzZ5MVFjaUtfRkpSZF9NLU9KcmFZMzVnM2FYajVwd2ZuSnVVNy1heWhxWUZkbHNJQ0t0WTE5Y2tkdHQxMng0SEtMTWdiX0t3WFBBdzV4THlMb3Vxd19ONDAxTE5QVkVXU0ZzUkhqTUExRV82VUJPX1ZKZE4xNXgwMnZ0cTFkODVzLVJ1cFdDeWJubzZKbFBOM0x4dFdsZ2NPUFV5aG8?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260831T070000Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "IAEA to Launch ATLAS: Pioneering Nuclear Solutions for Shipping and Offshore Energy, Washington, August 26-27, 2026",
           "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNRDVTbGRZSGxDb0YtYU55cUtCQWdnM0NkTWZoS2FaSlpXbk91WVE4MEFDS0FiWFdMLWl1ZTlXbktnOHZ3SHdzUVdkQk0xWEpka3FBVWdDYVBDeTl6VXNlRk1UZDZHbzRPWk95Mk5Xci1lNm0xeWc5dVhfa3UwcXQyejAxcDdoU2lRTjJDaWVrc1JVRHZVeDhzaFFUbUhwb0I5NTQtbDBlZmJrMzFWMm9wZC1fTFBPR09sSjRpY0tSZ1l3NVFiR2RHV0pucTJMdGp5dmQyd1FtN0tYcjVxNm05N0t5T3JCU0NYQXlkTQ?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -1036,7 +1068,7 @@
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
-          "seendate": "20260523T020120Z",
+          "seendate": "20260828T192953Z",
           "source": "GoogleNews"
         },
         {
@@ -1094,6 +1126,15 @@
           "source": "GoogleNews"
         },
         {
+          "title": "Tritium Level Far Below Japan’s Operational Limit in 23rd Batch of ALPS Treated Water, IAEA Confirms",
+          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPQkVSMDNSRGZsbTFWNDZOYmU3bE4wTTl0clNhZS1mN2N1NTZLVngyX19PWXFaMVpNOXM5Sk9ZYzZ5MVFjaUtfRkpSZF9NLU9KcmFZMzVnM2FYajVwd2ZuSnVVNy1heWhxWUZkbHNJQ0t0WTE5Y2tkdHQxMng0SEtMTWdiX0t3WFBBdzV4THlMb3Vxd19ONDAxTE5QVkVXU0ZzUkhqTUExRV82VUJPX1ZKZE4xNXgwMnZ0cTFkODVzLVJ1cFdDeWJubzZKbFBOM0x4dFdsZ2NPUFV5aG8?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260831T070000Z",
+          "source": "GoogleNews"
+        },
+        {
           "title": "Press Arrangements for IAEA Board of Governors Meeting, 5 June 2026",
           "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPX1VFV1dSUGM1b3V2dmxqUko4ZUVNVlJ3dUZYelFFRDJlVEZsNVprQjVoWGNYcGFEcV9XT1h6aFlNdVFhSG9jblF2ZzNLbUVUa3U5M3YzdDBMX3lRdmZJeXBqX0dYZ0s3WEFwTEhVMWFKQzUzM0VJemxwQk9SUUJ4YWtlbnFQMGhsd2xydXdMZzlQZjBlMk5JM3VkYWdWbzF2WnpUaFVaQm5HYVVpS1liS2xDRQ?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -1127,15 +1168,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20180618T183815Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "What is the nuclear fuel cycle? | IAEA",
-          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9jZmxCemZWMlpIRzNTRG83Z19VaXEwSm9EV2YtNFBUaHc3YnBnTVJyTjZiNUFZbWZqRW0zM2hIdW84RmM3d3ZoaGZHbEdxUW5CMUhTeDhpMkdtQUlXUlE1M0dHNk9kd3RJSW5r?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260523T015333Z",
           "source": "GoogleNews"
         },
         {
@@ -1373,15 +1405,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "Monographs",
-          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE11R2dYcmF3YWpVWEFjLUg5ZUFoTUJkMWlCQ3lXTmRDNHpmSmt6dk5jNGQ5YUpCZ1d1MWhTcUpzQXpnSk1BcER5SkxyaUlCa1I0Nklmc2g2czRPdTlqcWpoLTF1N2ZPQWhSUkxZ?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260907T081026Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "IAEA and World Bank Group Collaborate to Advance Nuclear Energy for Development",
           "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNSENsRUU3amZoRmhWTDhoQjB2VDFqQ0tkeUZ0cDhDamFiTVp4UTdiS2tKSzNXa0JNejRfVU4yLWJkRjZsdU1xdHhJVDlid0M2YzhDOFZCNXhTeDFoR0otV0o3amwzV29iQmdpcnBoV2p4aFRsUnlwSFZLUFZubHdlTVFya0dROElJUjdYVE5PYzlqazYxSjczUFVXODd0ZF9Ka0RyM2dBV3FZUl9ReHBDbTNGN3VoZw?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -1400,12 +1423,30 @@
           "source": "GoogleNews"
         },
         {
+          "title": "What You Need to Know about the IAEA General Conference",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPb2kwUzFvcFo4RG1FcXJsRTFPSnJFSWYxZjk2X0t2SnBzWS0xTmJVTXFGRlEwRThoc0JseGJJQmZ4ajd1YnRGb2xsUkhobkl2QUhMc0RkWVJyTHdFaVFnTkxad09YbzlrTkR4Rlo5VEtRd3VCUkNVUkw1NElfeVpTNzRnbkpCOFRWVkJYdWcxR3N3MkRNZGxn?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260910T125156Z",
+          "source": "GoogleNews"
+        },
+        {
           "title": "IAEA Holds First SMR School in a Technology Provider Country",
           "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOdmFzVHlXb2tVMjZ3T3VoLVZlQXlXRHJGSnl4NWJOZzV4am9tUm1zREdBRS1iRzNDbTJpeG9GN284VVhXZWFJUjcwZ3ZZWVBsTUhhT2FQTG5JbHVBS3F0d3F5NFlIUHBWWXNZcThqT3Y2WTM5S3ZoY3FUTGR4REpUQjBpaWNKeUp2RVJFbURpd0xkZkR3MmowaUFtcmg?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
           "seendate": "20260701T070000Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Monographs",
+          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE11R2dYcmF3YWpVWEFjLUg5ZUFoTUJkMWlCQ3lXTmRDNHpmSmt6dk5jNGQ5YUpCZ1d1MWhTcUpzQXpnSk1BcER5SkxyaUlCa1I0Nklmc2g2czRPdTlqcWpoLTF1N2ZPQWhSUkxZ?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260907T081026Z",
           "source": "GoogleNews"
         },
         {
@@ -1640,24 +1681,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20260906T012741Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "Non-serial Publications",
-          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE03azA0SzZWZmE1ZkVkbnN1eFZhU2FSLXJPdUtHRDR2Z015Umlsc2g3S0drZFJLMTRoX2FnckJIMHR3VS1VblJWZlFhc0YxSXJUMWwyYl9sYmc1dkhZeHNhR2dGRmFTd2drUzRDQzdDYjVpbG1SVHVyWElrd0k?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260904T061620Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "IAEA Hosts Workshop for International Financial Institutions on Nuclear Financing",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPb0llQ09ZU1ZnMHZ2Njl4MHpLX3dieEFxeE5jQzNpU18zRFRHR0pwQ2NFTGRjZmw0U29BTmNoaF94VlhfUXU4WElSVVlhVy1LR1R3RkFsWjA3YU1ham1EemVzV1RodVE3UE1hV0JUckNMWjJKNExJX3ZqOG9ZbG1KRnZvSjdlYTI5elVOcjRHQlZOdWxLT0hvMWRmYjVMVjhVLWpBZEtiWWxfZU9PUmp1Mm9xRTR6VlBR?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260908T110229Z",
           "source": "GoogleNews"
         }
       ],
@@ -38295,6 +38318,18 @@
       "title": "APPLICATION OF SAFEGUARDS IN THE DEMOCRATIC PEOPLE’S REPUBLIC OF KOREA",
       "url": null,
       "date": "2026-08-28",
+      "weight": 1.0
+    },
+    {
+      "title": "Implementation of the NPT Safeguards Agreement and relevant provisions of the United Nations Security Council resolutions in the",
+      "url": null,
+      "date": "2026-09-01",
+      "weight": 1.0
+    },
+    {
+      "title": "Implementation of the NPT Safeguards Agreement in the Syrian Arab Republic",
+      "url": null,
+      "date": "2026-09-09",
       "weight": 1.0
     },
     {
