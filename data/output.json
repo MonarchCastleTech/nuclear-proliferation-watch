@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "nuclear-proliferation-watch",
-    "generated": "2026-09-10T05:20:09.773774+00:00",
+    "generated": "2026-09-10T11:51:20.843132+00:00",
     "mode": "live",
     "sources": [
       "IAEA official pages",
@@ -14,7 +14,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-09-10T05:20:09.765307+00:00",
+    "issued_at": "2026-09-10T11:51:20.834556+00:00",
     "horizon": "0-30 days",
     "classification": "nuclear-escalation-pressure-not-test-or-weapon-probability",
     "score": 11.4,
@@ -28,10 +28,10 @@
         "available": true,
         "score": 25.4,
         "current_14d_weight": 4.4,
-        "current_14d_titles": 27,
+        "current_14d_titles": 25,
         "baseline_periods": 8,
-        "baseline_median": 0.8,
-        "anomaly_z": 4.86,
+        "baseline_median": 0.4,
+        "anomaly_z": 6.74,
         "evidence": [
           {
             "title": "INPRO Methodology for Sustainability Assessments of Nuclear Energy Systems: Proliferation Resistance",
@@ -124,7 +124,7 @@
         "available": true,
         "score": 0.0,
         "current_30d_diagnostic_weight": 0.0,
-        "events_considered": 1820,
+        "events_considered": 1821,
         "sites_monitored": 8,
         "anomaly_z": 0.0,
         "evidence": [],
@@ -689,6 +689,17 @@
           "facility_security_incidents": 12.6,
           "test_site_seismicity": 0.0
         }
+      },
+      {
+        "timestamp": "2026-09-10T11:51:20.834556+00:00",
+        "score": 11.4,
+        "level": "BASELINE",
+        "components": {
+          "iaea_safeguards_strain": 25.4,
+          "npwmd_designation_delta": 0.0,
+          "facility_security_incidents": 12.6,
+          "test_site_seismicity": 0.0
+        }
       }
     ],
     "data_health": {
@@ -849,15 +860,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "Tritium Level Far Below Japan’s Operational Limit in 23rd Batch of ALPS Treated Water, IAEA Confirms",
-          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPQkVSMDNSRGZsbTFWNDZOYmU3bE4wTTl0clNhZS1mN2N1NTZLVngyX19PWXFaMVpNOXM5Sk9ZYzZ5MVFjaUtfRkpSZF9NLU9KcmFZMzVnM2FYajVwd2ZuSnVVNy1heWhxWUZkbHNJQ0t0WTE5Y2tkdHQxMng0SEtMTWdiX0t3WFBBdzV4THlMb3Vxd19ONDAxTE5QVkVXU0ZzUkhqTUExRV82VUJPX1ZKZE4xNXgwMnZ0cTFkODVzLVJ1cFdDeWJubzZKbFBOM0x4dFdsZ2NPUFV5aG8?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260831T070000Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "Joint Statement by the Minister of Foreign Affairs and Expatriates of the Syrian Arab Republic and the Director General of the International Atomic Energy Agency | IAEA",
           "url": "https://news.google.com/rss/articles/CBMirwJBVV95cUxQVGxoNExaaUJwbkNqVmpuQVc5c1NDMWxMQ3dsNHl0VFNpa0kzb2JacUxzZk9CTW9hZ1ZBeXdXU1ZTVFFqcG9EeklINjNqZGZmNDZfczVPbFAxUm40cnVYY205T09fVzdXZHZDVERFcVhwbkNMNV9SZnRJVEQ0SGpBd2E5c28tQm02UmFfSkJyRHZLZ1NNc3RwR0htUF9KNXVTUHF6NTZDYmh2cWZMWjZSQlFER01wREFuOFY2RDIyeS1VZm9uZFBsampfVUw5NlFQSG5sd2cwb3RkRmljdHBLcDhHU0ZyZDU5Q2ZGSjl6VnRQaUQ0Yy1iMmJPTDhPdWJlbEhnbVlLbUFMLTVTZEY0VFAxMGxDajlhRURqd1oxVzlab2dzS2tfR1VUVUpoWXc?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -990,6 +992,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20260601T164650Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Tritium Level Far Below Japan’s Operational Limit in 23rd Batch of ALPS Treated Water, IAEA Confirms",
+          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPQkVSMDNSRGZsbTFWNDZOYmU3bE4wTTl0clNhZS1mN2N1NTZLVngyX19PWXFaMVpNOXM5Sk9ZYzZ5MVFjaUtfRkpSZF9NLU9KcmFZMzVnM2FYajVwd2ZuSnVVNy1heWhxWUZkbHNJQ0t0WTE5Y2tkdHQxMng0SEtMTWdiX0t3WFBBdzV4THlMb3Vxd19ONDAxTE5QVkVXU0ZzUkhqTUExRV82VUJPX1ZKZE4xNXgwMnZ0cTFkODVzLVJ1cFdDeWJubzZKbFBOM0x4dFdsZ2NPUFV5aG8?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260831T070000Z",
           "source": "GoogleNews"
         },
         {
@@ -1371,15 +1382,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "Nuclear Techniques Improve Rice Varieties, Boost Yields in Lao PDR",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQbWpjTF9xSE1DMEM1eWRRNHRQVElRVENNZGNzRmV5RkZJZGFydndObk4zQ25aUW4yUVpLNVd6RGFnNmQwWUxwVHBkdFdYS1ZYYWtLU0hjR0JodkVpaHVsUl82aGhaaXlxeFc2amFmSjRSY0RkUXJtdDJ6dl9BaVB3UmxjNHM3dXV1R1c0TjI2OE1Hem0zekprOVc4YkY1dHFmcmlN?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260831T070000Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "IAEA and World Bank Group Collaborate to Advance Nuclear Energy for Development",
           "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNSENsRUU3amZoRmhWTDhoQjB2VDFqQ0tkeUZ0cDhDamFiTVp4UTdiS2tKSzNXa0JNejRfVU4yLWJkRjZsdU1xdHhJVDlid0M2YzhDOFZCNXhTeDFoR0otV0o3amwzV29iQmdpcnBoV2p4aFRsUnlwSFZLUFZubHdlTVFya0dROElJUjdYVE5PYzlqazYxSjczUFVXODd0ZF9Ka0RyM2dBV3FZUl9ReHBDbTNGN3VoZw?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -1524,15 +1526,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "70th IAEA General Conference - Technical Cooperation",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOYzc3N2hjTkxLY0k5ZWlPRWIxS2xyZUxLZXN1eDBfcjhkbnE2X3VnWTFhakFwS2J3YkZXWWY5UlE5VHZCSUsxU3NBcEJ1cExibjBfSzVYemZYWTV6T1p1LUdEWVA2bzdVdUR6djN4S2pPMUxJa3VGWGVmWU5hQkZKaFlyWmZ5bDVrY1dXc3k5M29iUzdGV2piOEdtOHBwUE5EU09pbnFfQzEtRHphdGE0?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260811T070418Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "Webinar on Practical Approaches to Regulatory Cooperation: Leveraging of Reviews and the Regulatory Cooperation Toolkit | IAEA",
           "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNdkN2RE5HRmozZFVzb1pSTl9lV3dBTDRpVGRjQlBsV1lQSG5FdjJlRC1uN0tHYkpLZ3NVczJHSUNQdXYxLWlxSlhGVVo1QV9qYVo5SS1YUkR2Q1N5QXQyOUpDUURQNW9JZzZfTXdtSXh3dG05S3Y5OVZMVHdFTGN5OWoza1htY3pUWnBidHpaRHBtTkYtRl9xeGNDUk1Dek9oYWtlek5kcHFDNTg1OHZWNEEtRVpOVUFweHpYYm5KTmZNc2h6Zm9WUnpXSFNGWE9yNHo1dV94Z1VlNDZpOS1BMy14TGVSZGU2X1lrSg?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -1584,6 +1577,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20260814T070000Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Improving the Understanding of Irradiation Creep Behaviour in Nuclear Graphite Models and Mechanisms",
+          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPN1lzQm0tOVJIc0pON2xCaEQ2MXlJZXBnaEZJUVRTWFhEUGdlbWgweXVjNXpQVTBHWTFaS1F4ODB3S1ZiREtmb1dKVV9BMExwSXZpZUN6NGdjVTlOdEpJTWJIemhzTGNmYzBfUDAtUktwbEYxZkc0djFZOG5XTTVKckFQQjAyUjhySFhFVk5yenZSdkJQUktCUU92cUVUTUJoVU4tZGZUa1M3OGh6VmRtWGtoelkzellJWF9PTVFTbi10SkhHU2JXa2JGSE51cWRZQTBSaklR?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260604T120939Z",
           "source": "GoogleNews"
         },
         {
@@ -1647,6 +1649,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20260904T061620Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "IAEA Hosts Workshop for International Financial Institutions on Nuclear Financing",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPb0llQ09ZU1ZnMHZ2Njl4MHpLX3dieEFxeE5jQzNpU18zRFRHR0pwQ2NFTGRjZmw0U29BTmNoaF94VlhfUXU4WElSVVlhVy1LR1R3RkFsWjA3YU1ham1EemVzV1RodVE3UE1hV0JUckNMWjJKNExJX3ZqOG9ZbG1KRnZvSjdlYTI5elVOcjRHQlZOdWxLT0hvMWRmYjVMVjhVLWpBZEtiWWxfZU9PUmp1Mm9xRTR6VlBR?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260908T110229Z",
           "source": "GoogleNews"
         }
       ],
@@ -9313,6 +9324,22 @@
           "lon": 87.9952,
           "lat": 41.8774,
           "depth_km": 10,
+          "source": "USGS"
+        },
+        {
+          "id": "nn00924317",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1789032866349,
+          "magnitude": 1.53,
+          "magnitude_type": "ml",
+          "event_type": "earthquake",
+          "place": "30 km SE of Mina, Nevada",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00924317",
+          "lon": -117.8658,
+          "lat": 38.193,
+          "depth_km": 0.0556,
           "source": "USGS"
         },
         {
