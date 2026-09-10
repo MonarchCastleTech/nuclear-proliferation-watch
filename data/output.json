@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "nuclear-proliferation-watch",
-    "generated": "2026-09-10T16:41:59.056445+00:00",
+    "generated": "2026-09-10T21:13:05.431484+00:00",
     "mode": "live",
     "sources": [
       "IAEA official pages",
@@ -14,7 +14,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-09-10T16:41:59.048174+00:00",
+    "issued_at": "2026-09-10T21:13:05.423041+00:00",
     "horizon": "0-30 days",
     "classification": "nuclear-escalation-pressure-not-test-or-weapon-probability",
     "score": 11.4,
@@ -38,6 +38,12 @@
             "url": null,
             "date": "2026-09-09",
             "weight": 1.6
+          },
+          {
+            "title": "Implementation of the NPT Safeguards Agreement and relevant provisions of United Nations Security Council resolutions in the Isl",
+            "url": null,
+            "date": "2026-09-09",
+            "weight": 1.0
           },
           {
             "title": "APPLICATION OF SAFEGUARDS IN THE DEMOCRATIC PEOPLE’S REPUBLIC OF KOREA",
@@ -64,12 +70,6 @@
             "weight": 1.0
           },
           {
-            "title": "Implementation of the NPT Safeguards Agreement and relevant provisions of United Nations Security Council resolutions in the Isl",
-            "url": null,
-            "date": "2026-09-09",
-            "weight": 1.0
-          },
-          {
             "title": "Webinar on Practical Approaches to Regulatory Cooperation: Leveraging of Reviews and the Regulatory Cooperation Toolkit | IAEA",
             "url": null,
             "date": "2026-09-02",
@@ -89,8 +89,8 @@
         "removed_count": 0,
         "added": [],
         "removed": [],
-        "publish_date": "2026-09-08",
-        "sha256": "1420bb7f85703354657128718c8e670f94c01d461b6dff9c446582bb0eaeeb70",
+        "publish_date": "2026-09-09",
+        "sha256": "4da825621635b7d3c36039be0e83fdb2619200616292b5204bcffda78be9c89d",
         "retained": false
       },
       {
@@ -136,7 +136,7 @@
         "available": true,
         "score": 0.0,
         "current_30d_diagnostic_weight": 0.0,
-        "events_considered": 1821,
+        "events_considered": 1824,
         "sites_monitored": 8,
         "anomaly_z": 0.0,
         "evidence": [],
@@ -723,6 +723,17 @@
           "facility_security_incidents": 12.6,
           "test_site_seismicity": 0.0
         }
+      },
+      {
+        "timestamp": "2026-09-10T21:13:05.423041+00:00",
+        "score": 11.4,
+        "level": "BASELINE",
+        "components": {
+          "iaea_safeguards_strain": 25.4,
+          "npwmd_designation_delta": 0.0,
+          "facility_security_incidents": 12.6,
+          "test_site_seismicity": 0.0
+        }
       }
     ],
     "data_health": {
@@ -792,6 +803,15 @@
   "live_data": {
     "iaea_titles": {
       "signals": [
+        {
+          "title": "Implementation of the NPT Safeguards Agreement and relevant provisions of United Nations Security Council resolutions in the Isl",
+          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE82SnRXenNPemtablJ1b192ZzI1Um9OT1VpZ18wRkZkdUtVLVV3QWRFVm1jbEFSRm5KajNHOFZGQ2NyUjJfckVnTEkwckI3aXdHQjZZeGdVS2psdTB0bzhsaXdLcm5oZw?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260909T191823Z",
+          "source": "GoogleNews"
+        },
         {
           "title": "APPLICATION OF SAFEGUARDS IN THE DEMOCRATIC PEOPLE’S REPUBLIC OF KOREA",
           "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1HMjRmZ282VjdaazFlRmtZUWdBZFpMOUZ3WGt6dU1sc2h3dUhBSzlMUG1yYlJxS0R6OEFHV0YyWFdUZFlYWllJOUN0SUstUWQxQjNuSEFFVkx5UThGZ0ZkeHllU2lfZw?oc=5",
@@ -880,15 +900,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20260904T121525Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "Implementation of the NPT Safeguards Agreement and relevant provisions of United Nations Security Council resolutions in the Isl",
-          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE82SnRXenNPemtablJ1b192ZzI1Um9OT1VpZ18wRkZkdUtVLVV3QWRFVm1jbEFSRm5KajNHOFZGQ2NyUjJfckVnTEkwckI3aXdHQjZZeGdVS2psdTB0bzhsaXdLcm5oZw?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260909T191823Z",
           "source": "GoogleNews"
         },
         {
@@ -1108,6 +1119,15 @@
           "source": "GoogleNews"
         },
         {
+          "title": "Strengthening Viet Nam’s Nuclear Liability Framework",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQc0xtbHZaX2E4V250c0ZFZzFhSXYtZjE3dnQ1aFR2d1NnUWZKWHl1dXlFMDd6TWcxbXUzV0NITU54UWJiTWNXMmxRV01ab0VqaWFHRmxoT2dHNm9YaVdUUHhVQzZqR0E2cnp1ZW9RSGJRWWtrUW5oT3BCRklZUUQ5WmRYR2RycTNQMEh0b1hIT0U?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260716T070000Z",
+          "source": "GoogleNews"
+        },
+        {
           "title": "IAEA Concludes International Physical Protection Advisory Follow-Up Mission in China",
           "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQeGN1aGpSZVE2b1lpZ01sczhLdzFiTGJ1d3ZGU1JTUkV4VkJ6dDhPX2tHaHVIajR6aUFERG5WY2tBdnZqZ0tNd0JVbFFReE5QTzZSS1VJWUR3TEZuMHVHeU91b3hsVnBWUFlfWG5vQzM0ZXU4XzlKOTJjWkMxTE1JVTFvM1p1bW1nNS1zUWFQcG10bjhnR0M4MFpwV2cwVklPUUo0VFBxQUt4emFCSHVmdWFKajcwbDNWU3VLZzllVGhLdk9MY1RBZw?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -1123,15 +1143,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20260626T070000Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "Tritium Level Far Below Japan’s Operational Limit in 23rd Batch of ALPS Treated Water, IAEA Confirms",
-          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPQkVSMDNSRGZsbTFWNDZOYmU3bE4wTTl0clNhZS1mN2N1NTZLVngyX19PWXFaMVpNOXM5Sk9ZYzZ5MVFjaUtfRkpSZF9NLU9KcmFZMzVnM2FYajVwd2ZuSnVVNy1heWhxWUZkbHNJQ0t0WTE5Y2tkdHQxMng0SEtMTWdiX0t3WFBBdzV4THlMb3Vxd19ONDAxTE5QVkVXU0ZzUkhqTUExRV82VUJPX1ZKZE4xNXgwMnZ0cTFkODVzLVJ1cFdDeWJubzZKbFBOM0x4dFdsZ2NPUFV5aG8?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260831T070000Z",
           "source": "GoogleNews"
         },
         {
@@ -1153,6 +1164,15 @@
           "source": "GoogleNews"
         },
         {
+          "title": "Tritium Level Far Below Japan’s Operational Limit in 23rd Batch of ALPS Treated Water, IAEA Confirms",
+          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPQkVSMDNSRGZsbTFWNDZOYmU3bE4wTTl0clNhZS1mN2N1NTZLVngyX19PWXFaMVpNOXM5Sk9ZYzZ5MVFjaUtfRkpSZF9NLU9KcmFZMzVnM2FYajVwd2ZuSnVVNy1heWhxWUZkbHNJQ0t0WTE5Y2tkdHQxMng0SEtMTWdiX0t3WFBBdzV4THlMb3Vxd19ONDAxTE5QVkVXU0ZzUkhqTUExRV82VUJPX1ZKZE4xNXgwMnZ0cTFkODVzLVJ1cFdDeWJubzZKbFBOM0x4dFdsZ2NPUFV5aG8?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260831T070000Z",
+          "source": "GoogleNews"
+        },
+        {
           "title": "TECDOC Series",
           "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1zd1J5aVpjR2NLUGlfY2dYdlBRZ1FfT0hPcE1wN2RyR2Q5aC1lY3Nndk13Zlh4dTdZMzU3ODVCZV9GeUNTVkFybW5mTnBmVHJra1R2MVUzU3paS2t6YW90enB2M3podHh3cGc0NWlNZw?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -1168,6 +1188,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20180618T183815Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Resolutions and Other Decisions of the General Conference | IAEA",
+          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1oazMzcGoyWlZRYkY1cW1HRmJnRi0xZXBxcUk0RmpvbnBKajhZeTlBSEd0SUJLaVRwSmhGNVZVNDVJYlhmUzk0R0J2WEpKVnJy?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260826T070000Z",
           "source": "GoogleNews"
         },
         {
@@ -1405,6 +1434,15 @@
           "source": "GoogleNews"
         },
         {
+          "title": "What You Need to Know about the IAEA General Conference",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPb2kwUzFvcFo4RG1FcXJsRTFPSnJFSWYxZjk2X0t2SnBzWS0xTmJVTXFGRlEwRThoc0JseGJJQmZ4ajd1YnRGb2xsUkhobkl2QUhMc0RkWVJyTHdFaVFnTkxad09YbzlrTkR4Rlo5VEtRd3VCUkNVUkw1NElfeVpTNzRnbkpCOFRWVkJYdWcxR3N3MkRNZGxn?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260910T063005Z",
+          "source": "GoogleNews"
+        },
+        {
           "title": "IAEA and World Bank Group Collaborate to Advance Nuclear Energy for Development",
           "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNSENsRUU3amZoRmhWTDhoQjB2VDFqQ0tkeUZ0cDhDamFiTVp4UTdiS2tKSzNXa0JNejRfVU4yLWJkRjZsdU1xdHhJVDlid0M2YzhDOFZCNXhTeDFoR0otV0o3amwzV29iQmdpcnBoV2p4aFRsUnlwSFZLUFZubHdlTVFya0dROElJUjdYVE5PYzlqazYxSjczUFVXODd0ZF9Ka0RyM2dBV3FZUl9ReHBDbTNGN3VoZw?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -1420,15 +1458,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20260721T142539Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "What You Need to Know about the IAEA General Conference",
-          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPb2kwUzFvcFo4RG1FcXJsRTFPSnJFSWYxZjk2X0t2SnBzWS0xTmJVTXFGRlEwRThoc0JseGJJQmZ4ajd1YnRGb2xsUkhobkl2QUhMc0RkWVJyTHdFaVFnTkxad09YbzlrTkR4Rlo5VEtRd3VCUkNVUkw1NElfeVpTNzRnbkpCOFRWVkJYdWcxR3N3MkRNZGxn?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260910T125156Z",
           "source": "GoogleNews"
         },
         {
@@ -1519,6 +1548,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20260909T084810Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Media Invited to the IAEA’s Scientific Forum on Rays of Hope: Delivering on the Promise of Cancer Care",
+          "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNV3VxaXlCNUk4WjFhS092bDd3U3Q3U2VMSWFXT1NDb1YzcTlSdlpFT0FBZjVDTS11a1NLWmxGdGpXT0lDX2lLZk9pTEZWeHdsSVUzOERNNEltT1Jvc1o3M3Zuc2FYM2puZ0I0emNJMF9RZW50UXZkRmFkb0RsZE5VblJwRlMxc3NzZUNiNWJJZC1PT0llSHcyQlpFQmR0Y2lBNGZPNnBnSjNpc3hsbEptLWhndF9QOEZ4VndpQi1QWEkyTXYyWkcwZVVEbXV6U1p3N3Rpdy1KUlJJUDc4RmN4SkZ3?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260910T155908Z",
           "source": "GoogleNews"
         },
         {
@@ -1654,33 +1692,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20260731T224449Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "Update 355 – IAEA Director General Statement on Situation in Ukraine",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQcWVqaTR2ai1MWjB2dDVDMloyYTY3bUhDbEtnWjdFZllZTjhiYm9wbXc5Z3N5aTJWSjJEWXN2cDl6Y09zcWlPVUE4c0Z4Q3o1Qm9IZktvVzV4X2NpSVFKbjhPZ0JCeWVUOE15U0FpMzc1OUpHQW9SSkxrcVZsczRHTWZTSHo0YkRjRnVtM25qcHpqckU4Q1Atd1dMY3lyX3lVdXc0MlY3RTFaNFNpUHF5bw?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260626T070000Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "Proceedings Series",
-          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9jRFA2R3k5RHp2bzRDa2JjLXJIdlJpSElSLV9MRVM4VGhZRkUxVFRaY1lRU2RGeENWU3RtcGNLd1ZjaWlxLXNhRDM4dHNyWDhjZGR2NEQ0aERUWURCNm8tMU1JWDhSZFhSQ2NfSzNpaVVIUGs5R2c?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260801T080536Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "Atomic Scholarship for the Shared Future",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPMmtmSml2cDBqYktkWGFxak5rd3ZzR2pTdkVJcmtkR25hZHlqR08wUUIzc3F4NlB3cE9ab0hmYkJsWms2MHc2elN0N2d5VDZwSlVWbnc2Z2NRNmFGcTktcWY0eEhPX2ExX1AwLUl6OHIyZG91YXBNcHVKRG9vNWkwdE8yZHJZTXJnakhfdVNiLU91ZWFCQ3dEWU1QS08?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260906T012741Z",
           "source": "GoogleNews"
         }
       ],
@@ -9119,8 +9130,8 @@
         }
       ],
       "count": 1195,
-      "publish_date": "2026-09-08",
-      "sha256": "1420bb7f85703354657128718c8e670f94c01d461b6dff9c446582bb0eaeeb70",
+      "publish_date": "2026-09-09",
+      "sha256": "4da825621635b7d3c36039be0e83fdb2619200616292b5204bcffda78be9c89d",
       "cached": false
     },
     "test_site_seismicity": {
@@ -9347,6 +9358,54 @@
           "lon": 87.9952,
           "lat": 41.8774,
           "depth_km": 10,
+          "source": "USGS"
+        },
+        {
+          "id": "ci41544312",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1789069160630,
+          "magnitude": 1.92,
+          "magnitude_type": "ml",
+          "event_type": "earthquake",
+          "place": "6 km NE of Coso Junction, CA",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41544312",
+          "lon": -117.907666666667,
+          "lat": 36.0826666666667,
+          "depth_km": 4.92,
+          "source": "USGS"
+        },
+        {
+          "id": "nn00924327",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1789067109467,
+          "magnitude": 1.64,
+          "magnitude_type": "ml",
+          "event_type": "earthquake",
+          "place": "84 km NNW of Rachel, Nevada",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00924327",
+          "lon": -116.069,
+          "lat": 38.3602,
+          "depth_km": 15.9987,
+          "source": "USGS"
+        },
+        {
+          "id": "ci41544104",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1789046010880,
+          "magnitude": 1.53,
+          "magnitude_type": "ml",
+          "event_type": "earthquake",
+          "place": "6 km NE of Coso Junction, CA",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41544104",
+          "lon": -117.9075,
+          "lat": 36.0868333333333,
+          "depth_km": 1.83,
           "source": "USGS"
         },
         {
@@ -38315,6 +38374,12 @@
       "weight": 1.6
     },
     {
+      "title": "Implementation of the NPT Safeguards Agreement and relevant provisions of United Nations Security Council resolutions in the Isl",
+      "url": null,
+      "date": "2026-09-09",
+      "weight": 1.0
+    },
+    {
       "title": "APPLICATION OF SAFEGUARDS IN THE DEMOCRATIC PEOPLE’S REPUBLIC OF KOREA",
       "url": null,
       "date": "2026-08-28",
@@ -38336,12 +38401,6 @@
       "title": "Innovation and Resilience in a Changing World - Safeguards as a Shared Responsibility - Social Media Toolkit | IAEA",
       "url": null,
       "date": "2026-09-04",
-      "weight": 1.0
-    },
-    {
-      "title": "Implementation of the NPT Safeguards Agreement and relevant provisions of United Nations Security Council resolutions in the Isl",
-      "url": null,
-      "date": "2026-09-09",
       "weight": 1.0
     },
     {
