@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "nuclear-proliferation-watch",
-    "generated": "2026-09-11T11:49:54.242880+00:00",
+    "generated": "2026-09-11T16:46:04.530856+00:00",
     "mode": "live",
     "sources": [
       "IAEA official pages",
@@ -14,7 +14,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-09-11T11:49:54.234262+00:00",
+    "issued_at": "2026-09-11T16:46:04.522283+00:00",
     "horizon": "0-30 days",
     "classification": "nuclear-escalation-pressure-not-test-or-weapon-probability",
     "score": 10.5,
@@ -28,7 +28,7 @@
         "available": true,
         "score": 22.8,
         "current_14d_weight": 3.4,
-        "current_14d_titles": 28,
+        "current_14d_titles": 29,
         "baseline_periods": 8,
         "baseline_median": 0.4,
         "anomaly_z": 5.06,
@@ -130,7 +130,7 @@
         "available": true,
         "score": 0.0,
         "current_30d_diagnostic_weight": 0.0,
-        "events_considered": 1823,
+        "events_considered": 1825,
         "sites_monitored": 8,
         "anomaly_z": 0.0,
         "evidence": [],
@@ -750,6 +750,17 @@
           "facility_security_incidents": 12.6,
           "test_site_seismicity": 0.0
         }
+      },
+      {
+        "timestamp": "2026-09-11T16:46:04.522283+00:00",
+        "score": 10.5,
+        "level": "BASELINE",
+        "components": {
+          "iaea_safeguards_strain": 22.8,
+          "npwmd_designation_delta": 0.0,
+          "facility_security_incidents": 12.6,
+          "test_site_seismicity": 0.0
+        }
       }
     ],
     "data_health": {
@@ -1279,21 +1290,21 @@
           "source": "GoogleNews"
         },
         {
+          "title": "70th IAEA General Conference",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5od3VwcHVkVHl6YXVaTmZVVjVjWUxEY3pDZjIzSGtERGgzd1JxdGtEWTBPUzJKQkZEdFZ1d2xQV1Z1Vmk4dVctMW5BWWpqeWlXOVB6Vi1zSGdFRUJjYXdFcm96bjFQbWJvQ1pGa0VPUUlGYnA0?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260911T085619Z",
+          "source": "GoogleNews"
+        },
+        {
           "title": "Board of Governors | IAEA",
           "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9Zd0V1MXBqbGV3VmFRQ2xnbkV3eF9YVjJoSUpXekdPRTd3OExGZ0gxTm0yMEs3aVNoYnJvQk1kRDIwZmptV1lQU0NCZXFfUQ?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
           "seendate": "20251014T203744Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "70th IAEA General Conference",
-          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5od3VwcHVkVHl6YXVaTmZVVjVjWUxEY3pDZjIzSGtERGgzd1JxdGtEWTBPUzJKQkZEdFZ1d2xQV1Z1Vmk4dVctMW5BWWpqeWlXOVB6Vi1zSGdFRUJjYXdFcm96bjFQbWJvQ1pGa0VPUUlGYnA0?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260910T140119Z",
           "source": "GoogleNews"
         },
         {
@@ -1486,6 +1497,15 @@
           "source": "GoogleNews"
         },
         {
+          "title": "Monographs",
+          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE11R2dYcmF3YWpVWEFjLUg5ZUFoTUJkMWlCQ3lXTmRDNHpmSmt6dk5jNGQ5YUpCZ1d1MWhTcUpzQXpnSk1BcER5SkxyaUlCa1I0Nklmc2g2czRPdTlqcWpoLTF1N2ZPQWhSUkxZ?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260907T081026Z",
+          "source": "GoogleNews"
+        },
+        {
           "title": "Tritium Level Far Below Japan’s Operational Limit in 20th Batch of ALPS Treated Water, IAEA Confirms",
           "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOOTlJcENPSlZsRHFsaTJJUlZRX2RqbU05S3FjaWprVTZsbjR6Z0FhbkVSbVJhM012OVRLd1J4THhXeHdDMDBTSVBXaDFGclVrR0IwNW5hb3JSc2h1ejl5b1NiVXREd3YyTC00czRpYWl2ZUdCRkh5emVycjdrdnFlc0ZValYwRGRUWmtVWHNqY1g0NnFyc1FRS09VUjUwR0RWOFhRYkZmLUpCdGdGR0FiRi14RGx1WDFkU3hWYnlLR1pDSXZFVHc2S0Q1Y2ZtM3huTjV5THJ2SlRSODA?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -1666,6 +1686,15 @@
           "source": "GoogleNews"
         },
         {
+          "title": "Protocolos de Control de Calidad para Radiodiagnóstico en América Latina y el Caribe",
+          "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE0zM2E0Mi1LZ25Ib1JLUXlZd2NrRWJFQWJSWXYtQWp0NFA0c3dvQ0lHRDZJa1VhejVnVjRwaElJQzhYMzVLcUVr?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260911T004213Z",
+          "source": "GoogleNews"
+        },
+        {
           "title": "Monographs",
           "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9XQld2aXJ5U1NqZ3liVVZ5TXRvcDF2SWk0QmxCN3BXSEtaVFk0aWp6dGxHdklFX2VkaDZ0a1VxNVhHa0djOV9UaW5KZk8yeFlfOS12bXhCcFgtLXJlSlpqUWp1RHRYaGVEbjcw?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -1698,25 +1727,7 @@
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
-          "seendate": "20260911T092957Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "Proceedings Series",
-          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9jRFA2R3k5RHp2bzRDa2JjLXJIdlJpSElSLV9MRVM4VGhZRkUxVFRaY1lRU2RGeENWU3RtcGNLd1ZjaWlxLXNhRDM4dHNyWDhjZGR2NEQ0aERUWURCNm8tMU1JWDhSZFhSQ2NfSzNpaVVIUGs5R2c?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260801T080536Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "Atomic Scholarship for the Shared Future",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPMmtmSml2cDBqYktkWGFxak5rd3ZzR2pTdkVJcmtkR25hZHlqR08wUUIzc3F4NlB3cE9ab0hmYkJsWms2MHc2elN0N2d5VDZwSlVWbnc2Z2NRNmFGcTktcWY0eEhPX2ExX1AwLUl6OHIyZG91YXBNcHVKRG9vNWkwdE8yZHJZTXJnakhfdVNiLU91ZWFCQ3dEWU1QS08?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260906T012741Z",
+          "seendate": "20260911T071850Z",
           "source": "GoogleNews"
         }
       ],
@@ -9383,6 +9394,38 @@
           "lon": 87.9952,
           "lat": 41.8774,
           "depth_km": 10,
+          "source": "USGS"
+        },
+        {
+          "id": "uu80156131",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1789138791610,
+          "magnitude": 2.06,
+          "magnitude_type": "ml",
+          "event_type": "earthquake",
+          "place": "5 km ESE of Pine Valley, Utah",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uu80156131",
+          "lon": -113.455,
+          "lat": 37.3735,
+          "depth_km": 5.58,
+          "source": "USGS"
+        },
+        {
+          "id": "ci41544768",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1789138506750,
+          "magnitude": 1.51,
+          "magnitude_type": "ml",
+          "event_type": "earthquake",
+          "place": "34 km ENE of Boron, CA",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41544768",
+          "lon": -117.3135,
+          "lat": 35.1286666666667,
+          "depth_km": 1.97,
           "source": "USGS"
         },
         {
