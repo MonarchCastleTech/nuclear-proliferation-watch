@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "nuclear-proliferation-watch",
-    "generated": "2026-09-10T21:13:05.431484+00:00",
+    "generated": "2026-09-11T05:17:42.469172+00:00",
     "mode": "live",
     "sources": [
       "IAEA official pages",
@@ -14,7 +14,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-09-10T21:13:05.423041+00:00",
+    "issued_at": "2026-09-11T05:17:42.460654+00:00",
     "horizon": "0-30 days",
     "classification": "nuclear-escalation-pressure-not-test-or-weapon-probability",
     "score": 11.4,
@@ -136,7 +136,7 @@
         "available": true,
         "score": 0.0,
         "current_30d_diagnostic_weight": 0.0,
-        "events_considered": 1824,
+        "events_considered": 1823,
         "sites_monitored": 8,
         "anomaly_z": 0.0,
         "evidence": [],
@@ -734,6 +734,17 @@
           "facility_security_incidents": 12.6,
           "test_site_seismicity": 0.0
         }
+      },
+      {
+        "timestamp": "2026-09-11T05:17:42.460654+00:00",
+        "score": 11.4,
+        "level": "BASELINE",
+        "components": {
+          "iaea_safeguards_strain": 25.4,
+          "npwmd_designation_delta": 0.0,
+          "facility_security_incidents": 12.6,
+          "test_site_seismicity": 0.0
+        }
       }
     ],
     "data_health": {
@@ -936,6 +947,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20260902T123248Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Rays of Hope",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1WaS1tT0p0c1c5Qnh3ekYwSkdoY09zVXRXZXVDLVJuejM1OEZJVURHMTRxdkp0MVVfQnB2R2dVZFI0VEZocWZnS1diNGpmNVZLeEUwS3QyOC1lalNfdUxOT1FmTFpYSW91RUE?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260910T203103Z",
           "source": "GoogleNews"
         },
         {
@@ -1164,15 +1184,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "Tritium Level Far Below Japan’s Operational Limit in 23rd Batch of ALPS Treated Water, IAEA Confirms",
-          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPQkVSMDNSRGZsbTFWNDZOYmU3bE4wTTl0clNhZS1mN2N1NTZLVngyX19PWXFaMVpNOXM5Sk9ZYzZ5MVFjaUtfRkpSZF9NLU9KcmFZMzVnM2FYajVwd2ZuSnVVNy1heWhxWUZkbHNJQ0t0WTE5Y2tkdHQxMng0SEtMTWdiX0t3WFBBdzV4THlMb3Vxd19ONDAxTE5QVkVXU0ZzUkhqTUExRV82VUJPX1ZKZE4xNXgwMnZ0cTFkODVzLVJ1cFdDeWJubzZKbFBOM0x4dFdsZ2NPUFV5aG8?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260831T070000Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "TECDOC Series",
           "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1zd1J5aVpjR2NLUGlfY2dYdlBRZ1FfT0hPcE1wN2RyR2Q5aC1lY3Nndk13Zlh4dTdZMzU3ODVCZV9GeUNTVkFybW5mTnBmVHJra1R2MVUzU3paS2t6YW90enB2M3podHh3cGc0NWlNZw?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -1206,6 +1217,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20260215T101500Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Tritium Level Far Below Japan’s Operational Limit in 23rd Batch of ALPS Treated Water, IAEA Confirms",
+          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPQkVSMDNSRGZsbTFWNDZOYmU3bE4wTTl0clNhZS1mN2N1NTZLVngyX19PWXFaMVpNOXM5Sk9ZYzZ5MVFjaUtfRkpSZF9NLU9KcmFZMzVnM2FYajVwd2ZuSnVVNy1heWhxWUZkbHNJQ0t0WTE5Y2tkdHQxMng0SEtMTWdiX0t3WFBBdzV4THlMb3Vxd19ONDAxTE5QVkVXU0ZzUkhqTUExRV82VUJPX1ZKZE4xNXgwMnZ0cTFkODVzLVJ1cFdDeWJubzZKbFBOM0x4dFdsZ2NPUFV5aG8?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260831T070000Z",
           "source": "GoogleNews"
         },
         {
@@ -1434,15 +1454,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "What You Need to Know about the IAEA General Conference",
-          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPb2kwUzFvcFo4RG1FcXJsRTFPSnJFSWYxZjk2X0t2SnBzWS0xTmJVTXFGRlEwRThoc0JseGJJQmZ4ajd1YnRGb2xsUkhobkl2QUhMc0RkWVJyTHdFaVFnTkxad09YbzlrTkR4Rlo5VEtRd3VCUkNVUkw1NElfeVpTNzRnbkpCOFRWVkJYdWcxR3N3MkRNZGxn?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260910T063005Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "IAEA and World Bank Group Collaborate to Advance Nuclear Energy for Development",
           "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNSENsRUU3amZoRmhWTDhoQjB2VDFqQ0tkeUZ0cDhDamFiTVp4UTdiS2tKSzNXa0JNejRfVU4yLWJkRjZsdU1xdHhJVDlid0M2YzhDOFZCNXhTeDFoR0otV0o3amwzV29iQmdpcnBoV2p4aFRsUnlwSFZLUFZubHdlTVFya0dROElJUjdYVE5PYzlqazYxSjczUFVXODd0ZF9Ka0RyM2dBV3FZUl9ReHBDbTNGN3VoZw?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -1461,21 +1472,21 @@
           "source": "GoogleNews"
         },
         {
+          "title": "What You Need to Know about the IAEA General Conference",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPb2kwUzFvcFo4RG1FcXJsRTFPSnJFSWYxZjk2X0t2SnBzWS0xTmJVTXFGRlEwRThoc0JseGJJQmZ4ajd1YnRGb2xsUkhobkl2QUhMc0RkWVJyTHdFaVFnTkxad09YbzlrTkR4Rlo5VEtRd3VCUkNVUkw1NElfeVpTNzRnbkpCOFRWVkJYdWcxR3N3MkRNZGxn?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260910T063005Z",
+          "source": "GoogleNews"
+        },
+        {
           "title": "IAEA Holds First SMR School in a Technology Provider Country",
           "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOdmFzVHlXb2tVMjZ3T3VoLVZlQXlXRHJGSnl4NWJOZzV4am9tUm1zREdBRS1iRzNDbTJpeG9GN284VVhXZWFJUjcwZ3ZZWVBsTUhhT2FQTG5JbHVBS3F0d3F5NFlIUHBWWXNZcThqT3Y2WTM5S3ZoY3FUTGR4REpUQjBpaWNKeUp2RVJFbURpd0xkZkR3MmowaUFtcmg?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
           "seendate": "20260701T070000Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "Monographs",
-          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE11R2dYcmF3YWpVWEFjLUg5ZUFoTUJkMWlCQ3lXTmRDNHpmSmt6dk5jNGQ5YUpCZ1d1MWhTcUpzQXpnSk1BcER5SkxyaUlCa1I0Nklmc2g2czRPdTlqcWpoLTF1N2ZPQWhSUkxZ?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260907T081026Z",
           "source": "GoogleNews"
         },
         {
@@ -9717,15 +9728,15 @@
           "site": "Nevada National Security Site",
           "site_lat": 37.12,
           "site_lon": -116.05,
-          "time": 1788386731340,
-          "magnitude": 1.67,
+          "time": 1788386731330,
+          "magnitude": 1.65,
           "magnitude_type": "md",
           "event_type": "earthquake",
-          "place": "18 km SW of Toms Place, CA",
+          "place": "19 km SW of Toms Place, CA",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75428947",
-          "lon": -118.83032989502,
-          "lat": 37.4529991149902,
-          "depth_km": 1.00999999046326,
+          "lon": -118.839666666667,
+          "lat": 37.4495,
+          "depth_km": 4.25,
           "source": "USGS"
         },
         {
@@ -38158,22 +38169,6 @@
           "lon": -115.6591,
           "lat": 36.6943,
           "depth_km": 14.7,
-          "source": "USGS"
-        },
-        {
-          "id": "nc75236112",
-          "site": "Nevada National Security Site",
-          "site_lat": 37.12,
-          "site_lon": -116.05,
-          "time": 1757541640410,
-          "magnitude": 2.11,
-          "magnitude_type": "md",
-          "event_type": "earthquake",
-          "place": "16 km SW of Toms Place, CA",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75236112",
-          "lon": -118.812666666667,
-          "lat": 37.4698333333333,
-          "depth_km": 2.24,
           "source": "USGS"
         },
         {
