@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "nuclear-proliferation-watch",
-    "generated": "2026-09-12T15:50:37.928966+00:00",
+    "generated": "2026-09-12T20:58:00.923752+00:00",
     "mode": "live",
     "sources": [
       "IAEA official pages",
@@ -14,7 +14,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-09-12T15:50:37.922174+00:00",
+    "issued_at": "2026-09-12T20:58:00.915113+00:00",
     "horizon": "0-30 days",
     "classification": "nuclear-escalation-pressure-not-test-or-weapon-probability",
     "score": 9.8,
@@ -28,7 +28,7 @@
         "available": true,
         "score": 20.8,
         "current_14d_weight": 2.6,
-        "current_14d_titles": 28,
+        "current_14d_titles": 27,
         "baseline_periods": 8,
         "baseline_median": 0.4,
         "anomaly_z": 3.71,
@@ -799,6 +799,17 @@
           "facility_security_incidents": 12.6,
           "test_site_seismicity": 0.0
         }
+      },
+      {
+        "timestamp": "2026-09-12T20:58:00.915113+00:00",
+        "score": 9.8,
+        "level": "BASELINE",
+        "components": {
+          "iaea_safeguards_strain": 20.8,
+          "npwmd_designation_delta": 0.0,
+          "facility_security_incidents": 12.6,
+          "test_site_seismicity": 0.0
+        }
       }
     ],
     "data_health": {
@@ -1157,21 +1168,21 @@
           "source": "GoogleNews"
         },
         {
+          "title": "Publications advanced search",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE4xLU0wXzZRM2R0ei1KSWhzOXlSWEFtWXF0OXlFWUs4TW94RjB3MmYweEt3QzlrT0xlbWxyNmYwV2g0RXRkQmh4SjhIeTFYOC05clJJcVJ1eFFPUm1HWFFBaG5iWGhjZlQ0a2J1SUlJSUxNNVlkaXc?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260912T071110Z",
+          "source": "GoogleNews"
+        },
+        {
           "title": "Upcoming events",
           "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE5aTmt0X0xVSHJnLXJSQzVvSjdwcGhOUUpESFhWa21Qa3ItSkEwaDM2a1htZ3VFU1FfdXk5RnhrcEpiSG5M?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
           "seendate": "20260529T111055Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "Publications advanced search",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9ndkwxZlljdVRpVlUzZHJ0aS1oYzFxMm5BeXhQMkphMTlvMXM3M3F4cUdtSnVXSHRmakJvcDFESnZBSTB3OUN5YlFuM090TENBVjhYM3Fkd2kxWi1YbFFyak9fMmJsMm5WVExFWUNB?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260908T054952Z",
           "source": "GoogleNews"
         },
         {
@@ -1661,15 +1672,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "TECDOC Series",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9MZjQtWDdlM3ViTERRSmZZeTJRU0dpM2hRcUVUT2p2RWQ3cnlmVXluZU1OcHV0aHNqSld3TzFfUndVc2lmYmJhUVc5SU9UcFZXcG5sT3dxcW5vMWVhSE1RVDF6SkpibHlvLUYtYU13?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260907T122212Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "Services Series",
           "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE54dmRCcFZ4WVA0Tjdlek92Wk9EOGJTdldPMkFNcUFyWUpJandGN1NDYmxrb0ppTFFMX1M5eUVJUzRZVVRaTWRLcm5yMjNGaENIX1NNOWtMaVF6WGFQQmJyekNJU2Vndw?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -1766,6 +1768,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20260731T224449Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Update 355 – IAEA Director General Statement on Situation in Ukraine",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQcWVqaTR2ai1MWjB2dDVDMloyYTY3bUhDbEtnWjdFZllZTjhiYm9wbXc5Z3N5aTJWSjJEWXN2cDl6Y09zcWlPVUE4c0Z4Q3o1Qm9IZktvVzV4X2NpSVFKbjhPZ0JCeWVUOE15U0FpMzc1OUpHQW9SSkxrcVZsczRHTWZTSHo0YkRjRnVtM25qcHpqckU4Q1Atd1dMY3lyX3lVdXc0MlY3RTFaNFNpUHF5bw?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260626T070000Z",
           "source": "GoogleNews"
         }
       ],
