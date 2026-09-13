@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "nuclear-proliferation-watch",
-    "generated": "2026-09-13T16:39:06.380465+00:00",
+    "generated": "2026-09-13T21:07:58.017075+00:00",
     "mode": "live",
     "sources": [
       "IAEA official pages",
@@ -14,7 +14,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-09-13T16:39:06.371812+00:00",
+    "issued_at": "2026-09-13T21:07:58.008752+00:00",
     "horizon": "0-30 days",
     "classification": "nuclear-escalation-pressure-not-test-or-weapon-probability",
     "score": 9.8,
@@ -843,6 +843,17 @@
           "facility_security_incidents": 12.6,
           "test_site_seismicity": 0.0
         }
+      },
+      {
+        "timestamp": "2026-09-13T21:07:58.008752+00:00",
+        "score": 9.8,
+        "level": "BASELINE",
+        "components": {
+          "iaea_safeguards_strain": 20.8,
+          "npwmd_designation_delta": 0.0,
+          "facility_security_incidents": 12.6,
+          "test_site_seismicity": 0.0
+        }
       }
     ],
     "data_health": {
@@ -1138,6 +1149,15 @@
           "source": "GoogleNews"
         },
         {
+          "title": "Publications advanced search",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1fTWExR1pDZkQwU2tSSkdKSkRKN3B2d01Fd21Iak1yVUhpQXF5S1BQelJZcXduTXI0cjRjYnpNN1dpd0dLSVA5NXdka1JfUUxFWnVIblBjd2Y0WHViNW4tOFR4Y3FuX1kzVFRQNUJVTGw0M3ZMN0E?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260911T100804Z",
+          "source": "GoogleNews"
+        },
+        {
           "title": "IAEA to Launch ATLAS: Pioneering Nuclear Solutions for Shipping and Offshore Energy, Washington, August 26-27, 2026",
           "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNRDVTbGRZSGxDb0YtYU55cUtCQWdnM0NkTWZoS2FaSlpXbk91WVE4MEFDS0FiWFdMLWl1ZTlXbktnOHZ3SHdzUVdkQk0xWEpka3FBVWdDYVBDeTl6VXNlRk1UZDZHbzRPWk95Mk5Xci1lNm0xeWc5dVhfa3UwcXQyejAxcDdoU2lRTjJDaWVrc1JVRHZVeDhzaFFUbUhwb0I5NTQtbDBlZmJrMzFWMm9wZC1fTFBPR09sSjRpY0tSZ1l3NVFiR2RHV0pucTJMdGp5dmQyd1FtN0tYcjVxNm05N0t5T3JCU0NYQXlkTQ?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -1183,15 +1203,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "Publications advanced search",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9ndkwxZlljdVRpVlUzZHJ0aS1oYzFxMm5BeXhQMkphMTlvMXM3M3F4cUdtSnVXSHRmakJvcDFESnZBSTB3OUN5YlFuM090TENBVjhYM3Fkd2kxWi1YbFFyak9fMmJsMm5WVExFWUNB?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260908T054952Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "Strengthening Viet Nam’s Nuclear Liability Framework",
           "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQc0xtbHZaX2E4V250c0ZFZzFhSXYtZjE3dnQ1aFR2d1NnUWZKWHl1dXlFMDd6TWcxbXUzV0NITU54UWJiTWNXMmxRV01ab0VqaWFHRmxoT2dHNm9YaVdUUHhVQzZqR0E2cnp1ZW9RSGJRWWtrUW5oT3BCRklZUUQ5WmRYR2RycTNQMEh0b1hIT0U?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -1207,15 +1218,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20260713T070000Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "Joint Statement by the Minister of Foreign Affairs and Expatriates of the Syrian Arab Republic and the Director General of the International Atomic Energy Agency | IAEA",
-          "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBmdnJGcHZ6RlprMUtjbWNDS1FjdWZrQ3dmbm92bkd0eGxneFdLRFp6WWJDZ2lFLThWVlYyaVNOanM5VVNXSlpyUWh1OA?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260818T123107Z",
           "source": "GoogleNews"
         },
         {
@@ -1252,6 +1254,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20150409T043334Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Joint Statement by the Minister of Foreign Affairs and Expatriates of the Syrian Arab Republic and the Director General of the International Atomic Energy Agency | IAEA",
+          "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBmdnJGcHZ6RlprMUtjbWNDS1FjdWZrQ3dmbm92bkd0eGxneFdLRFp6WWJDZ2lFLThWVlYyaVNOanM5VVNXSlpyUWh1OA?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260818T123107Z",
           "source": "GoogleNews"
         },
         {
@@ -1390,15 +1401,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "The Science Behind U.S. Advanced Reactors: From Innovation to Deployment",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQV3oyTXE1VmVfVDh6UU1IVlNfOWhFZDhPT3FyWjNidzFibC02TGs1Ny1kSVBsZy1idXNURmp0V3Myb3Y3YTZCUXRGZ3hkdTZrNFlpdFNjUXBVU1JmbHRnOGN6SFVUeEtIaFNjT2hVMkVmLXRjSk5mdVV6T3BQdTFSejJLYXl2bzN5elJrdUVOVDZOR2MwU0ZlcFBTLWtNUFBaU0FlNzBtdmhnaWprQ0ZSSk03UEhISmV1TUxNaldUSjNId1U?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260820T152242Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "Tritium Level Far Below Japan’s Operational Limit in 23rd Batch of ALPS Treated Water, IAEA Confirms",
           "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPQkVSMDNSRGZsbTFWNDZOYmU3bE4wTTl0clNhZS1mN2N1NTZLVngyX19PWXFaMVpNOXM5Sk9ZYzZ5MVFjaUtfRkpSZF9NLU9KcmFZMzVnM2FYajVwd2ZuSnVVNy1heWhxWUZkbHNJQ0t0WTE5Y2tkdHQxMng0SEtMTWdiX0t3WFBBdzV4THlMb3Vxd19ONDAxTE5QVkVXU0ZzUkhqTUExRV82VUJPX1ZKZE4xNXgwMnZ0cTFkODVzLVJ1cFdDeWJubzZKbFBOM0x4dFdsZ2NPUFV5aG8?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -1441,6 +1443,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20260820T070000Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "The Science Behind U.S. Advanced Reactors: From Innovation to Deployment",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQV3oyTXE1VmVfVDh6UU1IVlNfOWhFZDhPT3FyWjNidzFibC02TGs1Ny1kSVBsZy1idXNURmp0V3Myb3Y3YTZCUXRGZ3hkdTZrNFlpdFNjUXBVU1JmbHRnOGN6SFVUeEtIaFNjT2hVMkVmLXRjSk5mdVV6T3BQdTFSejJLYXl2bzN5elJrdUVOVDZOR2MwU0ZlcFBTLWtNUFBaU0FlNzBtdmhnaWprQ0ZSSk03UEhISmV1TUxNaldUSjNId1U?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260820T152242Z",
           "source": "GoogleNews"
         },
         {
@@ -1759,15 +1770,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "Media Invited to Launch of IAEA Initiative on Maritime Nuclear Applications in Washington, D.C.",
-          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQOTNuR0lKUmFzaE9ZNTNXTnp4ZUMzYVZ4S1VfWTVUZ1l0eXhvajk2VVk3cnowU2F2bHdDaVBXX1ZGcXdzUmRFMUQ0MlVHdjFLOFBodGVFcGd3cVFxNHRZcDM2dGg5NmlOSk1PLUpaMjJvZ2pZak93NFZRSmh5QWx3aVVMMTd6NWdwZERQdnU4S2NyWHdUM2twSDdSanRTZElRdk4wdlRlUDQ2S3VBWnJ5OHBCcUFrZFVsdmxoQVJiY1VOeUcxWDFQN2tZUF9BQVJnbWdjbW9B?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260814T070000Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "Improving the Understanding of Irradiation Creep Behaviour in Nuclear Graphite Models and Mechanisms",
           "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPN1lzQm0tOVJIc0pON2xCaEQ2MXlJZXBnaEZJUVRTWFhEUGdlbWgweXVjNXpQVTBHWTFaS1F4ODB3S1ZiREtmb1dKVV9BMExwSXZpZUN6NGdjVTlOdEpJTWJIemhzTGNmYzBfUDAtUktwbEYxZkc0djFZOG5XTTVKckFQQjAyUjhySFhFVk5yenZSdkJQUktCUU92cUVUTUJoVU4tZGZUa1M3OGh6VmRtWGtoelkzellJWF9PTVFTbi10SkhHU2JXa2JGSE51cWRZQTBSaklR?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -1810,6 +1812,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20260731T224449Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Update 355 – IAEA Director General Statement on Situation in Ukraine",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQcWVqaTR2ai1MWjB2dDVDMloyYTY3bUhDbEtnWjdFZllZTjhiYm9wbXc5Z3N5aTJWSjJEWXN2cDl6Y09zcWlPVUE4c0Z4Q3o1Qm9IZktvVzV4X2NpSVFKbjhPZ0JCeWVUOE15U0FpMzc1OUpHQW9SSkxrcVZsczRHTWZTSHo0YkRjRnVtM25qcHpqckU4Q1Atd1dMY3lyX3lVdXc0MlY3RTFaNFNpUHF5bw?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260626T070000Z",
           "source": "GoogleNews"
         }
       ],
