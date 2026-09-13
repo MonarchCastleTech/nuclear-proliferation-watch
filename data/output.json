@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "nuclear-proliferation-watch",
-    "generated": "2026-09-12T20:58:00.923752+00:00",
+    "generated": "2026-09-13T05:23:34.068494+00:00",
     "mode": "live",
     "sources": [
       "IAEA official pages",
@@ -14,7 +14,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-09-12T20:58:00.915113+00:00",
+    "issued_at": "2026-09-13T05:23:34.059995+00:00",
     "horizon": "0-30 days",
     "classification": "nuclear-escalation-pressure-not-test-or-weapon-probability",
     "score": 9.8,
@@ -124,7 +124,7 @@
         "available": true,
         "score": 0.0,
         "current_30d_diagnostic_weight": 0.0,
-        "events_considered": 1822,
+        "events_considered": 1818,
         "sites_monitored": 8,
         "anomaly_z": 0.0,
         "evidence": [],
@@ -810,6 +810,17 @@
           "facility_security_incidents": 12.6,
           "test_site_seismicity": 0.0
         }
+      },
+      {
+        "timestamp": "2026-09-13T05:23:34.059995+00:00",
+        "score": 9.8,
+        "level": "BASELINE",
+        "components": {
+          "iaea_safeguards_strain": 20.8,
+          "npwmd_designation_delta": 0.0,
+          "facility_security_incidents": 12.6,
+          "test_site_seismicity": 0.0
+        }
       }
     ],
     "data_health": {
@@ -889,21 +900,21 @@
           "source": "GoogleNews"
         },
         {
-          "title": "What You Need to Know about the IAEA General Conference",
-          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPb2kwUzFvcFo4RG1FcXJsRTFPSnJFSWYxZjk2X0t2SnBzWS0xTmJVTXFGRlEwRThoc0JseGJJQmZ4ajd1YnRGb2xsUkhobkl2QUhMc0RkWVJyTHdFaVFnTkxad09YbzlrTkR4Rlo5VEtRd3VCUkNVUkw1NElfeVpTNzRnbkpCOFRWVkJYdWcxR3N3MkRNZGxn?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260910T063005Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "What is Cherenkov Radiation? | IAEA",
           "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE50M1dSSEwxTTF1WEFhc0g2WHJhV0Y5amo4dmJRYkdjeXo3aEp4X1BoWk9jOEp2bVh6MXV1YlMxWmZacXRMZkFQOEUzSjRINEhYMzZyekZ3N3cyTlh1QXAzSE95M3IxNmduZUV4dVBkWlc?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
           "seendate": "20260728T070000Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "What You Need to Know about the IAEA General Conference",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPb2kwUzFvcFo4RG1FcXJsRTFPSnJFSWYxZjk2X0t2SnBzWS0xTmJVTXFGRlEwRThoc0JseGJJQmZ4ajd1YnRGb2xsUkhobkl2QUhMc0RkWVJyTHdFaVFnTkxad09YbzlrTkR4Rlo5VEtRd3VCUkNVUkw1NElfeVpTNzRnbkpCOFRWVkJYdWcxR3N3MkRNZGxn?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260910T063005Z",
           "source": "GoogleNews"
         },
         {
@@ -940,15 +951,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20260905T104302Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "What is Environmental Remediation?",
-          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBqYXIyNUphaFBfUjQzbHFxQi1sajVVX29sYVFNU0c5Yy16Uzg3amFxSkZpOVU0YU1kd05TaDc1WjlhVi1McUlwZ1VHaHpXdDE2LW8yX2RXeld3TVdsY2J3RHpaZ1dHbGVqalN6amE1R2h6WHpLdS0wSw?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260904T070000Z",
           "source": "GoogleNews"
         },
         {
@@ -1258,21 +1260,21 @@
           "source": "GoogleNews"
         },
         {
+          "title": "Resolutions and Other Decisions of the General Conference | IAEA",
+          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1oazMzcGoyWlZRYkY1cW1HRmJnRi0xZXBxcUk0RmpvbnBKajhZeTlBSEd0SUJLaVRwSmhGNVZVNDVJYlhmUzk0R0J2WEpKVnJy?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260826T070000Z",
+          "source": "GoogleNews"
+        },
+        {
           "title": "International Training Course on Safety and Security in the Management of Disused Sealed Radioactive Sources",
           "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE84MzNIRWxMMFczaS1TVHpHT05xdm9HRHpqb0xKYjVaZHRnYnI0V05PaU1xeE1wVkp2aTBtZnZ1aFJJQ1hDdVlsaEZpc3duUQ?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
           "seendate": "20260215T101500Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "Monographs",
-          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1ic2FmY3dWSEZ3NEQ2aGp3UVA3eDFtRGFQa2poUG82aU8xWnRUbFRyaTZ5N3h2Ty1QWmJDYjVZM1FldkhqTk5nd1JtNDNqdWlEQXhBa01MV1VndFRTb08zV2pZZXBQUmhZRmJB?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260907T164102Z",
           "source": "GoogleNews"
         },
         {
@@ -1294,6 +1296,15 @@
           "source": "GoogleNews"
         },
         {
+          "title": "Monographs",
+          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1ic2FmY3dWSEZ3NEQ2aGp3UVA3eDFtRGFQa2poUG82aU8xWnRUbFRyaTZ5N3h2Ty1QWmJDYjVZM1FldkhqTk5nd1JtNDNqdWlEQXhBa01MV1VndFRTb08zV2pZZXBQUmhZRmJB?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260907T164102Z",
+          "source": "GoogleNews"
+        },
+        {
           "title": "IAEA Mission Says Egypt is Committed to Strengthening its National Regulatory Framework for Safety",
           "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOUjh5bDhtMzQtQk02cVFwV2lfbWZsQW5UV3RFdS1ENndLN0xNSFlka3ZDYmtmSFZoUkFvN1pNcHd2V29KaGhscTkzVnRhZmRPNzZYSF9oSDZSeVhTdzgzd2o5YWpiVXdZZ0hLeW94NkFWU095aHp5alBvM2VvYndXclJENllnNG90MzluWVhkeWFpdXdlanZfQU9yLW51dE0wUVNvVG9TcDRCa2Nqajl6bGNNREJVLU1KU25YeG1kd1IyY2g5NlMzU3J5S2REelBBX0tjdVJ4Q1NFRDA?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -1303,12 +1314,12 @@
           "source": "GoogleNews"
         },
         {
-          "title": "70th IAEA General Conference",
-          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFB0c1JMazJsR3VPQkE4ZkJyZzl6NGQzNmtwT2FUcUxqU1lBbXU2eEZYRW5OMkxiZ2NVVXNLYl8yNmlmNHQ1XzNmWjQxckhtbmZtdmJxazJIV2s0SHhPeUxNTmdwbE1XZEQ0ZGNUWW5CV2JqX1RFYzlibjFR?oc=5",
+          "title": "Relevant specifically for the LMP in China (hosted by Harbin Engineering University and China Atomic Energy Authority): - Artifi",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE11U1BqWmpPaTZZY1RrM1ZqOEMxOV80OEotNlhlZGR5UEJCMGxsZkZwSE90Q2UzLVAwWjRiNGVxQnVod3lubmdlVHJ2YjlfLWVuYm8zYTFYMm16V3J5X05pVU9iN2FFR1ZaNGF4UXpxa2ZrVnlhNVZ5MXFR?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
-          "seendate": "20260726T121502Z",
+          "seendate": "20260912T230759Z",
           "source": "GoogleNews"
         },
         {
@@ -1627,15 +1638,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "Proceedings Series",
-          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE96RF9KSkVvZDlDYlV5QkMxSVlzUGdHcXpWTFZYRVpCYUtKVk8tQ2VJa1lCNWhiR184dDNuUG45NklLN3JJUV9TdmJrQ1RkWXpoNElqNVh0LVZwWG14b0p5ZEpQdlhfZURiX1F1OXhrdUR3cGZT?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260902T215300Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "Advisory Service to Support In-Service Inspections of Research Reactors (ISIRR)",
           "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNLUh5eU16UWRiVTI0bTdBN0JlN21WQ3VxTVRuNUNGLVVoSDNkM3NHeVYwb3FuSTFVZzZ1S0RXazdBV2Qtc2c4d0RFN2VCamttbHpKTEpIa2dzQkk5VGJ4T0tjRlpHWl9IWk9IMGVhejJGX1pXZ1MyZTFNYUZyMUpaamdqYzg4VW9KM3hEUjlRLWEtMVhqMFg0RXN6N3NqZUVIbUNEb0s4YTY2YkZzcTllMVp1WDR4R1YzNXRoZDNRbw?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -1669,6 +1671,24 @@
           "language": "",
           "tone": 0,
           "seendate": "20260605T070000Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Proceedings Series",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE96RF9KSkVvZDlDYlV5QkMxSVlzUGdHcXpWTFZYRVpCYUtKVk8tQ2VJa1lCNWhiR184dDNuUG45NklLN3JJUV9TdmJrQ1RkWXpoNElqNVh0LVZwWG14b0p5ZEpQdlhfZURiX1F1OXhrdUR3cGZT?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260902T215300Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "TECDOC Series",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9MZjQtWDdlM3ViTERRSmZZeTJRU0dpM2hRcUVUT2p2RWQ3cnlmVXluZU1OcHV0aHNqSld3TzFfUndVc2lmYmJhUVc5SU9UcFZXcG5sT3dxcW5vMWVhSE1RVDF6SkpibHlvLUYtYU13?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260907T122212Z",
           "source": "GoogleNews"
         },
         {
@@ -1732,15 +1752,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20260716T063321Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "Protocolos de Control de Calidad para Radiodiagnóstico en América Latina y el Caribe",
-          "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE0zM2E0Mi1LZ25Ib1JLUXlZd2NrRWJFQWJSWXYtQWp0NFA0c3dvQ0lHRDZJa1VhejVnVjRwaElJQzhYMzVLcUVr?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260911T004213Z",
           "source": "GoogleNews"
         },
         {
@@ -9443,6 +9454,22 @@
           "lon": 87.9952,
           "lat": 41.8774,
           "depth_km": 10,
+          "source": "USGS"
+        },
+        {
+          "id": "nn00924388",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1789247729368,
+          "magnitude": 1.93,
+          "magnitude_type": "ml",
+          "event_type": "earthquake",
+          "place": "59 km SSW of Kingston, Nevada",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00924388",
+          "lon": -117.2059,
+          "lat": 38.6873,
+          "depth_km": 15.8882,
           "source": "USGS"
         },
         {
@@ -38147,86 +38174,6 @@
           "lon": -118.8125,
           "lat": 37.4688333333333,
           "depth_km": 2.44,
-          "source": "USGS"
-        },
-        {
-          "id": "nc75236922",
-          "site": "Nevada National Security Site",
-          "site_lat": 37.12,
-          "site_lon": -116.05,
-          "time": 1757687886430,
-          "magnitude": 1.8,
-          "magnitude_type": "md",
-          "event_type": "earthquake",
-          "place": "7 km E of Round Valley, CA",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75236922",
-          "lon": -118.521833333333,
-          "lat": 37.4175,
-          "depth_km": 10.8,
-          "source": "USGS"
-        },
-        {
-          "id": "nc75236822",
-          "site": "Nevada National Security Site",
-          "site_lat": 37.12,
-          "site_lon": -116.05,
-          "time": 1757662123900,
-          "magnitude": 1.77,
-          "magnitude_type": "md",
-          "event_type": "earthquake",
-          "place": "10 km WSW of Toms Place, CA",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75236822",
-          "lon": -118.7815,
-          "lat": 37.5131666666667,
-          "depth_km": 4.58,
-          "source": "USGS"
-        },
-        {
-          "id": "ci41289704",
-          "site": "Nevada National Security Site",
-          "site_lat": 37.12,
-          "site_lon": -116.05,
-          "time": 1757660185920,
-          "magnitude": 1.64,
-          "magnitude_type": "ml",
-          "event_type": "earthquake",
-          "place": "21 km ESE of Little Lake, CA",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41289704",
-          "lon": -117.6791667,
-          "lat": 35.8958333,
-          "depth_km": 2.87,
-          "source": "USGS"
-        },
-        {
-          "id": "ci41289664",
-          "site": "Nevada National Security Site",
-          "site_lat": 37.12,
-          "site_lon": -116.05,
-          "time": 1757655571080,
-          "magnitude": 2.03,
-          "magnitude_type": "ml",
-          "event_type": "earthquake",
-          "place": "20 km N of Ridgecrest, CA",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41289664",
-          "lon": -117.6381667,
-          "lat": 35.8031667,
-          "depth_km": 1.66,
-          "source": "USGS"
-        },
-        {
-          "id": "ci41289608",
-          "site": "Nevada National Security Site",
-          "site_lat": 37.12,
-          "site_lon": -116.05,
-          "time": 1757649774650,
-          "magnitude": 1.91,
-          "magnitude_type": "ml",
-          "event_type": "earthquake",
-          "place": "12 km SW of Searles Valley, CA",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41289608",
-          "lon": -117.512,
-          "lat": 35.7065,
-          "depth_km": 6.89,
           "source": "USGS"
         },
         {
