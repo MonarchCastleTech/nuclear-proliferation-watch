@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "nuclear-proliferation-watch",
-    "generated": "2026-09-13T05:23:34.068494+00:00",
+    "generated": "2026-09-13T12:18:30.768503+00:00",
     "mode": "live",
     "sources": [
       "IAEA official pages",
@@ -14,7 +14,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-09-13T05:23:34.059995+00:00",
+    "issued_at": "2026-09-13T12:18:30.759878+00:00",
     "horizon": "0-30 days",
     "classification": "nuclear-escalation-pressure-not-test-or-weapon-probability",
     "score": 9.8,
@@ -28,7 +28,7 @@
         "available": true,
         "score": 20.8,
         "current_14d_weight": 2.6,
-        "current_14d_titles": 27,
+        "current_14d_titles": 28,
         "baseline_periods": 8,
         "baseline_median": 0.4,
         "anomaly_z": 3.71,
@@ -124,7 +124,7 @@
         "available": true,
         "score": 0.0,
         "current_30d_diagnostic_weight": 0.0,
-        "events_considered": 1818,
+        "events_considered": 1820,
         "sites_monitored": 8,
         "anomaly_z": 0.0,
         "evidence": [],
@@ -821,6 +821,17 @@
           "facility_security_incidents": 12.6,
           "test_site_seismicity": 0.0
         }
+      },
+      {
+        "timestamp": "2026-09-13T12:18:30.759878+00:00",
+        "score": 9.8,
+        "level": "BASELINE",
+        "components": {
+          "iaea_safeguards_strain": 20.8,
+          "npwmd_designation_delta": 0.0,
+          "facility_security_incidents": 12.6,
+          "test_site_seismicity": 0.0
+        }
       }
     ],
     "data_health": {
@@ -1044,6 +1055,15 @@
           "source": "GoogleNews"
         },
         {
+          "title": "International Atomic Energy Agency | Atoms for Peace and Development",
+          "url": "https://news.google.com/rss/articles/CBMiN0FVX3lxTE1hdTZQNFg0MDl3ZHcyNkVuQW1vUkx6Wl9KZTZ1NlZ4Nl9OOVRPcHY2YWtIOVZSUlE?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260912T175635Z",
+          "source": "GoogleNews"
+        },
+        {
           "title": "IAEA Draws Safeguards Conclusions for 179 States – IAEA Report",
           "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxONExaN0Z5ZUx6V241VXo0MmNLdTRuekFvZ0R4TkRFOXZjS0twaDc4aW1pZEJFU2FPazg1R3dVQjl2TGlSaW9sd0tZYnE3RENwZDktQmpfdFFrQkFlSXhpdzhHYVNUNWJMMkpfeVdVVE9lUUJmV0U4aGhfV3E2cWcxWDY2bzVZSzlZS29mUWZMQnc1WlhvQmJMT0N1UDU?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -1171,20 +1191,11 @@
         },
         {
           "title": "Publications advanced search",
-          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE4xLU0wXzZRM2R0ei1KSWhzOXlSWEFtWXF0OXlFWUs4TW94RjB3MmYweEt3QzlrT0xlbWxyNmYwV2g0RXRkQmh4SjhIeTFYOC05clJJcVJ1eFFPUm1HWFFBaG5iWGhjZlQ0a2J1SUlJSUxNNVlkaXc?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9ndkwxZlljdVRpVlUzZHJ0aS1oYzFxMm5BeXhQMkphMTlvMXM3M3F4cUdtSnVXSHRmakJvcDFESnZBSTB3OUN5YlFuM090TENBVjhYM3Fkd2kxWi1YbFFyak9fMmJsMm5WVExFWUNB?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
-          "seendate": "20260912T071110Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "Upcoming events",
-          "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE5aTmt0X0xVSHJnLXJSQzVvSjdwcGhOUUpESFhWa21Qa3ItSkEwaDM2a1htZ3VFU1FfdXk5RnhrcEpiSG5M?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260529T111055Z",
+          "seendate": "20260908T054952Z",
           "source": "GoogleNews"
         },
         {
@@ -1221,6 +1232,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20260626T070000Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Upcoming events",
+          "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE5aTmt0X0xVSHJnLXJSQzVvSjdwcGhOUUpESFhWa21Qa3ItSkEwaDM2a1htZ3VFU1FfdXk5RnhrcEpiSG5M?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260529T111055Z",
           "source": "GoogleNews"
         },
         {
@@ -1521,15 +1541,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "Update 362 – IAEA Director General Statement on Situation in Ukraine",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQZ1kzQW5WWjZRY2plQzRVanZ5TE56OWozdlpHOEY0QXhHNWtMT0R0YXlMcEtRV2RxMjBhT2NTTHd1QWZzb2JMR3lTWDNHZFZIbEpmOFVRaDU4VVpGUFVYY1BnUHlkS2xuRkRqaURVVk9TTTNhaUptVEpEN3RqbGZpN3FPMXdjSzRCSVN6UzFVUk5RRlYwQWMxYTFwajFGOWkwQ3E1ZV84eW90SmpXcmFzdg?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260814T070000Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "International High-level Forum on the ATLAS Launch | IAEA",
           "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFAwOUVjcklwUEtJNHdmSE8xS1FPQ2h3VUlQdXM4RnB0elMxVkFCTkJzdjV2cG55TVdrUHJTWlVSTTNDZ1VhNEV0OHBUekk?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -1608,6 +1619,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20260619T070000Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Update 362 – IAEA Director General Statement on Situation in Ukraine",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQZ1kzQW5WWjZRY2plQzRVanZ5TE56OWozdlpHOEY0QXhHNWtMT0R0YXlMcEtRV2RxMjBhT2NTTHd1QWZzb2JMR3lTWDNHZFZIbEpmOFVRaDU4VVpGUFVYY1BnUHlkS2xuRkRqaURVVk9TTTNhaUptVEpEN3RqbGZpN3FPMXdjSzRCSVN6UzFVUk5RRlYwQWMxYTFwajFGOWkwQ3E1ZV84eW90SmpXcmFzdg?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260814T070000Z",
           "source": "GoogleNews"
         },
         {
@@ -1779,15 +1799,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20260731T224449Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "Update 355 – IAEA Director General Statement on Situation in Ukraine",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQcWVqaTR2ai1MWjB2dDVDMloyYTY3bUhDbEtnWjdFZllZTjhiYm9wbXc5Z3N5aTJWSjJEWXN2cDl6Y09zcWlPVUE4c0Z4Q3o1Qm9IZktvVzV4X2NpSVFKbjhPZ0JCeWVUOE15U0FpMzc1OUpHQW9SSkxrcVZsczRHTWZTSHo0YkRjRnVtM25qcHpqckU4Q1Atd1dMY3lyX3lVdXc0MlY3RTFaNFNpUHF5bw?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260626T070000Z",
           "source": "GoogleNews"
         }
       ],
@@ -9249,6 +9260,22 @@
           "source": "USGS"
         },
         {
+          "id": "us7000tduj",
+          "site": "Lop Nur",
+          "site_lat": 41.69,
+          "site_lon": 88.42,
+          "time": 1788416323382,
+          "magnitude": 4.4,
+          "magnitude_type": "mb",
+          "event_type": "earthquake",
+          "place": "37 km SSW of Changji, China",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tduj",
+          "lon": 87.1312,
+          "lat": 43.6984,
+          "depth_km": 10,
+          "source": "USGS"
+        },
+        {
           "id": "us7000t0ce",
           "site": "Lop Nur",
           "site_lat": 41.69,
@@ -9454,6 +9481,22 @@
           "lon": 87.9952,
           "lat": 41.8774,
           "depth_km": 10,
+          "source": "USGS"
+        },
+        {
+          "id": "nn00924401",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1789296479885,
+          "magnitude": 1.89,
+          "magnitude_type": "ml",
+          "event_type": "earthquake",
+          "place": "80 km NE of Tonopah, Nevada",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00924401",
+          "lon": -116.4754,
+          "lat": 38.4851,
+          "depth_km": 4.6333,
           "source": "USGS"
         },
         {
