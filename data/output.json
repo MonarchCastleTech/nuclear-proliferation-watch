@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "nuclear-proliferation-watch",
-    "generated": "2026-09-14T05:28:16.933719+00:00",
+    "generated": "2026-09-14T13:22:25.060097+00:00",
     "mode": "live",
     "sources": [
       "IAEA official pages",
@@ -14,7 +14,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-09-14T05:28:16.924801+00:00",
+    "issued_at": "2026-09-14T13:22:25.051494+00:00",
     "horizon": "0-30 days",
     "classification": "nuclear-escalation-pressure-not-test-or-weapon-probability",
     "score": 9.8,
@@ -28,7 +28,7 @@
         "available": true,
         "score": 20.8,
         "current_14d_weight": 2.6,
-        "current_14d_titles": 28,
+        "current_14d_titles": 30,
         "baseline_periods": 8,
         "baseline_median": 0.4,
         "anomaly_z": 3.71,
@@ -865,6 +865,17 @@
           "facility_security_incidents": 12.6,
           "test_site_seismicity": 0.0
         }
+      },
+      {
+        "timestamp": "2026-09-14T13:22:25.051494+00:00",
+        "score": 9.8,
+        "level": "BASELINE",
+        "components": {
+          "iaea_safeguards_strain": 20.8,
+          "npwmd_designation_delta": 0.0,
+          "facility_security_incidents": 12.6,
+          "test_site_seismicity": 0.0
+        }
       }
     ],
     "data_health": {
@@ -935,6 +946,15 @@
     "iaea_titles": {
       "signals": [
         {
+          "title": "International Atomic Energy Agency | Atoms for Peace and Development",
+          "url": "https://news.google.com/rss/articles/CBMiN0FVX3lxTE1hdTZQNFg0MDl3ZHcyNkVuQW1vUkx6Wl9KZTZ1NlZ4Nl9OOVRPcHY2YWtIOVZSUlE?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260914T113618Z",
+          "source": "GoogleNews"
+        },
+        {
           "title": "What is Cherenkov Radiation? | IAEA",
           "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE50M1dSSEwxTTF1WEFhc0g2WHJhV0Y5amo4dmJRYkdjeXo3aEp4X1BoWk9jOEp2bVh6MXV1YlMxWmZacXRMZkFQOEUzSjRINEhYMzZyekZ3N3cyTlh1QXAzSE95M3IxNmduZUV4dVBkWlc?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -986,15 +1006,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20260907T094833Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "70th IAEA General Conference - Programme and Speakers Information",
-          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNcHlpUGpaNGMzcVlGWGt0Z3RVSkF6X09uaExoajY3SUt0ekRpVk5hYnFrMFVibl9oVDdFeHlxMEZDRVFkNEJqQ2hIN1k3bVZQMGhZQ0xtSzRRUWE2bkJ3ZjIyVnRUczJMN2g2NU84NFRKX01fNmMwMEg1eVVhV2tmT25SSjVVb3QxYVA2WC1YakxKQ1RQWEVoTXlTX3c2bGxLaWlFLWpURHF1QzVHTHBRQzctbkpBdF9rM3FFOTBKSUM?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260728T032407Z",
           "source": "GoogleNews"
         },
         {
@@ -1178,21 +1189,21 @@
           "source": "GoogleNews"
         },
         {
-          "title": "Publications advanced search",
-          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1fTWExR1pDZkQwU2tSSkdKSkRKN3B2d01Fd21Iak1yVUhpQXF5S1BQelJZcXduTXI0cjRjYnpNN1dpd0dLSVA5NXdka1JfUUxFWnVIblBjd2Y0WHViNW4tOFR4Y3FuX1kzVFRQNUJVTGw0M3ZMN0E?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260911T100804Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "IAEA to Launch ATLAS: Pioneering Nuclear Solutions for Shipping and Offshore Energy, Washington, August 26-27, 2026",
           "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNRDVTbGRZSGxDb0YtYU55cUtCQWdnM0NkTWZoS2FaSlpXbk91WVE4MEFDS0FiWFdMLWl1ZTlXbktnOHZ3SHdzUVdkQk0xWEpka3FBVWdDYVBDeTl6VXNlRk1UZDZHbzRPWk95Mk5Xci1lNm0xeWc5dVhfa3UwcXQyejAxcDdoU2lRTjJDaWVrc1JVRHZVeDhzaFFUbUhwb0I5NTQtbDBlZmJrMzFWMm9wZC1fTFBPR09sSjRpY0tSZ1l3NVFiR2RHV0pucTJMdGp5dmQyd1FtN0tYcjVxNm05N0t5T3JCU0NYQXlkTQ?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
           "seendate": "20260601T070000Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Publications advanced search",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5iSzlybGxadFZqSVRWNHJsRWp1OFYtTE02QWxzZTB5aHM4SlhST0lweEc0VFZnZkl6cGJ3amxOUzdRV29BZ2Q5Q1dYR0JEVGc4MWFNdlVheEJXeEdBT1BnVGg0eFEwMGVKREE2R3JB?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260913T141224Z",
           "source": "GoogleNews"
         },
         {
@@ -1322,6 +1333,15 @@
           "source": "GoogleNews"
         },
         {
+          "title": "IAEA General Conference Elects Argentine Ambassador as Conference President",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQcmR1YXg5SVhhaGFUaEVFcTBFckpldnZ6WFlKczlaVEpKTTcteURfQmFEa2NfVUdQYWFpQzRxaDVNN3BJQmx2dFZOM3F5Z2RXY2pLYkVQQjl0VjFxRUxibE10blo1Yzc0d1FfWDA4anpDR0pSZGctR1ZKRFo3eW9YdmRqVGRzdVgycERtQ1NuZ3lfdFR1TkhEdTFSYkp5TnA5b21wcHRqVndyOVEyeTVaU093?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260914T073020Z",
+          "source": "GoogleNews"
+        },
+        {
           "title": "70th IAEA General Conference",
           "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFB0c1JMazJsR3VPQkE4ZkJyZzl6NGQzNmtwT2FUcUxqU1lBbXU2eEZYRW5OMkxiZ2NVVXNLYl8yNmlmNHQ1XzNmWjQxckhtbmZtdmJxazJIV2s0SHhPeUxNTmdwbE1XZEQ0ZGNUWW5CV2JqX1RFYzlibjFR?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -1412,15 +1432,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "70th IAEA General Conference",
-          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5od3VwcHVkVHl6YXVaTmZVVjVjWUxEY3pDZjIzSGtERGgzd1JxdGtEWTBPUzJKQkZEdFZ1d2xQV1Z1Vmk4dVctMW5BWWpqeWlXOVB6Vi1zSGdFRUJjYXdFcm96bjFQbWJvQ1pGa0VPUUlGYnA0?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260911T085619Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "Board of Governors | IAEA",
           "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9Zd0V1MXBqbGV3VmFRQ2xnbkV3eF9YVjJoSUpXekdPRTd3OExGZ0gxTm0yMEs3aVNoYnJvQk1kRDIwZmptV1lQU0NCZXFfUQ?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -1493,6 +1504,15 @@
           "source": "GoogleNews"
         },
         {
+          "title": "Statement of the Republic of Cyprus to the 70th IAEA General Conference Vienna, Austria, 14 September 2026",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBOTGl6ZVNCS1JWS2RHMzdUc29TRm1XZUJtdHNISVB5ZDVBcEEyZzd4Nk9DOXJFOExVVmtxTE1ncUVQT2pNWkc3d2N4QnNaeEJFVThlRExfc0VwVEZjdk1EX0hMWEsxUXZkRzRNVVFZNU1obFdu?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260914T115925Z",
+          "source": "GoogleNews"
+        },
+        {
           "title": "IAEA and George Washington University Law School Conclude First Summer School on the Legal Framework for Nuclear Energy",
           "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxORnFNN21oTXZBUHR5T0ZwVjRCelFraEJiNlRuYTl2SldrX1NWY2F3YUlabV9la0lja3RYZFJ1SVRSSjhIdTFNWnVpci1CYnI0dUJLQnJPbm01NWhkalh0Rm5rRUUyX3oxUmNDSUc2WTdrQ1ZpQU5pQzlpU3FXNlE1c1VUc24zcHhYZnoySXNtWVhFcmc4ZUJoYWotWE4xUDR4NU84cHV6akI0UlpLUFBrVVBwdDJ5UE1CckdWMlRnSFpsMk9iOXhJendid3FNTVhQQVZReVJrTzFZd3FIYmdMelBwaUE3dl9rQkdR?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -1547,6 +1567,15 @@
           "source": "GoogleNews"
         },
         {
+          "title": "The Week Ahead: IAEA Hosts 70th General Conference",
+          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQSFkxX195QlRmRXd2OEZnelNjclFtcW1PcVYyeWUyVUkxaWJSVWpJcDJpLVRyejBGVlpmWjliSVZDb1g3TnRlbWZISUNzZEhwWVFuNDJOVTc2M1NwdHdKNWxzMXNjRGVsVFVfeFFWbjV2OTdWN3RCaW5mVDcxNkN3eGthYWdCOVQ5NW5wb0RKSQ?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260914T125739Z",
+          "source": "GoogleNews"
+        },
+        {
           "title": "International Conference on Fast Reactors and Related Fuel Cycles (FR26): From Innovation to Implementation - News",
           "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE0td3V3V0Z2TVMzcl9SMzZYV193djJkeUN2Nnd4V2ZnSFZrbGlzdU9FWWVBRnJLYWNDQmFkc20xU0pQYmh1N0stQw?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -1562,6 +1591,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20260710T070000Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Director General's Statement to the Seventieth Regular Session of the IAEA General Conference",
+          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOTDZnbXNaWG5oZmZmaExtNWljc0ltMFlBTGJWejZ0MXJDOHdqeFZtejJVWXY0THFjSkZUTFJtRjFTTWJ0Y3lLSmk0cVBqYlJiMUgxWXpvZ1dvdldWRXZEX3Y5NDhKUlNFUnVTYmJOelJra3dIQTBhNEJTdHlZRnBCZjhEYWJtTzNWbm1rdEN0OC1QRVRxTFZQcjJnTHFXVkRaeWRfY1k1Qm9KOVdWbUxaSExQUVRMcmFfb19ZRXZnQ05VYmN6UWl0ay1oMV9kZk1U?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260914T100618Z",
           "source": "GoogleNews"
         },
         {
@@ -1601,12 +1639,30 @@
           "source": "GoogleNews"
         },
         {
+          "title": "70th IAEA General Conference",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5od3VwcHVkVHl6YXVaTmZVVjVjWUxEY3pDZjIzSGtERGgzd1JxdGtEWTBPUzJKQkZEdFZ1d2xQV1Z1Vmk4dVctMW5BWWpqeWlXOVB6Vi1zSGdFRUJjYXdFcm96bjFQbWJvQ1pGa0VPUUlGYnA0?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260914T110207Z",
+          "source": "GoogleNews"
+        },
+        {
           "title": "International High-level Forum on the ATLAS Launch | IAEA",
           "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFAwOUVjcklwUEtJNHdmSE8xS1FPQ2h3VUlQdXM4RnB0elMxVkFCTkJzdjV2cG55TVdrUHJTWlVSTTNDZ1VhNEV0OHBUekk?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
           "seendate": "20260827T070000Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "50 years of IAEA - Euratom Cooperation: Challenges and lessons learned for a safer world",
+          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOVTNUYW8wcDNVbkRjTDBVcHFLTWtjbW1aLUZKcHdLYjhhaTlDajNDMHc3aTlISGNaLW01TGRRUEVaTUR1OHN0RFZyRzVVeWVKS1RwUGs4cFJZZnFVMXFPQ1NDLXNUR18xZXU0T2RnUXR4UFJCQ3gycGxFalRnMW9YaE5mUTdIRTNQWlAxVi1zZFdFNDhhTm5Lc1dLMklMN3lTY2hvT1JMOFBzOWcyZkpHM3BfdDBQQnoya0VRT3hhZW1zMmpuejJxTC1IaWdnYkt0ajFYYkdpM0U?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260820T152354Z",
           "source": "GoogleNews"
         },
         {
@@ -1736,6 +1792,15 @@
           "source": "GoogleNews"
         },
         {
+          "title": "Press Arrangements for the 70th IAEA General Conference, 14–18 September",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPUVR0T0dxcWFkZzlSWlBNNURJNW1ULXp5OGhscUpFcVpuX3FwanlNTXJNWWxuT2MxcnpnWmV3RHJwZUl6Z0hOVDZPd3I2X19YTWFoRG95T1Mxb25OQUV1OXVOdms5OXRNcEFYZkpfMHNrQlpxMmNOV3dlbFhaNVVQNllQTVpvSXR3NHpGWTJ3R1BVWlp5Q2VFZ1pXWnIyYnFsOWFCc2xoLWRfVmJ5ZkY1N3BEdzdfZTBhWFE?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260909T131916Z",
+          "source": "GoogleNews"
+        },
+        {
           "title": "How Nuclear Science Enhances Seafood Safety in Namibia",
           "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPMVh5VkhtdjlNQTg0MEZneXd2UDNDLVlNQTVwdnZCMDluN3VYWHBMb1lfYjdVSDcyVkpnZXdSdVBMUUs1X3NaM3lYTlJNZGh0WjBfQ3RsWVpFOEpqRE9mNExpZ254aUdOcXFVc3BRUUdJS1hMajZ6OWMxdmdnVzhFb2t2d1Z3dXpKOTRMRHNiVmVqV1ZLMnVMSHpHYWQ3WlZGZWxqMGJR?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -1778,60 +1843,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20260624T070000Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "Webinar on the Fleet-Wide Deployment of Small Modular Reactors (SMRs) and Manufacturing Without Owner/Licensee by the SMR Regulators' Forum | IAEA",
-          "url": "https://news.google.com/rss/articles/CBMiywJBVV95cUxPLTJiVVQxX1N4bzNoOFBrOERhbzVTVkh2UlNKNUxYcW92SjFRRDZOa2NsUzI4c0FEOC02X1FNNnh1U3RoZ21uTWZCZlNLSXp6UjhEUE5yOHBybDNNTGc5SkJPS2l0ekQ5TGoyaXZJRlNNQ0lSeFV6d2NMdnhKUWg3b3NzVFVNZEk3dFl4N0Y1SzJJMkQxYjA4TnhlcjNyamdjSnhLVktvMWtXV1l0R3FzSHplVXpBV19aS0lSV3Z0bnNLZS01TWlmVGc2TXN0TVJFOEo1TDlQeFE1UU1iZG4tMXREOXBzZlpYaWFxQm1LaS1VeWR0TEpFLURPWE81eDdPa3V0ak9OMjVGNGhhZ1RUOUdnSHNRWnRmR0RUS0s5WFRnRTVoZHNHX0I1Ujdlclc2YkIwMHZTOGpDSXZtTjZBdFhaM2Q3YjY3Zzd3?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260611T070000Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "Strategy for the Prevention, Detection and Response to the Inadvertent Presence of Radioactive Material in Metal Recycling and Other Associated Processes | IAEA",
-          "url": "https://news.google.com/rss/articles/CBMinwJBVV95cUxQc21ZMG9tRmFjYnY1MENVdGJ3VnVnZ0w4bjQ5ZjN0WUg4cEljd21tcU5pcTQ5cTdjWEtzOFJ1dGkxV0pSNFVlMF9MX3ZrS19pS09FNkdyalFrbVltQ3Z2X1laQ1RxWDVseTA2TWZNREhMbVoxTjNvRnpGT0dXUDRNZkZsZnpmVllMSEtNTXRnRVRCNFhQbnVPbnJuc2FLNnFyZnpkOTBDTXpTV3pJcnBGelNtMXFuajlkRmhYMVFZNF80QnBLZjlnMnI2ODJuTmo4TXF0VUNZNjFpZV95VFNtSjVkX212cmpLb0pFZklsaU5sQlRDUG9VOUl3SnBJZlJWSjZwWkNCbGJwRXZkT0dZZkxubEtrb0tUNjJQR085bw?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260913T224248Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "Advances in Next-Generation Nuclear Materials Research and Development Driven by Artificial Intelligence Technology",
-          "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxPOGlqaFVSeEZlV0phV3VzajFzbWFsYXZ0VUpwUE9QWnZ0dFExZ19sS0RtdXVIZS1nd0ZJX3EtZUNHSXN4Z2xTQzNGdzFPdHlsWHBYNWUyU3ZaMlFWb0J1dy0zNC1LVXNJMVlPVTBCcDlCdmFucHBqeWFXb1BXa1Z2bVRmeTQ3Qkd3MDRTalhZS09jXzFWei1CZkFhbEhvQUktaEFpTm9xbXNnVVlqX1pBY0RVUHpOcnhXS0dDWmZsOGk4VEw3WWVIb2FEZVpMZlkwVUFCZXk3WWVvZDNOMzJCR2ZXUGFVSnVoRlNwVUlpZndxM1V5T3JtV3ZkRGp5TmdsMXc?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260903T171510Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "Improving the Understanding of Irradiation Creep Behaviour in Nuclear Graphite Models and Mechanisms",
-          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPN1lzQm0tOVJIc0pON2xCaEQ2MXlJZXBnaEZJUVRTWFhEUGdlbWgweXVjNXpQVTBHWTFaS1F4ODB3S1ZiREtmb1dKVV9BMExwSXZpZUN6NGdjVTlOdEpJTWJIemhzTGNmYzBfUDAtUktwbEYxZkc0djFZOG5XTTVKckFQQjAyUjhySFhFVk5yenZSdkJQUktCUU92cUVUTUJoVU4tZGZUa1M3OGh6VmRtWGtoelkzellJWF9PTVFTbi10SkhHU2JXa2JGSE51cWRZQTBSaklR?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260604T120939Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "Implications of ICRU Report 95: Operational Quantities for External Radiation Exposure",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPa0JJSDFHbi0yS1R4RnFfdl8xVmI1TWI3VjNmMWFjSXZ4eDZJTlR6amtueVdPQWZiVkw5MlJ0RlI1VGxoR1NkVWF2ZzhuT3hNZ04ya0d6NEVuUEdoSmFjYlNTSkhNRUpReXMzVFNXZjh3dVVnaTVGSEpLaG94NXVkX3h6c2U2a1ZSYThFN18tQlI3WXpYVk90TG9iME5RanE0cjRtOTVHb282QzNHQW9GSERNbEJ6cHZ4QkdyLWJJZjQwZw?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260716T063321Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "Improving Culture for Safety Based on the Lessons Learned from 40 Years of Safety Culture and Safety Science",
-          "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOcFNmZ2cwNTJkRDBJQnE1OE9tVDRKVEN6VFdaRWF1MTdPX1BXUWNCV1hEVEFFcTJ4QThDTGFkR01RZERRV3BJejRaOHAybzBCaXB5S294QTNhVGZYb0RrVVNJWGZxQ0FYWFAyX2xRM2xEbW9KYWdmLWpVZGI4Mm1hOUtiN3J5V3NzcjhLZFB3dGZSeVNLNWFWMFFkcUVzSzVYamFpOFY0OVRvM0pxRmtFTVFBYTJTeVRHejl4UnBoNVM3b1J0cVpXV2FpNzAyM1NYRzNJRUktTTk0WlRWenFPYXA3ZDEzNG1keFdDUmZRLVJkNUtGUnJEMA?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260911T115418Z",
           "source": "GoogleNews"
         }
       ],
