@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "nuclear-proliferation-watch",
-    "generated": "2026-09-14T13:22:25.060097+00:00",
+    "generated": "2026-09-14T22:05:00.152893+00:00",
     "mode": "live",
     "sources": [
       "IAEA official pages",
@@ -14,10 +14,10 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-09-14T13:22:25.051494+00:00",
+    "issued_at": "2026-09-14T22:05:00.144408+00:00",
     "horizon": "0-30 days",
     "classification": "nuclear-escalation-pressure-not-test-or-weapon-probability",
-    "score": 9.8,
+    "score": 10.5,
     "level": "BASELINE",
     "confidence": "HIGH",
     "confidence_score": 100.0,
@@ -26,12 +26,12 @@
         "id": "iaea_safeguards_strain",
         "label": "IAEA safeguards and access strain",
         "available": true,
-        "score": 20.8,
-        "current_14d_weight": 2.6,
-        "current_14d_titles": 30,
+        "score": 22.8,
+        "current_14d_weight": 3.4,
+        "current_14d_titles": 33,
         "baseline_periods": 8,
         "baseline_median": 0.4,
-        "anomaly_z": 3.71,
+        "anomaly_z": 5.06,
         "evidence": [
           {
             "title": "INPRO Methodology for Sustainability Assessments of Nuclear Energy Systems: Proliferation Resistance",
@@ -62,6 +62,18 @@
             "url": null,
             "date": "2026-09-09",
             "weight": 1.0
+          },
+          {
+            "title": "Implementation of the NPT Safeguards Agreement in the Syrian Arab Republic",
+            "url": null,
+            "date": "2026-09-01",
+            "weight": 1.0
+          },
+          {
+            "title": "Regional Cooperation Strengthens Radioactive Waste Management in Europe",
+            "url": null,
+            "date": "2026-09-08",
+            "weight": 0.8
           }
         ],
         "retained": false
@@ -77,8 +89,8 @@
         "removed_count": 0,
         "added": [],
         "removed": [],
-        "publish_date": "2026-09-09",
-        "sha256": "4da825621635b7d3c36039be0e83fdb2619200616292b5204bcffda78be9c89d",
+        "publish_date": "2026-09-11",
+        "sha256": "1ac8e3cbbb07ba74d799e53297c97c814dd57630ce2700fcd27902e20183fa79",
         "retained": false
       },
       {
@@ -124,7 +136,7 @@
         "available": true,
         "score": 0.0,
         "current_30d_diagnostic_weight": 0.0,
-        "events_considered": 1818,
+        "events_considered": 1820,
         "sites_monitored": 8,
         "anomaly_z": 0.0,
         "evidence": [],
@@ -876,12 +888,23 @@
           "facility_security_incidents": 12.6,
           "test_site_seismicity": 0.0
         }
+      },
+      {
+        "timestamp": "2026-09-14T22:05:00.144408+00:00",
+        "score": 10.5,
+        "level": "BASELINE",
+        "components": {
+          "iaea_safeguards_strain": 22.8,
+          "npwmd_designation_delta": 0.0,
+          "facility_security_incidents": 12.6,
+          "test_site_seismicity": 0.0
+        }
       }
     ],
     "data_health": {
       "available_components": 4,
       "retained_components": [],
-      "iaea_titles": 100,
+      "iaea_titles": 99,
       "npwmd_entries": 1195,
       "iaea_events": 23,
       "test_sites": 8
@@ -923,12 +946,12 @@
   "stats": [
     {
       "label": "Escalation Pressure",
-      "value": "9.8/100",
+      "value": "10.5/100",
       "delta": "BASELINE"
     },
     {
       "label": "IAEA Signals",
-      "value": "100",
+      "value": "99",
       "delta": "official indexed pages"
     },
     {
@@ -951,7 +974,7 @@
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
-          "seendate": "20260914T113618Z",
+          "seendate": "20260914T173826Z",
           "source": "GoogleNews"
         },
         {
@@ -970,6 +993,33 @@
           "language": "",
           "tone": 0,
           "seendate": "20260910T063005Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "IAEA General Conference Elects Argentine Ambassador as Conference President",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQcmR1YXg5SVhhaGFUaEVFcTBFckpldnZ6WFlKczlaVEpKTTcteURfQmFEa2NfVUdQYWFpQzRxaDVNN3BJQmx2dFZOM3F5Z2RXY2pLYkVQQjl0VjFxRUxibE10blo1Yzc0d1FfWDA4anpDR0pSZGctR1ZKRFo3eW9YdmRqVGRzdVgycERtQ1NuZ3lfdFR1TkhEdTFSYkp5TnA5b21wcHRqVndyOVEyeTVaU093?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260914T073020Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Director General's Statement to the Seventieth Regular Session of the IAEA General Conference",
+          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOTDZnbXNaWG5oZmZmaExtNWljc0ltMFlBTGJWejZ0MXJDOHdqeFZtejJVWXY0THFjSkZUTFJtRjFTTWJ0Y3lLSmk0cVBqYlJiMUgxWXpvZ1dvdldWRXZEX3Y5NDhKUlNFUnVTYmJOelJra3dIQTBhNEJTdHlZRnBCZjhEYWJtTzNWbm1rdEN0OC1QRVRxTFZQcjJnTHFXVkRaeWRfY1k1Qm9KOVdWbUxaSExQUVRMcmFfb19ZRXZnQ05VYmN6UWl0ay1oMV9kZk1U?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260914T100618Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Adequate uranium resources available, but sustained investment essential to support global nuclear capacity growth",
+          "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQOFFTUUcyaklpc3hpVGNSMEJYX194Y01walFnT21nbk5TakxlRWllUnp0RWVQTGsxZ0xMRDdPMlBLcGZpZlM0TzU5YTBMaTFPblczcHg0N2hnU0ZGcHhWZHZQRnJScktfbTZyV1RqUExEa05WTUlvNW9aWFFRUHFxYW9nenZPSXk2NDNZNVV1dzdWUi1jZnlrblJIVWtSTUdadWRwRFpnMnpxdWtZS2RqRkxCc3hxVFA3V0VzZnBWSEtNRGtMSXA3RTJVVkdPUktoaDRGLVNiOGF1QzRXbWd0R3ZYWHpSelVoNGlTYXU5elM?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260914T063425Z",
           "source": "GoogleNews"
         },
         {
@@ -997,6 +1047,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20260828T070000Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Regional Cooperation Strengthens Radioactive Waste Management in Europe",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQU3pGOE5Kek9FOXh2VWU0UnFpWFA2X24tWTVSR1JxT2ZUbkFlcndIZTlBN29ZekJVd2I0RUkyZDd6RU1BZnI4bjlKcW9MRWlXc0s0SUk2SmE1bVlPRS1HYm1aQnpITC11dHVxbVRldS03d3dvOG9hdl9ZSHhtd1Q4bTNDVU40bmphOUNRVy0yaHNFelZGMHVxZVBxVGxrOXNLcXlna3V1NTFWM3hv?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260908T112657Z",
           "source": "GoogleNews"
         },
         {
@@ -1036,6 +1095,15 @@
           "source": "GoogleNews"
         },
         {
+          "title": "Implementation of the NPT Safeguards Agreement in the Syrian Arab Republic",
+          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFA1aWxESXpNcFhwOVR2YXVOZTc5MUxDQXVsX0VaUjVPZWZFcUpWU0RKN1RiNHlEaWJpQ2ZnVHpXWkJybU5OUXJnWExmOHk3S1BMa3BONlJodlNwYTh2TzZNd1NLUFNpQQ?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260901T070000Z",
+          "source": "GoogleNews"
+        },
+        {
           "title": "INPRO Methodology for Sustainability Assessments of Nuclear Energy Systems: Proliferation Resistance",
           "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOVHdtNVlnTHVvdThJd2RySGtqYk9xRTJURzRJbUpzX0htNFZsVmR0ZmNBX1BJY0ZkYm5DemRxTWxqNjdKTEM3Y2wtSjhxcWlHaXVRTjItYmdPWThIUHAtdEc1RGZYamFOTVVwMmtrNjdCWmJXUFAxZFFZckY3dVM5c0Jzb3NKM0hOWDdVTVBUZnM3TE1XT1lvemlZUkQ4RFM4R2dPU2Z1WG5FRURQaHdZTlJvdDByXzZZY2pBbFJZZGhRLXRqQ3kta2tERml5WUg1RGVLN0ln?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -1069,24 +1137,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20260902T070000Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "Safeguards Equipment Workshops: Non-Destructive Assay, Surveillance, Unattended Monitoring, and Seals and Containment | IAEA",
-          "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1ab0lLNXpVaXpMY1lnRGFTckd6TnVwZGkzNHZoOExEcEVFdnJnRFZxQ0ZlTktFWnJUeW5kWm1JaXpUSWFMREhRV0NRZw?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260820T150731Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "Provisional agenda",
-          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1ZaXJtVEZSbk1NMTJObVlEMTN0R3VMQ2g2QzFzaHF0YU9TRmQxSkxMZmZ3dTVJdW5YOGxVbWdFbTJOT2JZODhOcnM3eXY3SFBfMUlFRkFaUWR4QTMzanV1OGgzRVpmM0dSWWc0?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260720T070000Z",
           "source": "GoogleNews"
         },
         {
@@ -1333,33 +1383,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "IAEA General Conference Elects Argentine Ambassador as Conference President",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQcmR1YXg5SVhhaGFUaEVFcTBFckpldnZ6WFlKczlaVEpKTTcteURfQmFEa2NfVUdQYWFpQzRxaDVNN3BJQmx2dFZOM3F5Z2RXY2pLYkVQQjl0VjFxRUxibE10blo1Yzc0d1FfWDA4anpDR0pSZGctR1ZKRFo3eW9YdmRqVGRzdVgycERtQ1NuZ3lfdFR1TkhEdTFSYkp5TnA5b21wcHRqVndyOVEyeTVaU093?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260914T073020Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "70th IAEA General Conference",
-          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFB0c1JMazJsR3VPQkE4ZkJyZzl6NGQzNmtwT2FUcUxqU1lBbXU2eEZYRW5OMkxiZ2NVVXNLYl8yNmlmNHQ1XzNmWjQxckhtbmZtdmJxazJIV2s0SHhPeUxNTmdwbE1XZEQ0ZGNUWW5CV2JqX1RFYzlibjFR?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260726T121502Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "Technical Meeting on Nuclear Fuel Cycle Options for Current and Advanced Reactors",
-          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1zQjRFT3VXaUEwT2NvM2h0SFotcDFUMVppOXNVTGp4VXYxTkNRbGw4ZzRuQUZUVVpjQ0hNeFJ4M0drRjVlVlJTUWVQaDNKcG8?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260903T011515Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "International Training Course on Safety and Security in the Management of Disused Sealed Radioactive Sources",
           "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE84MzNIRWxMMFczaS1TVHpHT05xdm9HRHpqb0xKYjVaZHRnYnI0V05PaU1xeE1wVkp2aTBtZnZ1aFJJQ1hDdVlsaEZpc3duUQ?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -1513,6 +1536,15 @@
           "source": "GoogleNews"
         },
         {
+          "title": "The Week Ahead: IAEA Hosts 70th General Conference",
+          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQSFkxX195QlRmRXd2OEZnelNjclFtcW1PcVYyeWUyVUkxaWJSVWpJcDJpLVRyejBGVlpmWjliSVZDb1g3TnRlbWZISUNzZEhwWVFuNDJOVTc2M1NwdHdKNWxzMXNjRGVsVFVfeFFWbjV2OTdWN3RCaW5mVDcxNkN3eGthYWdCOVQ5NW5wb0RKSQ?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260914T083627Z",
+          "source": "GoogleNews"
+        },
+        {
           "title": "IAEA and George Washington University Law School Conclude First Summer School on the Legal Framework for Nuclear Energy",
           "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxORnFNN21oTXZBUHR5T0ZwVjRCelFraEJiNlRuYTl2SldrX1NWY2F3YUlabV9la0lja3RYZFJ1SVRSSjhIdTFNWnVpci1CYnI0dUJLQnJPbm01NWhkalh0Rm5rRUUyX3oxUmNDSUc2WTdrQ1ZpQU5pQzlpU3FXNlE1c1VUc24zcHhYZnoySXNtWVhFcmc4ZUJoYWotWE4xUDR4NU84cHV6akI0UlpLUFBrVVBwdDJ5UE1CckdWMlRnSFpsMk9iOXhJendid3FNTVhQQVZReVJrTzFZd3FIYmdMelBwaUE3dl9rQkdR?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -1537,6 +1569,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20260721T061201Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "European Union EU Statement at the General Debate 70th General Conference International Atomic Energy Agency (IAEA) Vienna, 14-",
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBFZTRiQ2daTUZDMzJxbkQ2U2VrYlhTd0poYW82dkZ3Q1RBOXJJRGpxbExhUS1yNU1NZ0xUQk9COUVaai0waVZFcXg4QzR6dVVSTDdHRU5wZEhGMkt1V0tadFBDT2xfMWhuaEcwa1EzOA?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260914T115925Z",
           "source": "GoogleNews"
         },
         {
@@ -1567,15 +1608,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "The Week Ahead: IAEA Hosts 70th General Conference",
-          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQSFkxX195QlRmRXd2OEZnelNjclFtcW1PcVYyeWUyVUkxaWJSVWpJcDJpLVRyejBGVlpmWjliSVZDb1g3TnRlbWZISUNzZEhwWVFuNDJOVTc2M1NwdHdKNWxzMXNjRGVsVFVfeFFWbjV2OTdWN3RCaW5mVDcxNkN3eGthYWdCOVQ5NW5wb0RKSQ?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260914T125739Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "International Conference on Fast Reactors and Related Fuel Cycles (FR26): From Innovation to Implementation - News",
           "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE0td3V3V0Z2TVMzcl9SMzZYV193djJkeUN2Nnd4V2ZnSFZrbGlzdU9FWWVBRnJLYWNDQmFkc20xU0pQYmh1N0stQw?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -1591,15 +1623,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20260710T070000Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "Director General's Statement to the Seventieth Regular Session of the IAEA General Conference",
-          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOTDZnbXNaWG5oZmZmaExtNWljc0ltMFlBTGJWejZ0MXJDOHdqeFZtejJVWXY0THFjSkZUTFJtRjFTTWJ0Y3lLSmk0cVBqYlJiMUgxWXpvZ1dvdldWRXZEX3Y5NDhKUlNFUnVTYmJOelJra3dIQTBhNEJTdHlZRnBCZjhEYWJtTzNWbm1rdEN0OC1QRVRxTFZQcjJnTHFXVkRaeWRfY1k1Qm9KOVdWbUxaSExQUVRMcmFfb19ZRXZnQ05VYmN6UWl0ay1oMV9kZk1U?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260914T100618Z",
           "source": "GoogleNews"
         },
         {
@@ -1639,12 +1662,12 @@
           "source": "GoogleNews"
         },
         {
-          "title": "70th IAEA General Conference",
-          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5od3VwcHVkVHl6YXVaTmZVVjVjWUxEY3pDZjIzSGtERGgzd1JxdGtEWTBPUzJKQkZEdFZ1d2xQV1Z1Vmk4dVctMW5BWWpqeWlXOVB6Vi1zSGdFRUJjYXdFcm96bjFQbWJvQ1pGa0VPUUlGYnA0?oc=5",
+          "title": "Mexico Signs a Country Programme Framework (CPF) for 2026-2031",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNcFhWNU5EdVJDMThEaHlKZm84a0ZLMkMzWERJNnM0eUJLeFp2cG1HalE2LVpUbFQ4SjdQaXRFU0hfb2NPMURpWHdPc1F2Qkd6dk5qVmpjS2VZWGJnSENDeWhRU0RkVHR5Vk9CbEhlTGNiLXRBczFjM3h6T1dxVWt0bHNYaU1iUzJUVGo2TFR0QXQwalM4VUpqTWdMd2JuQQ?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
-          "seendate": "20260914T110207Z",
+          "seendate": "20260914T100513Z",
           "source": "GoogleNews"
         },
         {
@@ -1834,15 +1857,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20260908T105958Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "Barbados Signs its First Country Programme Framework (CPF) for 2026–2031",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQelZ2THNKYjFCR25YNUVkc2xuRGE3SmJ4eWpMVUVpWDFuSDlpTDdYSkhpUnFheEhuSXVlc0NqWF9YVUF0NVhhS1lyMzhZWHlGcFZlaWE3SUdxQWVwWTlMWkFjTkpiSWNBN2ZhUTYyZEtxT3NtRTVqQkRuS3d2Sy1qN1RaYXRZQUowZlIwUDhDVUF6WkVCLUR0dXVFa2RIMzJuMVBDWTI1d2ZMZw?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260624T070000Z",
           "source": "GoogleNews"
         }
       ],
@@ -9281,8 +9295,8 @@
         }
       ],
       "count": 1195,
-      "publish_date": "2026-09-09",
-      "sha256": "4da825621635b7d3c36039be0e83fdb2619200616292b5204bcffda78be9c89d",
+      "publish_date": "2026-09-11",
+      "sha256": "1ac8e3cbbb07ba74d799e53297c97c814dd57630ce2700fcd27902e20183fa79",
       "cached": false
     },
     "test_site_seismicity": {
@@ -9525,6 +9539,38 @@
           "lon": 87.9952,
           "lat": 41.8774,
           "depth_km": 10,
+          "source": "USGS"
+        },
+        {
+          "id": "nn00924447",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1789417175167,
+          "magnitude": 1.7,
+          "magnitude_type": "ml",
+          "event_type": "earthquake",
+          "place": "12 km N of Boulder City, Nevada",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00924447",
+          "lon": -114.8171,
+          "lat": 36.0875,
+          "depth_km": 15.9666,
+          "source": "USGS"
+        },
+        {
+          "id": "ci41547040",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1789398902300,
+          "magnitude": 2.2,
+          "magnitude_type": "ml",
+          "event_type": "earthquake",
+          "place": "4 km WSW of Olancha, CA",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41547040",
+          "lon": -118.04,
+          "lat": 36.2653333333333,
+          "depth_km": -0.29,
           "source": "USGS"
         },
         {
@@ -38451,6 +38497,18 @@
       "url": null,
       "date": "2026-09-09",
       "weight": 1.0
+    },
+    {
+      "title": "Implementation of the NPT Safeguards Agreement in the Syrian Arab Republic",
+      "url": null,
+      "date": "2026-09-01",
+      "weight": 1.0
+    },
+    {
+      "title": "Regional Cooperation Strengthens Radioactive Waste Management in Europe",
+      "url": null,
+      "date": "2026-09-08",
+      "weight": 0.8
     },
     {
       "title": "Worker Exceeded Statuary Annual Whole Body Dose Limits",
