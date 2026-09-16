@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "nuclear-proliferation-watch",
-    "generated": "2026-09-16T17:18:04.712413+00:00",
+    "generated": "2026-09-16T21:43:58.528284+00:00",
     "mode": "live",
     "sources": [
       "IAEA official pages",
@@ -14,7 +14,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-09-16T17:18:04.703846+00:00",
+    "issued_at": "2026-09-16T21:43:58.519898+00:00",
     "horizon": "0-30 days",
     "classification": "nuclear-escalation-pressure-not-test-or-weapon-probability",
     "score": 10.5,
@@ -28,7 +28,7 @@
         "available": true,
         "score": 22.8,
         "current_14d_weight": 3.4,
-        "current_14d_titles": 37,
+        "current_14d_titles": 36,
         "baseline_periods": 8,
         "baseline_median": 0.4,
         "anomaly_z": 5.06,
@@ -964,6 +964,17 @@
           "facility_security_incidents": 12.6,
           "test_site_seismicity": 0.0
         }
+      },
+      {
+        "timestamp": "2026-09-16T21:43:58.519898+00:00",
+        "score": 10.5,
+        "level": "BASELINE",
+        "components": {
+          "iaea_safeguards_strain": 22.8,
+          "npwmd_designation_delta": 0.0,
+          "facility_security_incidents": 12.6,
+          "test_site_seismicity": 0.0
+        }
       }
     ],
     "data_health": {
@@ -1142,15 +1153,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "Regional Cooperation Strengthens Radioactive Waste Management in Europe",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQQ3VfcDc5Q1hfSDVkN3B1alZVZlVvSmJuMzdBRkd3eFA3LUx0dlIxMUxQbEc3TzR3MzJfRWltRUhwVGFVX282andzSFlkT21DOUJoZlVzajV5ZTlQOVF0MmIzOWZZUUwzeXhiaXUzZERBSTMxblVhaERUYlZ0ZTBHU1RQcmRhV3JVNmxLWlZEXzlCbmFIR05RWlRGWEVrSDhvbGRwZHpQWDNxd1U?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260908T112657Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "Nuclear Safety, Security and Safeguards in Ukraine",
           "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE9EU1VlXzJNV2ZLMThpNDNpLWhVOHNBcE1helllR1hwOW0yMzJ4NnRtS2cxRUphR0NkUG9QNkw3MkozZUNPZTNR?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -1232,21 +1234,21 @@
           "source": "GoogleNews"
         },
         {
+          "title": "Regional Cooperation Strengthens Radioactive Waste Management in Europe",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQQ3VfcDc5Q1hfSDVkN3B1alZVZlVvSmJuMzdBRkd3eFA3LUx0dlIxMUxQbEc3TzR3MzJfRWltRUhwVGFVX282andzSFlkT21DOUJoZlVzajV5ZTlQOVF0MmIzOWZZUUwzeXhiaXUzZERBSTMxblVhaERUYlZ0ZTBHU1RQcmRhV3JVNmxLWlZEXzlCbmFIR05RWlRGWEVrSDhvbGRwZHpQWDNxd1U?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260908T112657Z",
+          "source": "GoogleNews"
+        },
+        {
           "title": "Provisional agenda",
           "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1ZaXJtVEZSbk1NMTJObVlEMTN0R3VMQ2g2QzFzaHF0YU9TRmQxSkxMZmZ3dTVJdW5YOGxVbWdFbTJOT2JZODhOcnM3eXY3SFBfMUlFRkFaUWR4QTMzanV1OGgzRVpmM0dSWWc0?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
           "seendate": "20260720T070000Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "International Atomic Energy Agency | Atoms for Peace and Development",
-          "url": "https://news.google.com/rss/articles/CBMiN0FVX3lxTE1hdTZQNFg0MDl3ZHcyNkVuQW1vUkx6Wl9KZTZ1NlZ4Nl9OOVRPcHY2YWtIOVZSUlE?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260916T153531Z",
           "source": "GoogleNews"
         },
         {
@@ -1367,15 +1369,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "IAEA to Launch ATLAS: Pioneering Nuclear Solutions for Shipping and Offshore Energy, Washington, August 26-27, 2026",
-          "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNRDVTbGRZSGxDb0YtYU55cUtCQWdnM0NkTWZoS2FaSlpXbk91WVE4MEFDS0FiWFdMLWl1ZTlXbktnOHZ3SHdzUVdkQk0xWEpka3FBVWdDYVBDeTl6VXNlRk1UZDZHbzRPWk95Mk5Xci1lNm0xeWc5dVhfa3UwcXQyejAxcDdoU2lRTjJDaWVrc1JVRHZVeDhzaFFUbUhwb0I5NTQtbDBlZmJrMzFWMm9wZC1fTFBPR09sSjRpY0tSZ1l3NVFiR2RHV0pucTJMdGp5dmQyd1FtN0tYcjVxNm05N0t5T3JCU0NYQXlkTQ?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260601T070000Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "Publications advanced search",
           "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5iSzlybGxadFZqSVRWNHJsRWp1OFYtTE02QWxzZTB5aHM4SlhST0lweEc0VFZnZkl6cGJ3amxOUzdRV29BZ2Q5Q1dYR0JEVGc4MWFNdlVheEJXeEdBT1BnVGg0eFEwMGVKREE2R3JB?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -1412,15 +1405,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "Strengthening Viet Nam’s Nuclear Liability Framework",
-          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQc0xtbHZaX2E4V250c0ZFZzFhSXYtZjE3dnQ1aFR2d1NnUWZKWHl1dXlFMDd6TWcxbXUzV0NITU54UWJiTWNXMmxRV01ab0VqaWFHRmxoT2dHNm9YaVdUUHhVQzZqR0E2cnp1ZW9RSGJRWWtrUW5oT3BCRklZUUQ5WmRYR2RycTNQMEh0b1hIT0U?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260716T070000Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "IAEA Concludes International Physical Protection Advisory Follow-Up Mission in China",
           "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQeGN1aGpSZVE2b1lpZ01sczhLdzFiTGJ1d3ZGU1JTUkV4VkJ6dDhPX2tHaHVIajR6aUFERG5WY2tBdnZqZ0tNd0JVbFFReE5QTzZSS1VJWUR3TEZuMHVHeU91b3hsVnBWUFlfWG5vQzM0ZXU4XzlKOTJjWkMxTE1JVTFvM1p1bW1nNS1zUWFQcG10bjhnR0M4MFpwV2cwVklPUUo0VFBxQUt4emFCSHVmdWFKajcwbDNWU3VLZzllVGhLdk9MY1RBZw?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -1436,6 +1420,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20260626T070000Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "IAEA to Launch ATLAS: Pioneering Nuclear Solutions for Shipping and Offshore Energy, Washington, August 26-27, 2026",
+          "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNRDVTbGRZSGxDb0YtYU55cUtCQWdnM0NkTWZoS2FaSlpXbk91WVE4MEFDS0FiWFdMLWl1ZTlXbktnOHZ3SHdzUVdkQk0xWEpka3FBVWdDYVBDeTl6VXNlRk1UZDZHbzRPWk95Mk5Xci1lNm0xeWc5dVhfa3UwcXQyejAxcDdoU2lRTjJDaWVrc1JVRHZVeDhzaFFUbUhwb0I5NTQtbDBlZmJrMzFWMm9wZC1fTFBPR09sSjRpY0tSZ1l3NVFiR2RHV0pucTJMdGp5dmQyd1FtN0tYcjVxNm05N0t5T3JCU0NYQXlkTQ?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260601T070000Z",
           "source": "GoogleNews"
         },
         {
@@ -1768,7 +1761,7 @@
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
-          "seendate": "20260916T131450Z",
+          "seendate": "20260916T104311Z",
           "source": "GoogleNews"
         },
         {
@@ -1853,15 +1846,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "Media Invited to the IAEA’s Scientific Forum on Rays of Hope: Delivering on the Promise of Cancer Care",
-          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQOGtaQmlJVmU1Y3JwNDNWM05TODg0MG5rTXNtQXJjazVtbzNhcjJyN0l5U3VEMDFSVXVyOTQ1ZndYV1g5bzZveTNOMTdkLTRQWFZ4T2ZiT1QyNXZ2Mk9KY0JfUmsteG1ZNUozOWZYS0gwYzdCX0pWbVA0Ny0wSm43cGtiU0o0cDRKNC1KdU9iSHYwcElfektDT280TzFsWlctdEhOQkI5ZUZKb0xNX1RlenVydVhIMkxtYlQtQkJTSmdrZ3YyUjJwcWJfbDljWjRVSnprVjBFV3dzR21XMkFfRQ?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260910T155908Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "Update 366 – IAEA Director General Statement on Situation in Ukraine",
           "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOd1BEaFVXQ3ZhOGxpcWVVU0R1akdEMU9wSUY0NmNIUnhuaklKbzJmaklSaFI1YzZYTUJuQnQxQ0hHRHZMUnZrLV9SZjFuaVRlOHh2bWVTa3V6cE80WGRKcUdrS2N0X0FsaGE3SUx3QXdRbE9abmxpdl9pVXFaREZrbHlDVEVZT0owcy1kMlhjaF9hWUx0clRab3lmNm5hUFcwWU5pTFdiN1RnZVRQVkNZdlJB?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -1922,6 +1906,33 @@
           "language": "",
           "tone": 0,
           "seendate": "20260913T224248Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Update 364 – IAEA Director General Statement on Situation in Ukraine",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOZ0N4bkFMNmhoRW1sM0hBVE9rSEtoUHF2RzZYSHF6blhtaS1iOG5acXVxcFl1c0ZnV3VYWWJIQkdBNmVXTHcyQXZxcTJXTTV3OWVoaTMwcElHSllYSnQxbHBXeTdnaG9FdGFoUmVjb0hmRm1QeFhCVVJsOHRCTThlY3R4eUJTclBqaDFIZFRMdVh5TmZxM2NObkY3NHFoZjdBWnE2WUMyLXlKNWFNUTlIZw?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260829T070000Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Ukrainian NPP Workers’ Children Meet with DG, Tour IAEA HQ as Part of Summer Camp Programme Hosted by Austria",
+          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOdUJ5Y1Bja2MwQ0g1WDVjWWxOdzc2NG9wOXl6eWpNQkp0UE9wZTdILVNPS0EtbjNqdWpTdUJpSEpFU1U0bjVqTWp0Q21BRUZfMmRfUnpTRHdITDRBZ1VZOUtZa0tJU1owelBSaF95QzlvMlJma3NGWldwMXB0VkIyTDdkN0VIZXdQTGxUUUszLVhfOEdPMFVvZ0ZrdXdDc2hjSWRhSHdTVkZ2SDV5NHpEb0R2b05wNXJlYkFJZzJWaERJNnUtZzRjclR2cXBHWVMxNXhQSUVTako4STBV?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260909T084810Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Requirements Engineering in the Life Cycle of Instrumentation and Control Systems in Nuclear Power Plants",
+          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQdFlrMlFsQlRVeVM5Z0JqRC15NGRaX3hMTzFaTlkzWHhheFFnZnByV0lVS2NjNnAyU1RIdFdDbTJkdjBmXzNzX2xSRjZnRFYtX1VjWkk4dTl5U2hrUzFET0tXV0ZNOW1yS1p0emluT1dIWHlBTmpDUDV3cThnZVJwa2hlLVZmZjluSlkyTjN5MnpYSzhsY2ZScW5NdFRHaVR0T0JwX0JIamNzemNiN0RwemFEWlZ4ZUtjSnNNR0l3SXk5QVlFSWhqTXV5N0s1d25DLUs1VnhQc280Z3ZP?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260730T183959Z",
           "source": "GoogleNews"
         }
       ],
@@ -9691,15 +9702,15 @@
           "site": "Nevada National Security Site",
           "site_lat": 37.12,
           "site_lon": -116.05,
-          "time": 1789482613720,
-          "magnitude": 1.66293200487541,
+          "time": 1789482613670,
+          "magnitude": 1.55,
           "magnitude_type": "ml",
           "event_type": "earthquake",
           "place": "26 km S of Trona, CA",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41333127",
-          "lon": -117.396835327148,
-          "lat": 35.5289993286133,
-          "depth_km": 8.8100004196167,
+          "lon": -117.395833333333,
+          "lat": 35.5288333333333,
+          "depth_km": 9.15,
           "source": "USGS"
         },
         {
