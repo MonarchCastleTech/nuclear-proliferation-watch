@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "nuclear-proliferation-watch",
-    "generated": "2026-09-16T21:43:58.528284+00:00",
+    "generated": "2026-09-17T05:27:01.030027+00:00",
     "mode": "live",
     "sources": [
       "IAEA official pages",
@@ -14,10 +14,10 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-09-16T21:43:58.519898+00:00",
+    "issued_at": "2026-09-17T05:27:01.021830+00:00",
     "horizon": "0-30 days",
     "classification": "nuclear-escalation-pressure-not-test-or-weapon-probability",
-    "score": 10.5,
+    "score": 12.1,
     "level": "BASELINE",
     "confidence": "HIGH",
     "confidence_score": 100.0,
@@ -85,12 +85,24 @@
         "id": "facility_security_incidents",
         "label": "IAEA-reported facility security incidents",
         "available": true,
-        "score": 12.6,
-        "current_30d_weight": 3.2,
+        "score": 20.7,
+        "current_30d_weight": 4.8,
         "baseline_months": 11,
         "baseline_median": 1.6,
-        "anomaly_z": 0.67,
+        "anomaly_z": 1.35,
         "evidence": [
+          {
+            "title": "Worker Exceeded Annual Dose Limit",
+            "url": "https://www-news.iaea.org/ErfView.aspx?mId=1c8db75f-7758-4e8d-80be-6a64b2aefc31",
+            "country": "United States of America",
+            "event_date": "23 Jul 2026",
+            "ines": "2",
+            "reported_by": "Nuclear Regulatory Commission (NRC)",
+            "reported_date": "17 Sep 2026",
+            "description": "On 23 July 2026, a trainee assistant radiographer did not verify radiography source retraction with a survey meter while performing device setup for at least one exposure at a job site. The worker noticed that the source was unlocked after the setup was complete. The worker did not report the... Reported by Nuclear Regulatory Commission (NRC) of United States of America on 17 Sep 2026. Last update on 17 Sep 2026",
+            "source": "IAEA NEWS",
+            "weight": 1.6
+          },
           {
             "title": "Worker Exceeded Statuary Annual Whole Body Dose Limits",
             "url": "https://www-news.iaea.org/ErfView.aspx?mId=0ccdddda-907d-45a1-b67d-1e2bbdba2e43",
@@ -975,6 +987,17 @@
           "facility_security_incidents": 12.6,
           "test_site_seismicity": 0.0
         }
+      },
+      {
+        "timestamp": "2026-09-17T05:27:01.021830+00:00",
+        "score": 12.1,
+        "level": "BASELINE",
+        "components": {
+          "iaea_safeguards_strain": 22.8,
+          "npwmd_designation_delta": 0.0,
+          "facility_security_incidents": 20.7,
+          "test_site_seismicity": 0.0
+        }
       }
     ],
     "data_health": {
@@ -982,7 +1005,7 @@
       "retained_components": [],
       "iaea_titles": 99,
       "npwmd_entries": 1195,
-      "iaea_events": 23,
+      "iaea_events": 24,
       "test_sites": 8
     },
     "method": {
@@ -1022,7 +1045,7 @@
   "stats": [
     {
       "label": "Escalation Pressure",
-      "value": "10.5/100",
+      "value": "12.1/100",
       "delta": "BASELINE"
     },
     {
@@ -1117,12 +1140,12 @@
           "source": "GoogleNews"
         },
         {
-          "title": "Implementation of the NPT Safeguards Agreement and relevant provisions of United Nations Security Council resolutions in the Isl",
-          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE82SnRXenNPemtablJ1b192ZzI1Um9OT1VpZ18wRkZkdUtVLVV3QWRFVm1jbEFSRm5KajNHOFZGQ2NyUjJfckVnTEkwckI3aXdHQjZZeGdVS2psdTB0bzhsaXdLcm5oZw?oc=5",
+          "title": "70th IAEA General Conference - Programme and Speakers Information",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNcHlpUGpaNGMzcVlGWGt0Z3RVSkF6X09uaExoajY3SUt0ekRpVk5hYnFrMFVibl9oVDdFeHlxMEZDRVFkNEJqQ2hIN1k3bVZQMGhZQ0xtSzRRUWE2bkJ3ZjIyVnRUczJMN2g2NU84NFRKX01fNmMwMEg1eVVhV2tmT25SSjVVb3QxYVA2WC1YakxKQ1RQWEVoTXlTX3c2bGxLaWlFLWpURHF1QzVHTHBRQzctbkpBdF9rM3FFOTBKSUM?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
-          "seendate": "20260909T191823Z",
+          "seendate": "20260728T032407Z",
           "source": "GoogleNews"
         },
         {
@@ -1135,12 +1158,12 @@
           "source": "GoogleNews"
         },
         {
-          "title": "70th IAEA General Conference - Programme and Speakers Information",
-          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNcHlpUGpaNGMzcVlGWGt0Z3RVSkF6X09uaExoajY3SUt0ekRpVk5hYnFrMFVibl9oVDdFeHlxMEZDRVFkNEJqQ2hIN1k3bVZQMGhZQ0xtSzRRUWE2bkJ3ZjIyVnRUczJMN2g2NU84NFRKX01fNmMwMEg1eVVhV2tmT25SSjVVb3QxYVA2WC1YakxKQ1RQWEVoTXlTX3c2bGxLaWlFLWpURHF1QzVHTHBRQzctbkpBdF9rM3FFOTBKSUM?oc=5",
+          "title": "Implementation of the NPT Safeguards Agreement and relevant provisions of United Nations Security Council resolutions in the Isl",
+          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE82SnRXenNPemtablJ1b192ZzI1Um9OT1VpZ18wRkZkdUtVLVV3QWRFVm1jbEFSRm5KajNHOFZGQ2NyUjJfckVnTEkwckI3aXdHQjZZeGdVS2psdTB0bzhsaXdLcm5oZw?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
-          "seendate": "20260728T032407Z",
+          "seendate": "20260909T191823Z",
           "source": "GoogleNews"
         },
         {
@@ -1198,15 +1221,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "APPLICATION OF SAFEGUARDS IN THE DEMOCRATIC PEOPLE’S REPUBLIC OF KOREA",
-          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1HMjRmZ282VjdaazFlRmtZUWdBZFpMOUZ3WGt6dU1sc2h3dUhBSzlMUG1yYlJxS0R6OEFHV0YyWFdUZFlYWllJOUN0SUstUWQxQjNuSEFFVkx5UThGZ0ZkeHllU2lfZw?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260828T070000Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "Safeguards Direct Portal: Improving information exchange with the IAEA Department of Safeguards",
           "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5ETHpETkxMc0pYNG1ZMUNJZVFGbXFmdGxWUnBqWHhqVEJ6M0l1VU8xRXY4ZktuWFdBVUpRTFBicUprYlpSYmpReDRGOA?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -1234,12 +1248,12 @@
           "source": "GoogleNews"
         },
         {
-          "title": "Regional Cooperation Strengthens Radioactive Waste Management in Europe",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQQ3VfcDc5Q1hfSDVkN3B1alZVZlVvSmJuMzdBRkd3eFA3LUx0dlIxMUxQbEc3TzR3MzJfRWltRUhwVGFVX282andzSFlkT21DOUJoZlVzajV5ZTlQOVF0MmIzOWZZUUwzeXhiaXUzZERBSTMxblVhaERUYlZ0ZTBHU1RQcmRhV3JVNmxLWlZEXzlCbmFIR05RWlRGWEVrSDhvbGRwZHpQWDNxd1U?oc=5",
+          "title": "Agenda",
+          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1HMjRmZ282VjdaazFlRmtZUWdBZFpMOUZ3WGt6dU1sc2h3dUhBSzlMUG1yYlJxS0R6OEFHV0YyWFdUZFlYWllJOUN0SUstUWQxQjNuSEFFVkx5UThGZ0ZkeHllU2lfZw?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
-          "seendate": "20260908T112657Z",
+          "seendate": "20260917T052017Z",
           "source": "GoogleNews"
         },
         {
@@ -1312,15 +1326,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20260608T070000Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "Board of Governors Implementation of the NPT Safeguards Agreement and relevant provisions of the United Nations Security Council",
-          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5QanBxYkZZRzdTVVdyeGlYT2RTcTBQNHJWYzFmRmpuSE5kTUxqbzhJVXNiQkdCUEl6dDlPUEtyOE4ydElUdVFOLWFXdkZBWVpPNjJWVFVpTTQ2eU9XMjJ5TldkRjdMQQ?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260604T070000Z",
           "source": "GoogleNews"
         },
         {
@@ -1576,21 +1581,21 @@
           "source": "GoogleNews"
         },
         {
+          "title": "Regional Cooperation Strengthens Radioactive Waste Management in Europe",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQQ3VfcDc5Q1hfSDVkN3B1alZVZlVvSmJuMzdBRkd3eFA3LUx0dlIxMUxQbEc3TzR3MzJfRWltRUhwVGFVX282andzSFlkT21DOUJoZlVzajV5ZTlQOVF0MmIzOWZZUUwzeXhiaXUzZERBSTMxblVhaERUYlZ0ZTBHU1RQcmRhV3JVNmxLWlZEXzlCbmFIR05RWlRGWEVrSDhvbGRwZHpQWDNxd1U?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260908T112657Z",
+          "source": "GoogleNews"
+        },
+        {
           "title": "International Ministerial Conference on Nuclear Power - Programme",
           "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOcnZQVUlTS0loZlJOenFISElOWnJaWF9nM0hfeW02akNuOHRKY2dGUDFRcjJ6bEpKSzFnMTFKSUREbVdfdWdYUmtXZ3NieElkSTlvbkhiZHVYMURlcGotYWlIOG83dDhvWWpzNnFRT0pIeFBmZ2RoeUdRcDNRYTFrWU5RTXQ?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
           "seendate": "20260721T061201Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "Tritium Level Far Below Japan’s Operational Limit in 23rd Batch of ALPS Treated Water, IAEA Confirms",
-          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPQkVSMDNSRGZsbTFWNDZOYmU3bE4wTTl0clNhZS1mN2N1NTZLVngyX19PWXFaMVpNOXM5Sk9ZYzZ5MVFjaUtfRkpSZF9NLU9KcmFZMzVnM2FYajVwd2ZuSnVVNy1heWhxWUZkbHNJQ0t0WTE5Y2tkdHQxMng0SEtMTWdiX0t3WFBBdzV4THlMb3Vxd19ONDAxTE5QVkVXU0ZzUkhqTUExRV82VUJPX1ZKZE4xNXgwMnZ0cTFkODVzLVJ1cFdDeWJubzZKbFBOM0x4dFdsZ2NPUFV5aG8?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260831T070000Z",
           "source": "GoogleNews"
         },
         {
@@ -1627,6 +1632,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20260820T152242Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Tritium Level Far Below Japan’s Operational Limit in 23rd Batch of ALPS Treated Water, IAEA Confirms",
+          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPQkVSMDNSRGZsbTFWNDZOYmU3bE4wTTl0clNhZS1mN2N1NTZLVngyX19PWXFaMVpNOXM5Sk9ZYzZ5MVFjaUtfRkpSZF9NLU9KcmFZMzVnM2FYajVwd2ZuSnVVNy1heWhxWUZkbHNJQ0t0WTE5Y2tkdHQxMng0SEtMTWdiX0t3WFBBdzV4THlMb3Vxd19ONDAxTE5QVkVXU0ZzUkhqTUExRV82VUJPX1ZKZE4xNXgwMnZ0cTFkODVzLVJ1cFdDeWJubzZKbFBOM0x4dFdsZ2NPUFV5aG8?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260831T070000Z",
           "source": "GoogleNews"
         },
         {
@@ -1837,15 +1851,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "Prognostic Value of Arterial 18F-FDG PET Imaging: The PIAF Trial – Phase II",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE4xVGpZVFpxSG13eGg0TWtPaFhiTFVnYUlOcmp1cFpGdm9PRHg1cnlfMlZpcnpIQlNzeDl4elpHTnhJUGwyWDNqeDV6OXBYSTB1Smc?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260908T193902Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "Update 366 – IAEA Director General Statement on Situation in Ukraine",
           "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOd1BEaFVXQ3ZhOGxpcWVVU0R1akdEMU9wSUY0NmNIUnhuaklKbzJmaklSaFI1YzZYTUJuQnQxQ0hHRHZMUnZrLV9SZjFuaVRlOHh2bWVTa3V6cE80WGRKcUdrS2N0X0FsaGE3SUx3QXdRbE9abmxpdl9pVXFaREZrbHlDVEVZT0owcy1kMlhjaF9hWUx0clRab3lmNm5hUFcwWU5pTFdiN1RnZVRQVkNZdlJB?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -1879,15 +1884,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20260828T070000Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "Press Arrangements for the 70th IAEA General Conference, 14–18 September",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPUVR0T0dxcWFkZzlSWlBNNURJNW1ULXp5OGhscUpFcVpuX3FwanlNTXJNWWxuT2MxcnpnWmV3RHJwZUl6Z0hOVDZPd3I2X19YTWFoRG95T1Mxb25OQUV1OXVOdms5OXRNcEFYZkpfMHNrQlpxMmNOV3dlbFhaNVVQNllQTVpvSXR3NHpGWTJ3R1BVWlp5Q2VFZ1pXWnIyYnFsOWFCc2xoLWRfVmJ5ZkY1N3BEdzdfZTBhWFE?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260909T131916Z",
           "source": "GoogleNews"
         },
         {
@@ -1934,6 +1930,33 @@
           "tone": 0,
           "seendate": "20260730T183959Z",
           "source": "GoogleNews"
+        },
+        {
+          "title": "Media Invited to the IAEA’s Scientific Forum on Rays of Hope: Delivering on the Promise of Cancer Care",
+          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQOGtaQmlJVmU1Y3JwNDNWM05TODg0MG5rTXNtQXJjazVtbzNhcjJyN0l5U3VEMDFSVXVyOTQ1ZndYV1g5bzZveTNOMTdkLTRQWFZ4T2ZiT1QyNXZ2Mk9KY0JfUmsteG1ZNUozOWZYS0gwYzdCX0pWbVA0Ny0wSm43cGtiU0o0cDRKNC1KdU9iSHYwcElfektDT280TzFsWlctdEhOQkI5ZUZKb0xNX1RlenVydVhIMkxtYlQtQkJTSmdrZ3YyUjJwcWJfbDljWjRVSnprVjBFV3dzR21XMkFfRQ?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260910T155908Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "How Nuclear Science Enhances Seafood Safety in Namibia",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPMVh5VkhtdjlNQTg0MEZneXd2UDNDLVlNQTVwdnZCMDluN3VYWHBMb1lfYjdVSDcyVkpnZXdSdVBMUUs1X3NaM3lYTlJNZGh0WjBfQ3RsWVpFOEpqRE9mNExpZ254aUdOcXFVc3BRUUdJS1hMajZ6OWMxdmdnVzhFb2t2d1Z3dXpKOTRMRHNiVmVqV1ZLMnVMSHpHYWQ3WlZGZWxqMGJR?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260605T070000Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Update 355 – IAEA Director General Statement on Situation in Ukraine",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQcWVqaTR2ai1MWjB2dDVDMloyYTY3bUhDbEtnWjdFZllZTjhiYm9wbXc5Z3N5aTJWSjJEWXN2cDl6Y09zcWlPVUE4c0Z4Q3o1Qm9IZktvVzV4X2NpSVFKbjhPZ0JCeWVUOE15U0FpMzc1OUpHQW9SSkxrcVZsczRHTWZTSHo0YkRjRnVtM25qcHpqckU4Q1Atd1dMY3lyX3lVdXc0MlY3RTFaNFNpUHF5bw?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260626T070000Z",
+          "source": "GoogleNews"
         }
       ],
       "query": "site:iaea.org (safeguards OR enrichment OR inspectors OR undeclared OR verification OR proliferation) when:120d",
@@ -1941,6 +1964,17 @@
     },
     "iaea_events": {
       "events": [
+        {
+          "title": "Worker Exceeded Annual Dose Limit",
+          "url": "https://www-news.iaea.org/ErfView.aspx?mId=1c8db75f-7758-4e8d-80be-6a64b2aefc31",
+          "country": "United States of America",
+          "event_date": "23 Jul 2026",
+          "ines": "2",
+          "reported_by": "Nuclear Regulatory Commission (NRC)",
+          "reported_date": "17 Sep 2026",
+          "description": "On 23 July 2026, a trainee assistant radiographer did not verify radiography source retraction with a survey meter while performing device setup for at least one exposure at a job site. The worker noticed that the source was unlocked after the setup was complete. The worker did not report the... Reported by Nuclear Regulatory Commission (NRC) of United States of America on 17 Sep 2026. Last update on 17 Sep 2026",
+          "source": "IAEA NEWS"
+        },
         {
           "title": "Worker Exceeded Statuary Annual Whole Body Dose Limits",
           "url": "https://www-news.iaea.org/ErfView.aspx?mId=0ccdddda-907d-45a1-b67d-1e2bbdba2e43",
@@ -9615,6 +9649,22 @@
           "lon": 87.9952,
           "lat": 41.8774,
           "depth_km": 10,
+          "source": "USGS"
+        },
+        {
+          "id": "ci41334031",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1789619629630,
+          "magnitude": 1.54,
+          "magnitude_type": "ml",
+          "event_type": "earthquake",
+          "place": "41 km WSW of Stovepipe Wells, CA",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41334031",
+          "lon": -117.546666666667,
+          "lat": 36.4225,
+          "depth_km": -0.95,
           "source": "USGS"
         },
         {
@@ -38306,22 +38356,6 @@
           "source": "USGS"
         },
         {
-          "id": "nn00904422",
-          "site": "Nevada National Security Site",
-          "site_lat": 37.12,
-          "site_lon": -116.05,
-          "time": 1758038737427,
-          "magnitude": 2.5,
-          "magnitude_type": "ml",
-          "event_type": "earthquake",
-          "place": "47 km ESE of Beatty, Nevada",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00904422",
-          "lon": -116.2595,
-          "lat": 36.7676,
-          "depth_km": 10,
-          "source": "USGS"
-        },
-        {
           "id": "us6000tkwa",
           "site": "Chagai",
           "site_lat": 28.9,
@@ -38541,6 +38575,18 @@
       "url": null,
       "date": "2026-09-08",
       "weight": 0.8
+    },
+    {
+      "title": "Worker Exceeded Annual Dose Limit",
+      "url": "https://www-news.iaea.org/ErfView.aspx?mId=1c8db75f-7758-4e8d-80be-6a64b2aefc31",
+      "country": "United States of America",
+      "event_date": "23 Jul 2026",
+      "ines": "2",
+      "reported_by": "Nuclear Regulatory Commission (NRC)",
+      "reported_date": "17 Sep 2026",
+      "description": "On 23 July 2026, a trainee assistant radiographer did not verify radiography source retraction with a survey meter while performing device setup for at least one exposure at a job site. The worker noticed that the source was unlocked after the setup was complete. The worker did not report the... Reported by Nuclear Regulatory Commission (NRC) of United States of America on 17 Sep 2026. Last update on 17 Sep 2026",
+      "source": "IAEA NEWS",
+      "weight": 1.6
     },
     {
       "title": "Worker Exceeded Statuary Annual Whole Body Dose Limits",
