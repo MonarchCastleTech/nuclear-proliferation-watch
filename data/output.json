@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "nuclear-proliferation-watch",
-    "generated": "2026-09-17T12:07:35.353729+00:00",
+    "generated": "2026-09-17T17:16:43.581542+00:00",
     "mode": "live",
     "sources": [
       "IAEA official pages",
@@ -14,7 +14,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-09-17T12:07:35.348186+00:00",
+    "issued_at": "2026-09-17T17:16:43.576777+00:00",
     "horizon": "0-30 days",
     "classification": "nuclear-escalation-pressure-not-test-or-weapon-probability",
     "score": 4.1,
@@ -970,6 +970,17 @@
       },
       {
         "timestamp": "2026-09-17T12:07:35.348186+00:00",
+        "score": 4.1,
+        "level": "BASELINE",
+        "components": {
+          "iaea_safeguards_strain": 0.0,
+          "npwmd_designation_delta": 0.0,
+          "facility_security_incidents": 20.7,
+          "test_site_seismicity": 0.0
+        }
+      },
+      {
+        "timestamp": "2026-09-17T17:16:43.576777+00:00",
         "score": 4.1,
         "level": "BASELINE",
         "components": {
@@ -8754,15 +8765,15 @@
           "site": "Nevada National Security Site",
           "site_lat": 37.12,
           "site_lon": -116.05,
-          "time": 1789619629630,
-          "magnitude": 1.54,
+          "time": 1789619629650,
+          "magnitude": 1.55,
           "magnitude_type": "ml",
           "event_type": "earthquake",
           "place": "41 km WSW of Stovepipe Wells, CA",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41334031",
-          "lon": -117.546666666667,
-          "lat": 36.4225,
-          "depth_km": -0.95,
+          "lon": -117.548333333333,
+          "lat": 36.4208333333333,
+          "depth_km": -0.71,
           "source": "USGS"
         },
         {
