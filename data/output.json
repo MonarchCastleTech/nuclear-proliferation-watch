@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "nuclear-proliferation-watch",
-    "generated": "2026-09-18T11:51:13.130112+00:00",
+    "generated": "2026-09-18T16:44:20.836294+00:00",
     "mode": "live",
     "sources": [
       "IAEA official pages",
@@ -14,7 +14,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-09-18T11:51:13.121594+00:00",
+    "issued_at": "2026-09-18T16:44:20.827581+00:00",
     "horizon": "0-30 days",
     "classification": "nuclear-escalation-pressure-not-test-or-weapon-probability",
     "score": 11.4,
@@ -65,8 +65,8 @@
         "removed_count": 0,
         "added": [],
         "removed": [],
-        "publish_date": "2026-09-16",
-        "sha256": "01df2c64828bd5471d0e512c5d609d45f80ea13972d3397491b90e375899e09b",
+        "publish_date": "2026-09-17",
+        "sha256": "2739bd07a7401aa19930b959e3665772b900924fd54a0d63fd41d20d459f9dce",
         "retained": false
       },
       {
@@ -1041,6 +1041,17 @@
           "facility_security_incidents": 20.7,
           "test_site_seismicity": 0.0
         }
+      },
+      {
+        "timestamp": "2026-09-18T16:44:20.827581+00:00",
+        "score": 11.4,
+        "level": "BASELINE",
+        "components": {
+          "iaea_safeguards_strain": 20.8,
+          "npwmd_designation_delta": 0.0,
+          "facility_security_incidents": 20.7,
+          "test_site_seismicity": 0.0
+        }
       }
     ],
     "data_health": {
@@ -1129,12 +1140,12 @@
           "source": "GoogleNews"
         },
         {
-          "title": "IAEA General Conference Elects Argentine Ambassador as Conference President",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOWVlHamFFZFp5TlZxS3RQazJMQjF6WnpUQ3EyNXlBdUlOZFhXckdWV3Y1bHVVaHZneFV6NFZRQmV1V0l6WWxxaklnbGpjMFpncDVWd3NpdkRUSHoxdmhXZVpVY0JTZEM3ekVnWm5RSTF1aVdUUWM0NktnS2pyRjJBc0JsT3V2cDA2bmVmWXlxdXJDTk1nSG84WjhiaG8tRHR1VHJ1YUhkQTV1OGYzMjlkbw?oc=5",
+          "title": "Update 367 – IAEA Director General Statement on Situation in Ukraine",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQTTdia2oyZmhSbHNBb0ZkNDNBVkxMU2VVVVBrdHNjckE0ZGdPT2FzMS1EMG9SRG1JLUVBUHJ6ZUpSdy12d2wzUTUzblJTTXNQLWxVT2kzT0t2cGNrTVRoZW1lSDFOY1VTVWNhS2ljSzBfTGUxb29pcHJoXy1DZE9GanZlWnFLWGo0SU01amp4UXVyV1NqdGNZbDNUVS05VEdFRmtRcGxNYXFMeEZCUDJEamlR?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
-          "seendate": "20260914T073020Z",
+          "seendate": "20260917T153901Z",
           "source": "GoogleNews"
         },
         {
@@ -1144,6 +1155,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20260914T100618Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "IAEA General Conference Elects Argentine Ambassador as Conference President",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOWVlHamFFZFp5TlZxS3RQazJMQjF6WnpUQ3EyNXlBdUlOZFhXckdWV3Y1bHVVaHZneFV6NFZRQmV1V0l6WWxxaklnbGpjMFpncDVWd3NpdkRUSHoxdmhXZVpVY0JTZEM3ekVnWm5RSTF1aVdUUWM0NktnS2pyRjJBc0JsT3V2cDA2bmVmWXlxdXJDTk1nSG84WjhiaG8tRHR1VHJ1YUhkQTV1OGYzMjlkbw?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260914T073020Z",
           "source": "GoogleNews"
         },
         {
@@ -1162,6 +1182,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20260914T063425Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Energy, Electricity and Nuclear Power Estimates for the Period up to 2060",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQcmtCMUNZZ3VnemtUWFFGdmttZVIzdGg4Sm1sRmNKVEdjM0ZUR1p5STZGM19KOVlMRXMzSWlvRlNnN0REeWV6UXp6bWpBYl9jNEE1eW9LbEV4dDJUMG1vVHZ3c1FSdXFfTFhySFZtMHVhV0tMRFRVLTZIT1RNNlBRQmxnY3dlUFZvQmowdFZHQkFVMVZrN1V2R0ZpT1diM3VkOVBWckZSN0s3Z2RadU1jUg?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260914T073255Z",
           "source": "GoogleNews"
         },
         {
@@ -1296,7 +1325,7 @@
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
-          "seendate": "20260918T065109Z",
+          "seendate": "20260918T145625Z",
           "source": "GoogleNews"
         },
         {
@@ -1408,15 +1437,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "IAEA Concludes International Physical Protection Advisory Follow-Up Mission in China",
-          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQeGN1aGpSZVE2b1lpZ01sczhLdzFiTGJ1d3ZGU1JTUkV4VkJ6dDhPX2tHaHVIajR6aUFERG5WY2tBdnZqZ0tNd0JVbFFReE5QTzZSS1VJWUR3TEZuMHVHeU91b3hsVnBWUFlfWG5vQzM0ZXU4XzlKOTJjWkMxTE1JVTFvM1p1bW1nNS1zUWFQcG10bjhnR0M4MFpwV2cwVklPUUo0VFBxQUt4emFCSHVmdWFKajcwbDNWU3VLZzllVGhLdk9MY1RBZw?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260713T070000Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "Press Centre | IAEA",
           "url": "https://news.google.com/rss/articles/CBMiPkFVX3lxTE92UkdleW9MWGE1c0hWNlVQc3JkUlVzTWZZVENkSUd4WFByaFI5OVlzT25EbDZNdzNaQVcyVTRB?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -1450,6 +1470,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20260601T070000Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "IAEA Concludes International Physical Protection Advisory Follow-Up Mission in China",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQeGN1aGpSZVE2b1lpZ01sczhLdzFiTGJ1d3ZGU1JTUkV4VkJ6dDhPX2tHaHVIajR6aUFERG5WY2tBdnZqZ0tNd0JVbFFReE5QTzZSS1VJWUR3TEZuMHVHeU91b3hsVnBWUFlfWG5vQzM0ZXU4XzlKOTJjWkMxTE1JVTFvM1p1bW1nNS1zUWFQcG10bjhnR0M4MFpwV2cwVklPUUo0VFBxQUt4emFCSHVmdWFKajcwbDNWU3VLZzllVGhLdk9MY1RBZw?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260713T070000Z",
           "source": "GoogleNews"
         },
         {
@@ -1504,15 +1533,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20260605T070000Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "STATEMENT",
-          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE11ai1PTTE1VXo0RGpINVM1blFiSWZxVVFOV3pQSzNwc2NvanZUdnE2VnpkaEVjVWFPZjJMeGswOGRlakgxRlIyN3hTcXp1SUxUU1d4UDByWnZ6WXRnU3lvbFZyN0xDWDhqN1l3ZHJFME01c19l?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260915T163101Z",
           "source": "GoogleNews"
         },
         {
@@ -1597,6 +1617,15 @@
           "source": "GoogleNews"
         },
         {
+          "title": "International Ministerial Conference on Nuclear Power - Programme",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOcnZQVUlTS0loZlJOenFISElOWnJaWF9nM0hfeW02akNuOHRKY2dGUDFRcjJ6bEpKSzFnMTFKSUREbVdfdWdYUmtXZ3NieElkSTlvbkhiZHVYMURlcGotYWlIOG83dDhvWWpzNnFRT0pIeFBmZ2RoeUdRcDNRYTFrWU5RTXQ?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260721T061201Z",
+          "source": "GoogleNews"
+        },
+        {
           "title": "News: Second International Conference on Accelerators for Research and Sustainable Development | IAEA",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBOS2NITHQzQlN5ZEh3QUtNSU5XeDIxNXVkb01Yc2JHWFh6cVR1S2hQTWRyeVZjem9abFNxRFVTd1dXQTN6azhBYld6QmRlR0tQQUpTbTVB?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -1612,15 +1641,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20260522T070000Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "Update 363 – IAEA Director General Statement on Situation in Ukraine",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxObm9BZElGb0lWcTFIXy1uYVIwbFBnTE1Na0x2UDhhVElubFhFWmVHMjlJc09NVUFfQkl5SUdZZkJjczJqTUZPV25YeG9KeE52d1BaTmZsRUZGRkthUUV5SzZrODNfRG1nTDhlbERONTNiYkJxQjZPRm9XdG55N1lic3ZoN3dhSWhRWTFubGNSNjJsbHJjSXJVSExVaUtLYnN3dGNsaDFaNWpaY3BkUDJXTQ?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260820T070000Z",
           "source": "GoogleNews"
         },
         {
@@ -1687,12 +1707,12 @@
           "source": "GoogleNews"
         },
         {
-          "title": "International Ministerial Conference on Nuclear Power - Programme",
-          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOcnZQVUlTS0loZlJOenFISElOWnJaWF9nM0hfeW02akNuOHRKY2dGUDFRcjJ6bEpKSzFnMTFKSUREbVdfdWdYUmtXZ3NieElkSTlvbkhiZHVYMURlcGotYWlIOG83dDhvWWpzNnFRT0pIeFBmZ2RoeUdRcDNRYTFrWU5RTXQ?oc=5",
+          "title": "Update 363 – IAEA Director General Statement on Situation in Ukraine",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxObm9BZElGb0lWcTFIXy1uYVIwbFBnTE1Na0x2UDhhVElubFhFWmVHMjlJc09NVUFfQkl5SUdZZkJjczJqTUZPV25YeG9KeE52d1BaTmZsRUZGRkthUUV5SzZrODNfRG1nTDhlbERONTNiYkJxQjZPRm9XdG55N1lic3ZoN3dhSWhRWTFubGNSNjJsbHJjSXJVSExVaUtLYnN3dGNsaDFaNWpaY3BkUDJXTQ?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
-          "seendate": "20260721T061201Z",
+          "seendate": "20260820T070000Z",
           "source": "GoogleNews"
         },
         {
@@ -1738,15 +1758,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20260526T070000Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "Update 367 – IAEA Director General Statement on Situation in Ukraine",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQTTdia2oyZmhSbHNBb0ZkNDNBVkxMU2VVVVBrdHNjckE0ZGdPT2FzMS1EMG9SRG1JLUVBUHJ6ZUpSdy12d2wzUTUzblJTTXNQLWxVT2kzT0t2cGNrTVRoZW1lSDFOY1VTVWNhS2ljSzBfTGUxb29pcHJoXy1DZE9GanZlWnFLWGo0SU01amp4UXVyV1NqdGNZbDNUVS05VEdFRmtRcGxNYXFMeEZCUDJEamlR?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260917T153901Z",
           "source": "GoogleNews"
         },
         {
@@ -1831,6 +1842,15 @@
           "source": "GoogleNews"
         },
         {
+          "title": "Detection of Unintended or Accidental Medical Exposures in Radiotherapy Through Patient Response",
+          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQWlhZelptbW5PTU1RMHQ5dDRiS0tIMTlZUU1GcERfS3F4bnBfZzhkWHFPMnF1MU05NnRMd09xTDNEellCR1R2ajdya2c4OVJqR3hJMUJENi1zQ1FINUZIaFc4Q3JtQkpwOV9HZG5CbDV6RjRuWjFVWFlDeTJUaHpzTlg4VEV2c0tQWTFoVmxicGJvSTJUdGVfWjUyLWVhclJTUUVyTFZZalROMHA2dGFmamdndmtyejJTTVR0eU9BRm1wbVF2cEZ2dm82MkphdWdp?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260825T145023Z",
+          "source": "GoogleNews"
+        },
+        {
           "title": "Social and Economic Impact Assessment of Hydrology and Groundwater Projects under the RCA",
           "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNMGZRM2pPdGdKV01KR21TWUx1a1pjQ2dNUXVwYWF4U0EzZHYxaVNMWWNQbnRwVHZ5RkVZVllwaUl4MjJIV2lpdHNJMUI3aWpJaGdTLWJjMllHQnY0Z0NzRnEtUmtnMlJabE0wUUpiQ0xUTVNlcGZnRGF0TmZJTDFVaEN4bEVESXUwek1PNXp2QU1RN29JY1NuVTg2UGxURmxGZjVYbXhYemhuU1c0eUdDYktWaG5UTGlKVUwtY3UzMlU5OUp3Rlpv?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -1882,15 +1902,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20260709T070000Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "Update 362 – IAEA Director General Statement on Situation in Ukraine",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQZ1kzQW5WWjZRY2plQzRVanZ5TE56OWozdlpHOEY0QXhHNWtMT0R0YXlMcEtRV2RxMjBhT2NTTHd1QWZzb2JMR3lTWDNHZFZIbEpmOFVRaDU4VVpGUFVYY1BnUHlkS2xuRkRqaURVVk9TTTNhaUptVEpEN3RqbGZpN3FPMXdjSzRCSVN6UzFVUk5RRlYwQWMxYTFwajFGOWkwQ3E1ZV84eW90SmpXcmFzdg?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260814T070000Z",
           "source": "GoogleNews"
         },
         {
@@ -1966,6 +1977,15 @@
           "source": "GoogleNews"
         },
         {
+          "title": "Requirements Engineering in the Life Cycle of Instrumentation and Control Systems in Nuclear Power Plants",
+          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQdFlrMlFsQlRVeVM5Z0JqRC15NGRaX3hMTzFaTlkzWHhheFFnZnByV0lVS2NjNnAyU1RIdFdDbTJkdjBmXzNzX2xSRjZnRFYtX1VjWkk4dTl5U2hrUzFET0tXV0ZNOW1yS1p0emluT1dIWHlBTmpDUDV3cThnZVJwa2hlLVZmZjluSlkyTjN5MnpYSzhsY2ZScW5NdFRHaVR0T0JwX0JIamNzemNiN0RwemFEWlZ4ZUtjSnNNR0l3SXk5QVlFSWhqTXV5N0s1d25DLUs1VnhQc280Z3ZP?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260730T183959Z",
+          "source": "GoogleNews"
+        },
+        {
           "title": "Media Invited to the IAEA’s Scientific Forum on Rays of Hope: Delivering on the Promise of Cancer Care",
           "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQOGtaQmlJVmU1Y3JwNDNWM05TODg0MG5rTXNtQXJjazVtbzNhcjJyN0l5U3VEMDFSVXVyOTQ1ZndYV1g5bzZveTNOMTdkLTRQWFZ4T2ZiT1QyNXZ2Mk9KY0JfUmsteG1ZNUozOWZYS0gwYzdCX0pWbVA0Ny0wSm43cGtiU0o0cDRKNC1KdU9iSHYwcElfektDT280TzFsWlctdEhOQkI5ZUZKb0xNX1RlenVydVhIMkxtYlQtQkJTSmdrZ3YyUjJwcWJfbDljWjRVSnprVjBFV3dzR21XMkFfRQ?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -1999,15 +2019,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20260825T103116Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "Services Series",
-          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE54dmRCcFZ4WVA0Tjdlek92Wk9EOGJTdldPMkFNcUFyWUpJandGN1NDYmxrb0ppTFFMX1M5eUVJUzRZVVRaTWRLcm5yMjNGaENIX1NNOWtMaVF6WGFQQmJyekNJU2Vndw?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260809T204030Z",
           "source": "GoogleNews"
         }
       ],
@@ -9457,8 +9468,8 @@
         }
       ],
       "count": 1195,
-      "publish_date": "2026-09-16",
-      "sha256": "01df2c64828bd5471d0e512c5d609d45f80ea13972d3397491b90e375899e09b",
+      "publish_date": "2026-09-17",
+      "sha256": "2739bd07a7401aa19930b959e3665772b900924fd54a0d63fd41d20d459f9dce",
       "cached": false
     },
     "test_site_seismicity": {
