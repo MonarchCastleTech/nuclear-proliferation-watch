@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "nuclear-proliferation-watch",
-    "generated": "2026-09-17T21:47:15.762276+00:00",
+    "generated": "2026-09-18T05:14:32.183178+00:00",
     "mode": "live",
     "sources": [
       "IAEA official pages",
@@ -14,7 +14,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-09-17T21:47:15.753871+00:00",
+    "issued_at": "2026-09-18T05:14:32.174827+00:00",
     "horizon": "0-30 days",
     "classification": "nuclear-escalation-pressure-not-test-or-weapon-probability",
     "score": 11.4,
@@ -28,10 +28,10 @@
         "available": true,
         "score": 20.8,
         "current_14d_weight": 2.6,
-        "current_14d_titles": 39,
+        "current_14d_titles": 40,
         "baseline_periods": 8,
-        "baseline_median": 0.4,
-        "anomaly_z": 3.71,
+        "baseline_median": 0.0,
+        "anomaly_z": 2.6,
         "evidence": [
           {
             "title": "INPRO Methodology for Sustainability Assessments of Nuclear Energy Systems: Proliferation Resistance",
@@ -124,7 +124,7 @@
         "available": true,
         "score": 0.0,
         "current_30d_diagnostic_weight": 0.0,
-        "events_considered": 1818,
+        "events_considered": 1816,
         "sites_monitored": 8,
         "anomaly_z": 0.0,
         "evidence": [],
@@ -1019,6 +1019,17 @@
           "facility_security_incidents": 20.7,
           "test_site_seismicity": 0.0
         }
+      },
+      {
+        "timestamp": "2026-09-18T05:14:32.174827+00:00",
+        "score": 11.4,
+        "level": "BASELINE",
+        "components": {
+          "iaea_safeguards_strain": 20.8,
+          "npwmd_designation_delta": 0.0,
+          "facility_security_incidents": 20.7,
+          "test_site_seismicity": 0.0
+        }
       }
     ],
     "data_health": {
@@ -1125,21 +1136,21 @@
           "source": "GoogleNews"
         },
         {
-          "title": "Adequate uranium resources available, but sustained investment essential to support global nuclear capacity growth",
-          "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQOFFTUUcyaklpc3hpVGNSMEJYX194Y01walFnT21nbk5TakxlRWllUnp0RWVQTGsxZ0xMRDdPMlBLcGZpZlM0TzU5YTBMaTFPblczcHg0N2hnU0ZGcHhWZHZQRnJScktfbTZyV1RqUExEa05WTUlvNW9aWFFRUHFxYW9nenZPSXk2NDNZNVV1dzdWUi1jZnlrblJIVWtSTUdadWRwRFpnMnpxdWtZS2RqRkxCc3hxVFA3V0VzZnBWSEtNRGtMSXA3RTJVVkdPUktoaDRGLVNiOGF1QzRXbWd0R3ZYWHpSelVoNGlTYXU5elM?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260914T063425Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "IAEA Projects Global Nuclear Power Capacity Could Triple by 2060, Continuing Rising Trend",
           "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNUHhCaF9vSmh1bE05bTdSVTRnVjQ4TGJjTGlYS2tUWUphZUNBdUI0LUFjcmRkVTBjdi1ZV3daSE0tRVgyellrZllRU0Z6b29NbWFTR0t4SkRZeEZfUU80YV9HS3ZzbF9nQUZHZzJJd19vRDFNeHEtTWVobUJOU0xoazQyRGlST2NnQjdlUk1OdElHd2ZHTlpJRndWcmMwbUZuanUwTm1xVFQ5ZHh2OXI1Ql85VWRFWkNoSjBlRk13MEtQZkEwdl9CLTZNZnpLUQ?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
           "seendate": "20260914T070000Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Adequate uranium resources available, but sustained investment essential to support global nuclear capacity growth",
+          "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQOFFTUUcyaklpc3hpVGNSMEJYX194Y01walFnT21nbk5TakxlRWllUnp0RWVQTGsxZ0xMRDdPMlBLcGZpZlM0TzU5YTBMaTFPblczcHg0N2hnU0ZGcHhWZHZQRnJScktfbTZyV1RqUExEa05WTUlvNW9aWFFRUHFxYW9nenZPSXk2NDNZNVV1dzdWUi1jZnlrblJIVWtSTUdadWRwRFpnMnpxdWtZS2RqRkxCc3hxVFA3V0VzZnBWSEtNRGtMSXA3RTJVVkdPUktoaDRGLVNiOGF1QzRXbWd0R3ZYWHpSelVoNGlTYXU5elM?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260914T063425Z",
           "source": "GoogleNews"
         },
         {
@@ -1260,12 +1271,21 @@
           "source": "GoogleNews"
         },
         {
+          "title": "INFCIRC/1416 - Communication from the Permanent Mission of the Islamic Republic of Iran to the Agency",
+          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1rVXhmcTNoS0w1VnRGdHVIalh4M0RtODFUVFBUNHRKYzRYYTVPcXNfM0Zqb2t5UWRIbWViblNLVDBUN082SC1NQTEtLU9nVE0yTV9WVS1EaUpJdFVXZXI1ZWJaS3hSOEJKUUFfaUNvT21Xdw?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260908T070000Z",
+          "source": "GoogleNews"
+        },
+        {
           "title": "International Atomic Energy Agency | Atoms for Peace and Development",
           "url": "https://news.google.com/rss/articles/CBMiN0FVX3lxTE1hdTZQNFg0MDl3ZHcyNkVuQW1vUkx6Wl9KZTZ1NlZ4Nl9OOVRPcHY2YWtIOVZSUlE?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
-          "seendate": "20260917T171356Z",
+          "seendate": "20260917T165441Z",
           "source": "GoogleNews"
         },
         {
@@ -1383,6 +1403,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20260713T070000Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Press Centre | IAEA",
+          "url": "https://news.google.com/rss/articles/CBMiPkFVX3lxTE92UkdleW9MWGE1c0hWNlVQc3JkUlVzTWZZVENkSUd4WFByaFI5OVlzT25EbDZNdzNaQVcyVTRB?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20150409T043334Z",
           "source": "GoogleNews"
         },
         {
@@ -1539,6 +1568,15 @@
           "source": "GoogleNews"
         },
         {
+          "title": "70th IAEA General Conference",
+          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9kVlZmSmJ6OV9QaXpJX1owaV81QzJ3UzhoOWJ5ODNodjV0c1N4TGVoci04bXZrU2FEX3J5T0FKLTk4cmo0YjVEZ1pmV0hkdGExQUpxYlFpem1hS19WY3hJZ2o1X2NJY3NfYjhnWVBKZEN4ZUJVb3c0Q2VLTTU?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260728T140124Z",
+          "source": "GoogleNews"
+        },
+        {
           "title": "Board of Governors | IAEA",
           "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9Zd0V1MXBqbGV3VmFRQ2xnbkV3eF9YVjJoSUpXekdPRTd3OExGZ0gxTm0yMEs3aVNoYnJvQk1kRDIwZmptV1lQU0NCZXFfUQ?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -1581,15 +1619,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20260820T152242Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "Tritium Level Far Below Japan’s Operational Limit in 23rd Batch of ALPS Treated Water, IAEA Confirms",
-          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPQkVSMDNSRGZsbTFWNDZOYmU3bE4wTTl0clNhZS1mN2N1NTZLVngyX19PWXFaMVpNOXM5Sk9ZYzZ5MVFjaUtfRkpSZF9NLU9KcmFZMzVnM2FYajVwd2ZuSnVVNy1heWhxWUZkbHNJQ0t0WTE5Y2tkdHQxMng0SEtMTWdiX0t3WFBBdzV4THlMb3Vxd19ONDAxTE5QVkVXU0ZzUkhqTUExRV82VUJPX1ZKZE4xNXgwMnZ0cTFkODVzLVJ1cFdDeWJubzZKbFBOM0x4dFdsZ2NPUFV5aG8?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260831T070000Z",
           "source": "GoogleNews"
         },
         {
@@ -1697,21 +1726,12 @@
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
-          "seendate": "20260917T174311Z",
+          "seendate": "20260917T153901Z",
           "source": "GoogleNews"
         },
         {
           "title": "International High-level Forum on the ATLAS Launch - Programme | IAEA",
           "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE0wcE5HaXBzY1dVM19BemtzVUJVLWlqRkJvU1hrWTFZVTA1cGdXV2YwMVJ3eEpfQmxwajBkMlpEVVFEbjI0U2Q2ZTBXWG5udW5XZWNEeWdVZzhoQQ?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260827T070000Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "International High-level Forum on the ATLAS Launch | IAEA",
-          "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFAwOUVjcklwUEtJNHdmSE8xS1FPQ2h3VUlQdXM4RnB0elMxVkFCTkJzdjV2cG55TVdrUHJTWlVSTTNDZ1VhNEV0OHBUekk?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
@@ -1792,7 +1812,7 @@
         },
         {
           "title": "The Commonwealth of The Bahamas Signs its First Country Programme Framework (CPF) for 2026–2031",
-          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNWU1nRm40RWNOWXRhZVpyd1NwMXE1RDdJZ01JSFUyNGdidWk3UVZmZzFXdE8wQmQ0cnYtTWt1c2tQeFVKTzBMQXBuWk1ibUZMaG4yS1hNZmk3QXNISXVxUmFyUXZIdHpBY19VbG5kNk1pUUpHb2NzYlNpVEpQODNDTEk3bkxNNldSZlhCM2ZnTXJSOHJsRVEzM2JWUks4SEo4cXc1VDZjd1FOcUhRendZOWZXbEV0ZkszNWhMZ05DSEpYbmNLdXlQVzdR?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPWm9nd0xnSks1a3huZVBhUEFaS3BGbUlIaGk0M2p4cFlSNWdmaDhMUjlRSDJWbmxsVVJubnhaZ1RqQXlkM2ZHTGozVWY4QXlodlJjTS1udzlpY1FKWWV3U3YwRjAwNU5yMUFWeVJBSTBEaVZiQ2RUWUsySURGYzdwRUl0VlltWjRwUGJDam1kLW1VMnQtallEb21iSm1LaGZvZjB0b0dFU1UwZWFJRy1JalFkdTdHUjBhTzIyNFg2Z29NbVRUeWFrTQ?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
@@ -1977,15 +1997,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20260915T155822Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "Webinar on the Fleet-Wide Deployment of Small Modular Reactors (SMRs) and Manufacturing Without Owner/Licensee by the SMR Regulators' Forum | IAEA",
-          "url": "https://news.google.com/rss/articles/CBMiywJBVV95cUxPLTJiVVQxX1N4bzNoOFBrOERhbzVTVkh2UlNKNUxYcW92SjFRRDZOa2NsUzI4c0FEOC02X1FNNnh1U3RoZ21uTWZCZlNLSXp6UjhEUE5yOHBybDNNTGc5SkJPS2l0ekQ5TGoyaXZJRlNNQ0lSeFV6d2NMdnhKUWg3b3NzVFVNZEk3dFl4N0Y1SzJJMkQxYjA4TnhlcjNyamdjSnhLVktvMWtXV1l0R3FzSHplVXpBV19aS0lSV3Z0bnNLZS01TWlmVGc2TXN0TVJFOEo1TDlQeFE1UU1iZG4tMXREOXBzZlpYaWFxQm1LaS1VeWR0TEpFLURPWE81eDdPa3V0ak9OMjVGNGhhZ1RUOUdnSHNRWnRmR0RUS0s5WFRnRTVoZHNHX0I1Ujdlclc2YkIwMHZTOGpDSXZtTjZBdFhaM2Q3YjY3Zzd3?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260611T070000Z",
           "source": "GoogleNews"
         }
       ],
@@ -10054,15 +10065,15 @@
           "site": "Nevada National Security Site",
           "site_lat": 37.12,
           "site_lon": -116.05,
-          "time": 1788935499870,
+          "time": 1788935499900,
           "magnitude": 1.97,
           "magnitude_type": "md",
           "event_type": "earthquake",
           "place": "19 km SW of Toms Place, CA",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75432232",
-          "lon": -118.841667175293,
-          "lat": 37.4511680603027,
-          "depth_km": 1.03999996185303,
+          "lon": -118.840333333333,
+          "lat": 37.4526666666667,
+          "depth_km": 1.83,
           "source": "USGS"
         },
         {
@@ -38351,38 +38362,6 @@
           "lon": -117.7938333,
           "lat": 35.3645,
           "depth_km": 6.33,
-          "source": "USGS"
-        },
-        {
-          "id": "nn00904503",
-          "site": "Nevada National Security Site",
-          "site_lat": 37.12,
-          "site_lon": -116.05,
-          "time": 1758136534303,
-          "magnitude": 1.5,
-          "magnitude_type": "ml",
-          "event_type": "explosion",
-          "place": "56 km S of Kingston, Nevada",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00904503",
-          "lon": -117.1179,
-          "lat": 38.7027,
-          "depth_km": 16,
-          "source": "USGS"
-        },
-        {
-          "id": "ci41293176",
-          "site": "Nevada National Security Site",
-          "site_lat": 37.12,
-          "site_lon": -116.05,
-          "time": 1758130699250,
-          "magnitude": 1.76,
-          "magnitude_type": "ml",
-          "event_type": "earthquake",
-          "place": "23 km WSW of Little Lake, CA",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41293176",
-          "lon": -118.1241667,
-          "lat": 35.8255,
-          "depth_km": 9.77,
           "source": "USGS"
         },
         {
