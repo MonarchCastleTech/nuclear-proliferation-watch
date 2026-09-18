@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "nuclear-proliferation-watch",
-    "generated": "2026-09-18T16:44:20.836294+00:00",
+    "generated": "2026-09-18T21:16:18.712753+00:00",
     "mode": "live",
     "sources": [
       "IAEA official pages",
@@ -14,10 +14,10 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-09-18T16:44:20.827581+00:00",
+    "issued_at": "2026-09-18T21:16:18.704499+00:00",
     "horizon": "0-30 days",
     "classification": "nuclear-escalation-pressure-not-test-or-weapon-probability",
-    "score": 11.4,
+    "score": 12.7,
     "level": "BASELINE",
     "confidence": "HIGH",
     "confidence_score": 100.0,
@@ -26,18 +26,24 @@
         "id": "iaea_safeguards_strain",
         "label": "IAEA safeguards and access strain",
         "available": true,
-        "score": 20.8,
-        "current_14d_weight": 2.6,
+        "score": 24.4,
+        "current_14d_weight": 4.0,
         "current_14d_titles": 39,
         "baseline_periods": 8,
         "baseline_median": 0.0,
-        "anomaly_z": 2.6,
+        "anomaly_z": 4.0,
         "evidence": [
           {
             "title": "INPRO Methodology for Sustainability Assessments of Nuclear Energy Systems: Proliferation Resistance",
             "url": null,
-            "date": "2026-09-09",
+            "date": "2026-09-18",
             "weight": 1.6
+          },
+          {
+            "title": "Scientific Forum Highlights Progress in Expanding Access to Cancer Care",
+            "url": null,
+            "date": "2026-09-17",
+            "weight": 1.4
           },
           {
             "title": "Nuclear Safety, Security and Safeguards in Ukraine",
@@ -124,7 +130,7 @@
         "available": true,
         "score": 0.0,
         "current_30d_diagnostic_weight": 0.0,
-        "events_considered": 1817,
+        "events_considered": 1816,
         "sites_monitored": 8,
         "anomaly_z": 0.0,
         "evidence": [],
@@ -1052,6 +1058,17 @@
           "facility_security_incidents": 20.7,
           "test_site_seismicity": 0.0
         }
+      },
+      {
+        "timestamp": "2026-09-18T21:16:18.704499+00:00",
+        "score": 12.7,
+        "level": "BASELINE",
+        "components": {
+          "iaea_safeguards_strain": 24.4,
+          "npwmd_designation_delta": 0.0,
+          "facility_security_incidents": 20.7,
+          "test_site_seismicity": 0.0
+        }
       }
     ],
     "data_health": {
@@ -1099,7 +1116,7 @@
   "stats": [
     {
       "label": "Escalation Pressure",
-      "value": "11.4/100",
+      "value": "12.7/100",
       "delta": "BASELINE"
     },
     {
@@ -1167,21 +1184,21 @@
           "source": "GoogleNews"
         },
         {
+          "title": "Scientific Forum Highlights Progress in Expanding Access to Cancer Care",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQeWZxSGZIUEFmMk5YSkJHYTR4NlI2V0JfV1FkaHo2RzNaZkY0aHBvbFJpMlVCVU5pMHRiS0RycWc3NVhyVWpEbWZCN3h3eXkxOUJxNDI0MzdOSEpmSjRRUmFzOXZyeDI5ZzlxM1cwMnVnOGRmcWlWSFp3MmRralNFQ3pIR2ZjbUNvaFNwM3J2LVRBeUhmN0tZdjlGbkhleWlucVd4MXhhZE5FczA?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260917T130000Z",
+          "source": "GoogleNews"
+        },
+        {
           "title": "IAEA Projects Global Nuclear Power Capacity Could Triple by 2060, Continuing Rising Trend",
           "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNUHhCaF9vSmh1bE05bTdSVTRnVjQ4TGJjTGlYS2tUWUphZUNBdUI0LUFjcmRkVTBjdi1ZV3daSE0tRVgyellrZllRU0Z6b29NbWFTR0t4SkRZeEZfUU80YV9HS3ZzbF9nQUZHZzJJd19vRDFNeHEtTWVobUJOU0xoazQyRGlST2NnQjdlUk1OdElHd2ZHTlpJRndWcmMwbUZuanUwTm1xVFQ5ZHh2OXI1Ql85VWRFWkNoSjBlRk13MEtQZkEwdl9CLTZNZnpLUQ?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
           "seendate": "20260914T070000Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "Adequate uranium resources available, but sustained investment essential to support global nuclear capacity growth",
-          "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQOFFTUUcyaklpc3hpVGNSMEJYX194Y01walFnT21nbk5TakxlRWllUnp0RWVQTGsxZ0xMRDdPMlBLcGZpZlM0TzU5YTBMaTFPblczcHg0N2hnU0ZGcHhWZHZQRnJScktfbTZyV1RqUExEa05WTUlvNW9aWFFRUHFxYW9nenZPSXk2NDNZNVV1dzdWUi1jZnlrblJIVWtSTUdadWRwRFpnMnpxdWtZS2RqRkxCc3hxVFA3V0VzZnBWSEtNRGtMSXA3RTJVVkdPUktoaDRGLVNiOGF1QzRXbWd0R3ZYWHpSelVoNGlTYXU5elM?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260914T063425Z",
           "source": "GoogleNews"
         },
         {
@@ -1221,6 +1238,15 @@
           "source": "GoogleNews"
         },
         {
+          "title": "INPRO Methodology for Sustainability Assessments of Nuclear Energy Systems: Proliferation Resistance",
+          "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBZbDdpdFZuQTA5M3B3cTRDZXI3bVVFNGxERW5PYUJValVSYkhscUlwYkx0aTNBX2JhbDhIdFI0MUVOTDA2YmtNRW4wcw?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260918T190903Z",
+          "source": "GoogleNews"
+        },
+        {
           "title": "Nuclear Safety, Security and Safeguards in Ukraine",
           "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE9EU1VlXzJNV2ZLMThpNDNpLWhVOHNBcE1helllR1hwOW0yMzJ4NnRtS2cxRUphR0NkUG9QNkw3MkozZUNPZTNR?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -1254,15 +1280,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20260901T070000Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "INPRO Methodology for Sustainability Assessments of Nuclear Energy Systems: Proliferation Resistance",
-          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOVHdtNVlnTHVvdThJd2RySGtqYk9xRTJURzRJbUpzX0htNFZsVmR0ZmNBX1BJY0ZkYm5DemRxTWxqNjdKTEM3Y2wtSjhxcWlHaXVRTjItYmdPWThIUHAtdEc1RGZYamFOTVVwMmtrNjdCWmJXUFAxZFFZckY3dVM5c0Jzb3NKM0hOWDdVTVBUZnM3TE1XT1lvemlZUkQ4RFM4R2dPU2Z1WG5FRURQaHdZTlJvdDByXzZZY2pBbFJZZGhRLXRqQ3kta2tERml5WUg1RGVLN0ln?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260909T132133Z",
           "source": "GoogleNews"
         },
         {
@@ -1325,7 +1342,7 @@
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
-          "seendate": "20260918T145625Z",
+          "seendate": "20260918T150104Z",
           "source": "GoogleNews"
         },
         {
@@ -10768,22 +10785,6 @@
           "lon": -117.873,
           "lat": 36.0938333333333,
           "depth_km": 3.54,
-          "source": "USGS"
-        },
-        {
-          "id": "ci41537736",
-          "site": "Nevada National Security Site",
-          "site_lat": 37.12,
-          "site_lon": -116.05,
-          "time": 1787862045250,
-          "magnitude": 1.5,
-          "magnitude_type": "mh",
-          "event_type": "earthquake",
-          "place": "10 km ENE of Coso Junction, CA",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41537736",
-          "lon": -117.844,
-          "lat": 36.068,
-          "depth_km": 2.38,
           "source": "USGS"
         },
         {
@@ -38596,8 +38597,14 @@
     {
       "title": "INPRO Methodology for Sustainability Assessments of Nuclear Energy Systems: Proliferation Resistance",
       "url": null,
-      "date": "2026-09-09",
+      "date": "2026-09-18",
       "weight": 1.6
+    },
+    {
+      "title": "Scientific Forum Highlights Progress in Expanding Access to Cancer Care",
+      "url": null,
+      "date": "2026-09-17",
+      "weight": 1.4
     },
     {
       "title": "Nuclear Safety, Security and Safeguards in Ukraine",
