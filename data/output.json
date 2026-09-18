@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "nuclear-proliferation-watch",
-    "generated": "2026-09-18T05:14:32.183178+00:00",
+    "generated": "2026-09-18T11:51:13.130112+00:00",
     "mode": "live",
     "sources": [
       "IAEA official pages",
@@ -14,7 +14,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-09-18T05:14:32.174827+00:00",
+    "issued_at": "2026-09-18T11:51:13.121594+00:00",
     "horizon": "0-30 days",
     "classification": "nuclear-escalation-pressure-not-test-or-weapon-probability",
     "score": 11.4,
@@ -28,7 +28,7 @@
         "available": true,
         "score": 20.8,
         "current_14d_weight": 2.6,
-        "current_14d_titles": 40,
+        "current_14d_titles": 39,
         "baseline_periods": 8,
         "baseline_median": 0.0,
         "anomaly_z": 2.6,
@@ -124,7 +124,7 @@
         "available": true,
         "score": 0.0,
         "current_30d_diagnostic_weight": 0.0,
-        "events_considered": 1816,
+        "events_considered": 1817,
         "sites_monitored": 8,
         "anomaly_z": 0.0,
         "evidence": [],
@@ -1030,6 +1030,17 @@
           "facility_security_incidents": 20.7,
           "test_site_seismicity": 0.0
         }
+      },
+      {
+        "timestamp": "2026-09-18T11:51:13.121594+00:00",
+        "score": 11.4,
+        "level": "BASELINE",
+        "components": {
+          "iaea_safeguards_strain": 20.8,
+          "npwmd_designation_delta": 0.0,
+          "facility_security_incidents": 20.7,
+          "test_site_seismicity": 0.0
+        }
       }
     ],
     "data_health": {
@@ -1109,21 +1120,21 @@
           "source": "GoogleNews"
         },
         {
-          "title": "IAEA General Conference Elects Argentine Ambassador as Conference President",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOWVlHamFFZFp5TlZxS3RQazJMQjF6WnpUQ3EyNXlBdUlOZFhXckdWV3Y1bHVVaHZneFV6NFZRQmV1V0l6WWxxaklnbGpjMFpncDVWd3NpdkRUSHoxdmhXZVpVY0JTZEM3ekVnWm5RSTF1aVdUUWM0NktnS2pyRjJBc0JsT3V2cDA2bmVmWXlxdXJDTk1nSG84WjhiaG8tRHR1VHJ1YUhkQTV1OGYzMjlkbw?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260914T073020Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "The Week Ahead: IAEA Hosts 70th General Conference",
           "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQRDFMWmxYQkZUOVI0YnBMNEVjeFVYYlJMYmktaU8xaXk3RVdVYUhoOTRreXNncnluNHJ5UXR0aU84Nkc0ZFkwWUg2bVBQOGpJUFRmcHRQZUdnQjhzenJSZHNwR3k0OTFIT3ZqSGEwWWUyX3QwN0tQX3pNUUtsZDRPVkM3RnFQSW5wMzRXc0pR?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
           "seendate": "20260914T083627Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "IAEA General Conference Elects Argentine Ambassador as Conference President",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOWVlHamFFZFp5TlZxS3RQazJMQjF6WnpUQ3EyNXlBdUlOZFhXckdWV3Y1bHVVaHZneFV6NFZRQmV1V0l6WWxxaklnbGpjMFpncDVWd3NpdkRUSHoxdmhXZVpVY0JTZEM3ekVnWm5RSTF1aVdUUWM0NktnS2pyRjJBc0JsT3V2cDA2bmVmWXlxdXJDTk1nSG84WjhiaG8tRHR1VHJ1YUhkQTV1OGYzMjlkbw?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260914T073020Z",
           "source": "GoogleNews"
         },
         {
@@ -1285,7 +1296,7 @@
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
-          "seendate": "20260917T165441Z",
+          "seendate": "20260918T065109Z",
           "source": "GoogleNews"
         },
         {
@@ -1304,15 +1315,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20260522T233649Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "HALEU: Power for a new generation of reactors | IAEA",
-          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFAwdWJjVVRhd0VFaVoxU1YwTEpKcmRyZWF2M3JRVXJBTWlRLU1nTUhQei0zTGpPMmZkZ0tXTk5nVDJDWEd4X0lXUGRGRmlXRUstVVJXQXJhVmJBZW11WlJuQTQ1aFNlbkQ2REJZS3dTZEFGMG1FVmZYdUZueHRudw?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260522T232539Z",
           "source": "GoogleNews"
         },
         {
@@ -1376,6 +1378,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20260913T141224Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Update 356 – IAEA Director General Statement on Situation in Ukraine",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNaHRTY3NaY1ZUb2VvWkhzMHo4RE5LbWxsY0ZxOXMzOHV3UzlyMWFrZFh0alJ5dm1xZlBzY09oSXdRNG1zaC1GUVltcHNsbmc3MzZxYmg2M3prUmhmT25MLV91UVNiUHRwdU1hd0RrRGJPTGppVzhmcmoxd1Jlc0Z3eTV4TTgycUxEQzNHZkJlVWt4ajZqWnVBd0hzQ3hDV0pVcUVzNUtyN3VFV1l4Z3hDbg?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260702T070000Z",
           "source": "GoogleNews"
         },
         {
@@ -1586,15 +1597,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "International Ministerial Conference on Nuclear Power - Programme",
-          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOcnZQVUlTS0loZlJOenFISElOWnJaWF9nM0hfeW02akNuOHRKY2dGUDFRcjJ6bEpKSzFnMTFKSUREbVdfdWdYUmtXZ3NieElkSTlvbkhiZHVYMURlcGotYWlIOG83dDhvWWpzNnFRT0pIeFBmZ2RoeUdRcDNRYTFrWU5RTXQ?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260721T061201Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "News: Second International Conference on Accelerators for Research and Sustainable Development | IAEA",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBOS2NITHQzQlN5ZEh3QUtNSU5XeDIxNXVkb01Yc2JHWFh6cVR1S2hQTWRyeVZjem9abFNxRFVTd1dXQTN6azhBYld6QmRlR0tQQUpTbTVB?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -1610,6 +1612,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20260522T070000Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Update 363 – IAEA Director General Statement on Situation in Ukraine",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxObm9BZElGb0lWcTFIXy1uYVIwbFBnTE1Na0x2UDhhVElubFhFWmVHMjlJc09NVUFfQkl5SUdZZkJjczJqTUZPV25YeG9KeE52d1BaTmZsRUZGRkthUUV5SzZrODNfRG1nTDhlbERONTNiYkJxQjZPRm9XdG55N1lic3ZoN3dhSWhRWTFubGNSNjJsbHJjSXJVSExVaUtLYnN3dGNsaDFaNWpaY3BkUDJXTQ?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260820T070000Z",
           "source": "GoogleNews"
         },
         {
@@ -1673,6 +1684,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20260826T070000Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "International Ministerial Conference on Nuclear Power - Programme",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOcnZQVUlTS0loZlJOenFISElOWnJaWF9nM0hfeW02akNuOHRKY2dGUDFRcjJ6bEpKSzFnMTFKSUREbVdfdWdYUmtXZ3NieElkSTlvbkhiZHVYMURlcGotYWlIOG83dDhvWWpzNnFRT0pIeFBmZ2RoeUdRcDNRYTFrWU5RTXQ?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260721T061201Z",
           "source": "GoogleNews"
         },
         {
@@ -1766,6 +1786,15 @@
           "source": "GoogleNews"
         },
         {
+          "title": "From the IAEA Archives",
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBtejR1Y2MzZlhZTFNlUE1jZ1dkdFp6cTFCOXZnMld3bUdoMDl3N3c4Z3pUQk02eFUyanFBMk1UVk80dFVYOU16cDhsTlBvLTdNR3N0QnNfYVNhQmxxTG9SUWlOOTQ?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260918T051003Z",
+          "source": "GoogleNews"
+        },
+        {
           "title": "The Republic of Cabo Verde signs its First Country Programme Framework (CPF) for 2026-2031",
           "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOSXcyVVBqX01vV1k3cDVxeXFrdXZmdWpiRUpXMXkxcjQ1U2dSY2hBQzhnVWlfTEFuVy1QTld1RFJ3Y3ZOeXV1dXQ4aUlsZTZmR3lVdU5OcmVjX3l3ckVfOUl5RGRrVVlpNlRvZTBXV29FNTNiR0N4Sk5Ibm1oVk50R09PTC1OVXRGZmk5b3VObWJPX1FuYUdBWm9wT0N1RUxJMGpaQm1tdWtZZlB3elFVbmluR0M4dXllQUdrS3ZrdFR4VG8?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -1829,6 +1858,15 @@
           "source": "GoogleNews"
         },
         {
+          "title": "INES: The International Nuclear and Radiological Event Scale User's Manual",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNM3hvOHM0YlhvclFvQVNhRjM3WF9JVVMtSXRRZ3VEWGd6WU5xbWJha1E5LU1PbnE1X096Y0tXOE5NWDlzdWFyRmQwVGpqQ1F0YnFJY2d6NkM4NmQ0bVA1LTJSV3hlVWppOGVaMnFSaXRQcFlxaVEzcl80LW1aVmNhdkVBS0lwR2dDcUlqTnVqMUJVWlNFd0NDR21GYW9jRmpPTlBvZHpWYjNRcWo5R1VobFpn?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260918T074138Z",
+          "source": "GoogleNews"
+        },
+        {
           "title": "Home: International Conference on Topical Issues in Nuclear Installation Safety | IAEA",
           "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1hM0NUREFfazQtbUZubHNNNHJmMW5JUkhIelhxb19SZjk3ZFlvNmZ5RUc2Uk9CbE1yUzczZ3JsVG40LW5iUFpCM2RB?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -1844,6 +1882,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20260709T070000Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Update 362 – IAEA Director General Statement on Situation in Ukraine",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQZ1kzQW5WWjZRY2plQzRVanZ5TE56OWozdlpHOEY0QXhHNWtMT0R0YXlMcEtRV2RxMjBhT2NTTHd1QWZzb2JMR3lTWDNHZFZIbEpmOFVRaDU4VVpGUFVYY1BnUHlkS2xuRkRqaURVVk9TTTNhaUptVEpEN3RqbGZpN3FPMXdjSzRCSVN6UzFVUk5RRlYwQWMxYTFwajFGOWkwQ3E1ZV84eW90SmpXcmFzdg?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260814T070000Z",
           "source": "GoogleNews"
         },
         {
@@ -1919,15 +1966,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "Requirements Engineering in the Life Cycle of Instrumentation and Control Systems in Nuclear Power Plants",
-          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQdFlrMlFsQlRVeVM5Z0JqRC15NGRaX3hMTzFaTlkzWHhheFFnZnByV0lVS2NjNnAyU1RIdFdDbTJkdjBmXzNzX2xSRjZnRFYtX1VjWkk4dTl5U2hrUzFET0tXV0ZNOW1yS1p0emluT1dIWHlBTmpDUDV3cThnZVJwa2hlLVZmZjluSlkyTjN5MnpYSzhsY2ZScW5NdFRHaVR0T0JwX0JIamNzemNiN0RwemFEWlZ4ZUtjSnNNR0l3SXk5QVlFSWhqTXV5N0s1d25DLUs1VnhQc280Z3ZP?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260730T183959Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "Media Invited to the IAEA’s Scientific Forum on Rays of Hope: Delivering on the Promise of Cancer Care",
           "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQOGtaQmlJVmU1Y3JwNDNWM05TODg0MG5rTXNtQXJjazVtbzNhcjJyN0l5U3VEMDFSVXVyOTQ1ZndYV1g5bzZveTNOMTdkLTRQWFZ4T2ZiT1QyNXZ2Mk9KY0JfUmsteG1ZNUozOWZYS0gwYzdCX0pWbVA0Ny0wSm43cGtiU0o0cDRKNC1KdU9iSHYwcElfektDT280TzFsWlctdEhOQkI5ZUZKb0xNX1RlenVydVhIMkxtYlQtQkJTSmdrZ3YyUjJwcWJfbDljWjRVSnprVjBFV3dzR21XMkFfRQ?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -1970,33 +2008,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20260809T204030Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "Agenda for a New Era of Leadership: The 2026 NTI Nuclear Security Index",
-          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQdzA1aXA2OHRwYnBsU0tFVW52SlZIaThDU213Y2x5UHRXS243M0ZxYmowVlJaNThLZlpNQlY3UTg0Q0lPZ2J0aEZWVnl4bGh1VXU5dDdkWHRSQ25QazRMWkROdy1RR2NfWE8tTVJ1WndPUHRkR3k4TFkwaUxEOHd5TGVXV3lSc0lBWGtPUXprUEJXXzAxU2ZlazhpNXd4Yk1acGFUMWp0b0l1UE1LR2Rad0lNeUQ0V0ItdFVvMkFqaW5yWldDVFE?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260915T002947Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "Press Arrangements for the 70th IAEA General Conference, 14–18 September",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPUVR0T0dxcWFkZzlSWlBNNURJNW1ULXp5OGhscUpFcVpuX3FwanlNTXJNWWxuT2MxcnpnWmV3RHJwZUl6Z0hOVDZPd3I2X19YTWFoRG95T1Mxb25OQUV1OXVOdms5OXRNcEFYZkpfMHNrQlpxMmNOV3dlbFhaNVVQNllQTVpvSXR3NHpGWTJ3R1BVWlp5Q2VFZ1pXWnIyYnFsOWFCc2xoLWRfVmJ5ZkY1N3BEdzdfZTBhWFE?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260909T131916Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "Rays of Hope: Delivering on our promise",
-          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9vak5JT0pWQ3ZwTDg4Zm14LWt3cGQtWlotODdEbk9zcDljOEdKUVhpMEROd01rWnBLOXZONTNvT014Q2pJZ0FKV1h5NjBsUUhHUGM2NmUyWS1oQ3ZySkxacDl2clk3WTdoOHlyZWdNc3BhX3JnNVE?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260915T155822Z",
           "source": "GoogleNews"
         }
       ],
@@ -9690,6 +9701,22 @@
           "lon": 87.9952,
           "lat": 41.8774,
           "depth_km": 10,
+          "source": "USGS"
+        },
+        {
+          "id": "nc75437717",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1789724311020,
+          "magnitude": 1.61,
+          "magnitude_type": "md",
+          "event_type": "earthquake",
+          "place": "10 km W of Toms Place, CA",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75437717",
+          "lon": -118.788833618164,
+          "lat": 37.5535011291504,
+          "depth_km": 5.78999996185303,
           "source": "USGS"
         },
         {
