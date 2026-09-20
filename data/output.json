@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "nuclear-proliferation-watch",
-    "generated": "2026-09-20T16:30:24.410207+00:00",
+    "generated": "2026-09-20T21:04:03.789872+00:00",
     "mode": "live",
     "sources": [
       "IAEA official pages",
@@ -14,7 +14,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-09-20T16:30:24.403569+00:00",
+    "issued_at": "2026-09-20T21:04:03.781616+00:00",
     "horizon": "0-30 days",
     "classification": "nuclear-escalation-pressure-not-test-or-weapon-probability",
     "score": 13.6,
@@ -52,9 +52,9 @@
             "weight": 1.0
           },
           {
-            "title": "Nuclear Safety, Security and Safeguards in Ukraine",
+            "title": "Application of IAEA safeguards in the Middle East",
             "url": null,
-            "date": "2026-09-11",
+            "date": "2026-09-16",
             "weight": 1.0
           },
           {
@@ -1152,6 +1152,17 @@
           "facility_security_incidents": 20.7,
           "test_site_seismicity": 0.0
         }
+      },
+      {
+        "timestamp": "2026-09-20T21:04:03.781616+00:00",
+        "score": 13.6,
+        "level": "BASELINE",
+        "components": {
+          "iaea_safeguards_strain": 27.0,
+          "npwmd_designation_delta": 0.0,
+          "facility_security_incidents": 20.7,
+          "test_site_seismicity": 0.0
+        }
       }
     ],
     "data_health": {
@@ -1267,12 +1278,12 @@
           "source": "GoogleNews"
         },
         {
-          "title": "70th IAEA General Conference",
-          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNN0VjMkFmaHZmeEJQLVpraHNzQTV6bnNOX0JoU3FEczgtS2x6cWZZN0wyc3BSQ0hpTWx2U0ZpYkx0R1hKUVFVWXRrUW90LUFySjBHQkNzc3EyTnBjQUJWRF9UMFNwM05SSTZyQzRIRkJqdFJxSmE0Mlo3S0dBUXJIVg?oc=5",
+          "title": "IAEA General Conference Elects Argentine Ambassador as Conference President",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOWVlHamFFZFp5TlZxS3RQazJMQjF6WnpUQ3EyNXlBdUlOZFhXckdWV3Y1bHVVaHZneFV6NFZRQmV1V0l6WWxxaklnbGpjMFpncDVWd3NpdkRUSHoxdmhXZVpVY0JTZEM3ekVnWm5RSTF1aVdUUWM0NktnS2pyRjJBc0JsT3V2cDA2bmVmWXlxdXJDTk1nSG84WjhiaG8tRHR1VHJ1YUhkQTV1OGYzMjlkbw?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
-          "seendate": "20260724T162219Z",
+          "seendate": "20260914T073020Z",
           "source": "GoogleNews"
         },
         {
@@ -1285,12 +1296,12 @@
           "source": "GoogleNews"
         },
         {
-          "title": "70th IAEA General Conference - Programme and Speakers Information",
-          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNcHlpUGpaNGMzcVlGWGt0Z3RVSkF6X09uaExoajY3SUt0ekRpVk5hYnFrMFVibl9oVDdFeHlxMEZDRVFkNEJqQ2hIN1k3bVZQMGhZQ0xtSzRRUWE2bkJ3ZjIyVnRUczJMN2g2NU84NFRKX01fNmMwMEg1eVVhV2tmT25SSjVVb3QxYVA2WC1YakxKQ1RQWEVoTXlTX3c2bGxLaWlFLWpURHF1QzVHTHBRQzctbkpBdF9rM3FFOTBKSUM?oc=5",
+          "title": "70th IAEA General Conference",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNN0VjMkFmaHZmeEJQLVpraHNzQTV6bnNOX0JoU3FEczgtS2x6cWZZN0wyc3BSQ0hpTWx2U0ZpYkx0R1hKUVFVWXRrUW90LUFySjBHQkNzc3EyTnBjQUJWRF9UMFNwM05SSTZyQzRIRkJqdFJxSmE0Mlo3S0dBUXJIVg?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
-          "seendate": "20260728T032407Z",
+          "seendate": "20260724T162219Z",
           "source": "GoogleNews"
         },
         {
@@ -1312,21 +1323,21 @@
           "source": "GoogleNews"
         },
         {
-          "title": "Nuclear Safety, Security and Safeguards in Ukraine",
-          "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE9EU1VlXzJNV2ZLMThpNDNpLWhVOHNBcE1helllR1hwOW0yMzJ4NnRtS2cxRUphR0NkUG9QNkw3MkozZUNPZTNR?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260911T070000Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "Implementation of the NPT Safeguards Agreement and relevant provisions of the United Nations Security Council resolutions in the",
           "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5ycHNHQkFQbFNWWGpWZVJJX2FfcFVyRUlwRk5KYVliOVdfenM3MDNqZHFUQWdjMGNBdkJlWHpqMGo1dnpLNlJUZmtVMFo0Z3RNYldWWjVxVDJZSEsyMWdJRzNyUFZPZw?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
           "seendate": "20260901T070000Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Application of IAEA safeguards in the Middle East",
+          "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE45QWtpajZpM1hFVkVVSXZJandqYkhCVmtXMjRTcVpaMmN2aXVpdVVzb0xEX2drdkZUeUdhY1ZYRHJfd05GSXJkMEpB?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260916T070000Z",
           "source": "GoogleNews"
         },
         {
@@ -1384,6 +1395,24 @@
           "source": "GoogleNews"
         },
         {
+          "title": "Safeguards Equipment Workshops: Non-Destructive Assay, Surveillance, Unattended Monitoring, and Seals and Containment | IAEA",
+          "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1ab0lLNXpVaXpMY1lnRGFTckd6TnVwZGkzNHZoOExEcEVFdnJnRFZxQ0ZlTktFWnJUeW5kWm1JaXpUSWFMREhRV0NRZw?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260820T150731Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Provisional agenda",
+          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1ZaXJtVEZSbk1NMTJObVlEMTN0R3VMQ2g2QzFzaHF0YU9TRmQxSkxMZmZ3dTVJdW5YOGxVbWdFbTJOT2JZODhOcnM3eXY3SFBfMUlFRkFaUWR4QTMzanV1OGgzRVpmM0dSWWc0?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260720T070000Z",
+          "source": "GoogleNews"
+        },
+        {
           "title": "Safeguards Direct Portal: Improving information exchange with the IAEA Department of Safeguards",
           "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5ETHpETkxMc0pYNG1ZMUNJZVFGbXFmdGxWUnBqWHhqVEJ6M0l1VU8xRXY4ZktuWFdBVUpRTFBicUprYlpSYmpReDRGOA?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -1417,15 +1446,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20250211T061014Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "International Atomic Energy Agency | Atoms for Peace and Development",
-          "url": "https://news.google.com/rss/articles/CBMiN0FVX3lxTE1hdTZQNFg0MDl3ZHcyNkVuQW1vUkx6Wl9KZTZ1NlZ4Nl9OOVRPcHY2YWtIOVZSUlE?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260919T135539Z",
           "source": "GoogleNews"
         },
         {
@@ -1511,11 +1531,11 @@
         },
         {
           "title": "Publications advanced search",
-          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5TM3E2TzVRbm5vaksyaVJTbVNFT21IYTlDM3hYSHF3MmViQkROX1R6WXBXLXlrUk1uTkI3SHA1MldYU2k4bWdVcVhheW5iTTl0d21sX0JISm92OXFzWWhCaHBXNEE2Zko4ZU8yTEhGZUlkdldnMnc?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9JY1hXWGRyNmplb295M05SYlRsR3A1bUdMdFhaS1FuZEZ3Z3dlbUFzM1ZPdDBLN2RRVmVSNmx5LWJkLUZ2OURtN2xlV3E1OC1mS3VSNVdRU3lXMnlFNTd0aTZtQVdua2ExRlVoTlpWRVZhc1htSnc?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
-          "seendate": "20260919T183839Z",
+          "seendate": "20260919T171336Z",
           "source": "GoogleNews"
         },
         {
@@ -1591,6 +1611,15 @@
           "source": "GoogleNews"
         },
         {
+          "title": "Network of Small and Medium Size Magnetic Confinement Fusion Devices for Fusion Research - phase II",
+          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9CZE1nbEJ1bXM1eGpRUlM4TEdfNVhiVVExSDBacEpxbXk3N09Sd05zTTJKcF9YNUlld2J3OHpHT2FaT1lzMHhlWmI4T3FSbTdL?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260623T054043Z",
+          "source": "GoogleNews"
+        },
+        {
           "title": "IAEA to Launch ATLAS: Pioneering Nuclear Solutions for Shipping and Offshore Energy, Washington, August 26-27, 2026",
           "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNRDVTbGRZSGxDb0YtYU55cUtCQWdnM0NkTWZoS2FaSlpXbk91WVE4MEFDS0FiWFdMLWl1ZTlXbktnOHZ3SHdzUVdkQk0xWEpka3FBVWdDYVBDeTl6VXNlRk1UZDZHbzRPWk95Mk5Xci1lNm0xeWc5dVhfa3UwcXQyejAxcDdoU2lRTjJDaWVrc1JVRHZVeDhzaFFUbUhwb0I5NTQtbDBlZmJrMzFWMm9wZC1fTFBPR09sSjRpY0tSZ1l3NVFiR2RHV0pucTJMdGp5dmQyd1FtN0tYcjVxNm05N0t5T3JCU0NYQXlkTQ?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -1654,15 +1683,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "IAEA General Conference Elects Argentine Ambassador as Conference President",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOWVlHamFFZFp5TlZxS3RQazJMQjF6WnpUQ3EyNXlBdUlOZFhXckdWV3Y1bHVVaHZneFV6NFZRQmV1V0l6WWxxaklnbGpjMFpncDVWd3NpdkRUSHoxdmhXZVpVY0JTZEM3ekVnWm5RSTF1aVdUUWM0NktnS2pyRjJBc0JsT3V2cDA2bmVmWXlxdXJDTk1nSG84WjhiaG8tRHR1VHJ1YUhkQTV1OGYzMjlkbw?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260914T073020Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "70th IAEA General Conference",
           "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9LQW9KLXpBVnFYNHVZOUN4UDFFYkdOSEpYTHlOc2ttUmh6VGFMVUoySGZmOERQU3VUUUtyc1lTZE5hZWxHdFB6SW9nMVh3bGc5VVhQTEVuUXZxYm9oMm5wb2RfbzNSM1l6SmlXRkRBTUtXeldVYXh4ejR2NGNNQQ?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -1678,15 +1698,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20260724T155620Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "International Training Course on Safety and Security in the Management of Disused Sealed Radioactive Sources",
-          "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE84MzNIRWxMMFczaS1TVHpHT05xdm9HRHpqb0xKYjVaZHRnYnI0V05PaU1xeE1wVkp2aTBtZnZ1aFJJQ1hDdVlsaEZpc3duUQ?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260215T101500Z",
           "source": "GoogleNews"
         },
         {
@@ -1714,6 +1725,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20260915T163101Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "International Training Course on Safety and Security in the Management of Disused Sealed Radioactive Sources",
+          "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE84MzNIRWxMMFczaS1TVHpHT05xdm9HRHpqb0xKYjVaZHRnYnI0V05PaU1xeE1wVkp2aTBtZnZ1aFJJQ1hDdVlsaEZpc3duUQ?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260215T101500Z",
           "source": "GoogleNews"
         },
         {
@@ -1794,7 +1814,7 @@
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
-          "seendate": "20260728T140124Z",
+          "seendate": "20260918T070000Z",
           "source": "GoogleNews"
         },
         {
@@ -1804,6 +1824,24 @@
           "language": "",
           "tone": 0,
           "seendate": "20251014T203744Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "International Ministerial Conference on Nuclear Power - Programme",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOcnZQVUlTS0loZlJOenFISElOWnJaWF9nM0hfeW02akNuOHRKY2dGUDFRcjJ6bEpKSzFnMTFKSUREbVdfdWdYUmtXZ3NieElkSTlvbkhiZHVYMURlcGotYWlIOG83dDhvWWpzNnFRT0pIeFBmZ2RoeUdRcDNRYTFrWU5RTXQ?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260721T061201Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "News: Second International Conference on Accelerators for Research and Sustainable Development | IAEA",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBOS2NITHQzQlN5ZEh3QUtNSU5XeDIxNXVkb01Yc2JHWFh6cVR1S2hQTWRyeVZjem9abFNxRFVTd1dXQTN6azhBYld6QmRlR0tQQUpTbTVB?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20250531T052238Z",
           "source": "GoogleNews"
         },
         {
@@ -1825,15 +1863,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "News: Second International Conference on Accelerators for Research and Sustainable Development | IAEA",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBOS2NITHQzQlN5ZEh3QUtNSU5XeDIxNXVkb01Yc2JHWFh6cVR1S2hQTWRyeVZjem9abFNxRFVTd1dXQTN6azhBYld6QmRlR0tQQUpTbTVB?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20250531T052238Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "International Conference on Topical Issues in Nuclear Installation Safety - News | IAEA",
           "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE04czN5RW1JOUpScDU2aVhjNm14Uk00VWdyYThod0JraTlqNGFtd042RWo2NXRpam9xcTRaZHNIcmozM3ZBUHAxckNvT0cwaGFP?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -1849,24 +1878,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20251122T215710Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "Aoife McKnight",
-          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9lTnVRXzZ3OXVhMk1rTVNzM0pfYktZcjNjOUotaVR2UUdaZHp1cld4X0tHUkMtX2tGTUVBdEVMeF9FQlBGMnJ5NklqS1ZWdHhq?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260918T083500Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "Statement of the Republic of Cyprus to the 70th IAEA General Conference Vienna, Austria, 14 September 2026",
-          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBOTGl6ZVNCS1JWS2RHMzdUc29TRm1XZUJtdHNISVB5ZDVBcEEyZzd4Nk9DOXJFOExVVmtxTE1ncUVQT2pNWkc3d2N4QnNaeEJFVThlRExfc0VwVEZjdk1EX0hMWEsxUXZkRzRNVVFZNU1obFdu?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260914T115925Z",
           "source": "GoogleNews"
         },
         {
@@ -1897,12 +1908,12 @@
           "source": "GoogleNews"
         },
         {
-          "title": "IAEA-Led Mission Samples ALPS-Treated Water at Fukushima Daiichi Nuclear Power Station under Additional Measures | IAEA",
-          "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQc3EtaEZ1ZUs1STBYTUdKYVprR0RFMDlTYXdtU1lGYWxyWVNtdjhDckpFSXJTMlNVRkkxQjZVNExGNHIyYUVDcUdOcTluSXZkY1g4UDVZYnBLMGpQTkV5UG1SQlRkdDMyUkY5aWZwbHgzS3lLRE1tcy1xUFdJMjVIU1BKaXZYZVVwSnIwczNZcTl5OGNaV1ZhbjgwdzJQSjlMOThkSzZEX1hCOWp1Y2dTSDRKdkEwZHRMZ1FYLUlrRXJkMmxoMjR0eHVadXR5aUZDU3dJS2R6RFpLY2pZRWhrWF9IYXRYRmVPWXg1ZElqWQ?oc=5",
+          "title": "IAEA-Led Mission Samples ALPS-Treated Water at Fukushima Daiichi Nuclear Power Station under Additional Measures",
+          "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQRXM1NEJNU1VHRGV3VGkxZ25jbkxnZDlQMW80SGFZeXl2YjRhcThKcXVmNzdyU2pROExvQ1NiZVpIV3NGMFAzS3hpazUzQnd2RDR4M015b2NfS3BOSmFNMGNMWjVFTFM0MDdSTkhKNC1EU2c1X0VsUDh0bFFGbV85ZEFxeElGMXo1eUdHeGwwMWJ5eTdmY3NRbU5sRHRMTFlvSnJ2RHpPd0VPZnczREVKbTFac1d3VjQ4NTdILUZocVp2c2t3TTZaSEwwUWlRUFRMa1E5dUZQN216Y0JiUDJYal9vYWVfcDhqc0JKN0JB?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
-          "seendate": "20260911T155230Z",
+          "seendate": "20260911T070000Z",
           "source": "GoogleNews"
         },
         {
@@ -1933,15 +1944,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "International Ministerial Conference on Nuclear Power - Programme",
-          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOcnZQVUlTS0loZlJOenFISElOWnJaWF9nM0hfeW02akNuOHRKY2dGUDFRcjJ6bEpKSzFnMTFKSUREbVdfdWdYUmtXZ3NieElkSTlvbkhiZHVYMURlcGotYWlIOG83dDhvWWpzNnFRT0pIeFBmZ2RoeUdRcDNRYTFrWU5RTXQ?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260721T061201Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "European Union EU Statement at the General Debate 70th General Conference International Atomic Energy Agency (IAEA) Vienna, 14-",
           "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBFZTRiQ2daTUZDMzJxbkQ2U2VrYlhTd0poYW82dkZ3Q1RBOXJJRGpxbExhUS1yNU1NZ0xUQk9COUVaai0waVZFcXg4QzR6dVVSTDdHRU5wZEhGMkt1V0tadFBDT2xfMWhuaEcwa1EzOA?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -1957,6 +1959,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20260730T070000Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Statement of the Republic of Cyprus to the 70th IAEA General Conference Vienna, Austria, 14 September 2026",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBOTGl6ZVNCS1JWS2RHMzdUc29TRm1XZUJtdHNISVB5ZDVBcEEyZzd4Nk9DOXJFOExVVmtxTE1ncUVQT2pNWkc3d2N4QnNaeEJFVThlRExfc0VwVEZjdk1EX0hMWEsxUXZkRzRNVVFZNU1obFdu?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260914T115925Z",
           "source": "GoogleNews"
         },
         {
@@ -2032,6 +2043,15 @@
           "source": "GoogleNews"
         },
         {
+          "title": "70th IAEA General Conference - Programme and Speakers Information",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNcHlpUGpaNGMzcVlGWGt0Z3RVSkF6X09uaExoajY3SUt0ekRpVk5hYnFrMFVibl9oVDdFeHlxMEZDRVFkNEJqQ2hIN1k3bVZQMGhZQ0xtSzRRUWE2bkJ3ZjIyVnRUczJMN2g2NU84NFRKX01fNmMwMEg1eVVhV2tmT25SSjVVb3QxYVA2WC1YakxKQ1RQWEVoTXlTX3c2bGxLaWlFLWpURHF1QzVHTHBRQzctbkpBdF9rM3FFOTBKSUM?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260728T032407Z",
+          "source": "GoogleNews"
+        },
+        {
           "title": "International High-level Forum on the ATLAS Launch | IAEA",
           "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFAwOUVjcklwUEtJNHdmSE8xS1FPQ2h3VUlQdXM4RnB0elMxVkFCTkJzdjV2cG55TVdrUHJTWlVSTTNDZ1VhNEV0OHBUekk?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -2047,6 +2067,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20260914T070000Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Atlas of Isotope Hydrology and Water Quality — Central African Republic",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPU0UzTDlTTkY3TFVYeDFjY1UzOGNNa1hRYnRPNldRSS1rcjQyLXlSZGl6Z0tBVEpiWGhSSUdRQXZ6dWZJVkltTVVMLUpIQkVkNXlOLS1NUmFuZWxCa1pFQ3Z1WjFGNDRRMEZHcGxqRXVvcmZqQ3A1aUxSWFFLU0tDTXhsNUg3cVZheVNKZFc3RVVKaC1CQmVvNmtyVm1UNnVPQS01VE1RMmdvVlpG?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260908T105958Z",
           "source": "GoogleNews"
         },
         {
@@ -2101,24 +2130,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20260721T142539Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "IAEA Holds First SMR School in a Technology Provider Country",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOdmFzVHlXb2tVMjZ3T3VoLVZlQXlXRHJGSnl4NWJOZzV4am9tUm1zREdBRS1iRzNDbTJpeG9GN284VVhXZWFJUjcwZ3ZZWVBsTUhhT2FQTG5JbHVBS3F0d3F5NFlIUHBWWXNZcThqT3Y2WTM5S3ZoY3FUTGR4REpUQjBpaWNKeUp2RVJFbURpd0xkZkR3MmowaUFtcmg?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260701T070000Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "Detection of Unintended or Accidental Medical Exposures in Radiotherapy Through Patient Response",
-          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQWlhZelptbW5PTU1RMHQ5dDRiS0tIMTlZUU1GcERfS3F4bnBfZzhkWHFPMnF1MU05NnRMd09xTDNEellCR1R2ajdya2c4OVJqR3hJMUJENi1zQ1FINUZIaFc4Q3JtQkpwOV9HZG5CbDV6RjRuWjFVWFlDeTJUaHpzTlg4VEV2c0tQWTFoVmxicGJvSTJUdGVfWjUyLWVhclJTUUVyTFZZalROMHA2dGFmamdndmtyejJTTVR0eU9BRm1wbVF2cEZ2dm82MkphdWdp?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260825T145023Z",
           "source": "GoogleNews"
         }
       ],
@@ -38584,9 +38595,9 @@
       "weight": 1.0
     },
     {
-      "title": "Nuclear Safety, Security and Safeguards in Ukraine",
+      "title": "Application of IAEA safeguards in the Middle East",
       "url": null,
-      "date": "2026-09-11",
+      "date": "2026-09-16",
       "weight": 1.0
     },
     {
