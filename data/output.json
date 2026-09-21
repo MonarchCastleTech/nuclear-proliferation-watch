@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "nuclear-proliferation-watch",
-    "generated": "2026-09-21T13:22:25.590512+00:00",
+    "generated": "2026-09-21T22:15:43.847475+00:00",
     "mode": "live",
     "sources": [
       "IAEA official pages",
@@ -14,7 +14,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-09-21T13:22:25.583653+00:00",
+    "issued_at": "2026-09-21T22:15:43.838863+00:00",
     "horizon": "0-30 days",
     "classification": "nuclear-escalation-pressure-not-test-or-weapon-probability",
     "score": 14.5,
@@ -30,8 +30,8 @@
         "current_14d_weight": 6.0,
         "current_14d_titles": 40,
         "baseline_periods": 8,
-        "baseline_median": 0.4,
-        "anomaly_z": 9.44,
+        "baseline_median": 0.0,
+        "anomaly_z": 6.0,
         "evidence": [
           {
             "title": "INPRO Methodology for Sustainability Assessments of Nuclear Energy Systems: Proliferation Resistance",
@@ -1191,6 +1191,17 @@
           "facility_security_incidents": 20.7,
           "test_site_seismicity": 0.0
         }
+      },
+      {
+        "timestamp": "2026-09-21T22:15:43.838863+00:00",
+        "score": 14.5,
+        "level": "BASELINE",
+        "components": {
+          "iaea_safeguards_strain": 29.6,
+          "npwmd_designation_delta": 0.0,
+          "facility_security_incidents": 20.7,
+          "test_site_seismicity": 0.0
+        }
       }
     ],
     "data_health": {
@@ -1306,21 +1317,21 @@
           "source": "GoogleNews"
         },
         {
-          "title": "Director General's Statement to the Seventieth Regular Session of the IAEA General Conference",
-          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOTDZnbXNaWG5oZmZmaExtNWljc0ltMFlBTGJWejZ0MXJDOHdqeFZtejJVWXY0THFjSkZUTFJtRjFTTWJ0Y3lLSmk0cVBqYlJiMUgxWXpvZ1dvdldWRXZEX3Y5NDhKUlNFUnVTYmJOelJra3dIQTBhNEJTdHlZRnBCZjhEYWJtTzNWbm1rdEN0OC1QRVRxTFZQcjJnTHFXVkRaeWRfY1k1Qm9KOVdWbUxaSExQUVRMcmFfb19ZRXZnQ05VYmN6UWl0ay1oMV9kZk1U?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260914T100618Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "70th IAEA General Conference",
           "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNN0VjMkFmaHZmeEJQLVpraHNzQTV6bnNOX0JoU3FEczgtS2x6cWZZN0wyc3BSQ0hpTWx2U0ZpYkx0R1hKUVFVWXRrUW90LUFySjBHQkNzc3EyTnBjQUJWRF9UMFNwM05SSTZyQzRIRkJqdFJxSmE0Mlo3S0dBUXJIVg?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
           "seendate": "20260724T162219Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Director General's Statement to the Seventieth Regular Session of the IAEA General Conference",
+          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOTDZnbXNaWG5oZmZmaExtNWljc0ltMFlBTGJWejZ0MXJDOHdqeFZtejJVWXY0THFjSkZUTFJtRjFTTWJ0Y3lLSmk0cVBqYlJiMUgxWXpvZ1dvdldWRXZEX3Y5NDhKUlNFUnVTYmJOelJra3dIQTBhNEJTdHlZRnBCZjhEYWJtTzNWbm1rdEN0OC1QRVRxTFZQcjJnTHFXVkRaeWRfY1k1Qm9KOVdWbUxaSExQUVRMcmFfb19ZRXZnQ05VYmN6UWl0ay1oMV9kZk1U?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260914T100618Z",
           "source": "GoogleNews"
         },
         {
@@ -1447,15 +1458,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20260720T070000Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "Safeguards Direct Portal: Improving information exchange with the IAEA Department of Safeguards",
-          "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5ETHpETkxMc0pYNG1ZMUNJZVFGbXFmdGxWUnBqWHhqVEJ6M0l1VU8xRXY4ZktuWFdBVUpRTFBicUprYlpSYmpReDRGOA?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260821T001030Z",
           "source": "GoogleNews"
         },
         {
@@ -1693,15 +1695,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "Past Events Listing",
-          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9kS0c1ZnBGYXN6NEo4QTQ3UnZ4VmkyVTdqbUNXWDhrbjc5SmppSHFPZWhGRFFSQTdZNDFsalRnQklseXNUbUwtV1VFd1l1enZiY29zeU1zOA?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260913T072956Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "Third Joint Event of FNRBA, AFRA and AFCONE on Development and Implementation of Nuclear and Radiological Safety, Security and Safeguards in Africa | IAEA",
           "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBVTXZVV0xzMlBSdWJUMm91Mk5ySUhXUnBoamdCb3F1VFVCU1RZdVJBQjRRQkJCcFhFRXkwdzNBSDdJRXp1UzhjM19Udw?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -1900,15 +1893,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "Relevant specifically for the LMP in China (hosted by Harbin Engineering University and China Atomic Energy Authority): - Artifi",
-          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE11U1BqWmpPaTZZY1RrM1ZqOEMxOV80OEotNlhlZGR5UEJCMGxsZkZwSE90Q2UzLVAwWjRiNGVxQnVod3lubmdlVHJ2YjlfLWVuYm8zYTFYMm16V3J5X05pVU9iN2FFR1ZaNGF4UXpxa2ZrVnlhNVZ5MXFR?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260912T230759Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "International Conference on Topical Issues in Nuclear Installation Safety - News | IAEA",
           "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE04czN5RW1JOUpScDU2aVhjNm14Uk00VWdyYThod0JraTlqNGFtd042RWo2NXRpam9xcTRaZHNIcmozM3ZBUHAxckNvT0cwaGFP?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -1924,6 +1908,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20251122T215710Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Aoife McKnight",
+          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9lTnVRXzZ3OXVhMk1rTVNzM0pfYktZcjNjOUotaVR2UUdaZHp1cld4X0tHUkMtX2tGTUVBdEVMeF9FQlBGMnJ5NklqS1ZWdHhq?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260918T083500Z",
           "source": "GoogleNews"
         },
         {
@@ -2158,6 +2151,24 @@
           "language": "",
           "tone": 0,
           "seendate": "20260701T070000Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Detection of Unintended or Accidental Medical Exposures in Radiotherapy Through Patient Response",
+          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQWlhZelptbW5PTU1RMHQ5dDRiS0tIMTlZUU1GcERfS3F4bnBfZzhkWHFPMnF1MU05NnRMd09xTDNEellCR1R2ajdya2c4OVJqR3hJMUJENi1zQ1FINUZIaFc4Q3JtQkpwOV9HZG5CbDV6RjRuWjFVWFlDeTJUaHpzTlg4VEV2c0tQWTFoVmxicGJvSTJUdGVfWjUyLWVhclJTUUVyTFZZalROMHA2dGFmamdndmtyejJTTVR0eU9BRm1wbVF2cEZ2dm82MkphdWdp?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260825T145023Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Social and Economic Impact Assessment of Hydrology and Groundwater Projects under the RCA",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNMGZRM2pPdGdKV01KR21TWUx1a1pjQ2dNUXVwYWF4U0EzZHYxaVNMWWNQbnRwVHZ5RkVZVllwaUl4MjJIV2lpdHNJMUI3aWpJaGdTLWJjMllHQnY0Z0NzRnEtUmtnMlJabE0wUUpiQ0xUTVNlcGZnRGF0TmZJTDFVaEN4bEVESXUwek1PNXp2QU1RN29JY1NuVTg2UGxURmxGZjVYbXhYemhuU1c0eUdDYktWaG5UTGlKVUwtY3UzMlU5OUp3Rlpv?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260909T132135Z",
           "source": "GoogleNews"
         }
       ],
@@ -9858,15 +9869,15 @@
           "site": "Nevada National Security Site",
           "site_lat": 37.12,
           "site_lon": -116.05,
-          "time": 1789950862742,
-          "magnitude": 1.76,
+          "time": 1789950863424,
+          "magnitude": 1.78,
           "magnitude_type": "ml",
           "event_type": "earthquake",
-          "place": "58 km WNW of Beatty, Nevada",
+          "place": "61 km WNW of Beatty, Nevada",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00924680",
-          "lon": -117.3394,
-          "lat": 37.1643,
-          "depth_km": 0.0196,
+          "lon": -117.367,
+          "lat": 37.164,
+          "depth_km": 7.6112,
           "source": "USGS"
         },
         {
