@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "nuclear-proliferation-watch",
-    "generated": "2026-09-22T05:24:44.441621+00:00",
+    "generated": "2026-09-22T12:03:40.059169+00:00",
     "mode": "live",
     "sources": [
       "IAEA official pages",
@@ -14,7 +14,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-09-22T05:24:44.430519+00:00",
+    "issued_at": "2026-09-22T12:03:40.050918+00:00",
     "horizon": "0-30 days",
     "classification": "nuclear-escalation-pressure-not-test-or-weapon-probability",
     "score": 14.5,
@@ -28,7 +28,7 @@
         "available": true,
         "score": 29.6,
         "current_14d_weight": 6.0,
-        "current_14d_titles": 39,
+        "current_14d_titles": 37,
         "baseline_periods": 8,
         "baseline_median": 0.0,
         "anomaly_z": 6.0,
@@ -142,7 +142,7 @@
         "available": true,
         "score": 0.0,
         "current_30d_diagnostic_weight": 0.0,
-        "events_considered": 1806,
+        "events_considered": 1807,
         "sites_monitored": 8,
         "anomaly_z": 0.0,
         "evidence": [],
@@ -1213,6 +1213,17 @@
           "facility_security_incidents": 20.7,
           "test_site_seismicity": 0.0
         }
+      },
+      {
+        "timestamp": "2026-09-22T12:03:40.050918+00:00",
+        "score": 14.5,
+        "level": "BASELINE",
+        "components": {
+          "iaea_safeguards_strain": 29.6,
+          "npwmd_designation_delta": 0.0,
+          "facility_security_incidents": 20.7,
+          "test_site_seismicity": 0.0
+        }
       }
     ],
     "data_health": {
@@ -1325,15 +1336,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20260724T162219Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "What You Need to Know about the IAEA General Conference",
-          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPMDZVNUN0dndNRFE4Ri1lRGtJNVlKMXAwNlFCNDdHTzh4cXl0WUhDSUgyc2RNcTdKZzU3ODFicnNJUkJwTDQ3cEdkWHRJMGpzX0YxNGtJNS0zbkE1cHdUUm9jRkNrNVdyOEw1cFhUcEF6OGN0eFJnVlVYa054M2ZfSERQbm44a1JyZ2FjSE1OYk1nRU9sbkE?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260910T070000Z",
           "source": "GoogleNews"
         },
         {
@@ -1487,6 +1489,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20250211T061014Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "What You Need to Know about the IAEA General Conference",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPMDZVNUN0dndNRFE4Ri1lRGtJNVlKMXAwNlFCNDdHTzh4cXl0WUhDSUgyc2RNcTdKZzU3ODFicnNJUkJwTDQ3cEdkWHRJMGpzX0YxNGtJNS0zbkE1cHdUUm9jRkNrNVdyOEw1cFhUcEF6OGN0eFJnVlVYa054M2ZfSERQbm44a1JyZ2FjSE1OYk1nRU9sbkE?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260910T070000Z",
           "source": "GoogleNews"
         },
         {
@@ -1734,20 +1745,20 @@
         },
         {
           "title": "70th IAEA General Conference",
-          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9LQW9KLXpBVnFYNHVZOUN4UDFFYkdOSEpYTHlOc2ttUmh6VGFMVUoySGZmOERQU3VUUUtyc1lTZE5hZWxHdFB6SW9nMVh3bGc5VVhQTEVuUXZxYm9oMm5wb2RfbzNSM1l6SmlXRkRBTUtXeldVYXh4ejR2NGNNQQ?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260919T035006Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "70th IAEA General Conference",
           "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5GMk81SlhMQ2VKRTV6WU9NeWRGNVQ3NmlUTTdabUZHdkx5WV9wLUE0R2lrZWxlcGhJMkwwOURjQVZoMUpDLVZVbS1fR3NQcEc0b0drS01fYnhzMmp6dXFfZEo3TWs3MERDcWt4Sm9ySUhJclMxUEZDZWMxR2Y?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
           "seendate": "20260724T155620Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "70th IAEA General Conference",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9LQW9KLXpBVnFYNHVZOUN4UDFFYkdOSEpYTHlOc2ttUmh6VGFMVUoySGZmOERQU3VUUUtyc1lTZE5hZWxHdFB6SW9nMVh3bGc5VVhQTEVuUXZxYm9oMm5wb2RfbzNSM1l6SmlXRkRBTUtXeldVYXh4ejR2NGNNQQ?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260919T035006Z",
           "source": "GoogleNews"
         },
         {
@@ -1914,7 +1925,7 @@
         },
         {
           "title": "Ekaterina Harsdorf",
-          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBWQTlNVEZSMkpxWVFrcVZfRTUwRXFfSnpfM2U2dVpUNnBIV0JUTkpNZ0pVR3Y2OWltc2pQb0FxQkg4SndPUzR2STBMdkJQaEc4?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBYX2VPQXRzMWhnTFhMNVdWc2NjOVpod3A4b1ItNG1nWmFOVlA4aUJUQlZ4TmhUUEpqZ2I3NEFLQVNjaWhhNlVoNjVmNWpzQzg?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
@@ -1955,15 +1966,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20260706T070000Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "Ding Feng",
-          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9SQkxsU3lVUFIwRVRMTWpfczRjTEtyby1jd3NWUlZ3aWJ3WnZKRFBMXzlXOUczMW9RU0VRNlZhcXdzQmlLQjVIVWdoZU45bncy?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260918T125948Z",
           "source": "GoogleNews"
         },
         {
@@ -2027,6 +2029,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20260918T185910Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Ding Feng",
+          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9SQkxsU3lVUFIwRVRMTWpfczRjTEtyby1jd3NWUlZ3aWJ3WnZKRFBMXzlXOUczMW9RU0VRNlZhcXdzQmlLQjVIVWdoZU45bncy?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260918T125948Z",
           "source": "GoogleNews"
         },
         {
@@ -2129,6 +2140,15 @@
           "source": "GoogleNews"
         },
         {
+          "title": "Nicaragua Signs a Country Programme Framework (CPF) for 2026–2031",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNX0xfS0s2SEIzN1NwZ1VQdElrb2t2STRNZ1ZwcGdwTXNjRV9TY09YVlVBQzZZT2ZRaGY0U3NrMGFDRmloWk43cDBYR1ZfYnhwc203Nmx2QXZQVlhUbThpdEpnZHhGTm1aMmxwZW5TREE4dEk2M3Vyc3QyQjVaaV9UZ2pvRERmak03LWVmUnNxQjBxWnBGN3JSQzFEeFc4a1NYRVE?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260922T080129Z",
+          "source": "GoogleNews"
+        },
+        {
           "title": "Update 354 – IAEA Director General Statement on Situation in Ukraine",
           "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNcTBvYVcyZ2lkbVhiRDVnWWJuOWdlX05GLS1BOWl1X1lLdk1PSkxPR3R1dHBZVmtoQjJ6NjFBQWtreFVCZ0pSZWlycmpfOXF5dDR3TWZTNW5VYnROT0tfaW15MDR0VmEzcVNVZ3NGTDlZQ0NBY3Ntd0dtUGxsMWFib0xCMVVyZUpTZ25paHJEUjZHZlpKSU1IM3NzcmNGQzNDblhMRllDZnRuRGJ4d0U0Xw?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -2171,15 +2191,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20260825T145023Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "Social and Economic Impact Assessment of Hydrology and Groundwater Projects under the RCA",
-          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNMGZRM2pPdGdKV01KR21TWUx1a1pjQ2dNUXVwYWF4U0EzZHYxaVNMWWNQbnRwVHZ5RkVZVllwaUl4MjJIV2lpdHNJMUI3aWpJaGdTLWJjMllHQnY0Z0NzRnEtUmtnMlJabE0wUUpiQ0xUTVNlcGZnRGF0TmZJTDFVaEN4bEVESXUwek1PNXp2QU1RN29JY1NuVTg2UGxURmxGZjVYbXhYemhuU1c0eUdDYktWaG5UTGlKVUwtY3UzMlU5OUp3Rlpv?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260909T132135Z",
           "source": "GoogleNews"
         }
       ],
@@ -9873,6 +9884,22 @@
           "lon": 87.9952,
           "lat": 41.8774,
           "depth_km": 10,
+          "source": "USGS"
+        },
+        {
+          "id": "nn00924712",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1790070041733,
+          "magnitude": 1.63,
+          "magnitude_type": "ml",
+          "event_type": "earthquake",
+          "place": "33 km SSE of Goldfield, Nevada",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00924712",
+          "lon": -117.0964,
+          "lat": 37.4241,
+          "depth_km": 1.2776,
           "source": "USGS"
         },
         {
