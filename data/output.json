@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "nuclear-proliferation-watch",
-    "generated": "2026-09-21T22:15:43.847475+00:00",
+    "generated": "2026-09-22T05:24:44.441621+00:00",
     "mode": "live",
     "sources": [
       "IAEA official pages",
@@ -14,7 +14,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-09-21T22:15:43.838863+00:00",
+    "issued_at": "2026-09-22T05:24:44.430519+00:00",
     "horizon": "0-30 days",
     "classification": "nuclear-escalation-pressure-not-test-or-weapon-probability",
     "score": 14.5,
@@ -28,7 +28,7 @@
         "available": true,
         "score": 29.6,
         "current_14d_weight": 6.0,
-        "current_14d_titles": 40,
+        "current_14d_titles": 39,
         "baseline_periods": 8,
         "baseline_median": 0.0,
         "anomaly_z": 6.0,
@@ -142,7 +142,7 @@
         "available": true,
         "score": 0.0,
         "current_30d_diagnostic_weight": 0.0,
-        "events_considered": 1809,
+        "events_considered": 1806,
         "sites_monitored": 8,
         "anomaly_z": 0.0,
         "evidence": [],
@@ -1202,6 +1202,17 @@
           "facility_security_incidents": 20.7,
           "test_site_seismicity": 0.0
         }
+      },
+      {
+        "timestamp": "2026-09-22T05:24:44.430519+00:00",
+        "score": 14.5,
+        "level": "BASELINE",
+        "components": {
+          "iaea_safeguards_strain": 29.6,
+          "npwmd_designation_delta": 0.0,
+          "facility_security_incidents": 20.7,
+          "test_site_seismicity": 0.0
+        }
       }
     ],
     "data_health": {
@@ -1272,15 +1283,6 @@
     "iaea_titles": {
       "signals": [
         {
-          "title": "The Week Ahead: IAEA Hosts 70th General Conference",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQRDFMWmxYQkZUOVI0YnBMNEVjeFVYYlJMYmktaU8xaXk3RVdVYUhoOTRreXNncnluNHJ5UXR0aU84Nkc0ZFkwWUg2bVBQOGpJUFRmcHRQZUdnQjhzenJSZHNwR3k0OTFIT3ZqSGEwWWUyX3QwN0tQX3pNUUtsZDRPVkM3RnFQSW5wMzRXc0pR?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260914T083627Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "Update 367 – IAEA Director General Statement on Situation in Ukraine",
           "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQTTdia2oyZmhSbHNBb0ZkNDNBVkxMU2VVVVBrdHNjckE0ZGdPT2FzMS1EMG9SRG1JLUVBUHJ6ZUpSdy12d2wzUTUzblJTTXNQLWxVT2kzT0t2cGNrTVRoZW1lSDFOY1VTVWNhS2ljSzBfTGUxb29pcHJoXy1DZE9GanZlWnFLWGo0SU01amp4UXVyV1NqdGNZbDNUVS05VEdFRmtRcGxNYXFMeEZCUDJEamlR?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -1326,21 +1328,21 @@
           "source": "GoogleNews"
         },
         {
-          "title": "Director General's Statement to the Seventieth Regular Session of the IAEA General Conference",
-          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOTDZnbXNaWG5oZmZmaExtNWljc0ltMFlBTGJWejZ0MXJDOHdqeFZtejJVWXY0THFjSkZUTFJtRjFTTWJ0Y3lLSmk0cVBqYlJiMUgxWXpvZ1dvdldWRXZEX3Y5NDhKUlNFUnVTYmJOelJra3dIQTBhNEJTdHlZRnBCZjhEYWJtTzNWbm1rdEN0OC1QRVRxTFZQcjJnTHFXVkRaeWRfY1k1Qm9KOVdWbUxaSExQUVRMcmFfb19ZRXZnQ05VYmN6UWl0ay1oMV9kZk1U?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260914T100618Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "What You Need to Know about the IAEA General Conference",
           "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPMDZVNUN0dndNRFE4Ri1lRGtJNVlKMXAwNlFCNDdHTzh4cXl0WUhDSUgyc2RNcTdKZzU3ODFicnNJUkJwTDQ3cEdkWHRJMGpzX0YxNGtJNS0zbkE1cHdUUm9jRkNrNVdyOEw1cFhUcEF6OGN0eFJnVlVYa054M2ZfSERQbm44a1JyZ2FjSE1OYk1nRU9sbkE?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
           "seendate": "20260910T070000Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Director General's Statement to the Seventieth Regular Session of the IAEA General Conference",
+          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOTDZnbXNaWG5oZmZmaExtNWljc0ltMFlBTGJWejZ0MXJDOHdqeFZtejJVWXY0THFjSkZUTFJtRjFTTWJ0Y3lLSmk0cVBqYlJiMUgxWXpvZ1dvdldWRXZEX3Y5NDhKUlNFUnVTYmJOelJra3dIQTBhNEJTdHlZRnBCZjhEYWJtTzNWbm1rdEN0OC1QRVRxTFZQcjJnTHFXVkRaeWRfY1k1Qm9KOVdWbUxaSExQUVRMcmFfb19ZRXZnQ05VYmN6UWl0ay1oMV9kZk1U?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260914T100618Z",
           "source": "GoogleNews"
         },
         {
@@ -1398,15 +1400,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "Mr. President, Mr. Director General, Excellencies, It is an honor to address you on behalf of the Government of Montenegro. The",
-          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE04dlB6TUJfbUctTGxxS1JhMDZJaXdzNkxSTVE1b2dGMHpfalZzZ09vVkd2Mnd0QnNGNmtnV1o0Z1o4UzlJMzdfNG1Rd3ZRV0RsTjBXM3lrT2Y0MXpPZGFtZWJ3VTViSlNPTXphdzAwZk5nRzR4YVZpN0lR?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260915T163102Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "IAEA Director General's Introductory Statement to the Board of Governors",
           "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPbW9JcGhHaGhiMTQ0X2lDWXBtclkxaU9fSTRZSmxwQWN5NnMycTdZQlM3NHcxN0JGT1RvUnVKRkdSWFhzQk5oTEtPbWttSDlvRFgyZWtiV3VHRGZQWmR6TmhjT0dxMHR0QXktUXVZSlJodzZMb3NhTnJRd0xBTm5kOHQ3S1BDTkNWdFpvZGpkX2Jpd3hUZ3A2SFdXZFMwRXpmR1ZYdTcyYmloRGFzWWxlZVhjekczdmJ6RUdGMjFEZDhSVjFpUnlKYnNn?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -1422,6 +1415,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20260902T070000Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Mr. President, Mr. Director General, Excellencies, It is an honor to address you on behalf of the Government of Montenegro. The",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE04dlB6TUJfbUctTGxxS1JhMDZJaXdzNkxSTVE1b2dGMHpfalZzZ09vVkd2Mnd0QnNGNmtnV1o0Z1o4UzlJMzdfNG1Rd3ZRV0RsTjBXM3lrT2Y0MXpPZGFtZWJ3VTViSlNPTXphdzAwZk5nRzR4YVZpN0lR?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260915T163102Z",
           "source": "GoogleNews"
         },
         {
@@ -1911,15 +1913,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "Aoife McKnight",
-          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9lTnVRXzZ3OXVhMk1rTVNzM0pfYktZcjNjOUotaVR2UUdaZHp1cld4X0tHUkMtX2tGTUVBdEVMeF9FQlBGMnJ5NklqS1ZWdHhq?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260918T083500Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "Ekaterina Harsdorf",
           "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBWQTlNVEZSMkpxWVFrcVZfRTUwRXFfSnpfM2U2dVpUNnBIV0JUTkpNZ0pVR3Y2OWltc2pQb0FxQkg4SndPUzR2STBMdkJQaEc4?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -2007,6 +2000,24 @@
           "language": "",
           "tone": 0,
           "seendate": "20260914T115925Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Tritium Level Far Below Japan’s Operational Limit in 20th Batch of ALPS Treated Water, IAEA Confirms",
+          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOOTlJcENPSlZsRHFsaTJJUlZRX2RqbU05S3FjaWprVTZsbjR6Z0FhbkVSbVJhM012OVRLd1J4THhXeHdDMDBTSVBXaDFGclVrR0IwNW5hb3JSc2h1ejl5b1NiVXREd3YyTC00czRpYWl2ZUdCRkh5emVycjdrdnFlc0ZValYwRGRUWmtVWHNqY1g0NnFyc1FRS09VUjUwR0RWOFhRYkZmLUpCdGdGR0FiRi14RGx1WDFkU3hWYnlLR1pDSXZFVHc2S0Q1Y2ZtM3huTjV5THJ2SlRSODA?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260601T070000Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "The Week Ahead: IAEA Hosts 70th General Conference",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQRDFMWmxYQkZUOVI0YnBMNEVjeFVYYlJMYmktaU8xaXk3RVdVYUhoOTRreXNncnluNHJ5UXR0aU84Nkc0ZFkwWUg2bVBQOGpJUFRmcHRQZUdnQjhzenJSZHNwR3k0OTFIT3ZqSGEwWWUyX3QwN0tQX3pNUUtsZDRPVkM3RnFQSW5wMzRXc0pR?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260914T083627Z",
           "source": "GoogleNews"
         },
         {
@@ -38358,54 +38369,6 @@
           "lon": -115.9138,
           "lat": 38.2562,
           "depth_km": 11.6,
-          "source": "USGS"
-        },
-        {
-          "id": "ci40447426",
-          "site": "Nevada National Security Site",
-          "site_lat": 37.12,
-          "site_lon": -116.05,
-          "time": 1758442661920,
-          "magnitude": 2.02,
-          "magnitude_type": "ml",
-          "event_type": "earthquake",
-          "place": "21 km ESE of Little Lake, CA",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40447426",
-          "lon": -117.6785,
-          "lat": 35.898,
-          "depth_km": 2.31,
-          "source": "USGS"
-        },
-        {
-          "id": "ci40447418",
-          "site": "Nevada National Security Site",
-          "site_lat": 37.12,
-          "site_lon": -116.05,
-          "time": 1758442576410,
-          "magnitude": 2.47,
-          "magnitude_type": "ml",
-          "event_type": "earthquake",
-          "place": "21 km ESE of Little Lake, CA",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40447418",
-          "lon": -117.6783333,
-          "lat": 35.896,
-          "depth_km": 2.7,
-          "source": "USGS"
-        },
-        {
-          "id": "ci40447258",
-          "site": "Nevada National Security Site",
-          "site_lat": 37.12,
-          "site_lon": -116.05,
-          "time": 1758417306980,
-          "magnitude": 2.85,
-          "magnitude_type": "ml",
-          "event_type": "earthquake",
-          "place": "8 km NNE of Coso Junction, CA",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40447258",
-          "lon": -117.903,
-          "lat": 36.1045,
-          "depth_km": 5.16,
           "source": "USGS"
         },
         {
