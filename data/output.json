@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "nuclear-proliferation-watch",
-    "generated": "2026-09-22T17:18:39.226470+00:00",
+    "generated": "2026-09-22T21:40:19.153110+00:00",
     "mode": "live",
     "sources": [
       "IAEA official pages",
@@ -14,7 +14,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-09-22T17:18:39.221802+00:00",
+    "issued_at": "2026-09-22T21:40:19.148245+00:00",
     "horizon": "0-30 days",
     "classification": "nuclear-escalation-pressure-not-test-or-weapon-probability",
     "score": 14.5,
@@ -142,7 +142,7 @@
         "available": true,
         "score": 0.0,
         "current_30d_diagnostic_weight": 0.0,
-        "events_considered": 1808,
+        "events_considered": 1809,
         "sites_monitored": 8,
         "anomaly_z": 0.0,
         "evidence": [],
@@ -1235,6 +1235,17 @@
           "facility_security_incidents": 20.7,
           "test_site_seismicity": 0.0
         }
+      },
+      {
+        "timestamp": "2026-09-22T21:40:19.148245+00:00",
+        "score": 14.5,
+        "level": "BASELINE",
+        "components": {
+          "iaea_safeguards_strain": 29.6,
+          "npwmd_designation_delta": 0.0,
+          "facility_security_incidents": 20.7,
+          "test_site_seismicity": 0.0
+        }
       }
     ],
     "data_health": {
@@ -1323,21 +1334,21 @@
           "source": "GoogleNews"
         },
         {
-          "title": "Microreactors: Advances in Technology Development (2026 Outlook)",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOcFNzQ2dwN1BnM183N3F6V3FlT0ZRSlN3ejZYdkQ3TDVMMlA4UFBHekhxcm1haXdxaFBXajQ0MlRaMnN3SEd5S2NGWVZDQ19Wam1Cdi1zdEdrT3BnZExNTmRJOVhrbnJJcUxTT1lsbm1hQ19ValVOSjZ0VDlfLXdIREYyMzVIMENhXzhrSEJkRDVUczJWeGZnYTUzWlVUY01pWWc?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260917T064126Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "IAEA Projects Global Nuclear Power Capacity Could Triple by 2060, Continuing Rising Trend",
           "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNUHhCaF9vSmh1bE05bTdSVTRnVjQ4TGJjTGlYS2tUWUphZUNBdUI0LUFjcmRkVTBjdi1ZV3daSE0tRVgyellrZllRU0Z6b29NbWFTR0t4SkRZeEZfUU80YV9HS3ZzbF9nQUZHZzJJd19vRDFNeHEtTWVobUJOU0xoazQyRGlST2NnQjdlUk1OdElHd2ZHTlpJRndWcmMwbUZuanUwTm1xVFQ5ZHh2OXI1Ql85VWRFWkNoSjBlRk13MEtQZkEwdl9CLTZNZnpLUQ?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
           "seendate": "20260914T070000Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Microreactors: Advances in Technology Development (2026 Outlook)",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOcFNzQ2dwN1BnM183N3F6V3FlT0ZRSlN3ejZYdkQ3TDVMMlA4UFBHekhxcm1haXdxaFBXajQ0MlRaMnN3SEd5S2NGWVZDQ19Wam1Cdi1zdEdrT3BnZExNTmRJOVhrbnJJcUxTT1lsbm1hQ19ValVOSjZ0VDlfLXdIREYyMzVIMENhXzhrSEJkRDVUczJWeGZnYTUzWlVUY01pWWc?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260917T064126Z",
           "source": "GoogleNews"
         },
         {
@@ -1845,6 +1856,15 @@
           "source": "GoogleNews"
         },
         {
+          "title": "Videos",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1lQm01SUNjLVdMQ1JZMzI5VE92eTBURjMxVUdtQldCUmNNVC1KRTNzNlZRd1Z2SUNuVDB1VUlFU2k0c3R3TTktZm9OOHY2cTZGUk1BZVpzdkhTV2U1?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260915T075900Z",
+          "source": "GoogleNews"
+        },
+        {
           "title": "IAEA Mission Says Egypt is Committed to Strengthening its National Regulatory Framework for Safety",
           "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOUjh5bDhtMzQtQk02cVFwV2lfbWZsQW5UV3RFdS1ENndLN0xNSFlka3ZDYmtmSFZoUkFvN1pNcHd2V29KaGhscTkzVnRhZmRPNzZYSF9oSDZSeVhTdzgzd2o5YWpiVXdZZ0hLeW94NkFWU095aHp5alBvM2VvYndXclJENllnNG90MzluWVhkeWFpdXdlanZfQU9yLW51dE0wUVNvVG9TcDRCa2Nqajl6bGNNREJVLU1KU25YeG1kd1IyY2g5NlMzU3J5S2REelBBX0tjdVJ4Q1NFRDA?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -1914,6 +1934,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20260918T013603Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Relevant specifically for the LMP in China (hosted by Harbin Engineering University and China Atomic Energy Authority): - Artifi",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE11U1BqWmpPaTZZY1RrM1ZqOEMxOV80OEotNlhlZGR5UEJCMGxsZkZwSE90Q2UzLVAwWjRiNGVxQnVod3lubmdlVHJ2YjlfLWVuYm8zYTFYMm16V3J5X05pVU9iN2FFR1ZaNGF4UXpxa2ZrVnlhNVZ5MXFR?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260912T230759Z",
           "source": "GoogleNews"
         },
         {
@@ -1989,15 +2018,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "Aoife McKnight",
-          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9lTnVRXzZ3OXVhMk1rTVNzM0pfYktZcjNjOUotaVR2UUdaZHp1cld4X0tHUkMtX2tGTUVBdEVMeF9FQlBGMnJ5NklqS1ZWdHhq?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260918T083500Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "Update 360 – IAEA Director General Statement on Situation in Ukraine",
           "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPQWJQcGRwVlJuVHNFalhqMjFQczFfSTdyNW9WbFpZSG9WSnZZcTVDME9DQWZmZVNRV24zOWZ4OTg1MmRmYkdTZW4yN2lkU0phNGJJQWRENXpCNFhYOVQtdU5tV1FPZ3A3RjRWTHV6bDBSN1NZSVZQZ0hpM1JfRjRnbWdSeEdReVhfRGRZRVlTNTZreHBYOXpJdHRkNHBVWjFNaE9Vd1NZZERTN3BhcHlWVQ?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -2039,7 +2059,7 @@
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
-          "seendate": "20260914T083627Z",
+          "seendate": "20260914T070000Z",
           "source": "GoogleNews"
         },
         {
@@ -2139,15 +2159,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20260908T105958Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "From the IAEA Archives",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5vX251Z2tZSmc5Ui03QW9GTFdaUkg4ckdTYU5JQk1SdWp0TWswSUItX1psbDhTQmIxeXE5Nnp4MHRZUkJXLTQ0SDl2TllGQWFza0QyLWNQWFdSdTVXY1R1LTBoTQ?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260919T123102Z",
           "source": "GoogleNews"
         },
         {
@@ -9898,6 +9909,22 @@
           "source": "USGS"
         },
         {
+          "id": "nn00924724",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1790098232932,
+          "magnitude": 2.01,
+          "magnitude_type": "ml",
+          "event_type": "earthquake",
+          "place": "51 km S of Silver Peak, Nevada",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00924724",
+          "lon": -117.5993,
+          "lat": 37.2873,
+          "depth_km": 7.1762,
+          "source": "USGS"
+        },
+        {
           "id": "nn00924721",
           "site": "Nevada National Security Site",
           "site_lat": 37.12,
@@ -9918,15 +9945,15 @@
           "site": "Nevada National Security Site",
           "site_lat": 37.12,
           "site_lon": -116.05,
-          "time": 1790070041733,
-          "magnitude": 1.63,
+          "time": 1790070042510,
+          "magnitude": 1.56,
           "magnitude_type": "ml",
           "event_type": "earthquake",
-          "place": "33 km SSE of Goldfield, Nevada",
+          "place": "35 km SSE of Goldfield, Nevada",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00924712",
-          "lon": -117.0964,
-          "lat": 37.4241,
-          "depth_km": 1.2776,
+          "lon": -117.0982,
+          "lat": 37.4114,
+          "depth_km": 8.0531,
           "source": "USGS"
         },
         {
@@ -10206,15 +10233,15 @@
           "site": "Nevada National Security Site",
           "site_lat": 37.12,
           "site_lon": -116.05,
-          "time": 1789190645800,
-          "magnitude": 1.74,
+          "time": 1789190645840,
+          "magnitude": 1.62,
           "magnitude_type": "md",
           "event_type": "earthquake",
-          "place": "9 km SW of West Bishop, CA",
+          "place": "10 km SW of West Bishop, CA",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75434097",
-          "lon": -118.518501281738,
-          "lat": 37.2933349609375,
-          "depth_km": 10.6000003814697,
+          "lon": -118.530666666667,
+          "lat": 37.296,
+          "depth_km": 10.41,
           "source": "USGS"
         },
         {
