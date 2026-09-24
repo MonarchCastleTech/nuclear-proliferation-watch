@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "nuclear-proliferation-watch",
-    "generated": "2026-09-24T05:28:03.749467+00:00",
+    "generated": "2026-09-24T12:14:19.649223+00:00",
     "mode": "live",
     "sources": [
       "IAEA official pages",
@@ -14,7 +14,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-09-24T05:28:03.740753+00:00",
+    "issued_at": "2026-09-24T12:14:19.644066+00:00",
     "horizon": "0-30 days",
     "classification": "nuclear-escalation-pressure-not-test-or-weapon-probability",
     "score": 13.2,
@@ -28,7 +28,7 @@
         "available": true,
         "score": 26.0,
         "current_14d_weight": 4.6,
-        "current_14d_titles": 37,
+        "current_14d_titles": 36,
         "baseline_periods": 8,
         "baseline_median": 0.4,
         "anomaly_z": 7.08,
@@ -130,7 +130,7 @@
         "available": true,
         "score": 0.0,
         "current_30d_diagnostic_weight": 0.0,
-        "events_considered": 1806,
+        "events_considered": 1808,
         "sites_monitored": 8,
         "anomaly_z": 0.0,
         "evidence": [],
@@ -1289,6 +1289,17 @@
           "facility_security_incidents": 20.7,
           "test_site_seismicity": 0.0
         }
+      },
+      {
+        "timestamp": "2026-09-24T12:14:19.644066+00:00",
+        "score": 13.2,
+        "level": "BASELINE",
+        "components": {
+          "iaea_safeguards_strain": 26.0,
+          "npwmd_designation_delta": 0.0,
+          "facility_security_incidents": 20.7,
+          "test_site_seismicity": 0.0
+        }
       }
     ],
     "data_health": {
@@ -1611,24 +1622,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "70th IAEA General Conference",
-          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNN0VjMkFmaHZmeEJQLVpraHNzQTV6bnNOX0JoU3FEczgtS2x6cWZZN0wyc3BSQ0hpTWx2U0ZpYkx0R1hKUVFVWXRrUW90LUFySjBHQkNzc3EyTnBjQUJWRF9UMFNwM05SSTZyQzRIRkJqdFJxSmE0Mlo3S0dBUXJIVg?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260724T162219Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "Microreactors: Advances in Technology Development (2026 Outlook)",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOcFNzQ2dwN1BnM183N3F6V3FlT0ZRSlN3ejZYdkQ3TDVMMlA4UFBHekhxcm1haXdxaFBXajQ0MlRaMnN3SEd5S2NGWVZDQ19Wam1Cdi1zdEdrT3BnZExNTmRJOVhrbnJJcUxTT1lsbm1hQ19ValVOSjZ0VDlfLXdIREYyMzVIMENhXzhrSEJkRDVUczJWeGZnYTUzWlVUY01pWWc?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260917T064126Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "Joint Statement - ATLAS Ministerial Launch Event | IAEA",
           "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPRmdYck85QzhxUEJqZVVPdmlJNzJyelVVZm5WdzRRSVMyUnhaN0swdkF1V0JVVXFDY2Y5S0lDOTNVRTJ1MXgydE5XQUlyTUlNRjV3Vy1nMDBOcVdPR1Fmc084dlF4YjdZODVRZUJwYU5FOFpxQUdaNTFwMTYwOEpBSV9aM2M3M21KZUZpMmpob2FEeVpWcVE?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -1653,6 +1646,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20260919T171336Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "70th IAEA General Conference",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNN0VjMkFmaHZmeEJQLVpraHNzQTV6bnNOX0JoU3FEczgtS2x6cWZZN0wyc3BSQ0hpTWx2U0ZpYkx0R1hKUVFVWXRrUW90LUFySjBHQkNzc3EyTnBjQUJWRF9UMFNwM05SSTZyQzRIRkJqdFJxSmE0Mlo3S0dBUXJIVg?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260724T162219Z",
           "source": "GoogleNews"
         },
         {
@@ -1788,6 +1790,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20260914T070000Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Microreactors: Advances in Technology Development (2026 Outlook)",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOcFNzQ2dwN1BnM183N3F6V3FlT0ZRSlN3ejZYdkQ3TDVMMlA4UFBHekhxcm1haXdxaFBXajQ0MlRaMnN3SEd5S2NGWVZDQ19Wam1Cdi1zdEdrT3BnZExNTmRJOVhrbnJJcUxTT1lsbm1hQ19ValVOSjZ0VDlfLXdIREYyMzVIMENhXzhrSEJkRDVUczJWeGZnYTUzWlVUY01pWWc?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260917T064126Z",
           "source": "GoogleNews"
         },
         {
@@ -1968,6 +1979,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20250531T022425Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Morokhov, I.",
+          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBJT2tNSHVNclFRXzhxdU5TbGh0ZF9ITkp5dlFoUkEwbExmbjdDckJnZ2NpQWFySUNQcTlrczVKMzRFZ2NvZXZ2blJNWTJSWjU5?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260923T121118Z",
           "source": "GoogleNews"
         },
         {
@@ -2247,15 +2267,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20260909T132135Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "The Commonwealth of The Bahamas Signs its First Country Programme Framework (CPF) for 2026–2031",
-          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPWm9nd0xnSks1a3huZVBhUEFaS3BGbUlIaGk0M2p4cFlSNWdmaDhMUjlRSDJWbmxsVVJubnhaZ1RqQXlkM2ZHTGozVWY4QXlodlJjTS1udzlpY1FKWWV3U3YwRjAwNU5yMUFWeVJBSTBEaVZiQ2RUWUsySURGYzdwRUl0VlltWjRwUGJDam1kLW1VMnQtallEb21iSm1LaGZvZjB0b0dFU1UwZWFJRy1JalFkdTdHUjBhTzIyNFg2Z29NbVRUeWFrTQ?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260915T060937Z",
           "source": "GoogleNews"
         }
       ],
@@ -9949,6 +9960,38 @@
           "lon": 87.9952,
           "lat": 41.8774,
           "depth_km": 10,
+          "source": "USGS"
+        },
+        {
+          "id": "nn00924844",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1790247759341,
+          "magnitude": 1.67,
+          "magnitude_type": "ml",
+          "event_type": "earthquake",
+          "place": "77 km ENE of Tonopah, Nevada",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00924844",
+          "lon": -116.4974,
+          "lat": 38.4554,
+          "depth_km": 0.0353,
+          "source": "USGS"
+        },
+        {
+          "id": "nn00924838",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1790241406164,
+          "magnitude": 2.23,
+          "magnitude_type": "ml",
+          "event_type": "earthquake",
+          "place": "35 km SE of Eureka, Nevada",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00924838",
+          "lon": -115.6787,
+          "lat": 39.2764,
+          "depth_km": 0.909,
           "source": "USGS"
         },
         {
