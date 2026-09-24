@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "nuclear-proliferation-watch",
-    "generated": "2026-09-23T21:48:11.441271+00:00",
+    "generated": "2026-09-24T05:28:03.749467+00:00",
     "mode": "live",
     "sources": [
       "IAEA official pages",
@@ -14,7 +14,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-09-23T21:48:11.432976+00:00",
+    "issued_at": "2026-09-24T05:28:03.740753+00:00",
     "horizon": "0-30 days",
     "classification": "nuclear-escalation-pressure-not-test-or-weapon-probability",
     "score": 13.2,
@@ -130,7 +130,7 @@
         "available": true,
         "score": 0.0,
         "current_30d_diagnostic_weight": 0.0,
-        "events_considered": 1810,
+        "events_considered": 1806,
         "sites_monitored": 8,
         "anomaly_z": 0.0,
         "evidence": [],
@@ -1278,6 +1278,17 @@
           "facility_security_incidents": 20.7,
           "test_site_seismicity": 0.0
         }
+      },
+      {
+        "timestamp": "2026-09-24T05:28:03.740753+00:00",
+        "score": 13.2,
+        "level": "BASELINE",
+        "components": {
+          "iaea_safeguards_strain": 26.0,
+          "npwmd_designation_delta": 0.0,
+          "facility_security_incidents": 20.7,
+          "test_site_seismicity": 0.0
+        }
       }
     ],
     "data_health": {
@@ -1375,15 +1386,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "Microreactors: Advances in Technology Development (2026 Outlook)",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOcFNzQ2dwN1BnM183N3F6V3FlT0ZRSlN3ejZYdkQ3TDVMMlA4UFBHekhxcm1haXdxaFBXajQ0MlRaMnN3SEd5S2NGWVZDQ19Wam1Cdi1zdEdrT3BnZExNTmRJOVhrbnJJcUxTT1lsbm1hQ19ValVOSjZ0VDlfLXdIREYyMzVIMENhXzhrSEJkRDVUczJWeGZnYTUzWlVUY01pWWc?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260917T064126Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "INPRO Methodology for Sustainability Assessments of Nuclear Energy Systems: Proliferation Resistance",
           "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBZbDdpdFZuQTA5M3B3cTRDZXI3bVVFNGxERW5PYUJValVSYkhscUlwYkx0aTNBX2JhbDhIdFI0MUVOTDA2YmtNRW4wcw?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -1453,15 +1455,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20260915T163102Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "70th IAEA General Conference",
-          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNN0VjMkFmaHZmeEJQLVpraHNzQTV6bnNOX0JoU3FEczgtS2x6cWZZN0wyc3BSQ0hpTWx2U0ZpYkx0R1hKUVFVWXRrUW90LUFySjBHQkNzc3EyTnBjQUJWRF9UMFNwM05SSTZyQzRIRkJqdFJxSmE0Mlo3S0dBUXJIVg?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260724T162219Z",
           "source": "GoogleNews"
         },
         {
@@ -1615,6 +1608,24 @@
           "language": "",
           "tone": 0,
           "seendate": "20260601T164650Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "70th IAEA General Conference",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNN0VjMkFmaHZmeEJQLVpraHNzQTV6bnNOX0JoU3FEczgtS2x6cWZZN0wyc3BSQ0hpTWx2U0ZpYkx0R1hKUVFVWXRrUW90LUFySjBHQkNzc3EyTnBjQUJWRF9UMFNwM05SSTZyQzRIRkJqdFJxSmE0Mlo3S0dBUXJIVg?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260724T162219Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Microreactors: Advances in Technology Development (2026 Outlook)",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOcFNzQ2dwN1BnM183N3F6V3FlT0ZRSlN3ejZYdkQ3TDVMMlA4UFBHekhxcm1haXdxaFBXajQ0MlRaMnN3SEd5S2NGWVZDQ19Wam1Cdi1zdEdrT3BnZExNTmRJOVhrbnJJcUxTT1lsbm1hQ19ValVOSjZ0VDlfLXdIREYyMzVIMENhXzhrSEJkRDVUczJWeGZnYTUzWlVUY01pWWc?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260917T064126Z",
           "source": "GoogleNews"
         },
         {
@@ -1960,15 +1971,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "Morokhov, I.",
-          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBJT2tNSHVNclFRXzhxdU5TbGh0ZF9ITkp5dlFoUkEwbExmbjdDckJnZ2NpQWFySUNQcTlrczVKMzRFZ2NvZXZ2blJNWTJSWjU5?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260923T121118Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "Project Listing - CRP",
           "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9sMmJIRmpRdm15dGVyOTRaMjU1WWxmV092VXhRVDNHb3RPNUJic0cwXzhlNElVLVlfWmduMWFSSDktZ1JjdHFsbzZzbkJuc0laVTU2aEplSDZXaFVDd1ByeUlIUi1PWWpGMEM3aXRLWQ?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -2029,6 +2031,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20260918T070000Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Aoife McKnight",
+          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9lTnVRXzZ3OXVhMk1rTVNzM0pfYktZcjNjOUotaVR2UUdaZHp1cld4X0tHUkMtX2tGTUVBdEVMeF9FQlBGMnJ5NklqS1ZWdHhq?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260918T083500Z",
           "source": "GoogleNews"
         },
         {
@@ -38434,70 +38445,6 @@
           "lon": -118.5064,
           "lat": 37.998,
           "depth_km": 7.4,
-          "source": "USGS"
-        },
-        {
-          "id": "ci40448890",
-          "site": "Nevada National Security Site",
-          "site_lat": 37.12,
-          "site_lon": -116.05,
-          "time": 1758645202270,
-          "magnitude": 2.04,
-          "magnitude_type": "ml",
-          "event_type": "earthquake",
-          "place": "16 km NNE of Barstow, CA",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40448890",
-          "lon": -116.9888333,
-          "lat": 35.0351667,
-          "depth_km": 2.23,
-          "source": "USGS"
-        },
-        {
-          "id": "nc75240822",
-          "site": "Nevada National Security Site",
-          "site_lat": 37.12,
-          "site_lon": -116.05,
-          "time": 1758613486650,
-          "magnitude": 2.04,
-          "magnitude_type": "md",
-          "event_type": "earthquake",
-          "place": "4 km ENE of Round Valley, CA",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75240822",
-          "lon": -118.5585,
-          "lat": 37.43,
-          "depth_km": 12.3,
-          "source": "USGS"
-        },
-        {
-          "id": "nn00904842",
-          "site": "Nevada National Security Site",
-          "site_lat": 37.12,
-          "site_lon": -116.05,
-          "time": 1758599478497,
-          "magnitude": 1.8,
-          "magnitude_type": "ml",
-          "event_type": "earthquake",
-          "place": "31 km SSE of Mina, Nevada",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00904842",
-          "lon": -118.0327,
-          "lat": 38.1164,
-          "depth_km": 12.4,
-          "source": "USGS"
-        },
-        {
-          "id": "nn00904835",
-          "site": "Nevada National Security Site",
-          "site_lat": 37.12,
-          "site_lon": -116.05,
-          "time": 1758591902820,
-          "magnitude": 2.2,
-          "magnitude_type": "ml",
-          "event_type": "earthquake",
-          "place": "71 km NNW of Rachel, Nevada",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00904835",
-          "lon": -115.9634,
-          "lat": 38.2684,
-          "depth_km": 7.6,
           "source": "USGS"
         },
         {
