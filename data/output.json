@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "nuclear-proliferation-watch",
-    "generated": "2026-09-25T12:17:19.662109+00:00",
+    "generated": "2026-09-25T17:33:21.922497+00:00",
     "mode": "live",
     "sources": [
       "IAEA official pages",
@@ -14,7 +14,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-09-25T12:17:19.653705+00:00",
+    "issued_at": "2026-09-25T17:33:21.914167+00:00",
     "horizon": "0-30 days",
     "classification": "nuclear-escalation-pressure-not-test-or-weapon-probability",
     "score": 13.2,
@@ -28,7 +28,7 @@
         "available": true,
         "score": 26.0,
         "current_14d_weight": 4.6,
-        "current_14d_titles": 37,
+        "current_14d_titles": 38,
         "baseline_periods": 8,
         "baseline_median": 0.4,
         "anomaly_z": 7.08,
@@ -130,7 +130,7 @@
         "available": true,
         "score": 0.0,
         "current_30d_diagnostic_weight": 0.0,
-        "events_considered": 1808,
+        "events_considered": 1809,
         "sites_monitored": 8,
         "anomaly_z": 0.0,
         "evidence": [],
@@ -1344,6 +1344,17 @@
           "facility_security_incidents": 20.7,
           "test_site_seismicity": 0.0
         }
+      },
+      {
+        "timestamp": "2026-09-25T17:33:21.914167+00:00",
+        "score": 13.2,
+        "level": "BASELINE",
+        "components": {
+          "iaea_safeguards_strain": 26.0,
+          "npwmd_designation_delta": 0.0,
+          "facility_security_incidents": 20.7,
+          "test_site_seismicity": 0.0
+        }
       }
     ],
     "data_health": {
@@ -1465,15 +1476,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20260918T140923Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "Implementation of the NPT Safeguards Agreement and relevant provisions of the United Nations Security Council resolutions in the",
-          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5ycHNHQkFQbFNWWGpWZVJJX2FfcFVyRUlwRk5KYVliOVdfenM3MDNqZHFUQWdjMGNBdkJlWHpqMGo1dnpLNlJUZmtVMFo0Z3RNYldWWjVxVDJZSEsyMWdJRzNyUFZPZw?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260901T070000Z",
           "source": "GoogleNews"
         },
         {
@@ -1684,15 +1686,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "Joint Statement - ATLAS Ministerial Launch Event | IAEA",
-          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPRmdYck85QzhxUEJqZVVPdmlJNzJyelVVZm5WdzRRSVMyUnhaN0swdkF1V0JVVXFDY2Y5S0lDOTNVRTJ1MXgydE5XQUlyTUlNRjV3Vy1nMDBOcVdPR1Fmc084dlF4YjdZODVRZUJwYU5FOFpxQUdaNTFwMTYwOEpBSV9aM2M3M21KZUZpMmpob2FEeVpWcVE?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260826T070000Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "Defining Generic Test Conditions for Dual Purpose Casks (2016–2019)",
           "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPZ0pJT0x6cU9jSkgxZjJsSUtYTXpzUFFrVVlPM0dUSjMxX0ZpNEpxOGNMZUNXd1FMTWd2djlpdjNKYjVrSnBnVTgwQzQyMzBmV1g2cU1EOWRCd0tVN1pRemgzMy0yVzY0UVUwZFRVZGg2YjFWRl9rZjhGc3R3T0ctQzZDUEdmQUx5UXZwMTJTQjNvY291YUF2X2pvZXQyUGxsNVNHQ3lhQQ?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -1756,6 +1749,15 @@
           "source": "GoogleNews"
         },
         {
+          "title": "Joint Statement - ATLAS Ministerial Launch Event | IAEA",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPRmdYck85QzhxUEJqZVVPdmlJNzJyelVVZm5WdzRRSVMyUnhaN0swdkF1V0JVVXFDY2Y5S0lDOTNVRTJ1MXgydE5XQUlyTUlNRjV3Vy1nMDBOcVdPR1Fmc084dlF4YjdZODVRZUJwYU5FOFpxQUdaNTFwMTYwOEpBSV9aM2M3M21KZUZpMmpob2FEeVpWcVE?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260826T070000Z",
+          "source": "GoogleNews"
+        },
+        {
           "title": "Press Centre | IAEA",
           "url": "https://news.google.com/rss/articles/CBMiPkFVX3lxTE92UkdleW9MWGE1c0hWNlVQc3JkUlVzTWZZVENkSUd4WFByaFI5OVlzT25EbDZNdzNaQVcyVTRB?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -1810,15 +1812,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "TECDOC Series",
-          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1zd1J5aVpjR2NLUGlfY2dYdlBRZ1FfT0hPcE1wN2RyR2Q5aC1lY3Nndk13Zlh4dTdZMzU3ODVCZV9GeUNTVkFybW5mTnBmVHJra1R2MVUzU3paS2t6YW90enB2M3podHh3cGc0NWlNZw?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260801T030315Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "Resolutions and Other Decisions of the General Conference | IAEA",
           "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1oazMzcGoyWlZRYkY1cW1HRmJnRi0xZXBxcUk0RmpvbnBKajhZeTlBSEd0SUJLaVRwSmhGNVZVNDVJYlhmUzk0R0J2WEpKVnJy?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -1864,15 +1857,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "70th IAEA General Conference",
-          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNN0VjMkFmaHZmeEJQLVpraHNzQTV6bnNOX0JoU3FEczgtS2x6cWZZN0wyc3BSQ0hpTWx2U0ZpYkx0R1hKUVFVWXRrUW90LUFySjBHQkNzc3EyTnBjQUJWRF9UMFNwM05SSTZyQzRIRkJqdFJxSmE0Mlo3S0dBUXJIVg?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260724T162219Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "Videos",
           "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1lQm01SUNjLVdMQ1JZMzI5VE92eTBURjMxVUdtQldCUmNNVC1KRTNzNlZRd1Z2SUNuVDB1VUlFU2k0c3R3TTktZm9OOHY2cTZGUk1BZVpzdkhTV2U1?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -1897,6 +1881,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20150125T160401Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "70th IAEA General Conference",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNN0VjMkFmaHZmeEJQLVpraHNzQTV6bnNOX0JoU3FEczgtS2x6cWZZN0wyc3BSQ0hpTWx2U0ZpYkx0R1hKUVFVWXRrUW90LUFySjBHQkNzc3EyTnBjQUJWRF9UMFNwM05SSTZyQzRIRkJqdFJxSmE0Mlo3S0dBUXJIVg?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260724T162219Z",
           "source": "GoogleNews"
         },
         {
@@ -2071,15 +2064,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "IAEA Launches ATLAS as Countries Explore Nuclear Power for Shipping and Offshore Energy",
-          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOMkFxQ0tKejgtSkszMlpJSjQwRnFHUGpUUUk5d1YtQnpjMWFHOTk0eHQ1dWJ1LW1LcG4yb0wwYUtVM3VjTWdfQVFUcXpkUXRubUJOUGtjU05haW4wcnhBSXJKc1dqb2FVWkJJdmpfZTdsaDF1TjhKaEd3ZmU2dl9iVUpseFFlemtWRG85cm1DQzFjRnU2R05wSV8yY1RmNmRLa053RkdpUWRRdDJudDdLdjVwSnBaOWItX0lqWExzOHFzbTVuN1NyRG5ZVGE?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260826T070000Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "European Union EU Statement at the General Debate 70th General Conference International Atomic Energy Agency (IAEA) Vienna, 14-",
           "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBFZTRiQ2daTUZDMzJxbkQ2U2VrYlhTd0poYW82dkZ3Q1RBOXJJRGpxbExhUS1yNU1NZ0xUQk9COUVaai0waVZFcXg4QzR6dVVSTDdHRU5wZEhGMkt1V0tadFBDT2xfMWhuaEcwa1EzOA?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -2143,15 +2127,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "Microreactors: Advances in Technology Development (2026 Outlook)",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOcFNzQ2dwN1BnM183N3F6V3FlT0ZRSlN3ejZYdkQ3TDVMMlA4UFBHekhxcm1haXdxaFBXajQ0MlRaMnN3SEd5S2NGWVZDQ19Wam1Cdi1zdEdrT3BnZExNTmRJOVhrbnJJcUxTT1lsbm1hQ19ValVOSjZ0VDlfLXdIREYyMzVIMENhXzhrSEJkRDVUczJWeGZnYTUzWlVUY01pWWc?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260917T064126Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "STATEMENT OF THE REPUBLIC OF ANGOLA AT THE 70th REGULAR SESSION OF THE GENERAL CONFERENCE OF THE INTERNATIONAL ATOMIC ENERGY AGENCY",
           "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1rZmtnXy00VG5xa01SOVIxUVdwNzhacWtqMzFobnhlLWxIZ1RIOF9Rek96RXp2OHgxdFdETDNzRGNwN0FYcE9KTVJEMm82WEhSTHAxV2JZNDRNWDBBSE5MUGJza1AyOFdVanhxVlVxT0I0eXR3?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -2194,6 +2169,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20260827T070000Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "IAEA Launches ATLAS as Countries Explore Nuclear Power for Shipping and Offshore Energy",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOMkFxQ0tKejgtSkszMlpJSjQwRnFHUGpUUUk5d1YtQnpjMWFHOTk0eHQ1dWJ1LW1LcG4yb0wwYUtVM3VjTWdfQVFUcXpkUXRubUJOUGtjU05haW4wcnhBSXJKc1dqb2FVWkJJdmpfZTdsaDF1TjhKaEd3ZmU2dl9iVUpseFFlemtWRG85cm1DQzFjRnU2R05wSV8yY1RmNmRLa053RkdpUWRRdDJudDdLdjVwSnBaOWItX0lqWExzOHFzbTVuN1NyRG5ZVGE?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260826T070000Z",
           "source": "GoogleNews"
         },
         {
@@ -2311,6 +2295,33 @@
           "language": "",
           "tone": 0,
           "seendate": "20260915T060937Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "INES: The International Nuclear and Radiological Event Scale User's Manual",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNVzlhbEp2NUVtWWVNT2FmMXdnU2JIREpEcm5ockxrLWZqQ0hFaHUxSk5CNWFjbkhvcDhjdVY1MFJldlNfbEVsN1RJS1BHTFhYczkwenVWdjJpRVRZLWpEMTRINGtXQm1aZVBXQ3BpZWxvekdFR0ZqUHdqZDBTcXlfS202VG9NaXhoMDJwVFBLNU85aUttUkJJQTZ1S0VWR1IwRmlGLUEweG4zanFLVUkxRw?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260918T074138Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Microreactors: Advances in Technology Development (2026 Outlook)",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOcFNzQ2dwN1BnM183N3F6V3FlT0ZRSlN3ejZYdkQ3TDVMMlA4UFBHekhxcm1haXdxaFBXajQ0MlRaMnN3SEd5S2NGWVZDQ19Wam1Cdi1zdEdrT3BnZExNTmRJOVhrbnJJcUxTT1lsbm1hQ19ValVOSjZ0VDlfLXdIREYyMzVIMENhXzhrSEJkRDVUczJWeGZnYTUzWlVUY01pWWc?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260917T064126Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Home: International Conference on Topical Issues in Nuclear Installation Safety | IAEA",
+          "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1hM0NUREFfazQtbUZubHNNNHJmMW5JUkhIelhxb19SZjk3ZFlvNmZ5RUc2Uk9CbE1yUzczZ3JsVG40LW5iUFpCM2RB?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20250531T042112Z",
           "source": "GoogleNews"
         }
       ],
@@ -10004,6 +10015,22 @@
           "lon": 87.9952,
           "lat": 41.8774,
           "depth_km": 10,
+          "source": "USGS"
+        },
+        {
+          "id": "nn00924871",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1790351994163,
+          "magnitude": 1.7,
+          "magnitude_type": "ml",
+          "event_type": "earthquake",
+          "place": "36 km N of Tonopah, Nevada",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00924871",
+          "lon": -117.2559,
+          "lat": 38.3972,
+          "depth_km": 12.3668,
           "source": "USGS"
         },
         {
