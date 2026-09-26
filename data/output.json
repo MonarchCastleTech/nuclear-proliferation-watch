@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "nuclear-proliferation-watch",
-    "generated": "2026-09-26T11:49:22.503663+00:00",
+    "generated": "2026-09-26T16:46:24.857138+00:00",
     "mode": "live",
     "sources": [
       "IAEA official pages",
@@ -14,7 +14,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-09-26T11:49:22.495107+00:00",
+    "issued_at": "2026-09-26T16:46:24.851842+00:00",
     "horizon": "0-30 days",
     "classification": "nuclear-escalation-pressure-not-test-or-weapon-probability",
     "score": 13.2,
@@ -28,7 +28,7 @@
         "available": true,
         "score": 26.0,
         "current_14d_weight": 4.6,
-        "current_14d_titles": 37,
+        "current_14d_titles": 36,
         "baseline_periods": 8,
         "baseline_median": 0.4,
         "anomaly_z": 7.08,
@@ -1388,6 +1388,17 @@
           "facility_security_incidents": 20.7,
           "test_site_seismicity": 0.0
         }
+      },
+      {
+        "timestamp": "2026-09-26T16:46:24.851842+00:00",
+        "score": 13.2,
+        "level": "BASELINE",
+        "components": {
+          "iaea_safeguards_strain": 26.0,
+          "npwmd_designation_delta": 0.0,
+          "facility_security_incidents": 20.7,
+          "test_site_seismicity": 0.0
+        }
       }
     ],
     "data_health": {
@@ -1782,21 +1793,21 @@
           "source": "GoogleNews"
         },
         {
-          "title": "Update 367 – IAEA Director General Statement on Situation in Ukraine",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQTTdia2oyZmhSbHNBb0ZkNDNBVkxMU2VVVVBrdHNjckE0ZGdPT2FzMS1EMG9SRG1JLUVBUHJ6ZUpSdy12d2wzUTUzblJTTXNQLWxVT2kzT0t2cGNrTVRoZW1lSDFOY1VTVWNhS2ljSzBfTGUxb29pcHJoXy1DZE9GanZlWnFLWGo0SU01amp4UXVyV1NqdGNZbDNUVS05VEdFRmtRcGxNYXFMeEZCUDJEamlR?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260917T070000Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "Joint Statement - ATLAS Ministerial Launch Event | IAEA",
           "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPRmdYck85QzhxUEJqZVVPdmlJNzJyelVVZm5WdzRRSVMyUnhaN0swdkF1V0JVVXFDY2Y5S0lDOTNVRTJ1MXgydE5XQUlyTUlNRjV3Vy1nMDBOcVdPR1Fmc084dlF4YjdZODVRZUJwYU5FOFpxQUdaNTFwMTYwOEpBSV9aM2M3M21KZUZpMmpob2FEeVpWcVE?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
           "seendate": "20260826T070000Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Press Arrangements for IAEA Board of Governors Meeting, 5 June 2026",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPX1VFV1dSUGM1b3V2dmxqUko4ZUVNVlJ3dUZYelFFRDJlVEZsNVprQjVoWGNYcGFEcV9XT1h6aFlNdVFhSG9jblF2ZzNLbUVUa3U5M3YzdDBMX3lRdmZJeXBqX0dYZ0s3WEFwTEhVMWFKQzUzM0VJemxwQk9SUUJ4YWtlbnFQMGhsd2xydXdMZzlQZjBlMk5JM3VkYWdWbzF2WnpUaFVaQm5HYVVpS1liS2xDRQ?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260601T070000Z",
           "source": "GoogleNews"
         },
         {
@@ -1818,15 +1829,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "Publications advanced search",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE84Q1EyWE4xZWc5RWR6VmNqTE4yaHQ5VzZvY3luMXY0V2ZEdzhRMTZPUUlDMmREeWpfdWZwV3NOb2NzdHZ4dGFjQWtNWVhFUUVlbE1xUjRSMmtXRlFscmJ5dWRCUGc3LTY3dEFpT0Vn?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260914T054520Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "Past Events Listing",
           "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE9XbEtCT3Ixekd5eHBSd1FWUU9fcS1Ma3dtMWNhM3JDTTRSZDRzUzg3SzhjbnR6MkpQRHFlZXptS0ZNTDRnUFE?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -1836,17 +1838,17 @@
           "source": "GoogleNews"
         },
         {
-          "title": "IAEA to Launch ATLAS: Pioneering Nuclear Solutions for Shipping and Offshore Energy, Washington, August 26-27, 2026",
-          "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNRDVTbGRZSGxDb0YtYU55cUtCQWdnM0NkTWZoS2FaSlpXbk91WVE4MEFDS0FiWFdMLWl1ZTlXbktnOHZ3SHdzUVdkQk0xWEpka3FBVWdDYVBDeTl6VXNlRk1UZDZHbzRPWk95Mk5Xci1lNm0xeWc5dVhfa3UwcXQyejAxcDdoU2lRTjJDaWVrc1JVRHZVeDhzaFFUbUhwb0I5NTQtbDBlZmJrMzFWMm9wZC1fTFBPR09sSjRpY0tSZ1l3NVFiR2RHV0pucTJMdGp5dmQyd1FtN0tYcjVxNm05N0t5T3JCU0NYQXlkTQ?oc=5",
+          "title": "Publications advanced search",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5EaWFJOHJsZDRoT3ZXTkY5bGlUSE9uMGhUSzlnclV3a25KV1ZIdVNIWTBBWWx3SDVwc1lRakV1bHpUUmhReGRocGVuSmlkTzI5ZEJBMXgzMVFqUzQ3RGl5RG5UeDdFWFRSOTZPRVo3S2dqYnB0VUE?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
-          "seendate": "20260601T070000Z",
+          "seendate": "20260912T010810Z",
           "source": "GoogleNews"
         },
         {
-          "title": "Press Arrangements for IAEA Board of Governors Meeting, 5 June 2026",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPX1VFV1dSUGM1b3V2dmxqUko4ZUVNVlJ3dUZYelFFRDJlVEZsNVprQjVoWGNYcGFEcV9XT1h6aFlNdVFhSG9jblF2ZzNLbUVUa3U5M3YzdDBMX3lRdmZJeXBqX0dYZ0s3WEFwTEhVMWFKQzUzM0VJemxwQk9SUUJ4YWtlbnFQMGhsd2xydXdMZzlQZjBlMk5JM3VkYWdWbzF2WnpUaFVaQm5HYVVpS1liS2xDRQ?oc=5",
+          "title": "IAEA to Launch ATLAS: Pioneering Nuclear Solutions for Shipping and Offshore Energy, Washington, August 26-27, 2026",
+          "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNRDVTbGRZSGxDb0YtYU55cUtCQWdnM0NkTWZoS2FaSlpXbk91WVE4MEFDS0FiWFdMLWl1ZTlXbktnOHZ3SHdzUVdkQk0xWEpka3FBVWdDYVBDeTl6VXNlRk1UZDZHbzRPWk95Mk5Xci1lNm0xeWc5dVhfa3UwcXQyejAxcDdoU2lRTjJDaWVrc1JVRHZVeDhzaFFUbUhwb0I5NTQtbDBlZmJrMzFWMm9wZC1fTFBPR09sSjRpY0tSZ1l3NVFiR2RHV0pucTJMdGp5dmQyd1FtN0tYcjVxNm05N0t5T3JCU0NYQXlkTQ?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
@@ -1887,6 +1889,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20260914T070000Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Update 367 – IAEA Director General Statement on Situation in Ukraine",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQTTdia2oyZmhSbHNBb0ZkNDNBVkxMU2VVVVBrdHNjckE0ZGdPT2FzMS1EMG9SRG1JLUVBUHJ6ZUpSdy12d2wzUTUzblJTTXNQLWxVT2kzT0t2cGNrTVRoZW1lSDFOY1VTVWNhS2ljSzBfTGUxb29pcHJoXy1DZE9GanZlWnFLWGo0SU01amp4UXVyV1NqdGNZbDNUVS05VEdFRmtRcGxNYXFMeEZCUDJEamlR?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260917T070000Z",
           "source": "GoogleNews"
         },
         {
@@ -1941,15 +1952,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20150125T160401Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "PhD Advisor Release & Recommendation Form LMP China (Harbin Engineering University and CAEA)",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNRXhnLXRBb3FTNklPdFFUVnY0OUE3SXZJem54Q1B1b3BUbWVaVGhhckVTX0JudEY1eTJHUU91ZU5sV3NUUGJHZE9MdS1UNGthYXZpZlBJSWQ4WndQaE9rSGd2bTJlelJqUHI3N3U0Uk11YWtSQlBMazF5cEVIZDN6dHExMXY3cjcyWF9yV3FjZHhuWVFSTjFVcE91MzJidjZmcUE?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260914T003933Z",
           "source": "GoogleNews"
         },
         {
@@ -2013,15 +2015,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20250531T052238Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "70th IAEA General Conference",
-          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNN0VjMkFmaHZmeEJQLVpraHNzQTV6bnNOX0JoU3FEczgtS2x6cWZZN0wyc3BSQ0hpTWx2U0ZpYkx0R1hKUVFVWXRrUW90LUFySjBHQkNzc3EyTnBjQUJWRF9UMFNwM05SSTZyQzRIRkJqdFJxSmE0Mlo3S0dBUXJIVg?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260724T162219Z",
           "source": "GoogleNews"
         },
         {
@@ -2355,6 +2348,24 @@
           "language": "",
           "tone": 0,
           "seendate": "20260918T074138Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Microreactors: Advances in Technology Development (2026 Outlook)",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOcFNzQ2dwN1BnM183N3F6V3FlT0ZRSlN3ejZYdkQ3TDVMMlA4UFBHekhxcm1haXdxaFBXajQ0MlRaMnN3SEd5S2NGWVZDQ19Wam1Cdi1zdEdrT3BnZExNTmRJOVhrbnJJcUxTT1lsbm1hQ19ValVOSjZ0VDlfLXdIREYyMzVIMENhXzhrSEJkRDVUczJWeGZnYTUzWlVUY01pWWc?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260917T064126Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Home: International Conference on Topical Issues in Nuclear Installation Safety | IAEA",
+          "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1hM0NUREFfazQtbUZubHNNNHJmMW5JUkhIelhxb19SZjk3ZFlvNmZ5RUc2Uk9CbE1yUzczZ3JsVG40LW5iUFpCM2RB?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20250531T042112Z",
           "source": "GoogleNews"
         }
       ],
@@ -38567,14 +38578,14 @@
           "site": "Chagai",
           "site_lat": 28.9,
           "site_lon": 64.95,
-          "time": 1789936880633,
+          "time": 1789936880572,
           "magnitude": 4.5,
           "magnitude_type": "mb",
           "event_type": "earthquake",
-          "place": "39 km ESE of Khuzdar, Pakistan",
+          "place": "41 km ESE of Khuzdar, Pakistan",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tit3",
-          "lon": 66.9959,
-          "lat": 27.7043,
+          "lon": 67.0066,
+          "lat": 27.6892,
           "depth_km": 10,
           "source": "USGS"
         },
