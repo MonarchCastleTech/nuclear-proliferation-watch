@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "nuclear-proliferation-watch",
-    "generated": "2026-09-25T21:50:17.805329+00:00",
+    "generated": "2026-09-26T05:31:37.681590+00:00",
     "mode": "live",
     "sources": [
       "IAEA official pages",
@@ -14,7 +14,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-09-25T21:50:17.800377+00:00",
+    "issued_at": "2026-09-26T05:31:37.676352+00:00",
     "horizon": "0-30 days",
     "classification": "nuclear-escalation-pressure-not-test-or-weapon-probability",
     "score": 13.2,
@@ -28,7 +28,7 @@
         "available": true,
         "score": 26.0,
         "current_14d_weight": 4.6,
-        "current_14d_titles": 38,
+        "current_14d_titles": 37,
         "baseline_periods": 8,
         "baseline_median": 0.4,
         "anomaly_z": 7.08,
@@ -130,7 +130,7 @@
         "available": true,
         "score": 0.0,
         "current_30d_diagnostic_weight": 0.0,
-        "events_considered": 1809,
+        "events_considered": 1807,
         "sites_monitored": 8,
         "anomaly_z": 0.0,
         "evidence": [],
@@ -1366,6 +1366,17 @@
           "facility_security_incidents": 20.7,
           "test_site_seismicity": 0.0
         }
+      },
+      {
+        "timestamp": "2026-09-26T05:31:37.676352+00:00",
+        "score": 13.2,
+        "level": "BASELINE",
+        "components": {
+          "iaea_safeguards_strain": 26.0,
+          "npwmd_designation_delta": 0.0,
+          "facility_security_incidents": 20.7,
+          "test_site_seismicity": 0.0
+        }
       }
     ],
     "data_health": {
@@ -1445,15 +1456,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "Call for Abstracts: International Symposium on Trends in Radiopharmaceuticals",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQaG5LSjJaejkxNmhNbnVwSW4yQXZ5b014RDNjM0V6OGFfazFyTmU1VGJrTkhPSHlkekZTVlhiYXFPSFpNeV9pRV9ZU2JydWR0VWRLUmgxaVhva3FtaUU5TWpwZ2Noc1ZCbU9NdXptei1FRzBUVGw2UjU5WEpJYURjdDAwOVFGc3VjeG15TVBOb1VLNEE0NUJIN3JkTWxDU0N0NU0xRmN3dXpQZm0zRDhsQ1hn?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260922T070000Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "Türkiye Protects its Citrus Harvests with Nuclear Science",
           "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPMktFSVJ4ZEQ3ZDdCR2h1THVOY0RnbzhfZmdRd1NPbUVsSndKbmEyc2xQZkFRQTFvdVl3TWxLNklNcDlRSWtRSzhLWDJEVy12d1dNT2dIbnhpT3lGcW1KX1IyeU5PRlRBUkljSVdoZzMwR2h3UHJIN1pqZ1lvZExSZURINWV2eXE2SGpqaGJmTm1HOGhWMDVEMVhR?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -1463,12 +1465,21 @@
           "source": "GoogleNews"
         },
         {
-          "title": "Update 367 – IAEA Director General Statement on Situation in Ukraine",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQTTdia2oyZmhSbHNBb0ZkNDNBVkxMU2VVVVBrdHNjckE0ZGdPT2FzMS1EMG9SRG1JLUVBUHJ6ZUpSdy12d2wzUTUzblJTTXNQLWxVT2kzT0t2cGNrTVRoZW1lSDFOY1VTVWNhS2ljSzBfTGUxb29pcHJoXy1DZE9GanZlWnFLWGo0SU01amp4UXVyV1NqdGNZbDNUVS05VEdFRmtRcGxNYXFMeEZCUDJEamlR?oc=5",
+          "title": "Week in Review: IAEA 70th General Conference",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPOEswSUJhU2hrSnlHS2x2S3RWbERCTWQ2dWV3U1pBZnZDX05Iak91dnZ1TlJ3dEVoZ0NmdXljZXdNQ3g3TE90bHNHMVVJQTlhZlhvYWVXcG9UaDJ4bktCQnRkOVFJc1FvLWNyWVNsb1pHNm1xN1JwZElTa0ZfbUxiUUVZNU9Wdw?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
-          "seendate": "20260917T153901Z",
+          "seendate": "20260921T040000Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "New Training Programme Supports Newcomer Countries in Nuclear Education Outreach",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQaHhQbG8yRzg1SFJsRHp5TnREZFpwWjR6NVpZWmZISFI5OGtXd0xOZ3JfMXh2eVRqZ1pfSlFDeGFBZUROajZQQ01waGlhUV9YeHU3MmJsaDg1X2FCOU4tVzZHWEVhRXpuZkhnOTVYenprd01IenQyMExwQnVQdk9xM2NCdzd1aVRYZlhGd05RS3BUSW9NREJNX2Y0Y2ZVMlRGWHZ5WUQ3NkEwb2dkVUF2ZWxWdnlabXho?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260921T071500Z",
           "source": "GoogleNews"
         },
         {
@@ -1532,6 +1543,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20260907T070000Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Update 367 – IAEA Director General Statement on Situation in Ukraine",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQTTdia2oyZmhSbHNBb0ZkNDNBVkxMU2VVVVBrdHNjckE0ZGdPT2FzMS1EMG9SRG1JLUVBUHJ6ZUpSdy12d2wzUTUzblJTTXNQLWxVT2kzT0t2cGNrTVRoZW1lSDFOY1VTVWNhS2ljSzBfTGUxb29pcHJoXy1DZE9GanZlWnFLWGo0SU01amp4UXVyV1NqdGNZbDNUVS05VEdFRmtRcGxNYXFMeEZCUDJEamlR?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260917T153901Z",
           "source": "GoogleNews"
         },
         {
@@ -1922,30 +1942,12 @@
           "source": "GoogleNews"
         },
         {
-          "title": "The Syrian Arab Republic Signs a Country Programme Framework (CPF) for 2026–2031",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOdVdodVMyaGlROXplekhvY2hkNy1HNG9yOFRsNGhienZqNWI3SDF3aGp2ejZGVG05bnBMNW1Ba28xNnZ0M1FoSWdnM3hUZ3pZcWF0Ulc2bm14RTJ5QkFNQnd1WmxWUUVBLTBOWng5V2VSMGJ1S2pVME81dFNVVTRkdDRFMWloTF9MTVExc3RZR0dIVEk4ZEhvTFZ3Z2NUUkkwUVBHREN0Y3pjMXRhdlNqdUdJSW8?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260916T070643Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "IAEA Mission Says Egypt is Committed to Strengthening its National Regulatory Framework for Safety",
           "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOUjh5bDhtMzQtQk02cVFwV2lfbWZsQW5UV3RFdS1ENndLN0xNSFlka3ZDYmtmSFZoUkFvN1pNcHd2V29KaGhscTkzVnRhZmRPNzZYSF9oSDZSeVhTdzgzd2o5YWpiVXdZZ0hLeW94NkFWU095aHp5alBvM2VvYndXclJENllnNG90MzluWVhkeWFpdXdlanZfQU9yLW51dE0wUVNvVG9TcDRCa2Nqajl6bGNNREJVLU1KU25YeG1kd1IyY2g5NlMzU3J5S2REelBBX0tjdVJ4Q1NFRDA?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
           "seendate": "20260624T070000Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "70th IAEA General Conference",
-          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNN0VjMkFmaHZmeEJQLVpraHNzQTV6bnNOX0JoU3FEczgtS2x6cWZZN0wyc3BSQ0hpTWx2U0ZpYkx0R1hKUVFVWXRrUW90LUFySjBHQkNzc3EyTnBjQUJWRF9UMFNwM05SSTZyQzRIRkJqdFJxSmE0Mlo3S0dBUXJIVg?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260724T162219Z",
           "source": "GoogleNews"
         },
         {
@@ -1973,6 +1975,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20260918T070000Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "70th IAEA General Conference",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNN0VjMkFmaHZmeEJQLVpraHNzQTV6bnNOX0JoU3FEczgtS2x6cWZZN0wyc3BSQ0hpTWx2U0ZpYkx0R1hKUVFVWXRrUW90LUFySjBHQkNzc3EyTnBjQUJWRF9UMFNwM05SSTZyQzRIRkJqdFJxSmE0Mlo3S0dBUXJIVg?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260724T162219Z",
           "source": "GoogleNews"
         },
         {
@@ -2009,15 +2020,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20260918T013603Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "Relevant specifically for the LMP in China (hosted by Harbin Engineering University and China Atomic Energy Authority): - Artifi",
-          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE11U1BqWmpPaTZZY1RrM1ZqOEMxOV80OEotNlhlZGR5UEJCMGxsZkZwSE90Q2UzLVAwWjRiNGVxQnVod3lubmdlVHJ2YjlfLWVuYm8zYTFYMm16V3J5X05pVU9iN2FFR1ZaNGF4UXpxa2ZrVnlhNVZ5MXFR?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260912T230759Z",
           "source": "GoogleNews"
         },
         {
@@ -2144,6 +2146,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20260914T070000Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "United States of America–IAEA Nuclear Energy Management School",
+          "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBVWlVmcEdNbXNDV3paU3l2allROHBEWHowM1lSbFNaVGdxLXFEV2ptTHBrVFdnRFdXeTN1NFBsU3FOMndPa2M3WGtpSVBwdw?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260423T212634Z",
           "source": "GoogleNews"
         },
         {
@@ -10026,6 +10037,22 @@
           "lon": 87.9952,
           "lat": 41.8774,
           "depth_km": 10,
+          "source": "USGS"
+        },
+        {
+          "id": "ci41339263",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1790393956720,
+          "magnitude": 1.7,
+          "magnitude_type": "ml",
+          "event_type": "earthquake",
+          "place": "31 km N of Kernville, CA",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41339263",
+          "lon": -118.414333333333,
+          "lat": 36.035,
+          "depth_km": 4.23,
           "source": "USGS"
         },
         {
@@ -38522,54 +38549,6 @@
           "lon": -118.610666666667,
           "lat": 37.9373333333333,
           "depth_km": 9.3,
-          "source": "USGS"
-        },
-        {
-          "id": "nn00905016",
-          "site": "Nevada National Security Site",
-          "site_lat": 37.12,
-          "site_lon": -116.05,
-          "time": 1758830647956,
-          "magnitude": 1.7,
-          "magnitude_type": "ml",
-          "event_type": "explosion",
-          "place": "52 km S of Kingston, Nevada",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00905016",
-          "lon": -117.0932,
-          "lat": 38.7352,
-          "depth_km": 15.5,
-          "source": "USGS"
-        },
-        {
-          "id": "ci41097759",
-          "site": "Nevada National Security Site",
-          "site_lat": 37.12,
-          "site_lon": -116.05,
-          "time": 1758828257420,
-          "magnitude": 2.05,
-          "magnitude_type": "ml",
-          "event_type": "earthquake",
-          "place": "15 km SSW of Olancha, CA",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41097759",
-          "lon": -118.067,
-          "lat": 36.1575,
-          "depth_km": 2.33,
-          "source": "USGS"
-        },
-        {
-          "id": "ci41097327",
-          "site": "Nevada National Security Site",
-          "site_lat": 37.12,
-          "site_lon": -116.05,
-          "time": 1758794124780,
-          "magnitude": 1.52,
-          "magnitude_type": "ml",
-          "event_type": "earthquake",
-          "place": "19 km ESE of Little Lake, CA",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41097327",
-          "lon": -117.7055,
-          "lat": 35.8946667,
-          "depth_km": 6.78,
           "source": "USGS"
         },
         {
