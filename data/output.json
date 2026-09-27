@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "nuclear-proliferation-watch",
-    "generated": "2026-09-27T05:49:13.500996+00:00",
+    "generated": "2026-09-27T12:29:10.484584+00:00",
     "mode": "live",
     "sources": [
       "IAEA official pages",
@@ -14,10 +14,10 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-09-27T05:49:13.492740+00:00",
+    "issued_at": "2026-09-27T12:29:10.476009+00:00",
     "horizon": "0-30 days",
     "classification": "nuclear-escalation-pressure-not-test-or-weapon-probability",
-    "score": 13.2,
+    "score": 12.3,
     "level": "BASELINE",
     "confidence": "HIGH",
     "confidence_score": 100.0,
@@ -26,12 +26,12 @@
         "id": "iaea_safeguards_strain",
         "label": "IAEA safeguards and access strain",
         "available": true,
-        "score": 26.0,
-        "current_14d_weight": 4.6,
-        "current_14d_titles": 37,
+        "score": 23.4,
+        "current_14d_weight": 3.6,
+        "current_14d_titles": 35,
         "baseline_periods": 8,
-        "baseline_median": 0.4,
-        "anomaly_z": 7.08,
+        "baseline_median": 0.8,
+        "anomaly_z": 3.78,
         "evidence": [
           {
             "title": "INPRO Methodology for Sustainability Assessments of Nuclear Energy Systems: Proliferation Resistance",
@@ -49,12 +49,6 @@
             "title": "Application of IAEA safeguards in the Middle East",
             "url": null,
             "date": "2026-09-16",
-            "weight": 1.0
-          },
-          {
-            "title": "Communication from the PM of the United States of America regarding the request to include in the agenda of the Conference an item entitled “Transfer of the nuclear materials in the context of AUKUS and its safeguards in all aspects under the NPT\" | IAEA",
-            "url": null,
-            "date": "2026-09-13",
             "weight": 1.0
           }
         ],
@@ -130,7 +124,7 @@
         "available": true,
         "score": 0.0,
         "current_30d_diagnostic_weight": 0.0,
-        "events_considered": 1806,
+        "events_considered": 1812,
         "sites_monitored": 8,
         "anomaly_z": 0.0,
         "evidence": [],
@@ -1421,12 +1415,23 @@
           "facility_security_incidents": 20.7,
           "test_site_seismicity": 0.0
         }
+      },
+      {
+        "timestamp": "2026-09-27T12:29:10.476009+00:00",
+        "score": 12.3,
+        "level": "BASELINE",
+        "components": {
+          "iaea_safeguards_strain": 23.4,
+          "npwmd_designation_delta": 0.0,
+          "facility_security_incidents": 20.7,
+          "test_site_seismicity": 0.0
+        }
       }
     ],
     "data_health": {
       "available_components": 4,
       "retained_components": [],
-      "iaea_titles": 100,
+      "iaea_titles": 99,
       "npwmd_entries": 1195,
       "iaea_events": 24,
       "test_sites": 8
@@ -1468,12 +1473,12 @@
   "stats": [
     {
       "label": "Escalation Pressure",
-      "value": "13.2/100",
+      "value": "12.3/100",
       "delta": "BASELINE"
     },
     {
       "label": "IAEA Signals",
-      "value": "100",
+      "value": "99",
       "delta": "official indexed pages"
     },
     {
@@ -1492,7 +1497,7 @@
       "signals": [
         {
           "title": "Update 368 – IAEA Director General Statement on Situation in Ukraine",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPRU9kXy00dzBrR0xVM0dXdzBadWU4Und0ajlWLVlZdG92emRQRG1vQXlRVFpYREhhMWFPQkVHX3czRVVqTElmRXpnMUc2QmJqYTAtRVZ3OXQ2M29FaUx6dzlJVUN4VDFqNWJLTzVZUU0xNVFBTHVpekFKVGU4NU1WdGU0Rlh1VXExbjI4c1JOazhibzZudGhVR2VJN1lJRkwydi1wMm1PeV9weVNQRjlRbXN3?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOMHZtOVBjZ3NtQ0xOY1pOTTBHQ0hvVk1xc3VqTFF1dWZDVm13WHVMT1picUE2YWZldUxtcWd4Y1VyXzEwdjdDZ2NBaXIzdEQzcnhMRDlqNm1SZjl3RjJBb2V5WkNzQm1GZWd1b1MwUGhUT0pCdGthUTZrV1EteXdQanpjOE5LTElseHBmRURZdHNRaXE4SkM5cWxaT3Izb2s2TXZzM1JiZTBZX0lSeDh4aA?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
@@ -1578,6 +1583,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20260915T163102Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "IAEA Director General's Introductory Statement to the Board of Governors",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPbW9JcGhHaGhiMTQ0X2lDWXBtclkxaU9fSTRZSmxwQWN5NnMycTdZQlM3NHcxN0JGT1RvUnVKRkdSWFhzQk5oTEtPbWttSDlvRFgyZWtiV3VHRGZQWmR6TmhjT0dxMHR0QXktUXVZSlJodzZMb3NhTnJRd0xBTm5kOHQ3S1BDTkNWdFpvZGpkX2Jpd3hUZ3A2SFdXZFMwRXpmR1ZYdTcyYmloRGFzWWxlZVhjekczdmJ6RUdGMjFEZDhSVjFpUnlKYnNn?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260907T070000Z",
           "source": "GoogleNews"
         },
         {
@@ -1731,15 +1745,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20260601T164650Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "Defining Generic Test Conditions for Dual Purpose Casks (2016–2019)",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPZ0pJT0x6cU9jSkgxZjJsSUtYTXpzUFFrVVlPM0dUSjMxX0ZpNEpxOGNMZUNXd1FMTWd2djlpdjNKYjVrSnBnVTgwQzQyMzBmV1g2cU1EOWRCd0tVN1pRemgzMy0yVzY0UVUwZFRVZGg2YjFWRl9rZjhGc3R3T0ctQzZDUEdmQUx5UXZwMTJTQjNvY291YUF2X2pvZXQyUGxsNVNHQ3lhQQ?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20251016T035441Z",
           "source": "GoogleNews"
         },
         {
@@ -1905,12 +1910,12 @@
           "source": "GoogleNews"
         },
         {
-          "title": "NEWS",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNNXBLOHZ3MTdITmV3eWZhODJ6TXZPMXZ1Sk1TdFdQd2hMX3dYdC1Rd0xRMjUydXl4d1d3WGFONTgzMFVMZDg4aUsxM3JPN2VQdm8zUUZxdnk5UTJqQjJ1cWFzQUd3Z2FZWnZxZF9NYnNTX2JyQ0tRQl9sMzZPSXYxNlVLc2xUQQ?oc=5",
+          "title": "Nuclear Energy Series",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1sdEFsdTlaNU9VY1hVcWo4S09SV0puRU1BbHhXTld4dmZSa1U1VXg3cDdPVGpVdTE4djR6M05fUXRzNUF6cnJldTkyVHBIWmlIcmhNLTJ0NkF2cERFbk9lRHU2QlIwOXpqZXNWSUFPZEJmaVJkWXpHYQ?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
-          "seendate": "20260605T070000Z",
+          "seendate": "20260927T072046Z",
           "source": "GoogleNews"
         },
         {
@@ -1929,15 +1934,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20260915T163101Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "PhD Advisor Release & Recommendation Form LMP China (Harbin Engineering University and CAEA)",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNRXhnLXRBb3FTNklPdFFUVnY0OUE3SXZJem54Q1B1b3BUbWVaVGhhckVTX0JudEY1eTJHUU91ZU5sV3NUUGJHZE9MdS1UNGthYXZpZlBJSWQ4WndQaE9rSGd2bTJlelJqUHI3N3U0Uk11YWtSQlBMazF5cEVIZDN6dHExMXY3cjcyWF9yV3FjZHhuWVFSTjFVcE91MzJidjZmcUE?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260914T003933Z",
           "source": "GoogleNews"
         },
         {
@@ -2040,15 +2036,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "Morokhov, I.",
-          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBJT2tNSHVNclFRXzhxdU5TbGh0ZF9ITkp5dlFoUkEwbExmbjdDckJnZ2NpQWFySUNQcTlrczVKMzRFZ2NvZXZ2blJNWTJSWjU5?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260923T121118Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "Project Listing - CRP",
           "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9sMmJIRmpRdm15dGVyOTRaMjU1WWxmV092VXhRVDNHb3RPNUJic0cwXzhlNElVLVlfWmduMWFSSDktZ1JjdHFsbzZzbkJuc0laVTU2aEplSDZXaFVDd1ByeUlIUi1PWWpGMEM3aXRLWQ?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -2103,12 +2090,12 @@
           "source": "GoogleNews"
         },
         {
-          "title": "Aoife McKnight",
-          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9lTnVRXzZ3OXVhMk1rTVNzM0pfYktZcjNjOUotaVR2UUdaZHp1cld4X0tHUkMtX2tGTUVBdEVMeF9FQlBGMnJ5NklqS1ZWdHhq?oc=5",
+          "title": "Morokhov, I.",
+          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBJT2tNSHVNclFRXzhxdU5TbGh0ZF9ITkp5dlFoUkEwbExmbjdDckJnZ2NpQWFySUNQcTlrczVKMzRFZ2NvZXZ2blJNWTJSWjU5?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
-          "seendate": "20260918T083500Z",
+          "seendate": "20260923T121118Z",
           "source": "GoogleNews"
         },
         {
@@ -2388,6 +2375,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20260814T070000Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "IAEA and World Bank Group Collaborate to Advance Nuclear Energy for Development",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNSENsRUU3amZoRmhWTDhoQjB2VDFqQ0tkeUZ0cDhDamFiTVp4UTdiS2tKSzNXa0JNejRfVU4yLWJkRjZsdU1xdHhJVDlid0M2YzhDOFZCNXhTeDFoR0otV0o3amwzV29iQmdpcnBoV2p4aFRsUnlwSFZLUFZubHdlTVFya0dROElJUjdYVE5PYzlqazYxSjczUFVXODd0ZF9Ka0RyM2dBV3FZUl9ReHBDbTNGN3VoZw?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260708T070000Z",
           "source": "GoogleNews"
         }
       ],
@@ -10081,6 +10077,102 @@
           "lon": 87.9952,
           "lat": 41.8774,
           "depth_km": 10,
+          "source": "USGS"
+        },
+        {
+          "id": "nn00924954",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1790499247495,
+          "magnitude": 4.36,
+          "magnitude_type": "ml",
+          "event_type": "earthquake",
+          "place": "20 km W of Preston, Nevada",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00924954",
+          "lon": -115.2989,
+          "lat": 38.9229,
+          "depth_km": 0,
+          "source": "USGS"
+        },
+        {
+          "id": "nn00924953",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1790498285341,
+          "magnitude": 1.84,
+          "magnitude_type": "ml",
+          "event_type": "earthquake",
+          "place": "25 km WNW of Preston, Nevada",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00924953",
+          "lon": -115.3433,
+          "lat": 38.9882,
+          "depth_km": 0,
+          "source": "USGS"
+        },
+        {
+          "id": "nn00924951",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1790497553538,
+          "magnitude": 2.56,
+          "magnitude_type": "ml",
+          "event_type": "earthquake",
+          "place": "20 km W of Preston, Nevada",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00924951",
+          "lon": -115.3013,
+          "lat": 38.9316,
+          "depth_km": 4.233,
+          "source": "USGS"
+        },
+        {
+          "id": "nn00924939",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1790493533582,
+          "magnitude": 3.45,
+          "magnitude_type": "ml",
+          "event_type": "earthquake",
+          "place": "21 km W of Preston, Nevada",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00924939",
+          "lon": -115.3111,
+          "lat": 38.9253,
+          "depth_km": 3.8801,
+          "source": "USGS"
+        },
+        {
+          "id": "nn00924934",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1790493178421,
+          "magnitude": 2.97,
+          "magnitude_type": "ml",
+          "event_type": "earthquake",
+          "place": "20 km W of Preston, Nevada",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00924934",
+          "lon": -115.3002,
+          "lat": 38.9231,
+          "depth_km": 3.5438,
+          "source": "USGS"
+        },
+        {
+          "id": "nn00924930",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1790492501497,
+          "magnitude": 4.8,
+          "magnitude_type": "ml",
+          "event_type": "earthquake",
+          "place": "21 km W of Preston, Nevada",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00924930",
+          "lon": -115.3083,
+          "lat": 38.9319,
+          "depth_km": 4.4299,
           "source": "USGS"
         },
         {
@@ -38802,12 +38894,6 @@
       "title": "Application of IAEA safeguards in the Middle East",
       "url": null,
       "date": "2026-09-16",
-      "weight": 1.0
-    },
-    {
-      "title": "Communication from the PM of the United States of America regarding the request to include in the agenda of the Conference an item entitled “Transfer of the nuclear materials in the context of AUKUS and its safeguards in all aspects under the NPT\" | IAEA",
-      "url": null,
-      "date": "2026-09-13",
       "weight": 1.0
     },
     {
