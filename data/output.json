@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "nuclear-proliferation-watch",
-    "generated": "2026-09-27T17:18:18.453547+00:00",
+    "generated": "2026-09-27T21:38:29.070418+00:00",
     "mode": "live",
     "sources": [
       "IAEA official pages",
@@ -14,7 +14,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-09-27T17:18:18.445033+00:00",
+    "issued_at": "2026-09-27T21:38:29.063882+00:00",
     "horizon": "0-30 days",
     "classification": "nuclear-escalation-pressure-not-test-or-weapon-probability",
     "score": 12.3,
@@ -1429,6 +1429,17 @@
       },
       {
         "timestamp": "2026-09-27T17:18:18.445033+00:00",
+        "score": 12.3,
+        "level": "BASELINE",
+        "components": {
+          "iaea_safeguards_strain": 23.4,
+          "npwmd_designation_delta": 0.0,
+          "facility_security_incidents": 20.7,
+          "test_site_seismicity": 0.0
+        }
+      },
+      {
+        "timestamp": "2026-09-27T21:38:29.063882+00:00",
         "score": 12.3,
         "level": "BASELINE",
         "components": {
@@ -10537,14 +10548,14 @@
           "site_lat": 37.12,
           "site_lon": -116.05,
           "time": 1789541566200,
-          "magnitude": 2.39,
+          "magnitude": 2.42,
           "magnitude_type": "md",
           "event_type": "earthquake",
           "place": "18 km SW of Toms Place, CA",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75436437",
-          "lon": -118.830833435059,
-          "lat": 37.4481658935547,
-          "depth_km": 2.97000002861023,
+          "lon": -118.834333333333,
+          "lat": 37.4493333333333,
+          "depth_km": 2.37,
           "source": "USGS"
         },
         {
