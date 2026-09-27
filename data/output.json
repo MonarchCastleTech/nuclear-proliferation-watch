@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "nuclear-proliferation-watch",
-    "generated": "2026-09-27T12:29:10.484584+00:00",
+    "generated": "2026-09-27T17:18:18.453547+00:00",
     "mode": "live",
     "sources": [
       "IAEA official pages",
@@ -14,7 +14,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-09-27T12:29:10.476009+00:00",
+    "issued_at": "2026-09-27T17:18:18.445033+00:00",
     "horizon": "0-30 days",
     "classification": "nuclear-escalation-pressure-not-test-or-weapon-probability",
     "score": 12.3,
@@ -28,7 +28,7 @@
         "available": true,
         "score": 23.4,
         "current_14d_weight": 3.6,
-        "current_14d_titles": 35,
+        "current_14d_titles": 37,
         "baseline_periods": 8,
         "baseline_median": 0.8,
         "anomaly_z": 3.78,
@@ -124,7 +124,7 @@
         "available": true,
         "score": 0.0,
         "current_30d_diagnostic_weight": 0.0,
-        "events_considered": 1812,
+        "events_considered": 1815,
         "sites_monitored": 8,
         "anomaly_z": 0.0,
         "evidence": [],
@@ -1426,12 +1426,23 @@
           "facility_security_incidents": 20.7,
           "test_site_seismicity": 0.0
         }
+      },
+      {
+        "timestamp": "2026-09-27T17:18:18.445033+00:00",
+        "score": 12.3,
+        "level": "BASELINE",
+        "components": {
+          "iaea_safeguards_strain": 23.4,
+          "npwmd_designation_delta": 0.0,
+          "facility_security_incidents": 20.7,
+          "test_site_seismicity": 0.0
+        }
       }
     ],
     "data_health": {
       "available_components": 4,
       "retained_components": [],
-      "iaea_titles": 99,
+      "iaea_titles": 100,
       "npwmd_entries": 1195,
       "iaea_events": 24,
       "test_sites": 8
@@ -1478,7 +1489,7 @@
     },
     {
       "label": "IAEA Signals",
-      "value": "99",
+      "value": "100",
       "delta": "official indexed pages"
     },
     {
@@ -1565,6 +1576,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20260909T070000Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Implementation of the NPT Safeguards Agreement in the Syrian Arab Republic",
+          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFA1aWxESXpNcFhwOVR2YXVOZTc5MUxDQXVsX0VaUjVPZWZFcUpWU0RKN1RiNHlEaWJpQ2ZnVHpXWkJybU5OUXJnWExmOHk3S1BMa3BONlJodlNwYTh2TzZNd1NLUFNpQQ?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260901T070000Z",
           "source": "GoogleNews"
         },
         {
@@ -1919,6 +1939,15 @@
           "source": "GoogleNews"
         },
         {
+          "title": "NEWS",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNNXBLOHZ3MTdITmV3eWZhODJ6TXZPMXZ1Sk1TdFdQd2hMX3dYdC1Rd0xRMjUydXl4d1d3WGFONTgzMFVMZDg4aUsxM3JPN2VQdm8zUUZxdnk5UTJqQjJ1cWFzQUd3Z2FZWnZxZF9NYnNTX2JyQ0tRQl9sMzZPSXYxNlVLc2xUQQ?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260605T070000Z",
+          "source": "GoogleNews"
+        },
+        {
           "title": "Videos",
           "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1lQm01SUNjLVdMQ1JZMzI5VE92eTBURjMxVUdtQldCUmNNVC1KRTNzNlZRd1Z2SUNuVDB1VUlFU2k0c3R3TTktZm9OOHY2cTZGUk1BZVpzdkhTV2U1?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -2153,15 +2182,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "STATEMENT OF THE REPUBLIC OF ANGOLA AT THE 70th REGULAR SESSION OF THE GENERAL CONFERENCE OF THE INTERNATIONAL ATOMIC ENERGY AGENCY",
-          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1rZmtnXy00VG5xa01SOVIxUVdwNzhacWtqMzFobnhlLWxIZ1RIOF9Rek96RXp2OHgxdFdETDNzRGNwN0FYcE9KTVJEMm82WEhSTHAxV2JZNDRNWDBBSE5MUGJza1AyOFdVanhxVlVxT0I0eXR3?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260918T185910Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "Ding Feng",
           "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9SQkxsU3lVUFIwRVRMTWpfczRjTEtyby1jd3NWUlZ3aWJ3WnZKRFBMXzlXOUczMW9RU0VRNlZhcXdzQmlLQjVIVWdoZU45bncy?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -2180,15 +2200,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "The Science Behind U.S. Advanced Reactors: From Innovation to Deployment",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQV3oyTXE1VmVfVDh6UU1IVlNfOWhFZDhPT3FyWjNidzFibC02TGs1Ny1kSVBsZy1idXNURmp0V3Myb3Y3YTZCUXRGZ3hkdTZrNFlpdFNjUXBVU1JmbHRnOGN6SFVUeEtIaFNjT2hVMkVmLXRjSk5mdVV6T3BQdTFSejJLYXl2bzN5elJrdUVOVDZOR2MwU0ZlcFBTLWtNUFBaU0FlNzBtdmhnaWprQ0ZSSk03UEhISmV1TUxNaldUSjNId1U?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260820T152242Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "Update 367 – IAEA Director General Statement on Situation in Ukraine",
           "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQTTdia2oyZmhSbHNBb0ZkNDNBVkxMU2VVVVBrdHNjckE0ZGdPT2FzMS1EMG9SRG1JLUVBUHJ6ZUpSdy12d2wzUTUzblJTTXNQLWxVT2kzT0t2cGNrTVRoZW1lSDFOY1VTVWNhS2ljSzBfTGUxb29pcHJoXy1DZE9GanZlWnFLWGo0SU01amp4UXVyV1NqdGNZbDNUVS05VEdFRmtRcGxNYXFMeEZCUDJEamlR?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -2204,6 +2215,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20260827T070000Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "STATEMENT OF THE REPUBLIC OF ANGOLA AT THE 70th REGULAR SESSION OF THE GENERAL CONFERENCE OF THE INTERNATIONAL ATOMIC ENERGY AGENCY",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1rZmtnXy00VG5xa01SOVIxUVdwNzhacWtqMzFobnhlLWxIZ1RIOF9Rek96RXp2OHgxdFdETDNzRGNwN0FYcE9KTVJEMm82WEhSTHAxV2JZNDRNWDBBSE5MUGJza1AyOFdVanhxVlVxT0I0eXR3?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260918T185910Z",
           "source": "GoogleNews"
         },
         {
@@ -2369,21 +2389,21 @@
           "source": "GoogleNews"
         },
         {
-          "title": "Update 362 – IAEA Director General Statement on Situation in Ukraine",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQZ1kzQW5WWjZRY2plQzRVanZ5TE56OWozdlpHOEY0QXhHNWtMT0R0YXlMcEtRV2RxMjBhT2NTTHd1QWZzb2JMR3lTWDNHZFZIbEpmOFVRaDU4VVpGUFVYY1BnUHlkS2xuRkRqaURVVk9TTTNhaUptVEpEN3RqbGZpN3FPMXdjSzRCSVN6UzFVUk5RRlYwQWMxYTFwajFGOWkwQ3E1ZV84eW90SmpXcmFzdg?oc=5",
+          "title": "Technical Reports Series",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9rckpCQjljUmNkU3hILUItMGRTRjlpa1Mya0ZaWDR6YkI0YXZMRU1lQWs5Wi1qcnVSbFh1OEVZTjNLdUtLa3E4QlZaZEJyOWRnM0E3dmhnMmREamVHUGUyYldQZmYxYXhJN2c0eTdPQWNUNlVtc0lrUHFHV2pTQQ?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
-          "seendate": "20260814T070000Z",
+          "seendate": "20260927T135234Z",
           "source": "GoogleNews"
         },
         {
-          "title": "IAEA and World Bank Group Collaborate to Advance Nuclear Energy for Development",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNSENsRUU3amZoRmhWTDhoQjB2VDFqQ0tkeUZ0cDhDamFiTVp4UTdiS2tKSzNXa0JNejRfVU4yLWJkRjZsdU1xdHhJVDlid0M2YzhDOFZCNXhTeDFoR0otV0o3amwzV29iQmdpcnBoV2p4aFRsUnlwSFZLUFZubHdlTVFya0dROElJUjdYVE5PYzlqazYxSjczUFVXODd0ZF9Ka0RyM2dBV3FZUl9ReHBDbTNGN3VoZw?oc=5",
+          "title": "TECDOC Series",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9tVzBiRndYRnhUOGMySm55NGlnVGpHSWNpckF5dWgzcGNpNktiOXdmR0FxUDNnUVBZeTZILTk2MVhOOGpHaG9zR0hmUXJZQ3ROTWJzcmNyUTktQ1JhVHpUeEFuSUU4azZuMkF1LTZaWFM?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
-          "seendate": "20260708T070000Z",
+          "seendate": "20260927T113340Z",
           "source": "GoogleNews"
         }
       ],
@@ -10080,19 +10100,67 @@
           "source": "USGS"
         },
         {
+          "id": "nc75443087",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1790518275330,
+          "magnitude": 1.72,
+          "magnitude_type": "md",
+          "event_type": "earthquake",
+          "place": "18 km SW of Toms Place, CA",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75443087",
+          "lon": -118.834999084473,
+          "lat": 37.4606666564941,
+          "depth_km": 2.86999988555908,
+          "source": "USGS"
+        },
+        {
+          "id": "nn00924959",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1790517382154,
+          "magnitude": 2.55,
+          "magnitude_type": "ml",
+          "event_type": "earthquake",
+          "place": "28 km NW of Preston, Nevada",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00924959",
+          "lon": -115.2896,
+          "lat": 39.1025,
+          "depth_km": 0.9586,
+          "source": "USGS"
+        },
+        {
+          "id": "nn00924958",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1790516201211,
+          "magnitude": 1.58,
+          "magnitude_type": "ml",
+          "event_type": "earthquake",
+          "place": "82 km NE of Tonopah, Nevada",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00924958",
+          "lon": -116.4606,
+          "lat": 38.503,
+          "depth_km": 3.9591,
+          "source": "USGS"
+        },
+        {
           "id": "nn00924954",
           "site": "Nevada National Security Site",
           "site_lat": 37.12,
           "site_lon": -116.05,
           "time": 1790499247495,
-          "magnitude": 4.36,
-          "magnitude_type": "ml",
+          "magnitude": 4.1,
+          "magnitude_type": "mwr",
           "event_type": "earthquake",
           "place": "20 km W of Preston, Nevada",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00924954",
           "lon": -115.2989,
           "lat": 38.9229,
-          "depth_km": 0,
+          "depth_km": 6,
           "source": "USGS"
         },
         {
@@ -10165,14 +10233,14 @@
           "site_lat": 37.12,
           "site_lon": -116.05,
           "time": 1790492501497,
-          "magnitude": 4.8,
-          "magnitude_type": "ml",
+          "magnitude": 4.07,
+          "magnitude_type": "mwr",
           "event_type": "earthquake",
           "place": "21 km W of Preston, Nevada",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00924930",
           "lon": -115.3083,
           "lat": 38.9319,
-          "depth_km": 4.4299,
+          "depth_km": 6,
           "source": "USGS"
         },
         {
