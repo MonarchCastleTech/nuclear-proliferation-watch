@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "nuclear-proliferation-watch",
-    "generated": "2026-09-28T14:30:52.921591+00:00",
+    "generated": "2026-09-28T23:31:13.492013+00:00",
     "mode": "live",
     "sources": [
       "IAEA official pages",
@@ -14,7 +14,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-09-28T14:30:52.913368+00:00",
+    "issued_at": "2026-09-28T23:31:13.483721+00:00",
     "horizon": "0-30 days",
     "classification": "nuclear-escalation-pressure-not-test-or-weapon-probability",
     "score": 11.4,
@@ -28,7 +28,7 @@
         "available": true,
         "score": 20.8,
         "current_14d_weight": 2.6,
-        "current_14d_titles": 30,
+        "current_14d_titles": 32,
         "baseline_periods": 8,
         "baseline_median": 0.4,
         "anomaly_z": 3.71,
@@ -118,7 +118,7 @@
         "available": true,
         "score": 0.0,
         "current_30d_diagnostic_weight": 0.0,
-        "events_considered": 1815,
+        "events_considered": 1817,
         "sites_monitored": 8,
         "anomaly_z": 0.0,
         "evidence": [],
@@ -1464,12 +1464,23 @@
           "facility_security_incidents": 20.7,
           "test_site_seismicity": 0.0
         }
+      },
+      {
+        "timestamp": "2026-09-28T23:31:13.483721+00:00",
+        "score": 11.4,
+        "level": "BASELINE",
+        "components": {
+          "iaea_safeguards_strain": 20.8,
+          "npwmd_designation_delta": 0.0,
+          "facility_security_incidents": 20.7,
+          "test_site_seismicity": 0.0
+        }
       }
     ],
     "data_health": {
       "available_components": 4,
       "retained_components": [],
-      "iaea_titles": 99,
+      "iaea_titles": 100,
       "npwmd_entries": 1195,
       "iaea_events": 24,
       "test_sites": 8
@@ -1516,7 +1527,7 @@
     },
     {
       "label": "IAEA Signals",
-      "value": "99",
+      "value": "100",
       "delta": "official indexed pages"
     },
     {
@@ -1579,15 +1590,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "Implementation of the NPT Safeguards Agreement and relevant provisions of the United Nations Security Council resolutions in the",
-          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5ycHNHQkFQbFNWWGpWZVJJX2FfcFVyRUlwRk5KYVliOVdfenM3MDNqZHFUQWdjMGNBdkJlWHpqMGo1dnpLNlJUZmtVMFo0Z3RNYldWWjVxVDJZSEsyMWdJRzNyUFZPZw?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260901T070000Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "INPRO Methodology for Sustainability Assessments of Nuclear Energy Systems: Proliferation Resistance",
           "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBoQ2N3Y053TjB5WUZtOGRibXBXUzRLV3hzNnJ0M1hBV2I1RnAxel9ueGhmSkZiVHRmcG4zLVVhaFU0bUVVaDF4dTBBSQ?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -1608,6 +1610,15 @@
         {
           "title": "Implementation of the NPT Safeguards Agreement in the Syrian Arab Republic",
           "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFA1aWxESXpNcFhwOVR2YXVOZTc5MUxDQXVsX0VaUjVPZWZFcUpWU0RKN1RiNHlEaWJpQ2ZnVHpXWkJybU5OUXJnWExmOHk3S1BMa3BONlJodlNwYTh2TzZNd1NLUFNpQQ?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260901T070000Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Implementation of the NPT Safeguards Agreement and relevant provisions of the United Nations Security Council resolutions in the",
+          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5ycHNHQkFQbFNWWGpWZVJJX2FfcFVyRUlwRk5KYVliOVdfenM3MDNqZHFUQWdjMGNBdkJlWHpqMGo1dnpLNlJUZmtVMFo0Z3RNYldWWjVxVDJZSEsyMWdJRzNyUFZPZw?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
@@ -1639,6 +1650,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20260907T070000Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "原子能机构档案 结果",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPSTVjbFV3ZEt6aEo4bUZkSzNGcEdwVzlBSWpiU3JaUW9SQWg1RjlUazFKN0NpSlVFM042TUo2ZDlzY0lTc2xWWGt5UjFWbUNpQWdCb3RDM3Q3Uzk0Z0Ewa0toYmM1MTAzSXJGUERmc0RxUHp0VkVDV2ZpU2VpbS1SeENUQTA4NGdwaW1SX3dRLUhoYjRpUWhic0R3akRzT3JCUGhFMjN5X0loSVhsNUdsZFFfNEtCNFhmOGJBbHNHMGNoVk40MmtPZ1REdkM?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260926T023428Z",
           "source": "GoogleNews"
         },
         {
@@ -1720,15 +1740,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20260915T144217Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "From Concept to Implementation: Safeguards by Design implementation strategies for effective and efficient safeguards",
-          "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNYjNiSVFFVU9zMEFfWDBTVjlGZG5fTWI2MkJ3MW94U1YtRVJ3UG05RkRadjJpZW52VWt0SVVoS0RpMDlfRUxPd0wtQS0zQ0IzLUVfa3RuZFdjUy12Z2FoeEFJRmtxZlN3TXgxM1JZWkxxNmxBSEJXWDhQXzRBN21iSzZJaHQtVXA3UUdTeUZzWW81elFFeTdubDdQR1hlN3lyMDJ6YUNTNlFDQXZhZjlPWGlkU1NlVVpPclAtSmp4Z3BWdEI3d3pFQlo3S2FvS2JyMkVicW1YQ21VTVNIT3JvczZoN1YwR2JUUDh0eFNtN1FCM2lKd0RHb0Q0ZUtuZFU?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260820T083335Z",
           "source": "GoogleNews"
         },
         {
@@ -1912,15 +1923,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "Resolutions and Other Decisions of the General Conference | IAEA",
-          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1oazMzcGoyWlZRYkY1cW1HRmJnRi0xZXBxcUk0RmpvbnBKajhZeTlBSEd0SUJLaVRwSmhGNVZVNDVJYlhmUzk0R0J2WEpKVnJy?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260826T070000Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "IAEA General Conference Elects Argentine Ambassador as Conference President",
           "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOWVlHamFFZFp5TlZxS3RQazJMQjF6WnpUQ3EyNXlBdUlOZFhXckdWV3Y1bHVVaHZneFV6NFZRQmV1V0l6WWxxaklnbGpjMFpncDVWd3NpdkRUSHoxdmhXZVpVY0JTZEM3ekVnWm5RSTF1aVdUUWM0NktnS2pyRjJBc0JsT3V2cDA2bmVmWXlxdXJDTk1nSG84WjhiaG8tRHR1VHJ1YUhkQTV1OGYzMjlkbw?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -1954,15 +1956,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20260605T070000Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "Nuclear Energy Series",
-          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1sdEFsdTlaNU9VY1hVcWo4S09SV0puRU1BbHhXTld4dmZSa1U1VXg3cDdPVGpVdTE4djR6M05fUXRzNUF6cnJldTkyVHBIWmlIcmhNLTJ0NkF2cERFbk9lRHU2QlIwOXpqZXNWSUFPZEJmaVJkWXpHYQ?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260927T072046Z",
           "source": "GoogleNews"
         },
         {
@@ -2038,15 +2031,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "International Ministerial Conference on Nuclear Power - Programme",
-          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOcnZQVUlTS0loZlJOenFISElOWnJaWF9nM0hfeW02akNuOHRKY2dGUDFRcjJ6bEpKSzFnMTFKSUREbVdfdWdYUmtXZ3NieElkSTlvbkhiZHVYMURlcGotYWlIOG83dDhvWWpzNnFRT0pIeFBmZ2RoeUdRcDNRYTFrWU5RTXQ?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260721T061201Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "News: Second International Conference on Accelerators for Research and Sustainable Development | IAEA",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBOS2NITHQzQlN5ZEh3QUtNSU5XeDIxNXVkb01Yc2JHWFh6cVR1S2hQTWRyeVZjem9abFNxRFVTd1dXQTN6azhBYld6QmRlR0tQQUpTbTVB?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -2080,6 +2064,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20250531T022425Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Stichler",
+          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBpWTBWVHQyeVBibkRDelZQQlZEV1BNUjIzVVQwLUI4ZDF0ZEJGNTdfSDk4M1prOWY3Ty0zNTdqNm9ScHZJb1pleTc2Q3oxN1dZ?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260925T121634Z",
           "source": "GoogleNews"
         },
         {
@@ -2422,6 +2415,33 @@
           "language": "",
           "tone": 0,
           "seendate": "20250531T042112Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "IAEA and World Bank Group Collaborate to Advance Nuclear Energy for Development",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNSENsRUU3amZoRmhWTDhoQjB2VDFqQ0tkeUZ0cDhDamFiTVp4UTdiS2tKSzNXa0JNejRfVU4yLWJkRjZsdU1xdHhJVDlid0M2YzhDOFZCNXhTeDFoR0otV0o3amwzV29iQmdpcnBoV2p4aFRsUnlwSFZLUFZubHdlTVFya0dROElJUjdYVE5PYzlqazYxSjczUFVXODd0ZF9Ka0RyM2dBV3FZUl9ReHBDbTNGN3VoZw?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260708T070000Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Employer Release & Recommendation Form LMP France (CEA and ITER)",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQeE9Rakk2SFdOc1JWa2JaNjRfQmlDUUs3Ul9Rajhkdzl2MEMwZi1Ca29wYXJaZU5KSjktMTJnM21XSHl6aW8yWEx0X1VocjhnbUNUYUxaNHpjcmFzMW94SlBZOVhQMUFvRVROanQyWHBJbGN3VE15MVBqZ1drbkFSUTBQamxMdUlRQjVaaGZjRUFtWWNFZVV6LXRfaFA4UU5YN0tVYjQyU09YU0ZyZmc?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260919T004015Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Home: Second International Conference on Accelerators for Research and Innovation | IAEA",
+          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBtcEVtNkdMZERkQ3E2R1poMTlUbU1xMWFXc2lyOTZFeGhIWmFQQ05UU3pZT0VOU29sODA4VHdJYm1qaE1EY3hKdDMtZXhRTlk?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20250531T062154Z",
           "source": "GoogleNews"
         }
       ],
@@ -10118,6 +10138,38 @@
           "source": "USGS"
         },
         {
+          "id": "nn00924997",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1790623518105,
+          "magnitude": 1.93,
+          "magnitude_type": "ml",
+          "event_type": "explosion",
+          "place": "55 km S of Kingston, Nevada",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00924997",
+          "lon": -117.0961,
+          "lat": 38.7131,
+          "depth_km": 15.9509,
+          "source": "USGS"
+        },
+        {
+          "id": "nc75443857",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1790611237080,
+          "magnitude": 1.57,
+          "magnitude_type": "md",
+          "event_type": "earthquake",
+          "place": "17 km SW of Toms Place, CA",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75443857",
+          "lon": -118.83683013916,
+          "lat": 37.4706649780273,
+          "depth_km": 3.75,
+          "source": "USGS"
+        },
+        {
           "id": "nn00924988",
           "site": "Nevada National Security Site",
           "site_lat": 37.12,
@@ -10170,15 +10222,15 @@
           "site": "Nevada National Security Site",
           "site_lat": 37.12,
           "site_lon": -116.05,
-          "time": 1790517382154,
-          "magnitude": 2.55,
+          "time": 1790517381429,
+          "magnitude": 2,
           "magnitude_type": "ml",
           "event_type": "earthquake",
-          "place": "28 km NW of Preston, Nevada",
+          "place": "22 km W of Preston, Nevada",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00924959",
-          "lon": -115.2896,
-          "lat": 39.1025,
-          "depth_km": 0.9586,
+          "lon": -115.3241,
+          "lat": 38.9335,
+          "depth_km": 2.8134,
           "source": "USGS"
         },
         {
@@ -10218,15 +10270,15 @@
           "site": "Nevada National Security Site",
           "site_lat": 37.12,
           "site_lon": -116.05,
-          "time": 1790498285341,
-          "magnitude": 1.84,
+          "time": 1790498284921,
+          "magnitude": 1.82,
           "magnitude_type": "ml",
           "event_type": "earthquake",
-          "place": "25 km WNW of Preston, Nevada",
+          "place": "26 km W of Preston, Nevada",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00924953",
-          "lon": -115.3433,
-          "lat": 38.9882,
-          "depth_km": 0,
+          "lon": -115.3569,
+          "lat": 38.9557,
+          "depth_km": 6.4028,
           "source": "USGS"
         },
         {
@@ -10251,14 +10303,14 @@
           "site_lat": 37.12,
           "site_lon": -116.05,
           "time": 1790493533582,
-          "magnitude": 3.45,
-          "magnitude_type": "ml",
+          "magnitude": 3.3,
+          "magnitude_type": "mwr",
           "event_type": "earthquake",
           "place": "21 km W of Preston, Nevada",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00924939",
           "lon": -115.3111,
           "lat": 38.9253,
-          "depth_km": 3.8801,
+          "depth_km": 6,
           "source": "USGS"
         },
         {
@@ -10522,15 +10574,15 @@
           "site": "Nevada National Security Site",
           "site_lat": 37.12,
           "site_lon": -116.05,
-          "time": 1789724311020,
-          "magnitude": 1.61,
+          "time": 1789724311030,
+          "magnitude": 1.62,
           "magnitude_type": "md",
           "event_type": "earthquake",
           "place": "10 km W of Toms Place, CA",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75437717",
-          "lon": -118.788833618164,
-          "lat": 37.5535011291504,
-          "depth_km": 5.78999996185303,
+          "lon": -118.790166666667,
+          "lat": 37.5538333333333,
+          "depth_km": 5.46,
           "source": "USGS"
         },
         {
