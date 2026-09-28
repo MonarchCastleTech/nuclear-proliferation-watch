@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "nuclear-proliferation-watch",
-    "generated": "2026-09-27T21:38:29.070418+00:00",
+    "generated": "2026-09-28T05:54:21.543592+00:00",
     "mode": "live",
     "sources": [
       "IAEA official pages",
@@ -14,10 +14,10 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-09-27T21:38:29.063882+00:00",
+    "issued_at": "2026-09-28T05:54:21.535233+00:00",
     "horizon": "0-30 days",
     "classification": "nuclear-escalation-pressure-not-test-or-weapon-probability",
-    "score": 12.3,
+    "score": 11.4,
     "level": "BASELINE",
     "confidence": "HIGH",
     "confidence_score": 100.0,
@@ -26,12 +26,12 @@
         "id": "iaea_safeguards_strain",
         "label": "IAEA safeguards and access strain",
         "available": true,
-        "score": 23.4,
-        "current_14d_weight": 3.6,
-        "current_14d_titles": 37,
+        "score": 20.8,
+        "current_14d_weight": 2.6,
+        "current_14d_titles": 38,
         "baseline_periods": 8,
-        "baseline_median": 0.8,
-        "anomaly_z": 3.78,
+        "baseline_median": 0.4,
+        "anomaly_z": 3.71,
         "evidence": [
           {
             "title": "INPRO Methodology for Sustainability Assessments of Nuclear Energy Systems: Proliferation Resistance",
@@ -46,7 +46,7 @@
             "weight": 1.0
           },
           {
-            "title": "Application of IAEA safeguards in the Middle East",
+            "title": "Implementation of the NPT safeguards agreement between the Agency and the Democratic People's Republic of Korea",
             "url": null,
             "date": "2026-09-16",
             "weight": 1.0
@@ -124,7 +124,7 @@
         "available": true,
         "score": 0.0,
         "current_30d_diagnostic_weight": 0.0,
-        "events_considered": 1815,
+        "events_considered": 1813,
         "sites_monitored": 8,
         "anomaly_z": 0.0,
         "evidence": [],
@@ -1448,6 +1448,17 @@
           "facility_security_incidents": 20.7,
           "test_site_seismicity": 0.0
         }
+      },
+      {
+        "timestamp": "2026-09-28T05:54:21.535233+00:00",
+        "score": 11.4,
+        "level": "BASELINE",
+        "components": {
+          "iaea_safeguards_strain": 20.8,
+          "npwmd_designation_delta": 0.0,
+          "facility_security_incidents": 20.7,
+          "test_site_seismicity": 0.0
+        }
       }
     ],
     "data_health": {
@@ -1495,7 +1506,7 @@
   "stats": [
     {
       "label": "Escalation Pressure",
-      "value": "12.3/100",
+      "value": "11.4/100",
       "delta": "BASELINE"
     },
     {
@@ -1563,15 +1574,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "Application of IAEA safeguards in the Middle East",
-          "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE45QWtpajZpM1hFVkVVSXZJandqYkhCVmtXMjRTcVpaMmN2aXVpdVVzb0xEX2drdkZUeUdhY1ZYRHJfd05GSXJkMEpB?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260916T070000Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "INPRO Methodology for Sustainability Assessments of Nuclear Energy Systems: Proliferation Resistance",
           "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBoQ2N3Y053TjB5WUZtOGRibXBXUzRLV3hzNnJ0M1hBV2I1RnAxel9ueGhmSkZiVHRmcG4zLVVhaFU0bUVVaDF4dTBBSQ?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -1596,6 +1598,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20260901T070000Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Implementation of the NPT safeguards agreement between the Agency and the Democratic People's Republic of Korea",
+          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE83WTd4b1VnaUUtLVUtdTVNZlhudnpDZTd0eXJ1NVNCVVNtanJ2akVONnZBR0tINW5zaEdqbnRETVBPb0hUMFZvYw?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260916T070000Z",
           "source": "GoogleNews"
         },
         {
@@ -1641,15 +1652,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20260902T070000Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "Communication from the PM of the United States of America regarding the request to include in the agenda of the Conference an item entitled “Transfer of the nuclear materials in the context of AUKUS and its safeguards in all aspects under the NPT\" | IAEA",
-          "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFBnYUpsb0h6MWx3NHJGdjdCUmdZQXUyU1MyQlc1d0VPckNxeUhPM0RzZ3l6WXkyaXdwS2RlNU5XOExpQmtuTVE?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260913T070000Z",
           "source": "GoogleNews"
         },
         {
@@ -1713,6 +1715,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20260715T070000Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Optimizing nuclear power reactor efficiency with LEU+ fuels",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOSWtXSnpBSEQtNEQ4QTJOLTV3MWgwTXMxUmFlQVFZaVV3Zm16clJCaFA4cXFmdEx3TFlvVGRYRFRnbDlqSE0xS09Ja0tjLU9TLXNYYWRBLVZXanZkdjdOTktEZnBXbVRHSXZnZkJDTHhvV3cwd285RGx4XzhybDItb1lDZWd3dlFycDVUTlhWYlE?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260915T144217Z",
           "source": "GoogleNews"
         },
         {
@@ -2153,7 +2164,7 @@
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
-          "seendate": "20260914T115925Z",
+          "seendate": "20260914T070000Z",
           "source": "GoogleNews"
         },
         {
@@ -2283,6 +2294,15 @@
           "source": "GoogleNews"
         },
         {
+          "title": "TECDOC Series",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9Rb2lYRkRvX1k0WUJSU3Q4TDlJOFhYSlMyaGhiUVVGOS04WW1wWkVVUFJvcVhKQ0FaRmhScnBLUkFYU3Q1N1I5Vng0NDcybUxhbVUxdWVOa0UweWhOZF9kVE5SM21Zc1ZwZEJwVUtqVDc?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260927T113005Z",
+          "source": "GoogleNews"
+        },
+        {
           "title": "Atlas of Isotope Hydrology and Water Quality — Central African Republic",
           "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPU0UzTDlTTkY3TFVYeDFjY1UzOGNNa1hRYnRPNldRSS1rcjQyLXlSZGl6Z0tBVEpiWGhSSUdRQXZ6dWZJVkltTVVMLUpIQkVkNXlOLS1NUmFuZWxCa1pFQ3Z1WjFGNDRRMEZHcGxqRXVvcmZqQ3A1aUxSWFFLU0tDTXhsNUg3cVZheVNKZFc3RVVKaC1CQmVvNmtyVm1UNnVPQS01VE1RMmdvVlpG?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -2391,30 +2411,21 @@
           "source": "GoogleNews"
         },
         {
+          "title": "Technical Reports Series",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFA0X1k0MzZ1TkF1X1JsRnN6a3JxbDRjcTMxNWtJb3B0WnU4dE1aSHdXNUZnVkx5b0F5WGZrLVFJQkdQQXdKVDg0cVU5NVZKRHFGb2xoZkZYZzZCZk91eDdjUlY1alF3VVRWQ2ZZOTY4elZRSHloOXlPOFhqYUs5dw?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260927T141957Z",
+          "source": "GoogleNews"
+        },
+        {
           "title": "Home: International Conference on Topical Issues in Nuclear Installation Safety | IAEA",
           "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1hM0NUREFfazQtbUZubHNNNHJmMW5JUkhIelhxb19SZjk3ZFlvNmZ5RUc2Uk9CbE1yUzczZ3JsVG40LW5iUFpCM2RB?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
           "seendate": "20250531T042112Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "Technical Reports Series",
-          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9rckpCQjljUmNkU3hILUItMGRTRjlpa1Mya0ZaWDR6YkI0YXZMRU1lQWs5Wi1qcnVSbFh1OEVZTjNLdUtLa3E4QlZaZEJyOWRnM0E3dmhnMmREamVHUGUyYldQZmYxYXhJN2c0eTdPQWNUNlVtc0lrUHFHV2pTQQ?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260927T135234Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "TECDOC Series",
-          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9tVzBiRndYRnhUOGMySm55NGlnVGpHSWNpckF5dWgzcGNpNktiOXdmR0FxUDNnUVBZeTZILTk2MVhOOGpHaG9zR0hmUXJZQ3ROTWJzcmNyUTktQ1JhVHpUeEFuSUU4azZuMkF1LTZaWFM?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260927T113340Z",
           "source": "GoogleNews"
         }
       ],
@@ -38719,38 +38730,6 @@
           "source": "USGS"
         },
         {
-          "id": "nc75242562",
-          "site": "Nevada National Security Site",
-          "site_lat": 37.12,
-          "site_lon": -116.05,
-          "time": 1758965713410,
-          "magnitude": 1.96,
-          "magnitude_type": "md",
-          "event_type": "earthquake",
-          "place": "10 km WSW of Toms Place, CA",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75242562",
-          "lon": -118.782836914062,
-          "lat": 37.5255012512207,
-          "depth_km": 5.03000020980835,
-          "source": "USGS"
-        },
-        {
-          "id": "ci41099151",
-          "site": "Nevada National Security Site",
-          "site_lat": 37.12,
-          "site_lon": -116.05,
-          "time": 1758956000480,
-          "magnitude": 2.01,
-          "magnitude_type": "ml",
-          "event_type": "earthquake",
-          "place": "16 km S of Trona, CA",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41099151",
-          "lon": -117.3916667,
-          "lat": 35.6186667,
-          "depth_km": 5.52,
-          "source": "USGS"
-        },
-        {
           "id": "us7000tit3",
           "site": "Chagai",
           "site_lat": 28.9,
@@ -38970,7 +38949,7 @@
       "weight": 1.0
     },
     {
-      "title": "Application of IAEA safeguards in the Middle East",
+      "title": "Implementation of the NPT safeguards agreement between the Agency and the Democratic People's Republic of Korea",
       "url": null,
       "date": "2026-09-16",
       "weight": 1.0
