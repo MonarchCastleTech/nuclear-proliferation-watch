@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "nuclear-proliferation-watch",
-    "generated": "2026-09-28T05:54:21.543592+00:00",
+    "generated": "2026-09-28T14:30:52.921591+00:00",
     "mode": "live",
     "sources": [
       "IAEA official pages",
@@ -14,7 +14,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-09-28T05:54:21.535233+00:00",
+    "issued_at": "2026-09-28T14:30:52.913368+00:00",
     "horizon": "0-30 days",
     "classification": "nuclear-escalation-pressure-not-test-or-weapon-probability",
     "score": 11.4,
@@ -28,7 +28,7 @@
         "available": true,
         "score": 20.8,
         "current_14d_weight": 2.6,
-        "current_14d_titles": 38,
+        "current_14d_titles": 30,
         "baseline_periods": 8,
         "baseline_median": 0.4,
         "anomaly_z": 3.71,
@@ -43,12 +43,6 @@
             "title": "Innovation and Resilience in a Changing World - Safeguards as a Shared Responsibility - Training Days",
             "url": null,
             "date": "2026-09-18",
-            "weight": 1.0
-          },
-          {
-            "title": "Implementation of the NPT safeguards agreement between the Agency and the Democratic People's Republic of Korea",
-            "url": null,
-            "date": "2026-09-16",
             "weight": 1.0
           }
         ],
@@ -124,7 +118,7 @@
         "available": true,
         "score": 0.0,
         "current_30d_diagnostic_weight": 0.0,
-        "events_considered": 1813,
+        "events_considered": 1815,
         "sites_monitored": 8,
         "anomaly_z": 0.0,
         "evidence": [],
@@ -1459,12 +1453,23 @@
           "facility_security_incidents": 20.7,
           "test_site_seismicity": 0.0
         }
+      },
+      {
+        "timestamp": "2026-09-28T14:30:52.913368+00:00",
+        "score": 11.4,
+        "level": "BASELINE",
+        "components": {
+          "iaea_safeguards_strain": 20.8,
+          "npwmd_designation_delta": 0.0,
+          "facility_security_incidents": 20.7,
+          "test_site_seismicity": 0.0
+        }
       }
     ],
     "data_health": {
       "available_components": 4,
       "retained_components": [],
-      "iaea_titles": 100,
+      "iaea_titles": 99,
       "npwmd_entries": 1195,
       "iaea_events": 24,
       "test_sites": 8
@@ -1511,7 +1516,7 @@
     },
     {
       "label": "IAEA Signals",
-      "value": "100",
+      "value": "99",
       "delta": "official indexed pages"
     },
     {
@@ -1530,7 +1535,7 @@
       "signals": [
         {
           "title": "Update 368 – IAEA Director General Statement on Situation in Ukraine",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOMHZtOVBjZ3NtQ0xOY1pOTTBHQ0hvVk1xc3VqTFF1dWZDVm13WHVMT1picUE2YWZldUxtcWd4Y1VyXzEwdjdDZ2NBaXIzdEQzcnhMRDlqNm1SZjl3RjJBb2V5WkNzQm1GZWd1b1MwUGhUT0pCdGthUTZrV1EteXdQanpjOE5LTElseHBmRURZdHNRaXE4SkM5cWxaT3Izb2s2TXZzM1JiZTBZX0lSeDh4aA?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPRU9kXy00dzBrR0xVM0dXdzBadWU4Und0ajlWLVlZdG92emRQRG1vQXlRVFpYREhhMWFPQkVHX3czRVVqTElmRXpnMUc2QmJqYTAtRVZ3OXQ2M29FaUx6dzlJVUN4VDFqNWJLTzVZUU0xNVFBTHVpekFKVGU4NU1WdGU0Rlh1VXExbjI4c1JOazhibzZudGhVR2VJN1lJRkwydi1wMm1PeV9weVNQRjlRbXN3?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
@@ -1544,6 +1549,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20260925T060000Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Week in Review: IAEA 70th General Conference",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPOEswSUJhU2hrSnlHS2x2S3RWbERCTWQ2dWV3U1pBZnZDX05Iak91dnZ1TlJ3dEVoZ0NmdXljZXdNQ3g3TE90bHNHMVVJQTlhZlhvYWVXcG9UaDJ4bktCQnRkOVFJc1FvLWNyWVNsb1pHNm1xN1JwZElTa0ZfbUxiUUVZNU9Wdw?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260921T040000Z",
           "source": "GoogleNews"
         },
         {
@@ -1601,15 +1615,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "Implementation of the NPT safeguards agreement between the Agency and the Democratic People's Republic of Korea",
-          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE83WTd4b1VnaUUtLVUtdTVNZlhudnpDZTd0eXJ1NVNCVVNtanJ2akVONnZBR0tINW5zaEdqbnRETVBPb0hUMFZvYw?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260916T070000Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "Agenda",
           "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1HMjRmZ282VjdaazFlRmtZUWdBZFpMOUZ3WGt6dU1sc2h3dUhBSzlMUG1yYlJxS0R6OEFHV0YyWFdUZFlYWllJOUN0SUstUWQxQjNuSEFFVkx5UThGZ0ZkeHllU2lfZw?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -1634,15 +1639,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20260907T070000Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "原子能机构档案 结果",
-          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPSTVjbFV3ZEt6aEo4bUZkSzNGcEdwVzlBSWpiU3JaUW9SQWg1RjlUazFKN0NpSlVFM042TUo2ZDlzY0lTc2xWWGt5UjFWbUNpQWdCb3RDM3Q3Uzk0Z0Ewa0toYmM1MTAzSXJGUERmc0RxUHp0VkVDV2ZpU2VpbS1SeENUQTA4NGdwaW1SX3dRLUhoYjRpUWhic0R3akRzT3JCUGhFMjN5X0loSVhsNUdsZFFfNEtCNFhmOGJBbHNHMGNoVk40MmtPZ1REdkM?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260926T023428Z",
           "source": "GoogleNews"
         },
         {
@@ -1781,6 +1777,15 @@
           "source": "GoogleNews"
         },
         {
+          "title": "Application of IAEA Safeguards in the Middle East",
+          "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1zUmlKdTlZM1lPOUkxanBRdk5XVG5oTnhTWjduRzVzWi1TamhGZmYtZFh0c0NHLWJTSmtJOEZOekM2NEFZNmc?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260726T070000Z",
+          "source": "GoogleNews"
+        },
+        {
           "title": "Nuclear Quiz",
           "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5sZ1c2WG9WTUpEc1Z0M01mRW1BYXkwN3VOSXVDV1lCU2MyMS1BVzBfZVlYZ0FBT3dtOEZfWkFLYnJ2Z0d1Qk5RTmVhbjV4UW1OaWNZ?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -1907,15 +1912,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "Third Joint Event of FNRBA, AFRA and AFCONE on Development and Implementation of Nuclear and Radiological Safety, Security and Safeguards in Africa | IAEA",
-          "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBVTXZVV0xzMlBSdWJUMm91Mk5ySUhXUnBoamdCb3F1VFVCU1RZdVJBQjRRQkJCcFhFRXkwdzNBSDdJRXp1UzhjM19Udw?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260820T160855Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "Resolutions and Other Decisions of the General Conference | IAEA",
           "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1oazMzcGoyWlZRYkY1cW1HRmJnRi0xZXBxcUk0RmpvbnBKajhZeTlBSEd0SUJLaVRwSmhGNVZVNDVJYlhmUzk0R0J2WEpKVnJy?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -1952,21 +1948,21 @@
           "source": "GoogleNews"
         },
         {
-          "title": "Nuclear Energy Series",
-          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1sdEFsdTlaNU9VY1hVcWo4S09SV0puRU1BbHhXTld4dmZSa1U1VXg3cDdPVGpVdTE4djR6M05fUXRzNUF6cnJldTkyVHBIWmlIcmhNLTJ0NkF2cERFbk9lRHU2QlIwOXpqZXNWSUFPZEJmaVJkWXpHYQ?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260927T072046Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "NEWS",
           "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNNXBLOHZ3MTdITmV3eWZhODJ6TXZPMXZ1Sk1TdFdQd2hMX3dYdC1Rd0xRMjUydXl4d1d3WGFONTgzMFVMZDg4aUsxM3JPN2VQdm8zUUZxdnk5UTJqQjJ1cWFzQUd3Z2FZWnZxZF9NYnNTX2JyQ0tRQl9sMzZPSXYxNlVLc2xUQQ?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
           "seendate": "20260605T070000Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Nuclear Energy Series",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1sdEFsdTlaNU9VY1hVcWo4S09SV0puRU1BbHhXTld4dmZSa1U1VXg3cDdPVGpVdTE4djR6M05fUXRzNUF6cnJldTkyVHBIWmlIcmhNLTJ0NkF2cERFbk9lRHU2QlIwOXpqZXNWSUFPZEJmaVJkWXpHYQ?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260927T072046Z",
           "source": "GoogleNews"
         },
         {
@@ -10119,6 +10115,38 @@
           "lon": 87.9952,
           "lat": 41.8774,
           "depth_km": 10,
+          "source": "USGS"
+        },
+        {
+          "id": "nn00924988",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1790594426265,
+          "magnitude": 1.55,
+          "magnitude_type": "ml",
+          "event_type": "earthquake",
+          "place": "33 km S of Alamo, Nevada",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00924988",
+          "lon": -115.229,
+          "lat": 37.0643,
+          "depth_km": 4.1365,
+          "source": "USGS"
+        },
+        {
+          "id": "nn00924977",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1790574791730,
+          "magnitude": 3.3,
+          "magnitude_type": "ml",
+          "event_type": "earthquake",
+          "place": "20 km W of Preston, Nevada",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00924977",
+          "lon": -115.2938,
+          "lat": 38.896,
+          "depth_km": 0,
           "source": "USGS"
         },
         {
@@ -38946,12 +38974,6 @@
       "title": "Innovation and Resilience in a Changing World - Safeguards as a Shared Responsibility - Training Days",
       "url": null,
       "date": "2026-09-18",
-      "weight": 1.0
-    },
-    {
-      "title": "Implementation of the NPT safeguards agreement between the Agency and the Democratic People's Republic of Korea",
-      "url": null,
-      "date": "2026-09-16",
       "weight": 1.0
     },
     {
