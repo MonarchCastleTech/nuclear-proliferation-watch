@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "nuclear-proliferation-watch",
-    "generated": "2026-09-29T13:20:59.807264+00:00",
+    "generated": "2026-09-29T22:38:59.364444+00:00",
     "mode": "live",
     "sources": [
       "IAEA official pages",
@@ -14,11 +14,11 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-09-29T13:20:59.798608+00:00",
+    "issued_at": "2026-09-29T22:38:59.357958+00:00",
     "horizon": "0-30 days",
     "classification": "nuclear-escalation-pressure-not-test-or-weapon-probability",
-    "score": 11.4,
-    "level": "BASELINE",
+    "score": 36.4,
+    "level": "WATCH",
     "confidence": "HIGH",
     "confidence_score": 100.0,
     "components": [
@@ -28,10 +28,10 @@
         "available": true,
         "score": 20.8,
         "current_14d_weight": 2.6,
-        "current_14d_titles": 30,
+        "current_14d_titles": 26,
         "baseline_periods": 8,
-        "baseline_median": 0.4,
-        "anomaly_z": 3.71,
+        "baseline_median": 0.9,
+        "anomaly_z": 2.29,
         "evidence": [
           {
             "title": "INPRO Methodology for Sustainability Assessments of Nuclear Energy Systems: Proliferation Resistance",
@@ -52,15 +52,76 @@
         "id": "npwmd_designation_delta",
         "label": "Official NPWMD designation delta",
         "available": true,
-        "score": 0.0,
-        "current_count": 1195,
+        "score": 100.0,
+        "current_count": 1205,
         "previous_count": 1195,
-        "added_count": 0,
+        "added_count": 10,
         "removed_count": 0,
-        "added": [],
+        "added": [
+          {
+            "id": "58279",
+            "name": "KAVOSHCOM ASIA R AND D GROUP",
+            "type": "-0-",
+            "program": "NPWMD] [IFSR"
+          },
+          {
+            "id": "58280",
+            "name": "EC MOJO TECHNOLOGY CO LIMITED",
+            "type": "-0-",
+            "program": "NPWMD] [IFSR"
+          },
+          {
+            "id": "58281",
+            "name": "LALI, Parisa",
+            "type": "individual",
+            "program": "NPWMD] [IFSR"
+          },
+          {
+            "id": "58282",
+            "name": "LI, Fen",
+            "type": "individual",
+            "program": "NPWMD] [IFSR"
+          },
+          {
+            "id": "58283",
+            "name": "AHMADY, Ali Fotowat",
+            "type": "individual",
+            "program": "NPWMD] [IFSR"
+          },
+          {
+            "id": "58596",
+            "name": "TAJAMMAL, Waseem Pasha",
+            "type": "individual",
+            "program": "NPWMD] [IFSR"
+          },
+          {
+            "id": "58598",
+            "name": "CAVALIER DYNAMICS PRIVATE LIMITED",
+            "type": "-0-",
+            "program": "NPWMD] [IFSR"
+          },
+          {
+            "id": "58599",
+            "name": "CAVALIER DYNAMICS FOR TECHNOLOGIES COMPANY",
+            "type": "-0-",
+            "program": "NPWMD] [IFSR"
+          },
+          {
+            "id": "58600",
+            "name": "CAVALIER DYNAMICS TEKNOLOJI TICARET ANONIM SIRKETI",
+            "type": "-0-",
+            "program": "NPWMD] [IFSR"
+          },
+          {
+            "id": "58654",
+            "name": "TABATABAI, Seyyed Asghar Alizadeh",
+            "type": "individual",
+            "program": "NPWMD] [IFSR"
+          }
+        ],
         "removed": [],
-        "publish_date": "2026-09-22",
-        "sha256": "cf3ffced4675aa1542f616a15c285266bd0466d8d4508c08a1aa9851a639b276",
+        "publish_date": "2026-09-29",
+        "sha256": "26206e164ec23658ba0282536a0b0b5295e508dfd6a03387f1a84fdde8bdf932",
         "retained": false
       },
       {
@@ -128,11 +189,20 @@
     ],
     "concurrence": {
       "active": false,
-      "official_components": [],
+      "official_components": [
+        "npwmd_designation_delta"
+      ],
       "physical_components": [],
       "score_bonus": 0.0
     },
-    "alerts": [],
+    "alerts": [
+      {
+        "id": "npwmd_designation_delta",
+        "title": "Official NPWMD designation delta",
+        "score": 100.0,
+        "level": "SEVERE"
+      }
+    ],
     "history": [
       {
         "timestamp": "2026-08-27T21:23:42.353423+00:00",
@@ -1497,13 +1567,24 @@
           "facility_security_incidents": 20.7,
           "test_site_seismicity": 0.0
         }
+      },
+      {
+        "timestamp": "2026-09-29T22:38:59.357958+00:00",
+        "score": 36.4,
+        "level": "WATCH",
+        "components": {
+          "iaea_safeguards_strain": 20.8,
+          "npwmd_designation_delta": 100.0,
+          "facility_security_incidents": 20.7,
+          "test_site_seismicity": 0.0
+        }
       }
     ],
     "data_health": {
       "available_components": 4,
       "retained_components": [],
       "iaea_titles": 100,
-      "npwmd_entries": 1195,
+      "npwmd_entries": 1205,
       "iaea_events": 24,
       "test_sites": 8
     },
@@ -1544,8 +1625,8 @@
   "stats": [
     {
       "label": "Escalation Pressure",
-      "value": "11.4/100",
-      "delta": "BASELINE"
+      "value": "36.4/100",
+      "delta": "WATCH"
     },
     {
       "label": "IAEA Signals",
@@ -1554,8 +1635,8 @@
     },
     {
       "label": "NPWMD Entries",
-      "value": "1195",
-      "delta": "+0 since snapshot"
+      "value": "1205",
+      "delta": "+10 since snapshot"
     },
     {
       "label": "Model Coverage",
@@ -1577,7 +1658,7 @@
         },
         {
           "title": "Update 368 – IAEA Director General Statement on Situation in Ukraine",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPRU9kXy00dzBrR0xVM0dXdzBadWU4Und0ajlWLVlZdG92emRQRG1vQXlRVFpYREhhMWFPQkVHX3czRVVqTElmRXpnMUc2QmJqYTAtRVZ3OXQ2M29FaUx6dzlJVUN4VDFqNWJLTzVZUU0xNVFBTHVpekFKVGU4NU1WdGU0Rlh1VXExbjI4c1JOazhibzZudGhVR2VJN1lJRkwydi1wMm1PeV9weVNQRjlRbXN3?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOMHZtOVBjZ3NtQ0xOY1pOTTBHQ0hvVk1xc3VqTFF1dWZDVm13WHVMT1picUE2YWZldUxtcWd4Y1VyXzEwdjdDZ2NBaXIzdEQzcnhMRDlqNm1SZjl3RjJBb2V5WkNzQm1GZWd1b1MwUGhUT0pCdGthUTZrV1EteXdQanpjOE5LTElseHBmRURZdHNRaXE4SkM5cWxaT3Izb2s2TXZzM1JiZTBZX0lSeDh4aA?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
@@ -1595,11 +1676,11 @@
         },
         {
           "title": "New Training Programme Supports Newcomer Countries in Nuclear Education Outreach",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQaHhQbG8yRzg1SFJsRHp5TnREZFpwWjR6NVpZWmZISFI5OGtXd0xOZ3JfMXh2eVRqZ1pfSlFDeGFBZUROajZQQ01waGlhUV9YeHU3MmJsaDg1X2FCOU4tVzZHWEVhRXpuZkhnOTVYenprd01IenQyMExwQnVQdk9xM2NCdzd1aVRYZlhGd05RS3BUSW9NREJNX2Y0Y2ZVMlRGWHZ5WUQ3NkEwb2dkVUF2ZWxWdnlabXho?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNNGRrZW44Sld3NS1GU0VySEpYMEJDdWtOR1ZzTzlSTnFJdzI2UTZqWDctV09sdmxJNVV6YkhGYmhiRG1VMWVZWVpKNElna2VGNE9Cb2ozX1ZHRnotdFNDcHYxYko5MzUwXzBlSDFDaGlZR3BWWWp4aWdUMThHcmZIZGxqdnppM0ZfYjNwaHBXY3g5NHZROGdTb0c1WHhDWVVIQTBJeGMzZ296dUw2bkVVVjA5dUlNdUE?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
-          "seendate": "20260921T071500Z",
+          "seendate": "20260921T070000Z",
           "source": "GoogleNews"
         },
         {
@@ -1621,12 +1702,12 @@
           "source": "GoogleNews"
         },
         {
-          "title": "Implementation of the NPT Safeguards Agreement in the Syrian Arab Republic",
-          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFA1aWxESXpNcFhwOVR2YXVOZTc5MUxDQXVsX0VaUjVPZWZFcUpWU0RKN1RiNHlEaWJpQ2ZnVHpXWkJybU5OUXJnWExmOHk3S1BMa3BONlJodlNwYTh2TzZNd1NLUFNpQQ?oc=5",
+          "title": "Nuclear Safety, Security and Safeguards in Ukraine",
+          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBFWDZ0ZzQ0Zlpha1hqWWJsTkxhUTdiMG1hYmdIZXFxaHh6V1FPSHNPOGRHdWduZ3dHS3FVYXF5V0hKT3g1QU9EQzRfXzlsRXhlNTVKS3d6QVctRldzM0NRWjVNRWxNWTBuZE1vSEVCU29JNUE?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
-          "seendate": "20260901T070000Z",
+          "seendate": "20260902T070000Z",
           "source": "GoogleNews"
         },
         {
@@ -1816,15 +1897,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20260726T070000Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "Nuclear Quiz",
-          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5sZ1c2WG9WTUpEc1Z0M01mRW1BYXkwN3VOSXVDV1lCU2MyMS1BVzBfZVlYZ0FBT3dtOEZfWkFLYnJ2Z0d1Qk5RTmVhbjV4UW1OaWNZ?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260601T164650Z",
           "source": "GoogleNews"
         },
         {
@@ -2053,21 +2125,21 @@
           "source": "GoogleNews"
         },
         {
+          "title": "TECDOC Series",
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE43YTZvMTBONUdMSWF2RnFxOGNpX2lIdWtLVGVmcUxzVTR3ZzlyRHdVTzE2anhNcXJ6WXJPQXc1MTlfWGd6QzFvRUw2RmpWcWRnd3NLcmItOUE2QlJVX2NtZktlblRQekl3LURpNktUMA?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260929T020552Z",
+          "source": "GoogleNews"
+        },
+        {
           "title": "Update 359 – IAEA Director General Statement on Situation in Ukraine",
           "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNMUs0cGFLa0FTNmJwNHkxRTlBQjRob3h1N0E1MDJrbzRPWE5ra1dSUzhhcjVjR3VfQjlkdzhaeW5LT2JyRDF6WWRFNzM4UXRBbWFBdmhvdGF1eENHYzFSWTczUGM3SllXRWxDdWpXN3Y3bmliZjE3V3EtbWVSekc2a1dXTUkyd1dzU25ISEcyLTgzUUhLOGNrOGtXQ3o4dkFUb0ljLXZyXzJrZEJXVEhKUg?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
           "seendate": "20260723T070000Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "Colton, John P.",
-          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE55anhWQTJ5R2oxNzUzVkNRUEd2eWtobTlzbjBRQXRZcjQxX1p0cVpYcTUwdHJGbnYyTk1vN0wtTVNHcElmR2lPVjRLZHJWeTg?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260925T181805Z",
           "source": "GoogleNews"
         },
         {
@@ -2122,6 +2194,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20260706T070000Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Colton, John P.",
+          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE55anhWQTJ5R2oxNzUzVkNRUEd2eWtobTlzbjBRQXRZcjQxX1p0cVpYcTUwdHJGbnYyTk1vN0wtTVNHcElmR2lPVjRLZHJWeTg?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260925T181805Z",
           "source": "GoogleNews"
         },
         {
@@ -2271,24 +2352,6 @@
         {
           "title": "S T A T E M E N T by Mr. Tsanko Bachiyski Chairman of the Bulgarian Nuclear Regulatory Agency Head of the delegation to the 70th",
           "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9YcDNZY3hQbzVOcnpsYVJUM05JN3Y1NHFseDhuclZmZUZfN1c4c1VTTnlIRjA3V0pTVkE3M3NWSWp4cTJjNXBIR3RkX3RTdHJxZjkzVlp4cENPVE9aUVJFQVNBZl9JN25Da01kQ1dMMG1Id3dzSFBJ?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260914T070000Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "TECDOC Series",
-          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9Rb2lYRkRvX1k0WUJSU3Q4TDlJOFhYSlMyaGhiUVVGOS04WW1wWkVVUFJvcVhKQ0FaRmhScnBLUkFYU3Q1N1I5Vng0NDcybUxhbVUxdWVOa0UweWhOZF9kVE5SM21Zc1ZwZEJwVUtqVDc?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260927T113005Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "Mexico Signs a Country Programme Framework (CPF) for 2026-2031",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPM3lYQ29FMWVjdEJEQzYxOWN6Unp0dElRTE4yR0RYNGx2U2oweDNZTkJEaVAxZWNQN0ZZVWtHM0h2VVhxT0NUZ2hzLTViLTRkYVhIMXppYXpuZG9hYld0ejYwUGIzd2oxTXNHdnJKNVBtbHhSSlZlclhPZy1HbXk0WHhpT1FrcXZTa2JjdGRVaEVSWHc3ZXBobktUaFo?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
@@ -2464,6 +2527,24 @@
           "language": "",
           "tone": 0,
           "seendate": "20260730T183959Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Media Invited to the IAEA’s Scientific Forum on Rays of Hope: Delivering on the Promise of Cancer Care",
+          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQOGtaQmlJVmU1Y3JwNDNWM05TODg0MG5rTXNtQXJjazVtbzNhcjJyN0l5U3VEMDFSVXVyOTQ1ZndYV1g5bzZveTNOMTdkLTRQWFZ4T2ZiT1QyNXZ2Mk9KY0JfUmsteG1ZNUozOWZYS0gwYzdCX0pWbVA0Ny0wSm43cGtiU0o0cDRKNC1KdU9iSHYwcElfektDT280TzFsWlctdEhOQkI5ZUZKb0xNX1RlenVydVhIMkxtYlQtQkJTSmdrZ3YyUjJwcWJfbDljWjRVSnprVjBFV3dzR21XMkFfRQ?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260910T070000Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Update 355 – IAEA Director General Statement on Situation in Ukraine",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQcWVqaTR2ai1MWjB2dDVDMloyYTY3bUhDbEtnWjdFZllZTjhiYm9wbXc5Z3N5aTJWSjJEWXN2cDl6Y09zcWlPVUE4c0Z4Q3o1Qm9IZktvVzV4X2NpSVFKbjhPZ0JCeWVUOE15U0FpMzc1OUpHQW9SSkxrcVZsczRHTWZTSHo0YkRjRnVtM25qcHpqckU4Q1Atd1dMY3lyX3lVdXc0MlY3RTFaNFNpUHF5bw?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260626T070000Z",
           "source": "GoogleNews"
         }
       ],
@@ -9780,6 +9861,36 @@
           "program": "NPWMD] [IFSR"
         },
         {
+          "id": "58279",
+          "name": "KAVOSHCOM ASIA R AND D GROUP",
+          "type": "-0-",
+          "program": "NPWMD] [IFSR"
+        },
+        {
+          "id": "58280",
+          "name": "EC MOJO TECHNOLOGY CO LIMITED",
+          "type": "-0-",
+          "program": "NPWMD] [IFSR"
+        },
+        {
+          "id": "58281",
+          "name": "LALI, Parisa",
+          "type": "individual",
+          "program": "NPWMD] [IFSR"
+        },
+        {
+          "id": "58282",
+          "name": "LI, Fen",
+          "type": "individual",
+          "program": "NPWMD] [IFSR"
+        },
+        {
+          "id": "58283",
+          "name": "AHMADY, Ali Fotowat",
+          "type": "individual",
+          "program": "NPWMD] [IFSR"
+        },
+        {
           "id": "58331",
           "name": "SWEET OCEAN INDUSTRIAL LIMITED",
           "type": "-0-",
@@ -9910,11 +10021,41 @@
           "name": "TSORIS, Georgios",
           "type": "individual",
           "program": "NPWMD] [IFSR"
+        },
+        {
+          "id": "58596",
+          "name": "TAJAMMAL, Waseem Pasha",
+          "type": "individual",
+          "program": "NPWMD] [IFSR"
+        },
+        {
+          "id": "58598",
+          "name": "CAVALIER DYNAMICS PRIVATE LIMITED",
+          "type": "-0-",
+          "program": "NPWMD] [IFSR"
+        },
+        {
+          "id": "58599",
+          "name": "CAVALIER DYNAMICS FOR TECHNOLOGIES COMPANY",
+          "type": "-0-",
+          "program": "NPWMD] [IFSR"
+        },
+        {
+          "id": "58600",
+          "name": "CAVALIER DYNAMICS TEKNOLOJI TICARET ANONIM SIRKETI",
+          "type": "-0-",
+          "program": "NPWMD] [IFSR"
+        },
+        {
+          "id": "58654",
+          "name": "TABATABAI, Seyyed Asghar Alizadeh",
+          "type": "individual",
+          "program": "NPWMD] [IFSR"
         }
       ],
-      "count": 1195,
-      "publish_date": "2026-09-22",
-      "sha256": "cf3ffced4675aa1542f616a15c285266bd0466d8d4508c08a1aa9851a639b276",
+      "count": 1205,
+      "publish_date": "2026-09-29",
+      "sha256": "26206e164ec23658ba0282536a0b0b5295e508dfd6a03387f1a84fdde8bdf932",
       "cached": false
     },
     "test_site_seismicity": {
