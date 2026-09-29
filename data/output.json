@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "nuclear-proliferation-watch",
-    "generated": "2026-09-28T23:31:13.492013+00:00",
+    "generated": "2026-09-29T06:15:08.087673+00:00",
     "mode": "live",
     "sources": [
       "IAEA official pages",
@@ -14,7 +14,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-09-28T23:31:13.483721+00:00",
+    "issued_at": "2026-09-29T06:15:08.078872+00:00",
     "horizon": "0-30 days",
     "classification": "nuclear-escalation-pressure-not-test-or-weapon-probability",
     "score": 11.4,
@@ -28,7 +28,7 @@
         "available": true,
         "score": 20.8,
         "current_14d_weight": 2.6,
-        "current_14d_titles": 32,
+        "current_14d_titles": 31,
         "baseline_periods": 8,
         "baseline_median": 0.4,
         "anomaly_z": 3.71,
@@ -118,7 +118,7 @@
         "available": true,
         "score": 0.0,
         "current_30d_diagnostic_weight": 0.0,
-        "events_considered": 1817,
+        "events_considered": 1814,
         "sites_monitored": 8,
         "anomaly_z": 0.0,
         "evidence": [],
@@ -1475,12 +1475,23 @@
           "facility_security_incidents": 20.7,
           "test_site_seismicity": 0.0
         }
+      },
+      {
+        "timestamp": "2026-09-29T06:15:08.078872+00:00",
+        "score": 11.4,
+        "level": "BASELINE",
+        "components": {
+          "iaea_safeguards_strain": 20.8,
+          "npwmd_designation_delta": 0.0,
+          "facility_security_incidents": 20.7,
+          "test_site_seismicity": 0.0
+        }
       }
     ],
     "data_health": {
       "available_components": 4,
       "retained_components": [],
-      "iaea_titles": 100,
+      "iaea_titles": 99,
       "npwmd_entries": 1195,
       "iaea_events": 24,
       "test_sites": 8
@@ -1527,7 +1538,7 @@
     },
     {
       "label": "IAEA Signals",
-      "value": "100",
+      "value": "99",
       "delta": "official indexed pages"
     },
     {
@@ -1545,21 +1556,21 @@
     "iaea_titles": {
       "signals": [
         {
-          "title": "Update 368 – IAEA Director General Statement on Situation in Ukraine",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPRU9kXy00dzBrR0xVM0dXdzBadWU4Und0ajlWLVlZdG92emRQRG1vQXlRVFpYREhhMWFPQkVHX3czRVVqTElmRXpnMUc2QmJqYTAtRVZ3OXQ2M29FaUx6dzlJVUN4VDFqNWJLTzVZUU0xNVFBTHVpekFKVGU4NU1WdGU0Rlh1VXExbjI4c1JOazhibzZudGhVR2VJN1lJRkwydi1wMm1PeV9weVNQRjlRbXN3?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260925T023400Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "Türkiye Protects its Citrus Harvests with Nuclear Science",
           "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPMktFSVJ4ZEQ3ZDdCR2h1THVOY0RnbzhfZmdRd1NPbUVsSndKbmEyc2xQZkFRQTFvdVl3TWxLNklNcDlRSWtRSzhLWDJEVy12d1dNT2dIbnhpT3lGcW1KX1IyeU5PRlRBUkljSVdoZzMwR2h3UHJIN1pqZ1lvZExSZURINWV2eXE2SGpqaGJmTm1HOGhWMDVEMVhR?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
           "seendate": "20260925T060000Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Update 368 – IAEA Director General Statement on Situation in Ukraine",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPRU9kXy00dzBrR0xVM0dXdzBadWU4Und0ajlWLVlZdG92emRQRG1vQXlRVFpYREhhMWFPQkVHX3czRVVqTElmRXpnMUc2QmJqYTAtRVZ3OXQ2M29FaUx6dzlJVUN4VDFqNWJLTzVZUU0xNVFBTHVpekFKVGU4NU1WdGU0Rlh1VXExbjI4c1JOazhibzZudGhVR2VJN1lJRkwydi1wMm1PeV9weVNQRjlRbXN3?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260925T023400Z",
           "source": "GoogleNews"
         },
         {
@@ -1923,6 +1934,15 @@
           "source": "GoogleNews"
         },
         {
+          "title": "Resolutions and Other Decisions of the General Conference | IAEA",
+          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1oazMzcGoyWlZRYkY1cW1HRmJnRi0xZXBxcUk0RmpvbnBKajhZeTlBSEd0SUJLaVRwSmhGNVZVNDVJYlhmUzk0R0J2WEpKVnJy?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260826T070000Z",
+          "source": "GoogleNews"
+        },
+        {
           "title": "IAEA General Conference Elects Argentine Ambassador as Conference President",
           "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOWVlHamFFZFp5TlZxS3RQazJMQjF6WnpUQ3EyNXlBdUlOZFhXckdWV3Y1bHVVaHZneFV6NFZRQmV1V0l6WWxxaklnbGpjMFpncDVWd3NpdkRUSHoxdmhXZVpVY0JTZEM3ekVnWm5RSTF1aVdUUWM0NktnS2pyRjJBc0JsT3V2cDA2bmVmWXlxdXJDTk1nSG84WjhiaG8tRHR1VHJ1YUhkQTV1OGYzMjlkbw?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -1950,12 +1970,12 @@
           "source": "GoogleNews"
         },
         {
-          "title": "NEWS",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNNXBLOHZ3MTdITmV3eWZhODJ6TXZPMXZ1Sk1TdFdQd2hMX3dYdC1Rd0xRMjUydXl4d1d3WGFONTgzMFVMZDg4aUsxM3JPN2VQdm8zUUZxdnk5UTJqQjJ1cWFzQUd3Z2FZWnZxZF9NYnNTX2JyQ0tRQl9sMzZPSXYxNlVLc2xUQQ?oc=5",
+          "title": "Nuclear Energy Series",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1sdEFsdTlaNU9VY1hVcWo4S09SV0puRU1BbHhXTld4dmZSa1U1VXg3cDdPVGpVdTE4djR6M05fUXRzNUF6cnJldTkyVHBIWmlIcmhNLTJ0NkF2cERFbk9lRHU2QlIwOXpqZXNWSUFPZEJmaVJkWXpHYQ?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
-          "seendate": "20260605T070000Z",
+          "seendate": "20260927T072046Z",
           "source": "GoogleNews"
         },
         {
@@ -2121,15 +2141,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "European Union EU Statement at the General Debate 70th General Conference International Atomic Energy Agency (IAEA) Vienna, 14-",
-          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBFZTRiQ2daTUZDMzJxbkQ2U2VrYlhTd0poYW82dkZ3Q1RBOXJJRGpxbExhUS1yNU1NZ0xUQk9COUVaai0waVZFcXg4QzR6dVVSTDdHRU5wZEhGMkt1V0tadFBDT2xfMWhuaEcwa1EzOA?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260918T070000Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "Morokhov, I.",
           "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBJT2tNSHVNclFRXzhxdU5TbGh0ZF9ITkp5dlFoUkEwbExmbjdDckJnZ2NpQWFySUNQcTlrczVKMzRFZ2NvZXZ2blJNWTJSWjU5?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -2193,21 +2204,21 @@
           "source": "GoogleNews"
         },
         {
-          "title": "Ding Feng",
-          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9SQkxsU3lVUFIwRVRMTWpfczRjTEtyby1jd3NWUlZ3aWJ3WnZKRFBMXzlXOUczMW9RU0VRNlZhcXdzQmlLQjVIVWdoZU45bncy?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260918T125948Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "IAEA-Led Mission Sample ALPS-Treated Water at Fukushima Daiichi Nuclear Power Station under Additional Measures",
           "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNclJpZWFZZjM3T2hLcjRfRU5iQ0tkZE11QUdUNTJ6RWNya3c1dFZJYmtWejZTemhaQi15bHVMVHBKS1FYT09jaHlET0IzV2lBREhyMDViMmw0ZG9zS0I1Z3lJd19nRDBDNE5DMGRkYS1ncEJVUFd6Qmk0TGxxY0lqb21Zam9oRW1uUFh5UUNyM2hITXh2WVRBYldCcTdOMkZHZ3kwRnNjWWxiSVFSa0wzUG9FdWMwZXBiSWxCbzk2Z3VsaVRQWERuN2VUNm9CTmNTa1FtZkFVbFBYNUdtV21MWHRIQ3dXM25pbWtBYg?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
           "seendate": "20260710T070000Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "European Union EU Statement at the General Debate 70th General Conference International Atomic Energy Agency (IAEA) Vienna, 14-",
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBFZTRiQ2daTUZDMzJxbkQ2U2VrYlhTd0poYW82dkZ3Q1RBOXJJRGpxbExhUS1yNU1NZ0xUQk9COUVaai0waVZFcXg4QzR6dVVSTDdHRU5wZEhGMkt1V0tadFBDT2xfMWhuaEcwa1EzOA?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260918T070000Z",
           "source": "GoogleNews"
         },
         {
@@ -2289,15 +2300,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20260927T113005Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "Atlas of Isotope Hydrology and Water Quality — Central African Republic",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPU0UzTDlTTkY3TFVYeDFjY1UzOGNNa1hRYnRPNldRSS1rcjQyLXlSZGl6Z0tBVEpiWGhSSUdRQXZ6dWZJVkltTVVMLUpIQkVkNXlOLS1NUmFuZWxCa1pFQ3Z1WjFGNDRRMEZHcGxqRXVvcmZqQ3A1aUxSWFFLU0tDTXhsNUg3cVZheVNKZFc3RVVKaC1CQmVvNmtyVm1UNnVPQS01VE1RMmdvVlpG?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260908T105958Z",
           "source": "GoogleNews"
         },
         {
@@ -2418,6 +2420,15 @@
           "source": "GoogleNews"
         },
         {
+          "title": "Atlas of Isotope Hydrology and Water Quality — Central African Republic",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPU0UzTDlTTkY3TFVYeDFjY1UzOGNNa1hRYnRPNldRSS1rcjQyLXlSZGl6Z0tBVEpiWGhSSUdRQXZ6dWZJVkltTVVMLUpIQkVkNXlOLS1NUmFuZWxCa1pFQ3Z1WjFGNDRRMEZHcGxqRXVvcmZqQ3A1aUxSWFFLU0tDTXhsNUg3cVZheVNKZFc3RVVKaC1CQmVvNmtyVm1UNnVPQS01VE1RMmdvVlpG?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260908T105958Z",
+          "source": "GoogleNews"
+        },
+        {
           "title": "IAEA and World Bank Group Collaborate to Advance Nuclear Energy for Development",
           "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNSENsRUU3amZoRmhWTDhoQjB2VDFqQ0tkeUZ0cDhDamFiTVp4UTdiS2tKSzNXa0JNejRfVU4yLWJkRjZsdU1xdHhJVDlid0M2YzhDOFZCNXhTeDFoR0otV0o3amwzV29iQmdpcnBoV2p4aFRsUnlwSFZLUFZubHdlTVFya0dROElJUjdYVE5PYzlqazYxSjczUFVXODd0ZF9Ka0RyM2dBV3FZUl9ReHBDbTNGN3VoZw?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -2433,15 +2444,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20260919T004015Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "Home: Second International Conference on Accelerators for Research and Innovation | IAEA",
-          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBtcEVtNkdMZERkQ3E2R1poMTlUbU1xMWFXc2lyOTZFeGhIWmFQQ05UU3pZT0VOU29sODA4VHdJYm1qaE1EY3hKdDMtZXhRTlk?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20250531T062154Z",
           "source": "GoogleNews"
         }
       ],
@@ -10135,6 +10137,22 @@
           "lon": 87.9952,
           "lat": 41.8774,
           "depth_km": 10,
+          "source": "USGS"
+        },
+        {
+          "id": "nn00925012",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1790661249867,
+          "magnitude": 1.67,
+          "magnitude_type": "ml",
+          "event_type": "earthquake",
+          "place": "26 km SE of Mina, Nevada",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00925012",
+          "lon": -117.91,
+          "lat": 38.2147,
+          "depth_km": 12.7353,
           "source": "USGS"
         },
         {
@@ -38743,70 +38761,6 @@
           "lon": -117.9838333,
           "lat": 36.4288333,
           "depth_km": 8.17,
-          "source": "USGS"
-        },
-        {
-          "id": "ci41100247",
-          "site": "Nevada National Security Site",
-          "site_lat": 37.12,
-          "site_lon": -116.05,
-          "time": 1759083114680,
-          "magnitude": 1.93,
-          "magnitude_type": "ml",
-          "event_type": "earthquake",
-          "place": "23 km NNE of Trona, CA",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41100247",
-          "lon": -117.3221667,
-          "lat": 35.9641667,
-          "depth_km": 3.57,
-          "source": "USGS"
-        },
-        {
-          "id": "ci41100231",
-          "site": "Nevada National Security Site",
-          "site_lat": 37.12,
-          "site_lon": -116.05,
-          "time": 1759081772330,
-          "magnitude": 1.86,
-          "magnitude_type": "ml",
-          "event_type": "earthquake",
-          "place": "22 km ESE of Little Lake, CA",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41100231",
-          "lon": -117.684,
-          "lat": 35.8605,
-          "depth_km": 7.18,
-          "source": "USGS"
-        },
-        {
-          "id": "ci41100183",
-          "site": "Nevada National Security Site",
-          "site_lat": 37.12,
-          "site_lon": -116.05,
-          "time": 1759074004820,
-          "magnitude": 1.52,
-          "magnitude_type": "ml",
-          "event_type": "earthquake",
-          "place": "7 km ESE of Coso Junction, CA",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41100183",
-          "lon": -117.8716667,
-          "lat": 36.0205,
-          "depth_km": 1.86,
-          "source": "USGS"
-        },
-        {
-          "id": "ci41100135",
-          "site": "Nevada National Security Site",
-          "site_lat": 37.12,
-          "site_lon": -116.05,
-          "time": 1759063432630,
-          "magnitude": 1.7,
-          "magnitude_type": "ml",
-          "event_type": "earthquake",
-          "place": "20 km E of Lone Pine, CA",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41100135",
-          "lon": -117.8451667,
-          "lat": 36.5671667,
-          "depth_km": 3.82,
           "source": "USGS"
         },
         {
