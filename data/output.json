@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "nuclear-proliferation-watch",
-    "generated": "2026-09-30T13:01:37.944835+00:00",
+    "generated": "2026-09-30T22:38:35.791898+00:00",
     "mode": "live",
     "sources": [
       "IAEA official pages",
@@ -14,7 +14,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-09-30T13:01:37.936694+00:00",
+    "issued_at": "2026-09-30T22:38:35.784844+00:00",
     "horizon": "0-30 days",
     "classification": "nuclear-escalation-pressure-not-test-or-weapon-probability",
     "score": 7.5,
@@ -28,7 +28,7 @@
         "available": true,
         "score": 9.7,
         "current_14d_weight": 1.0,
-        "current_14d_titles": 22,
+        "current_14d_titles": 24,
         "baseline_periods": 8,
         "baseline_median": 0.4,
         "anomaly_z": 1.01,
@@ -54,7 +54,7 @@
         "added": [],
         "removed": [],
         "publish_date": "2026-09-29",
-        "sha256": "26206e164ec23658ba0282536a0b0b5295e508dfd6a03387f1a84fdde8bdf932",
+        "sha256": "04e849cec43e2d1149fe8cafb24c5ba8c6d8f1442469d92ea19b8202e12a99d8",
         "retained": false
       },
       {
@@ -112,7 +112,7 @@
         "available": true,
         "score": 0.0,
         "current_30d_diagnostic_weight": 0.0,
-        "events_considered": 1818,
+        "events_considered": 1819,
         "sites_monitored": 8,
         "anomaly_z": 0.0,
         "evidence": [],
@@ -1524,12 +1524,23 @@
           "facility_security_incidents": 20.7,
           "test_site_seismicity": 0.0
         }
+      },
+      {
+        "timestamp": "2026-09-30T22:38:35.784844+00:00",
+        "score": 7.5,
+        "level": "BASELINE",
+        "components": {
+          "iaea_safeguards_strain": 9.7,
+          "npwmd_designation_delta": 0.0,
+          "facility_security_incidents": 20.7,
+          "test_site_seismicity": 0.0
+        }
       }
     ],
     "data_health": {
       "available_components": 4,
       "retained_components": [],
-      "iaea_titles": 99,
+      "iaea_titles": 98,
       "npwmd_entries": 1205,
       "iaea_events": 24,
       "test_sites": 8
@@ -1576,7 +1587,7 @@
     },
     {
       "label": "IAEA Signals",
-      "value": "99",
+      "value": "98",
       "delta": "official indexed pages"
     },
     {
@@ -1654,15 +1665,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20260901T070000Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "Implementation of the NPT Safeguards Agreement in the Syrian Arab Republic",
-          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE4tZVlxQVdiNXk4cUlrdHVwWmZnMm0xM3BFSnVVVzZZR2Z1V0xDZ0hpZXpnaEc4V1dkVDVGVG9qajBFdHNLUndUMHBSV054eDhyblg5YVBPYmp4RzZjcXRlQk9NS0JMZw?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260909T070000Z",
           "source": "GoogleNews"
         },
         {
@@ -1878,7 +1880,7 @@
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
-          "seendate": "20260915T102416Z",
+          "seendate": "20260918T070000Z",
           "source": "GoogleNews"
         },
         {
@@ -1951,15 +1953,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20260724T155620Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "NEWS",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNNXBLOHZ3MTdITmV3eWZhODJ6TXZPMXZ1Sk1TdFdQd2hMX3dYdC1Rd0xRMjUydXl4d1d3WGFONTgzMFVMZDg4aUsxM3JPN2VQdm8zUUZxdnk5UTJqQjJ1cWFzQUd3Z2FZWnZxZF9NYnNTX2JyQ0tRQl9sMzZPSXYxNlVLc2xUQQ?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260605T070000Z",
           "source": "GoogleNews"
         },
         {
@@ -2045,11 +2038,11 @@
         },
         {
           "title": "TECDOC Series",
-          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE43YTZvMTBONUdMSWF2RnFxOGNpX2lIdWtLVGVmcUxzVTR3ZzlyRHdVTzE2anhNcXJ6WXJPQXc1MTlfWGd6QzFvRUw2RmpWcWRnd3NLcmItOUE2QlJVX2NtZktlblRQekl3LURpNktUMA?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9uQ3I2bkZiTV9wUDJrcE9XQWFYcTNlM0dLclJiejAtVTNvYUpxN3JmaUdrSnRGcGhkRTU1U3R1T01qQW9tVVNWM3NUN1RJa3UwTXlBV0ZTZWVjXzZ5OVBYS2Y0X3ppX2xYTFBleW1zaDk?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
-          "seendate": "20260929T020552Z",
+          "seendate": "20260929T142008Z",
           "source": "GoogleNews"
         },
         {
@@ -2170,15 +2163,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "The Week Ahead: IAEA Hosts 70th General Conference",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQRDFMWmxYQkZUOVI0YnBMNEVjeFVYYlJMYmktaU8xaXk3RVdVYUhoOTRreXNncnluNHJ5UXR0aU84Nkc0ZFkwWUg2bVBQOGpJUFRmcHRQZUdnQjhzenJSZHNwR3k0OTFIT3ZqSGEwWWUyX3QwN0tQX3pNUUtsZDRPVkM3RnFQSW5wMzRXc0pR?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260914T070000Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "United States of America–IAEA Nuclear Energy Management School",
           "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBVWlVmcEdNbXNDV3paU3l2allROHBEWHowM1lSbFNaVGdxLXFEV2ptTHBrVFdnRFdXeTN1NFBsU3FOMndPa2M3WGtpSVBwdw?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -2269,15 +2253,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "S T A T E M E N T by Mr. Tsanko Bachiyski Chairman of the Bulgarian Nuclear Regulatory Agency Head of the delegation to the 70th",
-          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9YcDNZY3hQbzVOcnpsYVJUM05JN3Y1NHFseDhuclZmZUZfN1c4c1VTTnlIRjA3V0pTVkE3M3NWSWp4cTJjNXBIR3RkX3RTdHJxZjkzVlp4cENPVE9aUVJFQVNBZl9JN25Da01kQ1dMMG1Id3dzSFBJ?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260914T070000Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "Nicaragua Signs a Country Programme Framework (CPF) for 2026–2031",
           "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPdjMwVDB3WUEtOXBKeGVxRU4wSVlCU3BTNnYzM1E5Ul9yM01PY28yaUxXbXB5LWotZVJTejhRYkV3Sjk2dkdKTExpeVpzdGZYeHJpQ3VyTFltbEoyQkpSV0xsNUFCbGRmS3NJdGVqSVdGN0FZZ09qWXAwUUVEazQxS1NaWFd1UzFFNHRJRjkxNm5rcHk2ZGpidFhGaTdXaGNn?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -2350,6 +2325,15 @@
           "source": "GoogleNews"
         },
         {
+          "title": "S T A T E M E N T by Mr. Tsanko Bachiyski Chairman of the Bulgarian Nuclear Regulatory Agency Head of the delegation to the 70th",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9YcDNZY3hQbzVOcnpsYVJUM05JN3Y1NHFseDhuclZmZUZfN1c4c1VTTnlIRjA3V0pTVkE3M3NWSWp4cTJjNXBIR3RkX3RTdHJxZjkzVlp4cENPVE9aUVJFQVNBZl9JN25Da01kQ1dMMG1Id3dzSFBJ?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260914T070000Z",
+          "source": "GoogleNews"
+        },
+        {
           "title": "Technical Reports Series",
           "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFA0X1k0MzZ1TkF1X1JsRnN6a3JxbDRjcTMxNWtJb3B0WnU4dE1aSHdXNUZnVkx5b0F5WGZrLVFJQkdQQXdKVDg0cVU5NVZKRHFGb2xoZkZYZzZCZk91eDdjUlY1alF3VVRWQ2ZZOTY4elZRSHloOXlPOFhqYUs5dw?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -2410,6 +2394,24 @@
           "language": "",
           "tone": 0,
           "seendate": "20260624T070000Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Update 362 – IAEA Director General Statement on Situation in Ukraine",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQZ1kzQW5WWjZRY2plQzRVanZ5TE56OWozdlpHOEY0QXhHNWtMT0R0YXlMcEtRV2RxMjBhT2NTTHd1QWZzb2JMR3lTWDNHZFZIbEpmOFVRaDU4VVpGUFVYY1BnUHlkS2xuRkRqaURVVk9TTTNhaUptVEpEN3RqbGZpN3FPMXdjSzRCSVN6UzFVUk5RRlYwQWMxYTFwajFGOWkwQ3E1ZV84eW90SmpXcmFzdg?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260814T070000Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "IAEA SMR School in the Russian Federation Offers Insights into Operating Technologies",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOQW5fXzNxc1RRRXc4anAxVDctdXhmSU9KQURCUjdNdUVJRnl0SGJoZ2hIQ3pXd0RneUQxNWZYbWhaai05dmRPOG9LQjlTNWtPWXBVRDRxVDZJeWVQWURfbHZRMUVySnIyajlKcndOWW9VbVQ0QTFNV2x2OGVJQVdFN1NuWGp4NGNPWXpleHpIeWE3VzBQYXd5Qk5idVhFWG5LQy1ISzJfQzM3cXdsVWYyanpFMWR1bk5XMU96MFlqdw?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260930T104012Z",
           "source": "GoogleNews"
         },
         {
@@ -9992,7 +9994,7 @@
       ],
       "count": 1205,
       "publish_date": "2026-09-29",
-      "sha256": "26206e164ec23658ba0282536a0b0b5295e508dfd6a03387f1a84fdde8bdf932",
+      "sha256": "04e849cec43e2d1149fe8cafb24c5ba8c6d8f1442469d92ea19b8202e12a99d8",
       "cached": false
     },
     "test_site_seismicity": {
@@ -10238,6 +10240,22 @@
           "source": "USGS"
         },
         {
+          "id": "nn00925098",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1790807279352,
+          "magnitude": 1.55,
+          "magnitude_type": "ml",
+          "event_type": "earthquake",
+          "place": "5 km NNE of Boulder City, Nevada",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00925098",
+          "lon": -114.8023,
+          "lat": 36.0193,
+          "depth_km": 14.0849,
+          "source": "USGS"
+        },
+        {
           "id": "nn00925079",
           "site": "Nevada National Security Site",
           "site_lat": 37.12,
@@ -10258,15 +10276,15 @@
           "site": "Nevada National Security Site",
           "site_lat": 37.12,
           "site_lon": -116.05,
-          "time": 1790728217759,
-          "magnitude": 1.54,
+          "time": 1790728218018,
+          "magnitude": 1.52,
           "magnitude_type": "ml",
-          "event_type": "earthquake",
-          "place": "7 km N of Goldfield, Nevada",
+          "event_type": "explosion",
+          "place": "3 km N of Goldfield, Nevada",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00925058",
-          "lon": -117.2281,
-          "lat": 37.7791,
-          "depth_km": 4.2016,
+          "lon": -117.2376,
+          "lat": 37.7393,
+          "depth_km": 0,
           "source": "USGS"
         },
         {
