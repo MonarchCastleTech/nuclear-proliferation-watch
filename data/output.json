@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "nuclear-proliferation-watch",
-    "generated": "2026-09-30T05:59:40.372471+00:00",
+    "generated": "2026-09-30T13:01:37.944835+00:00",
     "mode": "live",
     "sources": [
       "IAEA official pages",
@@ -14,10 +14,10 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-09-30T05:59:40.364257+00:00",
+    "issued_at": "2026-09-30T13:01:37.936694+00:00",
     "horizon": "0-30 days",
     "classification": "nuclear-escalation-pressure-not-test-or-weapon-probability",
-    "score": 5.2,
+    "score": 7.5,
     "level": "BASELINE",
     "confidence": "HIGH",
     "confidence_score": 100.0,
@@ -26,12 +26,12 @@
         "id": "iaea_safeguards_strain",
         "label": "IAEA safeguards and access strain",
         "available": true,
-        "score": 3.1,
+        "score": 9.7,
         "current_14d_weight": 1.0,
-        "current_14d_titles": 23,
+        "current_14d_titles": 22,
         "baseline_periods": 8,
-        "baseline_median": 0.9,
-        "anomaly_z": 0.07,
+        "baseline_median": 0.4,
+        "anomaly_z": 1.01,
         "evidence": [
           {
             "title": "Symposium on International Safeguards: Innovation and Resilience in a Changing World - Safeguards as a Shared Responsibility - Training Days | IAEA",
@@ -112,7 +112,7 @@
         "available": true,
         "score": 0.0,
         "current_30d_diagnostic_weight": 0.0,
-        "events_considered": 1817,
+        "events_considered": 1818,
         "sites_monitored": 8,
         "anomaly_z": 0.0,
         "evidence": [],
@@ -1513,6 +1513,17 @@
           "facility_security_incidents": 20.7,
           "test_site_seismicity": 0.0
         }
+      },
+      {
+        "timestamp": "2026-09-30T13:01:37.936694+00:00",
+        "score": 7.5,
+        "level": "BASELINE",
+        "components": {
+          "iaea_safeguards_strain": 9.7,
+          "npwmd_designation_delta": 0.0,
+          "facility_security_incidents": 20.7,
+          "test_site_seismicity": 0.0
+        }
       }
     ],
     "data_health": {
@@ -1560,7 +1571,7 @@
   "stats": [
     {
       "label": "Escalation Pressure",
-      "value": "5.2/100",
+      "value": "7.5/100",
       "delta": "BASELINE"
     },
     {
@@ -1652,15 +1663,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20260909T070000Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "INPRO Methodology for Sustainability Assessments of Nuclear Energy Systems: Proliferation Resistance",
-          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQVUNVV3Y4ZFN3eHVTNmc3UFlrV19aemxaM3VPS2tBMGpmc21jYUhMMzgybzRSUDVvNlVEaUlBbEZkb3BydEFjOHhWUzFjWkIxMVdEVVhGU1B5VnVKS21raWlfY1VFUGk2VTk2UndxRk5ZSjJpNW1ZZ2VSR0xDdGxrenplNFZyRWYxaDRQenlGWDRRWkNQd1BIRm9NeDM5MFdBUGlZZW1KRlV2eUxXNXdhelI2QWMxdGpDYjl3U19hOWFSN1cyendKc2pNaFlQYmNkZkoydA?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260909T132133Z",
           "source": "GoogleNews"
         },
         {
@@ -1934,15 +1936,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "IAEA General Conference Elects Argentine Ambassador as Conference President",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOWVlHamFFZFp5TlZxS3RQazJMQjF6WnpUQ3EyNXlBdUlOZFhXckdWV3Y1bHVVaHZneFV6NFZRQmV1V0l6WWxxaklnbGpjMFpncDVWd3NpdkRUSHoxdmhXZVpVY0JTZEM3ekVnWm5RSTF1aVdUUWM0NktnS2pyRjJBc0JsT3V2cDA2bmVmWXlxdXJDTk1nSG84WjhiaG8tRHR1VHJ1YUhkQTV1OGYzMjlkbw?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260914T070000Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "International Training Course on Safety and Security in the Management of Disused Sealed Radioactive Sources",
           "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE84MzNIRWxMMFczaS1TVHpHT05xdm9HRHpqb0xKYjVaZHRnYnI0V05PaU1xeE1wVkp2aTBtZnZ1aFJJQ1hDdVlsaEZpc3duUQ?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -2006,6 +1999,15 @@
           "source": "GoogleNews"
         },
         {
+          "title": "International High-level Forum on the ATLAS Launch - News | IAEA",
+          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBCdnFEX2x6ZDlRQzhvckpGM19iUEpsdGF1dVo5MVlwRXhpb1RiMTI4ZTBiZVI0U29tSHZodGN4cTZxbmhnMmR0Y1ZJS2hsamw5OHZJ?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260508T194156Z",
+          "source": "GoogleNews"
+        },
+        {
           "title": "IAEA and Syria: Chronology of Key Events",
           "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBJb2w5TC1hdTV6VVdRZ3RwOHQ2TmpGT2VvbkNIcmlCQUVFaS0ta290Q2FQSUdaMWxOcXhYT1NpeGROYy1zWWVOVVlWTU1mZWJ4MmRQNkxsQjF1U2hnSXA5b0xuZ2czYjh0bFBqY0hUbkNLSWt2VWc?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -2021,15 +2023,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20260624T070000Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "Tritium Level Far Below Japan’s Operational Limit in 23rd Batch of ALPS Treated Water, IAEA Confirms",
-          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPQkVSMDNSRGZsbTFWNDZOYmU3bE4wTTl0clNhZS1mN2N1NTZLVngyX19PWXFaMVpNOXM5Sk9ZYzZ5MVFjaUtfRkpSZF9NLU9KcmFZMzVnM2FYajVwd2ZuSnVVNy1heWhxWUZkbHNJQ0t0WTE5Y2tkdHQxMng0SEtMTWdiX0t3WFBBdzV4THlMb3Vxd19ONDAxTE5QVkVXU0ZzUkhqTUExRV82VUJPX1ZKZE4xNXgwMnZ0cTFkODVzLVJ1cFdDeWJubzZKbFBOM0x4dFdsZ2NPUFV5aG8?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260831T070000Z",
           "source": "GoogleNews"
         },
         {
@@ -2078,12 +2071,12 @@
           "source": "GoogleNews"
         },
         {
-          "title": "Project Listing - CRP",
-          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9sMmJIRmpRdm15dGVyOTRaMjU1WWxmV092VXhRVDNHb3RPNUJic0cwXzhlNElVLVlfWmduMWFSSDktZ1JjdHFsbzZzbkJuc0laVTU2aEplSDZXaFVDd1ByeUlIUi1PWWpGMEM3aXRLWQ?oc=5",
+          "title": "Tritium Level Far Below Japan’s Operational Limit in 23rd Batch of ALPS Treated Water, IAEA Confirms",
+          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPQkVSMDNSRGZsbTFWNDZOYmU3bE4wTTl0clNhZS1mN2N1NTZLVngyX19PWXFaMVpNOXM5Sk9ZYzZ5MVFjaUtfRkpSZF9NLU9KcmFZMzVnM2FYajVwd2ZuSnVVNy1heWhxWUZkbHNJQ0t0WTE5Y2tkdHQxMng0SEtMTWdiX0t3WFBBdzV4THlMb3Vxd19ONDAxTE5QVkVXU0ZzUkhqTUExRV82VUJPX1ZKZE4xNXgwMnZ0cTFkODVzLVJ1cFdDeWJubzZKbFBOM0x4dFdsZ2NPUFV5aG8?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
-          "seendate": "20251019T091459Z",
+          "seendate": "20260831T070000Z",
           "source": "GoogleNews"
         },
         {
@@ -2330,15 +2323,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "Social and Economic Impact Assessment of Hydrology and Groundwater Projects under the RCA",
-          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNMGZRM2pPdGdKV01KR21TWUx1a1pjQ2dNUXVwYWF4U0EzZHYxaVNMWWNQbnRwVHZ5RkVZVllwaUl4MjJIV2lpdHNJMUI3aWpJaGdTLWJjMllHQnY0Z0NzRnEtUmtnMlJabE0wUUpiQ0xUTVNlcGZnRGF0TmZJTDFVaEN4bEVESXUwek1PNXp2QU1RN29JY1NuVTg2UGxURmxGZjVYbXhYemhuU1c0eUdDYktWaG5UTGlKVUwtY3UzMlU5OUp3Rlpv?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260909T132135Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "The Commonwealth of The Bahamas Signs its First Country Programme Framework (CPF) for 2026–2031",
           "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPWm9nd0xnSks1a3huZVBhUEFaS3BGbUlIaGk0M2p4cFlSNWdmaDhMUjlRSDJWbmxsVVJubnhaZ1RqQXlkM2ZHTGozVWY4QXlodlJjTS1udzlpY1FKWWV3U3YwRjAwNU5yMUFWeVJBSTBEaVZiQ2RUWUsySURGYzdwRUl0VlltWjRwUGJDam1kLW1VMnQtallEb21iSm1LaGZvZjB0b0dFU1UwZWFJRy1JalFkdTdHUjBhTzIyNFg2Z29NbVRUeWFrTQ?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -2402,12 +2386,12 @@
           "source": "GoogleNews"
         },
         {
-          "title": "Employer Release & Recommendation Form LMP France (CEA and ITER)",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQeE9Rakk2SFdOc1JWa2JaNjRfQmlDUUs3Ul9Rajhkdzl2MEMwZi1Ca29wYXJaZU5KSjktMTJnM21XSHl6aW8yWEx0X1VocjhnbUNUYUxaNHpjcmFzMW94SlBZOVhQMUFvRVROanQyWHBJbGN3VE15MVBqZ1drbkFSUTBQamxMdUlRQjVaaGZjRUFtWWNFZVV6LXRfaFA4UU5YN0tVYjQyU09YU0ZyZmc?oc=5",
+          "title": "Social and Economic Impact Assessment of Hydrology and Groundwater Projects under the RCA",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNMGZRM2pPdGdKV01KR21TWUx1a1pjQ2dNUXVwYWF4U0EzZHYxaVNMWWNQbnRwVHZ5RkVZVllwaUl4MjJIV2lpdHNJMUI3aWpJaGdTLWJjMllHQnY0Z0NzRnEtUmtnMlJabE0wUUpiQ0xUTVNlcGZnRGF0TmZJTDFVaEN4bEVESXUwek1PNXp2QU1RN29JY1NuVTg2UGxURmxGZjVYbXhYemhuU1c0eUdDYktWaG5UTGlKVUwtY3UzMlU5OUp3Rlpv?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
-          "seendate": "20260919T004015Z",
+          "seendate": "20260909T132135Z",
           "source": "GoogleNews"
         },
         {
@@ -2456,21 +2440,48 @@
           "source": "GoogleNews"
         },
         {
-          "title": "Strategy for the Prevention, Detection and Response to the Inadvertent Presence of Radioactive Material in Metal Recycling and Other Associated Processes",
-          "url": "https://news.google.com/rss/articles/CBMimwJBVV95cUxPdEVZRE5kX0Y4VjJXMDJibnZfQk1Cd3JxR0pQZ0pxUnBNZnJQZm8wZ0dPaGRWRHBqbkw0dGpzSkxmWjNXVFNQWjdrakw0S3VuUHhtZ05GcG9ieDhQLUJhZzZxLVpSMDNyOHQ4LUtMSnVDdGtYdEZpZUNNNEc2VmxNb1RiTHNOaDhoN1JDQ3NnWkVNa0UycXV3TDFPemVua05UU3BXQU9aRWpyZG9MaThzN2tNM2VCS3JvYmY2eGo4cDNDUmVlU3FrZ292dWhNdXNnbkFXQkJnc0JSSzRBZmd1WjJlbGQxM0JocHVhd1c4dmJZZkt3aU1SSDdscHdWWldnUG5pbmdydW9HY3dLb0E1SUFXendOV1p5V3ln?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260911T151206Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "Update 355 – IAEA Director General Statement on Situation in Ukraine",
           "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQcWVqaTR2ai1MWjB2dDVDMloyYTY3bUhDbEtnWjdFZllZTjhiYm9wbXc5Z3N5aTJWSjJEWXN2cDl6Y09zcWlPVUE4c0Z4Q3o1Qm9IZktvVzV4X2NpSVFKbjhPZ0JCeWVUOE15U0FpMzc1OUpHQW9SSkxrcVZsczRHTWZTSHo0YkRjRnVtM25qcHpqckU4Q1Atd1dMY3lyX3lVdXc0MlY3RTFaNFNpUHF5bw?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
           "seendate": "20260626T070000Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Update 366 – IAEA Director General Statement on Situation in Ukraine",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNWmhZTGM3RkhuZERVZWVhdFR3MVdHd3dabE8tR2QtOU15V0ZLYVlqeEZRd1BiWXJfakVIanNnODE0SGJ4UzZzS0JXRE1OV2luT0ZNXzNSamJCS2l6WGtEMDFadUVZbzcycmNEcW83aEtIT3BwNHExMVFCQ3hRUzZnZ1ZZa1YwdzdLc2p3X1Zmd3VCQ29MOVRhaHVsRUJwRWxXYl80ZnpNbVdrYkxSOWJZRQ?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260911T070000Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Spent Fuel Characterization - Phase II",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFAxMU15aS01WS01eW1VbVZXb2dLNFVueEo1YjRqcmZjTlItem9uVHJPVUctR2Z2OXIzLVdHa0dYN010VWwycklqVGlBaEstV1UtSXc?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260925T122151Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "IAEA and Inter-American Development Bank Sign Partnership Agreement on Nuclear Energy for Development",
+          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPYjVuMExBakliV09XQzEtVXcwYzN4NUxkeXlsbUt2XzBRTmVPa3JPaTNTcFV2TzBITmlOdW5kU0tlR2U5LVJlMWlJQUk4bHdadEFvRHhHWDd2bENsVU9xbmNoZVpVUnhqY2NXX1kzX0ZMY0VEUXVfWmRwM1lwb3gwVzA2bGxrMmxMQWwtaGRVOFl6Yk1YSElOVzhoSVlya3QxMzNaUEdnNE82SS1lUWZ0Z1JYTlE1Ri1NZThTUXJuTE1iVTVITGxuc3JRVldKOW42b2c5Mkgyd2hfWE1CNU1iVQ?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260925T120201Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Occupational Radiation Protection in the Water Treatment and Supply Industry",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNb0V4V3gweXdjZEdJblg2NW1mSXk2akEwLXZtdmFxSzk4TjV3M2hCd3p0OGtBX0pZV1lvbGgzLTY5ejkxck50NkNLOVRLWWNlOUFJLUVOSDJUNXNKTUl4YXpWTVE3a0dUM01ERmdKeS1QdjRBQzdsSGpSWmU2eDEtajJkd21FbHpVWFhTdTZmX2JxT1kxa2VQZUVUWVdVcElndktPUGJrZFZhNEtyYXFoX2p4NHp0QQ?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260901T142844Z",
           "source": "GoogleNews"
         }
       ],
@@ -10224,6 +10235,22 @@
           "lon": 87.9952,
           "lat": 41.8774,
           "depth_km": 10,
+          "source": "USGS"
+        },
+        {
+          "id": "nn00925079",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1790769348886,
+          "magnitude": 1.79,
+          "magnitude_type": "ml",
+          "event_type": "earthquake",
+          "place": "78 km NE of Tonopah, Nevada",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00925079",
+          "lon": -116.4919,
+          "lat": 38.4673,
+          "depth_km": 0,
           "source": "USGS"
         },
         {
