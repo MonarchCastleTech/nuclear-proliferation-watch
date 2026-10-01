@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "nuclear-proliferation-watch",
-    "generated": "2026-09-30T22:38:35.791898+00:00",
+    "generated": "2026-10-01T06:34:24.124018+00:00",
     "mode": "live",
     "sources": [
       "IAEA official pages",
@@ -14,7 +14,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-09-30T22:38:35.784844+00:00",
+    "issued_at": "2026-10-01T06:34:24.115027+00:00",
     "horizon": "0-30 days",
     "classification": "nuclear-escalation-pressure-not-test-or-weapon-probability",
     "score": 7.5,
@@ -112,7 +112,7 @@
         "available": true,
         "score": 0.0,
         "current_30d_diagnostic_weight": 0.0,
-        "events_considered": 1819,
+        "events_considered": 1820,
         "sites_monitored": 8,
         "anomaly_z": 0.0,
         "evidence": [],
@@ -1535,12 +1535,23 @@
           "facility_security_incidents": 20.7,
           "test_site_seismicity": 0.0
         }
+      },
+      {
+        "timestamp": "2026-10-01T06:34:24.115027+00:00",
+        "score": 7.5,
+        "level": "BASELINE",
+        "components": {
+          "iaea_safeguards_strain": 9.7,
+          "npwmd_designation_delta": 0.0,
+          "facility_security_incidents": 20.7,
+          "test_site_seismicity": 0.0
+        }
       }
     ],
     "data_health": {
       "available_components": 4,
       "retained_components": [],
-      "iaea_titles": 98,
+      "iaea_titles": 99,
       "npwmd_entries": 1205,
       "iaea_events": 24,
       "test_sites": 8
@@ -1587,7 +1598,7 @@
     },
     {
       "label": "IAEA Signals",
-      "value": "98",
+      "value": "99",
       "delta": "official indexed pages"
     },
     {
@@ -1668,6 +1679,15 @@
           "source": "GoogleNews"
         },
         {
+          "title": "Implementation of the NPT Safeguards Agreement in the Syrian Arab Republic",
+          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE4tZVlxQVdiNXk4cUlrdHVwWmZnMm0xM3BFSnVVVzZZR2Z1V0xDZ0hpZXpnaEc4V1dkVDVGVG9qajBFdHNLUndUMHBSV054eDhyblg5YVBPYmp4RzZjcXRlQk9NS0JMZw?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260909T070000Z",
+          "source": "GoogleNews"
+        },
+        {
           "title": "Agenda",
           "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1HMjRmZ282VjdaazFlRmtZUWdBZFpMOUZ3WGt6dU1sc2h3dUhBSzlMUG1yYlJxS0R6OEFHV0YyWFdUZFlYWllJOUN0SUstUWQxQjNuSEFFVkx5UThGZ0ZkeHllU2lfZw?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -1710,15 +1730,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20260902T070000Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "Safeguards Equipment Workshops: Non-Destructive Assay, Surveillance, Unattended Monitoring, and Seals and Containment | IAEA",
-          "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1ab0lLNXpVaXpMY1lnRGFTckd6TnVwZGkzNHZoOExEcEVFdnJnRFZxQ0ZlTktFWnJUeW5kWm1JaXpUSWFMREhRV0NRZw?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260820T150731Z",
           "source": "GoogleNews"
         },
         {
@@ -1884,6 +1895,15 @@
           "source": "GoogleNews"
         },
         {
+          "title": "Services Series",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9kcDRHQUJLbjVjLU5OZkdsR0hwS1JoSW1ZTkdSRFpVeks0RTctTEI0VldYS1V0MllwampPMHlxVzl0SHNCazZVUmZyNDZZMmFTd1k1elBqOVJocngxc2lRdXU5ZWNfeV8wT0p0aW91T3I?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260930T233625Z",
+          "source": "GoogleNews"
+        },
+        {
           "title": "Joint Statement - ATLAS Ministerial Launch Event | IAEA",
           "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPRmdYck85QzhxUEJqZVVPdmlJNzJyelVVZm5WdzRRSVMyUnhaN0swdkF1V0JVVXFDY2Y5S0lDOTNVRTJ1MXgydE5XQUlyTUlNRjV3Vy1nMDBOcVdPR1Fmc084dlF4YjdZODVRZUJwYU5FOFpxQUdaNTFwMTYwOEpBSV9aM2M3M21KZUZpMmpob2FEeVpWcVE?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -1953,6 +1973,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20260724T155620Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "NEWS",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNNXBLOHZ3MTdITmV3eWZhODJ6TXZPMXZ1Sk1TdFdQd2hMX3dYdC1Rd0xRMjUydXl4d1d3WGFONTgzMFVMZDg4aUsxM3JPN2VQdm8zUUZxdnk5UTJqQjJ1cWFzQUd3Z2FZWnZxZF9NYnNTX2JyQ0tRQl9sMzZPSXYxNlVLc2xUQQ?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260605T070000Z",
           "source": "GoogleNews"
         },
         {
@@ -2181,15 +2210,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "European Union EU Statement at the General Debate 70th General Conference International Atomic Energy Agency (IAEA) Vienna, 14-",
-          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBFZTRiQ2daTUZDMzJxbkQ2U2VrYlhTd0poYW82dkZ3Q1RBOXJJRGpxbExhUS1yNU1NZ0xUQk9COUVaai0waVZFcXg4QzR6dVVSTDdHRU5wZEhGMkt1V0tadFBDT2xfMWhuaEcwa1EzOA?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260918T070000Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "Update 367 – IAEA Director General Statement on Situation in Ukraine",
           "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQTTdia2oyZmhSbHNBb0ZkNDNBVkxMU2VVVVBrdHNjckE0ZGdPT2FzMS1EMG9SRG1JLUVBUHJ6ZUpSdy12d2wzUTUzblJTTXNQLWxVT2kzT0t2cGNrTVRoZW1lSDFOY1VTVWNhS2ljSzBfTGUxb29pcHJoXy1DZE9GanZlWnFLWGo0SU01amp4UXVyV1NqdGNZbDNUVS05VEdFRmtRcGxNYXFMeEZCUDJEamlR?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -2298,15 +2318,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "The Commonwealth of The Bahamas Signs its First Country Programme Framework (CPF) for 2026–2031",
-          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPWm9nd0xnSks1a3huZVBhUEFaS3BGbUlIaGk0M2p4cFlSNWdmaDhMUjlRSDJWbmxsVVJubnhaZ1RqQXlkM2ZHTGozVWY4QXlodlJjTS1udzlpY1FKWWV3U3YwRjAwNU5yMUFWeVJBSTBEaVZiQ2RUWUsySURGYzdwRUl0VlltWjRwUGJDam1kLW1VMnQtallEb21iSm1LaGZvZjB0b0dFU1UwZWFJRy1JalFkdTdHUjBhTzIyNFg2Z29NbVRUeWFrTQ?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260915T060937Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "INES: The International Nuclear and Radiological Event Scale User's Manual",
           "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNVzlhbEp2NUVtWWVNT2FmMXdnU2JIREpEcm5ockxrLWZqQ0hFaHUxSk5CNWFjbkhvcDhjdVY1MFJldlNfbEVsN1RJS1BHTFhYczkwenVWdjJpRVRZLWpEMTRINGtXQm1aZVBXQ3BpZWxvekdFR0ZqUHdqZDBTcXlfS202VG9NaXhoMDJwVFBLNU85aUttUkJJQTZ1S0VWR1IwRmlGLUEweG4zanFLVUkxRw?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -2379,6 +2390,15 @@
           "source": "GoogleNews"
         },
         {
+          "title": "The Commonwealth of The Bahamas Signs its First Country Programme Framework (CPF) for 2026–2031",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPWm9nd0xnSks1a3huZVBhUEFaS3BGbUlIaGk0M2p4cFlSNWdmaDhMUjlRSDJWbmxsVVJubnhaZ1RqQXlkM2ZHTGozVWY4QXlodlJjTS1udzlpY1FKWWV3U3YwRjAwNU5yMUFWeVJBSTBEaVZiQ2RUWUsySURGYzdwRUl0VlltWjRwUGJDam1kLW1VMnQtallEb21iSm1LaGZvZjB0b0dFU1UwZWFJRy1JalFkdTdHUjBhTzIyNFg2Z29NbVRUeWFrTQ?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260915T060937Z",
+          "source": "GoogleNews"
+        },
+        {
           "title": "Home: Second International Conference on Accelerators for Research and Innovation | IAEA",
           "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBtcEVtNkdMZERkQ3E2R1poMTlUbU1xMWFXc2lyOTZFeGhIWmFQQ05UU3pZT0VOU29sODA4VHdJYm1qaE1EY3hKdDMtZXhRTlk?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -2394,15 +2414,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20260624T070000Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "Update 362 – IAEA Director General Statement on Situation in Ukraine",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQZ1kzQW5WWjZRY2plQzRVanZ5TE56OWozdlpHOEY0QXhHNWtMT0R0YXlMcEtRV2RxMjBhT2NTTHd1QWZzb2JMR3lTWDNHZFZIbEpmOFVRaDU4VVpGUFVYY1BnUHlkS2xuRkRqaURVVk9TTTNhaUptVEpEN3RqbGZpN3FPMXdjSzRCSVN6UzFVUk5RRlYwQWMxYTFwajFGOWkwQ3E1ZV84eW90SmpXcmFzdg?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260814T070000Z",
           "source": "GoogleNews"
         },
         {
@@ -2484,6 +2495,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20260901T142844Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Press Arrangements for the 70th IAEA General Conference, 14–18 September",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPUVR0T0dxcWFkZzlSWlBNNURJNW1ULXp5OGhscUpFcVpuX3FwanlNTXJNWWxuT2MxcnpnWmV3RHJwZUl6Z0hOVDZPd3I2X19YTWFoRG95T1Mxb25OQUV1OXVOdms5OXRNcEFYZkpfMHNrQlpxMmNOV3dlbFhaNVVQNllQTVpvSXR3NHpGWTJ3R1BVWlp5Q2VFZ1pXWnIyYnFsOWFCc2xoLWRfVmJ5ZkY1N3BEdzdfZTBhWFE?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260909T070000Z",
           "source": "GoogleNews"
         }
       ],
@@ -10240,19 +10260,67 @@
           "source": "USGS"
         },
         {
-          "id": "nn00925098",
+          "id": "nc75442151",
           "site": "Nevada National Security Site",
           "site_lat": 37.12,
           "site_lon": -116.05,
-          "time": 1790807279352,
-          "magnitude": 1.55,
+          "time": 1790827344260,
+          "magnitude": 2.02,
+          "magnitude_type": "md",
+          "event_type": "earthquake",
+          "place": "5 km NW of Dixon Lane-Meadow Creek, CA",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75442151",
+          "lon": -118.450836181641,
+          "lat": 37.4266662597656,
+          "depth_km": 5.34000015258789,
+          "source": "USGS"
+        },
+        {
+          "id": "nn00925117",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1790825069230,
+          "magnitude": 1.5,
           "magnitude_type": "ml",
           "event_type": "earthquake",
-          "place": "5 km NNE of Boulder City, Nevada",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00925098",
-          "lon": -114.8023,
-          "lat": 36.0193,
-          "depth_km": 14.0849,
+          "place": "20 km NE of Mina, Nevada",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00925117",
+          "lon": -117.9558,
+          "lat": 38.5295,
+          "depth_km": 9.0683,
+          "source": "USGS"
+        },
+        {
+          "id": "nc75442136",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1790823857520,
+          "magnitude": 1.87,
+          "magnitude_type": "md",
+          "event_type": "earthquake",
+          "place": "17 km SW of Toms Place, CA",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75442136",
+          "lon": -118.832168579102,
+          "lat": 37.4651679992676,
+          "depth_km": 2.89000010490417,
+          "source": "USGS"
+        },
+        {
+          "id": "nn00925102",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1790811125735,
+          "magnitude": 1.62,
+          "magnitude_type": "ml",
+          "event_type": "explosion",
+          "place": "39 km SSE of Sandy Valley, Nevada",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00925102",
+          "lon": -115.5308,
+          "lat": 35.4721,
+          "depth_km": 0,
           "source": "USGS"
         },
         {
@@ -10772,15 +10840,15 @@
           "site": "Nevada National Security Site",
           "site_lat": 37.12,
           "site_lon": -116.05,
-          "time": 1789879685160,
-          "magnitude": 2.27,
+          "time": 1789879685150,
+          "magnitude": 2.3,
           "magnitude_type": "md",
           "event_type": "earthquake",
           "place": "10 km SW of Toms Place, CA",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75438772",
-          "lon": -118.759834289551,
-          "lat": 37.4921684265137,
-          "depth_km": 4.48000001907349,
+          "lon": -118.758333333333,
+          "lat": 37.4933333333333,
+          "depth_km": 3.66,
           "source": "USGS"
         },
         {
@@ -38909,38 +38977,6 @@
           "lon": -118.414665222168,
           "lat": 37.5338325500488,
           "depth_km": 6.17999982833862,
-          "source": "USGS"
-        },
-        {
-          "id": "ci41100839",
-          "site": "Nevada National Security Site",
-          "site_lat": 37.12,
-          "site_lon": -116.05,
-          "time": 1759213294670,
-          "magnitude": 1.64,
-          "magnitude_type": "ml",
-          "event_type": "earthquake",
-          "place": "9 km NNE of Coso Junction, CA",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41100839",
-          "lon": -117.9143333,
-          "lat": 36.1181667,
-          "depth_km": 5.46,
-          "source": "USGS"
-        },
-        {
-          "id": "ci41100815",
-          "site": "Nevada National Security Site",
-          "site_lat": 37.12,
-          "site_lon": -116.05,
-          "time": 1759196456150,
-          "magnitude": 2.47,
-          "magnitude_type": "ml",
-          "event_type": "earthquake",
-          "place": "34 km ESE of Big Pine, CA",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41100815",
-          "lon": -117.925,
-          "lat": 37.0653333,
-          "depth_km": 0.42,
           "source": "USGS"
         },
         {
