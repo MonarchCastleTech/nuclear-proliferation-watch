@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "nuclear-proliferation-watch",
-    "generated": "2026-10-01T22:55:15.764165+00:00",
+    "generated": "2026-10-02T06:16:57.496398+00:00",
     "mode": "live",
     "sources": [
       "IAEA official pages",
@@ -14,10 +14,10 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-10-01T22:55:15.759086+00:00",
+    "issued_at": "2026-10-02T06:16:57.488087+00:00",
     "horizon": "0-30 days",
     "classification": "nuclear-escalation-pressure-not-test-or-weapon-probability",
-    "score": 11.4,
+    "score": 8.2,
     "level": "BASELINE",
     "confidence": "HIGH",
     "confidence_score": 100.0,
@@ -28,7 +28,7 @@
         "available": true,
         "score": 20.8,
         "current_14d_weight": 2.6,
-        "current_14d_titles": 25,
+        "current_14d_titles": 24,
         "baseline_periods": 8,
         "baseline_median": 0.8,
         "anomaly_z": 6.07,
@@ -67,11 +67,11 @@
         "id": "facility_security_incidents",
         "label": "IAEA-reported facility security incidents",
         "available": true,
-        "score": 20.7,
-        "current_30d_weight": 4.8,
+        "score": 4.5,
+        "current_30d_weight": 1.6,
         "baseline_months": 11,
         "baseline_median": 1.6,
-        "anomaly_z": 1.35,
+        "anomaly_z": 0.0,
         "evidence": [
           {
             "title": "Worker Exceeded Annual Dose Limit",
@@ -84,30 +84,6 @@
             "description": "On 23 July 2026, a trainee assistant radiographer did not verify radiography source retraction with a survey meter while performing device setup for at least one exposure at a job site. The worker noticed that the source was unlocked after the setup was complete. The worker did not report the... Reported by Nuclear Regulatory Commission (NRC) of United States of America on 17 Sep 2026. Last update on 17 Sep 2026",
             "source": "IAEA NEWS",
             "weight": 1.6
-          },
-          {
-            "title": "Worker Exceeded Statuary Annual Whole Body Dose Limits",
-            "url": "https://www-news.iaea.org/ErfView.aspx?mId=0ccdddda-907d-45a1-b67d-1e2bbdba2e43",
-            "country": "Germany",
-            "event_date": "27 Jul 2026",
-            "ines": "2",
-            "reported_by": "Gesellschaft für Anlagen und Reaktorsicherheit (GRS) mbH",
-            "reported_date": "02 Sep 2026",
-            "description": "On 27 July 2026, an employee performed a Gamma radiography measurement using a Se-75 source with an activity of 1.48 TBq. After completing the measurement, the employee inadvertently failed to retract the source into its safety position in a shieled container. Subsequently, he carried out... Reported by Gesellschaft für Anlagen und Reaktorsicherheit (GRS) mbH of Germany on 02 Sep 2026. Last update on 02 Sep 2026",
-            "source": "IAEA NEWS",
-            "weight": 1.6
-          },
-          {
-            "title": "Misdelivered Transport Package",
-            "url": "https://www-news.iaea.org/ErfView.aspx?mId=21300535-88b1-419e-8221-2e0efb30e6cc",
-            "country": "United Kingdom",
-            "event_date": "25 Jun 2026",
-            "ines": "2",
-            "reported_by": "Office for Nuclear Regulation (ONR)",
-            "reported_date": "02 Sep 2026",
-            "description": "Topspeed Couriers Ltd was carrying a Type A package containing radioactive material in the form of a 555 GBq special form Selenium-75 source intended for industrial radiography. The package was delivered to the wrong location in Aberdeen. Later after one hour the organisation which had incorrectly... Reported by Office for Nuclear Regulation (ONR) of United Kingdom on 02 Sep 2026. Last update on 02 Sep 2026",
-            "source": "IAEA NEWS",
-            "weight": 1.6
           }
         ],
         "retained": false
@@ -118,7 +94,7 @@
         "available": true,
         "score": 0.0,
         "current_30d_diagnostic_weight": 0.0,
-        "events_considered": 1822,
+        "events_considered": 1816,
         "sites_monitored": 8,
         "anomaly_z": 0.0,
         "evidence": [],
@@ -1574,6 +1550,17 @@
           "facility_security_incidents": 20.7,
           "test_site_seismicity": 0.0
         }
+      },
+      {
+        "timestamp": "2026-10-02T06:16:57.488087+00:00",
+        "score": 8.2,
+        "level": "BASELINE",
+        "components": {
+          "iaea_safeguards_strain": 20.8,
+          "npwmd_designation_delta": 0.0,
+          "facility_security_incidents": 4.5,
+          "test_site_seismicity": 0.0
+        }
       }
     ],
     "data_health": {
@@ -1621,7 +1608,7 @@
   "stats": [
     {
       "label": "Escalation Pressure",
-      "value": "11.4/100",
+      "value": "8.2/100",
       "delta": "BASELINE"
     },
     {
@@ -1659,15 +1646,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20260925T023400Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "Week in Review: IAEA 70th General Conference",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPOEswSUJhU2hrSnlHS2x2S3RWbERCTWQ2dWV3U1pBZnZDX05Iak91dnZ1TlJ3dEVoZ0NmdXljZXdNQ3g3TE90bHNHMVVJQTlhZlhvYWVXcG9UaDJ4bktCQnRkOVFJc1FvLWNyWVNsb1pHNm1xN1JwZElTa0ZfbUxiUUVZNU9Wdw?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260921T070000Z",
           "source": "GoogleNews"
         },
         {
@@ -2306,7 +2284,7 @@
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
-          "seendate": "20260922T080129Z",
+          "seendate": "20260922T070000Z",
           "source": "GoogleNews"
         },
         {
@@ -2442,6 +2420,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20250531T062154Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "PhD Advisor Release & Recommendation Form LMP France (CEA and ITER)",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOREdmNFk0dk4wYWFMNVVYVWwtZUd2aWoxa1lkQVJ6cUh1X3BWSUgzWjNLeDlvOFR5WXpUM0trZDUyMXVHWUpTNDJqU2JWOXZpZS1VTjNvTVVadnliY0xUQlJMeEtYd25GLVpQczJwTUF3a29sM1d5bGMwbHplN2hnZ2RYcmxONTJXNV9rV0d6LVVPVDNHRDI1bjRHb012YkFtVVNXRjhIZExTUkpYZkZqTnRB?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260919T004020Z",
           "source": "GoogleNews"
         },
         {
@@ -10288,19 +10275,19 @@
           "source": "USGS"
         },
         {
-          "id": "nn00925143",
+          "id": "nn00925150",
           "site": "Nevada National Security Site",
           "site_lat": 37.12,
           "site_lon": -116.05,
-          "time": 1790889358821,
-          "magnitude": 1.92,
+          "time": 1790911546710,
+          "magnitude": 1.62,
           "magnitude_type": "ml",
           "event_type": "earthquake",
-          "place": "54 km S of Kingston, Nevada",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00925143",
-          "lon": -117.0497,
-          "lat": 38.7193,
-          "depth_km": 9.8604,
+          "place": "32 km N of Dyer, Nevada",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00925150",
+          "lon": -118.0839,
+          "lat": 37.9595,
+          "depth_km": 8.5944,
           "source": "USGS"
         },
         {
@@ -38944,102 +38931,6 @@
           "source": "USGS"
         },
         {
-          "id": "nn00905278",
-          "site": "Nevada National Security Site",
-          "site_lat": 37.12,
-          "site_lon": -116.05,
-          "time": 1759346746963,
-          "magnitude": 1.6,
-          "magnitude_type": "ml",
-          "event_type": "earthquake",
-          "place": "76 km ENE of Tonopah, Nevada",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00905278",
-          "lon": -116.4973,
-          "lat": 38.4371,
-          "depth_km": 6,
-          "source": "USGS"
-        },
-        {
-          "id": "nn00905275",
-          "site": "Nevada National Security Site",
-          "site_lat": 37.12,
-          "site_lon": -116.05,
-          "time": 1759346663863,
-          "magnitude": 1.8,
-          "magnitude_type": "ml",
-          "event_type": "earthquake",
-          "place": "75 km ENE of Tonopah, Nevada",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00905275",
-          "lon": -116.495,
-          "lat": 38.4253,
-          "depth_km": 9.8,
-          "source": "USGS"
-        },
-        {
-          "id": "nn00905270",
-          "site": "Nevada National Security Site",
-          "site_lat": 37.12,
-          "site_lon": -116.05,
-          "time": 1759343685803,
-          "magnitude": 1.5,
-          "magnitude_type": "ml",
-          "event_type": "earthquake",
-          "place": "77 km ENE of Tonopah, Nevada",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00905270",
-          "lon": -116.4886,
-          "lat": 38.4427,
-          "depth_km": 5.6,
-          "source": "USGS"
-        },
-        {
-          "id": "ci41101319",
-          "site": "Nevada National Security Site",
-          "site_lat": 37.12,
-          "site_lon": -116.05,
-          "time": 1759333631700,
-          "magnitude": 1.55,
-          "magnitude_type": "ml",
-          "event_type": "earthquake",
-          "place": "22 km E of Little Lake, CA",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41101319",
-          "lon": -117.6651667,
-          "lat": 35.934,
-          "depth_km": 2.68,
-          "source": "USGS"
-        },
-        {
-          "id": "nn00905267",
-          "site": "Nevada National Security Site",
-          "site_lat": 37.12,
-          "site_lon": -116.05,
-          "time": 1759313385126,
-          "magnitude": 1.5,
-          "magnitude_type": "ml",
-          "event_type": "earthquake",
-          "place": "33 km SSW of Caliente, Nevada",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00905267",
-          "lon": -114.6431,
-          "lat": 37.3308,
-          "depth_km": 7,
-          "source": "USGS"
-        },
-        {
-          "id": "nc75243301",
-          "site": "Nevada National Security Site",
-          "site_lat": 37.12,
-          "site_lon": -116.05,
-          "time": 1759285230430,
-          "magnitude": 2.09,
-          "magnitude_type": "md",
-          "event_type": "earthquake",
-          "place": "16 km N of Dixon Lane-Meadow Creek, CA",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75243301",
-          "lon": -118.414665222168,
-          "lat": 37.5338325500488,
-          "depth_km": 6.17999982833862,
-          "source": "USGS"
-        },
-        {
           "id": "us7000tit3",
           "site": "Chagai",
           "site_lat": 28.9,
@@ -39267,30 +39158,6 @@
       "reported_by": "Nuclear Regulatory Commission (NRC)",
       "reported_date": "17 Sep 2026",
       "description": "On 23 July 2026, a trainee assistant radiographer did not verify radiography source retraction with a survey meter while performing device setup for at least one exposure at a job site. The worker noticed that the source was unlocked after the setup was complete. The worker did not report the... Reported by Nuclear Regulatory Commission (NRC) of United States of America on 17 Sep 2026. Last update on 17 Sep 2026",
-      "source": "IAEA NEWS",
-      "weight": 1.6
-    },
-    {
-      "title": "Worker Exceeded Statuary Annual Whole Body Dose Limits",
-      "url": "https://www-news.iaea.org/ErfView.aspx?mId=0ccdddda-907d-45a1-b67d-1e2bbdba2e43",
-      "country": "Germany",
-      "event_date": "27 Jul 2026",
-      "ines": "2",
-      "reported_by": "Gesellschaft für Anlagen und Reaktorsicherheit (GRS) mbH",
-      "reported_date": "02 Sep 2026",
-      "description": "On 27 July 2026, an employee performed a Gamma radiography measurement using a Se-75 source with an activity of 1.48 TBq. After completing the measurement, the employee inadvertently failed to retract the source into its safety position in a shieled container. Subsequently, he carried out... Reported by Gesellschaft für Anlagen und Reaktorsicherheit (GRS) mbH of Germany on 02 Sep 2026. Last update on 02 Sep 2026",
-      "source": "IAEA NEWS",
-      "weight": 1.6
-    },
-    {
-      "title": "Misdelivered Transport Package",
-      "url": "https://www-news.iaea.org/ErfView.aspx?mId=21300535-88b1-419e-8221-2e0efb30e6cc",
-      "country": "United Kingdom",
-      "event_date": "25 Jun 2026",
-      "ines": "2",
-      "reported_by": "Office for Nuclear Regulation (ONR)",
-      "reported_date": "02 Sep 2026",
-      "description": "Topspeed Couriers Ltd was carrying a Type A package containing radioactive material in the form of a 555 GBq special form Selenium-75 source intended for industrial radiography. The package was delivered to the wrong location in Aberdeen. Later after one hour the organisation which had incorrectly... Reported by Office for Nuclear Regulation (ONR) of United Kingdom on 02 Sep 2026. Last update on 02 Sep 2026",
       "source": "IAEA NEWS",
       "weight": 1.6
     }
