@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "nuclear-proliferation-watch",
-    "generated": "2026-10-02T06:16:57.496398+00:00",
+    "generated": "2026-10-02T13:12:38.370984+00:00",
     "mode": "live",
     "sources": [
       "IAEA official pages",
@@ -14,7 +14,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-10-02T06:16:57.488087+00:00",
+    "issued_at": "2026-10-02T13:12:38.362745+00:00",
     "horizon": "0-30 days",
     "classification": "nuclear-escalation-pressure-not-test-or-weapon-probability",
     "score": 8.2,
@@ -28,10 +28,10 @@
         "available": true,
         "score": 20.8,
         "current_14d_weight": 2.6,
-        "current_14d_titles": 24,
+        "current_14d_titles": 20,
         "baseline_periods": 8,
         "baseline_median": 0.8,
-        "anomaly_z": 6.07,
+        "anomaly_z": 2.43,
         "evidence": [
           {
             "title": "INPRO Methodology for Sustainability Assessments of Nuclear Energy Systems: Proliferation Resistance",
@@ -94,7 +94,7 @@
         "available": true,
         "score": 0.0,
         "current_30d_diagnostic_weight": 0.0,
-        "events_considered": 1816,
+        "events_considered": 1817,
         "sites_monitored": 8,
         "anomaly_z": 0.0,
         "evidence": [],
@@ -1561,6 +1561,17 @@
           "facility_security_incidents": 4.5,
           "test_site_seismicity": 0.0
         }
+      },
+      {
+        "timestamp": "2026-10-02T13:12:38.362745+00:00",
+        "score": 8.2,
+        "level": "BASELINE",
+        "components": {
+          "iaea_safeguards_strain": 20.8,
+          "npwmd_designation_delta": 0.0,
+          "facility_security_incidents": 4.5,
+          "test_site_seismicity": 0.0
+        }
       }
     ],
     "data_health": {
@@ -1640,15 +1651,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "Update 368 – IAEA Director General Statement on Situation in Ukraine",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOMHZtOVBjZ3NtQ0xOY1pOTTBHQ0hvVk1xc3VqTFF1dWZDVm13WHVMT1picUE2YWZldUxtcWd4Y1VyXzEwdjdDZ2NBaXIzdEQzcnhMRDlqNm1SZjl3RjJBb2V5WkNzQm1GZWd1b1MwUGhUT0pCdGthUTZrV1EteXdQanpjOE5LTElseHBmRURZdHNRaXE4SkM5cWxaT3Izb2s2TXZzM1JiZTBZX0lSeDh4aA?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260925T023400Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "New Training Programme Supports Newcomer Countries in Nuclear Education Outreach",
           "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNNGRrZW44Sld3NS1GU0VySEpYMEJDdWtOR1ZzTzlSTnFJdzI2UTZqWDctV09sdmxJNVV6YkhGYmhiRG1VMWVZWVpKNElna2VGNE9Cb2ozX1ZHRnotdFNDcHYxYko5MzUwXzBlSDFDaGlZR3BWWWp4aWdUMThHcmZIZGxqdnppM0ZfYjNwaHBXY3g5NHZROGdTb0c1WHhDWVVIQTBJeGMzZ296dUw2bkVVVjA5dUlNdUE?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -1703,6 +1705,15 @@
           "source": "GoogleNews"
         },
         {
+          "title": "Innovation and Resilience in a Changing World - Safeguards as a Shared Responsibility - Social Media Toolkit | IAEA",
+          "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5RNklucUNoTkpENFRvX09rMFNuMnJqdURXNm4yTFJvODVSVVBjVURFUllpRGpVUWJIekRHWnYxOGVKTUd3MU12YXZoYw?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260904T010630Z",
+          "source": "GoogleNews"
+        },
+        {
           "title": "Agenda",
           "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1HMjRmZ282VjdaazFlRmtZUWdBZFpMOUZ3WGt6dU1sc2h3dUhBSzlMUG1yYlJxS0R6OEFHV0YyWFdUZFlYWllJOUN0SUstUWQxQjNuSEFFVkx5UThGZ0ZkeHllU2lfZw?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -1736,15 +1747,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20260926T023428Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "Press Arrangements for IAEA Board of Governors Meeting, 7–11 September 2026",
-          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQb1I4WWpHLUJSWmlxVHNoWHFacmhydmNNcHgyOTJkOXcxNUxvMDJQRzhwb0lTalE3V1ZTVDFRSU8xRHN0ZVhQUTVEaFFiWWFyeWs4ZTZvOFZlRHBta0ZwejVFMm1KVm5NeGswLWpBSms3aFdURmN5Yk55T1QyRzYzUVM4R0ZNV2ZzMy1qQm9KNk9VU3B3LS1ydWYxNXV2aXNjNFFGZXdHbmtRSjZDWUdfbVJLOWFDZDg0Q20ydk5B?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260902T070000Z",
           "source": "GoogleNews"
         },
         {
@@ -1820,15 +1822,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "Board of Governors Implementation of the NPT Safeguards Agreement and relevant provisions of the United Nations Security Council",
-          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5QanBxYkZZRzdTVVdyeGlYT2RTcTBQNHJWYzFmRmpuSE5kTUxqbzhJVXNiQkdCUEl6dDlPUEtyOE4ydElUdVFOLWFXdkZBWVpPNjJWVFVpTTQ2eU9XMjJ5TldkRjdMQQ?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260604T070000Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "What is Cherenkov Radiation? | IAEA",
           "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE50M1dSSEwxTTF1WEFhc0g2WHJhV0Y5amo4dmJRYkdjeXo3aEp4X1BoWk9jOEp2bVh6MXV1YlMxWmZacXRMZkFQOEUzSjRINEhYMzZyekZ3N3cyTlh1QXAzSE95M3IxNmduZUV4dVBkWlc?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -1844,6 +1837,24 @@
           "language": "",
           "tone": 0,
           "seendate": "20260720T070000Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Press Arrangements for IAEA Board of Governors Meeting, 7–11 September 2026",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQb1I4WWpHLUJSWmlxVHNoWHFacmhydmNNcHgyOTJkOXcxNUxvMDJQRzhwb0lTalE3V1ZTVDFRSU8xRHN0ZVhQUTVEaFFiWWFyeWs4ZTZvOFZlRHBta0ZwejVFMm1KVm5NeGswLWpBSms3aFdURmN5Yk55T1QyRzYzUVM4R0ZNV2ZzMy1qQm9KNk9VU3B3LS1ydWYxNXV2aXNjNFFGZXdHbmtRSjZDWUdfbVJLOWFDZDg0Q20ydk5B?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260902T070000Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Upcoming events",
+          "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE5ocDJuZkc3U1hud2RWSXJhckpJemJPQkcyUTN0c2VjVV95SjBPbE9PMDVkdTVlcVZZV0FxcWtqNDFVQmc?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260113T091730Z",
           "source": "GoogleNews"
         },
         {
@@ -1969,7 +1980,7 @@
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
-          "seendate": "20260724T155620Z",
+          "seendate": "20260918T070000Z",
           "source": "GoogleNews"
         },
         {
@@ -2054,6 +2065,15 @@
           "source": "GoogleNews"
         },
         {
+          "title": "Update 369 – IAEA Director General Statement on Situation in Ukraine",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPV0NJNS01WFVuaTJtWmxqMTczZV9Fb0VQNE9qbnBXakdIMnpBejFjeFhqMFVQbkV2cklKNEU1Q2ZrdndTTmVsUGhOcEgya18zZDFLR3FDODVCQ214WVRJSHFNYXNtaTItQm1ORUR3QXN6R1ZtX1ZEZXdRS2JaX2x3eHRzblo2ejhlckZ0R2NHTXI5RHd6bngxMEF4TlJPREJCQTFEQk53WERRdzNLYjNHVWxR?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20261002T084500Z",
+          "source": "GoogleNews"
+        },
+        {
           "title": "70th IAEA General Conference",
           "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9kVlZmSmJ6OV9QaXpJX1owaV81QzJ3UzhoOWJ5ODNodjV0c1N4TGVoci04bXZrU2FEX3J5T0FKLTk4cmo0YjVEZ1pmV0hkdGExQUpxYlFpem1hS19WY3hJZ2o1X2NJY3NfYjhnWVBKZEN4ZUJVb3c0Q2VLTTU?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -2090,12 +2110,30 @@
           "source": "GoogleNews"
         },
         {
+          "title": "Update 368 – IAEA Director General Statement on Situation in Ukraine",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOMHZtOVBjZ3NtQ0xOY1pOTTBHQ0hvVk1xc3VqTFF1dWZDVm13WHVMT1picUE2YWZldUxtcWd4Y1VyXzEwdjdDZ2NBaXIzdEQzcnhMRDlqNm1SZjl3RjJBb2V5WkNzQm1GZWd1b1MwUGhUT0pCdGthUTZrV1EteXdQanpjOE5LTElseHBmRURZdHNRaXE4SkM5cWxaT3Izb2s2TXZzM1JiZTBZX0lSeDh4aA?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260925T023400Z",
+          "source": "GoogleNews"
+        },
+        {
           "title": "International Conference on Topical Issues in Nuclear Installation Safety - News | IAEA",
           "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE04czN5RW1JOUpScDU2aVhjNm14Uk00VWdyYThod0JraTlqNGFtd042RWo2NXRpam9xcTRaZHNIcmozM3ZBUHAxckNvT0cwaGFP?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
           "seendate": "20250531T022425Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "IAEA Medical Assistance Supports Ukraine’s Nuclear Workers",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOR21VMjdjeVlJeVI1eWQ4Rm1xUmRXZU1vc3I5WDdnajFxYy1IdHlISzdIMEhVVGpOcmZpWDl5ZHplV2FuR3paNTVVQk1SYlAyMnBISGh4cVg0MVNBR0NvVzFQekl6RnY1YzEwZ0tQTF9SRktfYXRvZGNKeXlJaFo2VmZkRkVxVXc0RUNOM0dwMnI3UEJqZHYwOXNfSXY0X1ZDUXFEOTBhRzg3UzA?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20261002T094408Z",
           "source": "GoogleNews"
         },
         {
@@ -2492,33 +2530,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20260626T070000Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "Update 366 – IAEA Director General Statement on Situation in Ukraine",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNWmhZTGM3RkhuZERVZWVhdFR3MVdHd3dabE8tR2QtOU15V0ZLYVlqeEZRd1BiWXJfakVIanNnODE0SGJ4UzZzS0JXRE1OV2luT0ZNXzNSamJCS2l6WGtEMDFadUVZbzcycmNEcW83aEtIT3BwNHExMVFCQ3hRUzZnZ1ZZa1YwdzdLc2p3X1Zmd3VCQ29MOVRhaHVsRUJwRWxXYl80ZnpNbVdrYkxSOWJZRQ?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260911T070000Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "Spent Fuel Characterization - Phase II",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFAxMU15aS01WS01eW1VbVZXb2dLNFVueEo1YjRqcmZjTlItem9uVHJPVUctR2Z2OXIzLVdHa0dYN010VWwycklqVGlBaEstV1UtSXc?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260925T122151Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "IAEA and Inter-American Development Bank Sign Partnership Agreement on Nuclear Energy for Development",
-          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNSkZqZzNUb1RJT01uRUFTbDdFNnZIQU4tX2trSF8ydV81aDljSGRvdnhramRvV2Y0VVJvU29qeGlPWDd3UXhnQjJGTmpRbm5WVXFwWEp1cXlDTDFybzNpNWE0YXdrWU1rWDcxT2dOd0sxOFNYSnlkWnFkVE1mSXEwX09wcV9IbFFfa2xwcjVPeFU5WW5OUThMM3lwQ0ZWQWtLT2xGUjlELUx4ZFhFanlkeUtJTkk4MHpyMTN0a2JBTHd3WjNLaWZyNXh3MmNhQlBDeFJqVm80M3lkY0lLMGdj?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260925T120201Z",
           "source": "GoogleNews"
         }
       ],
@@ -10272,6 +10283,22 @@
           "lon": 87.9952,
           "lat": 41.8774,
           "depth_km": 10,
+          "source": "USGS"
+        },
+        {
+          "id": "nn00925155",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1790932421051,
+          "magnitude": 2.97,
+          "magnitude_type": "ml",
+          "event_type": "earthquake",
+          "place": "19 km W of Preston, Nevada",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00925155",
+          "lon": -115.2897,
+          "lat": 38.9073,
+          "depth_km": 3.4406,
           "source": "USGS"
         },
         {
