@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "nuclear-proliferation-watch",
-    "generated": "2026-10-03T12:03:18.416843+00:00",
+    "generated": "2026-10-03T16:45:23.885004+00:00",
     "mode": "live",
     "sources": [
       "IAEA official pages",
@@ -14,10 +14,10 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-10-03T12:03:18.408296+00:00",
+    "issued_at": "2026-10-03T16:45:23.876711+00:00",
     "horizon": "0-30 days",
     "classification": "nuclear-escalation-pressure-not-test-or-weapon-probability",
-    "score": 2.1,
+    "score": 4.3,
     "level": "BASELINE",
     "confidence": "HIGH",
     "confidence_score": 100.0,
@@ -26,12 +26,12 @@
         "id": "iaea_safeguards_strain",
         "label": "IAEA safeguards and access strain",
         "available": true,
-        "score": 3.5,
+        "score": 9.7,
         "current_14d_weight": 1.0,
-        "current_14d_titles": 13,
+        "current_14d_titles": 12,
         "baseline_periods": 8,
-        "baseline_median": 0.9,
-        "anomaly_z": 0.13,
+        "baseline_median": 0.4,
+        "anomaly_z": 1.01,
         "evidence": [
           {
             "title": "Technical Meeting on Verification and Validation of Software Related to Nuclear Power Plant Instrumentation and Control | IAEA",
@@ -88,7 +88,7 @@
         "available": true,
         "score": 0.0,
         "current_30d_diagnostic_weight": 0.0,
-        "events_considered": 1814,
+        "events_considered": 1816,
         "sites_monitored": 8,
         "anomaly_z": 0.0,
         "evidence": [],
@@ -1599,6 +1599,17 @@
           "facility_security_incidents": 4.5,
           "test_site_seismicity": 0.0
         }
+      },
+      {
+        "timestamp": "2026-10-03T16:45:23.876711+00:00",
+        "score": 4.3,
+        "level": "BASELINE",
+        "components": {
+          "iaea_safeguards_strain": 9.7,
+          "npwmd_designation_delta": 0.0,
+          "facility_security_incidents": 4.5,
+          "test_site_seismicity": 0.0
+        }
       }
     ],
     "data_health": {
@@ -1646,7 +1657,7 @@
   "stats": [
     {
       "label": "Escalation Pressure",
-      "value": "2.1/100",
+      "value": "4.3/100",
       "delta": "BASELINE"
     },
     {
@@ -1715,11 +1726,11 @@
         },
         {
           "title": "Technical Meeting on Verification and Validation of Software Related to Nuclear Power Plant Instrumentation and Control | IAEA",
-          "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1qdXBCTTBHUndEdUVBbXZaY24wMlU2MlNpQjdRQVBuaGdLc1VNRS1XYVVmaEFuZTIxNjNqOW1QZlE2X3BGNG1nNW42RQ?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE8wSGtVNXNtem4teENfX0hHT3hwU1FEWGxWSHpfSHJHcXpkTDV6LV9UUTdneU5qSWtqTVEySTBzYm1vYlFJS2xOVWwyaw?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
-          "seendate": "20261002T210414Z",
+          "seendate": "20261002T210629Z",
           "source": "GoogleNews"
         },
         {
@@ -1747,6 +1758,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20260901T070000Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Implementation of the NPT Safeguards Agreement in the Syrian Arab Republic",
+          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE4tZVlxQVdiNXk4cUlrdHVwWmZnMm0xM3BFSnVVVzZZR2Z1V0xDZ0hpZXpnaEc4V1dkVDVGVG9qajBFdHNLUndUMHBSV054eDhyblg5YVBPYmp4RzZjcXRlQk9NS0JMZw?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260909T070000Z",
           "source": "GoogleNews"
         },
         {
@@ -1783,15 +1803,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20260907T070000Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "原子能机构档案 结果",
-          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPSTVjbFV3ZEt6aEo4bUZkSzNGcEdwVzlBSWpiU3JaUW9SQWg1RjlUazFKN0NpSlVFM042TUo2ZDlzY0lTc2xWWGt5UjFWbUNpQWdCb3RDM3Q3Uzk0Z0Ewa0toYmM1MTAzSXJGUERmc0RxUHp0VkVDV2ZpU2VpbS1SeENUQTA4NGdwaW1SX3dRLUhoYjRpUWhic0R3akRzT3JCUGhFMjN5X0loSVhsNUdsZFFfNEtCNFhmOGJBbHNHMGNoVk40MmtPZ1REdkM?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260926T023428Z",
           "source": "GoogleNews"
         },
         {
@@ -1840,15 +1851,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "IAEA Symposium on International Safeguards 2026: Call for Papers and Student Competition",
-          "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9IU0lwcjViX1NfLVpWOGZWeHZ1YjRncVl5R2lhMl9QaDFiRS00NExHQ0ZpRjVzTmxDMXNHWUwySk9VSGRJOXhvbE1wNA?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260904T070000Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "IAEA Director General's Introductory Statement to the Board of Governors",
           "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQZlgzcUtUNGQtbG9jV2JSWGQ2YzlWNjBKbDFLLUQtN0M2WFRVZkNJTWx3ZWZ4dlNPSFNkUHBUUHYtaWt6MXIxVldkamFnWXJvaTFDQ1BtUkpCdTBVRkV6VFBoZGVwZl9CS0JQUU96ejlQYnVmOThhbkJfcGVqQmRsTkxYZ2Q0d2J5eU1XaktfSmtuMnlYbjZlM3J6M1NUNjF2YTMxNkpKUmtMR2FzNUQzb0RGQ0lhZGQwdGtNNEhjUzZNU0k?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -1873,15 +1875,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20260728T070000Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "Safeguards Direct Portal: Improving information exchange with the IAEA Department of Safeguards",
-          "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOTHpsalBDbFRTMkJURHl2TVlXUlAwX1dYMlJvRTNzcU9qdG5NR0pKWVpBNWw3NTY1dlk2eFFmUmpmUUphZ2pTYnBsdGpORUtHM0laOC1jbDRLU01OcVBoS0txbjNUdnM4cTlYcDAwQUJ5XzhTbDRHV1RtQWk1VENTYmRPcktjRVhRV3ZRdGJURjVmUEpnMWNia18taEpVLU1UbTdwaVZkbWRjOV9ESEJBNkxzRE9ldXRqTzBWa0RSVVRnZ3R0UnlyVVdJYTRnNlI4cDVOYTNfZkJaTVlhdm16VDh3?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260820T152632Z",
           "source": "GoogleNews"
         },
         {
@@ -1918,15 +1911,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20260313T194636Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "31st QUENCH-Workshop(organized in cooperation with the International Atomic Energy Agency) | IAEA",
-          "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1CNGhoU3NOUlc5MllnT0E1WTRGRFpkZ0dPdEUzTDRVaGFIWVh4a01oSE9tOXR3RXBSajhzS2ZzN3Z5WGZSSVQ4VC1OeUljdw?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260727T141957Z",
           "source": "GoogleNews"
         },
         {
@@ -1999,15 +1983,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20260713T070000Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "Resolutions and Other Decisions of the General Conference | IAEA",
-          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1oazMzcGoyWlZRYkY1cW1HRmJnRi0xZXBxcUk0RmpvbnBKajhZeTlBSEd0SUJLaVRwSmhGNVZVNDVJYlhmUzk0R0J2WEpKVnJy?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260826T070000Z",
           "source": "GoogleNews"
         },
         {
@@ -2173,15 +2148,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "Project Listing - CRP",
-          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9sMmJIRmpRdm15dGVyOTRaMjU1WWxmV092VXhRVDNHb3RPNUJic0cwXzhlNElVLVlfWmduMWFSSDktZ1JjdHFsbzZzbkJuc0laVTU2aEplSDZXaFVDd1ByeUlIUi1PWWpGMEM3aXRLWQ?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20251019T091459Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "Tritium Level Far Below Japan’s Operational Limit in 22nd Batch of ALPS Treated Water, IAEA Confirms",
           "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOTTc5bFNJR0FkNUZxQUN0aEZ0aFVEWGw2ZkhDM3dYZC0wSkd5bFhiZEJuS25lU2VWejhwX1pZUjUwZGxqaUppNDF4bUNtTGhTMk5adVR0V1ZoU0Q5N2tlQi1uVnR4WjEwUnREOVFuNGFrVW9wT0xjU3lzaVlhRUo5T01Nb3Zpd0VEcE8zbXJJYjdxT2JQVVlLS0c4X2JzOUxrbFR4aWo0Z3RqRFVQVUNhRGFTU3llemliZGxESjB5cTdyWTVkTkoyYTJYb1dXbEZkSENtRmx3SmpZNjQ?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -2278,6 +2244,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20260918T070000Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "The Science Behind U.S. Advanced Reactors: From Innovation to Deployment",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQV3oyTXE1VmVfVDh6UU1IVlNfOWhFZDhPT3FyWjNidzFibC02TGs1Ny1kSVBsZy1idXNURmp0V3Myb3Y3YTZCUXRGZ3hkdTZrNFlpdFNjUXBVU1JmbHRnOGN6SFVUeEtIaFNjT2hVMkVmLXRjSk5mdVV6T3BQdTFSejJLYXl2bzN5elJrdUVOVDZOR2MwU0ZlcFBTLWtNUFBaU0FlNzBtdmhnaWprQ0ZSSk03UEhISmV1TUxNaldUSjNId1U?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260820T152242Z",
           "source": "GoogleNews"
         },
         {
@@ -2515,21 +2490,21 @@
           "source": "GoogleNews"
         },
         {
-          "title": "70th IAEA General Conference",
-          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxONnJ5YlBBcjBfSW53T3dZdmRrNUx1Ym5oMWd2M2xlRVFOUEpJRzVoWXRJbl93clJHRHNLTDhiMlZvaUZ6VjBsbzE4RlNQNTNYZURMcXp5cUVMdWpLQ1dlNFVCNnE1cjIwb0h6Y3c3ci1WYlk0ZFMxcG9Pa0xoME9kN00wNGtsUTRUeVZoTUtDNXg0UGluQ1Qzag?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260918T070000Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "Barbados Signs its First Country Programme Framework (CPF) for 2026–2031",
           "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQelZ2THNKYjFCR25YNUVkc2xuRGE3SmJ4eWpMVUVpWDFuSDlpTDdYSkhpUnFheEhuSXVlc0NqWF9YVUF0NVhhS1lyMzhZWHlGcFZlaWE3SUdxQWVwWTlMWkFjTkpiSWNBN2ZhUTYyZEtxT3NtRTVqQkRuS3d2Sy1qN1RaYXRZQUowZlIwUDhDVUF6WkVCLUR0dXVFa2RIMzJuMVBDWTI1d2ZMZw?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
           "seendate": "20260624T070000Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Dosimetry and quality assurance",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1Cak9uZTVmVHB2d2wtSWtnTzkzd0RoTWRnMzFaeGxVNkgwenpWRGVvZlZlMXRSdFpMRUlyNkI5YnljcjBKdk0wVGYxd2RCNm8wNWg5M2Rva25kOXBwNlRnU2RkTGpscnRVR293R0Zn?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260917T151541Z",
           "source": "GoogleNews"
         },
         {
@@ -2557,6 +2532,42 @@
           "language": "",
           "tone": 0,
           "seendate": "20260924T163931Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Requirements Engineering in the Life Cycle of Instrumentation and Control Systems in Nuclear Power Plants",
+          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQdFlrMlFsQlRVeVM5Z0JqRC15NGRaX3hMTzFaTlkzWHhheFFnZnByV0lVS2NjNnAyU1RIdFdDbTJkdjBmXzNzX2xSRjZnRFYtX1VjWkk4dTl5U2hrUzFET0tXV0ZNOW1yS1p0emluT1dIWHlBTmpDUDV3cThnZVJwa2hlLVZmZjluSlkyTjN5MnpYSzhsY2ZScW5NdFRHaVR0T0JwX0JIamNzemNiN0RwemFEWlZ4ZUtjSnNNR0l3SXk5QVlFSWhqTXV5N0s1d25DLUs1VnhQc280Z3ZP?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260730T183959Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Media Invited to the IAEA’s Scientific Forum on Rays of Hope: Delivering on the Promise of Cancer Care",
+          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQOGtaQmlJVmU1Y3JwNDNWM05TODg0MG5rTXNtQXJjazVtbzNhcjJyN0l5U3VEMDFSVXVyOTQ1ZndYV1g5bzZveTNOMTdkLTRQWFZ4T2ZiT1QyNXZ2Mk9KY0JfUmsteG1ZNUozOWZYS0gwYzdCX0pWbVA0Ny0wSm43cGtiU0o0cDRKNC1KdU9iSHYwcElfektDT280TzFsWlctdEhOQkI5ZUZKb0xNX1RlenVydVhIMkxtYlQtQkJTSmdrZ3YyUjJwcWJfbDljWjRVSnprVjBFV3dzR21XMkFfRQ?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260910T070000Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "70th IAEA General Conference",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQaW43LURxdXdMYVhWa1hyRTZ3SDV5ZVFJYVo3ZDBoeE1lUWZxaW5RYTB4TDNxTFZBWEQ5TWlXd3BDNjI0bFVkb0p4QjhhWGpUR1VoZjRKYlc4RXVfOTRra2lGWnZyV2pSVjV3V3RFOXNlcUU0T0FyeW5zODdSUUpDU0RSM1FEWHEyQWREZUlfZ2pOc3V6TVNfLWdZWmZKLUk3dVE?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260918T070000Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Strategy for the Prevention, Detection and Response to the Inadvertent Presence of Radioactive Material in Metal Recycling and Other Associated Processes",
+          "url": "https://news.google.com/rss/articles/CBMimwJBVV95cUxPdEVZRE5kX0Y4VjJXMDJibnZfQk1Cd3JxR0pQZ0pxUnBNZnJQZm8wZ0dPaGRWRHBqbkw0dGpzSkxmWjNXVFNQWjdrakw0S3VuUHhtZ05GcG9ieDhQLUJhZzZxLVpSMDNyOHQ4LUtMSnVDdGtYdEZpZUNNNEc2VmxNb1RiTHNOaDhoN1JDQ3NnWkVNa0UycXV3TDFPemVua05UU3BXQU9aRWpyZG9MaThzN2tNM2VCS3JvYmY2eGo4cDNDUmVlU3FrZ292dWhNdXNnbkFXQkJnc0JSSzRBZmd1WjJlbGQxM0JocHVhd1c4dmJZZkt3aU1SSDdscHdWWldnUG5pbmdydW9HY3dLb0E1SUFXendOV1p5V3ln?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260911T151206Z",
           "source": "GoogleNews"
         }
       ],
@@ -10310,6 +10321,38 @@
           "lon": 87.9952,
           "lat": 41.8774,
           "depth_km": 10,
+          "source": "USGS"
+        },
+        {
+          "id": "nn00925220",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1791035909036,
+          "magnitude": 2.65,
+          "magnitude_type": "ml",
+          "event_type": "earthquake",
+          "place": "58 km NNW of Rachel, Nevada",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00925220",
+          "lon": -116.0575,
+          "lat": 38.1089,
+          "depth_km": 0.0718,
+          "source": "USGS"
+        },
+        {
+          "id": "us6000tzcn",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1791035892786,
+          "magnitude": 3.3,
+          "magnitude_type": "ml",
+          "event_type": "earthquake",
+          "place": "21 km WNW of Preston, Nevada",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tzcn",
+          "lon": -115.3046,
+          "lat": 38.9639,
+          "depth_km": 5,
           "source": "USGS"
         },
         {
