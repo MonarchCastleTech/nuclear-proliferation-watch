@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "nuclear-proliferation-watch",
-    "generated": "2026-10-04T06:22:28.373111+00:00",
+    "generated": "2026-10-04T12:52:13.231059+00:00",
     "mode": "live",
     "sources": [
       "IAEA official pages",
@@ -14,7 +14,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-10-04T06:22:28.366894+00:00",
+    "issued_at": "2026-10-04T12:52:13.224273+00:00",
     "horizon": "0-30 days",
     "classification": "nuclear-escalation-pressure-not-test-or-weapon-probability",
     "score": 2.0,
@@ -88,7 +88,7 @@
         "available": true,
         "score": 0.0,
         "current_30d_diagnostic_weight": 0.0,
-        "events_considered": 1805,
+        "events_considered": 1806,
         "sites_monitored": 8,
         "anomaly_z": 0.0,
         "evidence": [],
@@ -1632,6 +1632,17 @@
           "facility_security_incidents": 4.5,
           "test_site_seismicity": 0.0
         }
+      },
+      {
+        "timestamp": "2026-10-04T12:52:13.224273+00:00",
+        "score": 2.0,
+        "level": "BASELINE",
+        "components": {
+          "iaea_safeguards_strain": 3.1,
+          "npwmd_designation_delta": 0.0,
+          "facility_security_incidents": 4.5,
+          "test_site_seismicity": 0.0
+        }
       }
     ],
     "data_health": {
@@ -2166,7 +2177,7 @@
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
-          "seendate": "20260925T023400Z",
+          "seendate": "20260925T070000Z",
           "source": "GoogleNews"
         },
         {
@@ -2369,7 +2380,7 @@
         },
         {
           "title": "Update 367 – IAEA Director General Statement on Situation in Ukraine",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOek9PaG4tYTJ3OTk0UUVMS0dhM3BKdGtGRWY4d3ZjMGptRHlTYmp6MVNHbGZLSlJyT0xYRDFFaFVORURWY1c5QkhDVzU3OWhxbVB1LXRXb2dLeUttOWpleWdfLTJsU04wUzRIbG1aX3AzWUJ5LVczV0Uta1pZQXlMVmI5dnlWZ2dyYmRvbGtqaElVdHhtaHFZZHZaZDJrYkVibzByaEVHN3hld21VaExBdQ?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQTTdia2oyZmhSbHNBb0ZkNDNBVkxMU2VVVVBrdHNjckE0ZGdPT2FzMS1EMG9SRG1JLUVBUHJ6ZUpSdy12d2wzUTUzblJTTXNQLWxVT2kzT0t2cGNrTVRoZW1lSDFOY1VTVWNhS2ljSzBfTGUxb29pcHJoXy1DZE9GanZlWnFLWGo0SU01amp4UXVyV1NqdGNZbDNUVS05VEdFRmtRcGxNYXFMeEZCUDJEamlR?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
@@ -2526,7 +2537,7 @@
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
-          "seendate": "20260915T060937Z",
+          "seendate": "20260915T070000Z",
           "source": "GoogleNews"
         },
         {
@@ -10343,6 +10354,22 @@
           "lon": 87.9952,
           "lat": 41.8774,
           "depth_km": 10,
+          "source": "USGS"
+        },
+        {
+          "id": "nn00925245",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1791095692133,
+          "magnitude": 2.17,
+          "magnitude_type": "ml",
+          "event_type": "earthquake",
+          "place": "17 km W of Preston, Nevada",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00925245",
+          "lon": -115.2641,
+          "lat": 38.9135,
+          "depth_km": 15.8406,
           "source": "USGS"
         },
         {
