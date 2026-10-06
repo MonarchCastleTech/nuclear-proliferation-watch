@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "nuclear-proliferation-watch",
-    "generated": "2026-10-05T15:18:15.077562+00:00",
+    "generated": "2026-10-06T00:21:43.481219+00:00",
     "mode": "live",
     "sources": [
       "IAEA official pages",
@@ -14,7 +14,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-10-05T15:18:15.068667+00:00",
+    "issued_at": "2026-10-06T00:21:43.472753+00:00",
     "horizon": "0-30 days",
     "classification": "nuclear-escalation-pressure-not-test-or-weapon-probability",
     "score": 2.0,
@@ -54,7 +54,7 @@
         "added": [],
         "removed": [],
         "publish_date": "2026-10-02",
-        "sha256": "49215a8e749832b34dbb577c83f00f4c3c1b8baf0f14a9bd91bdcf19de3a51e1",
+        "sha256": "880ce3f23ac99e766f90a93b00b939ca2ff80c4d6aca6380d6a8c58825fea9e0",
         "retained": false
       },
       {
@@ -88,7 +88,7 @@
         "available": true,
         "score": 0.0,
         "current_30d_diagnostic_weight": 0.0,
-        "events_considered": 1810,
+        "events_considered": 1807,
         "sites_monitored": 8,
         "anomaly_z": 0.0,
         "evidence": [],
@@ -1676,6 +1676,17 @@
           "facility_security_incidents": 4.5,
           "test_site_seismicity": 0.0
         }
+      },
+      {
+        "timestamp": "2026-10-06T00:21:43.472753+00:00",
+        "score": 2.0,
+        "level": "BASELINE",
+        "components": {
+          "iaea_safeguards_strain": 3.1,
+          "npwmd_designation_delta": 0.0,
+          "facility_security_incidents": 4.5,
+          "test_site_seismicity": 0.0
+        }
       }
     ],
     "data_health": {
@@ -1872,15 +1883,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "IAEA Draws Safeguards Conclusions for 179 States – IAEA Report",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxONExaN0Z5ZUx6V241VXo0MmNLdTRuekFvZ0R4TkRFOXZjS0twaDc4aW1pZEJFU2FPazg1R3dVQjl2TGlSaW9sd0tZYnE3RENwZDktQmpfdFFrQkFlSXhpdzhHYVNUNWJMMkpfeVdVVE9lUUJmV0U4aGhfV3E2cWcxWDY2bzVZSzlZS29mUWZMQnc1WlhvQmJMT0N1UDU?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260715T070000Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "Reaching the future Safeguards workforce: Early Career Avenues in the Department of Safeguards",
           "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5RbTJNRTkxZGxBNEUzanctVE5NSkZMZUlJWGtqMTlWX2c4b2FrNGpzTVFKR3pDSTEwc0IxSTcxdFVkT3JWOW1kajZ0dw?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -1914,6 +1916,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20260910T070000Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "IAEA Draws Safeguards Conclusions for 179 States – IAEA Report",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxONExaN0Z5ZUx6V241VXo0MmNLdTRuekFvZ0R4TkRFOXZjS0twaDc4aW1pZEJFU2FPazg1R3dVQjl2TGlSaW9sd0tZYnE3RENwZDktQmpfdFFrQkFlSXhpdzhHYVNUNWJMMkpfeVdVVE9lUUJmV0U4aGhfV3E2cWcxWDY2bzVZSzlZS29mUWZMQnc1WlhvQmJMT0N1UDU?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260715T070000Z",
           "source": "GoogleNews"
         },
         {
@@ -2156,7 +2167,7 @@
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
-          "seendate": "20261005T132058Z",
+          "seendate": "20261005T110607Z",
           "source": "GoogleNews"
         },
         {
@@ -2394,15 +2405,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "Short Statement by the Kingdom of Morocco delivered by H.E Azzeddine FARHANE, Ambassador, Permanent Representative at the70th se",
-          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9VaUE1bmhBbWtGdlBsOXJnOFF1cy1hYmxDd1RHMWZkQmxQbV9OM3JEZ1lJT1dlY1k0MDhZNHN6SlhQa1JZX0lxcU50S1QwMGJ2U2lPMWRONU9pVHVKLXdpVHcyNXpDc3V3c2xoWTAxNnd4dFhfcmc?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260914T070000Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "Director General's Statement to the Seventieth Regular Session of the IAEA General Conference",
           "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOTDZnbXNaWG5oZmZmaExtNWljc0ltMFlBTGJWejZ0MXJDOHdqeFZtejJVWXY0THFjSkZUTFJtRjFTTWJ0Y3lLSmk0cVBqYlJiMUgxWXpvZ1dvdldWRXZEX3Y5NDhKUlNFUnVTYmJOelJra3dIQTBhNEJTdHlZRnBCZjhEYWJtTzNWbm1rdEN0OC1QRVRxTFZQcjJnTHFXVkRaeWRfY1k1Qm9KOVdWbUxaSExQUVRMcmFfb19ZRXZnQ05VYmN6UWl0ay1oMV9kZk1U?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -2454,6 +2456,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20260916T104311Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Short Statement by the Kingdom of Morocco delivered by H.E Azzeddine FARHANE, Ambassador, Permanent Representative at the70th se",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9VaUE1bmhBbWtGdlBsOXJnOFF1cy1hYmxDd1RHMWZkQmxQbV9OM3JEZ1lJT1dlY1k0MDhZNHN6SlhQa1JZX0lxcU50S1QwMGJ2U2lPMWRONU9pVHVKLXdpVHcyNXpDc3V3c2xoWTAxNnd4dFhfcmc?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260914T070000Z",
           "source": "GoogleNews"
         },
         {
@@ -2517,15 +2528,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20260908T105958Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "From the IAEA Archives",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5vX251Z2tZSmc5Ui03QW9GTFdaUkg4ckdTYU5JQk1SdWp0TWswSUItX1psbDhTQmIxeXE5Nnp4MHRZUkJXLTQ0SDl2TllGQWFza0QyLWNQWFdSdTVXY1R1LTBoTQ?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20261003T171722Z",
           "source": "GoogleNews"
         },
         {
@@ -2619,21 +2621,30 @@
           "source": "GoogleNews"
         },
         {
-          "title": "Dosimetry and quality assurance",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1Cak9uZTVmVHB2d2wtSWtnTzkzd0RoTWRnMzFaeGxVNkgwenpWRGVvZlZlMXRSdFpMRUlyNkI5YnljcjBKdk0wVGYxd2RCNm8wNWg5M2Rva25kOXBwNlRnU2RkTGpscnRVR293R0Zn?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260917T151541Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "Update 362 – IAEA Director General Statement on Situation in Ukraine",
           "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQZ1kzQW5WWjZRY2plQzRVanZ5TE56OWozdlpHOEY0QXhHNWtMT0R0YXlMcEtRV2RxMjBhT2NTTHd1QWZzb2JMR3lTWDNHZFZIbEpmOFVRaDU4VVpGUFVYY1BnUHlkS2xuRkRqaURVVk9TTTNhaUptVEpEN3RqbGZpN3FPMXdjSzRCSVN6UzFVUk5RRlYwQWMxYTFwajFGOWkwQ3E1ZV84eW90SmpXcmFzdg?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
           "seendate": "20260814T070000Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "IAEA SMR School in the Russian Federation Offers Insights into Operating Technologies",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNZ3kyVlloLWVlUk94T2Y5dVZ1dHRoNUpMYzI4eDJzSE9tWkctSDZZM1M5QVN0UUNMYlJYSzJpbWhuNVgwQUxhNnFYcEd4bjZkcy1PaTdla1Y0aTV4XzJMRGFCa3NiMERWREFZTjNzT0lNZXc2eG5iUk9iY3ltQU1qTVk3ZkgtMHdiUXhrMWlzM3lCUng5dVlNOWVibnNPZzNlYVdvZHFqZHg2Rjh0bXdNS3BpWlRvWWUwbkd1UThR?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260930T104012Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Requirements Engineering in the Life Cycle of Instrumentation and Control Systems in Nuclear Power Plants",
+          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQdFlrMlFsQlRVeVM5Z0JqRC15NGRaX3hMTzFaTlkzWHhheFFnZnByV0lVS2NjNnAyU1RIdFdDbTJkdjBmXzNzX2xSRjZnRFYtX1VjWkk4dTl5U2hrUzFET0tXV0ZNOW1yS1p0emluT1dIWHlBTmpDUDV3cThnZVJwa2hlLVZmZjluSlkyTjN5MnpYSzhsY2ZScW5NdFRHaVR0T0JwX0JIamNzemNiN0RwemFEWlZ4ZUtjSnNNR0l3SXk5QVlFSWhqTXV5N0s1d25DLUs1VnhQc280Z3ZP?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260730T183959Z",
           "source": "GoogleNews"
         }
       ],
@@ -10144,7 +10155,7 @@
       ],
       "count": 1205,
       "publish_date": "2026-10-02",
-      "sha256": "49215a8e749832b34dbb577c83f00f4c3c1b8baf0f14a9bd91bdcf19de3a51e1",
+      "sha256": "880ce3f23ac99e766f90a93b00b939ca2ff80c4d6aca6380d6a8c58825fea9e0",
       "cached": false
     },
     "test_site_seismicity": {
@@ -10390,19 +10401,35 @@
           "source": "USGS"
         },
         {
+          "id": "nn00925326",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1791235475064,
+          "magnitude": 1.85,
+          "magnitude_type": "ml",
+          "event_type": "explosion",
+          "place": "55 km S of Kingston, Nevada",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00925326",
+          "lon": -117.0384,
+          "lat": 38.7119,
+          "depth_km": 0.0023,
+          "source": "USGS"
+        },
+        {
           "id": "nn00925310",
           "site": "Nevada National Security Site",
           "site_lat": 37.12,
           "site_lon": -116.05,
-          "time": 1791199135230,
-          "magnitude": 1.76,
+          "time": 1791199134707,
+          "magnitude": 1.73,
           "magnitude_type": "ml",
           "event_type": "earthquake",
-          "place": "52 km NE of Tonopah, Nevada",
+          "place": "74 km ENE of Tonopah, Nevada",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00925310",
-          "lon": -116.7288,
-          "lat": 38.3344,
-          "depth_km": 0.0581,
+          "lon": -116.5148,
+          "lat": 38.4273,
+          "depth_km": 6.4176,
           "source": "USGS"
         },
         {
@@ -10410,15 +10437,15 @@
           "site": "Nevada National Security Site",
           "site_lat": 37.12,
           "site_lon": -116.05,
-          "time": 1791180697630,
-          "magnitude": 1.54,
+          "time": 1791180697790,
+          "magnitude": 1.52,
           "magnitude_type": "ml",
           "event_type": "earthquake",
-          "place": "13 km NNE of Coso Junction, CA",
+          "place": "13 km NE of Coso Junction, CA",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41343351",
-          "lon": -117.872333333333,
-          "lat": 36.142,
-          "depth_km": 1.19,
+          "lon": -117.868,
+          "lat": 36.1415,
+          "depth_km": 3.65,
           "source": "USGS"
         },
         {
@@ -10451,22 +10478,6 @@
           "lon": -118.542167663574,
           "lat": 37.8871650695801,
           "depth_km": 15.0299997329712,
-          "source": "USGS"
-        },
-        {
-          "id": "nn00925285",
-          "site": "Nevada National Security Site",
-          "site_lat": 37.12,
-          "site_lon": -116.05,
-          "time": 1791167610047,
-          "magnitude": 1.76,
-          "magnitude_type": "ml",
-          "event_type": "earthquake",
-          "place": "5 km WNW of Round Valley, California",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00925285",
-          "lon": -118.6433,
-          "lat": 37.4441,
-          "depth_km": 9.3015,
           "source": "USGS"
         },
         {
@@ -10522,15 +10533,15 @@
           "site": "Nevada National Security Site",
           "site_lat": 37.12,
           "site_lon": -116.05,
-          "time": 1791132445790,
-          "magnitude": 2.52,
+          "time": 1791132447196,
+          "magnitude": 2.6,
           "magnitude_type": "ml",
           "event_type": "earthquake",
-          "place": "36 km ESE of Mina, Nevada",
+          "place": "35 km SE of Mina, Nevada",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00925269",
-          "lon": -117.7635,
-          "lat": 38.2097,
-          "depth_km": 4.1361,
+          "lon": -117.8162,
+          "lat": 38.1717,
+          "depth_km": 7.7888,
           "source": "USGS"
         },
         {
@@ -10570,15 +10581,15 @@
           "site": "Nevada National Security Site",
           "site_lat": 37.12,
           "site_lon": -116.05,
-          "time": 1791095692133,
-          "magnitude": 2.17,
+          "time": 1791095690535,
+          "magnitude": 1.98,
           "magnitude_type": "ml",
           "event_type": "earthquake",
-          "place": "17 km W of Preston, Nevada",
+          "place": "26 km WNW of Preston, Nevada",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00925245",
-          "lon": -115.2641,
-          "lat": 38.9135,
-          "depth_km": 15.8406,
+          "lon": -115.334,
+          "lat": 39.0181,
+          "depth_km": 8.2345,
           "source": "USGS"
         },
         {
@@ -10602,31 +10613,15 @@
           "site": "Nevada National Security Site",
           "site_lat": 37.12,
           "site_lon": -116.05,
-          "time": 1791035909036,
-          "magnitude": 2.65,
+          "time": 1791035893534,
+          "magnitude": 3.29,
           "magnitude_type": "ml",
           "event_type": "earthquake",
-          "place": "58 km NNW of Rachel, Nevada",
+          "place": "24 km W of Preston, Nevada",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00925220",
-          "lon": -116.0575,
-          "lat": 38.1089,
-          "depth_km": 0.0718,
-          "source": "USGS"
-        },
-        {
-          "id": "us6000tzcn",
-          "site": "Nevada National Security Site",
-          "site_lat": 37.12,
-          "site_lon": -116.05,
-          "time": 1791035892786,
-          "magnitude": 3.3,
-          "magnitude_type": "ml",
-          "event_type": "earthquake",
-          "place": "21 km WNW of Preston, Nevada",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tzcn",
-          "lon": -115.3046,
-          "lat": 38.9639,
-          "depth_km": 5,
+          "lon": -115.3439,
+          "lat": 38.9375,
+          "depth_km": 4.2187,
           "source": "USGS"
         },
         {
@@ -38966,22 +38961,6 @@
           "source": "USGS"
         },
         {
-          "id": "ci41103103",
-          "site": "Nevada National Security Site",
-          "site_lat": 37.12,
-          "site_lon": -116.05,
-          "time": 1759676863750,
-          "magnitude": 1.68,
-          "magnitude_type": "ml",
-          "event_type": "earthquake",
-          "place": "17 km ESE of Little Lake, CA",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41103103",
-          "lon": -117.73,
-          "lat": 35.8841667,
-          "depth_km": 2.38,
-          "source": "USGS"
-        },
-        {
           "id": "us7000tit3",
           "site": "Chagai",
           "site_lat": 28.9,
@@ -39091,22 +39070,6 @@
           "lon": 64.438,
           "lat": 28.7009,
           "depth_km": 81.701,
-          "source": "USGS"
-        },
-        {
-          "id": "us6000reyk",
-          "site": "Chagai",
-          "site_lat": 28.9,
-          "site_lon": 64.95,
-          "time": 1759670967416,
-          "magnitude": 4.9,
-          "magnitude_type": "mb",
-          "event_type": "earthquake",
-          "place": "76 km SSW of Chaman, Pakistan",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000reyk",
-          "lon": 66.145,
-          "lat": 30.2805,
-          "depth_km": 10,
           "source": "USGS"
         }
       ],
