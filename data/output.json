@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "nuclear-proliferation-watch",
-    "generated": "2026-10-06T18:37:45.566311+00:00",
+    "generated": "2026-10-06T22:48:20.655367+00:00",
     "mode": "live",
     "sources": [
       "IAEA official pages",
@@ -14,10 +14,10 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-10-06T18:37:45.557850+00:00",
+    "issued_at": "2026-10-06T22:48:20.647073+00:00",
     "horizon": "0-30 days",
     "classification": "nuclear-escalation-pressure-not-test-or-weapon-probability",
-    "score": 3.5,
+    "score": 7.6,
     "level": "BASELINE",
     "confidence": "HIGH",
     "confidence_score": 100.0,
@@ -26,17 +26,23 @@
         "id": "iaea_safeguards_strain",
         "label": "IAEA safeguards and access strain",
         "available": true,
-        "score": 7.3,
-        "current_14d_weight": 1.0,
-        "current_14d_titles": 11,
+        "score": 19.2,
+        "current_14d_weight": 2.0,
+        "current_14d_titles": 13,
         "baseline_periods": 8,
         "baseline_median": 0.5,
-        "anomaly_z": 0.67,
+        "anomaly_z": 2.02,
         "evidence": [
           {
             "title": "Technical Meeting on Verification and Validation of Software Related to Nuclear Power Plant Instrumentation and Control | IAEA",
             "url": null,
             "date": "2026-10-02",
+            "weight": 1.0
+          },
+          {
+            "title": "Health Dosimeter Plays an Unusual Role as a Safeguards Device",
+            "url": null,
+            "date": "2026-10-06",
             "weight": 1.0
           }
         ],
@@ -88,7 +94,7 @@
         "available": true,
         "score": 0.0,
         "current_30d_diagnostic_weight": 0.0,
-        "events_considered": 1811,
+        "events_considered": 1815,
         "sites_monitored": 8,
         "anomaly_z": 0.0,
         "evidence": [],
@@ -1709,6 +1715,17 @@
           "facility_security_incidents": 4.5,
           "test_site_seismicity": 0.0
         }
+      },
+      {
+        "timestamp": "2026-10-06T22:48:20.647073+00:00",
+        "score": 7.6,
+        "level": "BASELINE",
+        "components": {
+          "iaea_safeguards_strain": 19.2,
+          "npwmd_designation_delta": 0.0,
+          "facility_security_incidents": 4.5,
+          "test_site_seismicity": 0.0
+        }
       }
     ],
     "data_health": {
@@ -1756,7 +1773,7 @@
   "stats": [
     {
       "label": "Escalation Pressure",
-      "value": "3.5/100",
+      "value": "7.6/100",
       "delta": "BASELINE"
     },
     {
@@ -1806,21 +1823,21 @@
           "source": "GoogleNews"
         },
         {
-          "title": "Application of IAEA safeguards in the Middle East",
-          "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE45QWtpajZpM1hFVkVVSXZJandqYkhCVmtXMjRTcVpaMmN2aXVpdVVzb0xEX2drdkZUeUdhY1ZYRHJfd05GSXJkMEpB?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260916T070000Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "Technical Meeting on Verification and Validation of Software Related to Nuclear Power Plant Instrumentation and Control | IAEA",
           "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE8wSGtVNXNtem4teENfX0hHT3hwU1FEWGxWSHpfSHJHcXpkTDV6LV9UUTdneU5qSWtqTVEySTBzYm1vYlFJS2xOVWwyaw?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
           "seendate": "20261002T210629Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Health Dosimeter Plays an Unusual Role as a Safeguards Device",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOTkR4MktQdWlBWVNBWkJGTjM0QWF3b2hLd0t4d0QyRXVPMVZUTTU0SmhHbUFrVGVGU0VSQzRlaDJXM2Z4VENWNVczWWpNeWR4MlJsOGM4dlB0ZGIzTEhCWGRKWHpfYnhwNkYwdVFpaE00dU9QSGhjMURaM001dmk4eFI2MlpkM0NCQ2ZTd3hSaEpVNzlUUXUyNUdpR0VMelpZc0V5TFZWQm41S0lPRmww?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20261006T060738Z",
           "source": "GoogleNews"
         },
         {
@@ -2283,15 +2300,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "International Symposium on Nuclear Energy R&D: Advancements and Trends 2026 - Programme",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA5ZjF6ekFVOWluWnV4VF83NEsxc3pHMzNHNjJ3cjRhUUJsMXNneHBacFNLYlUyVjhxRzVyQTdYR3Z5MzA3T1FUb0tGWVZHRnZJUE42eWRIQlRhbFRaaUJ5bFV3N0NsUF9OeWc?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260929T191626Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "Colton, John P.",
           "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE55anhWQTJ5R2oxNzUzVkNRUEd2eWtobTlzbjBRQXRZcjQxX1p0cVpYcTUwdHJGbnYyTk1vN0wtTVNHcElmR2lPVjRLZHJWeTg?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -2328,6 +2336,15 @@
           "source": "GoogleNews"
         },
         {
+          "title": "International Symposium on Nuclear Energy R&D: Advancements and Trends 2026 - Programme",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA5ZjF6ekFVOWluWnV4VF83NEsxc3pHMzNHNjJ3cjRhUUJsMXNneHBacFNLYlUyVjhxRzVyQTdYR3Z5MzA3T1FUb0tGWVZHRnZJUE42eWRIQlRhbFRaaUJ5bFV3N0NsUF9OeWc?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260929T191626Z",
+          "source": "GoogleNews"
+        },
+        {
           "title": "United States of America–IAEA Nuclear Energy Management School",
           "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBVWlVmcEdNbXNDV3paU3l2allROHBEWHowM1lSbFNaVGdxLXFEV2ptTHBrVFdnRFdXeTN1NFBsU3FOMndPa2M3WGtpSVBwdw?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -2343,15 +2360,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20260710T070000Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "European Union EU Statement at the General Debate 70th General Conference International Atomic Energy Agency (IAEA) Vienna, 14-",
-          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBFZTRiQ2daTUZDMzJxbkQ2U2VrYlhTd0poYW82dkZ3Q1RBOXJJRGpxbExhUS1yNU1NZ0xUQk9COUVaai0waVZFcXg4QzR6dVVSTDdHRU5wZEhGMkt1V0tadFBDT2xfMWhuaEcwa1EzOA?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260918T070000Z",
           "source": "GoogleNews"
         },
         {
@@ -2433,6 +2441,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20260619T070000Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Short Statement by the Kingdom of Morocco delivered by H.E Azzeddine FARHANE, Ambassador, Permanent Representative at the70th se",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9VaUE1bmhBbWtGdlBsOXJnOFF1cy1hYmxDd1RHMWZkQmxQbV9OM3JEZ1lJT1dlY1k0MDhZNHN6SlhQa1JZX0lxcU50S1QwMGJ2U2lPMWRONU9pVHVKLXdpVHcyNXpDc3V3c2xoWTAxNnd4dFhfcmc?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260914T070000Z",
           "source": "GoogleNews"
         },
         {
@@ -2553,15 +2570,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "PhD Advisor Release & Recommendation Form LMP France (CEA and ITER)",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOREdmNFk0dk4wYWFMNVVYVWwtZUd2aWoxa1lkQVJ6cUh1X3BWSUgzWjNLeDlvOFR5WXpUM0trZDUyMXVHWUpTNDJqU2JWOXZpZS1VTjNvTVVadnliY0xUQlJMeEtYd25GLVpQczJwTUF3a29sM1d5bGMwbHplN2hnZ2RYcmxONTJXNV9rV0d6LVVPVDNHRDI1bjRHb012YkFtVVNXRjhIZExTUkpYZkZqTnRB?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260919T004020Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "70th IAEA General Conference",
           "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxONnJ5YlBBcjBfSW53T3dZdmRrNUx1Ym5oMWd2M2xlRVFOUEpJRzVoWXRJbl93clJHRHNLTDhiMlZvaUZ6VjBsbzE4RlNQNTNYZURMcXp5cUVMdWpLQ1dlNFVCNnE1cjIwb0h6Y3c3ci1WYlk0ZFMxcG9Pa0xoME9kN00wNGtsUTRUeVZoTUtDNXg0UGluQ1Qzag?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -2595,6 +2603,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20260930T104012Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "African NORM and Radon Association (ANRA)",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNRVVDSFA1YmdwVG9OWXpPUmcyS0RYNmlBZmNaSXJ6Z3dJYmpFZHRQYi1MQkt3ZFdnamk3bVBOSDBoT2xGeExJLXh6MWdsbGZEUXZTMHpPR3cxV2VNdzJJSU5xTjlEOHdVU2t5N1ptR2YzRDFlX0g4V3FuZlJ4UEdVZmZub3Q4UQ?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260924T163931Z",
           "source": "GoogleNews"
         },
         {
@@ -10199,6 +10216,22 @@
           "source": "USGS"
         },
         {
+          "id": "us6000u0jq",
+          "site": "Lop Nur",
+          "site_lat": 41.69,
+          "site_lon": 88.42,
+          "time": 1791310534402,
+          "magnitude": 4.9,
+          "magnitude_type": "mb",
+          "event_type": "earthquake",
+          "place": "114 km SW of Turpan, China",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u0jq",
+          "lon": 88.2203,
+          "lat": 42.2039,
+          "depth_km": 10,
+          "source": "USGS"
+        },
+        {
           "id": "us7000tduj",
           "site": "Lop Nur",
           "site_lat": 41.69,
@@ -10420,6 +10453,54 @@
           "lon": 87.9952,
           "lat": 41.8774,
           "depth_km": 10,
+          "source": "USGS"
+        },
+        {
+          "id": "nn00925389",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1791317811387,
+          "magnitude": 3.3,
+          "magnitude_type": "ml",
+          "event_type": "earthquake",
+          "place": "19 km W of Preston, Nevada",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00925389",
+          "lon": -115.2807,
+          "lat": 38.9003,
+          "depth_km": 3.6175,
+          "source": "USGS"
+        },
+        {
+          "id": "nc75445616",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1791315850140,
+          "magnitude": 1.85,
+          "magnitude_type": "md",
+          "event_type": "earthquake",
+          "place": "19 km SW of Toms Place, CA",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75445616",
+          "lon": -118.833999633789,
+          "lat": 37.4415016174316,
+          "depth_km": -0.519999980926514,
+          "source": "USGS"
+        },
+        {
+          "id": "nn00925387",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1791314338551,
+          "magnitude": 1.52,
+          "magnitude_type": "ml",
+          "event_type": "earthquake",
+          "place": "51 km S of Silver Peak, Nevada",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00925387",
+          "lon": -117.6035,
+          "lat": 37.2874,
+          "depth_km": 7.8997,
           "source": "USGS"
         },
         {
@@ -39209,6 +39290,12 @@
       "title": "Technical Meeting on Verification and Validation of Software Related to Nuclear Power Plant Instrumentation and Control | IAEA",
       "url": null,
       "date": "2026-10-02",
+      "weight": 1.0
+    },
+    {
+      "title": "Health Dosimeter Plays an Unusual Role as a Safeguards Device",
+      "url": null,
+      "date": "2026-10-06",
       "weight": 1.0
     },
     {
