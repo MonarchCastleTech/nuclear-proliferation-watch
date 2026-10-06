@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "nuclear-proliferation-watch",
-    "generated": "2026-10-06T00:21:43.481219+00:00",
+    "generated": "2026-10-06T06:52:47.652141+00:00",
     "mode": "live",
     "sources": [
       "IAEA official pages",
@@ -14,7 +14,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-10-06T00:21:43.472753+00:00",
+    "issued_at": "2026-10-06T06:52:47.647192+00:00",
     "horizon": "0-30 days",
     "classification": "nuclear-escalation-pressure-not-test-or-weapon-probability",
     "score": 2.0,
@@ -28,7 +28,7 @@
         "available": true,
         "score": 3.1,
         "current_14d_weight": 1.0,
-        "current_14d_titles": 11,
+        "current_14d_titles": 13,
         "baseline_periods": 8,
         "baseline_median": 0.9,
         "anomaly_z": 0.07,
@@ -1687,6 +1687,17 @@
           "facility_security_incidents": 4.5,
           "test_site_seismicity": 0.0
         }
+      },
+      {
+        "timestamp": "2026-10-06T06:52:47.647192+00:00",
+        "score": 2.0,
+        "level": "BASELINE",
+        "components": {
+          "iaea_safeguards_strain": 3.1,
+          "npwmd_designation_delta": 0.0,
+          "facility_security_incidents": 4.5,
+          "test_site_seismicity": 0.0
+        }
       }
     ],
     "data_health": {
@@ -1785,20 +1796,11 @@
         },
         {
           "title": "Symposium on International Safeguards: Innovation and Resilience in a Changing World - Safeguards as a Shared Responsibility - Training Days | IAEA",
-          "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE51eFRXR1NXU1dlUG92THhYeEJyX1NicGRHMUtCckY1SkpGMTNWSEhaX0QxUEQ2N0ZrYjdXdzFrcmg5V2xFNHlhcUNHWQ?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5uNVdoNk1LSGllX1VybGJyY2RFVV9YRURmUjh3UWpEMlJRR2NkczUzVVM4QmFCUVNWMWV5S3BPaTdVSER0REtNRjBCbw?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
-          "seendate": "20260918T142920Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "Application of IAEA safeguards in the Middle East",
-          "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE45QWtpajZpM1hFVkVVSXZJandqYkhCVmtXMjRTcVpaMmN2aXVpdVVzb0xEX2drdkZUeUdhY1ZYRHJfd05GSXJkMEpB?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260916T070000Z",
+          "seendate": "20260918T195602Z",
           "source": "GoogleNews"
         },
         {
@@ -1808,6 +1810,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20261002T210629Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Nuclear safety, security and safeguards in Ukraine",
+          "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE5GUDNjcnpmOXJmLWVySnZtVjI3djlFS3hBZHZJLWV0TTUwWVFwUUVrcU5PVjliSDdxWkl6MFRjOGhsbW1XeDFmZzNR?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260916T070000Z",
           "source": "GoogleNews"
         },
         {
@@ -1871,15 +1882,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20260915T163102Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "IAEA Director General's Introductory Statement to the Board of Governors",
-          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPbW9JcGhHaGhiMTQ0X2lDWXBtclkxaU9fSTRZSmxwQWN5NnMycTdZQlM3NHcxN0JGT1RvUnVKRkdSWFhzQk5oTEtPbWttSDlvRFgyZWtiV3VHRGZQWmR6TmhjT0dxMHR0QXktUXVZSlJodzZMb3NhTnJRd0xBTm5kOHQ3S1BDTkNWdFpvZGpkX2Jpd3hUZ3A2SFdXZFMwRXpmR1ZYdTcyYmloRGFzWWxlZVhjekczdmJ6RUdGMjFEZDhSVjFpUnlKYnNn?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260907T070000Z",
           "source": "GoogleNews"
         },
         {
@@ -2360,15 +2362,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "The Science Behind U.S. Advanced Reactors: From Innovation to Deployment",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQV3oyTXE1VmVfVDh6UU1IVlNfOWhFZDhPT3FyWjNidzFibC02TGs1Ny1kSVBsZy1idXNURmp0V3Myb3Y3YTZCUXRGZ3hkdTZrNFlpdFNjUXBVU1JmbHRnOGN6SFVUeEtIaFNjT2hVMkVmLXRjSk5mdVV6T3BQdTFSejJLYXl2bzN5elJrdUVOVDZOR2MwU0ZlcFBTLWtNUFBaU0FlNzBtdmhnaWprQ0ZSSk03UEhISmV1TUxNaldUSjNId1U?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260820T152242Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "International High-level Forum on the ATLAS Launch - Programme | IAEA",
           "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE0wcE5HaXBzY1dVM19BemtzVUJVLWlqRkJvU1hrWTFZVTA1cGdXV2YwMVJ3eEpfQmxwajBkMlpEVVFEbjI0U2Q2ZTBXWG5udW5XZWNEeWdVZzhoQQ?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -2549,15 +2542,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "Employer Release & Recommendation Form LMP France (CEA and ITER)",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQeE9Rakk2SFdOc1JWa2JaNjRfQmlDUUs3Ul9Rajhkdzl2MEMwZi1Ca29wYXJaZU5KSjktMTJnM21XSHl6aW8yWEx0X1VocjhnbUNUYUxaNHpjcmFzMW94SlBZOVhQMUFvRVROanQyWHBJbGN3VE15MVBqZ1drbkFSUTBQamxMdUlRQjVaaGZjRUFtWWNFZVV6LXRfaFA4UU5YN0tVYjQyU09YU0ZyZmc?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260919T004015Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "Social and Economic Impact Assessment of Hydrology and Groundwater Projects under the RCA",
           "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNMGZRM2pPdGdKV01KR21TWUx1a1pjQ2dNUXVwYWF4U0EzZHYxaVNMWWNQbnRwVHZ5RkVZVllwaUl4MjJIV2lpdHNJMUI3aWpJaGdTLWJjMllHQnY0Z0NzRnEtUmtnMlJabE0wUUpiQ0xUTVNlcGZnRGF0TmZJTDFVaEN4bEVESXUwek1PNXp2QU1RN29JY1NuVTg2UGxURmxGZjVYbXhYemhuU1c0eUdDYktWaG5UTGlKVUwtY3UzMlU5OUp3Rlpv?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -2639,12 +2623,39 @@
           "source": "GoogleNews"
         },
         {
+          "title": "African NORM and Radon Association (ANRA)",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNRVVDSFA1YmdwVG9OWXpPUmcyS0RYNmlBZmNaSXJ6Z3dJYmpFZHRQYi1MQkt3ZFdnamk3bVBOSDBoT2xGeExJLXh6MWdsbGZEUXZTMHpPR3cxV2VNdzJJSU5xTjlEOHdVU2t5N1ptR2YzRDFlX0g4V3FuZlJ4UEdVZmZub3Q4UQ?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260924T163931Z",
+          "source": "GoogleNews"
+        },
+        {
           "title": "Requirements Engineering in the Life Cycle of Instrumentation and Control Systems in Nuclear Power Plants",
           "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQdFlrMlFsQlRVeVM5Z0JqRC15NGRaX3hMTzFaTlkzWHhheFFnZnByV0lVS2NjNnAyU1RIdFdDbTJkdjBmXzNzX2xSRjZnRFYtX1VjWkk4dTl5U2hrUzFET0tXV0ZNOW1yS1p0emluT1dIWHlBTmpDUDV3cThnZVJwa2hlLVZmZjluSlkyTjN5MnpYSzhsY2ZScW5NdFRHaVR0T0JwX0JIamNzemNiN0RwemFEWlZ4ZUtjSnNNR0l3SXk5QVlFSWhqTXV5N0s1d25DLUs1VnhQc280Z3ZP?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
           "seendate": "20260730T183959Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Media Invited to the IAEA’s Scientific Forum on Rays of Hope: Delivering on the Promise of Cancer Care",
+          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQOGtaQmlJVmU1Y3JwNDNWM05TODg0MG5rTXNtQXJjazVtbzNhcjJyN0l5U3VEMDFSVXVyOTQ1ZndYV1g5bzZveTNOMTdkLTRQWFZ4T2ZiT1QyNXZ2Mk9KY0JfUmsteG1ZNUozOWZYS0gwYzdCX0pWbVA0Ny0wSm43cGtiU0o0cDRKNC1KdU9iSHYwcElfektDT280TzFsWlctdEhOQkI5ZUZKb0xNX1RlenVydVhIMkxtYlQtQkJTSmdrZ3YyUjJwcWJfbDljWjRVSnprVjBFV3dzR21XMkFfRQ?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260910T070000Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "IAEA Launches Research Project on Spent Fuel Characterization",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNVU9raHcyWnFlaHZNU0ZkN3VQWmlSMkpXXzNNNFpDWmVnaUZjVnZDRzVNUUxhLXMtNXc5cy1HUjY2bU5fZ3Z2Y1dSclNFeE5TNDZaZnZGZ3JWN3hmeGRuRE9KbDQtSlJRc1JBUEFxNVpPcE1qTkRrdW5Hck1oNDhTLWJvVGwzY1pNekl2ZWpKMDBhdmxaSDhnVmpxQlhDT3M?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20261005T100624Z",
           "source": "GoogleNews"
         }
       ],
@@ -10485,15 +10496,15 @@
           "site": "Nevada National Security Site",
           "site_lat": 37.12,
           "site_lon": -116.05,
-          "time": 1791139777530,
-          "magnitude": 1.83,
+          "time": 1791139761506,
+          "magnitude": 2.23,
           "magnitude_type": "ml",
           "event_type": "earthquake",
-          "place": "67 km NNW of Rachel, Nevada",
+          "place": "24 km W of Preston, Nevada",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00925278",
-          "lon": -115.931,
-          "lat": 38.238,
-          "depth_km": 7.7108,
+          "lon": -115.3428,
+          "lat": 38.9395,
+          "depth_km": 0.9541,
           "source": "USGS"
         },
         {
