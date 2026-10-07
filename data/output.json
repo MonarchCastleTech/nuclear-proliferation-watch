@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "nuclear-proliferation-watch",
-    "generated": "2026-10-06T22:48:20.655367+00:00",
+    "generated": "2026-10-07T06:30:56.473283+00:00",
     "mode": "live",
     "sources": [
       "IAEA official pages",
@@ -14,7 +14,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-10-06T22:48:20.647073+00:00",
+    "issued_at": "2026-10-07T06:30:56.464797+00:00",
     "horizon": "0-30 days",
     "classification": "nuclear-escalation-pressure-not-test-or-weapon-probability",
     "score": 7.6,
@@ -94,7 +94,7 @@
         "available": true,
         "score": 0.0,
         "current_30d_diagnostic_weight": 0.0,
-        "events_considered": 1815,
+        "events_considered": 1813,
         "sites_monitored": 8,
         "anomaly_z": 0.0,
         "evidence": [],
@@ -1726,14 +1726,25 @@
           "facility_security_incidents": 4.5,
           "test_site_seismicity": 0.0
         }
+      },
+      {
+        "timestamp": "2026-10-07T06:30:56.464797+00:00",
+        "score": 7.6,
+        "level": "BASELINE",
+        "components": {
+          "iaea_safeguards_strain": 19.2,
+          "npwmd_designation_delta": 0.0,
+          "facility_security_incidents": 4.5,
+          "test_site_seismicity": 0.0
+        }
       }
     ],
     "data_health": {
       "available_components": 4,
       "retained_components": [],
-      "iaea_titles": 99,
+      "iaea_titles": 100,
       "npwmd_entries": 1205,
-      "iaea_events": 24,
+      "iaea_events": 23,
       "test_sites": 8
     },
     "method": {
@@ -1778,7 +1789,7 @@
     },
     {
       "label": "IAEA Signals",
-      "value": "99",
+      "value": "100",
       "delta": "official indexed pages"
     },
     {
@@ -2120,6 +2131,15 @@
           "source": "GoogleNews"
         },
         {
+          "title": "INIS – International Nuclear Information System",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1HOXU0aUROeWp0Zmx3R0Zuc3pIc2tyUl91a0FUekpLa1Y4QVliMU1zSU8ya0hnMlotNDhzT2dDTE03SlhMZXZVc3ZxTE9xbzcyWDB2RlRsQkNydw?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20261006T232523Z",
+          "source": "GoogleNews"
+        },
+        {
           "title": "Videos",
           "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1lQm01SUNjLVdMQ1JZMzI5VE92eTBURjMxVUdtQldCUmNNVC1KRTNzNlZRd1Z2SUNuVDB1VUlFU2k0c3R3TTktZm9OOHY2cTZGUk1BZVpzdkhTV2U1?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -2144,15 +2164,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20250531T052238Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "Board of Governors | IAEA",
-          "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9Zd0V1MXBqbGV3VmFRQ2xnbkV3eF9YVjJoSUpXekdPRTd3OExGZ0gxTm0yMEs3aVNoYnJvQk1kRDIwZmptV1lQU0NCZXFfUQ?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20251014T203744Z",
           "source": "GoogleNews"
         },
         {
@@ -2408,15 +2419,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "International High-level Forum on the ATLAS Launch | IAEA",
-          "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFAwOUVjcklwUEtJNHdmSE8xS1FPQ2h3VUlQdXM4RnB0elMxVkFCTkJzdjV2cG55TVdrUHJTWlVSTTNDZ1VhNEV0OHBUekk?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260827T070000Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "Update 367 – IAEA Director General Statement on Situation in Ukraine",
           "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOek9PaG4tYTJ3OTk0UUVMS0dhM3BKdGtGRWY4d3ZjMGptRHlTYmp6MVNHbGZLSlJyT0xYRDFFaFVORURWY1c5QkhDVzU3OWhxbVB1LXRXb2dLeUttOWpleWdfLTJsU04wUzRIbG1aX3AzWUJ5LVczV0Uta1pZQXlMVmI5dnlWZ2dyYmRvbGtqaElVdHhtaHFZZHZaZDJrYkVibzByaEVHN3hld21VaExBdQ?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -2441,15 +2443,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20260619T070000Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "Short Statement by the Kingdom of Morocco delivered by H.E Azzeddine FARHANE, Ambassador, Permanent Representative at the70th se",
-          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9VaUE1bmhBbWtGdlBsOXJnOFF1cy1hYmxDd1RHMWZkQmxQbV9OM3JEZ1lJT1dlY1k0MDhZNHN6SlhQa1JZX0lxcU50S1QwMGJ2U2lPMWRONU9pVHVKLXdpVHcyNXpDc3V3c2xoWTAxNnd4dFhfcmc?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260914T070000Z",
           "source": "GoogleNews"
         },
         {
@@ -2489,15 +2482,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "Technical Reports Series",
-          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFA0X1k0MzZ1TkF1X1JsRnN6a3JxbDRjcTMxNWtJb3B0WnU4dE1aSHdXNUZnVkx5b0F5WGZrLVFJQkdQQXdKVDg0cVU5NVZKRHFGb2xoZkZYZzZCZk91eDdjUlY1alF3VVRWQ2ZZOTY4elZRSHloOXlPOFhqYUs5dw?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260927T141957Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "Home: International Conference on Topical Issues in Nuclear Installation Safety | IAEA",
           "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1hM0NUREFfazQtbUZubHNNNHJmMW5JUkhIelhxb19SZjk3ZFlvNmZ5RUc2Uk9CbE1yUzczZ3JsVG40LW5iUFpCM2RB?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -2513,6 +2497,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20260908T105958Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Software Applications",
+          "url": "https://news.google.com/rss/articles/CBMitwJBVV95cUxNVXFtVGd1Tmd2QWZGNnczYUVhQS1ndzh5akVSUXpKNFJXLUJKclg5YUQzQzhzSExycmJDdjJUZEJZblotZm8xaHFVeFZ5SGpUWDdqMmF5WGhzVWRwQkVKV0dUdzFBT0JiZV8xRlJXdWpOUjRfb1JEUjhEal9iVzV1dGQ5UnFEakE0VjNSYlJHRFZVLUdORXdGcE5iVmducHdXQVhsVERnaFVWd01GU3JQalFsZ0p2bEtQTlRuT0hTMHpZMWEzWW9mRTN0bmw1MXlFdld1UDF5M1FYdURvOHV1OTVldzdnRFFVZ3NRYlhfWEoxTEx2ckhxWEZZZmpLRDdUdnBjejFwZGRCa2YxWmZYOVlBdjN2S1pGQjdhTzQ4NVVhTmM3aTdTTXQ4OUZ1bFpaYnBMQTBRTQ?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20261007T010938Z",
           "source": "GoogleNews"
         },
         {
@@ -2606,15 +2599,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "African NORM and Radon Association (ANRA)",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNRVVDSFA1YmdwVG9OWXpPUmcyS0RYNmlBZmNaSXJ6Z3dJYmpFZHRQYi1MQkt3ZFdnamk3bVBOSDBoT2xGeExJLXh6MWdsbGZEUXZTMHpPR3cxV2VNdzJJSU5xTjlEOHdVU2t5N1ptR2YzRDFlX0g4V3FuZlJ4UEdVZmZub3Q4UQ?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260924T163931Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "Requirements Engineering in the Life Cycle of Instrumentation and Control Systems in Nuclear Power Plants",
           "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQdFlrMlFsQlRVeVM5Z0JqRC15NGRaX3hMTzFaTlkzWHhheFFnZnByV0lVS2NjNnAyU1RIdFdDbTJkdjBmXzNzX2xSRjZnRFYtX1VjWkk4dTl5U2hrUzFET0tXV0ZNOW1yS1p0emluT1dIWHlBTmpDUDV3cThnZVJwa2hlLVZmZjluSlkyTjN5MnpYSzhsY2ZScW5NdFRHaVR0T0JwX0JIamNzemNiN0RwemFEWlZ4ZUtjSnNNR0l3SXk5QVlFSWhqTXV5N0s1d25DLUs1VnhQc280Z3ZP?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -2684,6 +2668,42 @@
           "language": "",
           "tone": 0,
           "seendate": "20260911T090605Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "IAEA Board of Governors Elects New Chairperson for 2026-2027",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNbzNvelAwTmRvaTdXSnRTS0RUNjlQNHJxNzJZVWZFWGJMVl9WbmFFdTVHVWNESzFfNXo2VFROWkZMVnV4cWRsLVh3X1NDR0E3ckVUb29tZExDN3RGUE5RWnlocFJ5c3M5S25Xc2E4bGE2WUt5LXdMXzFHa1d0MmVDNnI3OVNBTHVtd0ZkZG9VZnNGYXJ2a3B4emhOMmU?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260921T070000Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "18th Plenary Meeting of the Forum of Nuclear Regulatory Bodies in Africa (FNRBA)",
+          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQX3pFeVFrOUJvQWJrLWd1N0FSZU0yM0xPTG1ZM0Vael8xdkVicUxLVGw0VTVwZ1ByMlZtdUdPZ05BUEMwQlpoX25YMXhVV3RkdjdhZW1zaXUtUXJ1RHNOZkNQT0dZNUdIT1BuaDE3N0ZrRkJ1Yjg5TVVzOF9LUjRld1ZFQjhVY0dBNW1hbktBWGNwYW9ZaU9nWHJQZ3JYZGZmc3RKVDVzbzFybno2VGNwSDRxcTBJeVFHcWJvcjdUT1ZrdVZEeWhaOXZaUXVQMzJq?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260920T222705Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Training Workshop on Innovations in Data Analysis and Retrieval for Nuclear Decommissioning",
+          "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1oVnlFbEhzRnlVRkFWOW1PNm9ZNDRCQTdodlRsMXl1dFhCZWhkMWY0eGZGMUxYWEVRTkxDb3FDeEJPYXliVWpHRHdYeWszdw?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20251223T043055Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "New Members Elected to the IAEA Board of Governors",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQV3pDLUlhWlVlRHRidF9fSXFreG1rU1M4TjVQTUtZZ0ttWGh5WmVfVGZlQ2FONHQ0RWNNM2xyQ3R4ZWlMblM4UjhqYWhzZFJvZ3Zia3A4VmlEVTRpOTFUbnZOVkNGdzJBSVEtTjJrdFhMR2h1ZTlwMnlueE1tRjZnZDVDQlVoSHRPU0FTc3pMNDJKZHJOeXc?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260918T070000Z",
           "source": "GoogleNews"
         }
       ],
@@ -2943,17 +2963,6 @@
           "reported_by": "State Office for Nuclear Safety",
           "reported_date": "27 Nov 2025",
           "description": "The museum in Roztoky near Prague operates an irradiation chamber that is used to destroy insects in collection items with gamma radiation. For this purpose, a sealed radionuclide source of Co-60 with an actual activity of 127 TBq on the date of the event is used. On 1. 9. 2025, a radiation... Reported by State Office for Nuclear Safety of Czech Republic on 27 Nov 2025. Last update on 27 Nov 2025",
-          "source": "IAEA NEWS"
-        },
-        {
-          "title": "Radiation worker exposure",
-          "url": "https://www-news.iaea.org/ErfView.aspx?mId=b78cf9b2-0861-4b6a-8f43-d1a51f20ae8e",
-          "country": "Czech Republic",
-          "event_date": "13 Jan 2025",
-          "ines": "2",
-          "reported_by": "State Office for Nuclear Safety",
-          "reported_date": "07 Oct 2025",
-          "description": "On 13. 1. 2025, the lcencee reported a radiation emergency when an unplanned radiation exposure of a radiation worker occurred. The worker was in the radiation room with a source of ionizing radiation - the Chisostat SO 1 irradiator, which contained a sealed radionuclide source (\"URZ\") Co-60 with... Reported by State Office for Nuclear Safety of Czech Republic on 07 Oct 2025. Last update on 07 Oct 2025",
           "source": "IAEA NEWS"
         }
       ],
@@ -10456,6 +10465,22 @@
           "source": "USGS"
         },
         {
+          "id": "nn00925395",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1791324235222,
+          "magnitude": 1.83,
+          "magnitude_type": "ml",
+          "event_type": "earthquake",
+          "place": "21 km W of Preston, Nevada",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00925395",
+          "lon": -115.3105,
+          "lat": 38.9424,
+          "depth_km": 7.0189,
+          "source": "USGS"
+        },
+        {
           "id": "nn00925389",
           "site": "Nevada National Security Site",
           "site_lat": 37.12,
@@ -10684,15 +10709,15 @@
           "site": "Nevada National Security Site",
           "site_lat": 37.12,
           "site_lon": -116.05,
-          "time": 1791135310138,
-          "magnitude": 1.64,
+          "time": 1791135309932,
+          "magnitude": 1.59,
           "magnitude_type": "ml",
           "event_type": "earthquake",
-          "place": "26 km S of Alamo, Nevada",
+          "place": "29 km S of Alamo, Nevada",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00925271",
-          "lon": -115.1445,
-          "lat": 37.1302,
-          "depth_km": 6.6623,
+          "lon": -115.1312,
+          "lat": 37.097,
+          "depth_km": 11.5484,
           "source": "USGS"
         },
         {
@@ -39077,54 +39102,6 @@
           "lon": -114.529,
           "lat": 37.2705,
           "depth_km": 2.7,
-          "source": "USGS"
-        },
-        {
-          "id": "ci41103527",
-          "site": "Nevada National Security Site",
-          "site_lat": 37.12,
-          "site_lon": -116.05,
-          "time": 1759745529600,
-          "magnitude": 1.95,
-          "magnitude_type": "ml",
-          "event_type": "earthquake",
-          "place": "21 km ESE of Little Lake, CA",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41103527",
-          "lon": -117.6905,
-          "lat": 35.8625,
-          "depth_km": 6.78,
-          "source": "USGS"
-        },
-        {
-          "id": "nn00905489",
-          "site": "Nevada National Security Site",
-          "site_lat": 37.12,
-          "site_lon": -116.05,
-          "time": 1759742689976,
-          "magnitude": 1.5,
-          "magnitude_type": "ml",
-          "event_type": "earthquake",
-          "place": "76 km ENE of Tonopah, Nevada",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00905489",
-          "lon": -116.4945,
-          "lat": 38.4426,
-          "depth_km": 6.9,
-          "source": "USGS"
-        },
-        {
-          "id": "nn00905484",
-          "site": "Nevada National Security Site",
-          "site_lat": 37.12,
-          "site_lon": -116.05,
-          "time": 1759727331564,
-          "magnitude": 2.2,
-          "magnitude_type": "ml",
-          "event_type": "earthquake",
-          "place": "34 km SSW of Caliente, Nevada",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00905484",
-          "lon": -114.6435,
-          "lat": 37.3271,
-          "depth_km": 6.3,
           "source": "USGS"
         },
         {
