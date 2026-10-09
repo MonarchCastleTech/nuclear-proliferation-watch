@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "nuclear-proliferation-watch",
-    "generated": "2026-10-09T18:31:37.217936+00:00",
+    "generated": "2026-10-09T22:54:39.458006+00:00",
     "mode": "live",
     "sources": [
       "IAEA official pages",
@@ -14,7 +14,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-10-09T18:31:37.209732+00:00",
+    "issued_at": "2026-10-09T22:54:39.449731+00:00",
     "horizon": "0-30 days",
     "classification": "nuclear-escalation-pressure-not-test-or-weapon-probability",
     "score": 4.4,
@@ -28,7 +28,7 @@
         "available": true,
         "score": 9.9,
         "current_14d_weight": 2.0,
-        "current_14d_titles": 15,
+        "current_14d_titles": 18,
         "baseline_periods": 8,
         "baseline_median": 1.0,
         "anomaly_z": 0.67,
@@ -94,7 +94,7 @@
         "available": true,
         "score": 0.0,
         "current_30d_diagnostic_weight": 0.0,
-        "events_considered": 1798,
+        "events_considered": 1800,
         "sites_monitored": 8,
         "anomaly_z": 0.0,
         "evidence": [],
@@ -1814,6 +1814,17 @@
           "facility_security_incidents": 4.5,
           "test_site_seismicity": 0.0
         }
+      },
+      {
+        "timestamp": "2026-10-09T22:54:39.449731+00:00",
+        "score": 4.4,
+        "level": "BASELINE",
+        "components": {
+          "iaea_safeguards_strain": 9.9,
+          "npwmd_designation_delta": 0.0,
+          "facility_security_incidents": 4.5,
+          "test_site_seismicity": 0.0
+        }
       }
     ],
     "data_health": {
@@ -2127,6 +2138,15 @@
           "source": "GoogleNews"
         },
         {
+          "title": "Home: International Conference on Topical Issues in Nuclear Installation Safety | IAEA",
+          "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1hM0NUREFfazQtbUZubHNNNHJmMW5JUkhIelhxb19SZjk3ZFlvNmZ5RUc2Uk9CbE1yUzczZ3JsVG40LW5iUFpCM2RB?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20250531T042112Z",
+          "source": "GoogleNews"
+        },
+        {
           "title": "Press Arrangements for IAEA Board of Governors Meeting, 7–11 September 2026",
           "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQb1I4WWpHLUJSWmlxVHNoWHFacmhydmNNcHgyOTJkOXcxNUxvMDJQRzhwb0lTalE3V1ZTVDFRSU8xRHN0ZVhQUTVEaFFiWWFyeWs4ZTZvOFZlRHBta0ZwejVFMm1KVm5NeGswLWpBSms3aFdURmN5Yk55T1QyRzYzUVM4R0ZNV2ZzMy1qQm9KNk9VU3B3LS1ydWYxNXV2aXNjNFFGZXdHbmtRSjZDWUdfbVJLOWFDZDg0Q20ydk5B?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -2172,6 +2192,15 @@
           "source": "GoogleNews"
         },
         {
+          "title": "Publications advanced search",
+          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5qb2plVHJQM05LaVJEZ25OX2E4WXNLdmRzbnJraUhWNG1RaElWS0h2VXNuWFZWazBuT1hRNlN2clgtN1FLcWtDMkRQRVZ6Z2prV0JUaVpCTG5EVHBYZWVyRktn?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20261009T094547Z",
+          "source": "GoogleNews"
+        },
+        {
           "title": "25 Years of the Joint Convention: A Milestone for Global Nuclear Safety",
           "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOWlk0WEhEaGRCMHRvX1NLNjRGQi1YQzlLQ1pzZjF4U2cyLU9XWHVSb0ZIcW5wTFRZeHhWQkYtUXdKVnNPNVF4Y2h5R1J6Y2hDZmFRUG5fRWh5eU1Gd1hiZGd0MWNSMWc5OERGTWxqWVJOc0Z6QjREZC1HWUptRy0tSUtEeUxpQ2VhN2QxaGRseGs2T1hoOHU1cHFxZ2djWDZud1Y4bFZPTjlndw?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -2187,15 +2216,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20260826T070000Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "Publications advanced search",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1EYVBKTGRiWHF0Tk56SGpvQzN4Q0k3RGtqTzdPbGxFdUpsNVZVM0x2UUJOVm5nUE1PQXgwbmptb1l5WXN4TEp5eUpHYXNaQmtQNGltNXRmQVFCbWNINXg2T2Vvb3pBeEdMVlZxWlZR?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260913T050952Z",
           "source": "GoogleNews"
         },
         {
@@ -2268,6 +2288,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20261006T232523Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Nuclear Energy Series",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1sdEFsdTlaNU9VY1hVcWo4S09SV0puRU1BbHhXTld4dmZSa1U1VXg3cDdPVGpVdTE4djR6M05fUXRzNUF6cnJldTkyVHBIWmlIcmhNLTJ0NkF2cERFbk9lRHU2QlIwOXpqZXNWSUFPZEJmaVJkWXpHYQ?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260927T072046Z",
           "source": "GoogleNews"
         },
         {
@@ -2519,7 +2548,7 @@
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
-          "seendate": "20261009T172046Z",
+          "seendate": "20261009T151535Z",
           "source": "GoogleNews"
         },
         {
@@ -2676,15 +2705,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "Home: International Conference on Topical Issues in Nuclear Installation Safety | IAEA",
-          "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1hM0NUREFfazQtbUZubHNNNHJmMW5JUkhIelhxb19SZjk3ZFlvNmZ5RUc2Uk9CbE1yUzczZ3JsVG40LW5iUFpCM2RB?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20250531T042112Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "Software Applications",
           "url": "https://news.google.com/rss/articles/CBMitgJBVV95cUxOQWlqWEpFSmFuYVRLbTRtWHZiTnJseUhXeFI3VG9KdEtZVG9rMVJERjVOM1ZzSTdVV2R4OVV0a3pkSmpmTzhSbmtzUk9mSDJINGZJR2NDX05SY0Zjc3lPMXhjVV9Sa2h0eXBwNDhJZG1BUHY4NXY5U2twTUxSWlpMMWp4WTlHTzNwR05uRDVNS0pVdTBjX3FkS2VUMl9yZWRqeXpoT0J3ZnVSNTVSZUFuZFI1TGMycFpiV1FBQ0VienA0RDdPNm9wZ2dwQW1kd2YwczZtdnlZd2VUVlItRU5aT2dBNGFlaUhGaExuREFKa0FMcktkeXBNT0FGbVBuM2o5SnhPSk1lS0dVWFpvdjFqTjFxVDJ0MUFic0tYaXdCX0RBNGF4R1JyakFPN01KNlRHWHVtRk53?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -2700,6 +2720,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20260914T070000Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Technical Reports Series",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9rckpCQjljUmNkU3hILUItMGRTRjlpa1Mya0ZaWDR6YkI0YXZMRU1lQWs5Wi1qcnVSbFh1OEVZTjNLdUtLa3E4QlZaZEJyOWRnM0E3dmhnMmREamVHUGUyYldQZmYxYXhJN2c0eTdPQWNUNlVtc0lrUHFHV2pTQQ?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260927T135234Z",
           "source": "GoogleNews"
         },
         {
@@ -2763,24 +2792,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20260918T074138Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "Home: Second International Conference on Accelerators for Research and Innovation | IAEA",
-          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBtcEVtNkdMZERkQ3E2R1poMTlUbU1xMWFXc2lyOTZFeGhIWmFQQ05UU3pZT0VOU29sODA4VHdJYm1qaE1EY3hKdDMtZXhRTlk?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20250531T062154Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "PhD Advisor Release & Recommendation Form LMP France (CEA and ITER)",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOREdmNFk0dk4wYWFMNVVYVWwtZUd2aWoxa1lkQVJ6cUh1X3BWSUgzWjNLeDlvOFR5WXpUM0trZDUyMXVHWUpTNDJqU2JWOXZpZS1VTjNvTVVadnliY0xUQlJMeEtYd25GLVpQczJwTUF3a29sM1d5bGMwbHplN2hnZ2RYcmxONTJXNV9rV0d6LVVPVDNHRDI1bjRHb012YkFtVVNXRjhIZExTUkpYZkZqTnRB?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260919T004020Z",
           "source": "GoogleNews"
         }
       ],
@@ -10542,6 +10553,38 @@
           "source": "USGS"
         },
         {
+          "id": "nn00925554",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1791585907051,
+          "magnitude": 1.9,
+          "magnitude_type": "ml",
+          "event_type": "earthquake",
+          "place": "18 km NNE of Nellis Air Force Base, Nevada",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00925554",
+          "lon": -115.0016,
+          "lat": 36.4085,
+          "depth_km": 3.0458,
+          "source": "USGS"
+        },
+        {
+          "id": "nn00925541",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1791570787816,
+          "magnitude": 1.85,
+          "magnitude_type": "ml",
+          "event_type": "earthquake",
+          "place": "54 km S of Silver Peak, Nevada",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00925541",
+          "lon": -117.5234,
+          "lat": 37.276,
+          "depth_km": 5.8968,
+          "source": "USGS"
+        },
+        {
           "id": "nn00925533",
           "site": "Nevada National Security Site",
           "site_lat": 37.12,
@@ -10562,15 +10605,15 @@
           "site": "Nevada National Security Site",
           "site_lat": 37.12,
           "site_lon": -116.05,
-          "time": 1791567205370,
-          "magnitude": 1.62,
+          "time": 1791567205340,
+          "magnitude": 1.63,
           "magnitude_type": "ml",
           "event_type": "earthquake",
-          "place": "20 km N of Searles Valley, CA",
+          "place": "21 km N of Searles Valley, CA",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41345751",
-          "lon": -117.386,
-          "lat": 35.9505,
-          "depth_km": 2.61,
+          "lon": -117.384,
+          "lat": 35.9523333333333,
+          "depth_km": 2.5,
           "source": "USGS"
         },
         {
@@ -11314,15 +11357,15 @@
           "site": "Nevada National Security Site",
           "site_lat": 37.12,
           "site_lon": -116.05,
-          "time": 1790611237080,
-          "magnitude": 1.57,
+          "time": 1790611236910,
+          "magnitude": 1.63,
           "magnitude_type": "md",
           "event_type": "earthquake",
-          "place": "17 km SW of Toms Place, CA",
+          "place": "18 km SW of Toms Place, CA",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75443857",
-          "lon": -118.83683013916,
-          "lat": 37.4706649780273,
-          "depth_km": 3.75,
+          "lon": -118.838333333333,
+          "lat": 37.4598333333333,
+          "depth_km": 3.37,
           "source": "USGS"
         },
         {
