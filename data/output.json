@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "nuclear-proliferation-watch",
-    "generated": "2026-10-08T23:34:06.673430+00:00",
+    "generated": "2026-10-09T06:46:18.272298+00:00",
     "mode": "live",
     "sources": [
       "IAEA official pages",
@@ -14,7 +14,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-10-08T23:34:06.664835+00:00",
+    "issued_at": "2026-10-09T06:46:18.263764+00:00",
     "horizon": "0-30 days",
     "classification": "nuclear-escalation-pressure-not-test-or-weapon-probability",
     "score": 4.4,
@@ -28,7 +28,7 @@
         "available": true,
         "score": 9.9,
         "current_14d_weight": 2.0,
-        "current_14d_titles": 13,
+        "current_14d_titles": 14,
         "baseline_periods": 8,
         "baseline_median": 1.0,
         "anomaly_z": 0.67,
@@ -94,7 +94,7 @@
         "available": true,
         "score": 0.0,
         "current_30d_diagnostic_weight": 0.0,
-        "events_considered": 1803,
+        "events_considered": 1794,
         "sites_monitored": 8,
         "anomaly_z": 0.0,
         "evidence": [],
@@ -1792,6 +1792,17 @@
           "facility_security_incidents": 4.5,
           "test_site_seismicity": 0.0
         }
+      },
+      {
+        "timestamp": "2026-10-09T06:46:18.263764+00:00",
+        "score": 4.4,
+        "level": "BASELINE",
+        "components": {
+          "iaea_safeguards_strain": 9.9,
+          "npwmd_designation_delta": 0.0,
+          "facility_security_incidents": 4.5,
+          "test_site_seismicity": 0.0
+        }
       }
     ],
     "data_health": {
@@ -1880,21 +1891,21 @@
           "source": "GoogleNews"
         },
         {
-          "title": "IAEA Medical Assistance Supports Ukraine’s Nuclear Workers",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNRzNlWS1QS1JvM29YdUdKaXdIc1Y1dERBUEQza0RLNUJma0tvOGpLTzBMcVJVNjRUcDFZNmZ4b3ZpRUxhY0VJVlNqSEg4b2NDYzBXa2tFNnp6UGNsNm95OWYyM1RtZGVmaGg2bU1HTEl3YmRMSjJkMTI0UHR4SEU0aDVpU3RBeUVsOVNMclM1dTQ0YnR1NHZ2MVJVX2p4QmVMTnFnLUNoMUExZw?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20261002T094408Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "Upcoming events",
           "url": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE5KM2gxMjlYeFVlanRvdTNOc2dkMENIZ0l1R3pmUG1nOFpsWklBZlNyX01OOThMQU9JTnRHN2xMOA?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
           "seendate": "20160827T061834Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "IAEA Medical Assistance Supports Ukraine’s Nuclear Workers",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNRzNlWS1QS1JvM29YdUdKaXdIc1Y1dERBUEQza0RLNUJma0tvOGpLTzBMcVJVNjRUcDFZNmZ4b3ZpRUxhY0VJVlNqSEg4b2NDYzBXa2tFNnp6UGNsNm95OWYyM1RtZGVmaGg2bU1HTEl3YmRMSjJkMTI0UHR4SEU0aDVpU3RBeUVsOVNMclM1dTQ0YnR1NHZ2MVJVX2p4QmVMTnFnLUNoMUExZw?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20261002T094408Z",
           "source": "GoogleNews"
         },
         {
@@ -1997,12 +2008,12 @@
           "source": "GoogleNews"
         },
         {
-          "title": "Agenda",
-          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1HMjRmZ282VjdaazFlRmtZUWdBZFpMOUZ3WGt6dU1sc2h3dUhBSzlMUG1yYlJxS0R6OEFHV0YyWFdUZFlYWllJOUN0SUstUWQxQjNuSEFFVkx5UThGZ0ZkeHllU2lfZw?oc=5",
+          "title": "Upcoming events",
+          "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTFBPVHBRX2diTGE2UHBqUjRaX1I3Ry1KQzNBcFpXekFFS0NDbEREVXZMZy1KdjJsaTNOYUc3bTJ1enFoUTlP?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
-          "seendate": "20260916T070000Z",
+          "seendate": "20261008T170733Z",
           "source": "GoogleNews"
         },
         {
@@ -2087,6 +2098,15 @@
           "source": "GoogleNews"
         },
         {
+          "title": "Agenda",
+          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1HMjRmZ282VjdaazFlRmtZUWdBZFpMOUZ3WGt6dU1sc2h3dUhBSzlMUG1yYlJxS0R6OEFHV0YyWFdUZFlYWllJOUN0SUstUWQxQjNuSEFFVkx5UThGZ0ZkeHllU2lfZw?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260916T070000Z",
+          "source": "GoogleNews"
+        },
+        {
           "title": "Press Arrangements for IAEA Board of Governors Meeting, 7–11 September 2026",
           "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQb1I4WWpHLUJSWmlxVHNoWHFacmhydmNNcHgyOTJkOXcxNUxvMDJQRzhwb0lTalE3V1ZTVDFRSU8xRHN0ZVhQUTVEaFFiWWFyeWs4ZTZvOFZlRHBta0ZwejVFMm1KVm5NeGswLWpBSms3aFdURmN5Yk55T1QyRzYzUVM4R0ZNV2ZzMy1qQm9KNk9VU3B3LS1ydWYxNXV2aXNjNFFGZXdHbmtRSjZDWUdfbVJLOWFDZDg0Q20ydk5B?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -2141,6 +2161,15 @@
           "source": "GoogleNews"
         },
         {
+          "title": "Publications advanced search",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1EYVBKTGRiWHF0Tk56SGpvQzN4Q0k3RGtqTzdPbGxFdUpsNVZVM0x2UUJOVm5nUE1PQXgwbmptb1l5WXN4TEp5eUpHYXNaQmtQNGltNXRmQVFCbWNINXg2T2Vvb3pBeEdMVlZxWlZR?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260913T050952Z",
+          "source": "GoogleNews"
+        },
+        {
           "title": "Press Centre | IAEA",
           "url": "https://news.google.com/rss/articles/CBMiPkFVX3lxTE92UkdleW9MWGE1c0hWNlVQc3JkUlVzTWZZVENkSUd4WFByaFI5OVlzT25EbDZNdzNaQVcyVTRB?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -2156,15 +2185,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20181122T115540Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "Publications advanced search",
-          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBMdWVjcXZGRi04ZmhONlJBV3Q2bXNmclRVTWtNX281ZmdKOXNIc0Jjenh0aVpuQUM3bEJfUnlkalpwNUVBT0lRVWctRmFOR2VId3pWS1U2N3loS3R6R2Z3UEFlLXUzNTB3MGUyLXVxTnItLTc4NEE?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260911T174052Z",
           "source": "GoogleNews"
         },
         {
@@ -2403,20 +2423,11 @@
         },
         {
           "title": "IAEA-led Team Samples ALPS-Treated Water at Fukushima Daiichi Nuclear Power Station under Additional Measures",
-          "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQQ21tWEp4a2MtZTRsbU1XOHM2Q1kwWU9KaVZocWpPVzVwR3Q2R0lqc3pjN1poZnBKbld0X2doUzFuVlo5TW93R3F1OEFraDh0M3loR1BMTnRCN3B6MGlHM2JuZXUzU005T01Pczc4aWJhTGx0ZGg3cHFjZ0d1Uk9RZ2ZuaXpzY2szNTVNdXNwT292dHIwbFVKVGxMVm51S0wzYmhfME4xNlJyVGtjWU5DUjV6ekVBLWo3UnYzS1pMSk9PRDJKS1Q3RGJuTS03N1gtVW1MUTBTVTZhaWdxSmROTW1hRUQ2ZDVJUnFB?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOZEdLM3YtNmlVR0JZaGxDZTAzYmJzdzZmMUVkaHVmOWJSeC1FVGNDaUlXSUJtTGlmbmoxTTZndmxpajFFdXlhSFV0Z216b2JRVjRiRUJKUXhPX3VpM2V5Ml9MQzRnVl9KMVFYWmFad2tPLXlIWGZwUDJSZEREbnhxd21LSy1PWUplLUY5SWpGcDRRMHRocVRyRGFLX3BYZ0JadTFHb3Z4aE1YRFlzY0FwVDJNWGdGcTVuTFdHS3R1RE1fMVAzRzVoYlJVR3FOSkRSd3VkdnhpUUNkVW5QRGs3YWpxOTNabWVyZmc?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
           "seendate": "20261007T055725Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "Monographs",
-          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1ic2FmY3dWSEZ3NEQ2aGp3UVA3eDFtRGFQa2poUG82aU8xWnRUbFRyaTZ5N3h2Ty1QWmJDYjVZM1FldkhqTk5nd1JtNDNqdWlEQXhBa01MV1VndFRTb08zV2pZZXBQUmhZRmJB?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260907T164102Z",
           "source": "GoogleNews"
         },
         {
@@ -2717,6 +2728,15 @@
           "source": "GoogleNews"
         },
         {
+          "title": "PhD Advisor Release & Recommendation Form LMP France (CEA and ITER)",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOREdmNFk0dk4wYWFMNVVYVWwtZUd2aWoxa1lkQVJ6cUh1X3BWSUgzWjNLeDlvOFR5WXpUM0trZDUyMXVHWUpTNDJqU2JWOXZpZS1VTjNvTVVadnliY0xUQlJMeEtYd25GLVpQczJwTUF3a29sM1d5bGMwbHplN2hnZ2RYcmxONTJXNV9rV0d6LVVPVDNHRDI1bjRHb012YkFtVVNXRjhIZExTUkpYZkZqTnRB?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260919T004020Z",
+          "source": "GoogleNews"
+        },
+        {
           "title": "70th IAEA General Conference",
           "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxONnJ5YlBBcjBfSW53T3dZdmRrNUx1Ym5oMWd2M2xlRVFOUEpJRzVoWXRJbl93clJHRHNLTDhiMlZvaUZ6VjBsbzE4RlNQNTNYZURMcXp5cUVMdWpLQ1dlNFVCNnE1cjIwb0h6Y3c3ci1WYlk0ZFMxcG9Pa0xoME9kN00wNGtsUTRUeVZoTUtDNXg0UGluQ1Qzag?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -2750,15 +2770,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20260930T104012Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "Requirements Engineering in the Life Cycle of Instrumentation and Control Systems in Nuclear Power Plants",
-          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQdFlrMlFsQlRVeVM5Z0JqRC15NGRaX3hMTzFaTlkzWHhheFFnZnByV0lVS2NjNnAyU1RIdFdDbTJkdjBmXzNzX2xSRjZnRFYtX1VjWkk4dTl5U2hrUzFET0tXV0ZNOW1yS1p0emluT1dIWHlBTmpDUDV3cThnZVJwa2hlLVZmZjluSlkyTjN5MnpYSzhsY2ZScW5NdFRHaVR0T0JwX0JIamNzemNiN0RwemFEWlZ4ZUtjSnNNR0l3SXk5QVlFSWhqTXV5N0s1d25DLUs1VnhQc280Z3ZP?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260730T183959Z",
           "source": "GoogleNews"
         }
       ],
@@ -38853,150 +38864,6 @@
           "lon": -116.4877,
           "lat": 38.4304,
           "depth_km": 7.2,
-          "source": "USGS"
-        },
-        {
-          "id": "nn00905683",
-          "site": "Nevada National Security Site",
-          "site_lat": 37.12,
-          "site_lon": -116.05,
-          "time": 1759965666651,
-          "magnitude": 1.9,
-          "magnitude_type": "ml",
-          "event_type": "earthquake",
-          "place": "77 km ENE of Tonopah, Nevada",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00905683",
-          "lon": -116.4823,
-          "lat": 38.4465,
-          "depth_km": 9.5,
-          "source": "USGS"
-        },
-        {
-          "id": "nn00905684",
-          "site": "Nevada National Security Site",
-          "site_lat": 37.12,
-          "site_lon": -116.05,
-          "time": 1759964406377,
-          "magnitude": 2.4,
-          "magnitude_type": "ml",
-          "event_type": "earthquake",
-          "place": "71 km ENE of Tonopah, Nevada",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00905684",
-          "lon": -116.5035,
-          "lat": 38.3643,
-          "depth_km": 0,
-          "source": "USGS"
-        },
-        {
-          "id": "nn00905680",
-          "site": "Nevada National Security Site",
-          "site_lat": 37.12,
-          "site_lon": -116.05,
-          "time": 1759964367928,
-          "magnitude": 2,
-          "magnitude_type": "ml",
-          "event_type": "earthquake",
-          "place": "78 km NE of Tonopah, Nevada",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00905680",
-          "lon": -116.4826,
-          "lat": 38.4655,
-          "depth_km": 8.5,
-          "source": "USGS"
-        },
-        {
-          "id": "nn00905675",
-          "site": "Nevada National Security Site",
-          "site_lat": 37.12,
-          "site_lon": -116.05,
-          "time": 1759964027527,
-          "magnitude": 3.3,
-          "magnitude_type": "ml",
-          "event_type": "earthquake",
-          "place": "79 km ENE of Tonopah, Nevada",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00905675",
-          "lon": -116.4701,
-          "lat": 38.4653,
-          "depth_km": 7.7,
-          "source": "USGS"
-        },
-        {
-          "id": "ci41105167",
-          "site": "Nevada National Security Site",
-          "site_lat": 37.12,
-          "site_lon": -116.05,
-          "time": 1759934022610,
-          "magnitude": 1.68,
-          "magnitude_type": "ml",
-          "event_type": "earthquake",
-          "place": "25 km NNW of Searles Valley, CA",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41105167",
-          "lon": -117.5175,
-          "lat": 35.9681667,
-          "depth_km": 3.68,
-          "source": "USGS"
-        },
-        {
-          "id": "nn00905642",
-          "site": "Nevada National Security Site",
-          "site_lat": 37.12,
-          "site_lon": -116.05,
-          "time": 1759918723414,
-          "magnitude": 1.9,
-          "magnitude_type": "ml",
-          "event_type": "earthquake",
-          "place": "77 km ENE of Tonopah, Nevada",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00905642",
-          "lon": -116.4841,
-          "lat": 38.4385,
-          "depth_km": 7.3,
-          "source": "USGS"
-        },
-        {
-          "id": "nn00905632",
-          "site": "Nevada National Security Site",
-          "site_lat": 37.12,
-          "site_lon": -116.05,
-          "time": 1759913031237,
-          "magnitude": 1.9,
-          "magnitude_type": "ml",
-          "event_type": "earthquake",
-          "place": "75 km ENE of Tonopah, Nevada",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00905632",
-          "lon": -116.4955,
-          "lat": 38.4203,
-          "depth_km": 9.9,
-          "source": "USGS"
-        },
-        {
-          "id": "ci41105015",
-          "site": "Nevada National Security Site",
-          "site_lat": 37.12,
-          "site_lon": -116.05,
-          "time": 1759903748020,
-          "magnitude": 1.96,
-          "magnitude_type": "ml",
-          "event_type": "earthquake",
-          "place": "13 km WNW of Independence, CA",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41105015",
-          "lon": -118.343,
-          "lat": 36.8278333,
-          "depth_km": 1.79,
-          "source": "USGS"
-        },
-        {
-          "id": "nn00905616",
-          "site": "Nevada National Security Site",
-          "site_lat": 37.12,
-          "site_lon": -116.05,
-          "time": 1759887882142,
-          "magnitude": 1.8,
-          "magnitude_type": "ml",
-          "event_type": "earthquake",
-          "place": "78 km NE of Tonopah, Nevada",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00905616",
-          "lon": -116.4883,
-          "lat": 38.4663,
-          "depth_km": 2.7,
           "source": "USGS"
         },
         {
