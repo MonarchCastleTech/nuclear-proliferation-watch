@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "nuclear-proliferation-watch",
-    "generated": "2026-10-09T22:54:39.458006+00:00",
+    "generated": "2026-10-10T06:24:16.580026+00:00",
     "mode": "live",
     "sources": [
       "IAEA official pages",
@@ -14,7 +14,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-10-09T22:54:39.449731+00:00",
+    "issued_at": "2026-10-10T06:24:16.571560+00:00",
     "horizon": "0-30 days",
     "classification": "nuclear-escalation-pressure-not-test-or-weapon-probability",
     "score": 4.4,
@@ -28,7 +28,7 @@
         "available": true,
         "score": 9.9,
         "current_14d_weight": 2.0,
-        "current_14d_titles": 18,
+        "current_14d_titles": 19,
         "baseline_periods": 8,
         "baseline_median": 1.0,
         "anomaly_z": 0.67,
@@ -1825,6 +1825,17 @@
           "facility_security_incidents": 4.5,
           "test_site_seismicity": 0.0
         }
+      },
+      {
+        "timestamp": "2026-10-10T06:24:16.571560+00:00",
+        "score": 4.4,
+        "level": "BASELINE",
+        "components": {
+          "iaea_safeguards_strain": 9.9,
+          "npwmd_designation_delta": 0.0,
+          "facility_security_incidents": 4.5,
+          "test_site_seismicity": 0.0
+        }
       }
     ],
     "data_health": {
@@ -1910,6 +1921,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20261009T090008Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "IAEA Launches Research Project on Spent Fuel Characterization",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxORDFFMGtjbnN1b0UxeWI4WGd0clJ6TnpsNURVTDhYWmtTSmVUcE96NDdVWk8teGN5bE9obG5tNFZ0eWZCeE1oeGxsTk9KWnp3QkktakktRHFXckxMLUxhU3NPMmdteTE1amhVa0JESXQ3d2JlUjJWeVZpUkZ5cGtwTm91b3IySXllb2E3cHRNQUtRU25nUzlsNHV2YzNOUQ?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20261005T100624Z",
           "source": "GoogleNews"
         },
         {
@@ -2003,15 +2023,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "Implementation of the NPT Safeguards Agreement and relevant provisions of the United Nations Security Council resolutions in the",
-          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5ycHNHQkFQbFNWWGpWZVJJX2FfcFVyRUlwRk5KYVliOVdfenM3MDNqZHFUQWdjMGNBdkJlWHpqMGo1dnpLNlJUZmtVMFo0Z3RNYldWWjVxVDJZSEsyMWdJRzNyUFZPZw?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260901T070000Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "Implementation of the NPT Safeguards Agreement in the Syrian Arab Republic",
           "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE4tZVlxQVdiNXk4cUlrdHVwWmZnMm0xM3BFSnVVVzZZR2Z1V0xDZ0hpZXpnaEc4V1dkVDVGVG9qajBFdHNLUndUMHBSV054eDhyblg5YVBPYmp4RzZjcXRlQk9NS0JMZw?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -2048,12 +2059,30 @@
           "source": "GoogleNews"
         },
         {
+          "title": "70th IAEA General Conference",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPN0R3RGZ2VnI1TkI1MDJUR1J6NUYxNjkzUFRKekp3VTNtenUtQnZxTzhER0puMzF3WXhrLVo3MzZLd0dVUVoxUGZkcHpJRkJwZUtSbjEyZzZhVDJJa0hNLWtUTGZ4YmpkSXNYNzljNXdsczQtNGhGeTV0OWNYVnFoMDZoRFJpQjlYdmtFYVdDYU9rZ1dJZzNYRQ?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260918T070000Z",
+          "source": "GoogleNews"
+        },
+        {
           "title": "Reaching the future Safeguards workforce: Early Career Avenues in the Department of Safeguards",
           "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5RbTJNRTkxZGxBNEUzanctVE5NSkZMZUlJWGtqMTlWX2c4b2FrNGpzTVFKR3pDSTEwc0IxSTcxdFVkT3JWOW1kajZ0dw?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
           "seendate": "20260820T155732Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Implementation of the NPT Safeguards Agreement and relevant provisions of the United Nations Security Council resolutions in the",
+          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5ycHNHQkFQbFNWWGpWZVJJX2FfcFVyRUlwRk5KYVliOVdfenM3MDNqZHFUQWdjMGNBdkJlWHpqMGo1dnpLNlJUZmtVMFo0Z3RNYldWWjVxVDJZSEsyMWdJRzNyUFZPZw?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260901T070000Z",
           "source": "GoogleNews"
         },
         {
@@ -2102,6 +2131,15 @@
           "source": "GoogleNews"
         },
         {
+          "title": "Communication from the PM of the United States of America regarding the request to include in the agenda of the Conference an item entitled “Transfer of the nuclear materials in the context of AUKUS and its safeguards in all aspects under the NPT\" | IAEA",
+          "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFBnYUpsb0h6MWx3NHJGdjdCUmdZQXUyU1MyQlc1d0VPckNxeUhPM0RzZ3l6WXkyaXdwS2RlNU5XOExpQmtuTVE?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260913T070000Z",
+          "source": "GoogleNews"
+        },
+        {
           "title": "What is Cherenkov Radiation? | IAEA",
           "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE50M1dSSEwxTTF1WEFhc0g2WHJhV0Y5amo4dmJRYkdjeXo3aEp4X1BoWk9jOEp2bVh6MXV1YlMxWmZacXRMZkFQOEUzSjRINEhYMzZyekZ3N3cyTlh1QXAzSE95M3IxNmduZUV4dVBkWlc?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -2126,6 +2164,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20260720T070000Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "TECDOC Series",
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5XU3A3OWc1NWpkLTBwcjhUaW02dFhvYjlDQWdsRzZoMTlBRm5tZE9hekt6b3BVZ3B4dWhBWW4yZk8tdkVCSHc3Nng2QVItT0pGWEU5NmlrdjNGWHZDSlpYUTg0QmpXaXBGRTdTVm1tWQ?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260927T205217Z",
           "source": "GoogleNews"
         },
         {
@@ -2183,21 +2230,12 @@
           "source": "GoogleNews"
         },
         {
-          "title": "General Statement Delegation of the Republic of Indonesia at the 70th General Conference of the International Atomic Energy A",
-          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE44VnMxamREYVdSbmdPaDFYTmtrdk9qcVRFeWhhSWdocTR4WEFjMDRRdjR2THhfM2tKUXRrQUFvLWFybnJOYzlfR1BlZS1wa051dERMYUdQdWdObWFublctSndQekpsZ1cwalV2NlgxQTdvTkpaYXl4Zw?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260918T070000Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "Publications advanced search",
-          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5qb2plVHJQM05LaVJEZ25OX2E4WXNLdmRzbnJraUhWNG1RaElWS0h2VXNuWFZWazBuT1hRNlN2clgtN1FLcWtDMkRQRVZ6Z2prV0JUaVpCTG5EVHBYZWVyRktn?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9IQ3NtODFZYk1WMGlLclJJS0M0d3Z5VlhQTUc0b1BRa09LVHF0REhYOWI2YlotaVRxTEpXWHktRjVBNmJWV0FIdkhyaXBhVjhHeWhPV1BFRDBTWm1SRnNpSWplTkFtR2o4eXViTGJB?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
-          "seendate": "20261009T094547Z",
+          "seendate": "20260914T070952Z",
           "source": "GoogleNews"
         },
         {
@@ -2216,6 +2254,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20260826T070000Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "General Statement Delegation of the Republic of Indonesia at the 70th General Conference of the International Atomic Energy A",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE44VnMxamREYVdSbmdPaDFYTmtrdk9qcVRFeWhhSWdocTR4WEFjMDRRdjR2THhfM2tKUXRrQUFvLWFybnJOYzlfR1BlZS1wa051dERMYUdQdWdObWFublctSndQekpsZ1cwalV2NlgxQTdvTkpaYXl4Zw?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260918T070000Z",
           "source": "GoogleNews"
         },
         {
@@ -2408,15 +2455,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "TECDOC Series",
-          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9uQ3I2bkZiTV9wUDJrcE9XQWFYcTNlM0dLclJiejAtVTNvYUpxN3JmaUdrSnRGcGhkRTU1U3R1T01qQW9tVVNWM3NUN1RJa3UwTXlBV0ZTZWVjXzZ5OVBYS2Y0X3ppX2xYTFBleW1zaDk?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260929T142008Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "Update 359 – IAEA Director General Statement on Situation in Ukraine",
           "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNMUs0cGFLa0FTNmJwNHkxRTlBQjRob3h1N0E1MDJrbzRPWE5ra1dSUzhhcjVjR3VfQjlkdzhaeW5LT2JyRDF6WWRFNzM4UXRBbWFBdmhvdGF1eENHYzFSWTczUGM3SllXRWxDdWpXN3Y3bmliZjE3V3EtbWVSekc2a1dXTUkyd1dzU25ISEcyLTgzUUhLOGNrOGtXQ3o4dkFUb0ljLXZyXzJrZEJXVEhKUg?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -2480,6 +2518,15 @@
           "source": "GoogleNews"
         },
         {
+          "title": "Attacks Against Nuclear Facilities: Legal, Normative and Scientific Perspectives | IAEA",
+          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOSlhscDJPTXMzN19kRUdjQmR6c3NYNGRDb2JHak5rYTMybnA1MFRBdXlqNlR3Wm9LU1BiTTJHLU5fSDZRRk9NaHNfNl9fRUcyYTVwQl9Sb1FIU00xNEthMlZBYmtWXzUxWjRkc3VHTDRrOTdZXzU2clI4Y0RLTHEyNzRNZjZaUGxxN2JjVDNLaUxodDRHa3VwVER5czBiVWtHc3NVZnJhQjhGejF2dmNrNWF3amxBVkk4YUIya3VrekU0bEpGN285MmJDbW1kM2s?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260918T013603Z",
+          "source": "GoogleNews"
+        },
+        {
           "title": "IAEA and George Washington University Law School Conclude First Summer School on the Legal Framework for Nuclear Energy",
           "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxORnFNN21oTXZBUHR5T0ZwVjRCelFraEJiNlRuYTl2SldrX1NWY2F3YUlabV9la0lja3RYZFJ1SVRSSjhIdTFNWnVpci1CYnI0dUJLQnJPbm01NWhkalh0Rm5rRUUyX3oxUmNDSUc2WTdrQ1ZpQU5pQzlpU3FXNlE1c1VUc24zcHhYZnoySXNtWVhFcmc4ZUJoYWotWE4xUDR4NU84cHV6akI0UlpLUFBrVVBwdDJ5UE1CckdWMlRnSFpsMk9iOXhJendid3FNTVhQQVZReVJrTzFZd3FIYmdMelBwaUE3dl9rQkdR?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -2507,6 +2554,15 @@
           "source": "GoogleNews"
         },
         {
+          "title": "Monographs",
+          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1ic2FmY3dWSEZ3NEQ2aGp3UVA3eDFtRGFQa2poUG82aU8xWnRUbFRyaTZ5N3h2Ty1QWmJDYjVZM1FldkhqTk5nd1JtNDNqdWlEQXhBa01MV1VndFRTb08zV2pZZXBQUmhZRmJB?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260907T164102Z",
+          "source": "GoogleNews"
+        },
+        {
           "title": "Update 360 – IAEA Director General Statement on Situation in Ukraine",
           "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPQWJQcGRwVlJuVHNFalhqMjFQczFfSTdyNW9WbFpZSG9WSnZZcTVDME9DQWZmZVNRV24zOWZ4OTg1MmRmYkdTZW4yN2lkU0phNGJJQWRENXpCNFhYOVQtdU5tV1FPZ3A3RjRWTHV6bDBSN1NZSVZQZ0hpM1JfRjRnbWdSeEdReVhfRGRZRVlTNTZreHBYOXpJdHRkNHBVWjFNaE9Vd1NZZERTN3BhcHlWVQ?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -2522,6 +2578,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20260914T070000Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Екатерина Харсдорф",
+          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1INEszM0hQY1FySFNZSndsQzlTeVpZTW9xcE1GdDBob2g0YTlRbllOWEFBeGlaemlRVjBTWExXYWFGV0NaUDBHSUZULW9URlk?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260926T123224Z",
           "source": "GoogleNews"
         },
         {
@@ -2621,6 +2686,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20260914T070000Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "International High-level Forum on the ATLAS Launch | IAEA",
+          "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFAwOUVjcklwUEtJNHdmSE8xS1FPQ2h3VUlQdXM4RnB0elMxVkFCTkJzdjV2cG55TVdrUHJTWlVSTTNDZ1VhNEV0OHBUekk?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260827T070000Z",
           "source": "GoogleNews"
         },
         {
@@ -2729,69 +2803,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20260927T135234Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "The Republic of Cabo Verde signs its First Country Programme Framework (CPF) for 2026-2031",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPVnZwcDhzYnIyWnRTS1NscVVFcU1fNFZ5VzFYeHA4QVVrR1NVSkFHdzM0Q3BFVWFXN2tCQVVxTkkxczg5cllQaFZIbUFKY19RRWcwWW9zQ1pQamZOY2p3YWdONDNBa2hMT0lXQzdzN09Yb2NELWtBVjdiM2ZGeWVrRlRyZW9VdTRWVk9BaEN1NUEwNm1DclowZ1Iwd0FtOWRDVU9PMFZoVWJvLVRSQmZMaUhvaWt5LVNhZTBKWUF3RDVMZw?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260916T070000Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "IAEA and World Bank Group Collaborate to Advance Nuclear Energy for Development",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNSENsRUU3amZoRmhWTDhoQjB2VDFqQ0tkeUZ0cDhDamFiTVp4UTdiS2tKSzNXa0JNejRfVU4yLWJkRjZsdU1xdHhJVDlid0M2YzhDOFZCNXhTeDFoR0otV0o3amwzV29iQmdpcnBoV2p4aFRsUnlwSFZLUFZubHdlTVFya0dROElJUjdYVE5PYzlqazYxSjczUFVXODd0ZF9Ka0RyM2dBV3FZUl9ReHBDbTNGN3VoZw?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260708T070000Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "Employer Release & Recommendation Form LMP France (CEA and ITER)",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQeE9Rakk2SFdOc1JWa2JaNjRfQmlDUUs3Ul9Rajhkdzl2MEMwZi1Ca29wYXJaZU5KSjktMTJnM21XSHl6aW8yWEx0X1VocjhnbUNUYUxaNHpjcmFzMW94SlBZOVhQMUFvRVROanQyWHBJbGN3VE15MVBqZ1drbkFSUTBQamxMdUlRQjVaaGZjRUFtWWNFZVV6LXRfaFA4UU5YN0tVYjQyU09YU0ZyZmc?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260919T004015Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "35th Anniversary of the closure of the Semipalatinsk Test Site: from National tragedy to National pride",
-          "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPU2pJTHBJdGxWYUsxNXFBcERaaFpZRkloQzN1bXpkX1k3ZnZpSlVkNDVUU0xMUFp6OEpqQTJmNlFscTQzLUZyTC1Td3R0YUdwaERuRkEzNTJWalVFRC04RzN6YkdlMWxBUWhWQ2Jfdy1OQXZTZmdiZWd6VTZybmtUWXFzbDV0eHZvdXVkR2VqcHFyZWt6M002Y3AxeVNycUMyWEh0WW9KeVdkVVh5ZmNNZ21TWXNUQnRVVTdjeTd2Nm5XQkczNkhSOFZlVVNUV2VVT1QyYnlRNDlwX3F6Tkk4Um1NNVZQR3lwNTh3SmJKdw?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260820T120950Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "The Commonwealth of The Bahamas Signs its First Country Programme Framework (CPF) for 2026–2031",
-          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPWm9nd0xnSks1a3huZVBhUEFaS3BGbUlIaGk0M2p4cFlSNWdmaDhMUjlRSDJWbmxsVVJubnhaZ1RqQXlkM2ZHTGozVWY4QXlodlJjTS1udzlpY1FKWWV3U3YwRjAwNU5yMUFWeVJBSTBEaVZiQ2RUWUsySURGYzdwRUl0VlltWjRwUGJDam1kLW1VMnQtallEb21iSm1LaGZvZjB0b0dFU1UwZWFJRy1JalFkdTdHUjBhTzIyNFg2Z29NbVRUeWFrTQ?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260915T070000Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "50 years of IAEA - Euratom Cooperation: Challenges and lessons learned for a safer world",
-          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOVTNUYW8wcDNVbkRjTDBVcHFLTWtjbW1aLUZKcHdLYjhhaTlDajNDMHc3aTlISGNaLW01TGRRUEVaTUR1OHN0RFZyRzVVeWVKS1RwUGs4cFJZZnFVMXFPQ1NDLXNUR18xZXU0T2RnUXR4UFJCQ3gycGxFalRnMW9YaE5mUTdIRTNQWlAxVi1zZFdFNDhhTm5Lc1dLMklMN3lTY2hvT1JMOFBzOWcyZkpHM3BfdDBQQnoya0VRT3hhZW1zMmpuejJxTC1IaWdnYkt0ajFYYkdpM0U?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260820T152354Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "INES: The International Nuclear and Radiological Event Scale User's Manual",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNVzlhbEp2NUVtWWVNT2FmMXdnU2JIREpEcm5ockxrLWZqQ0hFaHUxSk5CNWFjbkhvcDhjdVY1MFJldlNfbEVsN1RJS1BHTFhYczkwenVWdjJpRVRZLWpEMTRINGtXQm1aZVBXQ3BpZWxvekdFR0ZqUHdqZDBTcXlfS202VG9NaXhoMDJwVFBLNU85aUttUkJJQTZ1S0VWR1IwRmlGLUEweG4zanFLVUkxRw?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260918T074138Z",
           "source": "GoogleNews"
         }
       ],
@@ -10553,19 +10564,51 @@
           "source": "USGS"
         },
         {
-          "id": "nn00925554",
+          "id": "nn00925570",
           "site": "Nevada National Security Site",
           "site_lat": 37.12,
           "site_lon": -116.05,
-          "time": 1791585907051,
-          "magnitude": 1.9,
+          "time": 1791604674965,
+          "magnitude": 1.56,
           "magnitude_type": "ml",
           "event_type": "earthquake",
-          "place": "18 km NNE of Nellis Air Force Base, Nevada",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00925554",
-          "lon": -115.0016,
-          "lat": 36.4085,
-          "depth_km": 3.0458,
+          "place": "50 km S of Caliente, Nevada",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00925570",
+          "lon": -114.6051,
+          "lat": 37.1662,
+          "depth_km": 8.7291,
+          "source": "USGS"
+        },
+        {
+          "id": "nn00925568",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1791603827841,
+          "magnitude": 2.04,
+          "magnitude_type": "ml",
+          "event_type": "earthquake",
+          "place": "27 km SSW of Alamo, Nevada",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00925568",
+          "lon": -115.2654,
+          "lat": 37.1276,
+          "depth_km": 0.8975,
+          "source": "USGS"
+        },
+        {
+          "id": "nn00925565",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1791603409412,
+          "magnitude": 2,
+          "magnitude_type": "ml",
+          "event_type": "earthquake",
+          "place": "29 km SSW of Alamo, Nevada",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00925565",
+          "lon": -115.2891,
+          "lat": 37.115,
+          "depth_km": 2.1512,
           "source": "USGS"
         },
         {
@@ -38950,38 +38993,6 @@
           "lon": -117.7805,
           "lat": 36.0355,
           "depth_km": 2.79,
-          "source": "USGS"
-        },
-        {
-          "id": "nn00905711",
-          "site": "Nevada National Security Site",
-          "site_lat": 37.12,
-          "site_lon": -116.05,
-          "time": 1760028378596,
-          "magnitude": 2.2,
-          "magnitude_type": "ml",
-          "event_type": "earthquake",
-          "place": "21 km NE of Keeler, California",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00905711",
-          "lon": -117.6806,
-          "lat": 36.6024,
-          "depth_km": 14.4,
-          "source": "USGS"
-        },
-        {
-          "id": "nn00905696",
-          "site": "Nevada National Security Site",
-          "site_lat": 37.12,
-          "site_lon": -116.05,
-          "time": 1759985092242,
-          "magnitude": 1.7,
-          "magnitude_type": "ml",
-          "event_type": "earthquake",
-          "place": "76 km ENE of Tonopah, Nevada",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00905696",
-          "lon": -116.4877,
-          "lat": 38.4304,
-          "depth_km": 7.2,
           "source": "USGS"
         },
         {
