@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "nuclear-proliferation-watch",
-    "generated": "2026-10-11T06:29:46.524420+00:00",
+    "generated": "2026-10-11T13:33:17.068955+00:00",
     "mode": "live",
     "sources": [
       "IAEA official pages",
@@ -14,7 +14,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-10-11T06:29:46.519230+00:00",
+    "issued_at": "2026-10-11T13:33:17.062412+00:00",
     "horizon": "0-30 days",
     "classification": "nuclear-escalation-pressure-not-test-or-weapon-probability",
     "score": 7.6,
@@ -28,7 +28,7 @@
         "available": true,
         "score": 19.2,
         "current_14d_weight": 2.0,
-        "current_14d_titles": 19,
+        "current_14d_titles": 18,
         "baseline_periods": 8,
         "baseline_median": 0.5,
         "anomaly_z": 2.02,
@@ -94,7 +94,7 @@
         "available": true,
         "score": 0.0,
         "current_30d_diagnostic_weight": 0.0,
-        "events_considered": 1806,
+        "events_considered": 1808,
         "sites_monitored": 8,
         "anomaly_z": 0.0,
         "evidence": [],
@@ -1869,6 +1869,17 @@
           "facility_security_incidents": 4.5,
           "test_site_seismicity": 0.0
         }
+      },
+      {
+        "timestamp": "2026-10-11T13:33:17.062412+00:00",
+        "score": 7.6,
+        "level": "BASELINE",
+        "components": {
+          "iaea_safeguards_strain": 19.2,
+          "npwmd_designation_delta": 0.0,
+          "facility_security_incidents": 4.5,
+          "test_site_seismicity": 0.0
+        }
       }
     ],
     "data_health": {
@@ -1939,21 +1950,21 @@
     "iaea_titles": {
       "signals": [
         {
-          "title": "Diagnostic Reference Levels in Nuclear Medicine: Practical Approaches and Lessons Learned from France",
-          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPUlhkcnBuOXJ6bHpuV1VwUmZSeEs5X0U3MElBVGxIVXZqcEVkUGFOUmZ4cF9hOXFwY3BiYXhFekExOXhCcHlaWVFzcWVzNjR5LUFrZ3hyMERXeVFQcWhJbXdwR1RLRTRqYzZ0b0FwcnlFQlBBZFg1MF96SlJrazdHTGVrazg1VkJjeTNJbDctcjJHa1BMa01rcGdfN1VhelVWNFhZdnBXcm5sOGZobkhiSW44RklDdEx3bkpVbUFtLWR2N2U4Q3F0OE5ZUFpJS0tWdndPbA?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20261008T193826Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "IAEA Completes International Physical Protection Advisory Service Mission in Pakistan",
           "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPUmZ0SmxrSG5ZdEVheGJ2TkEtSDVVTHUwZUhMWjVEbVVzV3VCQmZqWVhLWFpkTTBveE1zYWxRcXRFUzRkZnJKNGxwLVR1NmpoZjNYUXZyYklKY215ZmR4VVlQNG9WQTAxbUtiUktjVGJub1JKeTljS3l0MFRMbkQ0b0E2STdSLXVjRXlwb0xrcFlUSlBBQnkwNFJnck1ka2xGMlhZQUxRLW5maFFtNHM2cUl2YkJhUVlqTVhNZzUwTExEZnRXcFJ3SHFn?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
           "seendate": "20261009T090008Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Diagnostic Reference Levels in Nuclear Medicine: Practical Approaches and Lessons Learned from France",
+          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPUlhkcnBuOXJ6bHpuV1VwUmZSeEs5X0U3MElBVGxIVXZqcEVkUGFOUmZ4cF9hOXFwY3BiYXhFekExOXhCcHlaWVFzcWVzNjR5LUFrZ3hyMERXeVFQcWhJbXdwR1RLRTRqYzZ0b0FwcnlFQlBBZFg1MF96SlJrazdHTGVrazg1VkJjeTNJbDctcjJHa1BMa01rcGdfN1VhelVWNFhZdnBXcm5sOGZobkhiSW44RklDdEx3bkpVbUFtLWR2N2U4Q3F0OE5ZUFpJS0tWdndPbA?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20261008T193826Z",
           "source": "GoogleNews"
         },
         {
@@ -2551,15 +2562,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "Monographs",
-          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1ic2FmY3dWSEZ3NEQ2aGp3UVA3eDFtRGFQa2poUG82aU8xWnRUbFRyaTZ5N3h2Ty1QWmJDYjVZM1FldkhqTk5nd1JtNDNqdWlEQXhBa01MV1VndFRTb08zV2pZZXBQUmhZRmJB?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260907T164102Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "Update 360 – IAEA Director General Statement on Situation in Ukraine",
           "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPQWJQcGRwVlJuVHNFalhqMjFQczFfSTdyNW9WbFpZSG9WSnZZcTVDME9DQWZmZVNRV24zOWZ4OTg1MmRmYkdTZW4yN2lkU0phNGJJQWRENXpCNFhYOVQtdU5tV1FPZ3A3RjRWTHV6bDBSN1NZSVZQZ0hpM1JfRjRnbWdSeEdReVhfRGRZRVlTNTZreHBYOXpJdHRkNHBVWjFNaE9Vd1NZZERTN3BhcHlWVQ?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -2758,15 +2760,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "S T A T E M E N T by Mr. Tsanko Bachiyski Chairman of the Bulgarian Nuclear Regulatory Agency Head of the delegation to the 70th",
-          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9YcDNZY3hQbzVOcnpsYVJUM05JN3Y1NHFseDhuclZmZUZfN1c4c1VTTnlIRjA3V0pTVkE3M3NWSWp4cTJjNXBIR3RkX3RTdHJxZjkzVlp4cENPVE9aUVJFQVNBZl9JN25Da01kQ1dMMG1Id3dzSFBJ?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260914T070000Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "Software Applications",
           "url": "https://news.google.com/rss/articles/CBMitgJBVV95cUxOQWlqWEpFSmFuYVRLbTRtWHZiTnJseUhXeFI3VG9KdEtZVG9rMVJERjVOM1ZzSTdVV2R4OVV0a3pkSmpmTzhSbmtzUk9mSDJINGZJR2NDX05SY0Zjc3lPMXhjVV9Sa2h0eXBwNDhJZG1BUHY4NXY5U2twTUxSWlpMMWp4WTlHTzNwR05uRDVNS0pVdTBjX3FkS2VUMl9yZWRqeXpoT0J3ZnVSNTVSZUFuZFI1TGMycFpiV1FBQ0VienA0RDdPNm9wZ2dwQW1kd2YwczZtdnlZd2VUVlItRU5aT2dBNGFlaUhGaExuREFKa0FMcktkeXBNT0FGbVBuM2o5SnhPSk1lS0dVWFpvdjFqTjFxVDJ0MUFic0tYaXdCX0RBNGF4R1JyakFPN01KNlRHWHVtRk53?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -2836,6 +2829,24 @@
           "language": "",
           "tone": 0,
           "seendate": "20260926T183957Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "50 years of IAEA - Euratom Cooperation: Challenges and lessons learned for a safer world",
+          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOVTNUYW8wcDNVbkRjTDBVcHFLTWtjbW1aLUZKcHdLYjhhaTlDajNDMHc3aTlISGNaLW01TGRRUEVaTUR1OHN0RFZyRzVVeWVKS1RwUGs4cFJZZnFVMXFPQ1NDLXNUR18xZXU0T2RnUXR4UFJCQ3gycGxFalRnMW9YaE5mUTdIRTNQWlAxVi1zZFdFNDhhTm5Lc1dLMklMN3lTY2hvT1JMOFBzOWcyZkpHM3BfdDBQQnoya0VRT3hhZW1zMmpuejJxTC1IaWdnYkt0ajFYYkdpM0U?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260820T152354Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "INES: The International Nuclear and Radiological Event Scale User's Manual",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNVzlhbEp2NUVtWWVNT2FmMXdnU2JIREpEcm5ockxrLWZqQ0hFaHUxSk5CNWFjbkhvcDhjdVY1MFJldlNfbEVsN1RJS1BHTFhYczkwenVWdjJpRVRZLWpEMTRINGtXQm1aZVBXQ3BpZWxvekdFR0ZqUHdqZDBTcXlfS202VG9NaXhoMDJwVFBLNU85aUttUkJJQTZ1S0VWR1IwRmlGLUEweG4zanFLVUkxRw?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260918T074138Z",
           "source": "GoogleNews"
         }
       ],
@@ -10597,6 +10608,38 @@
           "source": "USGS"
         },
         {
+          "id": "ci41346391",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1791709220180,
+          "magnitude": 1.73,
+          "magnitude_type": "ml",
+          "event_type": "earthquake",
+          "place": "17 km WSW of Olancha, CA",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41346391",
+          "lon": -118.172333333333,
+          "lat": 36.2156666666667,
+          "depth_km": 5.54,
+          "source": "USGS"
+        },
+        {
+          "id": "nn00925616",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1791702675019,
+          "magnitude": 2.62,
+          "magnitude_type": "ml",
+          "event_type": "earthquake",
+          "place": "25 km SW of Mina, Nevada",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00925616",
+          "lon": -118.3419,
+          "lat": 38.2519,
+          "depth_km": 11.6271,
+          "source": "USGS"
+        },
+        {
           "id": "ci41346319",
           "site": "Nevada National Security Site",
           "site_lat": 37.12,
@@ -11465,15 +11508,15 @@
           "site": "Nevada National Security Site",
           "site_lat": 37.12,
           "site_lon": -116.05,
-          "time": 1790684324820,
-          "magnitude": 2.51,
+          "time": 1790684324670,
+          "magnitude": 2.32,
           "magnitude_type": "md",
           "event_type": "earthquake",
           "place": "2 km SSW of Round Valley, CA",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75444342",
-          "lon": -118.605003356934,
-          "lat": 37.3976669311523,
-          "depth_km": 8.59000015258789,
+          "lon": -118.606666666667,
+          "lat": 37.401,
+          "depth_km": 11.84,
           "source": "USGS"
         },
         {
