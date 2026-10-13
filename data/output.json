@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "nuclear-proliferation-watch",
-    "generated": "2026-10-12T16:09:07.946645+00:00",
+    "generated": "2026-10-13T00:58:48.567014+00:00",
     "mode": "live",
     "sources": [
       "IAEA official pages",
@@ -14,7 +14,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-10-12T16:09:07.938011+00:00",
+    "issued_at": "2026-10-13T00:58:48.558343+00:00",
     "horizon": "0-30 days",
     "classification": "nuclear-escalation-pressure-not-test-or-weapon-probability",
     "score": 7.6,
@@ -94,7 +94,7 @@
         "available": true,
         "score": 0.0,
         "current_30d_diagnostic_weight": 0.0,
-        "events_considered": 1807,
+        "events_considered": 1809,
         "sites_monitored": 8,
         "anomaly_z": 0.0,
         "evidence": [],
@@ -1913,6 +1913,17 @@
           "facility_security_incidents": 4.5,
           "test_site_seismicity": 0.0
         }
+      },
+      {
+        "timestamp": "2026-10-13T00:58:48.558343+00:00",
+        "score": 7.6,
+        "level": "BASELINE",
+        "components": {
+          "iaea_safeguards_strain": 19.2,
+          "npwmd_designation_delta": 0.0,
+          "facility_security_incidents": 4.5,
+          "test_site_seismicity": 0.0
+        }
       }
     ],
     "data_health": {
@@ -1989,6 +2000,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20261009T090008Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Beam Monitor Calibration for Pencil Beam Scanning Delivery in Terms of the Number of Protons and Light Ions per Spot",
+          "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPdy1MTEpYMHJiYnZqZG1Eb2FYZ0hPNnJMSDBJWFdianhiY2NXc055ckZHWlFRMUNYYkpSRmVZbEhoR1d3M3Q5c25XN0lqcTNQN25uZ0dJMjF5ZGQ2MnE0U25VdDFJcjcwMThXdFZMZ0E5YmRDbEtnY1pJT045dGd0b1I4cFJSb0xDWVd6LTVhdVZZX0llY1BFVV9wU25DVWpLVm00aWdkZW1QcWNEb2JmLWNaWEhMNHh6YnVyU1BPMDJhMlE5aXd5RWQwUU5yUy1iX2FEM3c2WmlrUHRvd3htU2c2LUdsSEYtQ3Nv?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20261009T092032Z",
           "source": "GoogleNews"
         },
         {
@@ -2154,24 +2174,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "70th IAEA General Conference",
-          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPN0R3RGZ2VnI1TkI1MDJUR1J6NUYxNjkzUFRKekp3VTNtenUtQnZxTzhER0puMzF3WXhrLVo3MzZLd0dVUVoxUGZkcHpJRkJwZUtSbjEyZzZhVDJJa0hNLWtUTGZ4YmpkSXNYNzljNXdsczQtNGhGeTV0OWNYVnFoMDZoRFJpQjlYdmtFYVdDYU9rZ1dJZzNYRQ?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260918T070000Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "Provisional agenda",
-          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1ZaXJtVEZSbk1NMTJObVlEMTN0R3VMQ2g2QzFzaHF0YU9TRmQxSkxMZmZ3dTVJdW5YOGxVbWdFbTJOT2JZODhOcnM3eXY3SFBfMUlFRkFaUWR4QTMzanV1OGgzRVpmM0dSWWc0?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260720T070000Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "Agenda",
           "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1HMjRmZ282VjdaazFlRmtZUWdBZFpMOUZ3WGt6dU1sc2h3dUhBSzlMUG1yYlJxS0R6OEFHV0YyWFdUZFlYWllJOUN0SUstUWQxQjNuSEFFVkx5UThGZ0ZkeHllU2lfZw?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -2232,15 +2234,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20260611T210642Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "25 Years of the Joint Convention: A Milestone for Global Nuclear Safety",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOWlk0WEhEaGRCMHRvX1NLNjRGQi1YQzlLQ1pzZjF4U2cyLU9XWHVSb0ZIcW5wTFRZeHhWQkYtUXdKVnNPNVF4Y2h5R1J6Y2hDZmFRUG5fRWh5eU1Gd1hiZGd0MWNSMWc5OERGTWxqWVJOc0Z6QjREZC1HWUptRy0tSUtEeUxpQ2VhN2QxaGRseGs2T1hoOHU1cHFxZ2djWDZud1Y4bFZPTjlndw?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260618T070000Z",
           "source": "GoogleNews"
         },
         {
@@ -2415,24 +2408,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "Update 368 – IAEA Director General Statement on Situation in Ukraine",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOMHZtOVBjZ3NtQ0xOY1pOTTBHQ0hvVk1xc3VqTFF1dWZDVm13WHVMT1picUE2YWZldUxtcWd4Y1VyXzEwdjdDZ2NBaXIzdEQzcnhMRDlqNm1SZjl3RjJBb2V5WkNzQm1GZWd1b1MwUGhUT0pCdGthUTZrV1EteXdQanpjOE5LTElseHBmRURZdHNRaXE4SkM5cWxaT3Izb2s2TXZzM1JiZTBZX0lSeDh4aA?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260925T070000Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "70th IAEA General Conference - Plenary Logistics and Documentation",
-          "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9GRjZFcnQ5OXNaSllNSWQtSzFDbXl2MU84MTdhU1gxRkZwaGY1YlBZY0JPWkdmWU05R1RoVExxSzdwSVdyc2RrR2xJWQ?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260918T070000Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "Tritium Level Far Below Japan’s Operational Limit in 23rd Batch of ALPS Treated Water, IAEA Confirms",
           "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPQkVSMDNSRGZsbTFWNDZOYmU3bE4wTTl0clNhZS1mN2N1NTZLVngyX19PWXFaMVpNOXM5Sk9ZYzZ5MVFjaUtfRkpSZF9NLU9KcmFZMzVnM2FYajVwd2ZuSnVVNy1heWhxWUZkbHNJQ0t0WTE5Y2tkdHQxMng0SEtMTWdiX0t3WFBBdzV4THlMb3Vxd19ONDAxTE5QVkVXU0ZzUkhqTUExRV82VUJPX1ZKZE4xNXgwMnZ0cTFkODVzLVJ1cFdDeWJubzZKbFBOM0x4dFdsZ2NPUFV5aG8?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -2595,21 +2570,21 @@
           "source": "GoogleNews"
         },
         {
+          "title": "Director General's Statement to the Seventieth Regular Session of the IAEA General Conference",
+          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOTDZnbXNaWG5oZmZmaExtNWljc0ltMFlBTGJWejZ0MXJDOHdqeFZtejJVWXY0THFjSkZUTFJtRjFTTWJ0Y3lLSmk0cVBqYlJiMUgxWXpvZ1dvdldWRXZEX3Y5NDhKUlNFUnVTYmJOelJra3dIQTBhNEJTdHlZRnBCZjhEYWJtTzNWbm1rdEN0OC1QRVRxTFZQcjJnTHFXVkRaeWRfY1k1Qm9KOVdWbUxaSExQUVRMcmFfb19ZRXZnQ05VYmN6UWl0ay1oMV9kZk1U?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260914T070000Z",
+          "source": "GoogleNews"
+        },
+        {
           "title": "International High-level Forum on the ATLAS Launch | IAEA",
           "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFAwOUVjcklwUEtJNHdmSE8xS1FPQ2h3VUlQdXM4RnB0elMxVkFCTkJzdjV2cG55TVdrUHJTWlVSTTNDZ1VhNEV0OHBUekk?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
           "seendate": "20260827T070000Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "Beam Monitor Calibration for Pencil Beam Scanning Delivery in Terms of the Number of Protons and Light Ions per Spot",
-          "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPdy1MTEpYMHJiYnZqZG1Eb2FYZ0hPNnJMSDBJWFdianhiY2NXc055ckZHWlFRMUNYYkpSRmVZbEhoR1d3M3Q5c25XN0lqcTNQN25uZ0dJMjF5ZGQ2MnE0U25VdDFJcjcwMThXdFZMZ0E5YmRDbEtnY1pJT045dGd0b1I4cFJSb0xDWVd6LTVhdVZZX0llY1BFVV9wU25DVWpLVm00aWdkZW1QcWNEb2JmLWNaWEhMNHh6YnVyU1BPMDJhMlE5aXd5RWQwUU5yUy1iX2FEM3c2WmlrUHRvd3htU2c2LUdsSEYtQ3Nv?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20261009T092032Z",
           "source": "GoogleNews"
         },
         {
@@ -2766,6 +2741,15 @@
           "source": "GoogleNews"
         },
         {
+          "title": "Nuclear Energy in the Age of Artificial Intelligence: Securing Electricity for the Digital Economy",
+          "url": "https://news.google.com/rss/articles/CBMirAJBVV95cUxOTjJMT2NaVG0xYU1zVFE0X0ZuZUk2c3lzU0dhYlh3TzBQWlgzNXFFUzFtVUxtLWdEXzBBOHliQ3EwVTFOaS1kV3NZVXRrMmlYSEd2LU9aVUlGYWtXeVRYZVdROUpsWkQ0REUxYUh3N3VWMFRFTko0TGZrVVVvczBBc0hTWl91VnNSUXFRbzd3WmdySVNqLVBILWlJeFpMTkIyMjRSSHNfQVR6U2pmaXpxaktfWnJfUkFTbWxpeEtmSVBvNko1NUZzZE15WTZiOVk4Q2R5d3N4eVpWak1UYUFEOVdEeXk5WlpZWlpMcDA1MjAxanlyY2tad3dwMHVzZXpJZHhLRlpYdEJobGVPZmFEdEhwZ0FzbER5ZU1wdjRRc2J0SWE3eDdzMWR6UHQ?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20261012T193427Z",
+          "source": "GoogleNews"
+        },
+        {
           "title": "Barbados Signs its First Country Programme Framework (CPF) for 2026–2031",
           "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQelZ2THNKYjFCR25YNUVkc2xuRGE3SmJ4eWpMVUVpWDFuSDlpTDdYSkhpUnFheEhuSXVlc0NqWF9YVUF0NVhhS1lyMzhZWHlGcFZlaWE3SUdxQWVwWTlMWkFjTkpiSWNBN2ZhUTYyZEtxT3NtRTVqQkRuS3d2Sy1qN1RaYXRZQUowZlIwUDhDVUF6WkVCLUR0dXVFa2RIMzJuMVBDWTI1d2ZMZw?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -2781,15 +2765,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20260814T070000Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "IAEA SMR School in the Russian Federation Offers Insights into Operating Technologies",
-          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNZ3kyVlloLWVlUk94T2Y5dVZ1dHRoNUpMYzI4eDJzSE9tWkctSDZZM1M5QVN0UUNMYlJYSzJpbWhuNVgwQUxhNnFYcEd4bjZkcy1PaTdla1Y0aTV4XzJMRGFCa3NiMERWREFZTjNzT0lNZXc2eG5iUk9iY3ltQU1qTVk3ZkgtMHdiUXhrMWlzM3lCUng5dVlNOWVibnNPZzNlYVdvZHFqZHg2Rjh0bXdNS3BpWlRvWWUwbkd1UThR?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260930T104012Z",
           "source": "GoogleNews"
         },
         {
@@ -2880,6 +2855,42 @@
           "language": "",
           "tone": 0,
           "seendate": "20251223T043055Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Determination of Environmental Remediation End States",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNRUM1d0F3aWJTa1U0VE1qMk1xZl9sQlE1RTAwVGZXOUtWSTEzYTZFeWhIMlQwSlExanFIYm9Nb0dORkd2OGxyUVdZY3FoSU1Jb0xmcktEMkNVNGg3V3YwanJuelVuN2JIbS1OMjR3WXZFWkY3REpqWDIzekxXQjRuVjQ3UldrQlljeG9WbzluSXlrTE91WEYw?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20230522T101652Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Integrated Approaches for the Management of Environmental Site Remediation Processes: A Baseline Report",
+          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOdjQ2cWlEc1ozQktOdmFCOTFMbFdzNG1LVUp2UGtVY01Pa2V3ZWdPRTJOdWZVTzlPcWdQMDBOczRpemNMOUFOYjVHcXRaX3RtS3phbXZ2WU91NXBtWURFci1qMHZOWEpiRk9WWjVlV1dfbjRpSDBUMC1pVTc3ZlEzU1o1VWlSU1RTY0M4RzRoNlBOekFFNVZGLWR1ZFhpYk0yTVdCQzlCOWVpOHUwbWdWaXI0VTZ2QTZqN1A1OXI3MWNOWlc0VGthRzB3bWNYNFoybDBfakE3TDU?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20240828T130459Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Good Practices in Implementing Plant and Equipment Reliability Programmes in Operating Nuclear Power Plants",
+          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQNThMSGhlenAxemhsNWNlb1BDYTNHRmRJMk00eUFnYUFXWkNFazF3TDVUd1Nra1A5QmRVZG1KT2lER1hBSGNNS1NoR2pTeE80dENubklKX1lqTU5mdnMzWWtaaW9IclFLU2I0Y1Fyb19GTl9pVmlBZm0xelEwVTBVUTYzLUNjTVI0QlVTRzRFSm1LUlBYeWFlYXozODQwQ29WUWstQTc5LU50dmw2UWRyUkVyZWlqQUVVZmpwa200aEVKMGx0M2FJRDZsMmZhWktETElIWUtrV3BkdEJuZUdV?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260814T221027Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Detection of Unintended or Accidental Medical Exposures in Radiotherapy Through Patient Response",
+          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQWlhZelptbW5PTU1RMHQ5dDRiS0tIMTlZUU1GcERfS3F4bnBfZzhkWHFPMnF1MU05NnRMd09xTDNEellCR1R2ajdya2c4OVJqR3hJMUJENi1zQ1FINUZIaFc4Q3JtQkpwOV9HZG5CbDV6RjRuWjFVWFlDeTJUaHpzTlg4VEV2c0tQWTFoVmxicGJvSTJUdGVfWjUyLWVhclJTUUVyTFZZalROMHA2dGFmamdndmtyejJTTVR0eU9BRm1wbVF2cEZ2dm82MkphdWdp?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260825T145023Z",
           "source": "GoogleNews"
         }
       ],
@@ -10641,6 +10652,54 @@
           "source": "USGS"
         },
         {
+          "id": "ci41346903",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1791844477810,
+          "magnitude": 1.74,
+          "magnitude_type": "ml",
+          "event_type": "earthquake",
+          "place": "16 km WSW of Olancha, CA",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41346903",
+          "lon": -118.169833333333,
+          "lat": 36.2163333333333,
+          "depth_km": 6.02,
+          "source": "USGS"
+        },
+        {
+          "id": "nc75448501",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1791838321710,
+          "magnitude": 2.17,
+          "magnitude_type": "md",
+          "event_type": "earthquake",
+          "place": "16 km NNW of Dixon Lane-Meadow Creek, CA",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75448501",
+          "lon": -118.471000671387,
+          "lat": 37.5263328552246,
+          "depth_km": 8.02999973297119,
+          "source": "USGS"
+        },
+        {
+          "id": "nn00925681",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1791834912245,
+          "magnitude": 2.13,
+          "magnitude_type": "ml",
+          "event_type": "earthquake",
+          "place": "31 km SSE of Mina, Nevada",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00925681",
+          "lon": -117.9102,
+          "lat": 38.1505,
+          "depth_km": 11.6622,
+          "source": "USGS"
+        },
+        {
           "id": "ci41346519",
           "site": "Nevada National Security Site",
           "site_lat": 37.12,
@@ -10709,15 +10768,15 @@
           "site": "Nevada National Security Site",
           "site_lat": 37.12,
           "site_lon": -116.05,
-          "time": 1791702675019,
-          "magnitude": 2.62,
+          "time": 1791702675454,
+          "magnitude": 2.54,
           "magnitude_type": "ml",
           "event_type": "earthquake",
-          "place": "25 km SW of Mina, Nevada",
+          "place": "26 km SW of Mina, Nevada",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00925616",
-          "lon": -118.3419,
-          "lat": 38.2519,
-          "depth_km": 11.6271,
+          "lon": -118.3463,
+          "lat": 38.2439,
+          "depth_km": 10.1557,
           "source": "USGS"
         },
         {
@@ -10757,15 +10816,15 @@
           "site": "Nevada National Security Site",
           "site_lat": 37.12,
           "site_lon": -116.05,
-          "time": 1791668209558,
-          "magnitude": 1.82,
+          "time": 1791668210090,
+          "magnitude": 1.9,
           "magnitude_type": "ml",
           "event_type": "earthquake",
-          "place": "26 km SSW of Alamo, Nevada",
+          "place": "28 km SSW of Alamo, Nevada",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00925600",
-          "lon": -115.3097,
-          "lat": 37.1569,
-          "depth_km": 2.0211,
+          "lon": -115.2963,
+          "lat": 37.1355,
+          "depth_km": 4.0477,
           "source": "USGS"
         },
         {
@@ -10773,15 +10832,15 @@
           "site": "Nevada National Security Site",
           "site_lat": 37.12,
           "site_lon": -116.05,
-          "time": 1791667537723,
-          "magnitude": 2.17,
+          "time": 1791667538270,
+          "magnitude": 2.25,
           "magnitude_type": "ml",
           "event_type": "earthquake",
-          "place": "27 km SSW of Alamo, Nevada",
+          "place": "29 km SSW of Alamo, Nevada",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00925598",
-          "lon": -115.2811,
-          "lat": 37.1356,
-          "depth_km": 12.271,
+          "lon": -115.2966,
+          "lat": 37.1256,
+          "depth_km": 3.4844,
           "source": "USGS"
         },
         {
@@ -10821,15 +10880,15 @@
           "site": "Nevada National Security Site",
           "site_lat": 37.12,
           "site_lon": -116.05,
-          "time": 1791614615634,
-          "magnitude": 1.66,
+          "time": 1791614616928,
+          "magnitude": 1.59,
           "magnitude_type": "ml",
           "event_type": "earthquake",
-          "place": "21 km SSE of Caliente, Nevada",
+          "place": "22 km SSE of Caliente, Nevada",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00925582",
-          "lon": -114.3873,
-          "lat": 37.4487,
-          "depth_km": 15.9558,
+          "lon": -114.4077,
+          "lat": 37.4271,
+          "depth_km": 8.0781,
           "source": "USGS"
         },
         {
@@ -10853,15 +10912,15 @@
           "site": "Nevada National Security Site",
           "site_lat": 37.12,
           "site_lon": -116.05,
-          "time": 1791603827841,
-          "magnitude": 2.04,
+          "time": 1791603828855,
+          "magnitude": 2.01,
           "magnitude_type": "ml",
           "event_type": "earthquake",
-          "place": "27 km SSW of Alamo, Nevada",
+          "place": "29 km SSW of Alamo, Nevada",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00925568",
-          "lon": -115.2654,
-          "lat": 37.1276,
-          "depth_km": 0.8975,
+          "lon": -115.3016,
+          "lat": 37.1257,
+          "depth_km": 11.1189,
           "source": "USGS"
         },
         {
@@ -10869,15 +10928,15 @@
           "site": "Nevada National Security Site",
           "site_lat": 37.12,
           "site_lon": -116.05,
-          "time": 1791603409412,
+          "time": 1791603410105,
           "magnitude": 2,
           "magnitude_type": "ml",
           "event_type": "earthquake",
           "place": "29 km SSW of Alamo, Nevada",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00925565",
-          "lon": -115.2891,
-          "lat": 37.115,
-          "depth_km": 2.1512,
+          "lon": -115.2985,
+          "lat": 37.1194,
+          "depth_km": 3.6557,
           "source": "USGS"
         },
         {
@@ -11493,15 +11552,15 @@
           "site": "Nevada National Security Site",
           "site_lat": 37.12,
           "site_lon": -116.05,
-          "time": 1790827344260,
-          "magnitude": 2.02,
+          "time": 1790827344100,
+          "magnitude": 1.77,
           "magnitude_type": "md",
           "event_type": "earthquake",
-          "place": "5 km NW of Dixon Lane-Meadow Creek, CA",
+          "place": "4 km NW of Dixon Lane-Meadow Creek, CA",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75442151",
-          "lon": -118.450836181641,
-          "lat": 37.4266662597656,
-          "depth_km": 5.34000015258789,
+          "lon": -118.450333333333,
+          "lat": 37.4138333333333,
+          "depth_km": 6.11,
           "source": "USGS"
         },
         {
@@ -11525,15 +11584,15 @@
           "site": "Nevada National Security Site",
           "site_lat": 37.12,
           "site_lon": -116.05,
-          "time": 1790823857520,
-          "magnitude": 1.87,
+          "time": 1790823857370,
+          "magnitude": 1.86,
           "magnitude_type": "md",
           "event_type": "earthquake",
-          "place": "17 km SW of Toms Place, CA",
+          "place": "18 km SW of Toms Place, CA",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75442136",
-          "lon": -118.832168579102,
-          "lat": 37.4651679992676,
-          "depth_km": 2.89000010490417,
+          "lon": -118.840833333333,
+          "lat": 37.4555,
+          "depth_km": 3.16,
           "source": "USGS"
         },
         {
@@ -39166,22 +39225,6 @@
           "lon": -118.811996459961,
           "lat": 37.4678344726562,
           "depth_km": 2.21000003814697,
-          "source": "USGS"
-        },
-        {
-          "id": "nn00905878",
-          "site": "Nevada National Security Site",
-          "site_lat": 37.12,
-          "site_lon": -116.05,
-          "time": 1760282376080,
-          "magnitude": 1.6,
-          "magnitude_type": "ml",
-          "event_type": "earthquake",
-          "place": "31 km SW of Caliente, Nevada",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00905878",
-          "lon": -114.7377,
-          "lat": 37.3935,
-          "depth_km": 8.1,
           "source": "USGS"
         },
         {
