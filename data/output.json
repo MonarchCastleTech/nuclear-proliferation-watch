@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "nuclear-proliferation-watch",
-    "generated": "2026-10-14T17:37:17.119996+00:00",
+    "generated": "2026-10-14T21:56:59.728373+00:00",
     "mode": "live",
     "sources": [
       "IAEA official pages",
@@ -14,7 +14,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-10-14T17:37:17.111547+00:00",
+    "issued_at": "2026-10-14T21:56:59.719592+00:00",
     "horizon": "0-30 days",
     "classification": "nuclear-escalation-pressure-not-test-or-weapon-probability",
     "score": 7.6,
@@ -1979,6 +1979,17 @@
           "facility_security_incidents": 4.5,
           "test_site_seismicity": 0.0
         }
+      },
+      {
+        "timestamp": "2026-10-14T21:56:59.719592+00:00",
+        "score": 7.6,
+        "level": "BASELINE",
+        "components": {
+          "iaea_safeguards_strain": 19.2,
+          "npwmd_designation_delta": 0.0,
+          "facility_security_incidents": 4.5,
+          "test_site_seismicity": 0.0
+        }
       }
     ],
     "data_health": {
@@ -2463,21 +2474,21 @@
           "source": "GoogleNews"
         },
         {
+          "title": "70th IAEA General Conference",
+          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE14Zjl1Unh5dnZveDJ6alZFWklORlpidVFINElxZkRXQ2s3dUNvWi1jOU1QQ1BfeV9fRTF2NkVLVnVjOTNZdTlSenFFNlBmS2tyYmVIeXVnZ1hqZlB3ODR6aFNhWmlOUUxUYzJMSDI1eThycGc?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260918T070000Z",
+          "source": "GoogleNews"
+        },
+        {
           "title": "Update 359 – IAEA Director General Statement on Situation in Ukraine",
           "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNMUs0cGFLa0FTNmJwNHkxRTlBQjRob3h1N0E1MDJrbzRPWE5ra1dSUzhhcjVjR3VfQjlkdzhaeW5LT2JyRDF6WWRFNzM4UXRBbWFBdmhvdGF1eENHYzFSWTczUGM3SllXRWxDdWpXN3Y3bmliZjE3V3EtbWVSekc2a1dXTUkyd1dzU25ISEcyLTgzUUhLOGNrOGtXQ3o4dkFUb0ljLXZyXzJrZEJXVEhKUg?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
           "seendate": "20260723T070000Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "Relevant specifically for the LMP in China (hosted by Harbin Engineering University and China Atomic Energy Authority): - Artifi",
-          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE11U1BqWmpPaTZZY1RrM1ZqOEMxOV80OEotNlhlZGR5UEJCMGxsZkZwSE90Q2UzLVAwWjRiNGVxQnVod3lubmdlVHJ2YjlfLWVuYm8zYTFYMm16V3J5X05pVU9iN2FFR1ZaNGF4UXpxa2ZrVnlhNVZ5MXFR?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260912T230759Z",
           "source": "GoogleNews"
         },
         {
