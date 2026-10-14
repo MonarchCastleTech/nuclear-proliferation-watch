@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "nuclear-proliferation-watch",
-    "generated": "2026-10-14T05:26:02.444220+00:00",
+    "generated": "2026-10-14T12:24:34.006354+00:00",
     "mode": "live",
     "sources": [
       "IAEA official pages",
@@ -14,7 +14,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-10-14T05:26:02.435347+00:00",
+    "issued_at": "2026-10-14T12:24:34.001025+00:00",
     "horizon": "0-30 days",
     "classification": "nuclear-escalation-pressure-not-test-or-weapon-probability",
     "score": 7.6,
@@ -28,7 +28,7 @@
         "available": true,
         "score": 19.2,
         "current_14d_weight": 2.0,
-        "current_14d_titles": 18,
+        "current_14d_titles": 19,
         "baseline_periods": 8,
         "baseline_median": 0.0,
         "anomaly_z": 2.0,
@@ -1957,6 +1957,17 @@
           "facility_security_incidents": 4.5,
           "test_site_seismicity": 0.0
         }
+      },
+      {
+        "timestamp": "2026-10-14T12:24:34.001025+00:00",
+        "score": 7.6,
+        "level": "BASELINE",
+        "components": {
+          "iaea_safeguards_strain": 19.2,
+          "npwmd_designation_delta": 0.0,
+          "facility_security_incidents": 4.5,
+          "test_site_seismicity": 0.0
+        }
       }
     ],
     "data_health": {
@@ -2252,15 +2263,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "Publications advanced search",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9IQ3NtODFZYk1WMGlLclJJS0M0d3Z5VlhQTUc0b1BRa09LVHF0REhYOWI2YlotaVRxTEpXWHktRjVBNmJWV0FIdkhyaXBhVjhHeWhPV1BFRDBTWm1SRnNpSWplTkFtR2o4eXViTGJB?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260914T070952Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "Provisional agenda",
           "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1ZaXJtVEZSbk1NMTJObVlEMTN0R3VMQ2g2QzFzaHF0YU9TRmQxSkxMZmZ3dTVJdW5YOGxVbWdFbTJOT2JZODhOcnM3eXY3SFBfMUlFRkFaUWR4QTMzanV1OGgzRVpmM0dSWWc0?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -2306,6 +2308,15 @@
           "source": "GoogleNews"
         },
         {
+          "title": "Publications advanced search",
+          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5qb2plVHJQM05LaVJEZ25OX2E4WXNLdmRzbnJraUhWNG1RaElWS0h2VXNuWFZWazBuT1hRNlN2clgtN1FLcWtDMkRQRVZ6Z2prV0JUaVpCTG5EVHBYZWVyRktn?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20261009T094547Z",
+          "source": "GoogleNews"
+        },
+        {
           "title": "IAEA Concludes International Physical Protection Advisory Follow-Up Mission in China",
           "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQeGN1aGpSZVE2b1lpZ01sczhLdzFiTGJ1d3ZGU1JTUkV4VkJ6dDhPX2tHaHVIajR6aUFERG5WY2tBdnZqZ0tNd0JVbFFReE5QTzZSS1VJWUR3TEZuMHVHeU91b3hsVnBWUFlfWG5vQzM0ZXU4XzlKOTJjWkMxTE1JVTFvM1p1bW1nNS1zUWFQcG10bjhnR0M4MFpwV2cwVklPUUo0VFBxQUt4emFCSHVmdWFKajcwbDNWU3VLZzllVGhLdk9MY1RBZw?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -2324,21 +2335,21 @@
           "source": "GoogleNews"
         },
         {
-          "title": "IAEA General Conference Elects Argentine Ambassador as Conference President",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOWVlHamFFZFp5TlZxS3RQazJMQjF6WnpUQ3EyNXlBdUlOZFhXckdWV3Y1bHVVaHZneFV6NFZRQmV1V0l6WWxxaklnbGpjMFpncDVWd3NpdkRUSHoxdmhXZVpVY0JTZEM3ekVnWm5RSTF1aVdUUWM0NktnS2pyRjJBc0JsT3V2cDA2bmVmWXlxdXJDTk1nSG84WjhiaG8tRHR1VHJ1YUhkQTV1OGYzMjlkbw?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260914T070000Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "Videos",
           "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1lQm01SUNjLVdMQ1JZMzI5VE92eTBURjMxVUdtQldCUmNNVC1KRTNzNlZRd1Z2SUNuVDB1VUlFU2k0c3R3TTktZm9OOHY2cTZGUk1BZVpzdkhTV2U1?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
           "seendate": "20260915T070000Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "IAEA General Conference Elects Argentine Ambassador as Conference President",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOWVlHamFFZFp5TlZxS3RQazJMQjF6WnpUQ3EyNXlBdUlOZFhXckdWV3Y1bHVVaHZneFV6NFZRQmV1V0l6WWxxaklnbGpjMFpncDVWd3NpdkRUSHoxdmhXZVpVY0JTZEM3ekVnWm5RSTF1aVdUUWM0NktnS2pyRjJBc0JsT3V2cDA2bmVmWXlxdXJDTk1nSG84WjhiaG8tRHR1VHJ1YUhkQTV1OGYzMjlkbw?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260914T070000Z",
           "source": "GoogleNews"
         },
         {
@@ -2450,6 +2461,15 @@
           "source": "GoogleNews"
         },
         {
+          "title": "Relevant specifically for the LMP in China (hosted by Harbin Engineering University and China Atomic Energy Authority): - Artifi",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE11U1BqWmpPaTZZY1RrM1ZqOEMxOV80OEotNlhlZGR5UEJCMGxsZkZwSE90Q2UzLVAwWjRiNGVxQnVod3lubmdlVHJ2YjlfLWVuYm8zYTFYMm16V3J5X05pVU9iN2FFR1ZaNGF4UXpxa2ZrVnlhNVZ5MXFR?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260912T230759Z",
+          "source": "GoogleNews"
+        },
+        {
           "title": "Tritium Level Far Below Japan’s Operational Limit in 23rd Batch of ALPS Treated Water, IAEA Confirms",
           "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPQkVSMDNSRGZsbTFWNDZOYmU3bE4wTTl0clNhZS1mN2N1NTZLVngyX19PWXFaMVpNOXM5Sk9ZYzZ5MVFjaUtfRkpSZF9NLU9KcmFZMzVnM2FYajVwd2ZuSnVVNy1heWhxWUZkbHNJQ0t0WTE5Y2tkdHQxMng0SEtMTWdiX0t3WFBBdzV4THlMb3Vxd19ONDAxTE5QVkVXU0ZzUkhqTUExRV82VUJPX1ZKZE4xNXgwMnZ0cTFkODVzLVJ1cFdDeWJubzZKbFBOM0x4dFdsZ2NPUFV5aG8?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -2522,15 +2542,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "Екатерина Харсдорф",
-          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1INEszM0hQY1FySFNZSndsQzlTeVpZTW9xcE1GdDBob2g0YTlRbllOWEFBeGlaemlRVjBTWExXYWFGV0NaUDBHSUZULW9URlk?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260926T123224Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "Update 370 – IAEA Director General Statement on Situation in Ukraine",
           "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOQ19oR25LUUJEcHl1TUdtS1B1ZHJnSkJkLXE5a1V4dmZMZ1lQeUFkbnZLd0IyLUdIN2dmM2hTODRIMjRkNXlISC1EdF9FWUw1aldBNEFWa3VLemhoLXFTSkw1dG1LUVgwRXctbmxscHVfQVozZjJhSERQODVBU1BRbDVsS0FBa2VwYXNuOVFfcGp0YWttNVRJcUI1dGtScGVSNWNYR1JvRzBfaFNxdHBTaQ?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -2555,6 +2566,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20260710T070000Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "The Week Ahead: IAEA Hosts 70th General Conference",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQRDFMWmxYQkZUOVI0YnBMNEVjeFVYYlJMYmktaU8xaXk3RVdVYUhoOTRreXNncnluNHJ5UXR0aU84Nkc0ZFkwWUg2bVBQOGpJUFRmcHRQZUdnQjhzenJSZHNwR3k0OTFIT3ZqSGEwWWUyX3QwN0tQX3pNUUtsZDRPVkM3RnFQSW5wMzRXc0pR?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260914T070000Z",
           "source": "GoogleNews"
         },
         {
@@ -2663,15 +2683,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20261007T010938Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "Mexico Signs a Country Programme Framework (CPF) for 2026-2031",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPM3lYQ29FMWVjdEJEQzYxOWN6Unp0dElRTE4yR0RYNGx2U2oweDNZTkJEaVAxZWNQN0ZZVWtHM0h2VVhxT0NUZ2hzLTViLTRkYVhIMXppYXpuZG9hYld0ejYwUGIzd2oxTXNHdnJKNVBtbHhSSlZlclhPZy1HbXk0WHhpT1FrcXZTa2JjdGRVaEVSWHc3ZXBobktUaFo?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260914T070000Z",
           "source": "GoogleNews"
         },
         {
@@ -2837,12 +2848,12 @@
           "source": "GoogleNews"
         },
         {
-          "title": "IAEA Board of Governors Elects New Chairperson for 2026-2027",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNbzNvelAwTmRvaTdXSnRTS0RUNjlQNHJxNzJZVWZFWGJMVl9WbmFFdTVHVWNESzFfNXo2VFROWkZMVnV4cWRsLVh3X1NDR0E3ckVUb29tZExDN3RGUE5RWnlocFJ5c3M5S25Xc2E4bGE2WUt5LXdMXzFHa1d0MmVDNnI3OVNBTHVtd0ZkZG9VZnNGYXJ2a3B4emhOMmU?oc=5",
+          "title": "Mexico Signs a Country Programme Framework (CPF) for 2026-2031",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPM3lYQ29FMWVjdEJEQzYxOWN6Unp0dElRTE4yR0RYNGx2U2oweDNZTkJEaVAxZWNQN0ZZVWtHM0h2VVhxT0NUZ2hzLTViLTRkYVhIMXppYXpuZG9hYld0ejYwUGIzd2oxTXNHdnJKNVBtbHhSSlZlclhPZy1HbXk0WHhpT1FrcXZTa2JjdGRVaEVSWHc3ZXBobktUaFo?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
-          "seendate": "20260921T070000Z",
+          "seendate": "20260914T070000Z",
           "source": "GoogleNews"
         },
         {
