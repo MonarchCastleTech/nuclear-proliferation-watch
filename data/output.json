@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "nuclear-proliferation-watch",
-    "generated": "2026-10-14T12:24:34.006354+00:00",
+    "generated": "2026-10-14T17:37:17.119996+00:00",
     "mode": "live",
     "sources": [
       "IAEA official pages",
@@ -14,7 +14,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-10-14T12:24:34.001025+00:00",
+    "issued_at": "2026-10-14T17:37:17.111547+00:00",
     "horizon": "0-30 days",
     "classification": "nuclear-escalation-pressure-not-test-or-weapon-probability",
     "score": 7.6,
@@ -28,7 +28,7 @@
         "available": true,
         "score": 19.2,
         "current_14d_weight": 2.0,
-        "current_14d_titles": 19,
+        "current_14d_titles": 18,
         "baseline_periods": 8,
         "baseline_median": 0.0,
         "anomaly_z": 2.0,
@@ -59,8 +59,8 @@
         "removed_count": 0,
         "added": [],
         "removed": [],
-        "publish_date": "2026-10-09",
-        "sha256": "a472434fd73854d52b8c0e53d4348f50a73c2cd5651cb2db1d6b8917e6b7f405",
+        "publish_date": "2026-10-13",
+        "sha256": "1022b462f33c607007d671c59f6cbd692d7dd1479b736c243e9f747695bf01cb",
         "retained": false
       },
       {
@@ -1968,6 +1968,17 @@
           "facility_security_incidents": 4.5,
           "test_site_seismicity": 0.0
         }
+      },
+      {
+        "timestamp": "2026-10-14T17:37:17.111547+00:00",
+        "score": 7.6,
+        "level": "BASELINE",
+        "components": {
+          "iaea_safeguards_strain": 19.2,
+          "npwmd_designation_delta": 0.0,
+          "facility_security_incidents": 4.5,
+          "test_site_seismicity": 0.0
+        }
       }
     ],
     "data_health": {
@@ -2056,21 +2067,21 @@
           "source": "GoogleNews"
         },
         {
-          "title": "IAEA Completes International Physical Protection Advisory Service Mission in Pakistan",
-          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPUmZ0SmxrSG5ZdEVheGJ2TkEtSDVVTHUwZUhMWjVEbVVzV3VCQmZqWVhLWFpkTTBveE1zYWxRcXRFUzRkZnJKNGxwLVR1NmpoZjNYUXZyYklKY215ZmR4VVlQNG9WQTAxbUtiUktjVGJub1JKeTljS3l0MFRMbkQ0b0E2STdSLXVjRXlwb0xrcFlUSlBBQnkwNFJnck1ka2xGMlhZQUxRLW5maFFtNHM2cUl2YkJhUVlqTVhNZzUwTExEZnRXcFJ3SHFn?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20261009T090008Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "Nuclear Technologies in Space: From Batteries to Future Rockets",
           "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxORzdzaUNuNGhVUFczWkNPU0RBeXZIVzNsT0h0a2lvNUdWYzFpOXVIbDlFMVZtbzkyQUpHVWdseUczM18xQTJHTW96OHlWLTJFTWg2elYxNjE4cVZTTGFJVFF5bGNlQm04UU1wRElhT2pNdmhBV2tZcHAtWUpPQW9LLUhmWGoxZFdkTUhNb0lQZklsbGU3TVZtdjhWWkhZWElu?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
           "seendate": "20261012T060000Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "IAEA Completes International Physical Protection Advisory Service Mission in Pakistan",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPUmZ0SmxrSG5ZdEVheGJ2TkEtSDVVTHUwZUhMWjVEbVVzV3VCQmZqWVhLWFpkTTBveE1zYWxRcXRFUzRkZnJKNGxwLVR1NmpoZjNYUXZyYklKY215ZmR4VVlQNG9WQTAxbUtiUktjVGJub1JKeTljS3l0MFRMbkQ0b0E2STdSLXVjRXlwb0xrcFlUSlBBQnkwNFJnck1ka2xGMlhZQUxRLW5maFFtNHM2cUl2YkJhUVlqTVhNZzUwTExEZnRXcFJ3SHFn?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20261009T090008Z",
           "source": "GoogleNews"
         },
         {
@@ -2119,15 +2130,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "Implementation of the NPT Safeguards Agreement in the Syrian Arab Republic",
-          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFA1aWxESXpNcFhwOVR2YXVOZTc5MUxDQXVsX0VaUjVPZWZFcUpWU0RKN1RiNHlEaWJpQ2ZnVHpXWkJybU5OUXJnWExmOHk3S1BMa3BONlJodlNwYTh2TzZNd1NLUFNpQQ?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260901T070000Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "Reaching the future Safeguards workforce: Early Career Avenues in the Department of Safeguards",
           "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5RbTJNRTkxZGxBNEUzanctVE5NSkZMZUlJWGtqMTlWX2c4b2FrNGpzTVFKR3pDSTEwc0IxSTcxdFVkT3JWOW1kajZ0dw?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -2161,6 +2163,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20260818T070000Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Implementation of the NPT Safeguards Agreement in the Syrian Arab Republic",
+          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFA1aWxESXpNcFhwOVR2YXVOZTc5MUxDQXVsX0VaUjVPZWZFcUpWU0RKN1RiNHlEaWJpQ2ZnVHpXWkJybU5OUXJnWExmOHk3S1BMa3BONlJodlNwYTh2TzZNd1NLUFNpQQ?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260901T070000Z",
           "source": "GoogleNews"
         },
         {
@@ -2569,15 +2580,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "The Week Ahead: IAEA Hosts 70th General Conference",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQRDFMWmxYQkZUOVI0YnBMNEVjeFVYYlJMYmktaU8xaXk3RVdVYUhoOTRreXNncnluNHJ5UXR0aU84Nkc0ZFkwWUg2bVBQOGpJUFRmcHRQZUdnQjhzenJSZHNwR3k0OTFIT3ZqSGEwWWUyX3QwN0tQX3pNUUtsZDRPVkM3RnFQSW5wMzRXc0pR?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260914T070000Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "International High-level Forum on the ATLAS Launch - Programme | IAEA",
           "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE0wcE5HaXBzY1dVM19BemtzVUJVLWlqRkJvU1hrWTFZVTA1cGdXV2YwMVJ3eEpfQmxwajBkMlpEVVFEbjI0U2Q2ZTBXWG5udW5XZWNEeWdVZzhoQQ?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -2665,6 +2667,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20260701T070000Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "The Week Ahead: IAEA Hosts 70th General Conference",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQRDFMWmxYQkZUOVI0YnBMNEVjeFVYYlJMYmktaU8xaXk3RVdVYUhoOTRreXNncnluNHJ5UXR0aU84Nkc0ZFkwWUg2bVBQOGpJUFRmcHRQZUdnQjhzenJSZHNwR3k0OTFIT3ZqSGEwWWUyX3QwN0tQX3pNUUtsZDRPVkM3RnFQSW5wMzRXc0pR?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260914T070000Z",
           "source": "GoogleNews"
         },
         {
@@ -2920,21 +2931,21 @@
           "source": "GoogleNews"
         },
         {
-          "title": "Seychelles Signs a Country Programme Framework for 2026-2031",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxObHpORjZYa1lrN0F1b0tEa09UM2dzdjc1Wk9Nc3BhYkYzX2dkdWlmNUh3cElreVFjUzBocVBTdDUybVVyaDNHelU4dFBybHZmUS11RDlDcW0zUDdJTGNIVVluT1BvYUpRN0FUaUdwa0dGUGZOSmZoTXN5QjM0dzMyMlJzM182Mng4T0ROWUVwbnZUR1I3c2tNREV6Y1I?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20261002T070000Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "Republic of Cyprus Signs a Country Programme Framework (CPF) for 2026-2031",
           "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxONmswZUZnaURfOXNXNjdNYnYySEhDaEloTkVLQ0dxeXVwc3B6Q3pCSkZ6NmdZb0IyQ0dtWGlxOGgxa3VRQ1dSMEFDUFJ5Zk9INkNTUjhRbkFTQ0VGbEM4NlZjUU14Umk2WEJxVVA5X3o0VVNXc1o0am05RTNweW84MmxaSC10YW14MFJZX2JVdEM2SFhIRDJjeUF0ZDhYOHduQWhOYzd0cTZaTGct?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
           "seendate": "20260707T070000Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Regulatory Experience Feedback Management",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQVG1zX2NtSk92ZmItVXd4QVdfcFVza1RNNkttcWp1VjFidDYwT0hIOGtJM1hKZVZyNGVQVGZ0ZFpSblpvcUJEd2NSLWFRZ25oNW9PcWNpaHRoS2VCVi1rbUx2ZDZfRmQyb1ZLaVpwZVJVNC02RXk5UEkwMFdRWGphdWduY2tGLXM?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260925T090559Z",
           "source": "GoogleNews"
         }
       ],
@@ -10433,8 +10444,8 @@
         }
       ],
       "count": 1205,
-      "publish_date": "2026-10-09",
-      "sha256": "a472434fd73854d52b8c0e53d4348f50a73c2cd5651cb2db1d6b8917e6b7f405",
+      "publish_date": "2026-10-13",
+      "sha256": "1022b462f33c607007d671c59f6cbd692d7dd1479b736c243e9f747695bf01cb",
       "cached": false
     },
     "test_site_seismicity": {
