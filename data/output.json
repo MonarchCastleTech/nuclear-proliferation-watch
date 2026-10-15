@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "nuclear-proliferation-watch",
-    "generated": "2026-10-15T17:22:51.003732+00:00",
+    "generated": "2026-10-15T21:47:58.949382+00:00",
     "mode": "live",
     "sources": [
       "IAEA official pages",
@@ -14,7 +14,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-10-15T17:22:50.997090+00:00",
+    "issued_at": "2026-10-15T21:47:58.940914+00:00",
     "horizon": "0-30 days",
     "classification": "nuclear-escalation-pressure-not-test-or-weapon-probability",
     "score": 7.6,
@@ -28,7 +28,7 @@
         "available": true,
         "score": 19.2,
         "current_14d_weight": 2.0,
-        "current_14d_titles": 18,
+        "current_14d_titles": 17,
         "baseline_periods": 8,
         "baseline_median": 0.0,
         "anomaly_z": 2.0,
@@ -94,7 +94,7 @@
         "available": true,
         "score": 0.0,
         "current_30d_diagnostic_weight": 0.0,
-        "events_considered": 1809,
+        "events_considered": 1810,
         "sites_monitored": 8,
         "anomaly_z": 0.0,
         "evidence": [],
@@ -2023,6 +2023,17 @@
           "facility_security_incidents": 4.5,
           "test_site_seismicity": 0.0
         }
+      },
+      {
+        "timestamp": "2026-10-15T21:47:58.940914+00:00",
+        "score": 7.6,
+        "level": "BASELINE",
+        "components": {
+          "iaea_safeguards_strain": 19.2,
+          "npwmd_designation_delta": 0.0,
+          "facility_security_incidents": 4.5,
+          "test_site_seismicity": 0.0
+        }
       }
     ],
     "data_health": {
@@ -2273,6 +2284,15 @@
           "source": "GoogleNews"
         },
         {
+          "title": "TECDOC Series",
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5XU3A3OWc1NWpkLTBwcjhUaW02dFhvYjlDQWdsRzZoMTlBRm5tZE9hekt6b3BVZ3B4dWhBWW4yZk8tdkVCSHc3Nng2QVItT0pGWEU5NmlrdjNGWHZDSlpYUTg0QmpXaXBGRTdTVm1tWQ?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260927T205217Z",
+          "source": "GoogleNews"
+        },
+        {
           "title": "Agenda",
           "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1HMjRmZ282VjdaazFlRmtZUWdBZFpMOUZ3WGt6dU1sc2h3dUhBSzlMUG1yYlJxS0R6OEFHV0YyWFdUZFlYWllJOUN0SUstUWQxQjNuSEFFVkx5UThGZ0ZkeHllU2lfZw?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -2423,15 +2443,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20250531T052238Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "PhD Advisor Release & Recommendation Form LMP China (Harbin Engineering University and CAEA)",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNRXhnLXRBb3FTNklPdFFUVnY0OUE3SXZJem54Q1B1b3BUbWVaVGhhckVTX0JudEY1eTJHUU91ZU5sV3NUUGJHZE9MdS1UNGthYXZpZlBJSWQ4WndQaE9rSGd2bTJlelJqUHI3N3U0Uk11YWtSQlBMazF5cEVIZDN6dHExMXY3cjcyWF9yV3FjZHhuWVFSTjFVcE91MzJidjZmcUE?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20261010T055853Z",
           "source": "GoogleNews"
         },
         {
@@ -2705,15 +2716,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "TECDOC Series",
-          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9Rb2lYRkRvX1k0WUJSU3Q4TDlJOFhYSlMyaGhiUVVGOS04WW1wWkVVUFJvcVhKQ0FaRmhScnBLUkFYU3Q1N1I5Vng0NDcybUxhbVUxdWVOa0UweWhOZF9kVE5SM21Zc1ZwZEJwVUtqVDc?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260927T113005Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "Update 354 – IAEA Director General Statement on Situation in Ukraine",
           "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNcTBvYVcyZ2lkbVhiRDVnWWJuOWdlX05GLS1BOWl1X1lLdk1PSkxPR3R1dHBZVmtoQjJ6NjFBQWtreFVCZ0pSZWlycmpfOXF5dDR3TWZTNW5VYnROT0tfaW15MDR0VmEzcVNVZ3NGTDlZQ0NBY3Ntd0dtUGxsMWFib0xCMVVyZUpTZ25paHJEUjZHZlpKSU1IM3NzcmNGQzNDblhMRllDZnRuRGJ4d0U0Xw?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -2723,12 +2725,12 @@
           "source": "GoogleNews"
         },
         {
-          "title": "Training Course on Ocean Alkalinity Enhancement - Assessing the Impact on Marine Organisms",
-          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPdDVTWTBhSmgtY3NadFE4bG5OVzVGZHNXUDhBbDltTmpPMVpaSFR3OUwxdUYtLXNwYTJ1blFxeEIwcHJVeGhmVXI5dXdULXZwLXhIbTM0QkZwR1JkNFEwcWtXTDN4Y3JEY2lSbWkzMUlaYzdrNTg2dVZoZElmRjFqbWV0Z2FOOFlHRmstQUNvX2UyejZPUmUxeEZPWU9udFlzLTZjeXZPMVo0YzZJTkk3aUVza1AyMjk3UkVnU0VIbVEwSnZhYmhYVVdkY1Rra0RTcC1fLWdlV1dZZw?oc=5",
+          "title": "Short Statement by the Kingdom of Morocco delivered by H.E Azzeddine FARHANE, Ambassador, Permanent Representative at the70th se",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9VaUE1bmhBbWtGdlBsOXJnOFF1cy1hYmxDd1RHMWZkQmxQbV9OM3JEZ1lJT1dlY1k0MDhZNHN6SlhQa1JZX0lxcU50S1QwMGJ2U2lPMWRONU9pVHVKLXdpVHcyNXpDc3V3c2xoWTAxNnd4dFhfcmc?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
-          "seendate": "20260721T142539Z",
+          "seendate": "20260914T070000Z",
           "source": "GoogleNews"
         },
         {
@@ -2981,6 +2983,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20260814T221027Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Detection of Unintended or Accidental Medical Exposures in Radiotherapy Through Patient Response",
+          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQWlhZelptbW5PTU1RMHQ5dDRiS0tIMTlZUU1GcERfS3F4bnBfZzhkWHFPMnF1MU05NnRMd09xTDNEellCR1R2ajdya2c4OVJqR3hJMUJENi1zQ1FINUZIaFc4Q3JtQkpwOV9HZG5CbDV6RjRuWjFVWFlDeTJUaHpzTlg4VEV2c0tQWTFoVmxicGJvSTJUdGVfWjUyLWVhclJTUUVyTFZZalROMHA2dGFmamdndmtyejJTTVR0eU9BRm1wbVF2cEZ2dm82MkphdWdp?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260825T145023Z",
           "source": "GoogleNews"
         }
       ],
@@ -10742,19 +10753,35 @@
           "source": "USGS"
         },
         {
+          "id": "ci41347959",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1792086662340,
+          "magnitude": 1.84,
+          "magnitude_type": "ml",
+          "event_type": "earthquake",
+          "place": "28 km E of Barstow, CA",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41347959",
+          "lon": -116.721333333333,
+          "lat": 34.9453333333333,
+          "depth_km": 1.34,
+          "source": "USGS"
+        },
+        {
           "id": "nn00925796",
           "site": "Nevada National Security Site",
           "site_lat": 37.12,
           "site_lon": -116.05,
-          "time": 1792053490586,
-          "magnitude": 1.75,
+          "time": 1792053490198,
+          "magnitude": 1.53,
           "magnitude_type": "ml",
           "event_type": "earthquake",
-          "place": "32 km SSW of Alamo, Nevada",
+          "place": "29 km SSW of Alamo, Nevada",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00925796",
-          "lon": -115.3277,
-          "lat": 37.0989,
-          "depth_km": 6.8893,
+          "lon": -115.2873,
+          "lat": 37.1145,
+          "depth_km": 12.6459,
           "source": "USGS"
         },
         {
@@ -10762,15 +10789,15 @@
           "site": "Nevada National Security Site",
           "site_lat": 37.12,
           "site_lon": -116.05,
-          "time": 1792034065888,
-          "magnitude": 1.68,
+          "time": 1792034066641,
+          "magnitude": 1.69,
           "magnitude_type": "ml",
           "event_type": "earthquake",
-          "place": "30 km SSW of Alamo, Nevada",
+          "place": "29 km SSW of Alamo, Nevada",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00925782",
-          "lon": -115.2817,
-          "lat": 37.1088,
-          "depth_km": 3.9622,
+          "lon": -115.3139,
+          "lat": 37.1317,
+          "depth_km": 8.7784,
           "source": "USGS"
         },
         {
@@ -10778,15 +10805,15 @@
           "site": "Nevada National Security Site",
           "site_lat": 37.12,
           "site_lon": -116.05,
-          "time": 1792032016065,
-          "magnitude": 1.99,
+          "time": 1792032016838,
+          "magnitude": 1.97,
           "magnitude_type": "ml",
           "event_type": "earthquake",
-          "place": "27 km SSW of Alamo, Nevada",
+          "place": "30 km SSW of Alamo, Nevada",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00925779",
-          "lon": -115.2704,
-          "lat": 37.1275,
-          "depth_km": 9.1093,
+          "lon": -115.2905,
+          "lat": 37.1109,
+          "depth_km": 9.0476,
           "source": "USGS"
         },
         {
