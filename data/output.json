@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "nuclear-proliferation-watch",
-    "generated": "2026-10-14T21:56:59.728373+00:00",
+    "generated": "2026-10-15T05:15:46.579150+00:00",
     "mode": "live",
     "sources": [
       "IAEA official pages",
@@ -14,7 +14,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-10-14T21:56:59.719592+00:00",
+    "issued_at": "2026-10-15T05:15:46.572187+00:00",
     "horizon": "0-30 days",
     "classification": "nuclear-escalation-pressure-not-test-or-weapon-probability",
     "score": 7.6,
@@ -1990,12 +1990,23 @@
           "facility_security_incidents": 4.5,
           "test_site_seismicity": 0.0
         }
+      },
+      {
+        "timestamp": "2026-10-15T05:15:46.572187+00:00",
+        "score": 7.6,
+        "level": "BASELINE",
+        "components": {
+          "iaea_safeguards_strain": 19.2,
+          "npwmd_designation_delta": 0.0,
+          "facility_security_incidents": 4.5,
+          "test_site_seismicity": 0.0
+        }
       }
     ],
     "data_health": {
       "available_components": 4,
       "retained_components": [],
-      "iaea_titles": 100,
+      "iaea_titles": 99,
       "npwmd_entries": 1205,
       "iaea_events": 23,
       "test_sites": 8
@@ -2042,7 +2053,7 @@
     },
     {
       "label": "IAEA Signals",
-      "value": "100",
+      "value": "99",
       "delta": "official indexed pages"
     },
     {
@@ -2348,6 +2359,15 @@
           "source": "GoogleNews"
         },
         {
+          "title": "Resolutions and Other Decisions of the General Conference | IAEA",
+          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1oazMzcGoyWlZRYkY1cW1HRmJnRi0xZXBxcUk0RmpvbnBKajhZeTlBSEd0SUJLaVRwSmhGNVZVNDVJYlhmUzk0R0J2WEpKVnJy?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260826T070000Z",
+          "source": "GoogleNews"
+        },
+        {
           "title": "70th IAEA General Conference",
           "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5GMk81SlhMQ2VKRTV6WU9NeWRGNVQ3NmlUTTdabUZHdkx5WV9wLUE0R2lrZWxlcGhJMkwwOURjQVZoMUpDLVZVbS1fR3NQcEc0b0drS01fYnhzMmp6dXFfZEo3TWs3MERDcWt4Sm9ySUhJclMxUEZDZWMxR2Y?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -2489,6 +2509,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20260723T070000Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Relevant specifically for the LMP in China (hosted by Harbin Engineering University and China Atomic Energy Authority): - Artifi",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE11U1BqWmpPaTZZY1RrM1ZqOEMxOV80OEotNlhlZGR5UEJCMGxsZkZwSE90Q2UzLVAwWjRiNGVxQnVod3lubmdlVHJ2YjlfLWVuYm8zYTFYMm16V3J5X05pVU9iN2FFR1ZaNGF4UXpxa2ZrVnlhNVZ5MXFR?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260912T230759Z",
           "source": "GoogleNews"
         },
         {
@@ -2690,15 +2719,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "Microreactors: Advances in Technology Development (2026 Outlook)",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOcFNzQ2dwN1BnM183N3F6V3FlT0ZRSlN3ejZYdkQ3TDVMMlA4UFBHekhxcm1haXdxaFBXajQ0MlRaMnN3SEd5S2NGWVZDQ19Wam1Cdi1zdEdrT3BnZExNTmRJOVhrbnJJcUxTT1lsbm1hQ19ValVOSjZ0VDlfLXdIREYyMzVIMENhXzhrSEJkRDVUczJWeGZnYTUzWlVUY01pWWc?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260917T064126Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "Software Applications",
           "url": "https://news.google.com/rss/articles/CBMitgJBVV95cUxOQWlqWEpFSmFuYVRLbTRtWHZiTnJseUhXeFI3VG9KdEtZVG9rMVJERjVOM1ZzSTdVV2R4OVV0a3pkSmpmTzhSbmtzUk9mSDJINGZJR2NDX05SY0Zjc3lPMXhjVV9Sa2h0eXBwNDhJZG1BUHY4NXY5U2twTUxSWlpMMWp4WTlHTzNwR05uRDVNS0pVdTBjX3FkS2VUMl9yZWRqeXpoT0J3ZnVSNTVSZUFuZFI1TGMycFpiV1FBQ0VienA0RDdPNm9wZ2dwQW1kd2YwczZtdnlZd2VUVlItRU5aT2dBNGFlaUhGaExuREFKa0FMcktkeXBNT0FGbVBuM2o5SnhPSk1lS0dVWFpvdjFqTjFxVDJ0MUFic0tYaXdCX0RBNGF4R1JyakFPN01KNlRHWHVtRk53?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -2777,6 +2797,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20250531T062154Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Microreactors: Advances in Technology Development (2026 Outlook)",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOcFNzQ2dwN1BnM183N3F6V3FlT0ZRSlN3ejZYdkQ3TDVMMlA4UFBHekhxcm1haXdxaFBXajQ0MlRaMnN3SEd5S2NGWVZDQ19Wam1Cdi1zdEdrT3BnZExNTmRJOVhrbnJJcUxTT1lsbm1hQ19ValVOSjZ0VDlfLXdIREYyMzVIMENhXzhrSEJkRDVUczJWeGZnYTUzWlVUY01pWWc?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260917T064126Z",
           "source": "GoogleNews"
         },
         {
@@ -2930,33 +2959,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20260909T132135Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "The Environmental Behaviour of Uranium",
-          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQVUctdldJRWx0ejI5cjZmS01vbWNEQlk4Y3o2UVZ1TXJVX0VESVlpcWtCMVU1UXM4dHRHcENOal9mTElTc1JpWlZoQ2RQdUFuZV9DWE02RzNOQ0lyYUYxeWdsQzk1UXJJbTJ2U0V2c2wzYjc4eEJGVldiTnlQVFpEWmVJYw?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20230710T181144Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "Republic of Cyprus Signs a Country Programme Framework (CPF) for 2026-2031",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxONmswZUZnaURfOXNXNjdNYnYySEhDaEloTkVLQ0dxeXVwc3B6Q3pCSkZ6NmdZb0IyQ0dtWGlxOGgxa3VRQ1dSMEFDUFJ5Zk9INkNTUjhRbkFTQ0VGbEM4NlZjUU14Umk2WEJxVVA5X3o0VVNXc1o0am05RTNweW84MmxaSC10YW14MFJZX2JVdEM2SFhIRDJjeUF0ZDhYOHduQWhOYzd0cTZaTGct?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260707T070000Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "Regulatory Experience Feedback Management",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQVG1zX2NtSk92ZmItVXd4QVdfcFVza1RNNkttcWp1VjFidDYwT0hIOGtJM1hKZVZyNGVQVGZ0ZFpSblpvcUJEd2NSLWFRZ25oNW9PcWNpaHRoS2VCVi1rbUx2ZDZfRmQyb1ZLaVpwZVJVNC02RXk5UEkwMFdRWGphdWduY2tGLXM?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260925T090559Z",
           "source": "GoogleNews"
         }
       ],
@@ -10715,6 +10717,38 @@
           "lon": 87.9952,
           "lat": 41.8774,
           "depth_km": 10,
+          "source": "USGS"
+        },
+        {
+          "id": "nn00925782",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1792034065888,
+          "magnitude": 1.68,
+          "magnitude_type": "ml",
+          "event_type": "earthquake",
+          "place": "30 km SSW of Alamo, Nevada",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00925782",
+          "lon": -115.2817,
+          "lat": 37.1088,
+          "depth_km": 3.9622,
+          "source": "USGS"
+        },
+        {
+          "id": "nn00925779",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1792032016065,
+          "magnitude": 1.99,
+          "magnitude_type": "ml",
+          "event_type": "earthquake",
+          "place": "27 km SSW of Alamo, Nevada",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00925779",
+          "lon": -115.2704,
+          "lat": 37.1275,
+          "depth_km": 9.1093,
           "source": "USGS"
         },
         {
@@ -39243,38 +39277,6 @@
           "lon": -118.2149,
           "lat": 38.1436,
           "depth_km": 8.7,
-          "source": "USGS"
-        },
-        {
-          "id": "nn00905891",
-          "site": "Nevada National Security Site",
-          "site_lat": 37.12,
-          "site_lon": -116.05,
-          "time": 1760428702484,
-          "magnitude": 1.5,
-          "magnitude_type": "ml",
-          "event_type": "earthquake",
-          "place": "75 km ENE of Tonopah, Nevada",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00905891",
-          "lon": -116.4995,
-          "lat": 38.4325,
-          "depth_km": 5.4,
-          "source": "USGS"
-        },
-        {
-          "id": "nc75248936",
-          "site": "Nevada National Security Site",
-          "site_lat": 37.12,
-          "site_lon": -116.05,
-          "time": 1760418284000,
-          "magnitude": 1.64,
-          "magnitude_type": "md",
-          "event_type": "earthquake",
-          "place": "13 km WSW of Toms Place, CA",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75248936",
-          "lon": -118.811332702637,
-          "lat": 37.5008316040039,
-          "depth_km": 5.09999990463257,
           "source": "USGS"
         },
         {
