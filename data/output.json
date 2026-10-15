@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "nuclear-proliferation-watch",
-    "generated": "2026-10-15T05:15:46.579150+00:00",
+    "generated": "2026-10-15T12:08:59.260735+00:00",
     "mode": "live",
     "sources": [
       "IAEA official pages",
@@ -14,7 +14,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-10-15T05:15:46.572187+00:00",
+    "issued_at": "2026-10-15T12:08:59.255521+00:00",
     "horizon": "0-30 days",
     "classification": "nuclear-escalation-pressure-not-test-or-weapon-probability",
     "score": 7.6,
@@ -94,7 +94,7 @@
         "available": true,
         "score": 0.0,
         "current_30d_diagnostic_weight": 0.0,
-        "events_considered": 1808,
+        "events_considered": 1809,
         "sites_monitored": 8,
         "anomaly_z": 0.0,
         "evidence": [],
@@ -2001,6 +2001,17 @@
           "facility_security_incidents": 4.5,
           "test_site_seismicity": 0.0
         }
+      },
+      {
+        "timestamp": "2026-10-15T12:08:59.255521+00:00",
+        "score": 7.6,
+        "level": "BASELINE",
+        "components": {
+          "iaea_safeguards_strain": 19.2,
+          "npwmd_designation_delta": 0.0,
+          "facility_security_incidents": 4.5,
+          "test_site_seismicity": 0.0
+        }
       }
     ],
     "data_health": {
@@ -2112,7 +2123,7 @@
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
-          "seendate": "20261005T100624Z",
+          "seendate": "20261005T070000Z",
           "source": "GoogleNews"
         },
         {
@@ -2233,12 +2244,12 @@
           "source": "GoogleNews"
         },
         {
-          "title": "TECDOC Series",
-          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5XU3A3OWc1NWpkLTBwcjhUaW02dFhvYjlDQWdsRzZoMTlBRm5tZE9hekt6b3BVZ3B4dWhBWW4yZk8tdkVCSHc3Nng2QVItT0pGWEU5NmlrdjNGWHZDSlpYUTg0QmpXaXBGRTdTVm1tWQ?oc=5",
+          "title": "Implementation of the NPT Safeguards Agreement and relevant provisions of United Nations Security Council resolutions in the Isl",
+          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE14akl2V3JfQWtUS0lRbl9rSml0WUxFS0NNaTQtZ19BQ3Q3Y0I4S3dKSkJHMkFZZnNKOTJSbnA5UFR6QnlyeFM0dkd1MWpFdm1ReWtIMTRRWmFFcGtNbVZOVy1nY1ZyczJfaXlnN1lBM0xCc2c?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
-          "seendate": "20260927T205217Z",
+          "seendate": "20260909T070000Z",
           "source": "GoogleNews"
         },
         {
@@ -2314,15 +2325,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "General Statement Delegation of the Republic of Indonesia at the 70th General Conference of the International Atomic Energy A",
-          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE44VnMxamREYVdSbmdPaDFYTmtrdk9qcVRFeWhhSWdocTR4WEFjMDRRdjR2THhfM2tKUXRrQUFvLWFybnJOYzlfR1BlZS1wa051dERMYUdQdWdObWFublctSndQekpsZ1cwalV2NlgxQTdvTkpaYXl4Zw?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260918T070000Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "Press Centre | IAEA",
           "url": "https://news.google.com/rss/articles/CBMiPkFVX3lxTE92UkdleW9MWGE1c0hWNlVQc3JkUlVzTWZZVENkSUd4WFByaFI5OVlzT25EbDZNdzNaQVcyVTRB?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -2356,6 +2358,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20260713T070000Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "General Statement Delegation of the Republic of Indonesia at the 70th General Conference of the International Atomic Energy A",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE44VnMxamREYVdSbmdPaDFYTmtrdk9qcVRFeWhhSWdocTR4WEFjMDRRdjR2THhfM2tKUXRrQUFvLWFybnJOYzlfR1BlZS1wa051dERMYUdQdWdObWFublctSndQekpsZ1cwalV2NlgxQTdvTkpaYXl4Zw?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260918T070000Z",
           "source": "GoogleNews"
         },
         {
@@ -2580,7 +2591,7 @@
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
-          "seendate": "20261007T055725Z",
+          "seendate": "20261007T070000Z",
           "source": "GoogleNews"
         },
         {
@@ -2683,6 +2694,15 @@
           "source": "GoogleNews"
         },
         {
+          "title": "TECDOC Series",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9Rb2lYRkRvX1k0WUJSU3Q4TDlJOFhYSlMyaGhiUVVGOS04WW1wWkVVUFJvcVhKQ0FaRmhScnBLUkFYU3Q1N1I5Vng0NDcybUxhbVUxdWVOa0UweWhOZF9kVE5SM21Zc1ZwZEJwVUtqVDc?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260927T113005Z",
+          "source": "GoogleNews"
+        },
+        {
           "title": "Update 354 – IAEA Director General Statement on Situation in Ukraine",
           "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNcTBvYVcyZ2lkbVhiRDVnWWJuOWdlX05GLS1BOWl1X1lLdk1PSkxPR3R1dHBZVmtoQjJ6NjFBQWtreFVCZ0pSZWlycmpfOXF5dDR3TWZTNW5VYnROT0tfaW15MDR0VmEzcVNVZ3NGTDlZQ0NBY3Ntd0dtUGxsMWFib0xCMVVyZUpTZ25paHJEUjZHZlpKSU1IM3NzcmNGQzNDblhMRllDZnRuRGJ4d0U0Xw?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -2725,6 +2745,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20261007T010938Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "European Union EU Statement at the General Debate 70th General Conference International Atomic Energy Agency (IAEA) Vienna, 14-",
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBFZTRiQ2daTUZDMzJxbkQ2U2VrYlhTd0poYW82dkZ3Q1RBOXJJRGpxbExhUS1yNU1NZ0xUQk9COUVaai0waVZFcXg4QzR6dVVSTDdHRU5wZEhGMkt1V0tadFBDT2xfMWhuaEcwa1EzOA?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260918T070000Z",
           "source": "GoogleNews"
         },
         {
@@ -2845,6 +2874,15 @@
           "source": "GoogleNews"
         },
         {
+          "title": "Director General's Statement to the Seventieth Regular Session of the IAEA General Conference",
+          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOTDZnbXNaWG5oZmZmaExtNWljc0ltMFlBTGJWejZ0MXJDOHdqeFZtejJVWXY0THFjSkZUTFJtRjFTTWJ0Y3lLSmk0cVBqYlJiMUgxWXpvZ1dvdldWRXZEX3Y5NDhKUlNFUnVTYmJOelJra3dIQTBhNEJTdHlZRnBCZjhEYWJtTzNWbm1rdEN0OC1QRVRxTFZQcjJnTHFXVkRaeWRfY1k1Qm9KOVdWbUxaSExQUVRMcmFfb19ZRXZnQ05VYmN6UWl0ay1oMV9kZk1U?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260914T070000Z",
+          "source": "GoogleNews"
+        },
+        {
           "title": "Requirements Engineering in the Life Cycle of Instrumentation and Control Systems in Nuclear Power Plants",
           "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQdFlrMlFsQlRVeVM5Z0JqRC15NGRaX3hMTzFaTlkzWHhheFFnZnByV0lVS2NjNnAyU1RIdFdDbTJkdjBmXzNzX2xSRjZnRFYtX1VjWkk4dTl5U2hrUzFET0tXV0ZNOW1yS1p0emluT1dIWHlBTmpDUDV3cThnZVJwa2hlLVZmZjluSlkyTjN5MnpYSzhsY2ZScW5NdFRHaVR0T0JwX0JIamNzemNiN0RwemFEWlZ4ZUtjSnNNR0l3SXk5QVlFSWhqTXV5N0s1d25DLUs1VnhQc280Z3ZP?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -2869,15 +2907,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20260626T070000Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "70th IAEA General Conference",
-          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxONnJ5YlBBcjBfSW53T3dZdmRrNUx1Ym5oMWd2M2xlRVFOUEpJRzVoWXRJbl93clJHRHNLTDhiMlZvaUZ6VjBsbzE4RlNQNTNYZURMcXp5cUVMdWpLQ1dlNFVCNnE1cjIwb0h6Y3c3ci1WYlk0ZFMxcG9Pa0xoME9kN00wNGtsUTRUeVZoTUtDNXg0UGluQ1Qzag?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260918T070000Z",
           "source": "GoogleNews"
         },
         {
@@ -2941,24 +2970,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20260814T221027Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "Detection of Unintended or Accidental Medical Exposures in Radiotherapy Through Patient Response",
-          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQWlhZelptbW5PTU1RMHQ5dDRiS0tIMTlZUU1GcERfS3F4bnBfZzhkWHFPMnF1MU05NnRMd09xTDNEellCR1R2ajdya2c4OVJqR3hJMUJENi1zQ1FINUZIaFc4Q3JtQkpwOV9HZG5CbDV6RjRuWjFVWFlDeTJUaHpzTlg4VEV2c0tQWTFoVmxicGJvSTJUdGVfWjUyLWVhclJTUUVyTFZZalROMHA2dGFmamdndmtyejJTTVR0eU9BRm1wbVF2cEZ2dm82MkphdWdp?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260825T145023Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "Social and Economic Impact Assessment of Hydrology and Groundwater Projects under the RCA",
-          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNMGZRM2pPdGdKV01KR21TWUx1a1pjQ2dNUXVwYWF4U0EzZHYxaVNMWWNQbnRwVHZ5RkVZVllwaUl4MjJIV2lpdHNJMUI3aWpJaGdTLWJjMllHQnY0Z0NzRnEtUmtnMlJabE0wUUpiQ0xUTVNlcGZnRGF0TmZJTDFVaEN4bEVESXUwek1PNXp2QU1RN29JY1NuVTg2UGxURmxGZjVYbXhYemhuU1c0eUdDYktWaG5UTGlKVUwtY3UzMlU5OUp3Rlpv?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260909T132135Z",
           "source": "GoogleNews"
         }
       ],
@@ -10717,6 +10728,22 @@
           "lon": 87.9952,
           "lat": 41.8774,
           "depth_km": 10,
+          "source": "USGS"
+        },
+        {
+          "id": "nn00925796",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1792053490586,
+          "magnitude": 1.75,
+          "magnitude_type": "ml",
+          "event_type": "earthquake",
+          "place": "32 km SSW of Alamo, Nevada",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00925796",
+          "lon": -115.3277,
+          "lat": 37.0989,
+          "depth_km": 6.8893,
           "source": "USGS"
         },
         {
