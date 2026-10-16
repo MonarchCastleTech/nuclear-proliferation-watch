@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "nuclear-proliferation-watch",
-    "generated": "2026-10-16T16:58:37.082557+00:00",
+    "generated": "2026-10-16T21:43:47.201357+00:00",
     "mode": "live",
     "sources": [
       "IAEA official pages",
@@ -14,10 +14,10 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-10-16T16:58:37.075775+00:00",
+    "issued_at": "2026-10-16T21:43:47.192644+00:00",
     "horizon": "0-30 days",
     "classification": "nuclear-escalation-pressure-not-test-or-weapon-probability",
-    "score": 7.6,
+    "score": 1.8,
     "level": "BASELINE",
     "confidence": "HIGH",
     "confidence_score": 100.0,
@@ -26,23 +26,17 @@
         "id": "iaea_safeguards_strain",
         "label": "IAEA safeguards and access strain",
         "available": true,
-        "score": 19.2,
-        "current_14d_weight": 2.0,
-        "current_14d_titles": 16,
+        "score": 2.6,
+        "current_14d_weight": 1.0,
+        "current_14d_titles": 17,
         "baseline_periods": 8,
-        "baseline_median": 0.5,
-        "anomaly_z": 2.02,
+        "baseline_median": 1.0,
+        "anomaly_z": 0.0,
         "evidence": [
           {
             "title": "Health Dosimeter Plays an Unusual Role as a Safeguards Device",
             "url": null,
             "date": "2026-10-06",
-            "weight": 1.0
-          },
-          {
-            "title": "Technical Meeting on Verification and Validation of Software Related to Nuclear Power Plant Instrumentation and Control | IAEA",
-            "url": null,
-            "date": "2026-10-02",
             "weight": 1.0
           }
         ],
@@ -2067,6 +2061,17 @@
           "facility_security_incidents": 4.5,
           "test_site_seismicity": 0.0
         }
+      },
+      {
+        "timestamp": "2026-10-16T21:43:47.192644+00:00",
+        "score": 1.8,
+        "level": "BASELINE",
+        "components": {
+          "iaea_safeguards_strain": 2.6,
+          "npwmd_designation_delta": 0.0,
+          "facility_security_incidents": 4.5,
+          "test_site_seismicity": 0.0
+        }
       }
     ],
     "data_health": {
@@ -2114,7 +2119,7 @@
   "stats": [
     {
       "label": "Escalation Pressure",
-      "value": "7.6/100",
+      "value": "1.8/100",
       "delta": "BASELINE"
     },
     {
@@ -2164,6 +2169,15 @@
           "source": "GoogleNews"
         },
         {
+          "title": "Burkina Faso Grows More Rice with Nuclear Science",
+          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNSDVoX01CMGVNTkdtQ0pSelFOZkprRXF2TzFLM3VTc2hEVTBFUVpWalpHbFdZTWxUUHlhVHpyRnVkenIwTDhPMDRDQlZ3Z1pFazkyZGxWbUhyaDVKY05pVnBKTnBhWFdyVVFfeHZlY3dlNTNsSmRpYkJnU1ROTUthWWl0RWk3ZVNDNURYUXRSSQ?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20261015T210000Z",
+          "source": "GoogleNews"
+        },
+        {
           "title": "IAEA Completes International Physical Protection Advisory Service Mission in Pakistan",
           "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPUmZ0SmxrSG5ZdEVheGJ2TkEtSDVVTHUwZUhMWjVEbVVzV3VCQmZqWVhLWFpkTTBveE1zYWxRcXRFUzRkZnJKNGxwLVR1NmpoZjNYUXZyYklKY215ZmR4VVlQNG9WQTAxbUtiUktjVGJub1JKeTljS3l0MFRMbkQ0b0E2STdSLXVjRXlwb0xrcFlUSlBBQnkwNFJnck1ka2xGMlhZQUxRLW5maFFtNHM2cUl2YkJhUVlqTVhNZzUwTExEZnRXcFJ3SHFn?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -2179,6 +2193,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20261005T070000Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "APPLICATION OF IAEA SAFEGUARDS IN THE MIDDLE EAST",
+          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE44V0p0Z04tWFZsLVhhSzBXbHROMTlZZWIwaWFueWMyMWlMbkhvb09mcmZmYzFyN0lzbktkYmhqUzNaTGR4YUtfek9ONDQxcnpyTV9TNmktU0ZRUlpDVFlpMWpuVU9zdw?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260727T070000Z",
           "source": "GoogleNews"
         },
         {
@@ -2485,6 +2508,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20250531T052238Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "PhD Advisor Release & Recommendation Form LMP China (Harbin Engineering University and CAEA)",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNRXhnLXRBb3FTNklPdFFUVnY0OUE3SXZJem54Q1B1b3BUbWVaVGhhckVTX0JudEY1eTJHUU91ZU5sV3NUUGJHZE9MdS1UNGthYXZpZlBJSWQ4WndQaE9rSGd2bTJlelJqUHI3N3U0Uk11YWtSQlBMazF5cEVIZDN6dHExMXY3cjcyWF9yV3FjZHhuWVFSTjFVcE91MzJidjZmcUE?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20261010T055853Z",
           "source": "GoogleNews"
         },
         {
@@ -2998,33 +3030,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20260911T090605Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "Mexico Signs a Country Programme Framework (CPF) for 2026-2031",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPM3lYQ29FMWVjdEJEQzYxOWN6Unp0dElRTE4yR0RYNGx2U2oweDNZTkJEaVAxZWNQN0ZZVWtHM0h2VVhxT0NUZ2hzLTViLTRkYVhIMXppYXpuZG9hYld0ejYwUGIzd2oxTXNHdnJKNVBtbHhSSlZlclhPZy1HbXk0WHhpT1FrcXZTa2JjdGRVaEVSWHc3ZXBobktUaFo?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260914T070000Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "Training Workshop on Innovations in Data Analysis and Retrieval for Nuclear Decommissioning",
-          "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1oVnlFbEhzRnlVRkFWOW1PNm9ZNDRCQTdodlRsMXl1dFhCZWhkMWY0eGZGMUxYWEVRTkxDb3FDeEJPYXliVWpHRHdYeWszdw?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20251223T043055Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "Determination of Environmental Remediation End States",
-          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNRUM1d0F3aWJTa1U0VE1qMk1xZl9sQlE1RTAwVGZXOUtWSTEzYTZFeWhIMlQwSlExanFIYm9Nb0dORkd2OGxyUVdZY3FoSU1Jb0xmcktEMkNVNGg3V3YwanJuelVuN2JIbS1OMjR3WXZFWkY3REpqWDIzekxXQjRuVjQ3UldrQlljeG9WbzluSXlrTE91WEYw?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20230522T101652Z",
           "source": "GoogleNews"
         }
       ],
@@ -39556,12 +39561,6 @@
       "title": "Health Dosimeter Plays an Unusual Role as a Safeguards Device",
       "url": null,
       "date": "2026-10-06",
-      "weight": 1.0
-    },
-    {
-      "title": "Technical Meeting on Verification and Validation of Software Related to Nuclear Power Plant Instrumentation and Control | IAEA",
-      "url": null,
-      "date": "2026-10-02",
       "weight": 1.0
     },
     {
