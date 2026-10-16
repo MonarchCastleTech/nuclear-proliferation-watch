@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "nuclear-proliferation-watch",
-    "generated": "2026-10-16T05:04:03.468728+00:00",
+    "generated": "2026-10-16T11:55:38.145501+00:00",
     "mode": "live",
     "sources": [
       "IAEA official pages",
@@ -14,7 +14,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-10-16T05:04:03.459781+00:00",
+    "issued_at": "2026-10-16T11:55:38.136969+00:00",
     "horizon": "0-30 days",
     "classification": "nuclear-escalation-pressure-not-test-or-weapon-probability",
     "score": 7.6,
@@ -2045,6 +2045,17 @@
           "facility_security_incidents": 4.5,
           "test_site_seismicity": 0.0
         }
+      },
+      {
+        "timestamp": "2026-10-16T11:55:38.136969+00:00",
+        "score": 7.6,
+        "level": "BASELINE",
+        "components": {
+          "iaea_safeguards_strain": 19.2,
+          "npwmd_designation_delta": 0.0,
+          "facility_security_incidents": 4.5,
+          "test_site_seismicity": 0.0
+        }
       }
     ],
     "data_health": {
@@ -2187,21 +2198,21 @@
           "source": "GoogleNews"
         },
         {
+          "title": "Technical Meeting on Verification and Validation of Software Related to Nuclear Power Plant Instrumentation and Control | IAEA",
+          "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1qdXBCTTBHUndEdUVBbXZaY24wMlU2MlNpQjdRQVBuaGdLc1VNRS1XYVVmaEFuZTIxNjNqOW1QZlE2X3BGNG1nNW42RQ?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20261002T210414Z",
+          "source": "GoogleNews"
+        },
+        {
           "title": "Hybrid Event: Technical Meeting on Verification and Validation of Software Related to Nuclear Power Plant Instrumentation and Control",
           "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE15ZkM4ZktKUUg2cTFkZml1N01nWDh6N0ZHaGZUeHd4WVdqUlBvbVRSNlpiWEVPQlUyUmh1MUNRWmgzdjE2SF9WZ05JWFVPQnJYQ0tpSDF4WFJURVI0MjhETXQ4RGI3NjVGMTlTYmlJekhyV0NlSUV3RWZrSFFWdw?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
           "seendate": "20260715T070000Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "Technical Meeting on Verification and Validation of Software Related to Nuclear Power Plant Instrumentation and Control | IAEA",
-          "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE05U0w1dGJGVFdMM1dlMWtrLVEtdURTRlEwYTAxU2Q1NVJfZlR0Wmpjd3A0WUFKWjhCb1UyQWxmQ1o2eXZvMFZnVlpTQQ?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20261002T213424Z",
           "source": "GoogleNews"
         },
         {
@@ -2484,15 +2495,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "The Syrian Arab Republic Signs a Country Programme Framework (CPF) for 2026–2031",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOdVdodVMyaGlROXplekhvY2hkNy1HNG9yOFRsNGhienZqNWI3SDF3aGp2ejZGVG05bnBMNW1Ba28xNnZ0M1FoSWdnM3hUZ3pZcWF0Ulc2bm14RTJ5QkFNQnd1WmxWUUVBLTBOWng5V2VSMGJ1S2pVME81dFNVVTRkdDRFMWloTF9MTVExc3RZR0dIVEk4ZEhvTFZ3Z2NUUkkwUVBHREN0Y3pjMXRhdlNqdUdJSW8?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260916T070000Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "IAEA and Syria: Chronology of Key Events",
           "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBJb2w5TC1hdTV6VVdRZ3RwOHQ2TmpGT2VvbkNIcmlCQUVFaS0ta290Q2FQSUdaMWxOcXhYT1NpeGROYy1zWWVOVVlWTU1mZWJ4MmRQNkxsQjF1U2hnSXA5b0xuZ2czYjh0bFBqY0hUbkNLSWt2VWc?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -2556,6 +2558,24 @@
           "source": "GoogleNews"
         },
         {
+          "title": "Update 369 – IAEA Director General Statement on Situation in Ukraine",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNZkFYWnBCTG45Rnl6cDhhSlY1d18yYnBWVUZNclhtTE4yMFJ1dWJIeTZhSEpnbVJHYTAwMTBZdjFCNHVaLW1aSVVPeFZoU25PbFpkZVJvQ0NyX3FYUm05Q29NMWpkX1RubDQxNGdyeWFlRDBEaklza1ZXZ1J1Z1cxcnFULUJ2aTg0b21uSjhTUTlvd1dHOG9ueW1oS0hSYVZRRkktaVVPXzZUYmZOMkFQNA?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20261002T084500Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Update 371 – IAEA Director General Statement on Situation in Ukraine",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNVlpSWmZkQm1STTBFZzdoZEdXbVJ1UmpvZzkyTDdCWWt4NHdUZXdjeXZaNmppekJEd3E2N2JZbm5Gd01iek5oNnhfSFFYU2pVSTBQSmstaTVPNE50YW0xU2lXM3Joa0sxNlZCZEVRU0FPTTZNWF9ZZDl4cFpDYjY0V29pb3VWc2pIQVg3MnhReGk5MWZ0bnp2Y3MzMXBWQnNCVXhxYk5FQjBuT2hUY1luMQ?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20261016T030134Z",
+          "source": "GoogleNews"
+        },
+        {
           "title": "STATEMENT",
           "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE11ai1PTTE1VXo0RGpINVM1blFiSWZxVVFOV3pQSzNwc2NvanZUdnE2VnpkaEVjVWFPZjJMeGswOGRlakgxRlIyN3hTcXp1SUxUU1d4UDByWnZ6WXRnU3lvbFZyN0xDWDhqN1l3ZHJFME01c19l?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -2571,6 +2591,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20260723T070000Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "The Syrian Arab Republic Signs a Country Programme Framework (CPF) for 2026–2031",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOdVdodVMyaGlROXplekhvY2hkNy1HNG9yOFRsNGhienZqNWI3SDF3aGp2ejZGVG05bnBMNW1Ba28xNnZ0M1FoSWdnM3hUZ3pZcWF0Ulc2bm14RTJ5QkFNQnd1WmxWUUVBLTBOWng5V2VSMGJ1S2pVME81dFNVVTRkdDRFMWloTF9MTVExc3RZR0dIVEk4ZEhvTFZ3Z2NUUkkwUVBHREN0Y3pjMXRhdlNqdUdJSW8?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260916T070000Z",
           "source": "GoogleNews"
         },
         {
@@ -2655,15 +2684,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "Update 370 – IAEA Director General Statement on Situation in Ukraine",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOQ19oR25LUUJEcHl1TUdtS1B1ZHJnSkJkLXE5a1V4dmZMZ1lQeUFkbnZLd0IyLUdIN2dmM2hTODRIMjRkNXlISC1EdF9FWUw1aldBNEFWa3VLemhoLXFTSkw1dG1LUVgwRXctbmxscHVfQVozZjJhSERQODVBU1BRbDVsS0FBa2VwYXNuOVFfcGp0YWttNVRJcUI1dGtScGVSNWNYR1JvRzBfaFNxdHBTaQ?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20261009T151535Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "United States of America–IAEA Nuclear Energy Management School",
           "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBVWlVmcEdNbXNDV3paU3l2allROHBEWHowM1lSbFNaVGdxLXFEV2ptTHBrVFdnRFdXeTN1NFBsU3FOMndPa2M3WGtpSVBwdw?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -2679,6 +2699,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20260710T070000Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Update 370 – IAEA Director General Statement on Situation in Ukraine",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOQ19oR25LUUJEcHl1TUdtS1B1ZHJnSkJkLXE5a1V4dmZMZ1lQeUFkbnZLd0IyLUdIN2dmM2hTODRIMjRkNXlISC1EdF9FWUw1aldBNEFWa3VLemhoLXFTSkw1dG1LUVgwRXctbmxscHVfQVozZjJhSERQODVBU1BRbDVsS0FBa2VwYXNuOVFfcGp0YWttNVRJcUI1dGtScGVSNWNYR1JvRzBfaFNxdHBTaQ?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20261009T151535Z",
           "source": "GoogleNews"
         },
         {
@@ -2985,24 +3014,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20260914T070000Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "Training Workshop on Innovations in Data Analysis and Retrieval for Nuclear Decommissioning",
-          "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1oVnlFbEhzRnlVRkFWOW1PNm9ZNDRCQTdodlRsMXl1dFhCZWhkMWY0eGZGMUxYWEVRTkxDb3FDeEJPYXliVWpHRHdYeWszdw?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20251223T043055Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "Determination of Environmental Remediation End States",
-          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNRUM1d0F3aWJTa1U0VE1qMk1xZl9sQlE1RTAwVGZXOUtWSTEzYTZFeWhIMlQwSlExanFIYm9Nb0dORkd2OGxyUVdZY3FoSU1Jb0xmcktEMkNVNGg3V3YwanJuelVuN2JIbS1OMjR3WXZFWkY3REpqWDIzekxXQjRuVjQ3UldrQlljeG9WbzluSXlrTE91WEYw?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20230522T101652Z",
           "source": "GoogleNews"
         }
       ],
