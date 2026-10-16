@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "nuclear-proliferation-watch",
-    "generated": "2026-10-16T11:55:38.145501+00:00",
+    "generated": "2026-10-16T16:58:37.082557+00:00",
     "mode": "live",
     "sources": [
       "IAEA official pages",
@@ -14,7 +14,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-10-16T11:55:38.136969+00:00",
+    "issued_at": "2026-10-16T16:58:37.075775+00:00",
     "horizon": "0-30 days",
     "classification": "nuclear-escalation-pressure-not-test-or-weapon-probability",
     "score": 7.6,
@@ -28,10 +28,10 @@
         "available": true,
         "score": 19.2,
         "current_14d_weight": 2.0,
-        "current_14d_titles": 17,
+        "current_14d_titles": 16,
         "baseline_periods": 8,
-        "baseline_median": 0.0,
-        "anomaly_z": 2.0,
+        "baseline_median": 0.5,
+        "anomaly_z": 2.02,
         "evidence": [
           {
             "title": "Health Dosimeter Plays an Unusual Role as a Safeguards Device",
@@ -94,7 +94,7 @@
         "available": true,
         "score": 0.0,
         "current_30d_diagnostic_weight": 0.0,
-        "events_considered": 1810,
+        "events_considered": 1811,
         "sites_monitored": 8,
         "anomaly_z": 0.0,
         "evidence": [],
@@ -2056,6 +2056,17 @@
           "facility_security_incidents": 4.5,
           "test_site_seismicity": 0.0
         }
+      },
+      {
+        "timestamp": "2026-10-16T16:58:37.075775+00:00",
+        "score": 7.6,
+        "level": "BASELINE",
+        "components": {
+          "iaea_safeguards_strain": 19.2,
+          "npwmd_designation_delta": 0.0,
+          "facility_security_incidents": 4.5,
+          "test_site_seismicity": 0.0
+        }
       }
     ],
     "data_health": {
@@ -2126,21 +2137,21 @@
     "iaea_titles": {
       "signals": [
         {
+          "title": "Update 371 – IAEA Director General Statement on Situation in Ukraine",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNVlpSWmZkQm1STTBFZzdoZEdXbVJ1UmpvZzkyTDdCWWt4NHdUZXdjeXZaNmppekJEd3E2N2JZbm5Gd01iek5oNnhfSFFYU2pVSTBQSmstaTVPNE50YW0xU2lXM3Joa0sxNlZCZEVRU0FPTTZNWF9ZZDl4cFpDYjY0V29pb3VWc2pIQVg3MnhReGk5MWZ0bnp2Y3MzMXBWQnNCVXhxYk5FQjBuT2hUY1luMQ?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20261016T030134Z",
+          "source": "GoogleNews"
+        },
+        {
           "title": "Beam Monitor Calibration for Pencil Beam Scanning Delivery in Terms of the Number of Protons and Light Ions per Spot",
           "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPdy1MTEpYMHJiYnZqZG1Eb2FYZ0hPNnJMSDBJWFdianhiY2NXc055ckZHWlFRMUNYYkpSRmVZbEhoR1d3M3Q5c25XN0lqcTNQN25uZ0dJMjF5ZGQ2MnE0U25VdDFJcjcwMThXdFZMZ0E5YmRDbEtnY1pJT045dGd0b1I4cFJSb0xDWVd6LTVhdVZZX0llY1BFVV9wU25DVWpLVm00aWdkZW1QcWNEb2JmLWNaWEhMNHh6YnVyU1BPMDJhMlE5aXd5RWQwUU5yUy1iX2FEM3c2WmlrUHRvd3htU2c2LUdsSEYtQ3Nv?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
           "seendate": "20261009T092032Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "Diagnostic Reference Levels in Nuclear Medicine: Practical Approaches and Lessons Learned from France",
-          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPUlhkcnBuOXJ6bHpuV1VwUmZSeEs5X0U3MElBVGxIVXZqcEVkUGFOUmZ4cF9hOXFwY3BiYXhFekExOXhCcHlaWVFzcWVzNjR5LUFrZ3hyMERXeVFQcWhJbXdwR1RLRTRqYzZ0b0FwcnlFQlBBZFg1MF96SlJrazdHTGVrazg1VkJjeTNJbDctcjJHa1BMa01rcGdfN1VhelVWNFhZdnBXcm5sOGZobkhiSW44RklDdEx3bkpVbUFtLWR2N2U4Q3F0OE5ZUFpJS0tWdndPbA?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20261008T193826Z",
           "source": "GoogleNews"
         },
         {
@@ -2199,11 +2210,11 @@
         },
         {
           "title": "Technical Meeting on Verification and Validation of Software Related to Nuclear Power Plant Instrumentation and Control | IAEA",
-          "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1qdXBCTTBHUndEdUVBbXZaY24wMlU2MlNpQjdRQVBuaGdLc1VNRS1XYVVmaEFuZTIxNjNqOW1QZlE2X3BGNG1nNW42RQ?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE8wSGtVNXNtem4teENfX0hHT3hwU1FEWGxWSHpfSHJHcXpkTDV6LV9UUTdneU5qSWtqTVEySTBzYm1vYlFJS2xOVWwyaw?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
-          "seendate": "20261002T210414Z",
+          "seendate": "20261002T210629Z",
           "source": "GoogleNews"
         },
         {
@@ -2405,15 +2416,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "Past Events Listing",
-          "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE9XbEtCT3Ixekd5eHBSd1FWUU9fcS1Ma3dtMWNhM3JDTTRSZDRzUzg3SzhjbnR6MkpQRHFlZXptS0ZNTDRnUFE?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20181122T115540Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "Publications advanced search",
           "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5qb2plVHJQM05LaVJEZ25OX2E4WXNLdmRzbnJraUhWNG1RaElWS0h2VXNuWFZWazBuT1hRNlN2clgtN1FLcWtDMkRQRVZ6Z2prV0JUaVpCTG5EVHBYZWVyRktn?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -2564,15 +2566,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20261002T084500Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "Update 371 – IAEA Director General Statement on Situation in Ukraine",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNVlpSWmZkQm1STTBFZzdoZEdXbVJ1UmpvZzkyTDdCWWt4NHdUZXdjeXZaNmppekJEd3E2N2JZbm5Gd01iek5oNnhfSFFYU2pVSTBQSmstaTVPNE50YW0xU2lXM3Joa0sxNlZCZEVRU0FPTTZNWF9ZZDl4cFpDYjY0V29pb3VWc2pIQVg3MnhReGk5MWZ0bnp2Y3MzMXBWQnNCVXhxYk5FQjBuT2hUY1luMQ?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20261016T030134Z",
           "source": "GoogleNews"
         },
         {
@@ -3014,6 +3007,24 @@
           "language": "",
           "tone": 0,
           "seendate": "20260914T070000Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Training Workshop on Innovations in Data Analysis and Retrieval for Nuclear Decommissioning",
+          "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1oVnlFbEhzRnlVRkFWOW1PNm9ZNDRCQTdodlRsMXl1dFhCZWhkMWY0eGZGMUxYWEVRTkxDb3FDeEJPYXliVWpHRHdYeWszdw?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20251223T043055Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Determination of Environmental Remediation End States",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNRUM1d0F3aWJTa1U0VE1qMk1xZl9sQlE1RTAwVGZXOUtWSTEzYTZFeWhIMlQwSlExanFIYm9Nb0dORkd2OGxyUVdZY3FoSU1Jb0xmcktEMkNVNGg3V3YwanJuelVuN2JIbS1OMjR3WXZFWkY3REpqWDIzekxXQjRuVjQ3UldrQlljeG9WbzluSXlrTE91WEYw?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20230522T101652Z",
           "source": "GoogleNews"
         }
       ],
@@ -10772,6 +10783,22 @@
           "lon": 87.9952,
           "lat": 41.8774,
           "depth_km": 10,
+          "source": "USGS"
+        },
+        {
+          "id": "nc75450451",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1792157296970,
+          "magnitude": 2.76,
+          "magnitude_type": "md",
+          "event_type": "earthquake",
+          "place": "19 km SW of Toms Place, CA",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75450451",
+          "lon": -118.833335876465,
+          "lat": 37.4411659240723,
+          "depth_km": 0.46000000834465,
           "source": "USGS"
         },
         {
