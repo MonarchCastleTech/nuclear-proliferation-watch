@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "nuclear-proliferation-watch",
-    "generated": "2026-10-16T21:43:47.201357+00:00",
+    "generated": "2026-10-17T05:00:52.992734+00:00",
     "mode": "live",
     "sources": [
       "IAEA official pages",
@@ -14,10 +14,10 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-10-16T21:43:47.192644+00:00",
+    "issued_at": "2026-10-17T05:00:52.984368+00:00",
     "horizon": "0-30 days",
     "classification": "nuclear-escalation-pressure-not-test-or-weapon-probability",
-    "score": 1.8,
+    "score": 0.9,
     "level": "BASELINE",
     "confidence": "HIGH",
     "confidence_score": 100.0,
@@ -28,7 +28,7 @@
         "available": true,
         "score": 2.6,
         "current_14d_weight": 1.0,
-        "current_14d_titles": 17,
+        "current_14d_titles": 18,
         "baseline_periods": 8,
         "baseline_median": 1.0,
         "anomaly_z": 0.0,
@@ -61,25 +61,12 @@
         "id": "facility_security_incidents",
         "label": "IAEA-reported facility security incidents",
         "available": true,
-        "score": 4.5,
-        "current_30d_weight": 1.6,
+        "score": 0.0,
+        "current_30d_weight": 0.0,
         "baseline_months": 11,
         "baseline_median": 2.4,
-        "anomaly_z": -0.22,
-        "evidence": [
-          {
-            "title": "Worker Exceeded Annual Dose Limit",
-            "url": "https://www-news.iaea.org/ErfView.aspx?mId=1c8db75f-7758-4e8d-80be-6a64b2aefc31",
-            "country": "United States of America",
-            "event_date": "23 Jul 2026",
-            "ines": "2",
-            "reported_by": "Nuclear Regulatory Commission (NRC)",
-            "reported_date": "17 Sep 2026",
-            "description": "On 23 July 2026, a trainee assistant radiographer did not verify radiography source retraction with a survey meter while performing device setup for at least one exposure at a job site. The worker noticed that the source was unlocked after the setup was complete. The worker did not report the... Reported by Nuclear Regulatory Commission (NRC) of United States of America on 17 Sep 2026. Last update on 17 Sep 2026",
-            "source": "IAEA NEWS",
-            "weight": 1.6
-          }
-        ],
+        "anomaly_z": -0.67,
+        "evidence": [],
         "retained": false
       },
       {
@@ -88,7 +75,7 @@
         "available": true,
         "score": 0.0,
         "current_30d_diagnostic_weight": 0.0,
-        "events_considered": 1811,
+        "events_considered": 1808,
         "sites_monitored": 8,
         "anomaly_z": 0.0,
         "evidence": [],
@@ -2072,6 +2059,17 @@
           "facility_security_incidents": 4.5,
           "test_site_seismicity": 0.0
         }
+      },
+      {
+        "timestamp": "2026-10-17T05:00:52.984368+00:00",
+        "score": 0.9,
+        "level": "BASELINE",
+        "components": {
+          "iaea_safeguards_strain": 2.6,
+          "npwmd_designation_delta": 0.0,
+          "facility_security_incidents": 0.0,
+          "test_site_seismicity": 0.0
+        }
       }
     ],
     "data_health": {
@@ -2119,7 +2117,7 @@
   "stats": [
     {
       "label": "Escalation Pressure",
-      "value": "1.8/100",
+      "value": "0.9/100",
       "delta": "BASELINE"
     },
     {
@@ -2160,12 +2158,21 @@
           "source": "GoogleNews"
         },
         {
-          "title": "Nuclear Technologies in Space: From Batteries to Future Rockets",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxORzdzaUNuNGhVUFczWkNPU0RBeXZIVzNsT0h0a2lvNUdWYzFpOXVIbDlFMVZtbzkyQUpHVWdseUczM18xQTJHTW96OHlWLTJFTWg2elYxNjE4cVZTTGFJVFF5bGNlQm04UU1wRElhT2pNdmhBV2tZcHAtWUpPQW9LLUhmWGoxZFdkTUhNb0lQZklsbGU3TVZtdjhWWkhZWElu?oc=5",
+          "title": "Isotopes Help Trace Nitrogen Pollution in Water",
+          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPTGQzSG5hZnVLWmpLc0JLaDVETTJEb3pLMERnRVJZSk5QcC1kVXBPX2ZneVdtVllMd29BcERVRFZ5LW16bjNmUGFSMFFhbm1fbDdTbjRVbUZQMXpaclV3b1NHZnlra2U0TXRyWUhhMHNieks0Qm9yZkFlVkx4Sno4VWdtVGhsXzdyRWRfbA?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
-          "seendate": "20261012T060000Z",
+          "seendate": "20261014T124100Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "From Farm to Fork: How Nuclear Science Helps Put Food on Our Tables",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPTG1WdVZVY0RzcU1ORF9DYjlGOFRXcUdVT1hVNkxVS2l1c05lYkU0MTFiaTM2Y1NhYldjRDQyc1JUZC1uNW9fOWdKRldxWHd5cEhGSzZNNjdka093alZIMFgxVE1rVDRhc0dSR3h1M0psVS1UeVJvOHlOV1oxeXR0cnVZZHpHenk5b1hZaVdkaUdyX2wySkRxSTFDNXBUTUdiWW5Id0FB?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20261016T123500Z",
           "source": "GoogleNews"
         },
         {
@@ -2178,21 +2185,12 @@
           "source": "GoogleNews"
         },
         {
-          "title": "IAEA Completes International Physical Protection Advisory Service Mission in Pakistan",
-          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPUmZ0SmxrSG5ZdEVheGJ2TkEtSDVVTHUwZUhMWjVEbVVzV3VCQmZqWVhLWFpkTTBveE1zYWxRcXRFUzRkZnJKNGxwLVR1NmpoZjNYUXZyYklKY215ZmR4VVlQNG9WQTAxbUtiUktjVGJub1JKeTljS3l0MFRMbkQ0b0E2STdSLXVjRXlwb0xrcFlUSlBBQnkwNFJnck1ka2xGMlhZQUxRLW5maFFtNHM2cUl2YkJhUVlqTVhNZzUwTExEZnRXcFJ3SHFn?oc=5",
+          "title": "Nuclear Technologies in Space: From Batteries to Future Rockets",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxORzdzaUNuNGhVUFczWkNPU0RBeXZIVzNsT0h0a2lvNUdWYzFpOXVIbDlFMVZtbzkyQUpHVWdseUczM18xQTJHTW96OHlWLTJFTWg2elYxNjE4cVZTTGFJVFF5bGNlQm04UU1wRElhT2pNdmhBV2tZcHAtWUpPQW9LLUhmWGoxZFdkTUhNb0lQZklsbGU3TVZtdjhWWkhZWElu?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
-          "seendate": "20261009T090008Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "IAEA Launches Research Project on Spent Fuel Characterization",
-          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxORDFFMGtjbnN1b0UxeWI4WGd0clJ6TnpsNURVTDhYWmtTSmVUcE96NDdVWk8teGN5bE9obG5tNFZ0eWZCeE1oeGxsTk9KWnp3QkktakktRHFXckxMLUxhU3NPMmdteTE1amhVa0JESXQ3d2JlUjJWeVZpUkZ5cGtwTm91b3IySXllb2E3cHRNQUtRU25nUzlsNHV2YzNOUQ?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20261005T070000Z",
+          "seendate": "20261012T060000Z",
           "source": "GoogleNews"
         },
         {
@@ -2322,15 +2320,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "Upcoming events",
-          "url": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE5KM2gxMjlYeFVlanRvdTNOc2dkMENIZ0l1R3pmUG1nOFpsWklBZlNyX01OOThMQU9JTnRHN2xMOA?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20160827T061834Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "What is Cherenkov Radiation? | IAEA",
           "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE50M1dSSEwxTTF1WEFhc0g2WHJhV0Y5amo4dmJRYkdjeXo3aEp4X1BoWk9jOEp2bVh6MXV1YlMxWmZacXRMZkFQOEUzSjRINEhYMzZyekZ3N3cyTlh1QXAzSE95M3IxNmduZUV4dVBkWlc?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -2409,6 +2398,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20260910T070000Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Services Series",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9kcDRHQUJLbjVjLU5OZkdsR0hwS1JoSW1ZTkdSRFpVeks0RTctTEI0VldYS1V0MllwampPMHlxVzl0SHNCazZVUmZyNDZZMmFTd1k1elBqOVJocngxc2lRdXU5ZWNfeV8wT0p0aW91T3I?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260930T233625Z",
           "source": "GoogleNews"
         },
         {
@@ -2499,15 +2497,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20260914T070000Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "News: Second International Conference on Accelerators for Research and Sustainable Development | IAEA",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBOS2NITHQzQlN5ZEh3QUtNSU5XeDIxNXVkb01Yc2JHWFh6cVR1S2hQTWRyeVZjem9abFNxRFVTd1dXQTN6azhBYld6QmRlR0tQQUpTbTVB?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20250531T052238Z",
           "source": "GoogleNews"
         },
         {
@@ -2625,6 +2614,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20260916T070000Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Update 368 – IAEA Director General Statement on Situation in Ukraine",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOMHZtOVBjZ3NtQ0xOY1pOTTBHQ0hvVk1xc3VqTFF1dWZDVm13WHVMT1picUE2YWZldUxtcWd4Y1VyXzEwdjdDZ2NBaXIzdEQzcnhMRDlqNm1SZjl3RjJBb2V5WkNzQm1GZWd1b1MwUGhUT0pCdGthUTZrV1EteXdQanpjOE5LTElseHBmRURZdHNRaXE4SkM5cWxaT3Izb2s2TXZzM1JiZTBZX0lSeDh4aA?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260925T070000Z",
           "source": "GoogleNews"
         },
         {
@@ -2997,6 +2995,15 @@
           "source": "GoogleNews"
         },
         {
+          "title": "IAEA Launches Research Project on Spent Fuel Characterization",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxORDFFMGtjbnN1b0UxeWI4WGd0clJ6TnpsNURVTDhYWmtTSmVUcE96NDdVWk8teGN5bE9obG5tNFZ0eWZCeE1oeGxsTk9KWnp3QkktakktRHFXckxMLUxhU3NPMmdteTE1amhVa0JESXQ3d2JlUjJWeVZpUkZ5cGtwTm91b3IySXllb2E3cHRNQUtRU25nUzlsNHV2YzNOUQ?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20261005T070000Z",
+          "source": "GoogleNews"
+        },
+        {
           "title": "Strategy for the Prevention, Detection and Response to the Inadvertent Presence of Radioactive Material in Metal Recycling and Other Associated Processes",
           "url": "https://news.google.com/rss/articles/CBMimwJBVV95cUxPdEVZRE5kX0Y4VjJXMDJibnZfQk1Cd3JxR0pQZ0pxUnBNZnJQZm8wZ0dPaGRWRHBqbkw0dGpzSkxmWjNXVFNQWjdrakw0S3VuUHhtZ05GcG9ieDhQLUJhZzZxLVpSMDNyOHQ4LUtMSnVDdGtYdEZpZUNNNEc2VmxNb1RiTHNOaDhoN1JDQ3NnWkVNa0UycXV3TDFPemVua05UU3BXQU9aRWpyZG9MaThzN2tNM2VCS3JvYmY2eGo4cDNDUmVlU3FrZ292dWhNdXNnbkFXQkJnc0JSSzRBZmd1WjJlbGQxM0JocHVhd1c4dmJZZkt3aU1SSDdscHdWWldnUG5pbmdydW9HY3dLb0E1SUFXendOV1p5V3ln?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -3021,15 +3028,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20260826T115219Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "Evaluation of the Status of National Infrastructure for a Uranium Production Cycle Programme",
-          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNSVFIeFctQzJ2YVFhN1Z0YmYzd3pPcVdsZUdKZUlnc2tyS0dINjNzVi1wczNnUDFuSWFpSnBoQldlVk1tMVRYaWZDN2ZxTVlNS2IzUG1Nb1BvTHNzTXVnbldiampQQjhNeXk2SmdCalN6bnpnZ2xuRUpaNFo1UU5ieTd6RXMtamxkaG9sWU14c09SMXMycGF1cVFZWDlHRXozUzhvcjZGQ2swTlAyLVFCSjY4Nl9Mck5XZlE1cFlmOVpGZDZGSG9RejJOYw?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260911T090605Z",
           "source": "GoogleNews"
         }
       ],
@@ -10791,6 +10789,22 @@
           "source": "USGS"
         },
         {
+          "id": "nc75450821",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1792201833110,
+          "magnitude": 2.93,
+          "magnitude_type": "md",
+          "event_type": "earthquake",
+          "place": "19 km SW of Toms Place, CA",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75450821",
+          "lon": -118.833999633789,
+          "lat": 37.4436683654785,
+          "depth_km": 1.54999995231628,
+          "source": "USGS"
+        },
+        {
           "id": "nc75450451",
           "site": "Nevada National Security Site",
           "site_lat": 37.12,
@@ -11387,15 +11401,15 @@
           "site": "Nevada National Security Site",
           "site_lat": 37.12,
           "site_lon": -116.05,
-          "time": 1791315850140,
+          "time": 1791315850230,
           "magnitude": 1.85,
           "magnitude_type": "md",
           "event_type": "earthquake",
           "place": "19 km SW of Toms Place, CA",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75445616",
-          "lon": -118.833999633789,
-          "lat": 37.4415016174316,
-          "depth_km": -0.519999980926514,
+          "lon": -118.831666666667,
+          "lat": 37.44,
+          "depth_km": 0.97,
           "source": "USGS"
         },
         {
@@ -39335,70 +39349,6 @@
           "source": "USGS"
         },
         {
-          "id": "nn00906016",
-          "site": "Nevada National Security Site",
-          "site_lat": 37.12,
-          "site_lon": -116.05,
-          "time": 1760650388913,
-          "magnitude": 2.3,
-          "magnitude_type": "ml",
-          "event_type": "earthquake",
-          "place": "3 km SSW of Enterprise, Nevada",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00906016",
-          "lon": -115.2561,
-          "lat": 35.9934,
-          "depth_km": 2.9,
-          "source": "USGS"
-        },
-        {
-          "id": "ci41108855",
-          "site": "Nevada National Security Site",
-          "site_lat": 37.12,
-          "site_lon": -116.05,
-          "time": 1760597070040,
-          "magnitude": 1.76,
-          "magnitude_type": "ml",
-          "event_type": "earthquake",
-          "place": "21 km E of Little Lake, CA",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41108855",
-          "lon": -117.6775,
-          "lat": 35.9575,
-          "depth_km": 2.46,
-          "source": "USGS"
-        },
-        {
-          "id": "nn00905980",
-          "site": "Nevada National Security Site",
-          "site_lat": 37.12,
-          "site_lon": -116.05,
-          "time": 1760587771067,
-          "magnitude": 2.78,
-          "magnitude_type": "ml",
-          "event_type": "earthquake",
-          "place": "46 km E of Beatty, Nevada",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00905980",
-          "lon": -116.2368,
-          "lat": 36.896,
-          "depth_km": 11.0944,
-          "source": "USGS"
-        },
-        {
-          "id": "ci41108775",
-          "site": "Nevada National Security Site",
-          "site_lat": 37.12,
-          "site_lon": -116.05,
-          "time": 1760582371590,
-          "magnitude": 1.98,
-          "magnitude_type": "ml",
-          "event_type": "earthquake",
-          "place": "15 km NE of Coso Junction, CA",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41108775",
-          "lon": -117.8515,
-          "lat": 36.1508333,
-          "depth_km": 2.55,
-          "source": "USGS"
-        },
-        {
           "id": "us7000tit3",
           "site": "Chagai",
           "site_lat": 28.9,
@@ -39562,18 +39512,6 @@
       "url": null,
       "date": "2026-10-06",
       "weight": 1.0
-    },
-    {
-      "title": "Worker Exceeded Annual Dose Limit",
-      "url": "https://www-news.iaea.org/ErfView.aspx?mId=1c8db75f-7758-4e8d-80be-6a64b2aefc31",
-      "country": "United States of America",
-      "event_date": "23 Jul 2026",
-      "ines": "2",
-      "reported_by": "Nuclear Regulatory Commission (NRC)",
-      "reported_date": "17 Sep 2026",
-      "description": "On 23 July 2026, a trainee assistant radiographer did not verify radiography source retraction with a survey meter while performing device setup for at least one exposure at a job site. The worker noticed that the source was unlocked after the setup was complete. The worker did not report the... Reported by Nuclear Regulatory Commission (NRC) of United States of America on 17 Sep 2026. Last update on 17 Sep 2026",
-      "source": "IAEA NEWS",
-      "weight": 1.6
     }
   ]
 }
