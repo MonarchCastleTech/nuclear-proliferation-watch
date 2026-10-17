@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "nuclear-proliferation-watch",
-    "generated": "2026-10-17T11:11:54.898087+00:00",
+    "generated": "2026-10-17T15:57:10.621199+00:00",
     "mode": "live",
     "sources": [
       "IAEA official pages",
@@ -14,7 +14,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-10-17T11:11:54.891448+00:00",
+    "issued_at": "2026-10-17T15:57:10.616296+00:00",
     "horizon": "0-30 days",
     "classification": "nuclear-escalation-pressure-not-test-or-weapon-probability",
     "score": 0.9,
@@ -28,7 +28,7 @@
         "available": true,
         "score": 2.6,
         "current_14d_weight": 1.0,
-        "current_14d_titles": 18,
+        "current_14d_titles": 17,
         "baseline_periods": 8,
         "baseline_median": 1.0,
         "anomaly_z": 0.0,
@@ -75,7 +75,7 @@
         "available": true,
         "score": 0.0,
         "current_30d_diagnostic_weight": 0.0,
-        "events_considered": 1809,
+        "events_considered": 1811,
         "sites_monitored": 8,
         "anomaly_z": 0.0,
         "evidence": [],
@@ -91,17 +91,6 @@
     },
     "alerts": [],
     "history": [
-      {
-        "timestamp": "2026-08-27T22:36:48.679780+00:00",
-        "score": 12.0,
-        "level": "BASELINE",
-        "components": {
-          "iaea_safeguards_strain": 34.3,
-          "npwmd_designation_delta": 0.0,
-          "facility_security_incidents": 0.0,
-          "test_site_seismicity": 0.0
-        }
-      },
       {
         "timestamp": "2026-08-28T12:14:56.210910+00:00",
         "score": 11.1,
@@ -2070,6 +2059,17 @@
           "facility_security_incidents": 0.0,
           "test_site_seismicity": 0.0
         }
+      },
+      {
+        "timestamp": "2026-10-17T15:57:10.616296+00:00",
+        "score": 0.9,
+        "level": "BASELINE",
+        "components": {
+          "iaea_safeguards_strain": 2.6,
+          "npwmd_designation_delta": 0.0,
+          "facility_security_incidents": 0.0,
+          "test_site_seismicity": 0.0
+        }
       }
     ],
     "data_health": {
@@ -2248,6 +2248,15 @@
           "source": "GoogleNews"
         },
         {
+          "title": "Upcoming events",
+          "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE9vejA0QU13X0hVSGRaMWN5YV9WYXNwenNMaFJTN0hDa2xXX2NvNmVERlZIdXd0YVZsVWo0UWZOblFpR2M?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20261008T170733Z",
+          "source": "GoogleNews"
+        },
+        {
           "title": "Reaching the future Safeguards workforce: Early Career Avenues in the Department of Safeguards",
           "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5RbTJNRTkxZGxBNEUzanctVE5NSkZMZUlJWGtqMTlWX2c4b2FrNGpzTVFKR3pDSTEwc0IxSTcxdFVkT3JWOW1kajZ0dw?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -2302,15 +2311,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "STRENGTHENING THE EFFECTIVENESS AND IMPROVING THE EFFICIENCY OF AGENCY SAFEGUARDS",
-          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5UUGo4OGFXejZtQ1pzLWYwbXVzakE4cnVuUUM1LWpkX2QtMWZJMGgtMUJEN0ZSTE1nYUlUaEktTWtYUFFZYUVfeHZTREZUTHl3dmNfZ1dUaHB2bWhySGRGN3gwSTBOdw?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260819T070000Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "IAEA Draws Safeguards Conclusions for 179 States – IAEA Report",
           "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxONExaN0Z5ZUx6V241VXo0MmNLdTRuekFvZ0R4TkRFOXZjS0twaDc4aW1pZEJFU2FPazg1R3dVQjl2TGlSaW9sd0tZYnE3RENwZDktQmpfdFFrQkFlSXhpdzhHYVNUNWJMMkpfeVdVVE9lUUJmV0U4aGhfV3E2cWcxWDY2bzVZSzlZS29mUWZMQnc1WlhvQmJMT0N1UDU?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -2344,6 +2344,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20260820T152632Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "IAEA Director General's Introductory Statement to the Board of Governors",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPbW9JcGhHaGhiMTQ0X2lDWXBtclkxaU9fSTRZSmxwQWN5NnMycTdZQlM3NHcxN0JGT1RvUnVKRkdSWFhzQk5oTEtPbWttSDlvRFgyZWtiV3VHRGZQWmR6TmhjT0dxMHR0QXktUXVZSlJodzZMb3NhTnJRd0xBTm5kOHQ3S1BDTkNWdFpvZGpkX2Jpd3hUZ3A2SFdXZFMwRXpmR1ZYdTcyYmloRGFzWWxlZVhjekczdmJ6RUdGMjFEZDhSVjFpUnlKYnNn?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260907T070000Z",
           "source": "GoogleNews"
         },
         {
@@ -2500,15 +2509,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "PhD Advisor Release & Recommendation Form LMP China (Harbin Engineering University and CAEA)",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNRXhnLXRBb3FTNklPdFFUVnY0OUE3SXZJem54Q1B1b3BUbWVaVGhhckVTX0JudEY1eTJHUU91ZU5sV3NUUGJHZE9MdS1UNGthYXZpZlBJSWQ4WndQaE9rSGd2bTJlelJqUHI3N3U0Uk11YWtSQlBMazF5cEVIZDN6dHExMXY3cjcyWF9yV3FjZHhuWVFSTjFVcE91MzJidjZmcUE?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20261010T055853Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "International High-level Forum on the ATLAS Launch - News | IAEA",
           "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBCdnFEX2x6ZDlRQzhvckpGM19iUEpsdGF1dVo5MVlwRXhpb1RiMTI4ZTBiZVI0U29tSHZodGN4cTZxbmhnMmR0Y1ZJS2hsamw5OHZJ?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -2577,7 +2577,7 @@
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
-          "seendate": "20261002T084500Z",
+          "seendate": "20261002T070000Z",
           "source": "GoogleNews"
         },
         {
@@ -2806,6 +2806,15 @@
           "source": "GoogleNews"
         },
         {
+          "title": "Statement of the Republic of Cyprus to the 70th IAEA General Conference Vienna, Austria, 14 September 2026",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBOTGl6ZVNCS1JWS2RHMzdUc29TRm1XZUJtdHNISVB5ZDVBcEEyZzd4Nk9DOXJFOExVVmtxTE1ncUVQT2pNWkc3d2N4QnNaeEJFVThlRExfc0VwVEZjdk1EX0hMWEsxUXZkRzRNVVFZNU1obFdu?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260914T070000Z",
+          "source": "GoogleNews"
+        },
+        {
           "title": "IAEA Holds First SMR School in a Technology Provider Country",
           "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOdmFzVHlXb2tVMjZ3T3VoLVZlQXlXRHJGSnl4NWJOZzV4am9tUm1zREdBRS1iRzNDbTJpeG9GN284VVhXZWFJUjcwZ3ZZWVBsTUhhT2FQTG5JbHVBS3F0d3F5NFlIUHBWWXNZcThqT3Y2WTM5S3ZoY3FUTGR4REpUQjBpaWNKeUp2RVJFbURpd0xkZkR3MmowaUFtcmg?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -2857,15 +2866,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20260708T070000Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "Employer Release & Recommendation Form LMP France (CEA and ITER)",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQeE9Rakk2SFdOc1JWa2JaNjRfQmlDUUs3Ul9Rajhkdzl2MEMwZi1Ca29wYXJaZU5KSjktMTJnM21XSHl6aW8yWEx0X1VocjhnbUNUYUxaNHpjcmFzMW94SlBZOVhQMUFvRVROanQyWHBJbGN3VE15MVBqZ1drbkFSUTBQamxMdUlRQjVaaGZjRUFtWWNFZVV6LXRfaFA4UU5YN0tVYjQyU09YU0ZyZmc?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20261010T081934Z",
           "source": "GoogleNews"
         },
         {
@@ -3013,21 +3013,21 @@
           "source": "GoogleNews"
         },
         {
-          "title": "Dosimetry and quality assurance | IAEA",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBpNUE1bW1QRzI5MU43eHZfbE5jekFEMXNMUHVKVW0xYTRrQmJTMW1hMjRVd0RlOTJKa1NDZUt4NGlJT0RJNXo5Y3ZxeHZscHkyb3JNM3doS21NU1o2eGtqMFFhUk8yNlgwSHdLcg?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260917T151541Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "Evaluation of the Status of National Infrastructure for a Uranium Production Cycle Programme",
           "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNSVFIeFctQzJ2YVFhN1Z0YmYzd3pPcVdsZUdKZUlnc2tyS0dINjNzVi1wczNnUDFuSWFpSnBoQldlVk1tMVRYaWZDN2ZxTVlNS2IzUG1Nb1BvTHNzTXVnbldiampQQjhNeXk2SmdCalN6bnpnZ2xuRUpaNFo1UU5ieTd6RXMtamxkaG9sWU14c09SMXMycGF1cVFZWDlHRXozUzhvcjZGQ2swTlAyLVFCSjY4Nl9Mck5XZlE1cFlmOVpGZDZGSG9RejJOYw?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
           "seendate": "20260911T090605Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Mexico Signs a Country Programme Framework (CPF) for 2026-2031",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPM3lYQ29FMWVjdEJEQzYxOWN6Unp0dElRTE4yR0RYNGx2U2oweDNZTkJEaVAxZWNQN0ZZVWtHM0h2VVhxT0NUZ2hzLTViLTRkYVhIMXppYXpuZG9hYld0ejYwUGIzd2oxTXNHdnJKNVBtbHhSSlZlclhPZy1HbXk0WHhpT1FrcXZTa2JjdGRVaEVSWHc3ZXBobktUaFo?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260914T070000Z",
           "source": "GoogleNews"
         }
       ],
@@ -10786,6 +10786,38 @@
           "lon": 87.9952,
           "lat": 41.8774,
           "depth_km": 10,
+          "source": "USGS"
+        },
+        {
+          "id": "nn00925871",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1792252343294,
+          "magnitude": 3.1,
+          "magnitude_type": "ml",
+          "event_type": "earthquake",
+          "place": "23 km S of Mina, Nevada",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00925871",
+          "lon": -118.1519,
+          "lat": 38.1778,
+          "depth_km": 13.5233,
+          "source": "USGS"
+        },
+        {
+          "id": "nn00925867",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1792241160059,
+          "magnitude": 1.5,
+          "magnitude_type": "ml",
+          "event_type": "earthquake",
+          "place": "48 km SSE of Silver Peak, Nevada",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00925867",
+          "lon": -117.5207,
+          "lat": 37.331,
+          "depth_km": 4.6206,
           "source": "USGS"
         },
         {
