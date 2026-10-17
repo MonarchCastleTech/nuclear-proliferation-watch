@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "nuclear-proliferation-watch",
-    "generated": "2026-10-17T15:57:10.621199+00:00",
+    "generated": "2026-10-17T20:59:27.431453+00:00",
     "mode": "live",
     "sources": [
       "IAEA official pages",
@@ -14,7 +14,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-10-17T15:57:10.616296+00:00",
+    "issued_at": "2026-10-17T20:59:27.426544+00:00",
     "horizon": "0-30 days",
     "classification": "nuclear-escalation-pressure-not-test-or-weapon-probability",
     "score": 0.9,
@@ -28,7 +28,7 @@
         "available": true,
         "score": 2.6,
         "current_14d_weight": 1.0,
-        "current_14d_titles": 17,
+        "current_14d_titles": 19,
         "baseline_periods": 8,
         "baseline_median": 1.0,
         "anomaly_z": 0.0,
@@ -91,17 +91,6 @@
     },
     "alerts": [],
     "history": [
-      {
-        "timestamp": "2026-08-28T12:14:56.210910+00:00",
-        "score": 11.1,
-        "level": "BASELINE",
-        "components": {
-          "iaea_safeguards_strain": 31.7,
-          "npwmd_designation_delta": 0.0,
-          "facility_security_incidents": 0.0,
-          "test_site_seismicity": 0.0
-        }
-      },
       {
         "timestamp": "2026-08-28T22:41:20.506583+00:00",
         "score": 8.4,
@@ -2070,6 +2059,17 @@
           "facility_security_incidents": 0.0,
           "test_site_seismicity": 0.0
         }
+      },
+      {
+        "timestamp": "2026-10-17T20:59:27.426544+00:00",
+        "score": 0.9,
+        "level": "BASELINE",
+        "components": {
+          "iaea_safeguards_strain": 2.6,
+          "npwmd_designation_delta": 0.0,
+          "facility_security_incidents": 0.0,
+          "test_site_seismicity": 0.0
+        }
       }
     ],
     "data_health": {
@@ -2191,6 +2191,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20261012T060000Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "IAEA Completes International Physical Protection Advisory Service Mission in Pakistan",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPUmZ0SmxrSG5ZdEVheGJ2TkEtSDVVTHUwZUhMWjVEbVVzV3VCQmZqWVhLWFpkTTBveE1zYWxRcXRFUzRkZnJKNGxwLVR1NmpoZjNYUXZyYklKY215ZmR4VVlQNG9WQTAxbUtiUktjVGJub1JKeTljS3l0MFRMbkQ0b0E2STdSLXVjRXlwb0xrcFlUSlBBQnkwNFJnck1ka2xGMlhZQUxRLW5maFFtNHM2cUl2YkJhUVlqTVhNZzUwTExEZnRXcFJ3SHFn?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20261009T070000Z",
           "source": "GoogleNews"
         },
         {
@@ -2788,15 +2797,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "Update 367 – IAEA Director General Statement on Situation in Ukraine",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOek9PaG4tYTJ3OTk0UUVMS0dhM3BKdGtGRWY4d3ZjMGptRHlTYmp6MVNHbGZLSlJyT0xYRDFFaFVORURWY1c5QkhDVzU3OWhxbVB1LXRXb2dLeUttOWpleWdfLTJsU04wUzRIbG1aX3AzWUJ5LVczV0Uta1pZQXlMVmI5dnlWZ2dyYmRvbGtqaElVdHhtaHFZZHZaZDJrYkVibzByaEVHN3hld21VaExBdQ?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260917T070000Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "Short Statement by the Kingdom of Morocco delivered by H.E Azzeddine FARHANE, Ambassador, Permanent Representative at the70th se",
           "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9VaUE1bmhBbWtGdlBsOXJnOFF1cy1hYmxDd1RHMWZkQmxQbV9OM3JEZ1lJT1dlY1k0MDhZNHN6SlhQa1JZX0lxcU50S1QwMGJ2U2lPMWRONU9pVHVKLXdpVHcyNXpDc3V3c2xoWTAxNnd4dFhfcmc?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -2866,6 +2866,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20260708T070000Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Employer Release & Recommendation Form LMP France (CEA and ITER)",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQeE9Rakk2SFdOc1JWa2JaNjRfQmlDUUs3Ul9Rajhkdzl2MEMwZi1Ca29wYXJaZU5KSjktMTJnM21XSHl6aW8yWEx0X1VocjhnbUNUYUxaNHpjcmFzMW94SlBZOVhQMUFvRVROanQyWHBJbGN3VE15MVBqZ1drbkFSUTBQamxMdUlRQjVaaGZjRUFtWWNFZVV6LXRfaFA4UU5YN0tVYjQyU09YU0ZyZmc?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20261010T081934Z",
           "source": "GoogleNews"
         },
         {
@@ -3004,30 +3013,21 @@
           "source": "GoogleNews"
         },
         {
+          "title": "Update 367 – IAEA Director General Statement on Situation in Ukraine",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOek9PaG4tYTJ3OTk0UUVMS0dhM3BKdGtGRWY4d3ZjMGptRHlTYmp6MVNHbGZLSlJyT0xYRDFFaFVORURWY1c5QkhDVzU3OWhxbVB1LXRXb2dLeUttOWpleWdfLTJsU04wUzRIbG1aX3AzWUJ5LVczV0Uta1pZQXlMVmI5dnlWZ2dyYmRvbGtqaElVdHhtaHFZZHZaZDJrYkVibzByaEVHN3hld21VaExBdQ?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260917T070000Z",
+          "source": "GoogleNews"
+        },
+        {
           "title": "Review of State of the Art Thermal Hydraulics of Fast Reactors",
           "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNbjhTdnNpVnN1WThSSEoyLVFhT1A5UGowbU03SEpYLWRhaWVNaTRISU91M1J3M1dyanVWNXk4UG9RX2pFLU83YllSTmNhVGVqek5WcEFGNkxSYmFZTjBJcXZQYVJjTFZIeGVJMFZoYkFxSjRSZ01ybFRNLVNCckxucjc3VVFBc3d4amxNV0FlSnVNRGROQ3VOYTRoSGZMbFd6dE1N?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
           "seendate": "20260826T115219Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "Evaluation of the Status of National Infrastructure for a Uranium Production Cycle Programme",
-          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNSVFIeFctQzJ2YVFhN1Z0YmYzd3pPcVdsZUdKZUlnc2tyS0dINjNzVi1wczNnUDFuSWFpSnBoQldlVk1tMVRYaWZDN2ZxTVlNS2IzUG1Nb1BvTHNzTXVnbldiampQQjhNeXk2SmdCalN6bnpnZ2xuRUpaNFo1UU5ieTd6RXMtamxkaG9sWU14c09SMXMycGF1cVFZWDlHRXozUzhvcjZGQ2swTlAyLVFCSjY4Nl9Mck5XZlE1cFlmOVpGZDZGSG9RejJOYw?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260911T090605Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "Mexico Signs a Country Programme Framework (CPF) for 2026-2031",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPM3lYQ29FMWVjdEJEQzYxOWN6Unp0dElRTE4yR0RYNGx2U2oweDNZTkJEaVAxZWNQN0ZZVWtHM0h2VVhxT0NUZ2hzLTViLTRkYVhIMXppYXpuZG9hYld0ejYwUGIzd2oxTXNHdnJKNVBtbHhSSlZlclhPZy1HbXk0WHhpT1FrcXZTa2JjdGRVaEVSWHc3ZXBobktUaFo?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260914T070000Z",
           "source": "GoogleNews"
         }
       ],
@@ -10793,15 +10793,15 @@
           "site": "Nevada National Security Site",
           "site_lat": 37.12,
           "site_lon": -116.05,
-          "time": 1792252343294,
-          "magnitude": 3.1,
+          "time": 1792252343816,
+          "magnitude": 3.04,
           "magnitude_type": "ml",
           "event_type": "earthquake",
-          "place": "23 km S of Mina, Nevada",
+          "place": "25 km SSW of Mina, Nevada",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00925871",
-          "lon": -118.1519,
-          "lat": 38.1778,
-          "depth_km": 13.5233,
+          "lon": -118.1678,
+          "lat": 38.1668,
+          "depth_km": 15.1642,
           "source": "USGS"
         },
         {
