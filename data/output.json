@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "nuclear-proliferation-watch",
-    "generated": "2026-10-18T11:44:11.458372+00:00",
+    "generated": "2026-10-18T16:08:59.747899+00:00",
     "mode": "live",
     "sources": [
       "IAEA official pages",
@@ -14,7 +14,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-10-18T11:44:11.453187+00:00",
+    "issued_at": "2026-10-18T16:08:59.739329+00:00",
     "horizon": "0-30 days",
     "classification": "nuclear-escalation-pressure-not-test-or-weapon-probability",
     "score": 0.9,
@@ -91,17 +91,6 @@
     },
     "alerts": [],
     "history": [
-      {
-        "timestamp": "2026-08-29T16:52:37.713595+00:00",
-        "score": 3.9,
-        "level": "BASELINE",
-        "components": {
-          "iaea_safeguards_strain": 11.2,
-          "npwmd_designation_delta": 0.0,
-          "facility_security_incidents": 0.0,
-          "test_site_seismicity": 0.0
-        }
-      },
       {
         "timestamp": "2026-08-29T21:16:41.039803+00:00",
         "score": 3.9,
@@ -2070,6 +2059,17 @@
           "facility_security_incidents": 0.0,
           "test_site_seismicity": 0.0
         }
+      },
+      {
+        "timestamp": "2026-10-18T16:08:59.739329+00:00",
+        "score": 0.9,
+        "level": "BASELINE",
+        "components": {
+          "iaea_safeguards_strain": 2.6,
+          "npwmd_designation_delta": 0.0,
+          "facility_security_incidents": 0.0,
+          "test_site_seismicity": 0.0
+        }
       }
     ],
     "data_health": {
@@ -2203,12 +2203,12 @@
           "source": "GoogleNews"
         },
         {
-          "title": "Innovation and Resilience in a Changing World - Safeguards as a Shared Responsibility - Training Days",
-          "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5TSzVJb2FKOUYtWFBYUGx5MFBqeW1UVEQ5Wmt4bUUxRXBZOThuR28zQVJRV1NLaS1lUnFjQjhzQ290WXpteWpEaS1uMA?oc=5",
+          "title": "Symposium on International Safeguards: Innovation and Resilience in a Changing World - Safeguards as a Shared Responsibility - Training Days | IAEA",
+          "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5uNVdoNk1LSGllX1VybGJyY2RFVV9YRURmUjh3UWpEMlJRR2NkczUzVVM4QmFCUVNWMWV5S3BPaTdVSER0REtNRjBCbw?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
-          "seendate": "20260918T140923Z",
+          "seendate": "20260918T195602Z",
           "source": "GoogleNews"
         },
         {
