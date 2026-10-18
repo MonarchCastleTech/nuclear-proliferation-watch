@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "nuclear-proliferation-watch",
-    "generated": "2026-10-18T05:10:40.268329+00:00",
+    "generated": "2026-10-18T11:44:11.458372+00:00",
     "mode": "live",
     "sources": [
       "IAEA official pages",
@@ -14,7 +14,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-10-18T05:10:40.259715+00:00",
+    "issued_at": "2026-10-18T11:44:11.453187+00:00",
     "horizon": "0-30 days",
     "classification": "nuclear-escalation-pressure-not-test-or-weapon-probability",
     "score": 0.9,
@@ -75,7 +75,7 @@
         "available": true,
         "score": 0.0,
         "current_30d_diagnostic_weight": 0.0,
-        "events_considered": 1810,
+        "events_considered": 1811,
         "sites_monitored": 8,
         "anomaly_z": 0.0,
         "evidence": [],
@@ -91,17 +91,6 @@
     },
     "alerts": [],
     "history": [
-      {
-        "timestamp": "2026-08-29T07:25:29.717093+00:00",
-        "score": 8.4,
-        "level": "BASELINE",
-        "components": {
-          "iaea_safeguards_strain": 23.9,
-          "npwmd_designation_delta": 0.0,
-          "facility_security_incidents": 0.0,
-          "test_site_seismicity": 0.0
-        }
-      },
       {
         "timestamp": "2026-08-29T16:52:37.713595+00:00",
         "score": 3.9,
@@ -2070,6 +2059,17 @@
           "facility_security_incidents": 0.0,
           "test_site_seismicity": 0.0
         }
+      },
+      {
+        "timestamp": "2026-10-18T11:44:11.453187+00:00",
+        "score": 0.9,
+        "level": "BASELINE",
+        "components": {
+          "iaea_safeguards_strain": 2.6,
+          "npwmd_designation_delta": 0.0,
+          "facility_security_incidents": 0.0,
+          "test_site_seismicity": 0.0
+        }
       }
     ],
     "data_health": {
@@ -2159,7 +2159,7 @@
         },
         {
           "title": "From Farm to Fork: How Nuclear Science Helps Put Food on Our Tables",
-          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPTG1WdVZVY0RzcU1ORF9DYjlGOFRXcUdVT1hVNkxVS2l1c05lYkU0MTFiaTM2Y1NhYldjRDQyc1JUZC1uNW9fOWdKRldxWHd5cEhGSzZNNjdka093alZIMFgxVE1rVDRhc0dSR3h1M0psVS1UeVJvOHlOV1oxeXR0cnVZZHpHenk5b1hZaVdkaUdyX2wySkRxSTFDNXBUTUdiWW5Id0FB?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNdUxUVlJ5SXB2a3dYRlU1cGl4S2NTMkthVzJja3BfUzBhMWw5WlZzWjFyMGN2TzVsX2dLaEc3Y280TlJSWXk2VThkNXJhMFpfck5Mc1Y2aTdRRzR6Um52N0ZNQWZTU3k3c3F6UzBGQ1ZfUmFPdEhTS3Z3c213WTNJeEwyVzlFQ0ZYa3lFcHVaSVpYdFBFcTRKU0JOTDRrYmpwc3pLYQ?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
@@ -2168,7 +2168,7 @@
         },
         {
           "title": "Burkina Faso Grows More Rice with Nuclear Science",
-          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNSDVoX01CMGVNTkdtQ0pSelFOZkprRXF2TzFLM3VTc2hEVTBFUVpWalpHbFdZTWxUUHlhVHpyRnVkenIwTDhPMDRDQlZ3Z1pFazkyZGxWbUhyaDVKY05pVnBKTnBhWFdyVVFfeHZlY3dlNTNsSmRpYkJnU1ROTUthWWl0RWk3ZVNDNURYUXRSSQ?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOb3FUOTB4VDlfNnpBVlJWOEp4TENYeWtOWXJvQU92SUg3MjFPZjQ2dldTenRkc2dnRVJZanRVdnVVT0J1V3M2MHpEcmRYV0ZoeXdaa0FTb0ozQkpBc3hLdHd4NDdzcTNucFczVGJIYU9zamxWcUdUcExkUzk2a0xkTndfMHB3WkF5dXIzN1hB?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
@@ -2182,15 +2182,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20261012T060000Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "IAEA Completes International Physical Protection Advisory Service Mission in Pakistan",
-          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPUmZ0SmxrSG5ZdEVheGJ2TkEtSDVVTHUwZUhMWjVEbVVzV3VCQmZqWVhLWFpkTTBveE1zYWxRcXRFUzRkZnJKNGxwLVR1NmpoZjNYUXZyYklKY215ZmR4VVlQNG9WQTAxbUtiUktjVGJub1JKeTljS3l0MFRMbkQ0b0E2STdSLXVjRXlwb0xrcFlUSlBBQnkwNFJnck1ka2xGMlhZQUxRLW5maFFtNHM2cUl2YkJhUVlqTVhNZzUwTExEZnRXcFJ3SHFn?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20261009T070000Z",
           "source": "GoogleNews"
         },
         {
@@ -2518,6 +2509,15 @@
           "source": "GoogleNews"
         },
         {
+          "title": "IAEA Completes International Physical Protection Advisory Service Mission in Pakistan",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPUmZ0SmxrSG5ZdEVheGJ2TkEtSDVVTHUwZUhMWjVEbVVzV3VCQmZqWVhLWFpkTTBveE1zYWxRcXRFUzRkZnJKNGxwLVR1NmpoZjNYUXZyYklKY215ZmR4VVlQNG9WQTAxbUtiUktjVGJub1JKeTljS3l0MFRMbkQ0b0E2STdSLXVjRXlwb0xrcFlUSlBBQnkwNFJnck1ka2xGMlhZQUxRLW5maFFtNHM2cUl2YkJhUVlqTVhNZzUwTExEZnRXcFJ3SHFn?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20261009T070000Z",
+          "source": "GoogleNews"
+        },
+        {
           "title": "International High-level Forum on the ATLAS Launch - News | IAEA",
           "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBCdnFEX2x6ZDlRQzhvckpGM19iUEpsdGF1dVo5MVlwRXhpb1RiMTI4ZTBiZVI0U29tSHZodGN4cTZxbmhnMmR0Y1ZJS2hsamw5OHZJ?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -2761,15 +2761,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "Approaches to Cost Estimation and Analysis of Nuclear Power Projects",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQMFlfQXUyZDBlYnladTh4MjYtUGdHc0llYnVSZG9IMVdmeHIzcHZTdDBKeU42UkRHeGcxT3RhZHdSRWRGbmZxZTZXdkRfZFQ5NzY0ZTlNVXBrQmNKc3JGLXFXcTV0R3NEQW5jcnozQ0cwVExaTVROakNUWEYtMlhXTUotRWR5MlZlNnZlM1pxX0lRMXdOSjduMDdnWm0xN2dZZENKS3Z6Vm9ISkVF?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20261013T083908Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "Update 363 – IAEA Director General Statement on Situation in Ukraine",
           "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxObm9BZElGb0lWcTFIXy1uYVIwbFBnTE1Na0x2UDhhVElubFhFWmVHMjlJc09NVUFfQkl5SUdZZkJjczJqTUZPV25YeG9KeE52d1BaTmZsRUZGRkthUUV5SzZrODNfRG1nTDhlbERONTNiYkJxQjZPRm9XdG55N1lic3ZoN3dhSWhRWTFubGNSNjJsbHJjSXJVSExVaUtLYnN3dGNsaDFaNWpaY3BkUDJXTQ?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -2794,6 +2785,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20260911T070000Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Approaches to Cost Estimation and Analysis of Nuclear Power Projects",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQMFlfQXUyZDBlYnladTh4MjYtUGdHc0llYnVSZG9IMVdmeHIzcHZTdDBKeU42UkRHeGcxT3RhZHdSRWRGbmZxZTZXdkRfZFQ5NzY0ZTlNVXBrQmNKc3JGLXFXcTV0R3NEQW5jcnozQ0cwVExaTVROakNUWEYtMlhXTUotRWR5MlZlNnZlM1pxX0lRMXdOSjduMDdnWm0xN2dZZENKS3Z6Vm9ISkVF?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20261013T083908Z",
           "source": "GoogleNews"
         },
         {
@@ -2902,15 +2902,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20260820T152354Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "INES: The International Nuclear and Radiological Event Scale User's Manual",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNVzlhbEp2NUVtWWVNT2FmMXdnU2JIREpEcm5ockxrLWZqQ0hFaHUxSk5CNWFjbkhvcDhjdVY1MFJldlNfbEVsN1RJS1BHTFhYczkwenVWdjJpRVRZLWpEMTRINGtXQm1aZVBXQ3BpZWxvekdFR0ZqUHdqZDBTcXlfS202VG9NaXhoMDJwVFBLNU85aUttUkJJQTZ1S0VWR1IwRmlGLUEweG4zanFLVUkxRw?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260918T074138Z",
           "source": "GoogleNews"
         },
         {
@@ -3028,6 +3019,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20260826T115219Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Evaluation of the Status of National Infrastructure for a Uranium Production Cycle Programme",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNSVFIeFctQzJ2YVFhN1Z0YmYzd3pPcVdsZUdKZUlnc2tyS0dINjNzVi1wczNnUDFuSWFpSnBoQldlVk1tMVRYaWZDN2ZxTVlNS2IzUG1Nb1BvTHNzTXVnbldiampQQjhNeXk2SmdCalN6bnpnZ2xuRUpaNFo1UU5ieTd6RXMtamxkaG9sWU14c09SMXMycGF1cVFZWDlHRXozUzhvcjZGQ2swTlAyLVFCSjY4Nl9Mck5XZlE1cFlmOVpGZDZGSG9RejJOYw?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260911T090605Z",
           "source": "GoogleNews"
         }
       ],
@@ -10786,6 +10786,22 @@
           "lon": 87.9952,
           "lat": 41.8774,
           "depth_km": 10,
+          "source": "USGS"
+        },
+        {
+          "id": "nc75451436",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1792300366720,
+          "magnitude": 2.37,
+          "magnitude_type": "md",
+          "event_type": "earthquake",
+          "place": "19 km SW of Toms Place, CA",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75451436",
+          "lon": -118.835334777832,
+          "lat": 37.4456672668457,
+          "depth_km": 1.67999994754791,
           "source": "USGS"
         },
         {
