@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "nuclear-proliferation-watch",
-    "generated": "2026-10-17T20:59:27.431453+00:00",
+    "generated": "2026-10-18T05:10:40.268329+00:00",
     "mode": "live",
     "sources": [
       "IAEA official pages",
@@ -14,7 +14,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-10-17T20:59:27.426544+00:00",
+    "issued_at": "2026-10-18T05:10:40.259715+00:00",
     "horizon": "0-30 days",
     "classification": "nuclear-escalation-pressure-not-test-or-weapon-probability",
     "score": 0.9,
@@ -28,7 +28,7 @@
         "available": true,
         "score": 2.6,
         "current_14d_weight": 1.0,
-        "current_14d_titles": 19,
+        "current_14d_titles": 18,
         "baseline_periods": 8,
         "baseline_median": 1.0,
         "anomaly_z": 0.0,
@@ -75,7 +75,7 @@
         "available": true,
         "score": 0.0,
         "current_30d_diagnostic_weight": 0.0,
-        "events_considered": 1811,
+        "events_considered": 1810,
         "sites_monitored": 8,
         "anomaly_z": 0.0,
         "evidence": [],
@@ -91,17 +91,6 @@
     },
     "alerts": [],
     "history": [
-      {
-        "timestamp": "2026-08-28T22:41:20.506583+00:00",
-        "score": 8.4,
-        "level": "BASELINE",
-        "components": {
-          "iaea_safeguards_strain": 23.9,
-          "npwmd_designation_delta": 0.0,
-          "facility_security_incidents": 0.0,
-          "test_site_seismicity": 0.0
-        }
-      },
       {
         "timestamp": "2026-08-29T07:25:29.717093+00:00",
         "score": 8.4,
@@ -2070,6 +2059,17 @@
           "facility_security_incidents": 0.0,
           "test_site_seismicity": 0.0
         }
+      },
+      {
+        "timestamp": "2026-10-18T05:10:40.259715+00:00",
+        "score": 0.9,
+        "level": "BASELINE",
+        "components": {
+          "iaea_safeguards_strain": 2.6,
+          "npwmd_designation_delta": 0.0,
+          "facility_security_incidents": 0.0,
+          "test_site_seismicity": 0.0
+        }
       }
     ],
     "data_health": {
@@ -2155,15 +2155,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20261009T092032Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "Isotopes Help Trace Nitrogen Pollution in Water",
-          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPTGQzSG5hZnVLWmpLc0JLaDVETTJEb3pLMERnRVJZSk5QcC1kVXBPX2ZneVdtVllMd29BcERVRFZ5LW16bjNmUGFSMFFhbm1fbDdTbjRVbUZQMXpaclV3b1NHZnlra2U0TXRyWUhhMHNieks0Qm9yZkFlVkx4Sno4VWdtVGhsXzdyRWRfbA?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20261014T124100Z",
           "source": "GoogleNews"
         },
         {
@@ -2437,6 +2428,15 @@
           "source": "GoogleNews"
         },
         {
+          "title": "INFCIRC/1416 - Communication from the Permanent Mission of the Islamic Republic of Iran to the Agency",
+          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1rVXhmcTNoS0w1VnRGdHVIalh4M0RtODFUVFBUNHRKYzRYYTVPcXNfM0Zqb2t5UWRIbWViblNLVDBUN082SC1NQTEtLU9nVE0yTV9WVS1EaUpJdFVXZXI1ZWJaS3hSOEJKUUFfaUNvT21Xdw?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260908T070000Z",
+          "source": "GoogleNews"
+        },
+        {
           "title": "Joint Statement - ATLAS Ministerial Launch Event | IAEA",
           "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPRmdYck85QzhxUEJqZVVPdmlJNzJyelVVZm5WdzRRSVMyUnhaN0swdkF1V0JVVXFDY2Y5S0lDOTNVRTJ1MXgydE5XQUlyTUlNRjV3Vy1nMDBOcVdPR1Fmc084dlF4YjdZODVRZUJwYU5FOFpxQUdaNTFwMTYwOEpBSV9aM2M3M21KZUZpMmpob2FEeVpWcVE?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -2662,15 +2662,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "Attacks Against Nuclear Facilities: Legal, Normative and Scientific Perspectives | IAEA",
-          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOSlhscDJPTXMzN19kRUdjQmR6c3NYNGRDb2JHak5rYTMybnA1MFRBdXlqNlR3Wm9LU1BiTTJHLU5fSDZRRk9NaHNfNl9fRUcyYTVwQl9Sb1FIU00xNEthMlZBYmtWXzUxWjRkc3VHTDRrOTdZXzU2clI4Y0RLTHEyNzRNZjZaUGxxN2JjVDNLaUxodDRHa3VwVER5czBiVWtHc3NVZnJhQjhGejF2dmNrNWF3amxBVkk4YUIya3VrekU0bEpGN285MmJDbW1kM2s?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260918T013603Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "IAEA and George Washington University Law School Conclude First Summer School on the Legal Framework for Nuclear Energy",
           "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxORnFNN21oTXZBUHR5T0ZwVjRCelFraEJiNlRuYTl2SldrX1NWY2F3YUlabV9la0lja3RYZFJ1SVRSSjhIdTFNWnVpci1CYnI0dUJLQnJPbm01NWhkalh0Rm5rRUUyX3oxUmNDSUc2WTdrQ1ZpQU5pQzlpU3FXNlE1c1VUc24zcHhYZnoySXNtWVhFcmc4ZUJoYWotWE4xUDR4NU84cHV6akI0UlpLUFBrVVBwdDJ5UE1CckdWMlRnSFpsMk9iOXhJendid3FNTVhQQVZReVJrTzFZd3FIYmdMelBwaUE3dl9rQkdR?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -2731,6 +2722,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20260710T070000Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Attacks Against Nuclear Facilities: Legal, Normative and Scientific Perspectives | IAEA",
+          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOSlhscDJPTXMzN19kRUdjQmR6c3NYNGRDb2JHak5rYTMybnA1MFRBdXlqNlR3Wm9LU1BiTTJHLU5fSDZRRk9NaHNfNl9fRUcyYTVwQl9Sb1FIU00xNEthMlZBYmtWXzUxWjRkc3VHTDRrOTdZXzU2clI4Y0RLTHEyNzRNZjZaUGxxN2JjVDNLaUxodDRHa3VwVER5czBiVWtHc3NVZnJhQjhGejF2dmNrNWF3amxBVkk4YUIya3VrekU0bEpGN285MmJDbW1kM2s?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260918T013603Z",
           "source": "GoogleNews"
         },
         {
@@ -2941,15 +2941,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "Barbados Signs its First Country Programme Framework (CPF) for 2026–2031",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQelZ2THNKYjFCR25YNUVkc2xuRGE3SmJ4eWpMVUVpWDFuSDlpTDdYSkhpUnFheEhuSXVlc0NqWF9YVUF0NVhhS1lyMzhZWHlGcFZlaWE3SUdxQWVwWTlMWkFjTkpiSWNBN2ZhUTYyZEtxT3NtRTVqQkRuS3d2Sy1qN1RaYXRZQUowZlIwUDhDVUF6WkVCLUR0dXVFa2RIMzJuMVBDWTI1d2ZMZw?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260624T070000Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "Update 362 – IAEA Director General Statement on Situation in Ukraine",
           "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQZ1kzQW5WWjZRY2plQzRVanZ5TE56OWozdlpHOEY0QXhHNWtMT0R0YXlMcEtRV2RxMjBhT2NTTHd1QWZzb2JMR3lTWDNHZFZIbEpmOFVRaDU4VVpGUFVYY1BnUHlkS2xuRkRqaURVVk9TTTNhaUptVEpEN3RqbGZpN3FPMXdjSzRCSVN6UzFVUk5RRlYwQWMxYTFwajFGOWkwQ3E1ZV84eW90SmpXcmFzdg?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -2983,6 +2974,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20260730T183959Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Milestones Approach - Home",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPUFZQOHU0NmEyeEg0RlNteHZEV1JIakFETFkxRjZxTVFKUi1LVDhPYkRhSG05TlJVNzlSbF92TkE1b2JoMkxUaE1CSDNsWW0yRWRnOWdQUnNwOUVkVHV3b3pWbEtTLTlMb1d0WjhfUHBBUG5sUndlOXZQU3Qwa2EySg?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260919T030726Z",
           "source": "GoogleNews"
         },
         {
@@ -10786,6 +10786,22 @@
           "lon": 87.9952,
           "lat": 41.8774,
           "depth_km": 10,
+          "source": "USGS"
+        },
+        {
+          "id": "nn00925884",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1792296718559,
+          "magnitude": 1.65,
+          "magnitude_type": "ml",
+          "event_type": "earthquake",
+          "place": "30 km NE of Benton, California",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00925884",
+          "lon": -118.2011,
+          "lat": 37.9883,
+          "depth_km": 10.7276,
           "source": "USGS"
         },
         {
@@ -39346,38 +39362,6 @@
           "lon": -116.4689,
           "lat": 38.4692,
           "depth_km": 0.2426,
-          "source": "USGS"
-        },
-        {
-          "id": "nn00906052",
-          "site": "Nevada National Security Site",
-          "site_lat": 37.12,
-          "site_lon": -116.05,
-          "time": 1760725239535,
-          "magnitude": 2.36,
-          "magnitude_type": "ml",
-          "event_type": "earthquake",
-          "place": "77 km NE of Tonopah, Nevada",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00906052",
-          "lon": -116.4979,
-          "lat": 38.4573,
-          "depth_km": 3.386,
-          "source": "USGS"
-        },
-        {
-          "id": "uu80119771",
-          "site": "Nevada National Security Site",
-          "site_lat": 37.12,
-          "site_lon": -116.05,
-          "time": 1760721514720,
-          "magnitude": 1.76,
-          "magnitude_type": "ml",
-          "event_type": "earthquake",
-          "place": "36 km WNW of Veyo, Utah",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uu80119771",
-          "lon": -114.093666666667,
-          "lat": 37.4155,
-          "depth_km": 7.68,
           "source": "USGS"
         },
         {
