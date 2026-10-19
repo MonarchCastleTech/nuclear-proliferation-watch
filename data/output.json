@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "nuclear-proliferation-watch",
-    "generated": "2026-10-19T05:21:30.373762+00:00",
+    "generated": "2026-10-19T13:58:56.116923+00:00",
     "mode": "live",
     "sources": [
       "IAEA official pages",
@@ -14,7 +14,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-10-19T05:21:30.365129+00:00",
+    "issued_at": "2026-10-19T13:58:56.108373+00:00",
     "horizon": "0-30 days",
     "classification": "nuclear-escalation-pressure-not-test-or-weapon-probability",
     "score": 0.9,
@@ -28,10 +28,10 @@
         "available": true,
         "score": 2.6,
         "current_14d_weight": 1.0,
-        "current_14d_titles": 16,
+        "current_14d_titles": 15,
         "baseline_periods": 8,
         "baseline_median": 1.3,
-        "anomaly_z": -0.2,
+        "anomaly_z": -0.16,
         "evidence": [
           {
             "title": "Health Dosimeter Plays an Unusual Role as a Safeguards Device",
@@ -91,17 +91,6 @@
     },
     "alerts": [],
     "history": [
-      {
-        "timestamp": "2026-08-30T12:15:19.760281+00:00",
-        "score": 7.5,
-        "level": "BASELINE",
-        "components": {
-          "iaea_safeguards_strain": 21.3,
-          "npwmd_designation_delta": 0.0,
-          "facility_security_incidents": 0.0,
-          "test_site_seismicity": 0.0
-        }
-      },
       {
         "timestamp": "2026-08-30T16:58:33.854257+00:00",
         "score": 7.5,
@@ -2070,6 +2059,17 @@
           "facility_security_incidents": 0.0,
           "test_site_seismicity": 0.0
         }
+      },
+      {
+        "timestamp": "2026-10-19T13:58:56.108373+00:00",
+        "score": 0.9,
+        "level": "BASELINE",
+        "components": {
+          "iaea_safeguards_strain": 2.6,
+          "npwmd_designation_delta": 0.0,
+          "facility_security_incidents": 0.0,
+          "test_site_seismicity": 0.0
+        }
       }
     ],
     "data_health": {
@@ -2140,15 +2140,6 @@
     "iaea_titles": {
       "signals": [
         {
-          "title": "Update 371 – IAEA Director General Statement on Situation in Ukraine",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNVlpSWmZkQm1STTBFZzdoZEdXbVJ1UmpvZzkyTDdCWWt4NHdUZXdjeXZaNmppekJEd3E2N2JZbm5Gd01iek5oNnhfSFFYU2pVSTBQSmstaTVPNE50YW0xU2lXM3Joa0sxNlZCZEVRU0FPTTZNWF9ZZDl4cFpDYjY0V29pb3VWc2pIQVg3MnhReGk5MWZ0bnp2Y3MzMXBWQnNCVXhxYk5FQjBuT2hUY1luMQ?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20261016T030134Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "Beam Monitor Calibration for Pencil Beam Scanning Delivery in Terms of the Number of Protons and Light Ions per Spot",
           "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPdy1MTEpYMHJiYnZqZG1Eb2FYZ0hPNnJMSDBJWFdianhiY2NXc055ckZHWlFRMUNYYkpSRmVZbEhoR1d3M3Q5c25XN0lqcTNQN25uZ0dJMjF5ZGQ2MnE0U25VdDFJcjcwMThXdFZMZ0E5YmRDbEtnY1pJT045dGd0b1I4cFJSb0xDWVd6LTVhdVZZX0llY1BFVV9wU25DVWpLVm00aWdkZW1QcWNEb2JmLWNaWEhMNHh6YnVyU1BPMDJhMlE5aXd5RWQwUU5yUy1iX2FEM3c2WmlrUHRvd3htU2c2LUdsSEYtQ3Nv?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -2158,12 +2149,21 @@
           "source": "GoogleNews"
         },
         {
-          "title": "Nuclear Technologies in Space: From Batteries to Future Rockets",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNdVlxYWdOWlQ4R1E5MzdSWm9QWkZRaGtmelhodk81dnkxcWZVdDlhVkhOYVRHR3FoM0x6UVRBZ3pKNmxHbk9LbG1FQzJ0SWFTZU1hdDBfZGhVM3BObjhyS2QyY2ZSV25XTzhsRGdtdnphbTV2Qmt1d3JXcU5GTHEtT3g0RExISlNiQ3lab2lPUW9pSERaUndSUU1mRnFKeU0?oc=5",
+          "title": "Update 371 – IAEA Director General Statement on Situation in Ukraine",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNVlpSWmZkQm1STTBFZzdoZEdXbVJ1UmpvZzkyTDdCWWt4NHdUZXdjeXZaNmppekJEd3E2N2JZbm5Gd01iek5oNnhfSFFYU2pVSTBQSmstaTVPNE50YW0xU2lXM3Joa0sxNlZCZEVRU0FPTTZNWF9ZZDl4cFpDYjY0V29pb3VWc2pIQVg3MnhReGk5MWZ0bnp2Y3MzMXBWQnNCVXhxYk5FQjBuT2hUY1luMQ?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
-          "seendate": "20261012T060000Z",
+          "seendate": "20261016T030134Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Isotopes Help Trace Nitrogen Pollution in Water",
+          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPTGQzSG5hZnVLWmpLc0JLaDVETTJEb3pLMERnRVJZSk5QcC1kVXBPX2ZneVdtVllMd29BcERVRFZ5LW16bjNmUGFSMFFhbm1fbDdTbjRVbUZQMXpaclV3b1NHZnlra2U0TXRyWUhhMHNieks0Qm9yZkFlVkx4Sno4VWdtVGhsXzdyRWRfbA?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20261014T124100Z",
           "source": "GoogleNews"
         },
         {
@@ -2209,6 +2209,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20260926T123208Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Nuclear Safety, Security and Safeguards in Ukraine",
+          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBFWDZ0ZzQ0Zlpha1hqWWJsTkxhUTdiMG1hYmdIZXFxaHh6V1FPSHNPOGRHdWduZ3dHS3FVYXF5V0hKT3g1QU9EQzRfXzlsRXhlNTVKS3d6QVctRldzM0NRWjVNRWxNWTBuZE1vSEVCU29JNUE?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260902T070000Z",
           "source": "GoogleNews"
         },
         {
@@ -2563,6 +2572,15 @@
           "source": "GoogleNews"
         },
         {
+          "title": "Nuclear Technologies in Space: From Batteries to Future Rockets",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNdVlxYWdOWlQ4R1E5MzdSWm9QWkZRaGtmelhodk81dnkxcWZVdDlhVkhOYVRHR3FoM0x6UVRBZ3pKNmxHbk9LbG1FQzJ0SWFTZU1hdDBfZGhVM3BObjhyS2QyY2ZSV25XTzhsRGdtdnphbTV2Qmt1d3JXcU5GTHEtT3g0RExISlNiQ3lab2lPUW9pSERaUndSUU1mRnFKeU0?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20261012T060000Z",
+          "source": "GoogleNews"
+        },
+        {
           "title": "Technical Meeting on Nuclear Fuel Cycle Options for Current and Advanced Reactors",
           "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1zX0ItY1lqRDFXZnJHOGtDNWE2OU9DM1ZaVUZnSVJjRXBSWDY1MlBWVDV4ZXJSRjdsUkNwTm9qY0JmWnR5S2ZqdXBIdy1GZw?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -2740,15 +2758,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20261009T070000Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "International High-level Forum on the ATLAS Launch - Programme | IAEA",
-          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE0wcE5HaXBzY1dVM19BemtzVUJVLWlqRkJvU1hrWTFZVTA1cGdXV2YwMVJ3eEpfQmxwajBkMlpEVVFEbjI0U2Q2ZTBXWG5udW5XZWNEeWdVZzhoQQ?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260827T070000Z",
           "source": "GoogleNews"
         },
         {
@@ -3019,15 +3028,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20260626T070000Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "Update 367 – IAEA Director General Statement on Situation in Ukraine",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOek9PaG4tYTJ3OTk0UUVMS0dhM3BKdGtGRWY4d3ZjMGptRHlTYmp6MVNHbGZLSlJyT0xYRDFFaFVORURWY1c5QkhDVzU3OWhxbVB1LXRXb2dLeUttOWpleWdfLTJsU04wUzRIbG1aX3AzWUJ5LVczV0Uta1pZQXlMVmI5dnlWZ2dyYmRvbGtqaElVdHhtaHFZZHZaZDJrYkVibzByaEVHN3hld21VaExBdQ?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260917T070000Z",
           "source": "GoogleNews"
         }
       ],
