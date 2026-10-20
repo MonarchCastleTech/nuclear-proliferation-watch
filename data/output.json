@@ -1,8 +1,8 @@
 {
   "meta": {
     "project": "nuclear-proliferation-watch",
-    "generated": "2026-10-20T05:21:47.486493+00:00",
-    "mode": "partial",
+    "generated": "2026-10-20T12:15:23.662566+00:00",
+    "mode": "live",
     "sources": [
       "IAEA official pages",
       "IAEA Nuclear Events Web-based System",
@@ -14,32 +14,25 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-10-20T05:21:47.481941+00:00",
+    "issued_at": "2026-10-20T12:15:23.656220+00:00",
     "horizon": "0-30 days",
     "classification": "nuclear-escalation-pressure-not-test-or-weapon-probability",
-    "score": 0.9,
+    "score": 0.0,
     "level": "BASELINE",
     "confidence": "HIGH",
-    "confidence_score": 97.0,
+    "confidence_score": 100.0,
     "components": [
       {
         "id": "iaea_safeguards_strain",
         "label": "IAEA safeguards and access strain",
         "available": true,
-        "score": 2.6,
-        "current_14d_weight": 1.0,
-        "current_14d_titles": 14,
+        "score": 0.0,
+        "current_14d_weight": 0.0,
+        "current_14d_titles": 13,
         "baseline_periods": 8,
         "baseline_median": 1.3,
-        "anomaly_z": -0.16,
-        "evidence": [
-          {
-            "title": "Health Dosimeter Plays an Unusual Role as a Safeguards Device",
-            "url": null,
-            "date": "2026-10-06",
-            "weight": 1.0
-          }
-        ],
+        "anomaly_z": -0.67,
+        "evidence": [],
         "retained": false
       },
       {
@@ -75,11 +68,11 @@
         "available": true,
         "score": 0.0,
         "current_30d_diagnostic_weight": 0.0,
-        "events_considered": 1810,
+        "events_considered": 1808,
         "sites_monitored": 8,
         "anomaly_z": 0.0,
         "evidence": [],
-        "retained": true,
+        "retained": false,
         "caveat": "Only shallow M3.5+ events within 75 km or catalogued nuclear-explosion types score. USGS waveforms alone cannot identify a nuclear explosion; CTBTO radionuclide and expert analysis are required."
       }
     ],
@@ -91,17 +84,6 @@
     },
     "alerts": [],
     "history": [
-      {
-        "timestamp": "2026-08-31T06:14:26.643794+00:00",
-        "score": 6.7,
-        "level": "BASELINE",
-        "components": {
-          "iaea_safeguards_strain": 19.2,
-          "npwmd_designation_delta": 0.0,
-          "facility_security_incidents": 0.0,
-          "test_site_seismicity": 0.0
-        }
-      },
       {
         "timestamp": "2026-08-31T14:26:55.378889+00:00",
         "score": 6.7,
@@ -2070,14 +2052,23 @@
           "facility_security_incidents": 0.0,
           "test_site_seismicity": 0.0
         }
+      },
+      {
+        "timestamp": "2026-10-20T12:15:23.656220+00:00",
+        "score": 0.0,
+        "level": "BASELINE",
+        "components": {
+          "iaea_safeguards_strain": 0.0,
+          "npwmd_designation_delta": 0.0,
+          "facility_security_incidents": 0.0,
+          "test_site_seismicity": 0.0
+        }
       }
     ],
     "data_health": {
       "available_components": 4,
-      "retained_components": [
-        "test_site_seismicity"
-      ],
-      "iaea_titles": 99,
+      "retained_components": [],
+      "iaea_titles": 98,
       "npwmd_entries": 1205,
       "iaea_events": 23,
       "test_sites": 8
@@ -2119,12 +2110,12 @@
   "stats": [
     {
       "label": "Escalation Pressure",
-      "value": "0.9/100",
+      "value": "0.0/100",
       "delta": "BASELINE"
     },
     {
       "label": "IAEA Signals",
-      "value": "99",
+      "value": "98",
       "delta": "official indexed pages"
     },
     {
@@ -2142,21 +2133,21 @@
     "iaea_titles": {
       "signals": [
         {
-          "title": "Isotopes Help Trace Nitrogen Pollution in Water",
-          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPTGQzSG5hZnVLWmpLc0JLaDVETTJEb3pLMERnRVJZSk5QcC1kVXBPX2ZneVdtVllMd29BcERVRFZ5LW16bjNmUGFSMFFhbm1fbDdTbjRVbUZQMXpaclV3b1NHZnlra2U0TXRyWUhhMHNieks0Qm9yZkFlVkx4Sno4VWdtVGhsXzdyRWRfbA?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20261014T124100Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "Update 371 – IAEA Director General Statement on Situation in Ukraine",
           "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNVlpSWmZkQm1STTBFZzdoZEdXbVJ1UmpvZzkyTDdCWWt4NHdUZXdjeXZaNmppekJEd3E2N2JZbm5Gd01iek5oNnhfSFFYU2pVSTBQSmstaTVPNE50YW0xU2lXM3Joa0sxNlZCZEVRU0FPTTZNWF9ZZDl4cFpDYjY0V29pb3VWc2pIQVg3MnhReGk5MWZ0bnp2Y3MzMXBWQnNCVXhxYk5FQjBuT2hUY1luMQ?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
           "seendate": "20261016T030134Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "From Farm to Fork: How Nuclear Science Helps Put Food on Our Tables",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNdUxUVlJ5SXB2a3dYRlU1cGl4S2NTMkthVzJja3BfUzBhMWw5WlZzWjFyMGN2TzVsX2dLaEc3Y280TlJSWXk2VThkNXJhMFpfck5Mc1Y2aTdRRzR6Um52N0ZNQWZTU3k3c3F6UzBGQ1ZfUmFPdEhTS3Z3c213WTNJeEwyVzlFQ0ZYa3lFcHVaSVpYdFBFcTRKU0JOTDRrYmpwc3pLYQ?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20261016T123500Z",
           "source": "GoogleNews"
         },
         {
@@ -3021,15 +3012,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20260917T070000Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "Review of State of the Art Thermal Hydraulics of Fast Reactors",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNbjhTdnNpVnN1WThSSEoyLVFhT1A5UGowbU03SEpYLWRhaWVNaTRISU91M1J3M1dyanVWNXk4UG9RX2pFLU83YllSTmNhVGVqek5WcEFGNkxSYmFZTjBJcXZQYVJjTFZIeGVJMFZoYkFxSjRSZ01ybFRNLVNCckxucjc3VVFBc3d4amxNV0FlSnVNRGROQ3VOYTRoSGZMbFd6dE1N?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260826T115219Z",
           "source": "GoogleNews"
         }
       ],
@@ -10788,6 +10770,54 @@
           "lon": 87.9952,
           "lat": 41.8774,
           "depth_km": 10,
+          "source": "USGS"
+        },
+        {
+          "id": "nn00925999",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1792498028266,
+          "magnitude": 1.53,
+          "magnitude_type": "ml",
+          "event_type": "earthquake",
+          "place": "26 km S of Dyer, Nevada",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00925999",
+          "lon": -118.0243,
+          "lat": 37.4295,
+          "depth_km": 4.2401,
+          "source": "USGS"
+        },
+        {
+          "id": "nc75452411",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1792482728210,
+          "magnitude": 2.84,
+          "magnitude_type": "md",
+          "event_type": "earthquake",
+          "place": "39 km SSW of Qualeys Camp, NV",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75452411",
+          "lon": -118.668998718262,
+          "lat": 37.9763336181641,
+          "depth_km": 11.3299999237061,
+          "source": "USGS"
+        },
+        {
+          "id": "ci41349599",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1792478138740,
+          "magnitude": 1.7,
+          "magnitude_type": "ml",
+          "event_type": "earthquake",
+          "place": "12 km ENE of Ridgecrest, CA",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41349599",
+          "lon": -117.556833333333,
+          "lat": 35.6763333333333,
+          "depth_km": 5.56,
           "source": "USGS"
         },
         {
@@ -39287,86 +39317,6 @@
           "source": "USGS"
         },
         {
-          "id": "nn00906120",
-          "site": "Nevada National Security Site",
-          "site_lat": 37.12,
-          "site_lon": -116.05,
-          "time": 1760902279866,
-          "magnitude": 2.56,
-          "magnitude_type": "ml",
-          "event_type": "earthquake",
-          "place": "55 km E of Tonopah, Nevada",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00906120",
-          "lon": -116.6014,
-          "lat": 38.1133,
-          "depth_km": 16,
-          "source": "USGS"
-        },
-        {
-          "id": "nn00906118",
-          "site": "Nevada National Security Site",
-          "site_lat": 37.12,
-          "site_lon": -116.05,
-          "time": 1760901885862,
-          "magnitude": 1.9,
-          "magnitude_type": "ml",
-          "event_type": "earthquake",
-          "place": "35 km NNE of Hiko, Nevada",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00906118",
-          "lon": -115.0591,
-          "lat": 37.8854,
-          "depth_km": 2.2932,
-          "source": "USGS"
-        },
-        {
-          "id": "nc75251741",
-          "site": "Nevada National Security Site",
-          "site_lat": 37.12,
-          "site_lon": -116.05,
-          "time": 1760898001740,
-          "magnitude": 2.07,
-          "magnitude_type": "md",
-          "event_type": "earthquake",
-          "place": "3 km NE of Bishop, CA",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75251741",
-          "lon": -118.37133026123,
-          "lat": 37.3818321228027,
-          "depth_km": 10.4099998474121,
-          "source": "USGS"
-        },
-        {
-          "id": "nn00906111",
-          "site": "Nevada National Security Site",
-          "site_lat": 37.12,
-          "site_lon": -116.05,
-          "time": 1760893610664,
-          "magnitude": 2.09,
-          "magnitude_type": "ml",
-          "event_type": "earthquake",
-          "place": "30 km SSW of Alamo, Nevada",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00906111",
-          "lon": -115.2723,
-          "lat": 37.1047,
-          "depth_km": 9.7669,
-          "source": "USGS"
-        },
-        {
-          "id": "nn00906105",
-          "site": "Nevada National Security Site",
-          "site_lat": 37.12,
-          "site_lon": -116.05,
-          "time": 1760872929309,
-          "magnitude": 1.64,
-          "magnitude_type": "ml",
-          "event_type": "earthquake",
-          "place": "23 km SSE of Rachel, Nevada",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00906105",
-          "lon": -115.6316,
-          "lat": 37.4539,
-          "depth_km": 12.5699,
-          "source": "USGS"
-        },
-        {
           "id": "us6000u2y1",
           "site": "Chagai",
           "site_lat": 28.9,
@@ -39537,15 +39487,8 @@
           "lon": 0.17
         }
       ],
-      "cached": true
+      "cached": false
     }
   },
-  "events": [
-    {
-      "title": "Health Dosimeter Plays an Unusual Role as a Safeguards Device",
-      "url": null,
-      "date": "2026-10-06",
-      "weight": 1.0
-    }
-  ]
+  "events": []
 }
