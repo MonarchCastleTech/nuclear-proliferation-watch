@@ -1,8 +1,8 @@
 {
   "meta": {
     "project": "nuclear-proliferation-watch",
-    "generated": "2026-10-19T22:39:17.245857+00:00",
-    "mode": "live",
+    "generated": "2026-10-20T05:21:47.486493+00:00",
+    "mode": "partial",
     "sources": [
       "IAEA official pages",
       "IAEA Nuclear Events Web-based System",
@@ -14,13 +14,13 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-10-19T22:39:17.239366+00:00",
+    "issued_at": "2026-10-20T05:21:47.481941+00:00",
     "horizon": "0-30 days",
     "classification": "nuclear-escalation-pressure-not-test-or-weapon-probability",
     "score": 0.9,
     "level": "BASELINE",
     "confidence": "HIGH",
-    "confidence_score": 100.0,
+    "confidence_score": 97.0,
     "components": [
       {
         "id": "iaea_safeguards_strain",
@@ -79,7 +79,7 @@
         "sites_monitored": 8,
         "anomaly_z": 0.0,
         "evidence": [],
-        "retained": false,
+        "retained": true,
         "caveat": "Only shallow M3.5+ events within 75 km or catalogued nuclear-explosion types score. USGS waveforms alone cannot identify a nuclear explosion; CTBTO radionuclide and expert analysis are required."
       }
     ],
@@ -91,17 +91,6 @@
     },
     "alerts": [],
     "history": [
-      {
-        "timestamp": "2026-08-30T21:35:44.074338+00:00",
-        "score": 7.5,
-        "level": "BASELINE",
-        "components": {
-          "iaea_safeguards_strain": 21.3,
-          "npwmd_designation_delta": 0.0,
-          "facility_security_incidents": 0.0,
-          "test_site_seismicity": 0.0
-        }
-      },
       {
         "timestamp": "2026-08-31T06:14:26.643794+00:00",
         "score": 6.7,
@@ -2070,11 +2059,24 @@
           "facility_security_incidents": 0.0,
           "test_site_seismicity": 0.0
         }
+      },
+      {
+        "timestamp": "2026-10-20T05:21:47.481941+00:00",
+        "score": 0.9,
+        "level": "BASELINE",
+        "components": {
+          "iaea_safeguards_strain": 2.6,
+          "npwmd_designation_delta": 0.0,
+          "facility_security_incidents": 0.0,
+          "test_site_seismicity": 0.0
+        }
       }
     ],
     "data_health": {
       "available_components": 4,
-      "retained_components": [],
+      "retained_components": [
+        "test_site_seismicity"
+      ],
       "iaea_titles": 99,
       "npwmd_entries": 1205,
       "iaea_events": 23,
@@ -2644,15 +2646,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "IAEA Medical Assistance Supports Ukraine’s Nuclear Workers",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNRzNlWS1QS1JvM29YdUdKaXdIc1Y1dERBUEQza0RLNUJma0tvOGpLTzBMcVJVNjRUcDFZNmZ4b3ZpRUxhY0VJVlNqSEg4b2NDYzBXa2tFNnp6UGNsNm95OWYyM1RtZGVmaGg2bU1HTEl3YmRMSjJkMTI0UHR4SEU0aDVpU3RBeUVsOVNMclM1dTQ0YnR1NHZ2MVJVX2p4QmVMTnFnLUNoMUExZw?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20261002T070000Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "Tritium Level Far Below Japan’s Operational Limit in 22nd Batch of ALPS Treated Water, IAEA Confirms",
           "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOTTc5bFNJR0FkNUZxQUN0aEZ0aFVEWGw2ZkhDM3dYZC0wSkd5bFhiZEJuS25lU2VWejhwX1pZUjUwZGxqaUppNDF4bUNtTGhTMk5adVR0V1ZoU0Q5N2tlQi1uVnR4WjEwUnREOVFuNGFrVW9wT0xjU3lzaVlhRUo5T01Nb3Zpd0VEcE8zbXJJYjdxT2JQVVlLS0c4X2JzOUxrbFR4aWo0Z3RqRFVQVUNhRGFTU3llemliZGxESjB5cTdyWTVkTkoyYTJYb1dXbEZkSENtRmx3SmpZNjQ?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -2695,6 +2688,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20260730T070000Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "IAEA Medical Assistance Supports Ukraine’s Nuclear Workers",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNRzNlWS1QS1JvM29YdUdKaXdIc1Y1dERBUEQza0RLNUJma0tvOGpLTzBMcVJVNjRUcDFZNmZ4b3ZpRUxhY0VJVlNqSEg4b2NDYzBXa2tFNnp6UGNsNm95OWYyM1RtZGVmaGg2bU1HTEl3YmRMSjJkMTI0UHR4SEU0aDVpU3RBeUVsOVNMclM1dTQ0YnR1NHZ2MVJVX2p4QmVMTnFnLUNoMUExZw?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20261002T070000Z",
           "source": "GoogleNews"
         },
         {
@@ -39535,7 +39537,7 @@
           "lon": 0.17
         }
       ],
-      "cached": false
+      "cached": true
     }
   },
   "events": [
