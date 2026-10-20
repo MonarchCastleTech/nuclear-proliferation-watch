@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "nuclear-proliferation-watch",
-    "generated": "2026-10-20T12:15:23.662566+00:00",
+    "generated": "2026-10-20T17:32:43.175002+00:00",
     "mode": "live",
     "sources": [
       "IAEA official pages",
@@ -14,7 +14,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-10-20T12:15:23.656220+00:00",
+    "issued_at": "2026-10-20T17:32:43.169892+00:00",
     "horizon": "0-30 days",
     "classification": "nuclear-escalation-pressure-not-test-or-weapon-probability",
     "score": 0.0,
@@ -28,7 +28,7 @@
         "available": true,
         "score": 0.0,
         "current_14d_weight": 0.0,
-        "current_14d_titles": 13,
+        "current_14d_titles": 14,
         "baseline_periods": 8,
         "baseline_median": 1.3,
         "anomaly_z": -0.67,
@@ -68,7 +68,7 @@
         "available": true,
         "score": 0.0,
         "current_30d_diagnostic_weight": 0.0,
-        "events_considered": 1808,
+        "events_considered": 1809,
         "sites_monitored": 8,
         "anomaly_z": 0.0,
         "evidence": [],
@@ -84,17 +84,6 @@
     },
     "alerts": [],
     "history": [
-      {
-        "timestamp": "2026-08-31T14:26:55.378889+00:00",
-        "score": 6.7,
-        "level": "BASELINE",
-        "components": {
-          "iaea_safeguards_strain": 19.2,
-          "npwmd_designation_delta": 0.0,
-          "facility_security_incidents": 0.0,
-          "test_site_seismicity": 0.0
-        }
-      },
       {
         "timestamp": "2026-08-31T23:02:20.127855+00:00",
         "score": 1.4,
@@ -2063,6 +2052,17 @@
           "facility_security_incidents": 0.0,
           "test_site_seismicity": 0.0
         }
+      },
+      {
+        "timestamp": "2026-10-20T17:32:43.169892+00:00",
+        "score": 0.0,
+        "level": "BASELINE",
+        "components": {
+          "iaea_safeguards_strain": 0.0,
+          "npwmd_designation_delta": 0.0,
+          "facility_security_incidents": 0.0,
+          "test_site_seismicity": 0.0
+        }
       }
     ],
     "data_health": {
@@ -2133,12 +2133,12 @@
     "iaea_titles": {
       "signals": [
         {
-          "title": "Update 371 – IAEA Director General Statement on Situation in Ukraine",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNVlpSWmZkQm1STTBFZzdoZEdXbVJ1UmpvZzkyTDdCWWt4NHdUZXdjeXZaNmppekJEd3E2N2JZbm5Gd01iek5oNnhfSFFYU2pVSTBQSmstaTVPNE50YW0xU2lXM3Joa0sxNlZCZEVRU0FPTTZNWF9ZZDl4cFpDYjY0V29pb3VWc2pIQVg3MnhReGk5MWZ0bnp2Y3MzMXBWQnNCVXhxYk5FQjBuT2hUY1luMQ?oc=5",
+          "title": "IAEA Mission Says UAE Response to Barakah Nuclear Power Plant Event in May 2026 was Effective",
+          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQaGQzZ2JlZC1qb1NkczJuZFphZE1PVS1nRXJ1RUNBZFdQLWNiajBvWHZrRmNPYlJrZjNqamFWZkxaRHBxNGhPdGg1bld4TjlvN3E5MXhMZ3R0VFFhYzdBdjRJZTlfdlB3dzUxbTFROEE1TUVNbzVVQjJIcDNST28yTFRJRDNSRHdjN19KcGQ0RkQ5LWh3TUZldFBWQTF6TUFnMnQyQkFuamRSXzFqMVViMjBBM0dkN09tZFMzRHBiZGFpTnZxOEs4d3ljTmlEbDZKdjIxamdB?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
-          "seendate": "20261016T030134Z",
+          "seendate": "20261020T085616Z",
           "source": "GoogleNews"
         },
         {
@@ -2148,6 +2148,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20261016T123500Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Update 371 – IAEA Director General Statement on Situation in Ukraine",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNVlpSWmZkQm1STTBFZzdoZEdXbVJ1UmpvZzkyTDdCWWt4NHdUZXdjeXZaNmppekJEd3E2N2JZbm5Gd01iek5oNnhfSFFYU2pVSTBQSmstaTVPNE50YW0xU2lXM3Joa0sxNlZCZEVRU0FPTTZNWF9ZZDl4cFpDYjY0V29pb3VWc2pIQVg3MnhReGk5MWZ0bnp2Y3MzMXBWQnNCVXhxYk5FQjBuT2hUY1luMQ?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20261016T030134Z",
           "source": "GoogleNews"
         },
         {
@@ -2481,6 +2490,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20260914T070000Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "IAEA Completes International Physical Protection Advisory Service Mission in Pakistan",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPUmZ0SmxrSG5ZdEVheGJ2TkEtSDVVTHUwZUhMWjVEbVVzV3VCQmZqWVhLWFpkTTBveE1zYWxRcXRFUzRkZnJKNGxwLVR1NmpoZjNYUXZyYklKY215ZmR4VVlQNG9WQTAxbUtiUktjVGJub1JKeTljS3l0MFRMbkQ0b0E2STdSLXVjRXlwb0xrcFlUSlBBQnkwNFJnck1ka2xGMlhZQUxRLW5maFFtNHM2cUl2YkJhUVlqTVhNZzUwTExEZnRXcFJ3SHFn?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20261009T070000Z",
           "source": "GoogleNews"
         },
         {
@@ -2862,15 +2880,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "Employer Release & Recommendation Form LMP France (CEA and ITER)",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQeE9Rakk2SFdOc1JWa2JaNjRfQmlDUUs3Ul9Rajhkdzl2MEMwZi1Ca29wYXJaZU5KSjktMTJnM21XSHl6aW8yWEx0X1VocjhnbUNUYUxaNHpjcmFzMW94SlBZOVhQMUFvRVROanQyWHBJbGN3VE15MVBqZ1drbkFSUTBQamxMdUlRQjVaaGZjRUFtWWNFZVV6LXRfaFA4UU5YN0tVYjQyU09YU0ZyZmc?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20261010T081934Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "Training Course Series",
           "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE8zWmNIOTgzSWpwR3VxX2dUTkNmS0xWQ1V3d0lYMDAwUVFmRmdvTlVrOXNIQ1hNYmZEOWg0RzlHdnBDY2c4emJBZ0NGenFzcWVDenNCdjJCZ1lpclYybmZOQTd4NnVDUjAtVUpRV3djeDJxT1ctLTdLZkdB?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -3003,15 +3012,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20260626T070000Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "Update 367 – IAEA Director General Statement on Situation in Ukraine",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOek9PaG4tYTJ3OTk0UUVMS0dhM3BKdGtGRWY4d3ZjMGptRHlTYmp6MVNHbGZLSlJyT0xYRDFFaFVORURWY1c5QkhDVzU3OWhxbVB1LXRXb2dLeUttOWpleWdfLTJsU04wUzRIbG1aX3AzWUJ5LVczV0Uta1pZQXlMVmI5dnlWZ2dyYmRvbGtqaElVdHhtaHFZZHZaZDJrYkVibzByaEVHN3hld21VaExBdQ?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260917T070000Z",
           "source": "GoogleNews"
         }
       ],
@@ -10770,6 +10770,22 @@
           "lon": 87.9952,
           "lat": 41.8774,
           "depth_km": 10,
+          "source": "USGS"
+        },
+        {
+          "id": "nn00926001",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1792505310112,
+          "magnitude": 1.54,
+          "magnitude_type": "ml",
+          "event_type": "earthquake",
+          "place": "78 km S of Eureka, Nevada",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00926001",
+          "lon": -116.0368,
+          "lat": 38.8049,
+          "depth_km": 1.5666,
           "source": "USGS"
         },
         {
