@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "nuclear-proliferation-watch",
-    "generated": "2026-10-21T12:27:06.310192+00:00",
+    "generated": "2026-10-21T17:40:39.427027+00:00",
     "mode": "live",
     "sources": [
       "IAEA official pages",
@@ -14,7 +14,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-10-21T12:27:06.301597+00:00",
+    "issued_at": "2026-10-21T17:40:39.421591+00:00",
     "horizon": "0-30 days",
     "classification": "nuclear-escalation-pressure-not-test-or-weapon-probability",
     "score": 0.0,
@@ -46,8 +46,8 @@
         "removed_count": 0,
         "added": [],
         "removed": [],
-        "publish_date": "2026-10-16",
-        "sha256": "0dee0d2de5e5a240e3e545741ee2903cfa3508666d2f2841d5d1ff2d59f0ce71",
+        "publish_date": "2026-10-20",
+        "sha256": "96dade5a1cde8c9746937b4859ad75d8f2a34eed1a4046cc1f2240a830f70bda",
         "retained": false
       },
       {
@@ -84,17 +84,6 @@
     },
     "alerts": [],
     "history": [
-      {
-        "timestamp": "2026-09-01T16:56:11.664343+00:00",
-        "score": 3.4,
-        "level": "BASELINE",
-        "components": {
-          "iaea_safeguards_strain": 9.6,
-          "npwmd_designation_delta": 0.0,
-          "facility_security_incidents": 0.0,
-          "test_site_seismicity": 0.0
-        }
-      },
       {
         "timestamp": "2026-09-01T21:21:25.393876+00:00",
         "score": 6.7,
@@ -2063,6 +2052,17 @@
           "facility_security_incidents": 0.0,
           "test_site_seismicity": 0.0
         }
+      },
+      {
+        "timestamp": "2026-10-21T17:40:39.421591+00:00",
+        "score": 0.0,
+        "level": "BASELINE",
+        "components": {
+          "iaea_safeguards_strain": 0.0,
+          "npwmd_designation_delta": 0.0,
+          "facility_security_incidents": 0.0,
+          "test_site_seismicity": 0.0
+        }
       }
     ],
     "data_health": {
@@ -2142,15 +2142,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "From Farm to Fork: How Nuclear Science Helps Put Food on Our Tables",
-          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNdUxUVlJ5SXB2a3dYRlU1cGl4S2NTMkthVzJja3BfUzBhMWw5WlZzWjFyMGN2TzVsX2dLaEc3Y280TlJSWXk2VThkNXJhMFpfck5Mc1Y2aTdRRzR6Um52N0ZNQWZTU3k3c3F6UzBGQ1ZfUmFPdEhTS3Z3c213WTNJeEwyVzlFQ0ZYa3lFcHVaSVpYdFBFcTRKU0JOTDRrYmpwc3pLYQ?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20261016T123500Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "Update 371 – IAEA Director General Statement on Situation in Ukraine",
           "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNVlpSWmZkQm1STTBFZzdoZEdXbVJ1UmpvZzkyTDdCWWt4NHdUZXdjeXZaNmppekJEd3E2N2JZbm5Gd01iek5oNnhfSFFYU2pVSTBQSmstaTVPNE50YW0xU2lXM3Joa0sxNlZCZEVRU0FPTTZNWF9ZZDl4cFpDYjY0V29pb3VWc2pIQVg3MnhReGk5MWZ0bnp2Y3MzMXBWQnNCVXhxYk5FQjBuT2hUY1luMQ?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -2207,6 +2198,15 @@
         {
           "title": "Nuclear Safety, Security and Safeguards in Ukraine",
           "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBFWDZ0ZzQ0Zlpha1hqWWJsTkxhUTdiMG1hYmdIZXFxaHh6V1FPSHNPOGRHdWduZ3dHS3FVYXF5V0hKT3g1QU9EQzRfXzlsRXhlNTVKS3d6QVctRldzM0NRWjVNRWxNWTBuZE1vSEVCU29JNUE?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260902T070000Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Press Arrangements for IAEA Board of Governors Meeting, 7–11 September 2026",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQb1I4WWpHLUJSWmlxVHNoWHFacmhydmNNcHgyOTJkOXcxNUxvMDJQRzhwb0lTalE3V1ZTVDFRSU8xRHN0ZVhQUTVEaFFiWWFyeWs4ZTZvOFZlRHBta0ZwejVFMm1KVm5NeGswLWpBSms3aFdURmN5Yk55T1QyRzYzUVM4R0ZNV2ZzMy1qQm9KNk9VU3B3LS1ydWYxNXV2aXNjNFFGZXdHbmtRSjZDWUdfbVJLOWFDZDg0Q20ydk5B?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
@@ -2355,15 +2355,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20250531T042112Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "Press Arrangements for IAEA Board of Governors Meeting, 7–11 September 2026",
-          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQb1I4WWpHLUJSWmlxVHNoWHFacmhydmNNcHgyOTJkOXcxNUxvMDJQRzhwb0lTalE3V1ZTVDFRSU8xRHN0ZVhQUTVEaFFiWWFyeWs4ZTZvOFZlRHBta0ZwejVFMm1KVm5NeGswLWpBSms3aFdURmN5Yk55T1QyRzYzUVM4R0ZNV2ZzMy1qQm9KNk9VU3B3LS1ydWYxNXV2aXNjNFFGZXdHbmtRSjZDWUdfbVJLOWFDZDg0Q20ydk5B?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260902T070000Z",
           "source": "GoogleNews"
         },
         {
@@ -2529,15 +2520,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "IAEA Mission Says Egypt is Committed to Strengthening its National Regulatory Framework for Safety",
-          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOUjh5bDhtMzQtQk02cVFwV2lfbWZsQW5UV3RFdS1ENndLN0xNSFlka3ZDYmtmSFZoUkFvN1pNcHd2V29KaGhscTkzVnRhZmRPNzZYSF9oSDZSeVhTdzgzd2o5YWpiVXdZZ0hLeW94NkFWU095aHp5alBvM2VvYndXclJENllnNG90MzluWVhkeWFpdXdlanZfQU9yLW51dE0wUVNvVG9TcDRCa2Nqajl6bGNNREJVLU1KU25YeG1kd1IyY2g5NlMzU3J5S2REelBBX0tjdVJ4Q1NFRDA?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260624T070000Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "70th IAEA General Conference",
           "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNOXFTZmpwWGY3T3cyVmtVLU9QcWJ3Ui0yRGF3NDRXenNHNHpZQ0tDMkRSb1l4RnVzVS12cmFVUGVVdFk2QTZEdUpNYkpnX1VmMDAwa1hNVjQ1MkxHaDhUTDNJb0VhTlhmd3Z0U2szMnM3Z2lTUzhHbncxRXR4OVRfWXB6MEEwZzVpWFpENnMtUUlCdDJFcVlxMA?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -2571,6 +2553,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20261005T110607Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "IAEA Mission Says Egypt is Committed to Strengthening its National Regulatory Framework for Safety",
+          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOUjh5bDhtMzQtQk02cVFwV2lfbWZsQW5UV3RFdS1ENndLN0xNSFlka3ZDYmtmSFZoUkFvN1pNcHd2V29KaGhscTkzVnRhZmRPNzZYSF9oSDZSeVhTdzgzd2o5YWpiVXdZZ0hLeW94NkFWU095aHp5alBvM2VvYndXclJENllnNG90MzluWVhkeWFpdXdlanZfQU9yLW51dE0wUVNvVG9TcDRCa2Nqajl6bGNNREJVLU1KU25YeG1kd1IyY2g5NlMzU3J5S2REelBBX0tjdVJ4Q1NFRDA?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260624T070000Z",
           "source": "GoogleNews"
         },
         {
@@ -3021,6 +3012,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20261012T193427Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Nuclear Energy in the Age of Artificial Intelligence",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQdXExbTd3QUFUeXFic0JacGI5ZzRnTHR1NkpBRWo0VFR1YVR0cTRBTHlJd3JfZGxRTFpSVWJSQXlkal9rc1AzQU85VWVhdG9mYkxqc2FyWGRzUmFiRXY4T0ZhYXZOMDlONXBCVGZYZldUblRSSTd1Smp4VVVxQ2tTRVMwempiNnF6QW5DMnBDUTFVSUJTSEdJ?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20261021T110735Z",
           "source": "GoogleNews"
         }
       ],
@@ -10519,8 +10519,8 @@
         }
       ],
       "count": 1205,
-      "publish_date": "2026-10-16",
-      "sha256": "0dee0d2de5e5a240e3e545741ee2903cfa3508666d2f2841d5d1ff2d59f0ce71",
+      "publish_date": "2026-10-20",
+      "sha256": "96dade5a1cde8c9746937b4859ad75d8f2a34eed1a4046cc1f2240a830f70bda",
       "cached": false
     },
     "test_site_seismicity": {
