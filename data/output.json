@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "nuclear-proliferation-watch",
-    "generated": "2026-10-21T17:40:39.427027+00:00",
+    "generated": "2026-10-21T21:59:14.772455+00:00",
     "mode": "live",
     "sources": [
       "IAEA official pages",
@@ -14,7 +14,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-10-21T17:40:39.421591+00:00",
+    "issued_at": "2026-10-21T21:59:14.767788+00:00",
     "horizon": "0-30 days",
     "classification": "nuclear-escalation-pressure-not-test-or-weapon-probability",
     "score": 0.0,
@@ -28,7 +28,7 @@
         "available": true,
         "score": 0.0,
         "current_14d_weight": 0.0,
-        "current_14d_titles": 12,
+        "current_14d_titles": 11,
         "baseline_periods": 8,
         "baseline_median": 1.8,
         "anomaly_z": -1.35,
@@ -84,17 +84,6 @@
     },
     "alerts": [],
     "history": [
-      {
-        "timestamp": "2026-09-01T21:21:25.393876+00:00",
-        "score": 6.7,
-        "level": "BASELINE",
-        "components": {
-          "iaea_safeguards_strain": 19.2,
-          "npwmd_designation_delta": 0.0,
-          "facility_security_incidents": 0.0,
-          "test_site_seismicity": 0.0
-        }
-      },
       {
         "timestamp": "2026-09-02T05:06:08.250822+00:00",
         "score": 3.4,
@@ -2063,6 +2052,17 @@
           "facility_security_incidents": 0.0,
           "test_site_seismicity": 0.0
         }
+      },
+      {
+        "timestamp": "2026-10-21T21:59:14.767788+00:00",
+        "score": 0.0,
+        "level": "BASELINE",
+        "components": {
+          "iaea_safeguards_strain": 0.0,
+          "npwmd_designation_delta": 0.0,
+          "facility_security_incidents": 0.0,
+          "test_site_seismicity": 0.0
+        }
       }
     ],
     "data_health": {
@@ -2337,6 +2337,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20260820T152632Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Mr. President, Mr. Director General, Excellencies, It is an honor to address you on behalf of the Government of Montenegro. The",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE04dlB6TUJfbUctTGxxS1JhMDZJaXdzNkxSTVE1b2dGMHpfalZzZ09vVkd2Mnd0QnNGNmtnV1o0Z1o4UzlJMzdfNG1Rd3ZRV0RsTjBXM3lrT2Y0MXpPZGFtZWJ3VTViSlNPTXphdzAwZk5nRzR4YVZpN0lR?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260915T163102Z",
           "source": "GoogleNews"
         },
         {
@@ -2628,15 +2637,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "TECDOC Series",
-          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE43YTZvMTBONUdMSWF2RnFxOGNpX2lIdWtLVGVmcUxzVTR3ZzlyRHdVTzE2anhNcXJ6WXJPQXc1MTlfWGd6QzFvRUw2RmpWcWRnd3NLcmItOUE2QlJVX2NtZktlblRQekl3LURpNktUMA?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260929T020552Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "Tritium Level Far Below Japan’s Operational Limit in 23rd Batch of ALPS Treated Water, IAEA Confirms",
           "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPQkVSMDNSRGZsbTFWNDZOYmU3bE4wTTl0clNhZS1mN2N1NTZLVngyX19PWXFaMVpNOXM5Sk9ZYzZ5MVFjaUtfRkpSZF9NLU9KcmFZMzVnM2FYajVwd2ZuSnVVNy1heWhxWUZkbHNJQ0t0WTE5Y2tkdHQxMng0SEtMTWdiX0t3WFBBdzV4THlMb3Vxd19ONDAxTE5QVkVXU0ZzUkhqTUExRV82VUJPX1ZKZE4xNXgwMnZ0cTFkODVzLVJ1cFdDeWJubzZKbFBOM0x4dFdsZ2NPUFV5aG8?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -2679,6 +2679,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20260925T070000Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "TECDOC Series",
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE43YTZvMTBONUdMSWF2RnFxOGNpX2lIdWtLVGVmcUxzVTR3ZzlyRHdVTzE2anhNcXJ6WXJPQXc1MTlfWGd6QzFvRUw2RmpWcWRnd3NLcmItOUE2QlJVX2NtZktlblRQekl3LURpNktUMA?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260929T020552Z",
           "source": "GoogleNews"
         },
         {
@@ -2913,15 +2922,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20260814T070000Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "INIS Members by Country",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQQV95MWdhSzU4a0Z2RU14bWZ6N0xqaTFwMDA1d0NIbkdWeFN5NEpkdnFMZGUxVUJuTDh0RThRUGhSS2VtdG5fT3ZGSmJIcHpONm5oR2tJbVRkQzNWbTgzdjN1NkNMU0RIV29aZEFZV1hLWFk2UFQ3a2FjQk5yTEphTGVCTnA0VlB6WGNudk1ZdU9WMWltd1AxOHJn?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20261009T090208Z",
           "source": "GoogleNews"
         },
         {
@@ -10782,6 +10782,22 @@
           "source": "USGS"
         },
         {
+          "id": "nn00926058",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1792616322477,
+          "magnitude": 1.82,
+          "magnitude_type": "ml",
+          "event_type": "earthquake",
+          "place": "51 km N of Tonopah, Nevada",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00926058",
+          "lon": -117.2745,
+          "lat": 38.5282,
+          "depth_km": 8.1522,
+          "source": "USGS"
+        },
+        {
           "id": "nn00926035",
           "site": "Nevada National Security Site",
           "site_lat": 37.12,
@@ -11147,22 +11163,6 @@
           "lon": -118.169833333333,
           "lat": 36.2163333333333,
           "depth_km": 6.02,
-          "source": "USGS"
-        },
-        {
-          "id": "nc75448501",
-          "site": "Nevada National Security Site",
-          "site_lat": 37.12,
-          "site_lon": -116.05,
-          "time": 1791838321710,
-          "magnitude": 2.17,
-          "magnitude_type": "md",
-          "event_type": "earthquake",
-          "place": "16 km NNW of Dixon Lane-Meadow Creek, CA",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75448501",
-          "lon": -118.471000671387,
-          "lat": 37.5263328552246,
-          "depth_km": 8.02999973297119,
           "source": "USGS"
         },
         {
