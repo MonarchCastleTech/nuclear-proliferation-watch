@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "nuclear-proliferation-watch",
-    "generated": "2026-10-22T05:24:13.993130+00:00",
+    "generated": "2026-10-22T12:28:46.855960+00:00",
     "mode": "live",
     "sources": [
       "IAEA official pages",
@@ -14,7 +14,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-10-22T05:24:13.987952+00:00",
+    "issued_at": "2026-10-22T12:28:46.847492+00:00",
     "horizon": "0-30 days",
     "classification": "nuclear-escalation-pressure-not-test-or-weapon-probability",
     "score": 0.0,
@@ -28,10 +28,10 @@
         "available": true,
         "score": 0.0,
         "current_14d_weight": 0.0,
-        "current_14d_titles": 10,
+        "current_14d_titles": 11,
         "baseline_periods": 8,
         "baseline_median": 1.8,
-        "anomaly_z": -2.43,
+        "anomaly_z": -1.35,
         "evidence": [],
         "retained": false
       },
@@ -84,17 +84,6 @@
     },
     "alerts": [],
     "history": [
-      {
-        "timestamp": "2026-09-02T11:44:38.700308+00:00",
-        "score": 7.0,
-        "level": "BASELINE",
-        "components": {
-          "iaea_safeguards_strain": 17.3,
-          "npwmd_designation_delta": 0.0,
-          "facility_security_incidents": 4.5,
-          "test_site_seismicity": 0.0
-        }
-      },
       {
         "timestamp": "2026-09-02T16:52:24.360917+00:00",
         "score": 5.0,
@@ -2063,6 +2052,17 @@
           "facility_security_incidents": 0.0,
           "test_site_seismicity": 0.0
         }
+      },
+      {
+        "timestamp": "2026-10-22T12:28:46.847492+00:00",
+        "score": 0.0,
+        "level": "BASELINE",
+        "components": {
+          "iaea_safeguards_strain": 0.0,
+          "npwmd_designation_delta": 0.0,
+          "facility_security_incidents": 0.0,
+          "test_site_seismicity": 0.0
+        }
       }
     ],
     "data_health": {
@@ -2169,6 +2169,15 @@
           "source": "GoogleNews"
         },
         {
+          "title": "Health Dosimeter Plays an Unusual Role as a Safeguards Device",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOTkR4MktQdWlBWVNBWkJGTjM0QWF3b2hLd0t4d0QyRXVPMVZUTTU0SmhHbUFrVGVGU0VSQzRlaDJXM2Z4VENWNVczWWpNeWR4MlJsOGM4dlB0ZGIzTEhCWGRKWHpfYnhwNkYwdVFpaE00dU9QSGhjMURaM001dmk4eFI2MlpkM0NCQ2ZTd3hSaEpVNzlUUXUyNUdpR0VMelpZc0V5TFZWQm41S0lPRmww?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20261006T060738Z",
+          "source": "GoogleNews"
+        },
+        {
           "title": "Technical Meeting on Verification and Validation of Software Related to Nuclear Power Plant Instrumentation and Control | IAEA",
           "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE8wSGtVNXNtem4teENfX0hHT3hwU1FEWGxWSHpfSHJHcXpkTDV6LV9UUTdneU5qSWtqTVEySTBzYm1vYlFJS2xOVWwyaw?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -2202,15 +2211,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20260902T070000Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "Strengthening the Effectiveness and Improving the Efficiency of Agency Safeguards | IAEA",
-          "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE10ejJPRmtGUjEtSjJmdWc0aHRXTlhJSHRnbWI0enlqNHk0MFF1eHNQZy00YlpVWnVsSHpSZUpsYUNWQjhUZ0E?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260818T070000Z",
           "source": "GoogleNews"
         },
         {
@@ -2376,6 +2376,15 @@
           "source": "GoogleNews"
         },
         {
+          "title": "Attacks Against Nuclear Facilities: Legal, Normative and Scientific Perspectives | IAEA",
+          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOSlhscDJPTXMzN19kRUdjQmR6c3NYNGRDb2JHak5rYTMybnA1MFRBdXlqNlR3Wm9LU1BiTTJHLU5fSDZRRk9NaHNfNl9fRUcyYTVwQl9Sb1FIU00xNEthMlZBYmtWXzUxWjRkc3VHTDRrOTdZXzU2clI4Y0RLTHEyNzRNZjZaUGxxN2JjVDNLaUxodDRHa3VwVER5czBiVWtHc3NVZnJhQjhGejF2dmNrNWF3amxBVkk4YUIya3VrekU0bEpGN285MmJDbW1kM2s?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260918T013603Z",
+          "source": "GoogleNews"
+        },
+        {
           "title": "Update 356 – IAEA Director General Statement on Situation in Ukraine",
           "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNaHRTY3NaY1ZUb2VvWkhzMHo4RE5LbWxsY0ZxOXMzOHV3UzlyMWFrZFh0alJ5dm1xZlBzY09oSXdRNG1zaC1GUVltcHNsbmc3MzZxYmg2M3prUmhmT25MLV91UVNiUHRwdU1hd0RrRGJPTGppVzhmcmoxd1Jlc0Z3eTV4TTgycUxEQzNHZkJlVWt4ajZqWnVBd0hzQ3hDV0pVcUVzNUtyN3VFV1l4Z3hDbg?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -2502,6 +2511,15 @@
           "source": "GoogleNews"
         },
         {
+          "title": "70th IAEA General Conference",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPZE43VkVtM1dMRS1UX0tqU2hhN0dkVXMzLVVKQUoyalJsbXNfS2tqYVdkVFJfXzg1eE94LWlaMTRkbm5YbGpsZVdxbDZ5aGlvWjhrNmlROUFBM2k2UjFnSUM4dzJvb1N3WVRuQXg1SnF0NHRLb1RRUk9XQjFLQUlQa1FrZVgxZmpxczRuOGp2aXlVTG9DQS1EaA?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260918T070000Z",
+          "source": "GoogleNews"
+        },
+        {
           "title": "Videos",
           "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1lQm01SUNjLVdMQ1JZMzI5VE92eTBURjMxVUdtQldCUmNNVC1KRTNzNlZRd1Z2SUNuVDB1VUlFU2k0c3R3TTktZm9OOHY2cTZGUk1BZVpzdkhTV2U1?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -2547,15 +2565,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "70th IAEA General Conference",
-          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNOXFTZmpwWGY3T3cyVmtVLU9QcWJ3Ui0yRGF3NDRXenNHNHpZQ0tDMkRSb1l4RnVzVS12cmFVUGVVdFk2QTZEdUpNYkpnX1VmMDAwa1hNVjQ1MkxHaDhUTDNJb0VhTlhmd3Z0U2szMnM3Z2lTUzhHbncxRXR4OVRfWXB6MEEwZzVpWFpENnMtUUlCdDJFcVlxMA?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260918T070000Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "International Conference on Topical Issues in Nuclear Installation Safety - News | IAEA",
           "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE04czN5RW1JOUpScDU2aVhjNm14Uk00VWdyYThod0JraTlqNGFtd042RWo2NXRpam9xcTRaZHNIcmozM3ZBUHAxckNvT0cwaGFP?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -2580,15 +2589,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20261005T070000Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "IAEA Mission Says Egypt is Committed to Strengthening its National Regulatory Framework for Safety",
-          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOUjh5bDhtMzQtQk02cVFwV2lfbWZsQW5UV3RFdS1ENndLN0xNSFlka3ZDYmtmSFZoUkFvN1pNcHd2V29KaGhscTkzVnRhZmRPNzZYSF9oSDZSeVhTdzgzd2o5YWpiVXdZZ0hLeW94NkFWU095aHp5alBvM2VvYndXclJENllnNG90MzluWVhkeWFpdXdlanZfQU9yLW51dE0wUVNvVG9TcDRCa2Nqajl6bGNNREJVLU1KU25YeG1kd1IyY2g5NlMzU3J5S2REelBBX0tjdVJ4Q1NFRDA?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260624T070000Z",
           "source": "GoogleNews"
         },
         {
@@ -2763,15 +2763,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "Attacks Against Nuclear Facilities: Legal, Normative and Scientific Perspectives | IAEA",
-          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOSlhscDJPTXMzN19kRUdjQmR6c3NYNGRDb2JHak5rYTMybnA1MFRBdXlqNlR3Wm9LU1BiTTJHLU5fSDZRRk9NaHNfNl9fRUcyYTVwQl9Sb1FIU00xNEthMlZBYmtWXzUxWjRkc3VHTDRrOTdZXzU2clI4Y0RLTHEyNzRNZjZaUGxxN2JjVDNLaUxodDRHa3VwVER5czBiVWtHc3NVZnJhQjhGejF2dmNrNWF3amxBVkk4YUIya3VrekU0bEpGN285MmJDbW1kM2s?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260918T013603Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "Update 370 – IAEA Director General Statement on Situation in Ukraine",
           "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOQ19oR25LUUJEcHl1TUdtS1B1ZHJnSkJkLXE5a1V4dmZMZ1lQeUFkbnZLd0IyLUdIN2dmM2hTODRIMjRkNXlISC1EdF9FWUw1aldBNEFWa3VLemhoLXFTSkw1dG1LUVgwRXctbmxscHVfQVozZjJhSERQODVBU1BRbDVsS0FBa2VwYXNuOVFfcGp0YWttNVRJcUI1dGtScGVSNWNYR1JvRzBfaFNxdHBTaQ?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -2805,15 +2796,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20260911T070000Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "ATLAS/EXPOSOMICS-AI-enabled Trans-continental Linkage of Atherosclerosis and expo-Some [INCAPS 5]",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1ibUMwNjJTVnhDcld6N05sRTRacFFzcExBY0hseHJzNlA1eHBkMW9GdFJQSzJLYUNXVVY2ZzBEeUs5ZVJaNDBPOUtOMlpPRHZWOFE?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20261015T200714Z",
           "source": "GoogleNews"
         },
         {
@@ -2871,15 +2853,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "Nicaragua Signs a Country Programme Framework (CPF) for 2026–2031",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPdjMwVDB3WUEtOXBKeGVxRU4wSVlCU3BTNnYzM1E5Ul9yM01PY28yaUxXbXB5LWotZVJTejhRYkV3Sjk2dkdKTExpeVpzdGZYeHJpQ3VyTFltbEoyQkpSV0xsNUFCbGRmS3NJdGVqSVdGN0FZZ09qWXAwUUVEazQxS1NaWFd1UzFFNHRJRjkxNm5rcHk2ZGpidFhGaTdXaGNn?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260922T070000Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "IAEA and World Bank Group Collaborate to Advance Nuclear Energy for Development",
           "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNSENsRUU3amZoRmhWTDhoQjB2VDFqQ0tkeUZ0cDhDamFiTVp4UTdiS2tKSzNXa0JNejRfVU4yLWJkRjZsdU1xdHhJVDlid0M2YzhDOFZCNXhTeDFoR0otV0o3amwzV29iQmdpcnBoV2p4aFRsUnlwSFZLUFZubHdlTVFya0dROElJUjdYVE5PYzlqazYxSjczUFVXODd0ZF9Ka0RyM2dBV3FZUl9ReHBDbTNGN3VoZw?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -2922,15 +2895,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20260927T141957Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "Barbados Signs its First Country Programme Framework (CPF) for 2026–2031",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQelZ2THNKYjFCR25YNUVkc2xuRGE3SmJ4eWpMVUVpWDFuSDlpTDdYSkhpUnFheEhuSXVlc0NqWF9YVUF0NVhhS1lyMzhZWHlGcFZlaWE3SUdxQWVwWTlMWkFjTkpiSWNBN2ZhUTYyZEtxT3NtRTVqQkRuS3d2Sy1qN1RaYXRZQUowZlIwUDhDVUF6WkVCLUR0dXVFa2RIMzJuMVBDWTI1d2ZMZw?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260624T070000Z",
           "source": "GoogleNews"
         },
         {
@@ -3012,6 +2976,42 @@
           "language": "",
           "tone": 0,
           "seendate": "20260917T070000Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Review of State of the Art Thermal Hydraulics of Fast Reactors",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNbjhTdnNpVnN1WThSSEoyLVFhT1A5UGowbU03SEpYLWRhaWVNaTRISU91M1J3M1dyanVWNXk4UG9RX2pFLU83YllSTmNhVGVqek5WcEFGNkxSYmFZTjBJcXZQYVJjTFZIeGVJMFZoYkFxSjRSZ01ybFRNLVNCckxucjc3VVFBc3d4amxNV0FlSnVNRGROQ3VOYTRoSGZMbFd6dE1N?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260826T115219Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Nuclear Energy in the Age of Artificial Intelligence: Securing Electricity for the Digital Economy",
+          "url": "https://news.google.com/rss/articles/CBMiqwJBVV95cUxOLUdOdFRNRjJLbzFmNjJsenNwQmUtNWdreVRHSDlCUkNQU19UbERpaElZUHIwVTlKNkk5NUVhcFZfVG1aRUlDelZrQjRhQ1didi1kZ3VPQmg3LWxMa3hfNnRnRXgtZy1XdGs1UkRzZkl0QVg4TXlvZmlGQmhKUjUtZXVqc1J6MXRySjd5S2JoQ2EzZzBaQTl2cUVnWk1mVjRlTTl6dWd4SVNWZVdSellHZVRIc1VPR2E5LXRUQVpKLVBIcjduNlJoaWJXckM1WVlQNG5jeTc0QUVWUUJvY1hxN242RE5EdGhPMkcwVV9TS0VINlV2U2lxeldtdWxhamZmUFRCYlhWQzUxVUR2TEFieHR1VURTS1NPTGtDUFNaT25aRHc5bXhjbjFtUQ?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20261012T193427Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Nuclear Energy in the Age of Artificial Intelligence",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOZUZsQXo4Sy1OM2xJMW1DcDh2b1BtUmRRLUtjb2daN01tU2UzcG51RTRZcWtwZ2hpWlJBMnUzb1BZZHQ4NExYRk9wc3VsbW94MzF0aDZmaXFnbVZUUVpIZDVYaVJISWtqcGh5aVNNX2JFelhIZmxMVEo2a0xSTHFDeWczVXFvNm82QTFjTklhYTJUSTE4ZXc?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20261021T110735Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Evaluation of the Status of National Infrastructure for a Uranium Production Cycle Programme",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNSVFIeFctQzJ2YVFhN1Z0YmYzd3pPcVdsZUdKZUlnc2tyS0dINjNzVi1wczNnUDFuSWFpSnBoQldlVk1tMVRYaWZDN2ZxTVlNS2IzUG1Nb1BvTHNzTXVnbldiampQQjhNeXk2SmdCalN6bnpnZ2xuRUpaNFo1UU5ieTd6RXMtamxkaG9sWU14c09SMXMycGF1cVFZWDlHRXozUzhvcjZGQ2swTlAyLVFCSjY4Nl9Mck5XZlE1cFlmOVpGZDZGSG9RejJOYw?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260911T090605Z",
           "source": "GoogleNews"
         }
       ],
