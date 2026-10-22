@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "nuclear-proliferation-watch",
-    "generated": "2026-10-22T17:38:45.037261+00:00",
+    "generated": "2026-10-22T21:55:56.680200+00:00",
     "mode": "live",
     "sources": [
       "IAEA official pages",
@@ -14,7 +14,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-10-22T17:38:45.028857+00:00",
+    "issued_at": "2026-10-22T21:55:56.671369+00:00",
     "horizon": "0-30 days",
     "classification": "nuclear-escalation-pressure-not-test-or-weapon-probability",
     "score": 0.0,
@@ -68,7 +68,7 @@
         "available": true,
         "score": 0.0,
         "current_30d_diagnostic_weight": 0.0,
-        "events_considered": 1803,
+        "events_considered": 1804,
         "sites_monitored": 8,
         "anomaly_z": 0.0,
         "evidence": [],
@@ -84,17 +84,6 @@
     },
     "alerts": [],
     "history": [
-      {
-        "timestamp": "2026-09-02T21:19:34.162708+00:00",
-        "score": 5.0,
-        "level": "BASELINE",
-        "components": {
-          "iaea_safeguards_strain": 7.2,
-          "npwmd_designation_delta": 0.0,
-          "facility_security_incidents": 12.6,
-          "test_site_seismicity": 0.0
-        }
-      },
       {
         "timestamp": "2026-09-03T05:06:43.138627+00:00",
         "score": 6.2,
@@ -2063,6 +2052,17 @@
           "facility_security_incidents": 0.0,
           "test_site_seismicity": 0.0
         }
+      },
+      {
+        "timestamp": "2026-10-22T21:55:56.671369+00:00",
+        "score": 0.0,
+        "level": "BASELINE",
+        "components": {
+          "iaea_safeguards_strain": 0.0,
+          "npwmd_designation_delta": 0.0,
+          "facility_security_incidents": 0.0,
+          "test_site_seismicity": 0.0
+        }
       }
     ],
     "data_health": {
@@ -2142,12 +2142,12 @@
           "source": "GoogleNews"
         },
         {
-          "title": "From Farm to Fork: How Nuclear Science Helps Put Food on Our Tables",
-          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNdUxUVlJ5SXB2a3dYRlU1cGl4S2NTMkthVzJja3BfUzBhMWw5WlZzWjFyMGN2TzVsX2dLaEc3Y280TlJSWXk2VThkNXJhMFpfck5Mc1Y2aTdRRzR6Um52N0ZNQWZTU3k3c3F6UzBGQ1ZfUmFPdEhTS3Z3c213WTNJeEwyVzlFQ0ZYa3lFcHVaSVpYdFBFcTRKU0JOTDRrYmpwc3pLYQ?oc=5",
+          "title": "IAEA Mission Finds Kenya Committed to Safe Management of Radioactive Waste as it Develops a Nuclear Power Programme | IAEA",
+          "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQNG5ObFRPcWRMWlFFYWduRUdlWnBsNjgzQ0tueDd6Vk82cVF5QVJHRTdFTmtxT2NfbFp6azNFU0I0LTZYTXBDWmQyTlJpRHh0RVF0QWVURGNmWGRseVlsVjNXZEgwVV9DamJBMEpPQm1rUUdZQ1RzTjhoUTdOZUdxZ003VWVUYzdvNnpJM3NzU0JsVVc3d2hFZmx0U0xHN2Ytd0o5OFBxTjZXRHk4d2Q4WkFoOFkzdmFSN0h5ZWNXRU52RHcxUkFqQURpcm0tT0hDNFhFaER2WGpuTlZvYkZVX3dlM1d1SHBWVjhlWkhYb05oSGc?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
-          "seendate": "20261016T123500Z",
+          "seendate": "20261022T121817Z",
           "source": "GoogleNews"
         },
         {
@@ -2655,6 +2655,15 @@
           "source": "GoogleNews"
         },
         {
+          "title": "Project Listing - CRP",
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9Pd2tXYmtVb2M5TFdUVEtzMGloOWtIcUVadmtidUhnS192dEpBMDdnQkdtQTVIUi1kYldJdjJLRUlUZnQxVnkydmhNYXp3QVZMbkVTbWhkMlZsTjQ3Zkp0VGI4blhPaVVUS1YxTjNpdw?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20251122T215710Z",
+          "source": "GoogleNews"
+        },
+        {
           "title": "Tritium Level Far Below Japan’s Operational Limit in 23rd Batch of ALPS Treated Water, IAEA Confirms",
           "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPQkVSMDNSRGZsbTFWNDZOYmU3bE4wTTl0clNhZS1mN2N1NTZLVngyX19PWXFaMVpNOXM5Sk9ZYzZ5MVFjaUtfRkpSZF9NLU9KcmFZMzVnM2FYajVwd2ZuSnVVNy1heWhxWUZkbHNJQ0t0WTE5Y2tkdHQxMng0SEtMTWdiX0t3WFBBdzV4THlMb3Vxd19ONDAxTE5QVkVXU0ZzUkhqTUExRV82VUJPX1ZKZE4xNXgwMnZ0cTFkODVzLVJ1cFdDeWJubzZKbFBOM0x4dFdsZ2NPUFV5aG8?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -3003,15 +3012,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20261021T110735Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "Evaluation of the Status of National Infrastructure for a Uranium Production Cycle Programme",
-          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNSVFIeFctQzJ2YVFhN1Z0YmYzd3pPcVdsZUdKZUlnc2tyS0dINjNzVi1wczNnUDFuSWFpSnBoQldlVk1tMVRYaWZDN2ZxTVlNS2IzUG1Nb1BvTHNzTXVnbldiampQQjhNeXk2SmdCalN6bnpnZ2xuRUpaNFo1UU5ieTd6RXMtamxkaG9sWU14c09SMXMycGF1cVFZWDlHRXozUzhvcjZGQ2swTlAyLVFCSjY4Nl9Mck5XZlE1cFlmOVpGZDZGSG9RejJOYw?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260911T090605Z",
           "source": "GoogleNews"
         }
       ],
@@ -10770,6 +10770,22 @@
           "lon": 87.9952,
           "lat": 41.8774,
           "depth_km": 10,
+          "source": "USGS"
+        },
+        {
+          "id": "uu80161451",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1792698002570,
+          "magnitude": 1.64,
+          "magnitude_type": "ml",
+          "event_type": "earthquake",
+          "place": "4 km ENE of Central, Utah",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uu80161451",
+          "lon": -113.5805,
+          "lat": 37.4368333333333,
+          "depth_km": 0.28,
           "source": "USGS"
         },
         {
