@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "nuclear-proliferation-watch",
-    "generated": "2026-10-22T12:28:46.855960+00:00",
+    "generated": "2026-10-22T17:38:45.037261+00:00",
     "mode": "live",
     "sources": [
       "IAEA official pages",
@@ -14,7 +14,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-10-22T12:28:46.847492+00:00",
+    "issued_at": "2026-10-22T17:38:45.028857+00:00",
     "horizon": "0-30 days",
     "classification": "nuclear-escalation-pressure-not-test-or-weapon-probability",
     "score": 0.0,
@@ -28,10 +28,10 @@
         "available": true,
         "score": 0.0,
         "current_14d_weight": 0.0,
-        "current_14d_titles": 11,
+        "current_14d_titles": 10,
         "baseline_periods": 8,
         "baseline_median": 1.8,
-        "anomaly_z": -1.35,
+        "anomaly_z": -2.43,
         "evidence": [],
         "retained": false
       },
@@ -68,7 +68,7 @@
         "available": true,
         "score": 0.0,
         "current_30d_diagnostic_weight": 0.0,
-        "events_considered": 1802,
+        "events_considered": 1803,
         "sites_monitored": 8,
         "anomaly_z": 0.0,
         "evidence": [],
@@ -84,17 +84,6 @@
     },
     "alerts": [],
     "history": [
-      {
-        "timestamp": "2026-09-02T16:52:24.360917+00:00",
-        "score": 5.0,
-        "level": "BASELINE",
-        "components": {
-          "iaea_safeguards_strain": 7.2,
-          "npwmd_designation_delta": 0.0,
-          "facility_security_incidents": 12.6,
-          "test_site_seismicity": 0.0
-        }
-      },
       {
         "timestamp": "2026-09-02T21:19:34.162708+00:00",
         "score": 5.0,
@@ -2063,6 +2052,17 @@
           "facility_security_incidents": 0.0,
           "test_site_seismicity": 0.0
         }
+      },
+      {
+        "timestamp": "2026-10-22T17:38:45.028857+00:00",
+        "score": 0.0,
+        "level": "BASELINE",
+        "components": {
+          "iaea_safeguards_strain": 0.0,
+          "npwmd_designation_delta": 0.0,
+          "facility_security_incidents": 0.0,
+          "test_site_seismicity": 0.0
+        }
       }
     ],
     "data_health": {
@@ -2169,15 +2169,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "Health Dosimeter Plays an Unusual Role as a Safeguards Device",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOTkR4MktQdWlBWVNBWkJGTjM0QWF3b2hLd0t4d0QyRXVPMVZUTTU0SmhHbUFrVGVGU0VSQzRlaDJXM2Z4VENWNVczWWpNeWR4MlJsOGM4dlB0ZGIzTEhCWGRKWHpfYnhwNkYwdVFpaE00dU9QSGhjMURaM001dmk4eFI2MlpkM0NCQ2ZTd3hSaEpVNzlUUXUyNUdpR0VMelpZc0V5TFZWQm41S0lPRmww?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20261006T060738Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "Technical Meeting on Verification and Validation of Software Related to Nuclear Power Plant Instrumentation and Control | IAEA",
           "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE8wSGtVNXNtem4teENfX0hHT3hwU1FEWGxWSHpfSHJHcXpkTDV6LV9UUTdneU5qSWtqTVEySTBzYm1vYlFJS2xOVWwyaw?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -2214,21 +2205,21 @@
           "source": "GoogleNews"
         },
         {
+          "title": "Strengthening the Effectiveness and Improving the Efficiency of Agency Safeguards | IAEA",
+          "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE10ejJPRmtGUjEtSjJmdWc0aHRXTlhJSHRnbWI0enlqNHk0MFF1eHNQZy00YlpVWnVsSHpSZUpsYUNWQjhUZ0E?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260818T070000Z",
+          "source": "GoogleNews"
+        },
+        {
           "title": "Press Arrangements for IAEA Board of Governors Meeting, 7–11 September 2026",
           "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQb1I4WWpHLUJSWmlxVHNoWHFacmhydmNNcHgyOTJkOXcxNUxvMDJQRzhwb0lTalE3V1ZTVDFRSU8xRHN0ZVhQUTVEaFFiWWFyeWs4ZTZvOFZlRHBta0ZwejVFMm1KVm5NeGswLWpBSms3aFdURmN5Yk55T1QyRzYzUVM4R0ZNV2ZzMy1qQm9KNk9VU3B3LS1ydWYxNXV2aXNjNFFGZXdHbmtRSjZDWUdfbVJLOWFDZDg0Q20ydk5B?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
           "seendate": "20260902T070000Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "Reaching the future Safeguards workforce: Early Career Avenues in the Department of Safeguards",
-          "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5RbTJNRTkxZGxBNEUzanctVE5NSkZMZUlJWGtqMTlWX2c4b2FrNGpzTVFKR3pDSTEwc0IxSTcxdFVkT3JWOW1kajZ0dw?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260820T155732Z",
           "source": "GoogleNews"
         },
         {
@@ -2319,6 +2310,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20260916T070000Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Reaching the future Safeguards workforce: Early Career Avenues in the Department of Safeguards | IAEA",
+          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNZkFDa3c1MXRGNS1rSU83TlhETVdHd09XZXhxX25nQ0owRTNBTFcwak9FZzFrWGlXMkl5ZjA3MGlQbnl1WmY0b1ZGaDlYS2JGSkVZUEV1dWNxaHNsX29FV0VjUU9zcUY2eWpLc1RyejRJbndUM2FUYjlKM3VacVlaRk5BbW1GTmhtNkNPWEM4NTFGZWVscXBsanJ6Smx2N0lmN0FOZDZiN1FqRko0c3ZhYllCQ3EzRmV5bW14OGl4Y3JWYnNZcWFWTUpVdmYyVHlvOHlaMmtva2FVYXg0UFhDSw?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260820T152019Z",
           "source": "GoogleNews"
         },
         {
@@ -10773,19 +10773,35 @@
           "source": "USGS"
         },
         {
+          "id": "ci41350519",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1792680227920,
+          "magnitude": 1.93,
+          "magnitude_type": "ml",
+          "event_type": "earthquake",
+          "place": "14 km WSW of Searles Valley, CA",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41350519",
+          "lon": -117.54,
+          "lat": 35.7101666666667,
+          "depth_km": 8.34,
+          "source": "USGS"
+        },
+        {
           "id": "nn00926077",
           "site": "Nevada National Security Site",
           "site_lat": 37.12,
           "site_lon": -116.05,
-          "time": 1792630705843,
-          "magnitude": 1.53,
+          "time": 1792630708342,
+          "magnitude": 1.64,
           "magnitude_type": "ml",
           "event_type": "earthquake",
-          "place": "14 km S of Alamo, Nevada",
+          "place": "29 km SSW of Alamo, Nevada",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00926077",
-          "lon": -115.1688,
-          "lat": 37.2312,
-          "depth_km": 7.7914,
+          "lon": -115.3009,
+          "lat": 37.1252,
+          "depth_km": 12.3668,
           "source": "USGS"
         },
         {
