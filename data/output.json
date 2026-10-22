@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "nuclear-proliferation-watch",
-    "generated": "2026-10-21T21:59:14.772455+00:00",
+    "generated": "2026-10-22T05:24:13.993130+00:00",
     "mode": "live",
     "sources": [
       "IAEA official pages",
@@ -14,7 +14,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-10-21T21:59:14.767788+00:00",
+    "issued_at": "2026-10-22T05:24:13.987952+00:00",
     "horizon": "0-30 days",
     "classification": "nuclear-escalation-pressure-not-test-or-weapon-probability",
     "score": 0.0,
@@ -28,10 +28,10 @@
         "available": true,
         "score": 0.0,
         "current_14d_weight": 0.0,
-        "current_14d_titles": 11,
+        "current_14d_titles": 10,
         "baseline_periods": 8,
         "baseline_median": 1.8,
-        "anomaly_z": -1.35,
+        "anomaly_z": -2.43,
         "evidence": [],
         "retained": false
       },
@@ -68,7 +68,7 @@
         "available": true,
         "score": 0.0,
         "current_30d_diagnostic_weight": 0.0,
-        "events_considered": 1810,
+        "events_considered": 1802,
         "sites_monitored": 8,
         "anomaly_z": 0.0,
         "evidence": [],
@@ -84,17 +84,6 @@
     },
     "alerts": [],
     "history": [
-      {
-        "timestamp": "2026-09-02T05:06:08.250822+00:00",
-        "score": 3.4,
-        "level": "BASELINE",
-        "components": {
-          "iaea_safeguards_strain": 9.6,
-          "npwmd_designation_delta": 0.0,
-          "facility_security_incidents": 0.0,
-          "test_site_seismicity": 0.0
-        }
-      },
       {
         "timestamp": "2026-09-02T11:44:38.700308+00:00",
         "score": 7.0,
@@ -2063,12 +2052,23 @@
           "facility_security_incidents": 0.0,
           "test_site_seismicity": 0.0
         }
+      },
+      {
+        "timestamp": "2026-10-22T05:24:13.987952+00:00",
+        "score": 0.0,
+        "level": "BASELINE",
+        "components": {
+          "iaea_safeguards_strain": 0.0,
+          "npwmd_designation_delta": 0.0,
+          "facility_security_incidents": 0.0,
+          "test_site_seismicity": 0.0
+        }
       }
     ],
     "data_health": {
       "available_components": 4,
       "retained_components": [],
-      "iaea_titles": 99,
+      "iaea_titles": 98,
       "npwmd_entries": 1205,
       "iaea_events": 23,
       "test_sites": 8
@@ -2115,7 +2115,7 @@
     },
     {
       "label": "IAEA Signals",
-      "value": "99",
+      "value": "98",
       "delta": "official indexed pages"
     },
     {
@@ -2142,6 +2142,15 @@
           "source": "GoogleNews"
         },
         {
+          "title": "From Farm to Fork: How Nuclear Science Helps Put Food on Our Tables",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNdUxUVlJ5SXB2a3dYRlU1cGl4S2NTMkthVzJja3BfUzBhMWw5WlZzWjFyMGN2TzVsX2dLaEc3Y280TlJSWXk2VThkNXJhMFpfck5Mc1Y2aTdRRzR6Um52N0ZNQWZTU3k3c3F6UzBGQ1ZfUmFPdEhTS3Z3c213WTNJeEwyVzlFQ0ZYa3lFcHVaSVpYdFBFcTRKU0JOTDRrYmpwc3pLYQ?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20261016T123500Z",
+          "source": "GoogleNews"
+        },
+        {
           "title": "Update 371 – IAEA Director General Statement on Situation in Ukraine",
           "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNVlpSWmZkQm1STTBFZzdoZEdXbVJ1UmpvZzkyTDdCWWt4NHdUZXdjeXZaNmppekJEd3E2N2JZbm5Gd01iek5oNnhfSFFYU2pVSTBQSmstaTVPNE50YW0xU2lXM3Joa0sxNlZCZEVRU0FPTTZNWF9ZZDl4cFpDYjY0V29pb3VWc2pIQVg3MnhReGk5MWZ0bnp2Y3MzMXBWQnNCVXhxYk5FQjBuT2hUY1luMQ?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -2157,15 +2166,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20260727T070000Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "Health Dosimeter Plays an Unusual Role as a Safeguards Device",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOTkR4MktQdWlBWVNBWkJGTjM0QWF3b2hLd0t4d0QyRXVPMVZUTTU0SmhHbUFrVGVGU0VSQzRlaDJXM2Z4VENWNVczWWpNeWR4MlJsOGM4dlB0ZGIzTEhCWGRKWHpfYnhwNkYwdVFpaE00dU9QSGhjMURaM001dmk4eFI2MlpkM0NCQ2ZTd3hSaEpVNzlUUXUyNUdpR0VMelpZc0V5TFZWQm41S0lPRmww?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20261006T060738Z",
           "source": "GoogleNews"
         },
         {
@@ -2202,6 +2202,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20260902T070000Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Strengthening the Effectiveness and Improving the Efficiency of Agency Safeguards | IAEA",
+          "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE10ejJPRmtGUjEtSjJmdWc0aHRXTlhJSHRnbWI0enlqNHk0MFF1eHNQZy00YlpVWnVsSHpSZUpsYUNWQjhUZ0E?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260818T070000Z",
           "source": "GoogleNews"
         },
         {
@@ -2439,12 +2448,12 @@
           "source": "GoogleNews"
         },
         {
-          "title": "IAEA Concludes International Physical Protection Advisory Follow-Up Mission in China",
-          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQeGN1aGpSZVE2b1lpZ01sczhLdzFiTGJ1d3ZGU1JTUkV4VkJ6dDhPX2tHaHVIajR6aUFERG5WY2tBdnZqZ0tNd0JVbFFReE5QTzZSS1VJWUR3TEZuMHVHeU91b3hsVnBWUFlfWG5vQzM0ZXU4XzlKOTJjWkMxTE1JVTFvM1p1bW1nNS1zUWFQcG10bjhnR0M4MFpwV2cwVklPUUo0VFBxQUt4emFCSHVmdWFKajcwbDNWU3VLZzllVGhLdk9MY1RBZw?oc=5",
+          "title": "NMA26 | OPEN-LMS",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5VNkZyM3RER2Y0ZDdXRmJZMG9DVk12UjlfRi1wN0VsT01UUVo0OXhoZE5GNXI2NGNiSVUwSlo4bmVBdE5yLXZqc21oR1NWZTd6T09FSzdmbmR1VUVnWHZhMDlqSQ?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
-          "seendate": "20260713T070000Z",
+          "seendate": "20260830T012736Z",
           "source": "GoogleNews"
         },
         {
@@ -2466,6 +2475,15 @@
           "source": "GoogleNews"
         },
         {
+          "title": "70th IAEA General Conference",
+          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5GMk81SlhMQ2VKRTV6WU9NeWRGNVQ3NmlUTTdabUZHdkx5WV9wLUE0R2lrZWxlcGhJMkwwOURjQVZoMUpDLVZVbS1fR3NQcEc0b0drS01fYnhzMmp6dXFfZEo3TWs3MERDcWt4Sm9ySUhJclMxUEZDZWMxR2Y?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260918T070000Z",
+          "source": "GoogleNews"
+        },
+        {
           "title": "Resolutions and Other Decisions of the General Conference | IAEA",
           "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1oazMzcGoyWlZRYkY1cW1HRmJnRi0xZXBxcUk0RmpvbnBKajhZeTlBSEd0SUJLaVRwSmhGNVZVNDVJYlhmUzk0R0J2WEpKVnJy?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -2475,12 +2493,12 @@
           "source": "GoogleNews"
         },
         {
-          "title": "70th IAEA General Conference",
-          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5GMk81SlhMQ2VKRTV6WU9NeWRGNVQ3NmlUTTdabUZHdkx5WV9wLUE0R2lrZWxlcGhJMkwwOURjQVZoMUpDLVZVbS1fR3NQcEc0b0drS01fYnhzMmp6dXFfZEo3TWs3MERDcWt4Sm9ySUhJclMxUEZDZWMxR2Y?oc=5",
+          "title": "IAEA Concludes International Physical Protection Advisory Follow-Up Mission in China",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQeGN1aGpSZVE2b1lpZ01sczhLdzFiTGJ1d3ZGU1JTUkV4VkJ6dDhPX2tHaHVIajR6aUFERG5WY2tBdnZqZ0tNd0JVbFFReE5QTzZSS1VJWUR3TEZuMHVHeU91b3hsVnBWUFlfWG5vQzM0ZXU4XzlKOTJjWkMxTE1JVTFvM1p1bW1nNS1zUWFQcG10bjhnR0M4MFpwV2cwVklPUUo0VFBxQUt4emFCSHVmdWFKajcwbDNWU3VLZzllVGhLdk9MY1RBZw?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
-          "seendate": "20260918T070000Z",
+          "seendate": "20260713T070000Z",
           "source": "GoogleNews"
         },
         {
@@ -2561,7 +2579,7 @@
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
-          "seendate": "20261005T110607Z",
+          "seendate": "20261005T070000Z",
           "source": "GoogleNews"
         },
         {
@@ -2994,33 +3012,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20260917T070000Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "Review of State of the Art Thermal Hydraulics of Fast Reactors",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNbjhTdnNpVnN1WThSSEoyLVFhT1A5UGowbU03SEpYLWRhaWVNaTRISU91M1J3M1dyanVWNXk4UG9RX2pFLU83YllSTmNhVGVqek5WcEFGNkxSYmFZTjBJcXZQYVJjTFZIeGVJMFZoYkFxSjRSZ01ybFRNLVNCckxucjc3VVFBc3d4amxNV0FlSnVNRGROQ3VOYTRoSGZMbFd6dE1N?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260826T115219Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "Nuclear Energy in the Age of Artificial Intelligence: Securing Electricity for the Digital Economy",
-          "url": "https://news.google.com/rss/articles/CBMiqwJBVV95cUxOLUdOdFRNRjJLbzFmNjJsenNwQmUtNWdreVRHSDlCUkNQU19UbERpaElZUHIwVTlKNkk5NUVhcFZfVG1aRUlDelZrQjRhQ1didi1kZ3VPQmg3LWxMa3hfNnRnRXgtZy1XdGs1UkRzZkl0QVg4TXlvZmlGQmhKUjUtZXVqc1J6MXRySjd5S2JoQ2EzZzBaQTl2cUVnWk1mVjRlTTl6dWd4SVNWZVdSellHZVRIc1VPR2E5LXRUQVpKLVBIcjduNlJoaWJXckM1WVlQNG5jeTc0QUVWUUJvY1hxN242RE5EdGhPMkcwVV9TS0VINlV2U2lxeldtdWxhamZmUFRCYlhWQzUxVUR2TEFieHR1VURTS1NPTGtDUFNaT25aRHc5bXhjbjFtUQ?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20261012T193427Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "Nuclear Energy in the Age of Artificial Intelligence",
-          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQdXExbTd3QUFUeXFic0JacGI5ZzRnTHR1NkpBRWo0VFR1YVR0cTRBTHlJd3JfZGxRTFpSVWJSQXlkal9rc1AzQU85VWVhdG9mYkxqc2FyWGRzUmFiRXY4T0ZhYXZOMDlONXBCVGZYZldUblRSSTd1Smp4VVVxQ2tTRVMwempiNnF6QW5DMnBDUTFVSUJTSEdJ?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20261021T110735Z",
           "source": "GoogleNews"
         }
       ],
@@ -10779,6 +10770,22 @@
           "lon": 87.9952,
           "lat": 41.8774,
           "depth_km": 10,
+          "source": "USGS"
+        },
+        {
+          "id": "nn00926077",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1792630705843,
+          "magnitude": 1.53,
+          "magnitude_type": "ml",
+          "event_type": "earthquake",
+          "place": "14 km S of Alamo, Nevada",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00926077",
+          "lon": -115.1688,
+          "lat": 37.2312,
+          "depth_km": 7.7914,
           "source": "USGS"
         },
         {
@@ -39211,150 +39218,6 @@
           "lon": -116.4964,
           "lat": 38.4714,
           "depth_km": 6.9297,
-          "source": "USGS"
-        },
-        {
-          "id": "nn00906197",
-          "site": "Nevada National Security Site",
-          "site_lat": 37.12,
-          "site_lon": -116.05,
-          "time": 1761085021921,
-          "magnitude": 1.66,
-          "magnitude_type": "ml",
-          "event_type": "earthquake",
-          "place": "33 km E of Independence, California",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00906197",
-          "lon": -117.8336,
-          "lat": 36.8517,
-          "depth_km": 6.9273,
-          "source": "USGS"
-        },
-        {
-          "id": "nn00906191",
-          "site": "Nevada National Security Site",
-          "site_lat": 37.12,
-          "site_lon": -116.05,
-          "time": 1761081579089,
-          "magnitude": 1.8,
-          "magnitude_type": "ml",
-          "event_type": "earthquake",
-          "place": "8 km SSW of Whitney, Nevada",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00906191",
-          "lon": -115.0859,
-          "lat": 36.0287,
-          "depth_km": 0,
-          "source": "USGS"
-        },
-        {
-          "id": "nn00906185",
-          "site": "Nevada National Security Site",
-          "site_lat": 37.12,
-          "site_lon": -116.05,
-          "time": 1761061634800,
-          "magnitude": 1.72,
-          "magnitude_type": "ml",
-          "event_type": "earthquake",
-          "place": "31 km SSW of Alamo, Nevada",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00906185",
-          "lon": -115.316,
-          "lat": 37.1058,
-          "depth_km": 3.9571,
-          "source": "USGS"
-        },
-        {
-          "id": "nn00906178",
-          "site": "Nevada National Security Site",
-          "site_lat": 37.12,
-          "site_lon": -116.05,
-          "time": 1761026047305,
-          "magnitude": 1.56,
-          "magnitude_type": "ml",
-          "event_type": "earthquake",
-          "place": "21 km W of Mina, Nevada",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00906178",
-          "lon": -118.3487,
-          "lat": 38.4148,
-          "depth_km": 0.0011,
-          "source": "USGS"
-        },
-        {
-          "id": "nn00906176",
-          "site": "Nevada National Security Site",
-          "site_lat": 37.12,
-          "site_lon": -116.05,
-          "time": 1761023665892,
-          "magnitude": 1.54,
-          "magnitude_type": "ml",
-          "event_type": "earthquake",
-          "place": "21 km W of Mina, Nevada",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00906176",
-          "lon": -118.3581,
-          "lat": 38.4106,
-          "depth_km": 0.8414,
-          "source": "USGS"
-        },
-        {
-          "id": "nn00906175",
-          "site": "Nevada National Security Site",
-          "site_lat": 37.12,
-          "site_lon": -116.05,
-          "time": 1761023140478,
-          "magnitude": 1.71,
-          "magnitude_type": "ml",
-          "event_type": "earthquake",
-          "place": "77 km NE of Tonopah, Nevada",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00906175",
-          "lon": -116.5016,
-          "lat": 38.4592,
-          "depth_km": 0,
-          "source": "USGS"
-        },
-        {
-          "id": "nn00906173",
-          "site": "Nevada National Security Site",
-          "site_lat": 37.12,
-          "site_lon": -116.05,
-          "time": 1761022172017,
-          "magnitude": 1.73,
-          "magnitude_type": "ml",
-          "event_type": "earthquake",
-          "place": "21 km W of Mina, Nevada",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00906173",
-          "lon": -118.3571,
-          "lat": 38.4124,
-          "depth_km": 6.283,
-          "source": "USGS"
-        },
-        {
-          "id": "nn00906172",
-          "site": "Nevada National Security Site",
-          "site_lat": 37.12,
-          "site_lon": -116.05,
-          "time": 1761010697830,
-          "magnitude": 1.57,
-          "magnitude_type": "ml",
-          "event_type": "earthquake",
-          "place": "50 km NW of Rachel, Nevada",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00906172",
-          "lon": -116.0906,
-          "lat": 38.0053,
-          "depth_km": 6.0278,
-          "source": "USGS"
-        },
-        {
-          "id": "nn00906171",
-          "site": "Nevada National Security Site",
-          "site_lat": 37.12,
-          "site_lon": -116.05,
-          "time": 1761008310588,
-          "magnitude": 1.5,
-          "magnitude_type": "ml",
-          "event_type": "earthquake",
-          "place": "21 km E of Alamo, Nevada",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00906171",
-          "lon": -114.9275,
-          "lat": 37.3431,
-          "depth_km": 4.1204,
           "source": "USGS"
         },
         {
