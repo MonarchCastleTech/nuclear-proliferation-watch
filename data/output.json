@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "nuclear-proliferation-watch",
-    "generated": "2026-10-23T12:09:01.112629+00:00",
+    "generated": "2026-10-23T17:28:26.121479+00:00",
     "mode": "live",
     "sources": [
       "IAEA official pages",
@@ -14,7 +14,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-10-23T12:09:01.104272+00:00",
+    "issued_at": "2026-10-23T17:28:26.113244+00:00",
     "horizon": "0-30 days",
     "classification": "nuclear-escalation-pressure-not-test-or-weapon-probability",
     "score": 0.9,
@@ -28,7 +28,7 @@
         "available": true,
         "score": 2.6,
         "current_14d_weight": 1.0,
-        "current_14d_titles": 6,
+        "current_14d_titles": 7,
         "baseline_periods": 8,
         "baseline_median": 1.8,
         "anomaly_z": -1.08,
@@ -75,7 +75,7 @@
         "available": true,
         "score": 0.0,
         "current_30d_diagnostic_weight": 0.0,
-        "events_considered": 1804,
+        "events_considered": 1805,
         "sites_monitored": 8,
         "anomaly_z": 0.0,
         "evidence": [],
@@ -91,17 +91,6 @@
     },
     "alerts": [],
     "history": [
-      {
-        "timestamp": "2026-09-03T16:41:31.351860+00:00",
-        "score": 7.9,
-        "level": "BASELINE",
-        "components": {
-          "iaea_safeguards_strain": 15.4,
-          "npwmd_designation_delta": 0.0,
-          "facility_security_incidents": 12.6,
-          "test_site_seismicity": 0.0
-        }
-      },
       {
         "timestamp": "2026-09-03T21:22:01.817960+00:00",
         "score": 7.9,
@@ -2070,6 +2059,17 @@
           "facility_security_incidents": 0.0,
           "test_site_seismicity": 0.0
         }
+      },
+      {
+        "timestamp": "2026-10-23T17:28:26.113244+00:00",
+        "score": 0.9,
+        "level": "BASELINE",
+        "components": {
+          "iaea_safeguards_strain": 2.6,
+          "npwmd_designation_delta": 0.0,
+          "facility_security_incidents": 0.0,
+          "test_site_seismicity": 0.0
+        }
       }
     ],
     "data_health": {
@@ -2168,7 +2168,7 @@
         },
         {
           "title": "Italy and Romania Establish New Member State Support Programmes to Strengthen IAEA Safeguards",
-          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPbEdZd0xKZkY4UU1KMXdZOUlTTjZjTF9ZeXE2akdBM1RoVXJ5NG5LNEdIeXNOOF9HdmRRdFdTM1F3Z1htdWlaRHNnVDYzbmFMOGdKMU11OVkwTngxSVZMemgwcDhxdTg3VjV0MDJKYUNvNXZCRG44cWEwc0VaYmRXMldmZTc2X2RfV1pkdV8ySk9taW5vSF9UalpIcEhreXRHM1A4MDhxTGExZXVxT00xYllaN0JhQXpWOFpPU1drdnJURUFTaXpsQVJn?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9LZXQ0T04xZDFXVUxqQ2thOW10Zkx6aHNHazlrM0prSXE2QThmXzB0MHpuTk5xdm9GODE1YVBqUjVlNFBJZWV4Q2hmTQ?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
@@ -2302,15 +2302,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "Upcoming events",
-          "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE9vejA0QU13X0hVSGRaMWN5YV9WYXNwenNMaFJTN0hDa2xXX2NvNmVERlZIdXd0YVZsVWo0UWZOblFpR2M?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20261008T170733Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "Agenda",
           "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1HMjRmZ282VjdaazFlRmtZUWdBZFpMOUZ3WGt6dU1sc2h3dUhBSzlMUG1yYlJxS0R6OEFHV0YyWFdUZFlYWllJOUN0SUstUWQxQjNuSEFFVkx5UThGZ0ZkeHllU2lfZw?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -2371,6 +2362,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20260907T070000Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "70th IAEA General Conference",
+          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5GMk81SlhMQ2VKRTV6WU9NeWRGNVQ3NmlUTTdabUZHdkx5WV9wLUE0R2lrZWxlcGhJMkwwOURjQVZoMUpDLVZVbS1fR3NQcEc0b0drS01fYnhzMmp6dXFfZEo3TWs3MERDcWt4Sm9ySUhJclMxUEZDZWMxR2Y?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260918T070000Z",
           "source": "GoogleNews"
         },
         {
@@ -2484,15 +2484,6 @@
         {
           "title": "General Statement Delegation of the Republic of Indonesia at the 70th General Conference of the International Atomic Energy A",
           "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE44VnMxamREYVdSbmdPaDFYTmtrdk9qcVRFeWhhSWdocTR4WEFjMDRRdjR2THhfM2tKUXRrQUFvLWFybnJOYzlfR1BlZS1wa051dERMYUdQdWdObWFublctSndQekpsZ1cwalV2NlgxQTdvTkpaYXl4Zw?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260918T070000Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "70th IAEA General Conference",
-          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5GMk81SlhMQ2VKRTV6WU9NeWRGNVQ3NmlUTTdabUZHdkx5WV9wLUE0R2lrZWxlcGhJMkwwOURjQVZoMUpDLVZVbS1fR3NQcEc0b0drS01fYnhzMmp6dXFfZEo3TWs3MERDcWt4Sm9ySUhJclMxUEZDZWMxR2Y?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
@@ -3019,6 +3010,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20261012T193427Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Generic User Rationale and Considerations for Small Modular Reactors",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOeDV6X0tSNzZGbmRKRHVkSzN2SmV2X1hpM0I2SUpta25BeWNEV2JyZkRQc2RRaXFDVTMxVjZyLTRPcWNiVnRoZmRXV2d3akxKTFBNQ1FqY2drdnVaZ1lzQUR3c1k2UG0xTXF0b0p5VzA2YXVxRjdWMzFpQ1FmZzJwOGJoX3huVmk0bjZ0MkVHN3R3WXAzeHRHRmRQVC1TdmxtX2J0dXh2emdBbVM5?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20261023T091835Z",
           "source": "GoogleNews"
         }
       ],
@@ -10777,6 +10777,22 @@
           "lon": 87.9952,
           "lat": 41.8774,
           "depth_km": 10,
+          "source": "USGS"
+        },
+        {
+          "id": "nn00926141",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1792775722486,
+          "magnitude": 2.28,
+          "magnitude_type": "ml",
+          "event_type": "earthquake",
+          "place": "11 km WSW of Henderson, Nevada",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00926141",
+          "lon": -115.0965,
+          "lat": 35.9948,
+          "depth_km": 10.8386,
           "source": "USGS"
         },
         {
