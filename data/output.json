@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "nuclear-proliferation-watch",
-    "generated": "2026-10-23T17:28:26.121479+00:00",
+    "generated": "2026-10-23T21:42:01.875504+00:00",
     "mode": "live",
     "sources": [
       "IAEA official pages",
@@ -14,7 +14,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-10-23T17:28:26.113244+00:00",
+    "issued_at": "2026-10-23T21:42:01.870554+00:00",
     "horizon": "0-30 days",
     "classification": "nuclear-escalation-pressure-not-test-or-weapon-probability",
     "score": 0.9,
@@ -28,7 +28,7 @@
         "available": true,
         "score": 2.6,
         "current_14d_weight": 1.0,
-        "current_14d_titles": 7,
+        "current_14d_titles": 8,
         "baseline_periods": 8,
         "baseline_median": 1.8,
         "anomaly_z": -1.08,
@@ -75,7 +75,7 @@
         "available": true,
         "score": 0.0,
         "current_30d_diagnostic_weight": 0.0,
-        "events_considered": 1805,
+        "events_considered": 1806,
         "sites_monitored": 8,
         "anomaly_z": 0.0,
         "evidence": [],
@@ -91,17 +91,6 @@
     },
     "alerts": [],
     "history": [
-      {
-        "timestamp": "2026-09-03T21:22:01.817960+00:00",
-        "score": 7.9,
-        "level": "BASELINE",
-        "components": {
-          "iaea_safeguards_strain": 15.4,
-          "npwmd_designation_delta": 0.0,
-          "facility_security_incidents": 12.6,
-          "test_site_seismicity": 0.0
-        }
-      },
       {
         "timestamp": "2026-09-04T05:07:55.839906+00:00",
         "score": 7.9,
@@ -2070,6 +2059,17 @@
           "facility_security_incidents": 0.0,
           "test_site_seismicity": 0.0
         }
+      },
+      {
+        "timestamp": "2026-10-23T21:42:01.870554+00:00",
+        "score": 0.9,
+        "level": "BASELINE",
+        "components": {
+          "iaea_safeguards_strain": 2.6,
+          "npwmd_designation_delta": 0.0,
+          "facility_security_incidents": 0.0,
+          "test_site_seismicity": 0.0
+        }
       }
     ],
     "data_health": {
@@ -2140,6 +2140,15 @@
     "iaea_titles": {
       "signals": [
         {
+          "title": "What is Nuclear Fuel?",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9YOE5zaEtBMlROYmdXQ1Z6UWxmMDlOS3d5N2RWWnA2SU1pZ2ZNbElSZnF2VDVDWG14dnU2VjBEc0FiM0pTdHZkSDF5ak0tcDk1V1hlRlZCaGJ3elJKc1ROMG5ZODRkcFZa?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20261023T060000Z",
+          "source": "GoogleNews"
+        },
+        {
           "title": "IAEA Mission Says UAE Response to Barakah Nuclear Power Plant Event in May 2026 was Effective",
           "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPUVNETzN1N2tCQ2VWN1B1OTJtMjBMcW9zM3JmblpQSzFVcGNaVFBtZV90d0p6eHJ2dE5SRC00R0s2Sy1FTzlYQ1gwMVRFbFpQVXFHRE5zRVNvWGZzWmVSaS1xVmkzajNlTXFRMVEwbGppemFRZnQ3U2VFc3B3Qm04UkxNMEVsd095SjJHXzFPeF9STGhXMEctWndLSkwyY25wWUFLUHh6dEIwMkQ4dEtFcUZSUGdVVGJ4T2daeXBRQUNSNm9XVFBVQWtDOThiQnRpVFhvdQ?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -2168,11 +2177,11 @@
         },
         {
           "title": "Italy and Romania Establish New Member State Support Programmes to Strengthen IAEA Safeguards",
-          "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9LZXQ0T04xZDFXVUxqQ2thOW10Zkx6aHNHazlrM0prSXE2QThmXzB0MHpuTk5xdm9GODE1YVBqUjVlNFBJZWV4Q2hmTQ?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPbEdZd0xKZkY4UU1KMXdZOUlTTjZjTF9ZeXE2akdBM1RoVXJ5NG5LNEdIeXNOOF9HdmRRdFdTM1F3Z1htdWlaRHNnVDYzbmFMOGdKMU11OVkwTngxSVZMemgwcDhxdTg3VjV0MDJKYUNvNXZCRG44cWEwc0VaYmRXMldmZTc2X2RfV1pkdV8ySk9taW5vSF9UalpIcEhreXRHM1A4MDhxTGExZXVxT00xYllaN0JhQXpWOFpPU1drdnJURUFTaXpsQVJn?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
-          "seendate": "20261023T111536Z",
+          "seendate": "20261023T060000Z",
           "source": "GoogleNews"
         },
         {
@@ -2815,6 +2824,15 @@
           "source": "GoogleNews"
         },
         {
+          "title": "ATLAS/EXPOSOMICS-AI-enabled Trans-continental Linkage of Atherosclerosis and expo-Some [INCAPS 5]",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1ibUMwNjJTVnhDcld6N05sRTRacFFzcExBY0hseHJzNlA1eHBkMW9GdFJQSzJLYUNXVVY2ZzBEeUs5ZVJaNDBPOUtOMlpPRHZWOFE?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20261015T200714Z",
+          "source": "GoogleNews"
+        },
+        {
           "title": "Approaches to Cost Estimation and Analysis of Nuclear Power Projects",
           "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQMFlfQXUyZDBlYnladTh4MjYtUGdHc0llYnVSZG9IMVdmeHIzcHZTdDBKeU42UkRHeGcxT3RhZHdSRWRGbmZxZTZXdkRfZFQ5NzY0ZTlNVXBrQmNKc3JGLXFXcTV0R3NEQW5jcnozQ0cwVExaTVROakNUWEYtMlhXTUotRWR5MlZlNnZlM1pxX0lRMXdOSjduMDdnWm0xN2dZZENKS3Z6Vm9ISkVF?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -2848,6 +2866,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20260914T070000Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Update 372 – IAEA Director General Statement on Situation in Ukraine",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQTDYtYzB3Y3FlWVQ1eVVoOXdtM1NHQ3p4YmpGMjdpME8yeWU4cUlFdXhTa3FOUmV0UjJNRE5KTXlPU1VyWTMtamUtR3pBSW8tRzdGaVNpbmJNRG9ycUliVnhaT2Z0M0hJMmxsV0QzdnVuenBCWkJsenNFbi1fdnV2c2YwMjVnT3AtRGJCQ01JOGpqeVloLWpFc0w0VWJZMHNsa0t1N0VGWXZ6OGZCc0lUemZn?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20261023T135545Z",
           "source": "GoogleNews"
         },
         {
@@ -2992,33 +3019,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20260917T070000Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "Review of State of the Art Thermal Hydraulics of Fast Reactors",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNbjhTdnNpVnN1WThSSEoyLVFhT1A5UGowbU03SEpYLWRhaWVNaTRISU91M1J3M1dyanVWNXk4UG9RX2pFLU83YllSTmNhVGVqek5WcEFGNkxSYmFZTjBJcXZQYVJjTFZIeGVJMFZoYkFxSjRSZ01ybFRNLVNCckxucjc3VVFBc3d4amxNV0FlSnVNRGROQ3VOYTRoSGZMbFd6dE1N?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260826T115219Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "Nuclear Energy in the Age of Artificial Intelligence: Securing Electricity for the Digital Economy",
-          "url": "https://news.google.com/rss/articles/CBMiqwJBVV95cUxOLUdOdFRNRjJLbzFmNjJsenNwQmUtNWdreVRHSDlCUkNQU19UbERpaElZUHIwVTlKNkk5NUVhcFZfVG1aRUlDelZrQjRhQ1didi1kZ3VPQmg3LWxMa3hfNnRnRXgtZy1XdGs1UkRzZkl0QVg4TXlvZmlGQmhKUjUtZXVqc1J6MXRySjd5S2JoQ2EzZzBaQTl2cUVnWk1mVjRlTTl6dWd4SVNWZVdSellHZVRIc1VPR2E5LXRUQVpKLVBIcjduNlJoaWJXckM1WVlQNG5jeTc0QUVWUUJvY1hxN242RE5EdGhPMkcwVV9TS0VINlV2U2lxeldtdWxhamZmUFRCYlhWQzUxVUR2TEFieHR1VURTS1NPTGtDUFNaT25aRHc5bXhjbjFtUQ?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20261012T193427Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "Generic User Rationale and Considerations for Small Modular Reactors",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOeDV6X0tSNzZGbmRKRHVkSzN2SmV2X1hpM0I2SUpta25BeWNEV2JyZkRQc2RRaXFDVTMxVjZyLTRPcWNiVnRoZmRXV2d3akxKTFBNQ1FqY2drdnVaZ1lzQUR3c1k2UG0xTXF0b0p5VzA2YXVxRjdWMzFpQ1FmZzJwOGJoX3huVmk0bjZ0MkVHN3R3WXAzeHRHRmRQVC1TdmxtX2J0dXh2emdBbVM5?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20261023T091835Z",
           "source": "GoogleNews"
         }
       ],
@@ -10780,19 +10780,35 @@
           "source": "USGS"
         },
         {
-          "id": "nn00926141",
+          "id": "nn00926151",
           "site": "Nevada National Security Site",
           "site_lat": 37.12,
           "site_lon": -116.05,
-          "time": 1792775722486,
-          "magnitude": 2.28,
+          "time": 1792790800357,
+          "magnitude": 1.71,
           "magnitude_type": "ml",
           "event_type": "earthquake",
-          "place": "11 km WSW of Henderson, Nevada",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00926141",
-          "lon": -115.0965,
-          "lat": 35.9948,
-          "depth_km": 10.8386,
+          "place": "59 km S of Kingston, Nevada",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00926151",
+          "lon": -117.107,
+          "lat": 38.676,
+          "depth_km": 13.8718,
+          "source": "USGS"
+        },
+        {
+          "id": "nn00926146",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1792782845809,
+          "magnitude": 1.52,
+          "magnitude_type": "ml",
+          "event_type": "earthquake",
+          "place": "31 km SE of Mina, Nevada",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00926146",
+          "lon": -117.8912,
+          "lat": 38.1664,
+          "depth_km": 1.4694,
           "source": "USGS"
         },
         {
