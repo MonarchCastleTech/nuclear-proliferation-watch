@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "nuclear-proliferation-watch",
-    "generated": "2026-10-24T11:39:30.478432+00:00",
+    "generated": "2026-10-24T16:15:44.702544+00:00",
     "mode": "live",
     "sources": [
       "IAEA official pages",
@@ -14,7 +14,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-10-24T11:39:30.465021+00:00",
+    "issued_at": "2026-10-24T16:15:44.693962+00:00",
     "horizon": "0-30 days",
     "classification": "nuclear-escalation-pressure-not-test-or-weapon-probability",
     "score": 0.9,
@@ -30,8 +30,8 @@
         "current_14d_weight": 1.0,
         "current_14d_titles": 10,
         "baseline_periods": 8,
-        "baseline_median": 1.8,
-        "anomaly_z": -1.08,
+        "baseline_median": 1.5,
+        "anomaly_z": -0.42,
         "evidence": [
           {
             "title": "Italy and Romania Establish New Member State Support Programmes to Strengthen IAEA Safeguards",
@@ -75,7 +75,7 @@
         "available": true,
         "score": 0.0,
         "current_30d_diagnostic_weight": 0.0,
-        "events_considered": 1808,
+        "events_considered": 1809,
         "sites_monitored": 8,
         "anomaly_z": 0.0,
         "evidence": [],
@@ -91,17 +91,6 @@
     },
     "alerts": [],
     "history": [
-      {
-        "timestamp": "2026-09-04T16:36:28.854780+00:00",
-        "score": 9.8,
-        "level": "BASELINE",
-        "components": {
-          "iaea_safeguards_strain": 20.8,
-          "npwmd_designation_delta": 0.0,
-          "facility_security_incidents": 12.6,
-          "test_site_seismicity": 0.0
-        }
-      },
       {
         "timestamp": "2026-09-04T21:03:20.447851+00:00",
         "score": 9.8,
@@ -2070,6 +2059,17 @@
           "facility_security_incidents": 0.0,
           "test_site_seismicity": 0.0
         }
+      },
+      {
+        "timestamp": "2026-10-24T16:15:44.693962+00:00",
+        "score": 0.9,
+        "level": "BASELINE",
+        "components": {
+          "iaea_safeguards_strain": 2.6,
+          "npwmd_designation_delta": 0.0,
+          "facility_security_incidents": 0.0,
+          "test_site_seismicity": 0.0
+        }
       }
     ],
     "data_health": {
@@ -2139,6 +2139,15 @@
   "live_data": {
     "iaea_titles": {
       "signals": [
+        {
+          "title": "Update 372 – IAEA Director General Statement on Situation in Ukraine",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQTDYtYzB3Y3FlWVQ1eVVoOXdtM1NHQ3p4YmpGMjdpME8yeWU4cUlFdXhTa3FOUmV0UjJNRE5KTXlPU1VyWTMtamUtR3pBSW8tRzdGaVNpbmJNRG9ycUliVnhaT2Z0M0hJMmxsV0QzdnVuenBCWkJsenNFbi1fdnV2c2YwMjVnT3AtRGJCQ01JOGpqeVloLWpFc0w0VWJZMHNsa0t1N0VGWXZ6OGZCc0lUemZn?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20261023T135545Z",
+          "source": "GoogleNews"
+        },
         {
           "title": "What is Nuclear Fuel?",
           "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9YOE5zaEtBMlROYmdXQ1Z6UWxmMDlOS3d5N2RWWnA2SU1pZ2ZNbElSZnF2VDVDWG14dnU2VjBEc0FiM0pTdHZkSDF5ak0tcDk1V1hlRlZCaGJ3elJKc1ROMG5ZODRkcFZa?oc=5",
@@ -2545,21 +2554,21 @@
           "source": "GoogleNews"
         },
         {
-          "title": "IAEA Completes International Physical Protection Advisory Service Mission in Pakistan",
-          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPUmZ0SmxrSG5ZdEVheGJ2TkEtSDVVTHUwZUhMWjVEbVVzV3VCQmZqWVhLWFpkTTBveE1zYWxRcXRFUzRkZnJKNGxwLVR1NmpoZjNYUXZyYklKY215ZmR4VVlQNG9WQTAxbUtiUktjVGJub1JKeTljS3l0MFRMbkQ0b0E2STdSLXVjRXlwb0xrcFlUSlBBQnkwNFJnck1ka2xGMlhZQUxRLW5maFFtNHM2cUl2YkJhUVlqTVhNZzUwTExEZnRXcFJ3SHFn?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20261009T070000Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "International High-level Forum on the ATLAS Launch - News | IAEA",
           "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBCdnFEX2x6ZDlRQzhvckpGM19iUEpsdGF1dVo5MVlwRXhpb1RiMTI4ZTBiZVI0U29tSHZodGN4cTZxbmhnMmR0Y1ZJS2hsamw5OHZJ?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
           "seendate": "20260508T194156Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "IAEA Completes International Physical Protection Advisory Service Mission in Pakistan",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPUmZ0SmxrSG5ZdEVheGJ2TkEtSDVVTHUwZUhMWjVEbVVzV3VCQmZqWVhLWFpkTTBveE1zYWxRcXRFUzRkZnJKNGxwLVR1NmpoZjNYUXZyYklKY215ZmR4VVlQNG9WQTAxbUtiUktjVGJub1JKeTljS3l0MFRMbkQ0b0E2STdSLXVjRXlwb0xrcFlUSlBBQnkwNFJnck1ka2xGMlhZQUxRLW5maFFtNHM2cUl2YkJhUVlqTVhNZzUwTExEZnRXcFJ3SHFn?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20261009T070000Z",
           "source": "GoogleNews"
         },
         {
@@ -2983,15 +2992,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20260911T151206Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "Update 372 – IAEA Director General Statement on Situation in Ukraine",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQTDYtYzB3Y3FlWVQ1eVVoOXdtM1NHQ3p4YmpGMjdpME8yeWU4cUlFdXhTa3FOUmV0UjJNRE5KTXlPU1VyWTMtamUtR3pBSW8tRzdGaVNpbmJNRG9ycUliVnhaT2Z0M0hJMmxsV0QzdnVuenBCWkJsenNFbi1fdnV2c2YwMjVnT3AtRGJCQ01JOGpqeVloLWpFc0w0VWJZMHNsa0t1N0VGWXZ6OGZCc0lUemZn?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20261023T135545Z",
           "source": "GoogleNews"
         },
         {
@@ -10777,6 +10777,22 @@
           "lon": 87.9952,
           "lat": 41.8774,
           "depth_km": 10,
+          "source": "USGS"
+        },
+        {
+          "id": "nn00926195",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1792857071285,
+          "magnitude": 1.91,
+          "magnitude_type": "ml",
+          "event_type": "earthquake",
+          "place": "29 km SSE of Mina, Nevada",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00926195",
+          "lon": -118.0106,
+          "lat": 38.133,
+          "depth_km": 6.2644,
           "source": "USGS"
         },
         {
