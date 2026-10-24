@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "nuclear-proliferation-watch",
-    "generated": "2026-10-23T21:42:01.875504+00:00",
+    "generated": "2026-10-24T05:03:32.452275+00:00",
     "mode": "live",
     "sources": [
       "IAEA official pages",
@@ -14,7 +14,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-10-23T21:42:01.870554+00:00",
+    "issued_at": "2026-10-24T05:03:32.447351+00:00",
     "horizon": "0-30 days",
     "classification": "nuclear-escalation-pressure-not-test-or-weapon-probability",
     "score": 0.9,
@@ -75,7 +75,7 @@
         "available": true,
         "score": 0.0,
         "current_30d_diagnostic_weight": 0.0,
-        "events_considered": 1806,
+        "events_considered": 1805,
         "sites_monitored": 8,
         "anomaly_z": 0.0,
         "evidence": [],
@@ -91,17 +91,6 @@
     },
     "alerts": [],
     "history": [
-      {
-        "timestamp": "2026-09-04T05:07:55.839906+00:00",
-        "score": 7.9,
-        "level": "BASELINE",
-        "components": {
-          "iaea_safeguards_strain": 15.4,
-          "npwmd_designation_delta": 0.0,
-          "facility_security_incidents": 12.6,
-          "test_site_seismicity": 0.0
-        }
-      },
       {
         "timestamp": "2026-09-04T11:45:08.846901+00:00",
         "score": 7.9,
@@ -2070,6 +2059,17 @@
           "facility_security_incidents": 0.0,
           "test_site_seismicity": 0.0
         }
+      },
+      {
+        "timestamp": "2026-10-24T05:03:32.447351+00:00",
+        "score": 0.9,
+        "level": "BASELINE",
+        "components": {
+          "iaea_safeguards_strain": 2.6,
+          "npwmd_designation_delta": 0.0,
+          "facility_security_incidents": 0.0,
+          "test_site_seismicity": 0.0
+        }
       }
     ],
     "data_health": {
@@ -2177,11 +2177,11 @@
         },
         {
           "title": "Italy and Romania Establish New Member State Support Programmes to Strengthen IAEA Safeguards",
-          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPbEdZd0xKZkY4UU1KMXdZOUlTTjZjTF9ZeXE2akdBM1RoVXJ5NG5LNEdIeXNOOF9HdmRRdFdTM1F3Z1htdWlaRHNnVDYzbmFMOGdKMU11OVkwTngxSVZMemgwcDhxdTg3VjV0MDJKYUNvNXZCRG44cWEwc0VaYmRXMldmZTc2X2RfV1pkdV8ySk9taW5vSF9UalpIcEhreXRHM1A4MDhxTGExZXVxT00xYllaN0JhQXpWOFpPU1drdnJURUFTaXpsQVJn?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9LZXQ0T04xZDFXVUxqQ2thOW10Zkx6aHNHazlrM0prSXE2QThmXzB0MHpuTk5xdm9GODE1YVBqUjVlNFBJZWV4Q2hmTQ?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
-          "seendate": "20261023T060000Z",
+          "seendate": "20261023T111536Z",
           "source": "GoogleNews"
         },
         {
@@ -2869,15 +2869,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "Update 372 – IAEA Director General Statement on Situation in Ukraine",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQTDYtYzB3Y3FlWVQ1eVVoOXdtM1NHQ3p4YmpGMjdpME8yeWU4cUlFdXhTa3FOUmV0UjJNRE5KTXlPU1VyWTMtamUtR3pBSW8tRzdGaVNpbmJNRG9ycUliVnhaT2Z0M0hJMmxsV0QzdnVuenBCWkJsenNFbi1fdnV2c2YwMjVnT3AtRGJCQ01JOGpqeVloLWpFc0w0VWJZMHNsa0t1N0VGWXZ6OGZCc0lUemZn?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20261023T135545Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "Software Applications",
           "url": "https://news.google.com/rss/articles/CBMitgJBVV95cUxOQWlqWEpFSmFuYVRLbTRtWHZiTnJseUhXeFI3VG9KdEtZVG9rMVJERjVOM1ZzSTdVV2R4OVV0a3pkSmpmTzhSbmtzUk9mSDJINGZJR2NDX05SY0Zjc3lPMXhjVV9Sa2h0eXBwNDhJZG1BUHY4NXY5U2twTUxSWlpMMWp4WTlHTzNwR05uRDVNS0pVdTBjX3FkS2VUMl9yZWRqeXpoT0J3ZnVSNTVSZUFuZFI1TGMycFpiV1FBQ0VienA0RDdPNm9wZ2dwQW1kd2YwczZtdnlZd2VUVlItRU5aT2dBNGFlaUhGaExuREFKa0FMcktkeXBNT0FGbVBuM2o5SnhPSk1lS0dVWFpvdjFqTjFxVDJ0MUFic0tYaXdCX0RBNGF4R1JyakFPN01KNlRHWHVtRk53?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -3010,6 +3001,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20260626T070000Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Update 372 – IAEA Director General Statement on Situation in Ukraine",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQTDYtYzB3Y3FlWVQ1eVVoOXdtM1NHQ3p4YmpGMjdpME8yeWU4cUlFdXhTa3FOUmV0UjJNRE5KTXlPU1VyWTMtamUtR3pBSW8tRzdGaVNpbmJNRG9ycUliVnhaT2Z0M0hJMmxsV0QzdnVuenBCWkJsenNFbi1fdnV2c2YwMjVnT3AtRGJCQ01JOGpqeVloLWpFc0w0VWJZMHNsa0t1N0VGWXZ6OGZCc0lUemZn?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20261023T135545Z",
           "source": "GoogleNews"
         },
         {
@@ -10780,6 +10780,22 @@
           "source": "USGS"
         },
         {
+          "id": "nn00926158",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1792796601482,
+          "magnitude": 1.56,
+          "magnitude_type": "ml",
+          "event_type": "earthquake",
+          "place": "43 km NNE of Beatty, Nevada",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00926158",
+          "lon": -116.5666,
+          "lat": 37.2643,
+          "depth_km": 0.0018,
+          "source": "USGS"
+        },
+        {
           "id": "nn00926151",
           "site": "Nevada National Security Site",
           "site_lat": 37.12,
@@ -10787,7 +10803,7 @@
           "time": 1792790800357,
           "magnitude": 1.71,
           "magnitude_type": "ml",
-          "event_type": "earthquake",
+          "event_type": "explosion",
           "place": "59 km S of Kingston, Nevada",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00926151",
           "lon": -117.107,
@@ -39241,38 +39257,6 @@
           "lon": -116.4908,
           "lat": 38.4722,
           "depth_km": 5.6025,
-          "source": "USGS"
-        },
-        {
-          "id": "ci41113399",
-          "site": "Nevada National Security Site",
-          "site_lat": 37.12,
-          "site_lon": -116.05,
-          "time": 1761253691030,
-          "magnitude": 1.51,
-          "magnitude_type": "ml",
-          "event_type": "earthquake",
-          "place": "21 km E of Little Lake, CA",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41113399",
-          "lon": -117.6756667,
-          "lat": 35.9143333,
-          "depth_km": 4.09,
-          "source": "USGS"
-        },
-        {
-          "id": "ci41113327",
-          "site": "Nevada National Security Site",
-          "site_lat": 37.12,
-          "site_lon": -116.05,
-          "time": 1761243305280,
-          "magnitude": 1.53,
-          "magnitude_type": "ml",
-          "event_type": "earthquake",
-          "place": "23 km ESE of Little Lake, CA",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41113327",
-          "lon": -117.6666667,
-          "lat": 35.8721667,
-          "depth_km": 6.9,
           "source": "USGS"
         },
         {
