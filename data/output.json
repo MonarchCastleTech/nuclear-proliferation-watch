@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "nuclear-proliferation-watch",
-    "generated": "2026-10-24T16:15:44.702544+00:00",
+    "generated": "2026-10-24T21:12:06.907911+00:00",
     "mode": "live",
     "sources": [
       "IAEA official pages",
@@ -14,7 +14,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-10-24T16:15:44.693962+00:00",
+    "issued_at": "2026-10-24T21:12:06.901355+00:00",
     "horizon": "0-30 days",
     "classification": "nuclear-escalation-pressure-not-test-or-weapon-probability",
     "score": 0.9,
@@ -28,7 +28,7 @@
         "available": true,
         "score": 2.6,
         "current_14d_weight": 1.0,
-        "current_14d_titles": 10,
+        "current_14d_titles": 11,
         "baseline_periods": 8,
         "baseline_median": 1.5,
         "anomaly_z": -0.42,
@@ -75,7 +75,7 @@
         "available": true,
         "score": 0.0,
         "current_30d_diagnostic_weight": 0.0,
-        "events_considered": 1809,
+        "events_considered": 1812,
         "sites_monitored": 8,
         "anomaly_z": 0.0,
         "evidence": [],
@@ -91,17 +91,6 @@
     },
     "alerts": [],
     "history": [
-      {
-        "timestamp": "2026-09-04T21:03:20.447851+00:00",
-        "score": 9.8,
-        "level": "BASELINE",
-        "components": {
-          "iaea_safeguards_strain": 20.8,
-          "npwmd_designation_delta": 0.0,
-          "facility_security_incidents": 12.6,
-          "test_site_seismicity": 0.0
-        }
-      },
       {
         "timestamp": "2026-09-05T04:57:27.239071+00:00",
         "score": 9.8,
@@ -2070,6 +2059,17 @@
           "facility_security_incidents": 0.0,
           "test_site_seismicity": 0.0
         }
+      },
+      {
+        "timestamp": "2026-10-24T21:12:06.901355+00:00",
+        "score": 0.9,
+        "level": "BASELINE",
+        "components": {
+          "iaea_safeguards_strain": 2.6,
+          "npwmd_designation_delta": 0.0,
+          "facility_security_incidents": 0.0,
+          "test_site_seismicity": 0.0
+        }
       }
     ],
     "data_health": {
@@ -2374,6 +2374,15 @@
           "source": "GoogleNews"
         },
         {
+          "title": "Mr. President, Mr. Director General, Excellencies, It is an honor to address you on behalf of the Government of Montenegro. The",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE04dlB6TUJfbUctTGxxS1JhMDZJaXdzNkxSTVE1b2dGMHpfalZzZ09vVkd2Mnd0QnNGNmtnV1o0Z1o4UzlJMzdfNG1Rd3ZRV0RsTjBXM3lrT2Y0MXpPZGFtZWJ3VTViSlNPTXphdzAwZk5nRzR4YVZpN0lR?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260915T163102Z",
+          "source": "GoogleNews"
+        },
+        {
           "title": "IAEA Director General's Introductory Statement to the Board of Governors",
           "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPbW9JcGhHaGhiMTQ0X2lDWXBtclkxaU9fSTRZSmxwQWN5NnMycTdZQlM3NHcxN0JGT1RvUnVKRkdSWFhzQk5oTEtPbWttSDlvRFgyZWtiV3VHRGZQWmR6TmhjT0dxMHR0QXktUXVZSlJodzZMb3NhTnJRd0xBTm5kOHQ3S1BDTkNWdFpvZGpkX2Jpd3hUZ3A2SFdXZFMwRXpmR1ZYdTcyYmloRGFzWWxlZVhjekczdmJ6RUdGMjFEZDhSVjFpUnlKYnNn?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -2446,6 +2455,15 @@
           "source": "GoogleNews"
         },
         {
+          "title": "Upcoming events",
+          "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE84SDI3U2diRWNVemQ3bFFMSnRDZW5tRE1RcG1tRExOUjlJUlJmLXQtMzl4RkNjeDc5dzZuTzdpVVdpWnRE?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260128T033235Z",
+          "source": "GoogleNews"
+        },
+        {
           "title": "INFCIRC/1416 - Communication from the Permanent Mission of the Islamic Republic of Iran to the Agency",
           "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1rVXhmcTNoS0w1VnRGdHVIalh4M0RtODFUVFBUNHRKYzRYYTVPcXNfM0Zqb2t5UWRIbWViblNLVDBUN082SC1NQTEtLU9nVE0yTV9WVS1EaUpJdFVXZXI1ZWJaS3hSOEJKUUFfaUNvT21Xdw?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -2461,15 +2479,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20260826T070000Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "Publications advanced search",
-          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5qb2plVHJQM05LaVJEZ25OX2E4WXNLdmRzbnJraUhWNG1RaElWS0h2VXNuWFZWazBuT1hRNlN2clgtN1FLcWtDMkRQRVZ6Z2prV0JUaVpCTG5EVHBYZWVyRktn?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20261009T094547Z",
           "source": "GoogleNews"
         },
         {
@@ -2506,6 +2515,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20260806T154642Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Publications advanced search",
+          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE55cnNMTnc4VU5FVXNxaGFzdksxejUtV0RjVGhDYU1FMjdLVERZV0VOWEpzZ3VQTTN4UmlkZVd5akc5dEJpM193azhORE5VcXdJdmhqZURVMHpYdXhZTW9WcDRZMF83WXlISWFv?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20261016T075253Z",
           "source": "GoogleNews"
         },
         {
@@ -2644,15 +2662,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "STATEMENT",
-          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE11ai1PTTE1VXo0RGpINVM1blFiSWZxVVFOV3pQSzNwc2NvanZUdnE2VnpkaEVjVWFPZjJMeGswOGRlakgxRlIyN3hTcXp1SUxUU1d4UDByWnZ6WXRnU3lvbFZyN0xDWDhqN1l3ZHJFME01c19l?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260915T163101Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "Update 359 – IAEA Director General Statement on Situation in Ukraine",
           "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNMUs0cGFLa0FTNmJwNHkxRTlBQjRob3h1N0E1MDJrbzRPWE5ra1dSUzhhcjVjR3VfQjlkdzhaeW5LT2JyRDF6WWRFNzM4UXRBbWFBdmhvdGF1eENHYzFSWTczUGM3SllXRWxDdWpXN3Y3bmliZjE3V3EtbWVSekc2a1dXTUkyd1dzU25ISEcyLTgzUUhLOGNrOGtXQ3o4dkFUb0ljLXZyXzJrZEJXVEhKUg?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -2752,6 +2761,15 @@
           "source": "GoogleNews"
         },
         {
+          "title": "IAEA Medical Assistance Supports Ukraine’s Nuclear Workers",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNRzNlWS1QS1JvM29YdUdKaXdIc1Y1dERBUEQza0RLNUJma0tvOGpLTzBMcVJVNjRUcDFZNmZ4b3ZpRUxhY0VJVlNqSEg4b2NDYzBXa2tFNnp6UGNsNm95OWYyM1RtZGVmaGg2bU1HTEl3YmRMSjJkMTI0UHR4SEU0aDVpU3RBeUVsOVNMclM1dTQ0YnR1NHZ2MVJVX2p4QmVMTnFnLUNoMUExZw?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20261002T070000Z",
+          "source": "GoogleNews"
+        },
+        {
           "title": "International Symposium on Nuclear Energy R&D: Advancements and Trends 2026 - Programme",
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA5ZjF6ekFVOWluWnV4VF83NEsxc3pHMzNHNjJ3cjRhUUJsMXNneHBacFNLYlUyVjhxRzVyQTdYR3Z5MzA3T1FUb0tGWVZHRnZJUE42eWRIQlRhbFRaaUJ5bFV3N0NsUF9OeWc?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -2824,15 +2842,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "ATLAS/EXPOSOMICS-AI-enabled Trans-continental Linkage of Atherosclerosis and expo-Some [INCAPS 5]",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1ibUMwNjJTVnhDcld6N05sRTRacFFzcExBY0hseHJzNlA1eHBkMW9GdFJQSzJLYUNXVVY2ZzBEeUs5ZVJaNDBPOUtOMlpPRHZWOFE?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20261015T200714Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "Approaches to Cost Estimation and Analysis of Nuclear Power Projects",
           "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQMFlfQXUyZDBlYnladTh4MjYtUGdHc0llYnVSZG9IMVdmeHIzcHZTdDBKeU42UkRHeGcxT3RhZHdSRWRGbmZxZTZXdkRfZFQ5NzY0ZTlNVXBrQmNKc3JGLXFXcTV0R3NEQW5jcnozQ0cwVExaTVROakNUWEYtMlhXTUotRWR5MlZlNnZlM1pxX0lRMXdOSjduMDdnWm0xN2dZZENKS3Z6Vm9ISkVF?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -2869,7 +2878,7 @@
           "source": "GoogleNews"
         },
         {
-          "title": "Software Applications",
+          "title": "Software Applications | IAEA",
           "url": "https://news.google.com/rss/articles/CBMitgJBVV95cUxOQWlqWEpFSmFuYVRLbTRtWHZiTnJseUhXeFI3VG9KdEtZVG9rMVJERjVOM1ZzSTdVV2R4OVV0a3pkSmpmTzhSbmtzUk9mSDJINGZJR2NDX05SY0Zjc3lPMXhjVV9Sa2h0eXBwNDhJZG1BUHY4NXY5U2twTUxSWlpMMWp4WTlHTzNwR05uRDVNS0pVdTBjX3FkS2VUMl9yZWRqeXpoT0J3ZnVSNTVSZUFuZFI1TGMycFpiV1FBQ0VienA0RDdPNm9wZ2dwQW1kd2YwczZtdnlZd2VUVlItRU5aT2dBNGFlaUhGaExuREFKa0FMcktkeXBNT0FGbVBuM2o5SnhPSk1lS0dVWFpvdjFqTjFxVDJ0MUFic0tYaXdCX0RBNGF4R1JyakFPN01KNlRHWHVtRk53?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
@@ -2893,15 +2902,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20260708T070000Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "IAEA Medical Assistance Supports Ukraine’s Nuclear Workers",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNRzNlWS1QS1JvM29YdUdKaXdIc1Y1dERBUEQza0RLNUJma0tvOGpLTzBMcVJVNjRUcDFZNmZ4b3ZpRUxhY0VJVlNqSEg4b2NDYzBXa2tFNnp6UGNsNm95OWYyM1RtZGVmaGg2bU1HTEl3YmRMSjJkMTI0UHR4SEU0aDVpU3RBeUVsOVNMclM1dTQ0YnR1NHZ2MVJVX2p4QmVMTnFnLUNoMUExZw?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20261002T070000Z",
           "source": "GoogleNews"
         },
         {
@@ -2959,15 +2959,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "Requirements Engineering in the Life Cycle of Instrumentation and Control Systems in Nuclear Power Plants",
-          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQdFlrMlFsQlRVeVM5Z0JqRC15NGRaX3hMTzFaTlkzWHhheFFnZnByV0lVS2NjNnAyU1RIdFdDbTJkdjBmXzNzX2xSRjZnRFYtX1VjWkk4dTl5U2hrUzFET0tXV0ZNOW1yS1p0emluT1dIWHlBTmpDUDV3cThnZVJwa2hlLVZmZjluSlkyTjN5MnpYSzhsY2ZScW5NdFRHaVR0T0JwX0JIamNzemNiN0RwemFEWlZ4ZUtjSnNNR0l3SXk5QVlFSWhqTXV5N0s1d25DLUs1VnhQc280Z3ZP?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260730T183959Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "Milestones Approach - Home",
           "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPUFZQOHU0NmEyeEg0RlNteHZEV1JIakFETFkxRjZxTVFKUi1LVDhPYkRhSG05TlJVNzlSbF92TkE1b2JoMkxUaE1CSDNsWW0yRWRnOWdQUnNwOUVkVHV3b3pWbEtTLTlMb1d0WjhfUHBBUG5sUndlOXZQU3Qwa2EySg?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -3019,6 +3010,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20261012T193427Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Generic User Rationale and Considerations for Small Modular Reactors",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOeDV6X0tSNzZGbmRKRHVkSzN2SmV2X1hpM0I2SUpta25BeWNEV2JyZkRQc2RRaXFDVTMxVjZyLTRPcWNiVnRoZmRXV2d3akxKTFBNQ1FqY2drdnVaZ1lzQUR3c1k2UG0xTXF0b0p5VzA2YXVxRjdWMzFpQ1FmZzJwOGJoX3huVmk0bjZ0MkVHN3R3WXAzeHRHRmRQVC1TdmxtX2J0dXh2emdBbVM5?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20261023T091835Z",
           "source": "GoogleNews"
         }
       ],
@@ -10777,6 +10777,54 @@
           "lon": 87.9952,
           "lat": 41.8774,
           "depth_km": 10,
+          "source": "USGS"
+        },
+        {
+          "id": "nc75454311",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1792872526290,
+          "magnitude": 1.65,
+          "magnitude_type": "md",
+          "event_type": "earthquake",
+          "place": "13 km WSW of Toms Place, CA",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75454311",
+          "lon": -118.82250213623,
+          "lat": 37.5200004577637,
+          "depth_km": 4.71000003814697,
+          "source": "USGS"
+        },
+        {
+          "id": "nc75454281",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1792867324560,
+          "magnitude": 2.45,
+          "magnitude_type": "md",
+          "event_type": "earthquake",
+          "place": "17 km SW of Toms Place, CA",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75454281",
+          "lon": -118.825996398926,
+          "lat": 37.4561653137207,
+          "depth_km": -0.209999993443489,
+          "source": "USGS"
+        },
+        {
+          "id": "nn00926197",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1792864761195,
+          "magnitude": 2.36,
+          "magnitude_type": "ml",
+          "event_type": "earthquake",
+          "place": "5 km SW of Pioche, Nevada",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00926197",
+          "lon": -114.5067,
+          "lat": 37.9001,
+          "depth_km": 15.7765,
           "source": "USGS"
         },
         {
