@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "nuclear-proliferation-watch",
-    "generated": "2026-10-25T05:21:07.675918+00:00",
+    "generated": "2026-10-25T12:01:33.628813+00:00",
     "mode": "live",
     "sources": [
       "IAEA official pages",
@@ -14,7 +14,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-10-25T05:21:07.667579+00:00",
+    "issued_at": "2026-10-25T12:01:33.620185+00:00",
     "horizon": "0-30 days",
     "classification": "nuclear-escalation-pressure-not-test-or-weapon-probability",
     "score": 0.9,
@@ -31,7 +31,7 @@
         "current_14d_titles": 14,
         "baseline_periods": 8,
         "baseline_median": 1.5,
-        "anomaly_z": -0.42,
+        "anomaly_z": -0.26,
         "evidence": [
           {
             "title": "Italy and Romania Establish New Member State Support Programmes to Strengthen IAEA Safeguards",
@@ -75,7 +75,7 @@
         "available": true,
         "score": 0.0,
         "current_30d_diagnostic_weight": 0.0,
-        "events_considered": 1810,
+        "events_considered": 1811,
         "sites_monitored": 8,
         "anomaly_z": 0.0,
         "evidence": [],
@@ -91,17 +91,6 @@
     },
     "alerts": [],
     "history": [
-      {
-        "timestamp": "2026-09-05T10:56:02.735632+00:00",
-        "score": 2.5,
-        "level": "BASELINE",
-        "components": {
-          "iaea_safeguards_strain": 0.0,
-          "npwmd_designation_delta": 0.0,
-          "facility_security_incidents": 12.6,
-          "test_site_seismicity": 0.0
-        }
-      },
       {
         "timestamp": "2026-09-05T15:34:24.201279+00:00",
         "score": 9.8,
@@ -2070,6 +2059,17 @@
           "facility_security_incidents": 0.0,
           "test_site_seismicity": 0.0
         }
+      },
+      {
+        "timestamp": "2026-10-25T12:01:33.620185+00:00",
+        "score": 0.9,
+        "level": "BASELINE",
+        "components": {
+          "iaea_safeguards_strain": 2.6,
+          "npwmd_designation_delta": 0.0,
+          "facility_security_incidents": 0.0,
+          "test_site_seismicity": 0.0
+        }
       }
     ],
     "data_health": {
@@ -2200,15 +2200,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20261023T060000Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "Technical Meeting on Verification and Validation of Software Related to Nuclear Power Plant Instrumentation and Control | IAEA",
-          "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1qdXBCTTBHUndEdUVBbXZaY24wMlU2MlNpQjdRQVBuaGdLc1VNRS1XYVVmaEFuZTIxNjNqOW1QZlE2X3BGNG1nNW42RQ?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20261002T210414Z",
           "source": "GoogleNews"
         },
         {
@@ -2398,15 +2389,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20260918T070000Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "Home: International Conference on Topical Issues in Nuclear Installation Safety | IAEA",
-          "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1hM0NUREFfazQtbUZubHNNNHJmMW5JUkhIelhxb19SZjk3ZFlvNmZ5RUc2Uk9CbE1yUzczZ3JsVG40LW5iUFpCM2RB?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20250531T042112Z",
           "source": "GoogleNews"
         },
         {
@@ -2860,15 +2842,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "Statement of the Republic of Cyprus to the 70th IAEA General Conference Vienna, Austria, 14 September 2026",
-          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBOTGl6ZVNCS1JWS2RHMzdUc29TRm1XZUJtdHNISVB5ZDVBcEEyZzd4Nk9DOXJFOExVVmtxTE1ncUVQT2pNWkc3d2N4QnNaeEJFVThlRExfc0VwVEZjdk1EX0hMWEsxUXZkRzRNVVFZNU1obFdu?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260914T070000Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "IAEA Holds First SMR School in a Technology Provider Country",
           "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOdmFzVHlXb2tVMjZ3T3VoLVZlQXlXRHJGSnl4NWJOZzV4am9tUm1zREdBRS1iRzNDbTJpeG9GN284VVhXZWFJUjcwZ3ZZWVBsTUhhT2FQTG5JbHVBS3F0d3F5NFlIUHBWWXNZcThqT3Y2WTM5S3ZoY3FUTGR4REpUQjBpaWNKeUp2RVJFbURpd0xkZkR3MmowaUFtcmg?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -2878,12 +2851,30 @@
           "source": "GoogleNews"
         },
         {
+          "title": "A Procedure for Rapid Determination of Strontium-89 and Strontium-90 in Sea Water in Emergency Situations",
+          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPYTZ5ZWprX3VGYkhVeExkeTh1Ty1faVhxeGV5bFdRc1JXZ0Rhd2VtLURvUDF0OWFtYmh0ZnV0N0xlYl82OE1hUFZ4ZG5BNXpUS3NyUFVVbEpabVZULUZMdTAxNVYxa296VnVhUWRSYU9tVVFvOFhDNFNZQUhFX1Jic0RkVWpXbUpDZTZVY2hDeGMyMUhWYzNSaEJaRGloSVA1cGJicnBEUlBZZXNLWDhZU25UcEphZ253MHhFa2JsN3BPOVZCbVRobWlJSEw2alg2bUVfYnloSnYzckRoZ3c?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20261022T103756Z",
+          "source": "GoogleNews"
+        },
+        {
           "title": "The Week Ahead: IAEA Hosts 70th General Conference",
           "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQRDFMWmxYQkZUOVI0YnBMNEVjeFVYYlJMYmktaU8xaXk3RVdVYUhoOTRreXNncnluNHJ5UXR0aU84Nkc0ZFkwWUg2bVBQOGpJUFRmcHRQZUdnQjhzenJSZHNwR3k0OTFIT3ZqSGEwWWUyX3QwN0tQX3pNUUtsZDRPVkM3RnFQSW5wMzRXc0pR?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
           "seendate": "20260914T070000Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Home: International Conference on Topical Issues in Nuclear Installation Safety | IAEA",
+          "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1hM0NUREFfazQtbUZubHNNNHJmMW5JUkhIelhxb19SZjk3ZFlvNmZ5RUc2Uk9CbE1yUzczZ3JsVG40LW5iUFpCM2RB?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20250531T042112Z",
           "source": "GoogleNews"
         },
         {
@@ -3013,21 +3004,30 @@
           "source": "GoogleNews"
         },
         {
-          "title": "Generic User Rationale and Considerations for Small Modular Reactors",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOeDV6X0tSNzZGbmRKRHVkSzN2SmV2X1hpM0I2SUpta25BeWNEV2JyZkRQc2RRaXFDVTMxVjZyLTRPcWNiVnRoZmRXV2d3akxKTFBNQ1FqY2drdnVaZ1lzQUR3c1k2UG0xTXF0b0p5VzA2YXVxRjdWMzFpQ1FmZzJwOGJoX3huVmk0bjZ0MkVHN3R3WXAzeHRHRmRQVC1TdmxtX2J0dXh2emdBbVM5?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20261023T091835Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "Evaluation of the Status of National Infrastructure for a Uranium Production Cycle Programme",
           "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNSVFIeFctQzJ2YVFhN1Z0YmYzd3pPcVdsZUdKZUlnc2tyS0dINjNzVi1wczNnUDFuSWFpSnBoQldlVk1tMVRYaWZDN2ZxTVlNS2IzUG1Nb1BvTHNzTXVnbldiampQQjhNeXk2SmdCalN6bnpnZ2xuRUpaNFo1UU5ieTd6RXMtamxkaG9sWU14c09SMXMycGF1cVFZWDlHRXozUzhvcjZGQ2swTlAyLVFCSjY4Nl9Mck5XZlE1cFlmOVpGZDZGSG9RejJOYw?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
           "seendate": "20260911T090605Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Mexico Signs a Country Programme Framework (CPF) for 2026-2031",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPM3lYQ29FMWVjdEJEQzYxOWN6Unp0dElRTE4yR0RYNGx2U2oweDNZTkJEaVAxZWNQN0ZZVWtHM0h2VVhxT0NUZ2hzLTViLTRkYVhIMXppYXpuZG9hYld0ejYwUGIzd2oxTXNHdnJKNVBtbHhSSlZlclhPZy1HbXk0WHhpT1FrcXZTa2JjdGRVaEVSWHc3ZXBobktUaFo?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260914T070000Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Nicaragua Signs a Country Programme Framework (CPF) for 2026–2031",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPdjMwVDB3WUEtOXBKeGVxRU4wSVlCU3BTNnYzM1E5Ul9yM01PY28yaUxXbXB5LWotZVJTejhRYkV3Sjk2dkdKTExpeVpzdGZYeHJpQ3VyTFltbEoyQkpSV0xsNUFCbGRmS3NJdGVqSVdGN0FZZ09qWXAwUUVEazQxS1NaWFd1UzFFNHRJRjkxNm5rcHk2ZGpidFhGaTdXaGNn?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260922T070000Z",
           "source": "GoogleNews"
         }
       ],
@@ -10770,6 +10770,22 @@
           "lon": 88.5098,
           "lat": 41.7769,
           "depth_km": 10,
+          "source": "USGS"
+        },
+        {
+          "id": "ci41352063",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1792907626870,
+          "magnitude": 1.57,
+          "magnitude_type": "ml",
+          "event_type": "earthquake",
+          "place": "12 km E of Coso Junction, CA",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41352063",
+          "lon": -117.818833333333,
+          "lat": 36.0258333333333,
+          "depth_km": 0.81,
           "source": "USGS"
         },
         {
