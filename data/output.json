@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "nuclear-proliferation-watch",
-    "generated": "2026-10-25T12:01:33.628813+00:00",
+    "generated": "2026-10-25T16:49:33.736138+00:00",
     "mode": "live",
     "sources": [
       "IAEA official pages",
@@ -14,7 +14,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-10-25T12:01:33.620185+00:00",
+    "issued_at": "2026-10-25T16:49:33.729337+00:00",
     "horizon": "0-30 days",
     "classification": "nuclear-escalation-pressure-not-test-or-weapon-probability",
     "score": 0.9,
@@ -31,7 +31,7 @@
         "current_14d_titles": 14,
         "baseline_periods": 8,
         "baseline_median": 1.5,
-        "anomaly_z": -0.26,
+        "anomaly_z": -0.42,
         "evidence": [
           {
             "title": "Italy and Romania Establish New Member State Support Programmes to Strengthen IAEA Safeguards",
@@ -91,17 +91,6 @@
     },
     "alerts": [],
     "history": [
-      {
-        "timestamp": "2026-09-05T15:34:24.201279+00:00",
-        "score": 9.8,
-        "level": "BASELINE",
-        "components": {
-          "iaea_safeguards_strain": 20.8,
-          "npwmd_designation_delta": 0.0,
-          "facility_security_incidents": 12.6,
-          "test_site_seismicity": 0.0
-        }
-      },
       {
         "timestamp": "2026-09-05T20:43:33.670187+00:00",
         "score": 2.5,
@@ -2070,6 +2059,17 @@
           "facility_security_incidents": 0.0,
           "test_site_seismicity": 0.0
         }
+      },
+      {
+        "timestamp": "2026-10-25T16:49:33.729337+00:00",
+        "score": 0.9,
+        "level": "BASELINE",
+        "components": {
+          "iaea_safeguards_strain": 2.6,
+          "npwmd_designation_delta": 0.0,
+          "facility_security_incidents": 0.0,
+          "test_site_seismicity": 0.0
+        }
       }
     ],
     "data_health": {
@@ -2218,6 +2218,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20260926T123208Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Technical Meeting on Verification and Validation of Software Related to Nuclear Power Plant Instrumentation and Control | IAEA",
+          "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE8zNkhyVFFrcE9hSF9UYU1SSXBTYkIwcE4zV1ZOdGJmdEFKWjg2Wmx1b3Q5WXBmODVsSXh0TW5Nd3Uxdl9IUThQVmNpYw?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20261002T210427Z",
           "source": "GoogleNews"
         },
         {
@@ -2470,6 +2479,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20260826T070000Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Timor-Leste, Democratic Republic of",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1lNW1jMXBhSS1rTjVLUDlVbUh5cjZMWFlkV19uREtKejQ4MDZJR2JuWkZnRndLUmx4eHcxRFRmRU5rYmNwMnR3Y2dnX1R3LTBMRzJyQ2h2VFJLT185NGsyUS1SNFYzTGszUTdjenhTeWZtMXNUZVE?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260921T070000Z",
           "source": "GoogleNews"
         },
         {
@@ -2959,15 +2977,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "IAEA Launches Research Project on Spent Fuel Characterization",
-          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxORDFFMGtjbnN1b0UxeWI4WGd0clJ6TnpsNURVTDhYWmtTSmVUcE96NDdVWk8teGN5bE9obG5tNFZ0eWZCeE1oeGxsTk9KWnp3QkktakktRHFXckxMLUxhU3NPMmdteTE1amhVa0JESXQ3d2JlUjJWeVZpUkZ5cGtwTm91b3IySXllb2E3cHRNQUtRU25nUzlsNHV2YzNOUQ?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20261005T070000Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "Strategy for the Prevention, Detection and Response to the Inadvertent Presence of Radioactive Material in Metal Recycling and Other Associated Processes",
           "url": "https://news.google.com/rss/articles/CBMimwJBVV95cUxPdEVZRE5kX0Y4VjJXMDJibnZfQk1Cd3JxR0pQZ0pxUnBNZnJQZm8wZ0dPaGRWRHBqbkw0dGpzSkxmWjNXVFNQWjdrakw0S3VuUHhtZ05GcG9ieDhQLUJhZzZxLVpSMDNyOHQ4LUtMSnVDdGtYdEZpZUNNNEc2VmxNb1RiTHNOaDhoN1JDQ3NnWkVNa0UycXV3TDFPemVua05UU3BXQU9aRWpyZG9MaThzN2tNM2VCS3JvYmY2eGo4cDNDUmVlU3FrZ292dWhNdXNnbkFXQkJnc0JSSzRBZmd1WjJlbGQxM0JocHVhd1c4dmJZZkt3aU1SSDdscHdWWldnUG5pbmdydW9HY3dLb0E1SUFXendOV1p5V3ln?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -3019,15 +3028,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20260914T070000Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "Nicaragua Signs a Country Programme Framework (CPF) for 2026–2031",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPdjMwVDB3WUEtOXBKeGVxRU4wSVlCU3BTNnYzM1E5Ul9yM01PY28yaUxXbXB5LWotZVJTejhRYkV3Sjk2dkdKTExpeVpzdGZYeHJpQ3VyTFltbEoyQkpSV0xsNUFCbGRmS3NJdGVqSVdGN0FZZ09qWXAwUUVEazQxS1NaWFd1UzFFNHRJRjkxNm5rcHk2ZGpidFhGaTdXaGNn?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260922T070000Z",
           "source": "GoogleNews"
         }
       ],
@@ -10809,15 +10809,15 @@
           "site": "Nevada National Security Site",
           "site_lat": 37.12,
           "site_lon": -116.05,
-          "time": 1792892108090,
-          "magnitude": 2.7,
+          "time": 1792892108030,
+          "magnitude": 2.73,
           "magnitude_type": "ml",
           "event_type": "earthquake",
-          "place": "31 km WSW of Tecopa, CA",
+          "place": "32 km WSW of Tecopa, CA",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41352007",
-          "lon": -116.564,
-          "lat": 35.7885,
-          "depth_km": 0.89,
+          "lon": -116.568666666667,
+          "lat": 35.7878333333333,
+          "depth_km": 0.75,
           "source": "USGS"
         },
         {
