@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "nuclear-proliferation-watch",
-    "generated": "2026-10-25T21:15:08.471200+00:00",
+    "generated": "2026-10-26T05:21:14.143704+00:00",
     "mode": "live",
     "sources": [
       "IAEA official pages",
@@ -14,7 +14,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-10-25T21:15:08.465434+00:00",
+    "issued_at": "2026-10-26T05:21:14.135052+00:00",
     "horizon": "0-30 days",
     "classification": "nuclear-escalation-pressure-not-test-or-weapon-probability",
     "score": 0.9,
@@ -28,7 +28,7 @@
         "available": true,
         "score": 2.6,
         "current_14d_weight": 1.0,
-        "current_14d_titles": 13,
+        "current_14d_titles": 12,
         "baseline_periods": 8,
         "baseline_median": 1.5,
         "anomaly_z": -0.42,
@@ -75,7 +75,7 @@
         "available": true,
         "score": 0.0,
         "current_30d_diagnostic_weight": 0.0,
-        "events_considered": 1811,
+        "events_considered": 1807,
         "sites_monitored": 8,
         "anomaly_z": 0.0,
         "evidence": [],
@@ -91,17 +91,6 @@
     },
     "alerts": [],
     "history": [
-      {
-        "timestamp": "2026-09-06T05:07:06.002400+00:00",
-        "score": 9.8,
-        "level": "BASELINE",
-        "components": {
-          "iaea_safeguards_strain": 20.8,
-          "npwmd_designation_delta": 0.0,
-          "facility_security_incidents": 12.6,
-          "test_site_seismicity": 0.0
-        }
-      },
       {
         "timestamp": "2026-09-06T11:22:06.764454+00:00",
         "score": 2.5,
@@ -2070,6 +2059,17 @@
           "facility_security_incidents": 0.0,
           "test_site_seismicity": 0.0
         }
+      },
+      {
+        "timestamp": "2026-10-26T05:21:14.135052+00:00",
+        "score": 0.9,
+        "level": "BASELINE",
+        "components": {
+          "iaea_safeguards_strain": 2.6,
+          "npwmd_designation_delta": 0.0,
+          "facility_security_incidents": 0.0,
+          "test_site_seismicity": 0.0
+        }
       }
     ],
     "data_health": {
@@ -2685,7 +2685,7 @@
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
-          "seendate": "20261016T030134Z",
+          "seendate": "20261016T070000Z",
           "source": "GoogleNews"
         },
         {
@@ -2833,15 +2833,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "Beam Monitor Calibration for Pencil Beam Scanning Delivery in Terms of the Number of Protons and Light Ions per Spot",
-          "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPdy1MTEpYMHJiYnZqZG1Eb2FYZ0hPNnJMSDBJWFdianhiY2NXc055ckZHWlFRMUNYYkpSRmVZbEhoR1d3M3Q5c25XN0lqcTNQN25uZ0dJMjF5ZGQ2MnE0U25VdDFJcjcwMThXdFZMZ0E5YmRDbEtnY1pJT045dGd0b1I4cFJSb0xDWVd6LTVhdVZZX0llY1BFVV9wU25DVWpLVm00aWdkZW1QcWNEb2JmLWNaWEhMNHh6YnVyU1BPMDJhMlE5aXd5RWQwUU5yUy1iX2FEM3c2WmlrUHRvd3htU2c2LUdsSEYtQ3Nv?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20261009T092032Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "IAEA-Led Mission Samples ALPS-Treated Water at Fukushima Daiichi Nuclear Power Station under Additional Measures",
           "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQRXM1NEJNU1VHRGV3VGkxZ25jbkxnZDlQMW80SGFZeXl2YjRhcThKcXVmNzdyU2pROExvQ1NiZVpIV3NGMFAzS3hpazUzQnd2RDR4M015b2NfS3BOSmFNMGNMWjVFTFM0MDdSTkhKNC1EU2c1X0VsUDh0bFFGbV85ZEFxeElGMXo1eUdHeGwwMWJ5eTdmY3NRbU5sRHRMTFlvSnJ2RHpPd0VPZnczREVKbTFac1d3VjQ4NTdILUZocVp2c2t3TTZaSEwwUWlRUFRMa1E5dUZQN216Y0JiUDJYal9vYWVfcDhqc0JKN0JB?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -2875,6 +2866,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20260701T070000Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Beam Monitor Calibration for Pencil Beam Scanning Delivery in Terms of the Number of Protons and Light Ions per Spot",
+          "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPdy1MTEpYMHJiYnZqZG1Eb2FYZ0hPNnJMSDBJWFdianhiY2NXc055ckZHWlFRMUNYYkpSRmVZbEhoR1d3M3Q5c25XN0lqcTNQN25uZ0dJMjF5ZGQ2MnE0U25VdDFJcjcwMThXdFZMZ0E5YmRDbEtnY1pJT045dGd0b1I4cFJSb0xDWVd6LTVhdVZZX0llY1BFVV9wU25DVWpLVm00aWdkZW1QcWNEb2JmLWNaWEhMNHh6YnVyU1BPMDJhMlE5aXd5RWQwUU5yUy1iX2FEM3c2WmlrUHRvd3htU2c2LUdsSEYtQ3Nv?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20261009T092032Z",
           "source": "GoogleNews"
         },
         {
@@ -2995,6 +2995,15 @@
           "source": "GoogleNews"
         },
         {
+          "title": "Good Practices in Implementing Plant and Equipment Reliability Programmes in Operating Nuclear Power Plants",
+          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQNThMSGhlenAxemhsNWNlb1BDYTNHRmRJMk00eUFnYUFXWkNFazF3TDVUd1Nra1A5QmRVZG1KT2lER1hBSGNNS1NoR2pTeE80dENubklKX1lqTU5mdnMzWWtaaW9IclFLU2I0Y1Fyb19GTl9pVmlBZm0xelEwVTBVUTYzLUNjTVI0QlVTRzRFSm1LUlBYeWFlYXozODQwQ29WUWstQTc5LU50dmw2UWRyUkVyZWlqQUVVZmpwa200aEVKMGx0M2FJRDZsMmZhWktETElIWUtrV3BkdEJuZUdV?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260814T221027Z",
+          "source": "GoogleNews"
+        },
+        {
           "title": "Strategy for the Prevention, Detection and Response to the Inadvertent Presence of Radioactive Material in Metal Recycling and Other Associated Processes",
           "url": "https://news.google.com/rss/articles/CBMimwJBVV95cUxPdEVZRE5kX0Y4VjJXMDJibnZfQk1Cd3JxR0pQZ0pxUnBNZnJQZm8wZ0dPaGRWRHBqbkw0dGpzSkxmWjNXVFNQWjdrakw0S3VuUHhtZ05GcG9ieDhQLUJhZzZxLVpSMDNyOHQ4LUtMSnVDdGtYdEZpZUNNNEc2VmxNb1RiTHNOaDhoN1JDQ3NnWkVNa0UycXV3TDFPemVua05UU3BXQU9aRWpyZG9MaThzN2tNM2VCS3JvYmY2eGo4cDNDUmVlU3FrZ292dWhNdXNnbkFXQkJnc0JSSzRBZmd1WjJlbGQxM0JocHVhd1c4dmJZZkt3aU1SSDdscHdWWldnUG5pbmdydW9HY3dLb0E1SUFXendOV1p5V3ln?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -3019,15 +3028,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20260826T115219Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "Nuclear Energy in the Age of Artificial Intelligence: Securing Electricity for the Digital Economy",
-          "url": "https://news.google.com/rss/articles/CBMiqwJBVV95cUxOLUdOdFRNRjJLbzFmNjJsenNwQmUtNWdreVRHSDlCUkNQU19UbERpaElZUHIwVTlKNkk5NUVhcFZfVG1aRUlDelZrQjRhQ1didi1kZ3VPQmg3LWxMa3hfNnRnRXgtZy1XdGs1UkRzZkl0QVg4TXlvZmlGQmhKUjUtZXVqc1J6MXRySjd5S2JoQ2EzZzBaQTl2cUVnWk1mVjRlTTl6dWd4SVNWZVdSellHZVRIc1VPR2E5LXRUQVpKLVBIcjduNlJoaWJXckM1WVlQNG5jeTc0QUVWUUJvY1hxN242RE5EdGhPMkcwVV9TS0VINlV2U2lxeldtdWxhamZmUFRCYlhWQzUxVUR2TEFieHR1VURTS1NPTGtDUFNaT25aRHc5bXhjbjFtUQ?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20261012T193427Z",
           "source": "GoogleNews"
         }
       ],
@@ -10773,6 +10773,22 @@
           "source": "USGS"
         },
         {
+          "id": "nc75454796",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1792964815370,
+          "magnitude": 2.13,
+          "magnitude_type": "md",
+          "event_type": "earthquake",
+          "place": "19 km SW of Toms Place, CA",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75454796",
+          "lon": -118.836334228516,
+          "lat": 37.4440002441406,
+          "depth_km": -0.550000011920929,
+          "source": "USGS"
+        },
+        {
           "id": "ci41352063",
           "site": "Nevada National Security Site",
           "site_lat": 37.12,
@@ -11346,6 +11362,22 @@
           "lon": -118.833335876465,
           "lat": 37.4411659240723,
           "depth_km": 0.46000000834465,
+          "source": "USGS"
+        },
+        {
+          "id": "nc75450191",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1792107578040,
+          "magnitude": 1.72,
+          "magnitude_type": "md",
+          "event_type": "earthquake",
+          "place": "3 km SE of Round Valley, CA",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75450191",
+          "lon": -118.5755,
+          "lat": 37.3948333333333,
+          "depth_km": 13.55,
           "source": "USGS"
         },
         {
@@ -39266,102 +39298,6 @@
           "lon": -114.6536,
           "lat": 37.3461,
           "depth_km": 9.0345,
-          "source": "USGS"
-        },
-        {
-          "id": "nc75254516",
-          "site": "Nevada National Security Site",
-          "site_lat": 37.12,
-          "site_lon": -116.05,
-          "time": 1761422485000,
-          "magnitude": 1.6,
-          "magnitude_type": "md",
-          "event_type": "earthquake",
-          "place": "13 km WSW of Toms Place, CA",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75254516",
-          "lon": -118.824333190918,
-          "lat": 37.5246658325195,
-          "depth_km": 4.65999984741211,
-          "source": "USGS"
-        },
-        {
-          "id": "nn00906346",
-          "site": "Nevada National Security Site",
-          "site_lat": 37.12,
-          "site_lon": -116.05,
-          "time": 1761407203172,
-          "magnitude": 1.69,
-          "magnitude_type": "ml",
-          "event_type": "earthquake",
-          "place": "22 km W of Mina, Nevada",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00906346",
-          "lon": -118.3624,
-          "lat": 38.4054,
-          "depth_km": 11.3931,
-          "source": "USGS"
-        },
-        {
-          "id": "nn00906344",
-          "site": "Nevada National Security Site",
-          "site_lat": 37.12,
-          "site_lon": -116.05,
-          "time": 1761402150765,
-          "magnitude": 1.59,
-          "magnitude_type": "ml",
-          "event_type": "earthquake",
-          "place": "43 km SSE of Silver Peak, Nevada",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00906344",
-          "lon": -117.5267,
-          "lat": 37.3727,
-          "depth_km": 15.9693,
-          "source": "USGS"
-        },
-        {
-          "id": "nn00906336",
-          "site": "Nevada National Security Site",
-          "site_lat": 37.12,
-          "site_lon": -116.05,
-          "time": 1761395413517,
-          "magnitude": 3.88,
-          "magnitude_type": "ml",
-          "event_type": "earthquake",
-          "place": "16 km SSE of Tonopah, Nevada",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00906336",
-          "lon": -117.1548,
-          "lat": 37.9349,
-          "depth_km": 10.5265,
-          "source": "USGS"
-        },
-        {
-          "id": "nn00906335",
-          "site": "Nevada National Security Site",
-          "site_lat": 37.12,
-          "site_lon": -116.05,
-          "time": 1761393353520,
-          "magnitude": 2.49,
-          "magnitude_type": "ml",
-          "event_type": "earthquake",
-          "place": "28 km SE of Kingston, Nevada",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00906335",
-          "lon": -116.8573,
-          "lat": 39.0149,
-          "depth_km": 1.289,
-          "source": "USGS"
-        },
-        {
-          "id": "nn00906330",
-          "site": "Nevada National Security Site",
-          "site_lat": 37.12,
-          "site_lon": -116.05,
-          "time": 1761390500748,
-          "magnitude": 2.26,
-          "magnitude_type": "ml",
-          "event_type": "earthquake",
-          "place": "28 km SSE of Mina, Nevada",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00906330",
-          "lon": -117.9873,
-          "lat": 38.1523,
-          "depth_km": 9.3617,
           "source": "USGS"
         },
         {
