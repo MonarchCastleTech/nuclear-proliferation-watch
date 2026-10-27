@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "nuclear-proliferation-watch",
-    "generated": "2026-10-27T18:20:00.609300+00:00",
+    "generated": "2026-10-27T22:38:21.237065+00:00",
     "mode": "live",
     "sources": [
       "IAEA official pages",
@@ -14,7 +14,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-10-27T18:20:00.604952+00:00",
+    "issued_at": "2026-10-27T22:38:21.231065+00:00",
     "horizon": "0-30 days",
     "classification": "nuclear-escalation-pressure-not-test-or-weapon-probability",
     "score": 5.1,
@@ -97,17 +97,6 @@
     },
     "alerts": [],
     "history": [
-      {
-        "timestamp": "2026-09-07T21:47:04.196051+00:00",
-        "score": 2.5,
-        "level": "BASELINE",
-        "components": {
-          "iaea_safeguards_strain": 0.0,
-          "npwmd_designation_delta": 0.0,
-          "facility_security_incidents": 12.6,
-          "test_site_seismicity": 0.0
-        }
-      },
       {
         "timestamp": "2026-09-08T05:17:47.997209+00:00",
         "score": 9.8,
@@ -2076,12 +2065,23 @@
           "facility_security_incidents": 0.0,
           "test_site_seismicity": 0.0
         }
+      },
+      {
+        "timestamp": "2026-10-27T22:38:21.231065+00:00",
+        "score": 5.1,
+        "level": "BASELINE",
+        "components": {
+          "iaea_safeguards_strain": 14.6,
+          "npwmd_designation_delta": 0.0,
+          "facility_security_incidents": 0.0,
+          "test_site_seismicity": 0.0
+        }
       }
     ],
     "data_health": {
       "available_components": 4,
       "retained_components": [],
-      "iaea_titles": 51,
+      "iaea_titles": 50,
       "npwmd_entries": 1205,
       "iaea_events": 23,
       "test_sites": 8
@@ -2128,7 +2128,7 @@
     },
     {
       "label": "IAEA Signals",
-      "value": "51",
+      "value": "50",
       "delta": "official indexed pages"
     },
     {
@@ -2173,15 +2173,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "Italy and Romania Establish New Member State Support Programmes to Strengthen IAEA Safeguards",
-          "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1pamY3QUduT3lkZWVKTjNWSEhLT3VNZ1VKXzNva2JidkozRjFpT1VyQWpiRElfb0xsSGFOWW9wYU5GVXJIRHllc3p5VQ?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20261023T060000Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "Event Schedule Draft Overview",
           "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNUVRaX0t1ZGgwSXhqODdPMUU1Y0FmdGx6c2hIb0F3X1c0ZWY0aVU5MkRjMzlEdXhIYVFOdlBPajduckhLcHJHQmNqc0o0V3FoYnM1d3hNXzM5YlhQTERHcF9jTmlnRWs2OWZrd09UVmwxaXNWUTM1VXhyMjRXZVRvSVBPeG52UEVJRl9SNlB5ZTFCaTlES1o2YjdXUnl1Z3ZsMWlOejBSc0E3QQ?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -2196,7 +2187,16 @@
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
-          "seendate": "20261027T152851Z",
+          "seendate": "20261027T171020Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Italy and Romania Establish New Member State Support Programmes to Strengthen IAEA Safeguards",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxObFR5dkV1RHJhc1lzZzVLUjlJMWIyWFNaeWJtVU83cmRCUVdTNDc0aFhRdTFsczJTQWg1SVFJQ1VfSHdRek9LRTZyU2lqRU92T3pBcFoxQldzRURFOVcwVU5zUkl4MGtkaXl6OWtxMVBPT2ZYVmkyV1c5Yk13eHhSQVoxbE9MYzcwbDFQbnZaYnZ4UnZWOWlxSENBbmd4QkJuaHMtUzlOTWxhVDFxWFFKZTdVRnlHMmFnR0pJMkpoTmtRV0dmeU1HZQ?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20261023T060000Z",
           "source": "GoogleNews"
         },
         {
@@ -2515,15 +2515,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "International High-level Forum on the ATLAS Launch - News | IAEA",
-          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBCdnFEX2x6ZDlRQzhvckpGM19iUEpsdGF1dVo5MVlwRXhpb1RiMTI4ZTBiZVI0U29tSHZodGN4cTZxbmhnMmR0Y1ZJS2hsamw5OHZJ?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260508T194156Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "IAEA and Syria: Chronology of Key Events",
           "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBJb2w5TC1hdTV6VVdRZ3RwOHQ2TmpGT2VvbkNIcmlCQUVFaS0ta290Q2FQSUdaMWxOcXhYT1NpeGROYy1zWWVOVVlWTU1mZWJ4MmRQNkxsQjF1U2hnSXA5b0xuZ2czYjh0bFBqY0hUbkNLSWt2VWc?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -2583,7 +2574,7 @@
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
-          "seendate": "20261027T174958Z",
+          "seendate": "20261027T080000Z",
           "source": "GoogleNews"
         },
         {
@@ -10335,15 +10326,15 @@
           "site": "Nevada National Security Site",
           "site_lat": 37.12,
           "site_lon": -116.05,
-          "time": 1793112876859,
-          "magnitude": 1.55,
+          "time": 1793112879643,
+          "magnitude": 1.5,
           "magnitude_type": "ml",
           "event_type": "earthquake",
-          "place": "13 km SSW of Alamo, Nevada",
+          "place": "26 km SW of Alamo, Nevada",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00926312",
-          "lon": -115.2117,
-          "lat": 37.2498,
-          "depth_km": 2.65,
+          "lon": -115.3668,
+          "lat": 37.1864,
+          "depth_km": 11.6553,
           "source": "USGS"
         },
         {
@@ -10863,15 +10854,15 @@
           "site": "Nevada National Security Site",
           "site_lat": 37.12,
           "site_lon": -116.05,
-          "time": 1792300366720,
-          "magnitude": 2.37,
+          "time": 1792300366750,
+          "magnitude": 2.45,
           "magnitude_type": "md",
           "event_type": "earthquake",
           "place": "19 km SW of Toms Place, CA",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75451436",
-          "lon": -118.835334777832,
-          "lat": 37.4456672668457,
-          "depth_km": 1.67999994754791,
+          "lon": -118.833833333333,
+          "lat": 37.4478333333333,
+          "depth_km": 1.91,
           "source": "USGS"
         },
         {
