@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "nuclear-proliferation-watch",
-    "generated": "2026-10-27T05:38:18.944372+00:00",
+    "generated": "2026-10-27T12:41:16.286228+00:00",
     "mode": "live",
     "sources": [
       "IAEA official pages",
@@ -14,10 +14,10 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-10-27T05:38:18.937709+00:00",
+    "issued_at": "2026-10-27T12:41:16.281085+00:00",
     "horizon": "0-30 days",
     "classification": "nuclear-escalation-pressure-not-test-or-weapon-probability",
-    "score": 3.5,
+    "score": 5.1,
     "level": "BASELINE",
     "confidence": "HIGH",
     "confidence_score": 100.0,
@@ -26,12 +26,12 @@
         "id": "iaea_safeguards_strain",
         "label": "IAEA safeguards and access strain",
         "available": true,
-        "score": 9.9,
+        "score": 14.6,
         "current_14d_weight": 2.0,
         "current_14d_titles": 14,
         "baseline_periods": 8,
         "baseline_median": 1.0,
-        "anomaly_z": 0.67,
+        "anomaly_z": 1.35,
         "evidence": [
           {
             "title": "Italy and Romania Establish New Member State Support Programmes to Strengthen IAEA Safeguards",
@@ -81,7 +81,7 @@
         "available": true,
         "score": 0.0,
         "current_30d_diagnostic_weight": 0.0,
-        "events_considered": 1801,
+        "events_considered": 1803,
         "sites_monitored": 8,
         "anomaly_z": 0.0,
         "evidence": [],
@@ -97,17 +97,6 @@
     },
     "alerts": [],
     "history": [
-      {
-        "timestamp": "2026-09-07T05:14:46.570014+00:00",
-        "score": 9.8,
-        "level": "BASELINE",
-        "components": {
-          "iaea_safeguards_strain": 20.8,
-          "npwmd_designation_delta": 0.0,
-          "facility_security_incidents": 12.6,
-          "test_site_seismicity": 0.0
-        }
-      },
       {
         "timestamp": "2026-09-07T13:02:27.411569+00:00",
         "score": 9.8,
@@ -2076,6 +2065,17 @@
           "facility_security_incidents": 0.0,
           "test_site_seismicity": 0.0
         }
+      },
+      {
+        "timestamp": "2026-10-27T12:41:16.281085+00:00",
+        "score": 5.1,
+        "level": "BASELINE",
+        "components": {
+          "iaea_safeguards_strain": 14.6,
+          "npwmd_designation_delta": 0.0,
+          "facility_security_incidents": 0.0,
+          "test_site_seismicity": 0.0
+        }
       }
     ],
     "data_health": {
@@ -2123,7 +2123,7 @@
   "stats": [
     {
       "label": "Escalation Pressure",
-      "value": "3.5/100",
+      "value": "5.1/100",
       "delta": "BASELINE"
     },
     {
@@ -2146,21 +2146,21 @@
     "iaea_titles": {
       "signals": [
         {
-          "title": "Update 372 – IAEA Director General Statement on Situation in Ukraine",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQTDYtYzB3Y3FlWVQ1eVVoOXdtM1NHQ3p4YmpGMjdpME8yeWU4cUlFdXhTa3FOUmV0UjJNRE5KTXlPU1VyWTMtamUtR3pBSW8tRzdGaVNpbmJNRG9ycUliVnhaT2Z0M0hJMmxsV0QzdnVuenBCWkJsenNFbi1fdnV2c2YwMjVnT3AtRGJCQ01JOGpqeVloLWpFc0w0VWJZMHNsa0t1N0VGWXZ6OGZCc0lUemZn?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20261023T135545Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "What is Nuclear Fuel?",
           "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9YOE5zaEtBMlROYmdXQ1Z6UWxmMDlOS3d5N2RWWnA2SU1pZ2ZNbElSZnF2VDVDWG14dnU2VjBEc0FiM0pTdHZkSDF5ak0tcDk1V1hlRlZCaGJ3elJKc1ROMG5ZODRkcFZa?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
           "seendate": "20261023T060000Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Update 372 – IAEA Director General Statement on Situation in Ukraine",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQTDYtYzB3Y3FlWVQ1eVVoOXdtM1NHQ3p4YmpGMjdpME8yeWU4cUlFdXhTa3FOUmV0UjJNRE5KTXlPU1VyWTMtamUtR3pBSW8tRzdGaVNpbmJNRG9ycUliVnhaT2Z0M0hJMmxsV0QzdnVuenBCWkJsenNFbi1fdnV2c2YwMjVnT3AtRGJCQ01JOGpqeVloLWpFc0w0VWJZMHNsa0t1N0VGWXZ6OGZCc0lUemZn?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20261023T135545Z",
           "source": "GoogleNews"
         },
         {
@@ -2179,6 +2179,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20261020T085616Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Atoms4Food: Protecting Biodiversity",
+          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPdENBc1U2Snk5X19PSi1tSjNpYl9FVFNUQXNEQm5KcEFpaVZwWE4xRTBxNEZwUDYyRE9YSDlWR3c1WmZNREFnRkxZc3pVZjVMUnhjN1FQbjNrLWpTMU0wZEVXZ3VOWUdvSlJ0UFlqTkhWdjMxdEs0ekpwUklhQ1dpdnVxcENiSWVMdWtN?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20261020T145158Z",
           "source": "GoogleNews"
         },
         {
@@ -2206,6 +2215,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20261023T070000Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Technical Meeting on Verification and Validation of Software Related to Nuclear Power Plant Instrumentation and Control | IAEA",
+          "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE8zNkhyVFFrcE9hSF9UYU1SSXBTYkIwcE4zV1ZOdGJmdEFKWjg2Wmx1b3Q5WXBmODVsSXh0TW5Nd3Uxdl9IUThQVmNpYw?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20261002T210427Z",
           "source": "GoogleNews"
         },
         {
@@ -2632,6 +2650,15 @@
           "source": "GoogleNews"
         },
         {
+          "title": "Tritium Level Far Below Japan’s Operational Limit in 25th Batch of ALPS Treated Water, IAEA Confirms",
+          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQXzlGSTM0T3BCX011cllocGEzbUJfUjJMX0Y0V29odTRPYjVRX1J4c3hoR3NRS1oxX09TaGp2SUxCVDktOUZKOVR6ZVZwSmswVDZ1bmdGeFItU3JqWkNpUTFPWTZPbjduMTFoZmxmTUtyYjV1V2s2R1RKMWNQOUVuQWszSXBfQnl6OUFJaG1nSExHLWYtNEtrT09tZFdvNlg1aXJMRnVqWHY1MWEzVnhSai1MQWhnc1JKUVh6cjZjOXprZmVlR1ZxYzROeUFrM2o0REVqRGhLTm1Eek9I?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20261027T062908Z",
+          "source": "GoogleNews"
+        },
+        {
           "title": "Technical Meeting on Nuclear Fuel Cycle Options for Current and Advanced Reactors",
           "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1zX0ItY1lqRDFXZnJHOGtDNWE2OU9DM1ZaVUZnSVJjRXBSWDY1MlBWVDV4ZXJSRjdsUkNwTm9qY0JmWnR5S2ZqdXBIdy1GZw?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -2998,33 +3025,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20260911T151206Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "Update 367 – IAEA Director General Statement on Situation in Ukraine",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOek9PaG4tYTJ3OTk0UUVMS0dhM3BKdGtGRWY4d3ZjMGptRHlTYmp6MVNHbGZLSlJyT0xYRDFFaFVORURWY1c5QkhDVzU3OWhxbVB1LXRXb2dLeUttOWpleWdfLTJsU04wUzRIbG1aX3AzWUJ5LVczV0Uta1pZQXlMVmI5dnlWZ2dyYmRvbGtqaElVdHhtaHFZZHZaZDJrYkVibzByaEVHN3hld21VaExBdQ?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260917T070000Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "Review of State of the Art Thermal Hydraulics of Fast Reactors",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNbjhTdnNpVnN1WThSSEoyLVFhT1A5UGowbU03SEpYLWRhaWVNaTRISU91M1J3M1dyanVWNXk4UG9RX2pFLU83YllSTmNhVGVqek5WcEFGNkxSYmFZTjBJcXZQYVJjTFZIeGVJMFZoYkFxSjRSZ01ybFRNLVNCckxucjc3VVFBc3d4amxNV0FlSnVNRGROQ3VOYTRoSGZMbFd6dE1N?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260826T115219Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "Nuclear Energy in the Age of Artificial Intelligence: Securing Electricity for the Digital Economy",
-          "url": "https://news.google.com/rss/articles/CBMiqwJBVV95cUxOLUdOdFRNRjJLbzFmNjJsenNwQmUtNWdreVRHSDlCUkNQU19UbERpaElZUHIwVTlKNkk5NUVhcFZfVG1aRUlDelZrQjRhQ1didi1kZ3VPQmg3LWxMa3hfNnRnRXgtZy1XdGs1UkRzZkl0QVg4TXlvZmlGQmhKUjUtZXVqc1J6MXRySjd5S2JoQ2EzZzBaQTl2cUVnWk1mVjRlTTl6dWd4SVNWZVdSellHZVRIc1VPR2E5LXRUQVpKLVBIcjduNlJoaWJXckM1WVlQNG5jeTc0QUVWUUJvY1hxN242RE5EdGhPMkcwVV9TS0VINlV2U2lxeldtdWxhamZmUFRCYlhWQzUxVUR2TEFieHR1VURTS1NPTGtDUFNaT25aRHc5bXhjbjFtUQ?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20261020T130000Z",
           "source": "GoogleNews"
         }
       ],
@@ -10751,6 +10751,38 @@
           "lon": 88.5827,
           "lat": 41.7454,
           "depth_km": 10,
+          "source": "USGS"
+        },
+        {
+          "id": "nc75455551",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1793089588210,
+          "magnitude": 1.73,
+          "magnitude_type": "md",
+          "event_type": "earthquake",
+          "place": "19 km SW of Toms Place, CA",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75455551",
+          "lon": -118.830497741699,
+          "lat": 37.4449996948242,
+          "depth_km": 1.25,
+          "source": "USGS"
+        },
+        {
+          "id": "nn00926293",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1793081682695,
+          "magnitude": 1.84,
+          "magnitude_type": "ml",
+          "event_type": "earthquake",
+          "place": "42 km NW of Rachel, Nevada",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00926293",
+          "lon": -116.1146,
+          "lat": 37.8827,
+          "depth_km": 11.2184,
           "source": "USGS"
         },
         {
