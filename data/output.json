@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "nuclear-proliferation-watch",
-    "generated": "2026-10-29T13:44:48.410845+00:00",
+    "generated": "2026-10-29T22:59:25.745338+00:00",
     "mode": "live",
     "sources": [
       "IAEA official pages",
@@ -14,10 +14,10 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-10-29T13:44:48.402217+00:00",
+    "issued_at": "2026-10-29T22:59:25.738810+00:00",
     "horizon": "0-30 days",
     "classification": "nuclear-escalation-pressure-not-test-or-weapon-probability",
-    "score": 6.0,
+    "score": 7.6,
     "level": "BASELINE",
     "confidence": "HIGH",
     "confidence_score": 100.0,
@@ -26,12 +26,12 @@
         "id": "iaea_safeguards_strain",
         "label": "IAEA safeguards and access strain",
         "available": true,
-        "score": 17.2,
+        "score": 21.8,
         "current_14d_weight": 3.0,
-        "current_14d_titles": 17,
+        "current_14d_titles": 18,
         "baseline_periods": 8,
         "baseline_median": 1.0,
-        "anomaly_z": 1.35,
+        "anomaly_z": 2.7,
         "evidence": [
           {
             "title": "Introductory Course on Agency Safeguards (ICAS) 73",
@@ -103,17 +103,6 @@
     },
     "alerts": [],
     "history": [
-      {
-        "timestamp": "2026-09-09T16:53:56.457515+00:00",
-        "score": 11.4,
-        "level": "BASELINE",
-        "components": {
-          "iaea_safeguards_strain": 25.4,
-          "npwmd_designation_delta": 0.0,
-          "facility_security_incidents": 12.6,
-          "test_site_seismicity": 0.0
-        }
-      },
       {
         "timestamp": "2026-09-09T21:13:25.224540+00:00",
         "score": 11.4,
@@ -2082,6 +2071,17 @@
           "facility_security_incidents": 0.0,
           "test_site_seismicity": 0.0
         }
+      },
+      {
+        "timestamp": "2026-10-29T22:59:25.738810+00:00",
+        "score": 7.6,
+        "level": "BASELINE",
+        "components": {
+          "iaea_safeguards_strain": 21.8,
+          "npwmd_designation_delta": 0.0,
+          "facility_security_incidents": 0.0,
+          "test_site_seismicity": 0.0
+        }
       }
     ],
     "data_health": {
@@ -2129,7 +2129,7 @@
   "stats": [
     {
       "label": "Escalation Pressure",
-      "value": "6.0/100",
+      "value": "7.6/100",
       "delta": "BASELINE"
     },
     {
@@ -2194,15 +2194,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20261023T060000Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "IAEA Mission Finds Kenya Committed to Safe Management of Radioactive Waste as it Develops a Nuclear Power Programme",
-          "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQejhGYUU4RVZjQTJaVGhqa2tTaGdRNGE1LXpJWTFlSzNiZnFGem5oMWZ5RlpQT3BJQzU4U2lOSG11TWZLUkdSSkt0V0phSjVON2ZWakFLc0NpbTJreXpaTXFUeklXM05hS1dVSEh6ekRYbUZYV0ZlcFc4R1phYkJuVXQydzNMbHFYaTBPdXoyUlJrNkl6TF9xb015RWpFZkh0SnhQSENkZTR0ZjVuODdyb08yUkVFajY4WjJ3RGUtbWN5VFBBc1JxaTZsd1VFTWw1bWQyR1RpLWF1dmFVd1YtalR0UEJ2Y1A1TGVQQjM0ZE5jUQ?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20261022T121817Z",
           "source": "GoogleNews"
         },
         {
@@ -2503,15 +2494,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "Press Centre | IAEA",
-          "url": "https://news.google.com/rss/articles/CBMiPkFVX3lxTE92UkdleW9MWGE1c0hWNlVQc3JkUlVzTWZZVENkSUd4WFByaFI5OVlzT25EbDZNdzNaQVcyVTRB?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20150409T043334Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "INFCIRC/1416 - Communication from the Permanent Mission of the Islamic Republic of Iran to the Agency",
           "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1rVXhmcTNoS0w1VnRGdHVIalh4M0RtODFUVFBUNHRKYzRYYTVPcXNfM0Zqb2t5UWRIbWViblNLVDBUN082SC1NQTEtLU9nVE0yTV9WVS1EaUpJdFVXZXI1ZWJaS3hSOEJKUUFfaUNvT21Xdw?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -2527,6 +2509,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20260826T070000Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Press Centre | IAEA",
+          "url": "https://news.google.com/rss/articles/CBMiPkFVX3lxTE92UkdleW9MWGE1c0hWNlVQc3JkUlVzTWZZVENkSUd4WFByaFI5OVlzT25EbDZNdzNaQVcyVTRB?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20150409T043334Z",
           "source": "GoogleNews"
         },
         {
@@ -2693,20 +2684,11 @@
         },
         {
           "title": "Tritium Level Far Below Japan’s Operational Limit in 25th Batch of ALPS Treated Water, IAEA Confirms",
-          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQXzlGSTM0T3BCX011cllocGEzbUJfUjJMX0Y0V29odTRPYjVRX1J4c3hoR3NRS1oxX09TaGp2SUxCVDktOUZKOVR6ZVZwSmswVDZ1bmdGeFItU3JqWkNpUTFPWTZPbjduMTFoZmxmTUtyYjV1V2s2R1RKMWNQOUVuQWszSXBfQnl6OUFJaG1nSExHLWYtNEtrT09tZFdvNlg1aXJMRnVqWHY1MWEzVnhSai1MQWhnc1JKUVh6cjZjOXprZmVlR1ZxYzROeUFrM2o0REVqRGhLTm1Eek9I?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPa1FhS0h5LWFGb3h3Njh4TzRDU0RxdzVtSEpUTXBROW1xanZSazRwanl0NTRyNk1VZUNIN0VzWkZ2T19vMThNY3pPMXowc3M5ZmFSRHdyUmZuR3ZIY2FYb3FjSGhibHJkM3YzRnVzMmZoMnVCOVA1dzctWEJQdWdzTzhkbVhTcUROTUZGSWVXek5vQTEtZmxBODliUWhVcXJXdjhwbkFLWFBXVmRNcDRjX0ROVkktV3dkQ0R4eE5qRnhuS0xBR0puZFczcFQtbGU0aGdGZzRxV1k2TFE?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
           "seendate": "20261027T062908Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "Publications advanced search",
-          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBRNEwzaVlQV0VGTk9qYkFMcWptdzJtR3gzTERMbjIyOTJlU3lyaGl1aXJsaHdkSGo0allnOUR4V09YY0xqLWlWNGRvaUpxQ1lQbVA1SzdXTmRTQW4tXy16R3RPWWIyT3Q5SVNVOWExUm1uVnRl?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260911T194059Z",
           "source": "GoogleNews"
         },
         {
@@ -2863,6 +2845,15 @@
           "source": "GoogleNews"
         },
         {
+          "title": "Wright, H.A.",
+          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBHT0dqUUdDc0hIbHBhTU1TaFpPZVZRaTRieXMtVV9hbndKSGpZZ0MyMHZSbDVfXzVwU1JwdkFPdHM1bjRWeWpDNno2V2ZaVDlk?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20261017T004118Z",
+          "source": "GoogleNews"
+        },
+        {
           "title": "Update 360 – IAEA Director General Statement on Situation in Ukraine",
           "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPQWJQcGRwVlJuVHNFalhqMjFQczFfSTdyNW9WbFpZSG9WSnZZcTVDME9DQWZmZVNRV24zOWZ4OTg1MmRmYkdTZW4yN2lkU0phNGJJQWRENXpCNFhYOVQtdU5tV1FPZ3A3RjRWTHV6bDBSN1NZSVZQZ0hpM1JfRjRnbWdSeEdReVhfRGRZRVlTNTZreHBYOXpJdHRkNHBVWjFNaE9Vd1NZZERTN3BhcHlWVQ?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -2878,15 +2869,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20261002T070000Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "International Symposium on Nuclear Energy R&D: Advancements and Trends 2026 - Programme",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA5ZjF6ekFVOWluWnV4VF83NEsxc3pHMzNHNjJ3cjRhUUJsMXNneHBacFNLYlUyVjhxRzVyQTdYR3Z5MzA3T1FUb0tGWVZHRnZJUE42eWRIQlRhbFRaaUJ5bFV3N0NsUF9OeWc?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260929T191626Z",
           "source": "GoogleNews"
         },
         {
@@ -3004,6 +2986,24 @@
           "language": "",
           "tone": 0,
           "seendate": "20260914T070000Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Publications advanced search",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9yWmtnbW4td295VUtiSTZ3eEMxSzhoMjF6WUNCV3g2eUIwdUxRbWg3NkZKMVlPelJmbDlWTGhRaDdBMmhmOVRfbzJmRjM5M2ppQ3l3Q2IwdXUxVWRGUzJaMVoxMXNIOEdERk9hM1JyZEt1SUYxWkRya0lOVTdNZ1U?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20261019T061222Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "International Symposium on Nuclear Energy R&D: Advancements and Trends 2026 - Programme",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA5ZjF6ekFVOWluWnV4VF83NEsxc3pHMzNHNjJ3cjRhUUJsMXNneHBacFNLYlUyVjhxRzVyQTdYR3Z5MzA3T1FUb0tGWVZHRnZJUE42eWRIQlRhbFRaaUJ5bFV3N0NsUF9OeWc?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260929T191626Z",
           "source": "GoogleNews"
         },
         {
