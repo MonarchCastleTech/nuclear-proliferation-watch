@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "nuclear-proliferation-watch",
-    "generated": "2026-10-29T22:59:25.745338+00:00",
+    "generated": "2026-10-30T06:29:28.600231+00:00",
     "mode": "live",
     "sources": [
       "IAEA official pages",
@@ -14,7 +14,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-10-29T22:59:25.738810+00:00",
+    "issued_at": "2026-10-30T06:29:28.592056+00:00",
     "horizon": "0-30 days",
     "classification": "nuclear-escalation-pressure-not-test-or-weapon-probability",
     "score": 7.6,
@@ -28,7 +28,7 @@
         "available": true,
         "score": 21.8,
         "current_14d_weight": 3.0,
-        "current_14d_titles": 18,
+        "current_14d_titles": 17,
         "baseline_periods": 8,
         "baseline_median": 1.0,
         "anomaly_z": 2.7,
@@ -87,7 +87,7 @@
         "available": true,
         "score": 0.0,
         "current_30d_diagnostic_weight": 0.0,
-        "events_considered": 1792,
+        "events_considered": 1789,
         "sites_monitored": 8,
         "anomaly_z": 0.0,
         "evidence": [],
@@ -103,17 +103,6 @@
     },
     "alerts": [],
     "history": [
-      {
-        "timestamp": "2026-09-09T21:13:25.224540+00:00",
-        "score": 11.4,
-        "level": "BASELINE",
-        "components": {
-          "iaea_safeguards_strain": 25.4,
-          "npwmd_designation_delta": 0.0,
-          "facility_security_incidents": 12.6,
-          "test_site_seismicity": 0.0
-        }
-      },
       {
         "timestamp": "2026-09-10T05:20:09.765307+00:00",
         "score": 11.4,
@@ -2082,6 +2071,17 @@
           "facility_security_incidents": 0.0,
           "test_site_seismicity": 0.0
         }
+      },
+      {
+        "timestamp": "2026-10-30T06:29:28.592056+00:00",
+        "score": 7.6,
+        "level": "BASELINE",
+        "components": {
+          "iaea_safeguards_strain": 21.8,
+          "npwmd_designation_delta": 0.0,
+          "facility_security_incidents": 0.0,
+          "test_site_seismicity": 0.0
+        }
       }
     ],
     "data_health": {
@@ -2161,15 +2161,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "Global Nuclear Power Development Outlook",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOcmJ4Q1ozS2pBNlMyTk5yX3dXemZac05xd1lXZjBlNnFzMFdBMmpTcXVfam04emF0dUM4VlZhUmJfc3hWaFV4T2tZY1l2VnhlSFBNR2pMdnZmdWJKVkRiTzViNWV3UVNibjdxMThwXzNIWWV0RVM1ZkRiY1ZHbzA4dDc2a19YZw?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20261022T103755Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "IAEA’s Grossi Calls for Progress in Deploying Nuclear Power as Ministerial Conference Opens",
           "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOOVFmRUMxX1ZCYkRtYXNyMnFoY0M1cDBGODYzWHlwNGZ2Tk5GMDBQUkRXeEJmSTQ5VkItVnBMaFV1RW5udnZFRWNHS211dTdLczFsYUx4YWtCMmdTakFENkV6ZkRfY01Yc1BienpTeWNyOFg2UHJPNmdGeFUwd0JiQnh1c09tMW8waGJoTnRfamZuRy1zZGF6MXhhR1REMUc3Ym9nY2puVEoyYlpVamFCLWQ5cm9ON0lWc0dXRGRDWnFLMk1neWc?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -2194,6 +2185,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20261023T060000Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Global Nuclear Power Development Outlook",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOcmJ4Q1ozS2pBNlMyTk5yX3dXemZac05xd1lXZjBlNnFzMFdBMmpTcXVfam04emF0dUM4VlZhUmJfc3hWaFV4T2tZY1l2VnhlSFBNR2pMdnZmdWJKVkRiTzViNWV3UVNibjdxMThwXzNIWWV0RVM1ZkRiY1ZHbzA4dDc2a19YZw?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20261022T103755Z",
           "source": "GoogleNews"
         },
         {
@@ -2338,6 +2338,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20260715T070000Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "From Concept to Implementation: Safeguards by Design implementation strategies for effective and efficient safeguards",
+          "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNYjNiSVFFVU9zMEFfWDBTVjlGZG5fTWI2MkJ3MW94U1YtRVJ3UG05RkRadjJpZW52VWt0SVVoS0RpMDlfRUxPd0wtQS0zQ0IzLUVfa3RuZFdjUy12Z2FoeEFJRmtxZlN3TXgxM1JZWkxxNmxBSEJXWDhQXzRBN21iSzZJaHQtVXA3UUdTeUZzWW81elFFeTdubDdQR1hlN3lyMDJ6YUNTNlFDQXZhZjlPWGlkU1NlVVpPclAtSmp4Z3BWdEI3d3pFQlo3S2FvS2JyMkVicW1YQ21VTVNIT3JvczZoN1YwR2JUUDh0eFNtN1FCM2lKd0RHb0Q0ZUtuZFU?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260820T083335Z",
           "source": "GoogleNews"
         },
         {
@@ -2521,21 +2530,21 @@
           "source": "GoogleNews"
         },
         {
-          "title": "What You Need to Know about the IAEA General Conference",
-          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPMDZVNUN0dndNRFE4Ri1lRGtJNVlKMXAwNlFCNDdHTzh4cXl0WUhDSUgyc2RNcTdKZzU3ODFicnNJUkJwTDQ3cEdkWHRJMGpzX0YxNGtJNS0zbkE1cHdUUm9jRkNrNVdyOEw1cFhUcEF6OGN0eFJnVlVYa054M2ZfSERQbm44a1JyZ2FjSE1OYk1nRU9sbkE?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260910T070000Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "IAEA Launches ATLAS as Countries Explore Nuclear Power for Shipping and Offshore Energy",
           "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOMkFxQ0tKejgtSkszMlpJSjQwRnFHUGpUUUk5d1YtQnpjMWFHOTk0eHQ1dWJ1LW1LcG4yb0wwYUtVM3VjTWdfQVFUcXpkUXRubUJOUGtjU05haW4wcnhBSXJKc1dqb2FVWkJJdmpfZTdsaDF1TjhKaEd3ZmU2dl9iVUpseFFlemtWRG85cm1DQzFjRnU2R05wSV8yY1RmNmRLa053RkdpUWRRdDJudDdLdjVwSnBaOWItX0lqWExzOHFzbTVuN1NyRG5ZVGE?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
           "seendate": "20260826T070000Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "What You Need to Know about the IAEA General Conference",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPMDZVNUN0dndNRFE4Ri1lRGtJNVlKMXAwNlFCNDdHTzh4cXl0WUhDSUgyc2RNcTdKZzU3ODFicnNJUkJwTDQ3cEdkWHRJMGpzX0YxNGtJNS0zbkE1cHdUUm9jRkNrNVdyOEw1cFhUcEF6OGN0eFJnVlVYa054M2ZfSERQbm44a1JyZ2FjSE1OYk1nRU9sbkE?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260910T070000Z",
           "source": "GoogleNews"
         },
         {
@@ -2989,16 +2998,7 @@
           "source": "GoogleNews"
         },
         {
-          "title": "Publications advanced search",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9yWmtnbW4td295VUtiSTZ3eEMxSzhoMjF6WUNCV3g2eUIwdUxRbWg3NkZKMVlPelJmbDlWTGhRaDdBMmhmOVRfbzJmRjM5M2ppQ3l3Q2IwdXUxVWRGUzJaMVoxMXNIOEdERk9hM1JyZEt1SUYxWkRya0lOVTdNZ1U?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20261019T061222Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "International Symposium on Nuclear Energy R&D: Advancements and Trends 2026 - Programme",
+          "title": "International Symposium on Nuclear Energy R&D: Advancements and Trends 2026 - Programme | IAEA",
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA5ZjF6ekFVOWluWnV4VF83NEsxc3pHMzNHNjJ3cjRhUUJsMXNneHBacFNLYlUyVjhxRzVyQTdYR3Z5MzA3T1FUb0tGWVZHRnZJUE42eWRIQlRhbFRaaUJ5bFV3N0NsUF9OeWc?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
@@ -10744,6 +10744,22 @@
           "source": "USGS"
         },
         {
+          "id": "ci41569352",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1793334271680,
+          "magnitude": 2.23,
+          "magnitude_type": "ml",
+          "event_type": "earthquake",
+          "place": "15 km SE of Lone Pine, CA",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41569352",
+          "lon": -117.942666666667,
+          "lat": 36.5008333333333,
+          "depth_km": 8.53,
+          "source": "USGS"
+        },
+        {
           "id": "nn00926375",
           "site": "Nevada National Security Site",
           "site_lat": 37.12,
@@ -11244,15 +11260,15 @@
           "site": "Nevada National Security Site",
           "site_lat": 37.12,
           "site_lon": -116.05,
-          "time": 1792482728210,
-          "magnitude": 2.84,
+          "time": 1792482728180,
+          "magnitude": 2.86,
           "magnitude_type": "md",
           "event_type": "earthquake",
           "place": "39 km SSW of Qualeys Camp, NV",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75452411",
-          "lon": -118.668998718262,
-          "lat": 37.9763336181641,
-          "depth_km": 11.3299999237061,
+          "lon": -118.670166666667,
+          "lat": 37.9745,
+          "depth_km": 11.59,
           "source": "USGS"
         },
         {
@@ -38997,70 +39013,6 @@
           "lon": -116.5107,
           "lat": 38.4515,
           "depth_km": 9.0046,
-          "source": "USGS"
-        },
-        {
-          "id": "nn00906534",
-          "site": "Nevada National Security Site",
-          "site_lat": 37.12,
-          "site_lon": -116.05,
-          "time": 1761756977467,
-          "magnitude": 1.95,
-          "magnitude_type": "ml",
-          "event_type": "earthquake",
-          "place": "76 km ENE of Tonopah, Nevada",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00906534",
-          "lon": -116.4854,
-          "lat": 38.4359,
-          "depth_km": 11.4202,
-          "source": "USGS"
-        },
-        {
-          "id": "nn00906530",
-          "site": "Nevada National Security Site",
-          "site_lat": 37.12,
-          "site_lon": -116.05,
-          "time": 1761746834601,
-          "magnitude": 2.15,
-          "magnitude_type": "ml",
-          "event_type": "earthquake",
-          "place": "76 km ENE of Tonopah, Nevada",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00906530",
-          "lon": -116.4934,
-          "lat": 38.4419,
-          "depth_km": 5.5384,
-          "source": "USGS"
-        },
-        {
-          "id": "nn00906521",
-          "site": "Nevada National Security Site",
-          "site_lat": 37.12,
-          "site_lon": -116.05,
-          "time": 1761744064926,
-          "magnitude": 2.01,
-          "magnitude_type": "ml",
-          "event_type": "earthquake",
-          "place": "77 km ENE of Tonopah, Nevada",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00906521",
-          "lon": -116.4962,
-          "lat": 38.4562,
-          "depth_km": 6.609,
-          "source": "USGS"
-        },
-        {
-          "id": "nn00906517",
-          "site": "Nevada National Security Site",
-          "site_lat": 37.12,
-          "site_lon": -116.05,
-          "time": 1761717505237,
-          "magnitude": 1.55,
-          "magnitude_type": "ml",
-          "event_type": "earthquake",
-          "place": "76 km ENE of Tonopah, Nevada",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00906517",
-          "lon": -116.4976,
-          "lat": 38.4455,
-          "depth_km": 5.7515,
           "source": "USGS"
         },
         {
