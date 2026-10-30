@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "nuclear-proliferation-watch",
-    "generated": "2026-10-30T13:46:51.186947+00:00",
+    "generated": "2026-10-30T22:39:38.697115+00:00",
     "mode": "live",
     "sources": [
       "IAEA official pages",
@@ -14,10 +14,10 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-10-30T13:46:51.181249+00:00",
+    "issued_at": "2026-10-30T22:39:38.689536+00:00",
     "horizon": "0-30 days",
     "classification": "nuclear-escalation-pressure-not-test-or-weapon-probability",
-    "score": 6.0,
+    "score": 8.5,
     "level": "BASELINE",
     "confidence": "HIGH",
     "confidence_score": 100.0,
@@ -26,12 +26,12 @@
         "id": "iaea_safeguards_strain",
         "label": "IAEA safeguards and access strain",
         "available": true,
-        "score": 17.2,
-        "current_14d_weight": 3.0,
-        "current_14d_titles": 13,
+        "score": 24.4,
+        "current_14d_weight": 4.0,
+        "current_14d_titles": 16,
         "baseline_periods": 8,
         "baseline_median": 1.0,
-        "anomaly_z": 1.35,
+        "anomaly_z": 2.02,
         "evidence": [
           {
             "title": "Introductory Course on Agency Safeguards (ICAS) 73",
@@ -43,6 +43,12 @@
             "title": "Italy and Romania Establish New Member State Support Programmes to Strengthen IAEA Safeguards",
             "url": null,
             "date": "2026-10-23",
+            "weight": 1.0
+          },
+          {
+            "title": "IAEA Safeguards Symposium 2026: Programme Now Available",
+            "url": null,
+            "date": "2026-10-30",
             "weight": 1.0
           },
           {
@@ -103,17 +109,6 @@
     },
     "alerts": [],
     "history": [
-      {
-        "timestamp": "2026-09-10T11:51:20.834556+00:00",
-        "score": 11.4,
-        "level": "BASELINE",
-        "components": {
-          "iaea_safeguards_strain": 25.4,
-          "npwmd_designation_delta": 0.0,
-          "facility_security_incidents": 12.6,
-          "test_site_seismicity": 0.0
-        }
-      },
       {
         "timestamp": "2026-09-10T16:41:59.048174+00:00",
         "score": 11.4,
@@ -2082,12 +2077,23 @@
           "facility_security_incidents": 0.0,
           "test_site_seismicity": 0.0
         }
+      },
+      {
+        "timestamp": "2026-10-30T22:39:38.689536+00:00",
+        "score": 8.5,
+        "level": "BASELINE",
+        "components": {
+          "iaea_safeguards_strain": 24.4,
+          "npwmd_designation_delta": 0.0,
+          "facility_security_incidents": 0.0,
+          "test_site_seismicity": 0.0
+        }
       }
     ],
     "data_health": {
       "available_components": 4,
       "retained_components": [],
-      "iaea_titles": 50,
+      "iaea_titles": 52,
       "npwmd_entries": 1205,
       "iaea_events": 23,
       "test_sites": 8
@@ -2129,12 +2135,12 @@
   "stats": [
     {
       "label": "Escalation Pressure",
-      "value": "6.0/100",
+      "value": "8.5/100",
       "delta": "BASELINE"
     },
     {
       "label": "IAEA Signals",
-      "value": "50",
+      "value": "52",
       "delta": "official indexed pages"
     },
     {
@@ -2179,6 +2185,15 @@
           "source": "GoogleNews"
         },
         {
+          "title": "News",
+          "url": "https://news.google.com/rss/articles/CBMiPEFVX3lxTE1peHczZzFqc0xPRGR6N1NlaFVwVXpFWF9CZ2JQaUNUQUI3dmxJeERMVmZTTkdIZjhNRTNoMA?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20160825T205731Z",
+          "source": "GoogleNews"
+        },
+        {
           "title": "What is Nuclear Fuel?",
           "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBWOVl2OTI5S2dyYW81UUJlRFhhWktCb1JXNkNybDcxTFFVSTZibFNLbFlYb3ZtZExJX09kTFNkRzdMNy1EUkVranhTN0ZVVHhTU2hvd0tmZkdra1NLRjZBckszVmY5ZFk?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -2212,6 +2227,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20261023T060000Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "IAEA Safeguards Symposium 2026: Programme Now Available",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQaGVYbnNrYXNxcXhLczE5b2x6cW44Y2J2cE9zVzI0UDdLRFJOdjZ5d0xRVjFVYWEySVpqQnRRRllmNmhXQ2U4R1hOWUUwLTFPemgxTVRjYmNyV1l6T3B2V05xcDByLXBhWU85UW5vakRqeXg4cUJSQjlKaEU5RlBRZXI3Rl9qdlBIZG1QZlB2NFlpRFpreXc?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20261030T194404Z",
           "source": "GoogleNews"
         },
         {
@@ -2341,6 +2365,15 @@
           "source": "GoogleNews"
         },
         {
+          "title": "Upcoming events",
+          "url": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE5KM2gxMjlYeFVlanRvdTNOc2dkMENIZ0l1R3pmUG1nOFpsWklBZlNyX01OOThMQU9JTnRHN2xMOA?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20160827T061834Z",
+          "source": "GoogleNews"
+        },
+        {
           "title": "IAEA Symposium on International Safeguards 2026: Call for Papers and Student Competition",
           "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9IU0lwcjViX1NfLVpWOGZWeHZ1YjRncVl5R2lhMl9QaDFiRS00NExHQ0ZpRjVzTmxDMXNHWUwySk9VSGRJOXhvbE1wNA?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -2392,15 +2425,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20260909T070000Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "News",
-          "url": "https://news.google.com/rss/articles/CBMiPEFVX3lxTE1peHczZzFqc0xPRGR6N1NlaFVwVXpFWF9CZ2JQaUNUQUI3dmxJeERMVmZTTkdIZjhNRTNoMA?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20160825T205731Z",
           "source": "GoogleNews"
         },
         {
@@ -2464,15 +2488,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20260908T070000Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "Press Centre | IAEA",
-          "url": "https://news.google.com/rss/articles/CBMiPkFVX3lxTE92UkdleW9MWGE1c0hWNlVQc3JkUlVzTWZZVENkSUd4WFByaFI5OVlzT25EbDZNdzNaQVcyVTRB?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20150409T043334Z",
           "source": "GoogleNews"
         },
         {
@@ -2557,12 +2572,12 @@
           "source": "GoogleNews"
         },
         {
-          "title": "Director General's Statement to the Seventieth Regular Session of the IAEA General Conference",
-          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPV0QteXlTbEo4Z2p5aXJ2c2tHVThVcGVmd2hmNnhzOVZEUnoyRjNwQ0ZaME9TTnFDRFdSZ2ZYZFFrakR4V3NSc29JMm1IWUNGX3hNOEwxZjBzZWVEY0RtVVg1OURRQlozQmV0aERsbUlheHR1S2M4dTNXUk90Yl9CSjE5NHVTMW0tRV84WEs5RGNydDQtYnkyU1R5YWF0VkhQODczczlQbnR0WDhyUWZSMjUzQnJ0dEpvd0MwMWtKRFctMU5uWkdWbjdQTXRzMms?oc=5",
+          "title": "Update 373 – IAEA Director General Statement on Situation in Ukraine",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQc1dSTUFDMkV4SXZORUQwSUVQRWJ3dlgzOE9rbEZpWlZudFBENU83QzRZRG80blZXQUhNM2owZ0dwTXFLTXExc2QxX0tReXBoOV9ieWUyV1pwNDRENmNTYlBtV0stbVJFd2hoR21XWTltTzBsUEdTQ2JRdlBPWWVXQzJUWGVhSzJTRTMzeUcyMWlOR1lDNUlQZUFkdlJZY2hiUVhIei1RS1pZNmJHRTRzTUVn?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
-          "seendate": "20260914T070000Z",
+          "seendate": "20261030T165016Z",
           "source": "GoogleNews"
         },
         {
@@ -2599,6 +2614,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20260921T070000Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "How Nuclear Technology Is Helping Cities Become More Sustainable",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQMnZ0SUE4TlZRSXlpTXBPRXBhOE5maXpUMFpYak1NM1B6V1NzTUNIVE5Lb2JXczVMU3p6ZTZ4ZGExUm1sN3F3MmZVSm0yUXVVRGxRYnUyNmpFNFNNQlBWSERoSlFuTXVqOVZpNU9id0tvVUUxbVNaV2JCY3FNRWx4d3pxN20tckRNREtieWhIbmJrajNFd1o5VWotT3kzbnR0bFM4?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20261030T080000Z",
           "source": "GoogleNews"
         }
       ],
@@ -10312,6 +10336,22 @@
           "source": "USGS"
         },
         {
+          "id": "nn00926473",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1793395548617,
+          "magnitude": 1.56,
+          "magnitude_type": "ml",
+          "event_type": "earthquake",
+          "place": "14 km N of Summerlin South, Nevada",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00926473",
+          "lon": -115.3116,
+          "lat": 36.2464,
+          "depth_km": 6.1762,
+          "source": "USGS"
+        },
+        {
           "id": "nc75459817",
           "site": "Nevada National Security Site",
           "site_lat": 37.12,
@@ -10821,22 +10861,6 @@
           "lon": -116.0368,
           "lat": 38.8049,
           "depth_km": 1.5666,
-          "source": "USGS"
-        },
-        {
-          "id": "nn00925999",
-          "site": "Nevada National Security Site",
-          "site_lat": 37.12,
-          "site_lon": -116.05,
-          "time": 1792498028266,
-          "magnitude": 1.53,
-          "magnitude_type": "ml",
-          "event_type": "earthquake",
-          "place": "26 km S of Dyer, Nevada",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00925999",
-          "lon": -118.0243,
-          "lat": 37.4295,
-          "depth_km": 4.2401,
           "source": "USGS"
         },
         {
@@ -38800,6 +38824,12 @@
       "title": "Italy and Romania Establish New Member State Support Programmes to Strengthen IAEA Safeguards",
       "url": null,
       "date": "2026-10-23",
+      "weight": 1.0
+    },
+    {
+      "title": "IAEA Safeguards Symposium 2026: Programme Now Available",
+      "url": null,
+      "date": "2026-10-30",
       "weight": 1.0
     },
     {
