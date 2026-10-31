@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "nuclear-proliferation-watch",
-    "generated": "2026-10-31T06:19:35.419219+00:00",
+    "generated": "2026-10-31T13:05:50.786242+00:00",
     "mode": "live",
     "sources": [
       "IAEA official pages",
@@ -14,7 +14,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-10-31T06:19:35.414807+00:00",
+    "issued_at": "2026-10-31T13:05:50.780331+00:00",
     "horizon": "0-30 days",
     "classification": "nuclear-escalation-pressure-not-test-or-weapon-probability",
     "score": 8.5,
@@ -93,7 +93,7 @@
         "available": true,
         "score": 0.0,
         "current_30d_diagnostic_weight": 0.0,
-        "events_considered": 1783,
+        "events_considered": 1784,
         "sites_monitored": 8,
         "anomaly_z": 0.0,
         "evidence": [],
@@ -109,17 +109,6 @@
     },
     "alerts": [],
     "history": [
-      {
-        "timestamp": "2026-09-10T21:13:05.423041+00:00",
-        "score": 11.4,
-        "level": "BASELINE",
-        "components": {
-          "iaea_safeguards_strain": 25.4,
-          "npwmd_designation_delta": 0.0,
-          "facility_security_incidents": 12.6,
-          "test_site_seismicity": 0.0
-        }
-      },
       {
         "timestamp": "2026-09-11T05:17:42.460654+00:00",
         "score": 11.4,
@@ -2088,12 +2077,23 @@
           "facility_security_incidents": 0.0,
           "test_site_seismicity": 0.0
         }
+      },
+      {
+        "timestamp": "2026-10-31T13:05:50.780331+00:00",
+        "score": 8.5,
+        "level": "BASELINE",
+        "components": {
+          "iaea_safeguards_strain": 24.4,
+          "npwmd_designation_delta": 0.0,
+          "facility_security_incidents": 0.0,
+          "test_site_seismicity": 0.0
+        }
       }
     ],
     "data_health": {
       "available_components": 4,
       "retained_components": [],
-      "iaea_titles": 51,
+      "iaea_titles": 52,
       "npwmd_entries": 1205,
       "iaea_events": 23,
       "test_sites": 8
@@ -2140,7 +2140,7 @@
     },
     {
       "label": "IAEA Signals",
-      "value": "51",
+      "value": "52",
       "delta": "official indexed pages"
     },
     {
@@ -2564,11 +2564,20 @@
         },
         {
           "title": "Director General Statement to 81st Session of the UN General Assembly",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNdjllS1JLVzd0NmhyRXpxZzVZZjNPWWd5Y3VzN0lScUttQ3FlcFJqVGh4RGdkXzdGZWV0LTVqSW9GZW8tQnk3U0h3VFc3eHBTQWMzSEIyQThqMGhjLXFGdDRlR0trWVFBNnV0VmxsMW0xUUJjbmVac1J0aDJfYzlPTTYwZDJjY3cwSUE3b25xUjF5aFRWaVdHTGZZdnRPT1ViMXN0cnFBcm5fX3cyUUMxdE9R?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQdE4yQWt4ck9ERGZUMjBZek9sX082VVR2WXRJX05OY2JrRGRfa1N5ZzRwRjdNTW5QdjdteUllUE1mczNTejJVZ0FwdlRfeTNPVmlyUzdiRUxScmRuVmpvZ0tCX0lhcUxPTTZSY2pkTlhjUmRHQnpZcG1lSG9WSzBudmJ2VkRrREtXT2Vza0JkT0pfdHNQVG1jb2Rjc3JQc1VrQmJLRndETTdhc2hZeHFNMg?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
           "seendate": "20261023T070000Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Director General's Statement to the Seventieth Regular Session of the IAEA General Conference",
+          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPV0QteXlTbEo4Z2p5aXJ2c2tHVThVcGVmd2hmNnhzOVZEUnoyRjNwQ0ZaME9TTnFDRFdSZ2ZYZFFrakR4V3NSc29JMm1IWUNGX3hNOEwxZjBzZWVEY0RtVVg1OURRQlozQmV0aERsbUlheHR1S2M4dTNXUk90Yl9CSjE5NHVTMW0tRV84WEs5RGNydDQtYnkyU1R5YWF0VkhQODczczlQbnR0WDhyUWZSMjUzQnJ0dEpvd0MwMWtKRFctMU5uWkdWbjdQTXRzMms?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260914T070000Z",
           "source": "GoogleNews"
         },
         {
@@ -10324,6 +10333,22 @@
           "lon": 89.0912,
           "lat": 43.7287,
           "depth_km": 10,
+          "source": "USGS"
+        },
+        {
+          "id": "ci41570336",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1793448003330,
+          "magnitude": 1.79657309734456,
+          "magnitude_type": "ml",
+          "event_type": "earthquake",
+          "place": "15 km WSW of Searles Valley, CA",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41570336",
+          "lon": -117.563667297363,
+          "lat": 35.7314987182617,
+          "depth_km": 6.59000015258789,
           "source": "USGS"
         },
         {
