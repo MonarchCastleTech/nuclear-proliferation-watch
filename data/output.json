@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "nuclear-proliferation-watch",
-    "generated": "2026-11-01T18:07:29.945481+00:00",
+    "generated": "2026-11-01T22:26:46.927375+00:00",
     "mode": "live",
     "sources": [
       "IAEA official pages",
@@ -14,7 +14,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-11-01T18:07:29.939373+00:00",
+    "issued_at": "2026-11-01T22:26:46.920975+00:00",
     "horizon": "0-30 days",
     "classification": "nuclear-escalation-pressure-not-test-or-weapon-probability",
     "score": 8.5,
@@ -28,7 +28,7 @@
         "available": true,
         "score": 24.4,
         "current_14d_weight": 4.0,
-        "current_14d_titles": 17,
+        "current_14d_titles": 18,
         "baseline_periods": 8,
         "baseline_median": 1.0,
         "anomaly_z": 2.02,
@@ -93,7 +93,7 @@
         "available": true,
         "score": 0.0,
         "current_30d_diagnostic_weight": 0.0,
-        "events_considered": 1778,
+        "events_considered": 1779,
         "sites_monitored": 8,
         "anomaly_z": 0.0,
         "evidence": [],
@@ -109,17 +109,6 @@
     },
     "alerts": [],
     "history": [
-      {
-        "timestamp": "2026-09-11T21:20:25.978073+00:00",
-        "score": 2.5,
-        "level": "BASELINE",
-        "components": {
-          "iaea_safeguards_strain": 0.0,
-          "npwmd_designation_delta": 0.0,
-          "facility_security_incidents": 12.6,
-          "test_site_seismicity": 0.0
-        }
-      },
       {
         "timestamp": "2026-09-12T05:06:54.558794+00:00",
         "score": 9.8,
@@ -2088,12 +2077,23 @@
           "facility_security_incidents": 0.0,
           "test_site_seismicity": 0.0
         }
+      },
+      {
+        "timestamp": "2026-11-01T22:26:46.920975+00:00",
+        "score": 8.5,
+        "level": "BASELINE",
+        "components": {
+          "iaea_safeguards_strain": 24.4,
+          "npwmd_designation_delta": 0.0,
+          "facility_security_incidents": 0.0,
+          "test_site_seismicity": 0.0
+        }
       }
     ],
     "data_health": {
       "available_components": 4,
       "retained_components": [],
-      "iaea_titles": 100,
+      "iaea_titles": 99,
       "npwmd_entries": 1205,
       "iaea_events": 23,
       "test_sites": 8
@@ -2140,7 +2140,7 @@
     },
     {
       "label": "IAEA Signals",
-      "value": "100",
+      "value": "99",
       "delta": "official indexed pages"
     },
     {
@@ -2626,6 +2626,15 @@
           "source": "GoogleNews"
         },
         {
+          "title": "INIS – International Nuclear Information System",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1Kdi1Ua0M5UlIzbE56alN3amxfRktVRkUwdm80d3NwVHoyUDFESk1ReEVTTEpFWThlcWdYRmt2TV91QlR4Q3QyaDhkMF9Rd3BfcmFhUkFyZWg3dw?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20261024T191248Z",
+          "source": "GoogleNews"
+        },
+        {
           "title": "International Ministerial Conference on Nuclear Power - Provisional Programme | IAEA",
           "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOcnZQVUlTS0loZlJOenFISElOWnJaWF9nM0hfeW02akNuOHRKY2dGUDFRcjJ6bEpKSzFnMTFKSUREbVdfdWdYUmtXZ3NieElkSTlvbkhiZHVYMURlcGotYWlIOG83dDhvWWpzNnFRT0pIeFBmZ2RoeUdRcDNRYTFrWU5RTXQ?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -2860,15 +2869,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "What is Nuclear Fuel?",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBWOVl2OTI5S2dyYW81UUJlRFhhWktCb1JXNkNybDcxTFFVSTZibFNLbFlYb3ZtZExJX09kTFNkRzdMNy1EUkVranhTN0ZVVHhTU2hvd0tmZkdra1NLRjZBckszVmY5ZFk?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20261023T060000Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "Update 360 – IAEA Director General Statement on Situation in Ukraine",
           "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPQWJQcGRwVlJuVHNFalhqMjFQczFfSTdyNW9WbFpZSG9WSnZZcTVDME9DQWZmZVNRV24zOWZ4OTg1MmRmYkdTZW4yN2lkU0phNGJJQWRENXpCNFhYOVQtdU5tV1FPZ3A3RjRWTHV6bDBSN1NZSVZQZ0hpM1JfRjRnbWdSeEdReVhfRGRZRVlTNTZreHBYOXpJdHRkNHBVWjFNaE9Vd1NZZERTN3BhcHlWVQ?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -2986,6 +2986,15 @@
           "source": "GoogleNews"
         },
         {
+          "title": "What is Nuclear Fuel?",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBWOVl2OTI5S2dyYW81UUJlRFhhWktCb1JXNkNybDcxTFFVSTZibFNLbFlYb3ZtZExJX09kTFNkRzdMNy1EUkVranhTN0ZVVHhTU2hvd0tmZkdra1NLRjZBckszVmY5ZFk?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20261023T060000Z",
+          "source": "GoogleNews"
+        },
+        {
           "title": "Statement of the Republic of Cyprus to the 70th IAEA General Conference Vienna, Austria, 14 September 2026",
           "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBOTGl6ZVNCS1JWS2RHMzdUc29TRm1XZUJtdHNISVB5ZDVBcEEyZzd4Nk9DOXJFOExVVmtxTE1ncUVQT2pNWkc3d2N4QnNaeEJFVThlRExfc0VwVEZjdk1EX0hMWEsxUXZkRzRNVVFZNU1obFdu?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -3037,24 +3046,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20260918T070000Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "Effective Regulatory Oversight – Looking Back to Ensure Readiness for Future Challenges",
-          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPMGFPUUJxT3lDTWQzcl9vczIyUXZwTXMtUE40VXZwa1dnczhWMTJEcU5NQWlSenVwVVVjYUR4enZKUnVMenRNYnhqaXo1a3lNYnVpV2tKSnk2Y3pvbHlYMTBkUFcwT0l6MGEzRUYtaFloMHNSWWhudnhRRXVWT0d4UTFiRHFnSDFzNVNNMEF5UGVpcXBSN2lTbXZ4V2RxSEpTY2ZNRE1WUWRLQVRmVWpNSE0zVFBVSTBVSnhzbmtXa0J3ZGp5U3R5eDU0VWc3Rmp6czJtbE5Idk0?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260820T110550Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "IAEA and World Bank Group Collaborate to Advance Nuclear Energy for Development",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNSENsRUU3amZoRmhWTDhoQjB2VDFqQ0tkeUZ0cDhDamFiTVp4UTdiS2tKSzNXa0JNejRfVU4yLWJkRjZsdU1xdHhJVDlid0M2YzhDOFZCNXhTeDFoR0otV0o3amwzV29iQmdpcnBoV2p4aFRsUnlwSFZLUFZubHdlTVFya0dROElJUjdYVE5PYzlqazYxSjczUFVXODd0ZF9Ka0RyM2dBV3FZUl9ReHBDbTNGN3VoZw?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260708T070000Z",
           "source": "GoogleNews"
         }
       ],
@@ -10765,6 +10756,22 @@
           "lon": 89.0912,
           "lat": 43.7287,
           "depth_km": 10,
+          "source": "USGS"
+        },
+        {
+          "id": "nn00926536",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1793569814144,
+          "magnitude": 1.91,
+          "magnitude_type": "ml",
+          "event_type": "earthquake",
+          "place": "84 km NE of Tonopah, Nevada",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00926536",
+          "lon": -116.4575,
+          "lat": 38.5242,
+          "depth_km": 0.0073,
           "source": "USGS"
         },
         {
