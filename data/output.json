@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "nuclear-proliferation-watch",
-    "generated": "2026-11-01T22:26:46.927375+00:00",
+    "generated": "2026-11-02T06:52:21.411503+00:00",
     "mode": "live",
     "sources": [
       "IAEA official pages",
@@ -14,7 +14,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-11-01T22:26:46.920975+00:00",
+    "issued_at": "2026-11-02T06:52:21.403016+00:00",
     "horizon": "0-30 days",
     "classification": "nuclear-escalation-pressure-not-test-or-weapon-probability",
     "score": 8.5,
@@ -28,7 +28,7 @@
         "available": true,
         "score": 24.4,
         "current_14d_weight": 4.0,
-        "current_14d_titles": 18,
+        "current_14d_titles": 16,
         "baseline_periods": 8,
         "baseline_median": 1.0,
         "anomaly_z": 2.02,
@@ -93,7 +93,7 @@
         "available": true,
         "score": 0.0,
         "current_30d_diagnostic_weight": 0.0,
-        "events_considered": 1779,
+        "events_considered": 1770,
         "sites_monitored": 8,
         "anomaly_z": 0.0,
         "evidence": [],
@@ -109,17 +109,6 @@
     },
     "alerts": [],
     "history": [
-      {
-        "timestamp": "2026-09-12T05:06:54.558794+00:00",
-        "score": 9.8,
-        "level": "BASELINE",
-        "components": {
-          "iaea_safeguards_strain": 20.8,
-          "npwmd_designation_delta": 0.0,
-          "facility_security_incidents": 12.6,
-          "test_site_seismicity": 0.0
-        }
-      },
       {
         "timestamp": "2026-09-12T11:16:24.543196+00:00",
         "score": 2.5,
@@ -2088,6 +2077,17 @@
           "facility_security_incidents": 0.0,
           "test_site_seismicity": 0.0
         }
+      },
+      {
+        "timestamp": "2026-11-02T06:52:21.403016+00:00",
+        "score": 8.5,
+        "level": "BASELINE",
+        "components": {
+          "iaea_safeguards_strain": 24.4,
+          "npwmd_designation_delta": 0.0,
+          "facility_security_incidents": 0.0,
+          "test_site_seismicity": 0.0
+        }
       }
     ],
     "data_health": {
@@ -2185,15 +2185,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "How Nuclear Technology Is Helping Cities Become More Sustainable",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQMnZ0SUE4TlZRSXlpTXBPRXBhOE5maXpUMFpYak1NM1B6V1NzTUNIVE5Lb2JXczVMU3p6ZTZ4ZGExUm1sN3F3MmZVSm0yUXVVRGxRYnUyNmpFNFNNQlBWSERoSlFuTXVqOVZpNU9id0tvVUUxbVNaV2JCY3FNRWx4d3pxN20tckRNREtieWhIbmJrajNFd1o5VWotT3kzbnR0bFM4?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20261030T080000Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "News",
           "url": "https://news.google.com/rss/articles/CBMiPEFVX3lxTE1peHczZzFqc0xPRGR6N1NlaFVwVXpFWF9CZ2JQaUNUQUI3dmxJeERMVmZTTkdIZjhNRTNoMA?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -2254,15 +2245,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20260727T070000Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "Hybrid Event: Technical Meeting on Verification and Validation of Software Related to Nuclear Power Plant Instrumentation and Control",
-          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE15ZkM4ZktKUUg2cTFkZml1N01nWDh6N0ZHaGZUeHd4WVdqUlBvbVRSNlpiWEVPQlUyUmh1MUNRWmgzdjE2SF9WZ05JWFVPQnJYQ0tpSDF4WFJURVI0MjhETXQ4RGI3NjVGMTlTYmlJekhyV0NlSUV3RWZrSFFWdw?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20261023T070000Z",
           "source": "GoogleNews"
         },
         {
@@ -2371,6 +2353,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20260820T083335Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Hybrid Event: Technical Meeting on Verification and Validation of Software Related to Nuclear Power Plant Instrumentation and Control",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE15ZkM4ZktKUUg2cTFkZml1N01nWDh6N0ZHaGZUeHd4WVdqUlBvbVRSNlpiWEVPQlUyUmh1MUNRWmgzdjE2SF9WZ05JWFVPQnJYQ0tpSDF4WFJURVI0MjhETXQ4RGI3NjVGMTlTYmlJekhyV0NlSUV3RWZrSFFWdw?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20261023T070000Z",
           "source": "GoogleNews"
         },
         {
@@ -2626,12 +2617,12 @@
           "source": "GoogleNews"
         },
         {
-          "title": "INIS – International Nuclear Information System",
-          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1Kdi1Ua0M5UlIzbE56alN3amxfRktVRkUwdm80d3NwVHoyUDFESk1ReEVTTEpFWThlcWdYRmt2TV91QlR4Q3QyaDhkMF9Rd3BfcmFhUkFyZWg3dw?oc=5",
+          "title": "International Ministerial Conference on Nuclear Power | IAEA",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1ZeFl3dXN6UGlBTEZiSy1iNldraTZHcnBOV1gtS1hRcmwxSVhkTHJFd1R4RzJRSm1Band3SWVST3IxZnFBcUdIbllwX1AzbnR4N0tHaXNSV0JIVHJZeTU4U2xtdzJaeU00anVCMXdIelQwNTYwanEw?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
-          "seendate": "20261024T191248Z",
+          "seendate": "20261029T070000Z",
           "source": "GoogleNews"
         },
         {
@@ -2986,15 +2977,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "What is Nuclear Fuel?",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBWOVl2OTI5S2dyYW81UUJlRFhhWktCb1JXNkNybDcxTFFVSTZibFNLbFlYb3ZtZExJX09kTFNkRzdMNy1EUkVranhTN0ZVVHhTU2hvd0tmZkdra1NLRjZBckszVmY5ZFk?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20261023T060000Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "Statement of the Republic of Cyprus to the 70th IAEA General Conference Vienna, Austria, 14 September 2026",
           "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBOTGl6ZVNCS1JWS2RHMzdUc29TRm1XZUJtdHNISVB5ZDVBcEEyZzd4Nk9DOXJFOExVVmtxTE1ncUVQT2pNWkc3d2N4QnNaeEJFVThlRExfc0VwVEZjdk1EX0hMWEsxUXZkRzRNVVFZNU1obFdu?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -3046,6 +3028,24 @@
           "language": "",
           "tone": 0,
           "seendate": "20260918T070000Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Effective Regulatory Oversight – Looking Back to Ensure Readiness for Future Challenges",
+          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPMGFPUUJxT3lDTWQzcl9vczIyUXZwTXMtUE40VXZwa1dnczhWMTJEcU5NQWlSenVwVVVjYUR4enZKUnVMenRNYnhqaXo1a3lNYnVpV2tKSnk2Y3pvbHlYMTBkUFcwT0l6MGEzRUYtaFloMHNSWWhudnhRRXVWT0d4UTFiRHFnSDFzNVNNMEF5UGVpcXBSN2lTbXZ4V2RxSEpTY2ZNRE1WUWRLQVRmVWpNSE0zVFBVSTBVSnhzbmtXa0J3ZGp5U3R5eDU0VWc3Rmp6czJtbE5Idk0?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260820T110550Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "IAEA and World Bank Group Collaborate to Advance Nuclear Energy for Development",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNSENsRUU3amZoRmhWTDhoQjB2VDFqQ0tkeUZ0cDhDamFiTVp4UTdiS2tKSzNXa0JNejRfVU4yLWJkRjZsdU1xdHhJVDlid0M2YzhDOFZCNXhTeDFoR0otV0o3amwzV29iQmdpcnBoV2p4aFRsUnlwSFZLUFZubHdlTVFya0dROElJUjdYVE5PYzlqazYxSjczUFVXODd0ZF9Ka0RyM2dBV3FZUl9ReHBDbTNGN3VoZw?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260708T070000Z",
           "source": "GoogleNews"
         }
       ],
@@ -38724,150 +38724,6 @@
           "lon": -117.716,
           "lat": 38.2365,
           "depth_km": 1.3911,
-          "source": "USGS"
-        },
-        {
-          "id": "nn00906696",
-          "site": "Nevada National Security Site",
-          "site_lat": 37.12,
-          "site_lon": -116.05,
-          "time": 1762040600396,
-          "magnitude": 1.54,
-          "magnitude_type": "ml",
-          "event_type": "earthquake",
-          "place": "72 km NE of Tonopah, Nevada",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00906696",
-          "lon": -116.5536,
-          "lat": 38.45,
-          "depth_km": 10.6824,
-          "source": "USGS"
-        },
-        {
-          "id": "nn00906695",
-          "site": "Nevada National Security Site",
-          "site_lat": 37.12,
-          "site_lon": -116.05,
-          "time": 1762037172395,
-          "magnitude": 1.65,
-          "magnitude_type": "ml",
-          "event_type": "earthquake",
-          "place": "85 km NE of Tonopah, Nevada",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00906695",
-          "lon": -116.4502,
-          "lat": 38.5296,
-          "depth_km": 7.5694,
-          "source": "USGS"
-        },
-        {
-          "id": "nn00906681",
-          "site": "Nevada National Security Site",
-          "site_lat": 37.12,
-          "site_lon": -116.05,
-          "time": 1762024696099,
-          "magnitude": 2.64,
-          "magnitude_type": "ml",
-          "event_type": "earthquake",
-          "place": "74 km ENE of Tonopah, Nevada",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00906681",
-          "lon": -116.5197,
-          "lat": 38.4407,
-          "depth_km": 6.7258,
-          "source": "USGS"
-        },
-        {
-          "id": "nn00906677",
-          "site": "Nevada National Security Site",
-          "site_lat": 37.12,
-          "site_lon": -116.05,
-          "time": 1762024515795,
-          "magnitude": 3.67,
-          "magnitude_type": "ml",
-          "event_type": "earthquake",
-          "place": "76 km NE of Tonopah, Nevada",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00906677",
-          "lon": -116.5078,
-          "lat": 38.4519,
-          "depth_km": 2.2932,
-          "source": "USGS"
-        },
-        {
-          "id": "nn00906674",
-          "site": "Nevada National Security Site",
-          "site_lat": 37.12,
-          "site_lon": -116.05,
-          "time": 1762022854935,
-          "magnitude": 2.62,
-          "magnitude_type": "ml",
-          "event_type": "earthquake",
-          "place": "75 km ENE of Tonopah, Nevada",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00906674",
-          "lon": -116.5119,
-          "lat": 38.4477,
-          "depth_km": 6.2276,
-          "source": "USGS"
-        },
-        {
-          "id": "nn00906665",
-          "site": "Nevada National Security Site",
-          "site_lat": 37.12,
-          "site_lon": -116.05,
-          "time": 1761993187759,
-          "magnitude": 1.78,
-          "magnitude_type": "ml",
-          "event_type": "earthquake",
-          "place": "80 km ENE of Tonopah, Nevada",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00906665",
-          "lon": -116.4613,
-          "lat": 38.4696,
-          "depth_km": 5.2311,
-          "source": "USGS"
-        },
-        {
-          "id": "nn00906663",
-          "site": "Nevada National Security Site",
-          "site_lat": 37.12,
-          "site_lon": -116.05,
-          "time": 1761992133989,
-          "magnitude": 1.73,
-          "magnitude_type": "ml",
-          "event_type": "earthquake",
-          "place": "82 km ENE of Tonopah, Nevada",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00906663",
-          "lon": -116.4421,
-          "lat": 38.476,
-          "depth_km": 7.5559,
-          "source": "USGS"
-        },
-        {
-          "id": "nn00906659",
-          "site": "Nevada National Security Site",
-          "site_lat": 37.12,
-          "site_lon": -116.05,
-          "time": 1761974985703,
-          "magnitude": 1.68,
-          "magnitude_type": "ml",
-          "event_type": "earthquake",
-          "place": "81 km NE of Tonopah, Nevada",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00906659",
-          "lon": -116.466,
-          "lat": 38.4933,
-          "depth_km": 1.2837,
-          "source": "USGS"
-        },
-        {
-          "id": "nn00906653",
-          "site": "Nevada National Security Site",
-          "site_lat": 37.12,
-          "site_lon": -116.05,
-          "time": 1761957914222,
-          "magnitude": 1.7,
-          "magnitude_type": "ml",
-          "event_type": "earthquake",
-          "place": "79 km NE of Tonopah, Nevada",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00906653",
-          "lon": -116.4862,
-          "lat": 38.471,
-          "depth_km": 5.2997,
           "source": "USGS"
         },
         {
