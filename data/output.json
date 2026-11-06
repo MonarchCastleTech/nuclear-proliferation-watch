@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "nuclear-proliferation-watch",
-    "generated": "2026-11-05T20:17:25.189430+00:00",
+    "generated": "2026-11-06T07:25:43.837227+00:00",
     "mode": "live",
     "sources": [
       "IAEA official pages",
@@ -14,10 +14,10 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-11-05T20:17:25.182020+00:00",
+    "issued_at": "2026-11-06T07:25:43.828285+00:00",
     "horizon": "0-30 days",
     "classification": "nuclear-escalation-pressure-not-test-or-weapon-probability",
-    "score": 8.5,
+    "score": 7.6,
     "level": "BASELINE",
     "confidence": "HIGH",
     "confidence_score": 100.0,
@@ -26,13 +26,19 @@
         "id": "iaea_safeguards_strain",
         "label": "IAEA safeguards and access strain",
         "available": true,
-        "score": 24.4,
-        "current_14d_weight": 4.0,
-        "current_14d_titles": 14,
+        "score": 21.8,
+        "current_14d_weight": 3.0,
+        "current_14d_titles": 11,
         "baseline_periods": 8,
-        "baseline_median": 1.0,
+        "baseline_median": 1.5,
         "anomaly_z": 2.02,
         "evidence": [
+          {
+            "title": "IAEA to Host Symposium on International Safeguards, 9 to 12 November",
+            "url": null,
+            "date": "2026-11-05",
+            "weight": 1.0
+          },
           {
             "title": "Introductory Course on Agency Safeguards (ICAS) 72",
             "url": null,
@@ -40,21 +46,9 @@
             "weight": 1.0
           },
           {
-            "title": "Italy and Romania Establish New Member State Support Programmes to Strengthen IAEA Safeguards",
-            "url": null,
-            "date": "2026-10-23",
-            "weight": 1.0
-          },
-          {
             "title": "IAEA Safeguards Symposium 2026: Programme Now Available",
             "url": null,
             "date": "2026-10-30",
-            "weight": 1.0
-          },
-          {
-            "title": "Hybrid Event: Technical Meeting on Verification and Validation of Software Related to Nuclear Power Plant Instrumentation and Control",
-            "url": null,
-            "date": "2026-10-23",
             "weight": 1.0
           }
         ],
@@ -93,7 +87,7 @@
         "available": true,
         "score": 0.0,
         "current_30d_diagnostic_weight": 0.0,
-        "events_considered": 1768,
+        "events_considered": 1765,
         "sites_monitored": 8,
         "anomaly_z": 0.0,
         "evidence": [],
@@ -109,17 +103,6 @@
     },
     "alerts": [],
     "history": [
-      {
-        "timestamp": "2026-09-14T05:28:16.924801+00:00",
-        "score": 9.8,
-        "level": "BASELINE",
-        "components": {
-          "iaea_safeguards_strain": 20.8,
-          "npwmd_designation_delta": 0.0,
-          "facility_security_incidents": 12.6,
-          "test_site_seismicity": 0.0
-        }
-      },
       {
         "timestamp": "2026-09-14T13:22:25.051494+00:00",
         "score": 9.8,
@@ -2088,12 +2071,23 @@
           "facility_security_incidents": 0.0,
           "test_site_seismicity": 0.0
         }
+      },
+      {
+        "timestamp": "2026-11-06T07:25:43.828285+00:00",
+        "score": 7.6,
+        "level": "BASELINE",
+        "components": {
+          "iaea_safeguards_strain": 21.8,
+          "npwmd_designation_delta": 0.0,
+          "facility_security_incidents": 0.0,
+          "test_site_seismicity": 0.0
+        }
       }
     ],
     "data_health": {
       "available_components": 4,
       "retained_components": [],
-      "iaea_titles": 52,
+      "iaea_titles": 49,
       "npwmd_entries": 1205,
       "iaea_events": 23,
       "test_sites": 8
@@ -2135,12 +2129,12 @@
   "stats": [
     {
       "label": "Escalation Pressure",
-      "value": "8.5/100",
+      "value": "7.6/100",
       "delta": "BASELINE"
     },
     {
       "label": "IAEA Signals",
-      "value": "52",
+      "value": "49",
       "delta": "official indexed pages"
     },
     {
@@ -2158,15 +2152,6 @@
     "iaea_titles": {
       "signals": [
         {
-          "title": "IAEA Launches Global Network to Help Countries Monitor and Protect the World’s Lakes",
-          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNNjNaeHJETXNGbnRyeFoyYUxwa1JwMDRCVDB6NG8ySVBYZkhmNjg4TWFLTVM5S3FxRy14a1M1ZXB5d0dRUmZtc20zZkxEbEdCeG1nbVlPZ0kxQ0RsdW1hQ2VEUkp3NzgxNUplZWpfUXFCMW4yZnRGcjloSnEzY3pPQjgzU0FXSk5ULTRTbmZUQ0poUWwxeXoycGo0RnJERkNkemdzSlMwT29Bam1uM2hkaUZMaHJ3eGhVYzBsWGRPdFpMNWt2MXcxWQ?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20261103T101328Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "Upcoming events",
           "url": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE5KM2gxMjlYeFVlanRvdTNOc2dkMENIZ0l1R3pmUG1nOFpsWklBZlNyX01OOThMQU9JTnRHN2xMOA?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -2182,6 +2167,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20261027T070000Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "IAEA to Host Symposium on International Safeguards, 9 to 12 November",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOMDFaMHQ0ZkFJVHN0d3paU09DLURpVnczVFVxc3pPWFlZc1dBeE5UOGpGaE53ZzZJSmc1ZE9JemplRE5tY0NpMTVTUGhCbUd4OGViSHF1N2YyYVlXdXZKVUdXWWxEcmREM3c5Z3hsSnhTQVNCTkhObDNOak82aE5RMDBVQXE4VncyRkJOUWZST3hxQ0dxcWdCcjlSTVlZaGRjRDVoaG9GTEJRVXpocFp4ckNlVkhlUQ?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20261105T224606Z",
           "source": "GoogleNews"
         },
         {
@@ -2236,15 +2230,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20260727T070000Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "Upcoming events",
-          "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFAySTg2ZDN5SHQyR01YWUFXclY0cUdXbHp6R1VOTFRYcjRVeVdwZUdzREpYaVdTQ1ZIVGs2cDROMWVyRjJkbWc?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20261024T211028Z",
           "source": "GoogleNews"
         },
         {
@@ -2383,6 +2368,15 @@
           "source": "GoogleNews"
         },
         {
+          "title": "Upcoming events",
+          "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFAySTg2ZDN5SHQyR01YWUFXclY0cUdXbHp6R1VOTFRYcjRVeVdwZUdzREpYaVdTQ1ZIVGs2cDROMWVyRjJkbWc?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20261024T211028Z",
+          "source": "GoogleNews"
+        },
+        {
           "title": "Communication from the PM of the United States of America regarding the request to include in the agenda of the Conference an item entitled “Transfer of the nuclear materials in the context of AUKUS and its safeguards in all aspects under the NPT\" | IAEA",
           "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFBnYUpsb0h6MWx3NHJGdjdCUmdZQXUyU1MyQlc1d0VPckNxeUhPM0RzZ3l6WXkyaXdwS2RlNU5XOExpQmtuTVE?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -2428,15 +2422,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "News",
-          "url": "https://news.google.com/rss/articles/CBMiPEFVX3lxTE1peHczZzFqc0xPRGR6N1NlaFVwVXpFWF9CZ2JQaUNUQUI3dmxJeERMVmZTTkdIZjhNRTNoMA?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20160825T205731Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "Nuclear Safety, Security and Safeguards in Ukraine",
           "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBFWDZ0ZzQ0Zlpha1hqWWJsTkxhUTdiMG1hYmdIZXFxaHh6V1FPSHNPOGRHdWduZ3dHS3FVYXF5V0hKT3g1QU9EQzRfXzlsRXhlNTVKS3d6QVctRldzM0NRWjVNRWxNWTBuZE1vSEVCU29JNUE?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -2461,15 +2446,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20260907T070000Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "International Symposium on Standards, Applications and Quality Assurance in Medical Radiation Dosimetry (IDOS 2026) | IAEA",
-          "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5NaExYUHJHdDVQdnNRaUtkMkZCTzAwdVgtR0VBZ3ktX3A3ZDEybTBSdkxqQXNwc0tic1Q5dURuRUUtM2VnWkZJb2RXb08?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20250929T073247Z",
           "source": "GoogleNews"
         },
         {
@@ -2515,15 +2491,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20260801T001021Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "General Statement Delegation of the Republic of Indonesia at the 70th General Conference of the International Atomic Energy Agency (IAEA)",
-          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE44VnMxamREYVdSbmdPaDFYTmtrdk9qcVRFeWhhSWdocTR4WEFjMDRRdjR2THhfM2tKUXRrQUFvLWFybnJOYzlfR1BlZS1wa051dERMYUdQdWdObWFublctSndQekpsZ1cwalV2NlgxQTdvTkpaYXl4Zw?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260918T070000Z",
           "source": "GoogleNews"
         },
         {
@@ -2599,21 +2566,21 @@
           "source": "GoogleNews"
         },
         {
+          "title": "Powering the Future: Nuclear Fuel Supply Chain Conference Held in Vienna",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNd3N5Tk5oN0FFNjA1dkw5UzhWWV9WdGNTSnUxVGpOc3daaFg2aXFiN0Y0a0h4MzFzM2JYaFl0WnZZZzQ2d1lhNHBldXh2Z2s1X255NXVaM1FUSk1SZFZQSFc2Qkx5NzVhOTJlN01ZY3FoX1Q4VDdFLWJrS1JxMGxNZW45dkJ0NnhUcGtUQ3BZcVIxOWZyVlhHOTNYT0o0WHlvZTkya2tqSk9ReGdF?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20261102T080000Z",
+          "source": "GoogleNews"
+        },
+        {
           "title": "70th IAEA General Conference",
           "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE10UkdkRmdFRXpNOFBiYm9FOG5qel9LazFZYWtTRDRib0poazNMQzZfWXQ2TzhieG9UVzZGM0d3T0ZldE1QX19Zd3FOVEVNMWVHYW81RVRSWE1XaWlMdGpoUUczazBnaWFJbnhoNkpLM3ZkT3M?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
           "seendate": "20260921T070000Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "The Lise Meitner Programme Explores the Nuclear Fuel Cycle in France and IAEA HQ",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNR3EtSERuY2o4WHYxcU1Gbm5HcTJnNGVuNWxCNFJPQjF3NmozeTlXTWFkb3U5eHNEUFdWZUVYSTFMb29ldnlXdGduX213RF9KQ0V0UkNlb3p5Vy1OVUNOMEl2bnlTTDZ6OVdaZ2llbElwMDVVYW02MXNtM0g2VHhXdG9CbEVVMkRJbFNGcWNVV3ZoN19pek5FX1pBRHFPRXRocXB2NW9lVjJaS0FrSEJvVjFwNFZpckpk?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20261104T080000Z",
           "source": "GoogleNews"
         },
         {
@@ -10336,6 +10303,54 @@
           "source": "USGS"
         },
         {
+          "id": "nc75463027",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1793948189310,
+          "magnitude": 1.93,
+          "magnitude_type": "md",
+          "event_type": "earthquake",
+          "place": "8 km NW of Round Valley, CA",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75463027",
+          "lon": -118.668502807617,
+          "lat": 37.4583320617676,
+          "depth_km": 12.5100002288818,
+          "source": "USGS"
+        },
+        {
+          "id": "nn00926721",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1793926397610,
+          "magnitude": 1.99,
+          "magnitude_type": "ml",
+          "event_type": "earthquake",
+          "place": "50 km SW of Rachel, Nevada",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00926721",
+          "lon": -116.0709,
+          "lat": 37.2725,
+          "depth_km": 4.0124,
+          "source": "USGS"
+        },
+        {
+          "id": "nn00926718",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1793926262598,
+          "magnitude": 1.54,
+          "magnitude_type": "ml",
+          "event_type": "earthquake",
+          "place": "34 km SE of Mina, Nevada",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00926718",
+          "lon": -117.8764,
+          "lat": 38.1384,
+          "depth_km": 7.5245,
+          "source": "USGS"
+        },
+        {
           "id": "nn00926689",
           "site": "Nevada National Security Site",
           "site_lat": 37.12,
@@ -10349,6 +10364,22 @@
           "lon": -115.1171,
           "lat": 35.9747,
           "depth_km": 6.3029,
+          "source": "USGS"
+        },
+        {
+          "id": "uu80163036",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1793905133680,
+          "magnitude": 2.29,
+          "magnitude_type": "ml",
+          "event_type": "earthquake",
+          "place": "4 km ENE of Central, Utah",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uu80163036",
+          "lon": -113.5805,
+          "lat": 37.4278333333333,
+          "depth_km": 0,
           "source": "USGS"
         },
         {
@@ -10656,6 +10687,22 @@
           "source": "USGS"
         },
         {
+          "id": "nc75455666",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1793123037540,
+          "magnitude": 1.5,
+          "magnitude_type": "md",
+          "event_type": "earthquake",
+          "place": "6 km ESE of Round Valley, CA",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75455666",
+          "lon": -118.541333333333,
+          "lat": 37.3901666666667,
+          "depth_km": 7.95,
+          "source": "USGS"
+        },
+        {
           "id": "nn00926312",
           "site": "Nevada National Security Site",
           "site_lat": 37.12,
@@ -10676,15 +10723,15 @@
           "site": "Nevada National Security Site",
           "site_lat": 37.12,
           "site_lon": -116.05,
-          "time": 1793089588210,
-          "magnitude": 1.73,
+          "time": 1793089588120,
+          "magnitude": 1.76,
           "magnitude_type": "md",
           "event_type": "earthquake",
           "place": "19 km SW of Toms Place, CA",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75455551",
-          "lon": -118.830497741699,
-          "lat": 37.4449996948242,
-          "depth_km": 1.25,
+          "lon": -118.826333333333,
+          "lat": 37.4413333333333,
+          "depth_km": 1.05,
           "source": "USGS"
         },
         {
@@ -10749,6 +10796,22 @@
           "lon": -118.833833333333,
           "lat": 37.4451666666667,
           "depth_km": 2.41,
+          "source": "USGS"
+        },
+        {
+          "id": "nc75454791",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1792964720960,
+          "magnitude": 1.56,
+          "magnitude_type": "md",
+          "event_type": "earthquake",
+          "place": "2 km W of Round Valley, CA",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75454791",
+          "lon": -118.6185,
+          "lat": 37.4138333333333,
+          "depth_km": 13.88,
           "source": "USGS"
         },
         {
@@ -38128,163 +38191,19 @@
           "source": "USGS"
         },
         {
-          "id": "nn00906916",
-          "site": "Nevada National Security Site",
-          "site_lat": 37.12,
-          "site_lon": -116.05,
-          "time": 1762328346904,
-          "magnitude": 1.58,
-          "magnitude_type": "ml",
-          "event_type": "earthquake",
-          "place": "77 km ENE of Tonopah, Nevada",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00906916",
-          "lon": -116.4966,
-          "lat": 38.4536,
-          "depth_km": 7.1639,
-          "source": "USGS"
-        },
-        {
-          "id": "nn00906912",
-          "site": "Nevada National Security Site",
-          "site_lat": 37.12,
-          "site_lon": -116.05,
-          "time": 1762321886418,
-          "magnitude": 2.05,
-          "magnitude_type": "ml",
-          "event_type": "earthquake",
-          "place": "21 km SSW of Gabbs, Nevada",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00906912",
-          "lon": -117.9922,
-          "lat": 38.6798,
-          "depth_km": 15.9981,
-          "source": "USGS"
-        },
-        {
-          "id": "nn00906910",
-          "site": "Nevada National Security Site",
-          "site_lat": 37.12,
-          "site_lon": -116.05,
-          "time": 1762321881225,
-          "magnitude": 1.92,
-          "magnitude_type": "ml",
-          "event_type": "earthquake",
-          "place": "30 km ENE of Gabbs, Nevada",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00906910",
-          "lon": -117.5936,
-          "lat": 38.974,
-          "depth_km": 8.4365,
-          "source": "USGS"
-        },
-        {
-          "id": "nn00906907",
-          "site": "Nevada National Security Site",
-          "site_lat": 37.12,
-          "site_lon": -116.05,
-          "time": 1762321275079,
-          "magnitude": 1.55,
-          "magnitude_type": "ml",
-          "event_type": "earthquake",
-          "place": "76 km ENE of Tonopah, Nevada",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00906907",
-          "lon": -116.4957,
-          "lat": 38.4446,
-          "depth_km": 8.6265,
-          "source": "USGS"
-        },
-        {
-          "id": "nn00906901",
-          "site": "Nevada National Security Site",
-          "site_lat": 37.12,
-          "site_lon": -116.05,
-          "time": 1762312352081,
-          "magnitude": 1.9,
-          "magnitude_type": "ml",
-          "event_type": "earthquake",
-          "place": "82 km NE of Tonopah, Nevada",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00906901",
-          "lon": -116.4636,
-          "lat": 38.4936,
-          "depth_km": 8.1304,
-          "source": "USGS"
-        },
-        {
-          "id": "nn00906900",
-          "site": "Nevada National Security Site",
-          "site_lat": 37.12,
-          "site_lon": -116.05,
-          "time": 1762311571069,
-          "magnitude": 2.16,
-          "magnitude_type": "ml",
-          "event_type": "earthquake",
-          "place": "81 km ENE of Tonopah, Nevada",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00906900",
-          "lon": -116.4569,
-          "lat": 38.4758,
-          "depth_km": 9.5193,
-          "source": "USGS"
-        },
-        {
-          "id": "nn00906898",
-          "site": "Nevada National Security Site",
-          "site_lat": 37.12,
-          "site_lon": -116.05,
-          "time": 1762305451031,
-          "magnitude": 2.09,
-          "magnitude_type": "ml",
-          "event_type": "earthquake",
-          "place": "76 km ENE of Tonopah, Nevada",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00906898",
-          "lon": -116.4979,
-          "lat": 38.4462,
-          "depth_km": 6.538,
-          "source": "USGS"
-        },
-        {
-          "id": "nn00906892",
-          "site": "Nevada National Security Site",
-          "site_lat": 37.12,
-          "site_lon": -116.05,
-          "time": 1762301748774,
-          "magnitude": 2.48,
-          "magnitude_type": "ml",
-          "event_type": "earthquake",
-          "place": "75 km NE of Tonopah, Nevada",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00906892",
-          "lon": -116.5343,
-          "lat": 38.4711,
-          "depth_km": 4.8992,
-          "source": "USGS"
-        },
-        {
-          "id": "nn00906890",
-          "site": "Nevada National Security Site",
-          "site_lat": 37.12,
-          "site_lon": -116.05,
-          "time": 1762301263683,
-          "magnitude": 2.16,
-          "magnitude_type": "ml",
-          "event_type": "earthquake",
-          "place": "75 km NE of Tonopah, Nevada",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00906890",
-          "lon": -116.5142,
-          "lat": 38.4511,
-          "depth_km": 6.0097,
-          "source": "USGS"
-        },
-        {
           "id": "us6000u48b",
           "site": "Chagai",
           "site_lat": 28.9,
           "site_lon": 64.95,
-          "time": 1792711609728,
+          "time": 1792711611920,
           "magnitude": 4.4,
           "magnitude_type": "mb",
           "event_type": "earthquake",
-          "place": "55 km SE of Dalbandin, Pakistan",
+          "place": "31 km SE of Dalbandin, Pakistan",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u48b",
-          "lon": 64.8162,
-          "lat": 28.5388,
-          "depth_km": 81.725,
+          "lon": 64.6524,
+          "lat": 28.7109,
+          "depth_km": 88.361,
           "source": "USGS"
         },
         {
@@ -38463,27 +38382,21 @@
   },
   "events": [
     {
+      "title": "IAEA to Host Symposium on International Safeguards, 9 to 12 November",
+      "url": null,
+      "date": "2026-11-05",
+      "weight": 1.0
+    },
+    {
       "title": "Introductory Course on Agency Safeguards (ICAS) 72",
       "url": null,
       "date": "2026-10-28",
       "weight": 1.0
     },
     {
-      "title": "Italy and Romania Establish New Member State Support Programmes to Strengthen IAEA Safeguards",
-      "url": null,
-      "date": "2026-10-23",
-      "weight": 1.0
-    },
-    {
       "title": "IAEA Safeguards Symposium 2026: Programme Now Available",
       "url": null,
       "date": "2026-10-30",
-      "weight": 1.0
-    },
-    {
-      "title": "Hybrid Event: Technical Meeting on Verification and Validation of Software Related to Nuclear Power Plant Instrumentation and Control",
-      "url": null,
-      "date": "2026-10-23",
       "weight": 1.0
     }
   ]
