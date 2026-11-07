@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "nuclear-proliferation-watch",
-    "generated": "2026-11-07T06:37:28.103713+00:00",
+    "generated": "2026-11-07T13:34:46.167254+00:00",
     "mode": "live",
     "sources": [
       "IAEA official pages",
@@ -14,10 +14,10 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-11-07T06:37:28.097902+00:00",
+    "issued_at": "2026-11-07T13:34:46.162981+00:00",
     "horizon": "0-30 days",
     "classification": "nuclear-escalation-pressure-not-test-or-weapon-probability",
-    "score": 5.2,
+    "score": 4.0,
     "level": "BASELINE",
     "confidence": "HIGH",
     "confidence_score": 100.0,
@@ -26,12 +26,12 @@
         "id": "iaea_safeguards_strain",
         "label": "IAEA safeguards and access strain",
         "available": true,
-        "score": 15.0,
+        "score": 11.4,
         "current_14d_weight": 2.8,
-        "current_14d_titles": 16,
+        "current_14d_titles": 15,
         "baseline_periods": 8,
         "baseline_median": 1.5,
-        "anomaly_z": 1.1,
+        "anomaly_z": 0.58,
         "evidence": [
           {
             "title": "IAEA Safeguards Symposium 2026: Programme Now Available",
@@ -103,17 +103,6 @@
     },
     "alerts": [],
     "history": [
-      {
-        "timestamp": "2026-09-15T05:24:20.756122+00:00",
-        "score": 2.5,
-        "level": "BASELINE",
-        "components": {
-          "iaea_safeguards_strain": 0.0,
-          "npwmd_designation_delta": 0.0,
-          "facility_security_incidents": 12.6,
-          "test_site_seismicity": 0.0
-        }
-      },
       {
         "timestamp": "2026-09-15T12:09:59.473952+00:00",
         "score": 2.5,
@@ -2082,12 +2071,23 @@
           "facility_security_incidents": 0.0,
           "test_site_seismicity": 0.0
         }
+      },
+      {
+        "timestamp": "2026-11-07T13:34:46.162981+00:00",
+        "score": 4.0,
+        "level": "BASELINE",
+        "components": {
+          "iaea_safeguards_strain": 11.4,
+          "npwmd_designation_delta": 0.0,
+          "facility_security_incidents": 0.0,
+          "test_site_seismicity": 0.0
+        }
       }
     ],
     "data_health": {
       "available_components": 4,
       "retained_components": [],
-      "iaea_titles": 55,
+      "iaea_titles": 54,
       "npwmd_entries": 1205,
       "iaea_events": 23,
       "test_sites": 8
@@ -2129,12 +2129,12 @@
   "stats": [
     {
       "label": "Escalation Pressure",
-      "value": "5.2/100",
+      "value": "4.0/100",
       "delta": "BASELINE"
     },
     {
       "label": "IAEA Signals",
-      "value": "55",
+      "value": "54",
       "delta": "official indexed pages"
     },
     {
@@ -2161,21 +2161,21 @@
           "source": "GoogleNews"
         },
         {
-          "title": "IAEA Launches Global Network to Help Countries Monitor and Protect the World’s Lakes",
-          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNNjNaeHJETXNGbnRyeFoyYUxwa1JwMDRCVDB6NG8ySVBYZkhmNjg4TWFLTVM5S3FxRy14a1M1ZXB5d0dRUmZtc20zZkxEbEdCeG1nbVlPZ0kxQ0RsdW1hQ2VEUkp3NzgxNUplZWpfUXFCMW4yZnRGcjloSnEzY3pPQjgzU0FXSk5ULTRTbmZUQ0poUWwxeXoycGo0RnJERkNkemdzSlMwT29Bam1uM2hkaUZMaHJ3eGhVYzBsWGRPdFpMNWt2MXcxWQ?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20261103T101328Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "IAEA Mission Reviews the Russian Federation’s Regulatory Framework for Nuclear and Radiation Safety",
           "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOQTNTS084QnZnOU5McFYwVk54UjJ1ZUtzWC02bEtOVXVVQU8wLWVhMHRId3d6dnRURnFRMW4yZXI4WFBoMHB2VEttYWVDbk5OSHRScHlHR29fc3ZDOGcycUZtUmJ5Uk8yUnR5SkVhRndZNkUtcGxhYzFtdVdQVzg2NVRPTWRVa2h0eV93bE5CYmIzOEt5Q2lGdW5taVZOVGlxNG9rVHZLVGs4aGpIZnVwY2RuNTZHTGFBSlZ5VFFrU093RlRFMXNJOEFBMGtucVR6bk1Ba1VlVjBWYjA?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
           "seendate": "20261106T063058Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "IAEA Launches Global Network to Help Countries Monitor and Protect the World’s Lakes",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNNjNaeHJETXNGbnRyeFoyYUxwa1JwMDRCVDB6NG8ySVBYZkhmNjg4TWFLTVM5S3FxRy14a1M1ZXB5d0dRUmZtc20zZkxEbEdCeG1nbVlPZ0kxQ0RsdW1hQ2VEUkp3NzgxNUplZWpfUXFCMW4yZnRGcjloSnEzY3pPQjgzU0FXSk5ULTRTbmZUQ0poUWwxeXoycGo0RnJERkNkemdzSlMwT29Bam1uM2hkaUZMaHJ3eGhVYzBsWGRPdFpMNWt2MXcxWQ?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20261103T101328Z",
           "source": "GoogleNews"
         },
         {
@@ -2607,7 +2607,7 @@
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
-          "seendate": "20261030T165016Z",
+          "seendate": "20261030T070000Z",
           "source": "GoogleNews"
         },
         {
@@ -2635,15 +2635,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20260921T070000Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "The Lise Meitner Programme Explores the Nuclear Fuel Cycle in France and IAEA HQ",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNR3EtSERuY2o4WHYxcU1Gbm5HcTJnNGVuNWxCNFJPQjF3NmozeTlXTWFkb3U5eHNEUFdWZUVYSTFMb29ldnlXdGduX213RF9KQ0V0UkNlb3p5Vy1OVUNOMEl2bnlTTDZ6OVdaZ2llbElwMDVVYW02MXNtM0g2VHhXdG9CbEVVMkRJbFNGcWNVV3ZoN19pek5FX1pBRHFPRXRocXB2NW9lVjJaS0FrSEJvVjFwNFZpckpk?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20261104T080000Z",
           "source": "GoogleNews"
         }
       ],
@@ -38121,14 +38112,14 @@
           "site": "Chagai",
           "site_lat": 28.9,
           "site_lon": 64.95,
-          "time": 1792213617657,
+          "time": 1792213617619,
           "magnitude": 5.7,
           "magnitude_type": "mww",
           "event_type": "earthquake",
-          "place": "48 km WNW of Khuzdar, Pakistan",
+          "place": "47 km WNW of Khuzdar, Pakistan",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u2y1",
-          "lon": 66.1708,
-          "lat": 28.0179,
+          "lon": 66.1855,
+          "lat": 28.0196,
           "depth_km": 10,
           "source": "USGS"
         },
