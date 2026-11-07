@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "nuclear-proliferation-watch",
-    "generated": "2026-11-07T13:34:46.167254+00:00",
+    "generated": "2026-11-07T22:18:48.727363+00:00",
     "mode": "live",
     "sources": [
       "IAEA official pages",
@@ -14,7 +14,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-11-07T13:34:46.162981+00:00",
+    "issued_at": "2026-11-07T22:18:48.720123+00:00",
     "horizon": "0-30 days",
     "classification": "nuclear-escalation-pressure-not-test-or-weapon-probability",
     "score": 4.0,
@@ -28,7 +28,7 @@
         "available": true,
         "score": 11.4,
         "current_14d_weight": 2.8,
-        "current_14d_titles": 15,
+        "current_14d_titles": 12,
         "baseline_periods": 8,
         "baseline_median": 1.5,
         "anomaly_z": 0.58,
@@ -103,17 +103,6 @@
     },
     "alerts": [],
     "history": [
-      {
-        "timestamp": "2026-09-15T12:09:59.473952+00:00",
-        "score": 2.5,
-        "level": "BASELINE",
-        "components": {
-          "iaea_safeguards_strain": 0.0,
-          "npwmd_designation_delta": 0.0,
-          "facility_security_incidents": 12.6,
-          "test_site_seismicity": 0.0
-        }
-      },
       {
         "timestamp": "2026-09-15T17:17:49.202256+00:00",
         "score": 10.5,
@@ -2082,12 +2071,23 @@
           "facility_security_incidents": 0.0,
           "test_site_seismicity": 0.0
         }
+      },
+      {
+        "timestamp": "2026-11-07T22:18:48.720123+00:00",
+        "score": 4.0,
+        "level": "BASELINE",
+        "components": {
+          "iaea_safeguards_strain": 11.4,
+          "npwmd_designation_delta": 0.0,
+          "facility_security_incidents": 0.0,
+          "test_site_seismicity": 0.0
+        }
       }
     ],
     "data_health": {
       "available_components": 4,
       "retained_components": [],
-      "iaea_titles": 54,
+      "iaea_titles": 52,
       "npwmd_entries": 1205,
       "iaea_events": 23,
       "test_sites": 8
@@ -2134,7 +2134,7 @@
     },
     {
       "label": "IAEA Signals",
-      "value": "54",
+      "value": "52",
       "delta": "official indexed pages"
     },
     {
@@ -2167,15 +2167,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20261106T063058Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "IAEA Launches Global Network to Help Countries Monitor and Protect the World’s Lakes",
-          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNNjNaeHJETXNGbnRyeFoyYUxwa1JwMDRCVDB6NG8ySVBYZkhmNjg4TWFLTVM5S3FxRy14a1M1ZXB5d0dRUmZtc20zZkxEbEdCeG1nbVlPZ0kxQ0RsdW1hQ2VEUkp3NzgxNUplZWpfUXFCMW4yZnRGcjloSnEzY3pPQjgzU0FXSk5ULTRTbmZUQ0poUWwxeXoycGo0RnJERkNkemdzSlMwT29Bam1uM2hkaUZMaHJ3eGhVYzBsWGRPdFpMNWt2MXcxWQ?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20261103T101328Z",
           "source": "GoogleNews"
         },
         {
@@ -2212,15 +2203,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20261013T070000Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "State Declarations Portal (SDP)",
-          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1WRWpuVzFaNm9ja0hxbEZteHpsRG4zZDd3dkFSZ1RkTlVpX0JiTlRXcGMwRlJ3SnctY0hwYzNheTVrOWM0LXM4WlN1NXNYaXl4TWVVR2Qtempvd1RuWXl2clVmUVExR0VpRGFLU0NKWnRSLW82Vnow?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20261104T235849Z",
           "source": "GoogleNews"
         },
         {
@@ -2530,6 +2512,15 @@
           "source": "GoogleNews"
         },
         {
+          "title": "General Statement Delegation of the Republic of Indonesia at the 70th General Conference of the International Atomic Energy Agency (IAEA)",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE44VnMxamREYVdSbmdPaDFYTmtrdk9qcVRFeWhhSWdocTR4WEFjMDRRdjR2THhfM2tKUXRrQUFvLWFybnJOYzlfR1BlZS1wa051dERMYUdQdWdObWFublctSndQekpsZ1cwalV2NlgxQTdvTkpaYXl4Zw?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260918T070000Z",
+          "source": "GoogleNews"
+        },
+        {
           "title": "IAEA Concludes International Physical Protection Advisory Follow-Up Mission in China",
           "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQeGN1aGpSZVE2b1lpZ01sczhLdzFiTGJ1d3ZGU1JTUkV4VkJ6dDhPX2tHaHVIajR6aUFERG5WY2tBdnZqZ0tNd0JVbFFReE5QTzZSS1VJWUR3TEZuMHVHeU91b3hsVnBWUFlfWG5vQzM0ZXU4XzlKOTJjWkMxTE1JVTFvM1p1bW1nNS1zUWFQcG10bjhnR0M4MFpwV2cwVklPUUo0VFBxQUt4emFCSHVmdWFKajcwbDNWU3VLZzllVGhLdk9MY1RBZw?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -2581,15 +2572,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20261023T070000Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "IAEA Report Confirms Japanese Monitoring Data of ALPS-Treated Water Prior to Discharge under Additional Measures",
-          "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPcS1ZRGI3SzRhdEpyNUdnNXNyclM2N2dfMUMtemp4MFZ0MkRYMWN0c0pBbkJicWI5aEJ6dmlBS1IzbHJYdzVxSk9kQjBONm9vQVRhdzN2V3ZBM1dKd1g0WHRyMEZ2U0gtNDUyTm4yTGJrRDBOWUdDUnU3UXBqUlA0RVNlOFU4YjVYNUdkQmZYMzBDT3JOcnpPbTlycm91SWNZUURYU0E2UFV6ejN4QndiYzRuelRfUTI4WUtMekJoNUhlbVVQTkVHSUQzRnN6NHp3VEZ6cHRLelppQjRNTU51MkFFUlYzMzQzcFV2LVlR?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20261104T113826Z",
           "source": "GoogleNews"
         },
         {
