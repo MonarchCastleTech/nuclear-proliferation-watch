@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "nuclear-proliferation-watch",
-    "generated": "2026-11-07T22:18:48.727363+00:00",
+    "generated": "2026-11-08T06:43:18.885732+00:00",
     "mode": "live",
     "sources": [
       "IAEA official pages",
@@ -14,7 +14,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-11-07T22:18:48.720123+00:00",
+    "issued_at": "2026-11-08T06:43:18.881393+00:00",
     "horizon": "0-30 days",
     "classification": "nuclear-escalation-pressure-not-test-or-weapon-probability",
     "score": 4.0,
@@ -28,7 +28,7 @@
         "available": true,
         "score": 11.4,
         "current_14d_weight": 2.8,
-        "current_14d_titles": 12,
+        "current_14d_titles": 11,
         "baseline_periods": 8,
         "baseline_median": 1.5,
         "anomaly_z": 0.58,
@@ -103,17 +103,6 @@
     },
     "alerts": [],
     "history": [
-      {
-        "timestamp": "2026-09-15T17:17:49.202256+00:00",
-        "score": 10.5,
-        "level": "BASELINE",
-        "components": {
-          "iaea_safeguards_strain": 22.8,
-          "npwmd_designation_delta": 0.0,
-          "facility_security_incidents": 12.6,
-          "test_site_seismicity": 0.0
-        }
-      },
       {
         "timestamp": "2026-09-15T21:46:25.879740+00:00",
         "score": 10.5,
@@ -2082,12 +2071,23 @@
           "facility_security_incidents": 0.0,
           "test_site_seismicity": 0.0
         }
+      },
+      {
+        "timestamp": "2026-11-08T06:43:18.881393+00:00",
+        "score": 4.0,
+        "level": "BASELINE",
+        "components": {
+          "iaea_safeguards_strain": 11.4,
+          "npwmd_designation_delta": 0.0,
+          "facility_security_incidents": 0.0,
+          "test_site_seismicity": 0.0
+        }
       }
     ],
     "data_health": {
       "available_components": 4,
       "retained_components": [],
-      "iaea_titles": 52,
+      "iaea_titles": 51,
       "npwmd_entries": 1205,
       "iaea_events": 23,
       "test_sites": 8
@@ -2134,7 +2134,7 @@
     },
     {
       "label": "IAEA Signals",
-      "value": "52",
+      "value": "51",
       "delta": "official indexed pages"
     },
     {
@@ -2302,6 +2302,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20260818T070000Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Implementation of the NPT safeguards agreement between the Agency and the Democratic People's Republic of Korea",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBTMWo5MUlvNEVhOUdEemFBb1FrdXhGQm1lSFkwb2JSTXhKSGRHVFBLVVJ5Nl9MTTdWaFd0R1ZfSHZ6QmVCM08weHVWcjdaMWlqVmlZTHlEV1lPWTQxNTFVcC1raHRyMWZs?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260917T070000Z",
           "source": "GoogleNews"
         },
         {
@@ -2512,15 +2521,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "General Statement Delegation of the Republic of Indonesia at the 70th General Conference of the International Atomic Energy Agency (IAEA)",
-          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE44VnMxamREYVdSbmdPaDFYTmtrdk9qcVRFeWhhSWdocTR4WEFjMDRRdjR2THhfM2tKUXRrQUFvLWFybnJOYzlfR1BlZS1wa051dERMYUdQdWdObWFublctSndQekpsZ1cwalV2NlgxQTdvTkpaYXl4Zw?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260918T070000Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "IAEA Concludes International Physical Protection Advisory Follow-Up Mission in China",
           "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQeGN1aGpSZVE2b1lpZ01sczhLdzFiTGJ1d3ZGU1JTUkV4VkJ6dDhPX2tHaHVIajR6aUFERG5WY2tBdnZqZ0tNd0JVbFFReE5QTzZSS1VJWUR3TEZuMHVHeU91b3hsVnBWUFlfWG5vQzM0ZXU4XzlKOTJjWkMxTE1JVTFvM1p1bW1nNS1zUWFQcG10bjhnR0M4MFpwV2cwVklPUUo0VFBxQUt4emFCSHVmdWFKajcwbDNWU3VLZzllVGhLdk9MY1RBZw?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -2575,17 +2575,8 @@
           "source": "GoogleNews"
         },
         {
-          "title": "Call for Papers: International Conference on Advancement in Radioactive Waste Management",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOSEdXUlBXX0EzcHVDZG5RTlZRbG1YN0Q3YWdpWDdFYkZMRmY3M3dydXRtRlBIWE1UYTVmNXJtYW84YzVQWVlxbUpZOENaU0VvTjkxLXV3ZkdlWHEyNE9OSnA5cS1EU2JqaUQ5cDZaay1Lc0tHRHFtMmxUWUxoQzF6LWs0Xzc2bDdXZ1ZuYTRGODMxZ1F1bXhNYzhndWxTRjg2VDc3Qy1nbnJDYXhnTFhkVlZWczdVaWFBOVQyREloeGFyZw?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20261103T113819Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "Update 373 – IAEA Director General Statement on Situation in Ukraine",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQc1dSTUFDMkV4SXZORUQwSUVQRWJ3dlgzOE9rbEZpWlZudFBENU83QzRZRG80blZXQUhNM2owZ0dwTXFLTXExc2QxX0tReXBoOV9ieWUyV1pwNDRENmNTYlBtV0stbVJFd2hoR21XWTltTzBsUEdTQ2JRdlBPWWVXQzJUWGVhSzJTRTMzeUcyMWlOR1lDNUlQZUFkdlJZY2hiUVhIei1RS1pZNmJHRTRzTUVn?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNY3hjV2xGNEF3ejhSSnJCYnRXa003TC1nQktIdXh5RGVYZHdHLWVpVXpEZkd0UHU3VUtlNnpPWEtvcERoS0FWaXc2UFl0TVd3dkJFbUdRZFBiVzkzZWdRaVMxanFLenN1N3RtWkowUEd0dGhCV2pieFBYQVRFb1FqczRoV1hOcWpGX0tkcV9Peml5NzJXYk9QNVlIalBaZEZOWHhvRHNfejBPNFgtbHk2ZQ?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
