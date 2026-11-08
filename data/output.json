@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "nuclear-proliferation-watch",
-    "generated": "2026-11-08T06:43:18.885732+00:00",
+    "generated": "2026-11-08T13:53:59.578359+00:00",
     "mode": "live",
     "sources": [
       "IAEA official pages",
@@ -14,10 +14,10 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-11-08T06:43:18.881393+00:00",
+    "issued_at": "2026-11-08T13:53:59.570591+00:00",
     "horizon": "0-30 days",
     "classification": "nuclear-escalation-pressure-not-test-or-weapon-probability",
-    "score": 4.0,
+    "score": 4.2,
     "level": "BASELINE",
     "confidence": "HIGH",
     "confidence_score": 100.0,
@@ -26,12 +26,12 @@
         "id": "iaea_safeguards_strain",
         "label": "IAEA safeguards and access strain",
         "available": true,
-        "score": 11.4,
+        "score": 12.0,
         "current_14d_weight": 2.8,
-        "current_14d_titles": 11,
+        "current_14d_titles": 13,
         "baseline_periods": 8,
         "baseline_median": 1.5,
-        "anomaly_z": 0.58,
+        "anomaly_z": 0.67,
         "evidence": [
           {
             "title": "IAEA Safeguards Symposium 2026: Programme Now Available",
@@ -103,17 +103,6 @@
     },
     "alerts": [],
     "history": [
-      {
-        "timestamp": "2026-09-15T21:46:25.879740+00:00",
-        "score": 10.5,
-        "level": "BASELINE",
-        "components": {
-          "iaea_safeguards_strain": 22.8,
-          "npwmd_designation_delta": 0.0,
-          "facility_security_incidents": 12.6,
-          "test_site_seismicity": 0.0
-        }
-      },
       {
         "timestamp": "2026-09-16T05:18:40.656370+00:00",
         "score": 10.5,
@@ -2082,12 +2071,23 @@
           "facility_security_incidents": 0.0,
           "test_site_seismicity": 0.0
         }
+      },
+      {
+        "timestamp": "2026-11-08T13:53:59.570591+00:00",
+        "score": 4.2,
+        "level": "BASELINE",
+        "components": {
+          "iaea_safeguards_strain": 12.0,
+          "npwmd_designation_delta": 0.0,
+          "facility_security_incidents": 0.0,
+          "test_site_seismicity": 0.0
+        }
       }
     ],
     "data_health": {
       "available_components": 4,
       "retained_components": [],
-      "iaea_titles": 51,
+      "iaea_titles": 53,
       "npwmd_entries": 1205,
       "iaea_events": 23,
       "test_sites": 8
@@ -2129,12 +2129,12 @@
   "stats": [
     {
       "label": "Escalation Pressure",
-      "value": "4.0/100",
+      "value": "4.2/100",
       "delta": "BASELINE"
     },
     {
       "label": "IAEA Signals",
-      "value": "51",
+      "value": "53",
       "delta": "official indexed pages"
     },
     {
@@ -2170,15 +2170,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "IAEA Safeguards Symposium 2026: Programme Now Available",
-          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQaGVYbnNrYXNxcXhLczE5b2x6cW44Y2J2cE9zVzI0UDdLRFJOdjZ5d0xRVjFVYWEySVpqQnRRRllmNmhXQ2U4R1hOWUUwLTFPemgxTVRjYmNyV1l6T3B2V05xcDByLXBhWU85UW5vakRqeXg4cUJSQjlKaEU5RlBRZXI3Rl9qdlBIZG1QZlB2NFlpRFpreXc?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20261030T173533Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "Impact of Heatwaves on Nuclear Power Plants",
           "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOblJYaXdOLUVCT2VWOGxKbklyQjItNnZjWEhOMW1STXRvb18yQ3E4ODVwcGlHcmVVY09UbjdUSWdvZEx0cXdmRC1LTnJNMnhNX1dRdkZoRm41Qy1TOWJ0VlVzeVdwdjQ0SE5UYlVlT21DMG1waWlYS0VGcmZjb1hJNS1fNXZWNlU?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -2188,12 +2179,30 @@
           "source": "GoogleNews"
         },
         {
+          "title": "IAEA Safeguards Symposium 2026: Programme Now Available",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQaGVYbnNrYXNxcXhLczE5b2x6cW44Y2J2cE9zVzI0UDdLRFJOdjZ5d0xRVjFVYWEySVpqQnRRRllmNmhXQ2U4R1hOWUUwLTFPemgxTVRjYmNyV1l6T3B2V05xcDByLXBhWU85UW5vakRqeXg4cUJSQjlKaEU5RlBRZXI3Rl9qdlBIZG1QZlB2NFlpRFpreXc?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20261030T173533Z",
+          "source": "GoogleNews"
+        },
+        {
           "title": "IAEA to Host Symposium on International Safeguards, 9 to 12 November",
           "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOMDFaMHQ0ZkFJVHN0d3paU09DLURpVnczVFVxc3pPWFlZc1dBeE5UOGpGaE53ZzZJSmc1ZE9JemplRE5tY0NpMTVTUGhCbUd4OGViSHF1N2YyYVlXdXZKVUdXWWxEcmREM3c5Z3hsSnhTQVNCTkhObDNOak82aE5RMDBVQXE4VncyRkJOUWZST3hxQ0dxcWdCcjlSTVlZaGRjRDVoaG9GTEJRVXpocFp4ckNlVkhlUQ?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
           "seendate": "20261105T224606Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "ConnectNews",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPX3V1cVFMZkUxR1JSRVNKTXZ6Y2pNLU1GdG9OYkZCd2pzVURWVTdxTldrbm15NWdOSkJXSlhNNmlMT1lDSDJhZ1N5WmVwY0NNQzNOZjhkWmZBUlJQQm9DcFRlcGFSbS02REJFREFld2ZlR2hFYXpaZUhKbjVmbjFzMVV2ZGc?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20261031T070000Z",
           "source": "GoogleNews"
         },
         {
@@ -2207,7 +2216,7 @@
         },
         {
           "title": "Director General Statement to the United Nations Security Council",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNUlpFUEwza3JCYTRFNi1tM1Naa2FQU0JpdXpuQnpPWnIzYjBLZWxZSm5lRmVIWVdaSXNBdFN5Ti1TX0JtVGJNTG01QlpyV01QZ2xrTUJPT1U1SXBOczN5anFHTDB4M3hsYlpwZjJDRjhUblVBUjdZTEpUdGFDZmpwWG1QWXV6dmtjOTVheHZlTUhYRjE1VjlzcEJQcGpMM1pIQ3R5ZEVOX0Nidi1M?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPSFNFbWNGOXdIQmg2RTMtdWpGYlhicU1oalNQOEVMOTRFLXdjT05CTlJJaURoNzltWkphejlULVVhYktyUTdLNHJPbTI3S1pOd0RoZ0RmTDNzdlVYbFFJbXlHcDNaYVZqRVlBcWsyZ3hVWVp2WkxOUjIzUDJKMHBuYmNGeExpbm9rNURORm1qNVlOTWZJa2tQUm1lb3dOa096NnB6UzNCTUgzcDA?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
@@ -2572,6 +2581,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20261023T070000Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "IAEA Report Confirms Japanese Monitoring Data of ALPS-Treated Water Prior to Discharge under Additional Measures",
+          "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPcS1ZRGI3SzRhdEpyNUdnNXNyclM2N2dfMUMtemp4MFZ0MkRYMWN0c0pBbkJicWI5aEJ6dmlBS1IzbHJYdzVxSk9kQjBONm9vQVRhdzN2V3ZBM1dKd1g0WHRyMEZ2U0gtNDUyTm4yTGJrRDBOWUdDUnU3UXBqUlA0RVNlOFU4YjVYNUdkQmZYMzBDT3JOcnpPbTlycm91SWNZUURYU0E2UFV6ejN4QndiYzRuelRfUTI4WUtMekJoNUhlbVVQTkVHSUQzRnN6NHp3VEZ6cHRLelppQjRNTU51MkFFUlYzMzQzcFV2LVlR?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20261104T113826Z",
           "source": "GoogleNews"
         },
         {
