@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "nuclear-proliferation-watch",
-    "generated": "2026-11-08T13:53:59.578359+00:00",
+    "generated": "2026-11-08T22:29:44.348775+00:00",
     "mode": "live",
     "sources": [
       "IAEA official pages",
@@ -14,10 +14,10 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-11-08T13:53:59.570591+00:00",
+    "issued_at": "2026-11-08T22:29:44.344334+00:00",
     "horizon": "0-30 days",
     "classification": "nuclear-escalation-pressure-not-test-or-weapon-probability",
-    "score": 4.2,
+    "score": 4.0,
     "level": "BASELINE",
     "confidence": "HIGH",
     "confidence_score": 100.0,
@@ -26,12 +26,12 @@
         "id": "iaea_safeguards_strain",
         "label": "IAEA safeguards and access strain",
         "available": true,
-        "score": 12.0,
+        "score": 11.4,
         "current_14d_weight": 2.8,
-        "current_14d_titles": 13,
+        "current_14d_titles": 14,
         "baseline_periods": 8,
         "baseline_median": 1.5,
-        "anomaly_z": 0.67,
+        "anomaly_z": 0.58,
         "evidence": [
           {
             "title": "IAEA Safeguards Symposium 2026: Programme Now Available",
@@ -87,7 +87,7 @@
         "available": true,
         "score": 0.0,
         "current_30d_diagnostic_weight": 0.0,
-        "events_considered": 1756,
+        "events_considered": 1758,
         "sites_monitored": 8,
         "anomaly_z": 0.0,
         "evidence": [],
@@ -103,17 +103,6 @@
     },
     "alerts": [],
     "history": [
-      {
-        "timestamp": "2026-09-16T05:18:40.656370+00:00",
-        "score": 10.5,
-        "level": "BASELINE",
-        "components": {
-          "iaea_safeguards_strain": 22.8,
-          "npwmd_designation_delta": 0.0,
-          "facility_security_incidents": 12.6,
-          "test_site_seismicity": 0.0
-        }
-      },
       {
         "timestamp": "2026-09-16T12:05:40.409671+00:00",
         "score": 10.5,
@@ -2082,12 +2071,23 @@
           "facility_security_incidents": 0.0,
           "test_site_seismicity": 0.0
         }
+      },
+      {
+        "timestamp": "2026-11-08T22:29:44.344334+00:00",
+        "score": 4.0,
+        "level": "BASELINE",
+        "components": {
+          "iaea_safeguards_strain": 11.4,
+          "npwmd_designation_delta": 0.0,
+          "facility_security_incidents": 0.0,
+          "test_site_seismicity": 0.0
+        }
       }
     ],
     "data_health": {
       "available_components": 4,
       "retained_components": [],
-      "iaea_titles": 53,
+      "iaea_titles": 51,
       "npwmd_entries": 1205,
       "iaea_events": 23,
       "test_sites": 8
@@ -2129,12 +2129,12 @@
   "stats": [
     {
       "label": "Escalation Pressure",
-      "value": "4.2/100",
+      "value": "4.0/100",
       "delta": "BASELINE"
     },
     {
       "label": "IAEA Signals",
-      "value": "53",
+      "value": "51",
       "delta": "official indexed pages"
     },
     {
@@ -2184,7 +2184,7 @@
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
-          "seendate": "20261030T173533Z",
+          "seendate": "20261030T070000Z",
           "source": "GoogleNews"
         },
         {
@@ -2248,15 +2248,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20260818T070000Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "Provisional agenda",
-          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1ZaXJtVEZSbk1NMTJObVlEMTN0R3VMQ2g2QzFzaHF0YU9TRmQxSkxMZmZ3dTVJdW5YOGxVbWdFbTJOT2JZODhOcnM3eXY3SFBfMUlFRkFaUWR4QTMzanV1OGgzRVpmM0dSWWc0?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260720T070000Z",
           "source": "GoogleNews"
         },
         {
@@ -2458,6 +2449,15 @@
           "source": "GoogleNews"
         },
         {
+          "title": "Symposium on International Safeguards: Innovation and Resilience in a Changing World - Safeguards as a Shared Responsibility - Training Days",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBBelVWeUhWbGcxaXIxdWEwZTI3Q0VjaWN2bm1GTmd6Tm53ZGVxX3d3X0NrWFRibVo2VXJMVFBrVlBvUW9vNHRReV9uRWQ1TWxDeVI5Ql9yMUhCbEJ0?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260919T193049Z",
+          "source": "GoogleNews"
+        },
+        {
           "title": "Safeguards Direct Portal: Improving information exchange with the IAEA Department of Safeguards",
           "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOTHpsalBDbFRTMkJURHl2TVlXUlAwX1dYMlJvRTNzcU9qdG5NR0pKWVpBNWw3NTY1dlk2eFFmUmpmUUphZ2pTYnBsdGpORUtHM0laOC1jbDRLU01OcVBoS0txbjNUdnM4cTlYcDAwQUJ5XzhTbDRHV1RtQWk1VENTYmRPcktjRVhRV3ZRdGJURjVmUEpnMWNia18taEpVLU1UbTdwaVZkbWRjOV9ESEJBNkxzRE9ldXRqTzBWa0RSVVRnZ3R0UnlyVVdJYTRnNlI4cDVOYTNfZkJaTVlhdm16VDh3?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -2530,15 +2530,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "IAEA Concludes International Physical Protection Advisory Follow-Up Mission in China",
-          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQeGN1aGpSZVE2b1lpZ01sczhLdzFiTGJ1d3ZGU1JTUkV4VkJ6dDhPX2tHaHVIajR6aUFERG5WY2tBdnZqZ0tNd0JVbFFReE5QTzZSS1VJWUR3TEZuMHVHeU91b3hsVnBWUFlfWG5vQzM0ZXU4XzlKOTJjWkMxTE1JVTFvM1p1bW1nNS1zUWFQcG10bjhnR0M4MFpwV2cwVklPUUo0VFBxQUt4emFCSHVmdWFKajcwbDNWU3VLZzllVGhLdk9MY1RBZw?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260713T070000Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "Resolutions and Other Decisions of the General Conference | IAEA",
           "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1oazMzcGoyWlZRYkY1cW1HRmJnRi0xZXBxcUk0RmpvbnBKajhZeTlBSEd0SUJLaVRwSmhGNVZVNDVJYlhmUzk0R0J2WEpKVnJy?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -2566,30 +2557,21 @@
           "source": "GoogleNews"
         },
         {
-          "title": "Technical Meeting on Nuclear Fuel Cycle Options for Current and Advanced Reactors",
-          "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1zX0ItY1lqRDFXZnJHOGtDNWE2OU9DM1ZaVUZnSVJjRXBSWDY1MlBWVDV4ZXJSRjdsUkNwTm9qY0JmWnR5S2ZqdXBIdy1GZw?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260903T011515Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "Director General Statement to 81st Session of the UN General Assembly",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQdE4yQWt4ck9ERGZUMjBZek9sX082VVR2WXRJX05OY2JrRGRfa1N5ZzRwRjdNTW5QdjdteUllUE1mczNTejJVZ0FwdlRfeTNPVmlyUzdiRUxScmRuVmpvZ0tCX0lhcUxPTTZSY2pkTlhjUmRHQnpZcG1lSG9WSzBudmJ2VkRrREtXT2Vza0JkT0pfdHNQVG1jb2Rjc3JQc1VrQmJLRndETTdhc2hZeHFNMg?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20261023T070000Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "IAEA Report Confirms Japanese Monitoring Data of ALPS-Treated Water Prior to Discharge under Additional Measures",
           "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPcS1ZRGI3SzRhdEpyNUdnNXNyclM2N2dfMUMtemp4MFZ0MkRYMWN0c0pBbkJicWI5aEJ6dmlBS1IzbHJYdzVxSk9kQjBONm9vQVRhdzN2V3ZBM1dKd1g0WHRyMEZ2U0gtNDUyTm4yTGJrRDBOWUdDUnU3UXBqUlA0RVNlOFU4YjVYNUdkQmZYMzBDT3JOcnpPbTlycm91SWNZUURYU0E2UFV6ejN4QndiYzRuelRfUTI4WUtMekJoNUhlbVVQTkVHSUQzRnN6NHp3VEZ6cHRLelppQjRNTU51MkFFUlYzMzQzcFV2LVlR?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
           "seendate": "20261104T113826Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Call for Papers: International Conference on Advancement in Radioactive Waste Management",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOelVLNkdGUXpReGlBcFhhb2RPNjBNdUI4MzRvVERjdUtkdXpDZWpJQjVjcFN3NVdYeXRTYWRlNUxWaS1tcTI4Z29GakpNRTB1OGF5X05ic2pBTDdoNkd4Y185aXNPUWM0UWxLckpQandwLTJlYmhYaTVkcUlWWVRxMEQ1bTlxV0d3dWs0TnlUNUJoc2xIVm9jNnh4MkNiN3gtenFMdHpwYW5BNkdhRWlTb0NPVFBlaTZiVTVWMWMzRVE?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20261103T113819Z",
           "source": "GoogleNews"
         },
         {
@@ -10336,6 +10318,38 @@
           "lon": 89.0912,
           "lat": 43.7287,
           "depth_km": 10,
+          "source": "USGS"
+        },
+        {
+          "id": "nn00926788",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1794152195690,
+          "magnitude": 2.49,
+          "magnitude_type": "ml",
+          "event_type": "earthquake",
+          "place": "50 km SE of Eureka, Nevada",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00926788",
+          "lon": -115.5801,
+          "lat": 39.1719,
+          "depth_km": 15.9712,
+          "source": "USGS"
+        },
+        {
+          "id": "nn00926785",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1794146117032,
+          "magnitude": 3.54,
+          "magnitude_type": "ml",
+          "event_type": "earthquake",
+          "place": "21 km W of Preston, Nevada",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00926785",
+          "lon": -115.3064,
+          "lat": 38.9507,
+          "depth_km": 4.7569,
           "source": "USGS"
         },
         {
