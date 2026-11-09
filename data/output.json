@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "nuclear-proliferation-watch",
-    "generated": "2026-11-08T22:29:44.348775+00:00",
+    "generated": "2026-11-09T07:13:42.983645+00:00",
     "mode": "live",
     "sources": [
       "IAEA official pages",
@@ -14,7 +14,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-11-08T22:29:44.344334+00:00",
+    "issued_at": "2026-11-09T07:13:42.976351+00:00",
     "horizon": "0-30 days",
     "classification": "nuclear-escalation-pressure-not-test-or-weapon-probability",
     "score": 4.0,
@@ -28,7 +28,7 @@
         "available": true,
         "score": 11.4,
         "current_14d_weight": 2.8,
-        "current_14d_titles": 14,
+        "current_14d_titles": 13,
         "baseline_periods": 8,
         "baseline_median": 1.5,
         "anomaly_z": 0.58,
@@ -87,7 +87,7 @@
         "available": true,
         "score": 0.0,
         "current_30d_diagnostic_weight": 0.0,
-        "events_considered": 1758,
+        "events_considered": 1756,
         "sites_monitored": 8,
         "anomaly_z": 0.0,
         "evidence": [],
@@ -103,17 +103,6 @@
     },
     "alerts": [],
     "history": [
-      {
-        "timestamp": "2026-09-16T12:05:40.409671+00:00",
-        "score": 10.5,
-        "level": "BASELINE",
-        "components": {
-          "iaea_safeguards_strain": 22.8,
-          "npwmd_designation_delta": 0.0,
-          "facility_security_incidents": 12.6,
-          "test_site_seismicity": 0.0
-        }
-      },
       {
         "timestamp": "2026-09-16T17:18:04.703846+00:00",
         "score": 10.5,
@@ -2082,12 +2071,23 @@
           "facility_security_incidents": 0.0,
           "test_site_seismicity": 0.0
         }
+      },
+      {
+        "timestamp": "2026-11-09T07:13:42.976351+00:00",
+        "score": 4.0,
+        "level": "BASELINE",
+        "components": {
+          "iaea_safeguards_strain": 11.4,
+          "npwmd_designation_delta": 0.0,
+          "facility_security_incidents": 0.0,
+          "test_site_seismicity": 0.0
+        }
       }
     ],
     "data_health": {
       "available_components": 4,
       "retained_components": [],
-      "iaea_titles": 51,
+      "iaea_titles": 49,
       "npwmd_entries": 1205,
       "iaea_events": 23,
       "test_sites": 8
@@ -2134,7 +2134,7 @@
     },
     {
       "label": "IAEA Signals",
-      "value": "51",
+      "value": "49",
       "delta": "official indexed pages"
     },
     {
@@ -2194,15 +2194,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20261105T224606Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "ConnectNews",
-          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPX3V1cVFMZkUxR1JSRVNKTXZ6Y2pNLU1GdG9OYkZCd2pzVURWVTdxTldrbm15NWdOSkJXSlhNNmlMT1lDSDJhZ1N5WmVwY0NNQzNOZjhkWmZBUlJQQm9DcFRlcGFSbS02REJFREFld2ZlR2hFYXpaZUhKbjVmbjFzMVV2ZGc?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20261031T070000Z",
           "source": "GoogleNews"
         },
         {
@@ -2332,6 +2323,15 @@
           "source": "GoogleNews"
         },
         {
+          "title": "NUCLEAR SAFETY, SECURITY AND SAFEGUARDS IN UKRAINE",
+          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE04ZHRZNXdLMVR0NWlHeFhrQUhGbFRtUm04YmZZWnFycGM1blk5bUxwSlM0S2ozMnpYTmdTc1FjcDRBckJvU3RlZk50SlRkWHBwbjRUYTgyMEtGTnZvdjJpNmgwRVVKQQ?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260912T070000Z",
+          "source": "GoogleNews"
+        },
+        {
           "title": "IAEA Draws Safeguards Conclusions for 179 States – IAEA Report",
           "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxONExaN0Z5ZUx6V241VXo0MmNLdTRuekFvZ0R4TkRFOXZjS0twaDc4aW1pZEJFU2FPazg1R3dVQjl2TGlSaW9sd0tZYnE3RENwZDktQmpfdFFrQkFlSXhpdzhHYVNUNWJMMkpfeVdVVE9lUUJmV0U4aGhfV3E2cWcxWDY2bzVZSzlZS29mUWZMQnc1WlhvQmJMT0N1UDU?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -2440,15 +2440,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "Nuclear Safety, Security and Safeguards in Ukraine",
-          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBFWDZ0ZzQ0Zlpha1hqWWJsTkxhUTdiMG1hYmdIZXFxaHh6V1FPSHNPOGRHdWduZ3dHS3FVYXF5V0hKT3g1QU9EQzRfXzlsRXhlNTVKS3d6QVctRldzM0NRWjVNRWxNWTBuZE1vSEVCU29JNUE?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260902T070000Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "Symposium on International Safeguards: Innovation and Resilience in a Changing World - Safeguards as a Shared Responsibility - Training Days",
           "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBBelVWeUhWbGcxaXIxdWEwZTI3Q0VjaWN2bm1GTmd6Tm53ZGVxX3d3X0NrWFRibVo2VXJMVFBrVlBvUW9vNHRReV9uRWQ1TWxDeVI5Ql9yMUhCbEJ0?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -2500,15 +2491,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20260930T233625Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "INFCIRC/1416 - Communication from the Permanent Mission of the Islamic Republic of Iran to the Agency",
-          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1rVXhmcTNoS0w1VnRGdHVIalh4M0RtODFUVFBUNHRKYzRYYTVPcXNfM0Zqb2t5UWRIbWViblNLVDBUN082SC1NQTEtLU9nVE0yTV9WVS1EaUpJdFVXZXI1ZWJaS3hSOEJKUUFfaUNvT21Xdw?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260908T070000Z",
           "source": "GoogleNews"
         },
         {
@@ -10318,6 +10300,22 @@
           "lon": 89.0912,
           "lat": 43.7287,
           "depth_km": 10,
+          "source": "USGS"
+        },
+        {
+          "id": "nn00926812",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1794197725762,
+          "magnitude": 1.52,
+          "magnitude_type": "ml",
+          "event_type": "earthquake",
+          "place": "11 km NE of Mount Charleston, Nevada",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00926812",
+          "lon": -115.5391,
+          "lat": 36.3155,
+          "depth_km": 2.9449,
           "source": "USGS"
         },
         {
@@ -38046,54 +38044,6 @@
           "lon": -116.4926,
           "lat": 38.4521,
           "depth_km": 8.8377,
-          "source": "USGS"
-        },
-        {
-          "id": "nn00907065",
-          "site": "Nevada National Security Site",
-          "site_lat": 37.12,
-          "site_lon": -116.05,
-          "time": 1762640747256,
-          "magnitude": 1.56,
-          "magnitude_type": "ml",
-          "event_type": "earthquake",
-          "place": "34 km SE of Mina, Nevada",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00907065",
-          "lon": -117.8276,
-          "lat": 38.174,
-          "depth_km": 11.7147,
-          "source": "USGS"
-        },
-        {
-          "id": "nn00907061",
-          "site": "Nevada National Security Site",
-          "site_lat": 37.12,
-          "site_lon": -116.05,
-          "time": 1762616191632,
-          "magnitude": 1.67,
-          "magnitude_type": "ml",
-          "event_type": "earthquake",
-          "place": "25 km E of Moapa Valley, Nevada",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00907061",
-          "lon": -114.1934,
-          "lat": 36.5494,
-          "depth_km": 4.1969,
-          "source": "USGS"
-        },
-        {
-          "id": "nn00907054",
-          "site": "Nevada National Security Site",
-          "site_lat": 37.12,
-          "site_lon": -116.05,
-          "time": 1762605268900,
-          "magnitude": 1.99,
-          "magnitude_type": "ml",
-          "event_type": "earthquake",
-          "place": "77 km NE of Tonopah, Nevada",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00907054",
-          "lon": -116.4981,
-          "lat": 38.4581,
-          "depth_km": 8.1662,
           "source": "USGS"
         },
         {
