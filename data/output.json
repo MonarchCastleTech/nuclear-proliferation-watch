@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "nuclear-proliferation-watch",
-    "generated": "2026-11-09T22:43:09.298317+00:00",
+    "generated": "2026-11-10T07:45:51.193801+00:00",
     "mode": "live",
     "sources": [
       "IAEA official pages",
@@ -14,10 +14,10 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-11-09T22:43:09.290799+00:00",
+    "issued_at": "2026-11-10T07:45:51.188076+00:00",
     "horizon": "0-30 days",
     "classification": "nuclear-escalation-pressure-not-test-or-weapon-probability",
-    "score": 8.4,
+    "score": 10.0,
     "level": "BASELINE",
     "confidence": "HIGH",
     "confidence_score": 100.0,
@@ -26,12 +26,12 @@
         "id": "iaea_safeguards_strain",
         "label": "IAEA safeguards and access strain",
         "available": true,
-        "score": 24.1,
+        "score": 28.6,
         "current_14d_weight": 5.8,
-        "current_14d_titles": 16,
+        "current_14d_titles": 15,
         "baseline_periods": 8,
-        "baseline_median": 2.0,
-        "anomaly_z": 1.28,
+        "baseline_median": 1.5,
+        "anomaly_z": 1.93,
         "evidence": [
           {
             "title": "IAEA Safeguards Symposium 2026: Programme Now Available",
@@ -105,7 +105,7 @@
         "available": true,
         "score": 0.0,
         "current_30d_diagnostic_weight": 0.0,
-        "events_considered": 1758,
+        "events_considered": 1756,
         "sites_monitored": 8,
         "anomaly_z": 0.0,
         "evidence": [],
@@ -121,17 +121,6 @@
     },
     "alerts": [],
     "history": [
-      {
-        "timestamp": "2026-09-16T21:43:58.519898+00:00",
-        "score": 10.5,
-        "level": "BASELINE",
-        "components": {
-          "iaea_safeguards_strain": 22.8,
-          "npwmd_designation_delta": 0.0,
-          "facility_security_incidents": 12.6,
-          "test_site_seismicity": 0.0
-        }
-      },
       {
         "timestamp": "2026-09-17T05:27:01.021830+00:00",
         "score": 12.1,
@@ -2100,12 +2089,23 @@
           "facility_security_incidents": 0.0,
           "test_site_seismicity": 0.0
         }
+      },
+      {
+        "timestamp": "2026-11-10T07:45:51.188076+00:00",
+        "score": 10.0,
+        "level": "BASELINE",
+        "components": {
+          "iaea_safeguards_strain": 28.6,
+          "npwmd_designation_delta": 0.0,
+          "facility_security_incidents": 0.0,
+          "test_site_seismicity": 0.0
+        }
       }
     ],
     "data_health": {
       "available_components": 4,
       "retained_components": [],
-      "iaea_titles": 50,
+      "iaea_titles": 53,
       "npwmd_entries": 1205,
       "iaea_events": 23,
       "test_sites": 8
@@ -2147,12 +2147,12 @@
   "stats": [
     {
       "label": "Escalation Pressure",
-      "value": "8.4/100",
+      "value": "10.0/100",
       "delta": "BASELINE"
     },
     {
       "label": "IAEA Signals",
-      "value": "50",
+      "value": "53",
       "delta": "official indexed pages"
     },
     {
@@ -2257,6 +2257,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20261105T224014Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Event Schedule Draft Overview",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQazQ4WUVxcEwwamtvZlhFZjNlOXV4US02MHY1NlRHZW1BUHQ2YzhkeWtVekVKNTJKYzc5dkJ6WDdDQmFPUTRBTmNsUjVfVGpCVXhnbXR1Mkp6dDFNcGMyRkJjcTZ2Uk5xTURFc2N3enlIS2hyVkZxTmxSM3IxenhqWjJOVmFvTnVRNXdwSUdwWWhDMnBtUVJ3TFlITWFzaURsWTdvZ0xDWQ?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20261013T070000Z",
           "source": "GoogleNews"
         },
         {
@@ -2467,15 +2476,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "Application of IAEA Safeguards in the Middle East",
-          "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1zUmlKdTlZM1lPOUkxanBRdk5XVG5oTnhTWjduRzVzWi1TamhGZmYtZFh0c0NHLWJTSmtJOEZOekM2NEFZNmc?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260726T070000Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "Nuclear Safety, Security and Safeguards in Ukraine",
           "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBFWDZ0ZzQ0Zlpha1hqWWJsTkxhUTdiMG1hYmdIZXFxaHh6V1FPSHNPOGRHdWduZ3dHS3FVYXF5V0hKT3g1QU9EQzRfXzlsRXhlNTVKS3d6QVctRldzM0NRWjVNRWxNWTBuZE1vSEVCU29JNUE?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -2527,6 +2527,24 @@
           "language": "",
           "tone": 0,
           "seendate": "20260918T070000Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Rafael Mariano Grossi | IAEA",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE55OXJZWUVIRFBqSFJtNXRubUVQWEg0TXNZdG9CdzZWUTBFcUx1MkVOMUEyeXlCMXRDS0dFSXFfMjRrdGZoSEpDaDdhc18yOWpOTzhCY2UyMmQ3T0U?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260313T194636Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Services Series",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9kcDRHQUJLbjVjLU5OZkdsR0hwS1JoSW1ZTkdSRFpVeks0RTctTEI0VldYS1V0MllwampPMHlxVzl0SHNCazZVUmZyNDZZMmFTd1k1elBqOVJocngxc2lRdXU5ZWNfeV8wT0p0aW91T3I?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260930T233625Z",
           "source": "GoogleNews"
         },
         {
@@ -2602,6 +2620,15 @@
           "source": "GoogleNews"
         },
         {
+          "title": "IAEA Mission says Jordan is Committed to Strengthening Radiation and Nuclear Safety Oversight",
+          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOMXBqQmcya1VlZUNDR2FveDE4eGcwdWIwNWxGSnllVnFhMDluTGxQQ1lHSkM0WUhGZjBWZkR3UjgwTk1wdzRGTk9fU1ZRTlpJc1JBY0t3Y2V6NHRxekhmTVVObG9mUmVuLUFjUTRtcDlxblFxMHdnYnBwWHNRak9fUjFieW1rY1o5Z0x5TnhIRnd0ZjdRaS1IaGdGY1RYR0JfRWY5ZjJ3bU9pcXYyd1NlNkI4VGRXN0NndFQ1MEZ1cm1BVklIeGc0R050dzJPaWZYb2J5NDdR?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20261110T064839Z",
+          "source": "GoogleNews"
+        },
+        {
           "title": "International Cooperation Strengthens Radioactive Waste Characterization",
           "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPTzItZF9XX19OQVNmRWt6SDF6SW5zZXdQeWFTYmk5dzh3YTJmWFBUYVd6ZV9WcGZJTXU5d3RoQjY5aGo0S1Y0VU9PQXVJSnl2cjZzMDFtcG1yZHBzOGlrZXp3V3pvY1BSQ1dhYkRmaXhFRGFjRExpSGhLaWpqOXRodVJ2TVRLaXY5eGZscGtsUE41YVpyNlVKUGZodlVzMnBMRFZFTG1uS1BnUXg4VkE?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -2616,7 +2643,7 @@
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
-          "seendate": "20261109T184535Z",
+          "seendate": "20261109T144500Z",
           "source": "GoogleNews"
         }
       ],
@@ -10330,6 +10357,38 @@
           "source": "USGS"
         },
         {
+          "id": "ci41360455",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1794286609040,
+          "magnitude": 1.72,
+          "magnitude_type": "ml",
+          "event_type": "earthquake",
+          "place": "27 km E of Coso Junction, CA",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41360455",
+          "lon": -117.6505,
+          "lat": 36.0863333333333,
+          "depth_km": 1.32,
+          "source": "USGS"
+        },
+        {
+          "id": "nn00926833",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1794265018999,
+          "magnitude": 2.76,
+          "magnitude_type": "ml",
+          "event_type": "earthquake",
+          "place": "21 km W of Preston, Nevada",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00926833",
+          "lon": -115.3098,
+          "lat": 38.9323,
+          "depth_km": 3.8633,
+          "source": "USGS"
+        },
+        {
           "id": "nn00926823",
           "site": "Nevada National Security Site",
           "site_lat": 37.12,
@@ -10750,15 +10809,15 @@
           "site": "Nevada National Security Site",
           "site_lat": 37.12,
           "site_lon": -116.05,
-          "time": 1793367723010,
-          "magnitude": 2.7,
+          "time": 1793367723040,
+          "magnitude": 2.61,
           "magnitude_type": "md",
           "event_type": "earthquake",
           "place": "22 km SSW of Big Pine, CA",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75459817",
-          "lon": -118.364334106445,
-          "lat": 36.9770011901855,
-          "depth_km": 4.8899998664856,
+          "lon": -118.367,
+          "lat": 36.9733333333333,
+          "depth_km": 6.78,
           "source": "USGS"
         },
         {
@@ -38039,70 +38098,6 @@
           "lon": -116.4865,
           "lat": 38.4459,
           "depth_km": 8.4486,
-          "source": "USGS"
-        },
-        {
-          "id": "nn00907097",
-          "site": "Nevada National Security Site",
-          "site_lat": 37.12,
-          "site_lon": -116.05,
-          "time": 1762690054419,
-          "magnitude": 1.54,
-          "magnitude_type": "ml",
-          "event_type": "earthquake",
-          "place": "75 km ENE of Tonopah, Nevada",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00907097",
-          "lon": -116.5014,
-          "lat": 38.4324,
-          "depth_km": 11.0617,
-          "source": "USGS"
-        },
-        {
-          "id": "nn00907077",
-          "site": "Nevada National Security Site",
-          "site_lat": 37.12,
-          "site_lon": -116.05,
-          "time": 1762668197911,
-          "magnitude": 1.59,
-          "magnitude_type": "ml",
-          "event_type": "earthquake",
-          "place": "75 km ENE of Tonopah, Nevada",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00907077",
-          "lon": -116.5064,
-          "lat": 38.4394,
-          "depth_km": 5.9798,
-          "source": "USGS"
-        },
-        {
-          "id": "nc75260736",
-          "site": "Nevada National Security Site",
-          "site_lat": 37.12,
-          "site_lon": -116.05,
-          "time": 1762666433510,
-          "magnitude": 2.21,
-          "magnitude_type": "md",
-          "event_type": "earthquake",
-          "place": "7 km ENE of Wilkerson, CA",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75260736",
-          "lon": -118.3105,
-          "lat": 37.298,
-          "depth_km": 12.81,
-          "source": "USGS"
-        },
-        {
-          "id": "nn00907071",
-          "site": "Nevada National Security Site",
-          "site_lat": 37.12,
-          "site_lon": -116.05,
-          "time": 1762650526171,
-          "magnitude": 2.1,
-          "magnitude_type": "ml",
-          "event_type": "earthquake",
-          "place": "77 km ENE of Tonopah, Nevada",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00907071",
-          "lon": -116.4926,
-          "lat": 38.4521,
-          "depth_km": 8.8377,
           "source": "USGS"
         },
         {
