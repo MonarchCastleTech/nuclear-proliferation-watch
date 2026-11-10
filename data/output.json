@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "nuclear-proliferation-watch",
-    "generated": "2026-11-10T07:45:51.193801+00:00",
+    "generated": "2026-11-10T20:01:35.127366+00:00",
     "mode": "live",
     "sources": [
       "IAEA official pages",
@@ -14,10 +14,10 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-11-10T07:45:51.188076+00:00",
+    "issued_at": "2026-11-10T20:01:35.119655+00:00",
     "horizon": "0-30 days",
     "classification": "nuclear-escalation-pressure-not-test-or-weapon-probability",
-    "score": 10.0,
+    "score": 8.8,
     "level": "BASELINE",
     "confidence": "HIGH",
     "confidence_score": 100.0,
@@ -26,12 +26,12 @@
         "id": "iaea_safeguards_strain",
         "label": "IAEA safeguards and access strain",
         "available": true,
-        "score": 28.6,
-        "current_14d_weight": 5.8,
-        "current_14d_titles": 15,
+        "score": 24.0,
+        "current_14d_weight": 5.0,
+        "current_14d_titles": 14,
         "baseline_periods": 8,
         "baseline_median": 1.5,
-        "anomaly_z": 1.93,
+        "anomaly_z": 1.57,
         "evidence": [
           {
             "title": "IAEA Safeguards Symposium 2026: Programme Now Available",
@@ -62,12 +62,6 @@
             "url": null,
             "date": "2026-11-05",
             "weight": 1.0
-          },
-          {
-            "title": "International Cooperation Strengthens Radioactive Waste Characterization",
-            "url": null,
-            "date": "2026-11-06",
-            "weight": 0.8
           }
         ],
         "retained": false
@@ -91,12 +85,25 @@
         "id": "facility_security_incidents",
         "label": "IAEA-reported facility security incidents",
         "available": true,
-        "score": 0.0,
-        "current_30d_weight": 0.0,
+        "score": 2.2,
+        "current_30d_weight": 0.8,
         "baseline_months": 11,
         "baseline_median": 2.4,
-        "anomaly_z": -0.67,
-        "evidence": [],
+        "anomaly_z": -0.45,
+        "evidence": [
+          {
+            "title": "Theft of the Medical isotopes during transport",
+            "url": "https://www-news.iaea.org/ErfView.aspx?mId=cd29abb4-2d07-4d89-9e97-0acaa6fb258d",
+            "country": "Mexico",
+            "event_date": "07 Nov 2026",
+            "ines": "1",
+            "reported_by": "Comision Nacional de Seguridad Nuclear y Salvaguardias",
+            "reported_date": "10 Nov 2026",
+            "description": "On November the 7th, 2026, at approximately 00:46 (UTC-6), the National Commission for Nuclear Safety and Safeguards (CNSNS) received a notification from the National Institute of Nuclear Research (ININ) telling of the theft of medical radioisotopes. The incident occurred during the early hours of... Reported by Comision Nacional de Seguridad Nuclear y Salvaguardias of Mexico on 10 Nov 2026. Last update on 10 Nov 2026",
+            "source": "IAEA NEWS",
+            "weight": 0.8
+          }
+        ],
         "retained": false
       },
       {
@@ -105,7 +112,7 @@
         "available": true,
         "score": 0.0,
         "current_30d_diagnostic_weight": 0.0,
-        "events_considered": 1756,
+        "events_considered": 1761,
         "sites_monitored": 8,
         "anomaly_z": 0.0,
         "evidence": [],
@@ -121,17 +128,6 @@
     },
     "alerts": [],
     "history": [
-      {
-        "timestamp": "2026-09-17T05:27:01.021830+00:00",
-        "score": 12.1,
-        "level": "BASELINE",
-        "components": {
-          "iaea_safeguards_strain": 22.8,
-          "npwmd_designation_delta": 0.0,
-          "facility_security_incidents": 20.7,
-          "test_site_seismicity": 0.0
-        }
-      },
       {
         "timestamp": "2026-09-17T12:07:35.348186+00:00",
         "score": 4.1,
@@ -2100,14 +2096,25 @@
           "facility_security_incidents": 0.0,
           "test_site_seismicity": 0.0
         }
+      },
+      {
+        "timestamp": "2026-11-10T20:01:35.119655+00:00",
+        "score": 8.8,
+        "level": "BASELINE",
+        "components": {
+          "iaea_safeguards_strain": 24.0,
+          "npwmd_designation_delta": 0.0,
+          "facility_security_incidents": 2.2,
+          "test_site_seismicity": 0.0
+        }
       }
     ],
     "data_health": {
       "available_components": 4,
       "retained_components": [],
-      "iaea_titles": 53,
+      "iaea_titles": 52,
       "npwmd_entries": 1205,
-      "iaea_events": 23,
+      "iaea_events": 24,
       "test_sites": 8
     },
     "method": {
@@ -2147,12 +2154,12 @@
   "stats": [
     {
       "label": "Escalation Pressure",
-      "value": "10.0/100",
+      "value": "8.8/100",
       "delta": "BASELINE"
     },
     {
       "label": "IAEA Signals",
-      "value": "53",
+      "value": "52",
       "delta": "official indexed pages"
     },
     {
@@ -2169,6 +2176,15 @@
   "live_data": {
     "iaea_titles": {
       "signals": [
+        {
+          "title": "IAEA Mission says Slovakia is Committed to Strengthening Nuclear and Radiation Safety Regulatory Framework",
+          "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPRmJSMWI1bDk2Y1dPZkhNanJycHNYS1JtZUVVY3BhLVN5bERoQXdjLXlFZ20waE9zTjRrZFlPNFo0TlNTODhtMlNCQUNXa3VPWXJNbDB0ZlN1LURweVl5NHV0VlFNX3hlUW9hbW80VjJvYW9TT3R2YnN3LUo4N1JnWDlrWXN2NnFOYm9SakZfd3lSUEtDaTVpUXRleHZIaUg5WTVpcHNXeUtnVENzY1RGQnFxek04eGhpVk9SbHpidkFVZXRyamZGZkVpZ0RVT1pRLUF1S05tVEZLRkxGS2lfa0ZybjA1QQ?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20261109T114015Z",
+          "source": "GoogleNews"
+        },
         {
           "title": "Update 374 – IAEA Director General Statement on Situation in Ukraine",
           "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOdmpXUndtUVBBX3ZiN04wOGREb1pCaUNBbnAzMjVZc1NpY0h4YmFlVW8ydnFsUUtmdUJRZHF6bG9RdWs4YXZGVEFlZ2JzczA1YThWYThhckVFWEpibjJza3VXTllDYmVDZzdGbVBzQ2NuWTRaa2UzekNTVlIyWTFxRTFMLWNGNW51bUxpM212OHlnQVB1TURsbU1YaWt1WnZMaFdmUFFaZW9vbGhHN3BhdUxB?oc=5",
@@ -2584,15 +2600,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "Call for Papers: International Conference on Advancement in Radioactive Waste Management",
-          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOelVLNkdGUXpReGlBcFhhb2RPNjBNdUI4MzRvVERjdUtkdXpDZWpJQjVjcFN3NVdYeXRTYWRlNUxWaS1tcTI4Z29GakpNRTB1OGF5X05ic2pBTDdoNkd4Y185aXNPUWM0UWxLckpQandwLTJlYmhYaTVkcUlWWVRxMEQ1bTlxV0d3dWs0TnlUNUJoc2xIVm9jNnh4MkNiN3gtenFMdHpwYW5BNkdhRWlTb0NPVFBlaTZiVTVWMWMzRVE?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20261103T113819Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "Update 373 – IAEA Director General Statement on Situation in Ukraine",
           "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNY3hjV2xGNEF3ejhSSnJCYnRXa003TC1nQktIdXh5RGVYZHdHLWVpVXpEZkd0UHU3VUtlNnpPWEtvcERoS0FWaXc2UFl0TVd3dkJFbUdRZFBiVzkzZWdRaVMxanFLenN1N3RtWkowUEd0dGhCV2pieFBYQVRFb1FqczRoV1hOcWpGX0tkcV9Peml5NzJXYk9QNVlIalBaZEZOWHhvRHNfejBPNFgtbHk2ZQ?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -2611,30 +2618,21 @@
           "source": "GoogleNews"
         },
         {
-          "title": "IAEA Mission says Slovakia is Committed to Strengthening Nuclear and Radiation Safety Regulatory Framework",
-          "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPZk81MndPX0FsLVM4SUZlWE5Sck15YmlsQnI1RUVZbk9aNVBXRVFqRXA1YzBPN0ZRaGVWcFA4X255QVVMOTl1dXN4NFNrTmJtQ0NlLW1rYVBrUHNYbV91R1JNTk14SzRsVnV3ZlZrcEJ3cHAtd1YxR2ZXOFFCUlhnUFJRUDN6VVg0UW9mRUNMcGtOclRQeFg4akxCT1hjNlcxcm1WUHlWYXVZbUpKU29xZXl0TFR4aHdqWGhOV2huODhRZFg1cXFxVEd0OXVsamExcWdGLXo1WWZlOV9zZGJDQlA3T3d3VE0?oc=5",
+          "title": "IAEA at COP31: Nuclear for Energy Security",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOLVU2blNrYWx0d1ctOHVObUpSdkt1b2ZiTzJPTnNUdkVKUEI0NS0yN1R3N3pDX3lrZG84czdIbHlEa0ZoTDQyWXdEY0J0ZWlGNGdNS05iMF9QeS11MS1WVWZYbU9sRUlMOFNKeTgwcmZkUkpoWm1GazFaMDFkZXRRWHB4SEw?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
-          "seendate": "20261109T114015Z",
+          "seendate": "20261110T080000Z",
           "source": "GoogleNews"
         },
         {
           "title": "IAEA Mission says Jordan is Committed to Strengthening Radiation and Nuclear Safety Oversight",
-          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOMXBqQmcya1VlZUNDR2FveDE4eGcwdWIwNWxGSnllVnFhMDluTGxQQ1lHSkM0WUhGZjBWZkR3UjgwTk1wdzRGTk9fU1ZRTlpJc1JBY0t3Y2V6NHRxekhmTVVObG9mUmVuLUFjUTRtcDlxblFxMHdnYnBwWHNRak9fUjFieW1rY1o5Z0x5TnhIRnd0ZjdRaS1IaGdGY1RYR0JfRWY5ZjJ3bU9pcXYyd1NlNkI4VGRXN0NndFQ1MEZ1cm1BVklIeGc0R050dzJPaWZYb2J5NDdR?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOT2JZMFZNYm5tZ1RDWVR5aVFQNUpSWTNBZTdfZ0dhY0RRYTlDRmU2Mm0zQ2tEakhrSW83c00zOUFGSVdiUDlYc19raTB1akw2aTVHZ21XSFdabE9keWZVSmZLemFqQ3IxZHpTbGFDWnNHOWxBUkJYWHdUVldOLWJTVEEtWUJsRmNVdlBFaHd2eGdReDA4RHJwTkNNLThxSm96Qk9WWDd0a1Q2T1A1WGpnc0V1bjdMTEtsZGZNSE15T3p5dmtWMXN0TlJrX1dLS09STWJwSA?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
-          "seendate": "20261110T064839Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "International Cooperation Strengthens Radioactive Waste Characterization",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPTzItZF9XX19OQVNmRWt6SDF6SW5zZXdQeWFTYmk5dzh3YTJmWFBUYVd6ZV9WcGZJTXU5d3RoQjY5aGo0S1Y0VU9PQXVJSnl2cjZzMDFtcG1yZHBzOGlrZXp3V3pvY1BSQ1dhYkRmaXhFRGFjRExpSGhLaWpqOXRodVJ2TVRLaXY5eGZscGtsUE41YVpyNlVKUGZodlVzMnBMRFZFTG1uS1BnUXg4VkE?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20261106T115442Z",
+          "seendate": "20261110T054807Z",
           "source": "GoogleNews"
         },
         {
@@ -2652,6 +2650,17 @@
     },
     "iaea_events": {
       "events": [
+        {
+          "title": "Theft of the Medical isotopes during transport",
+          "url": "https://www-news.iaea.org/ErfView.aspx?mId=cd29abb4-2d07-4d89-9e97-0acaa6fb258d",
+          "country": "Mexico",
+          "event_date": "07 Nov 2026",
+          "ines": "1",
+          "reported_by": "Comision Nacional de Seguridad Nuclear y Salvaguardias",
+          "reported_date": "10 Nov 2026",
+          "description": "On November the 7th, 2026, at approximately 00:46 (UTC-6), the National Commission for Nuclear Safety and Safeguards (CNSNS) received a notification from the National Institute of Nuclear Research (ININ) telling of the theft of medical radioisotopes. The incident occurred during the early hours of... Reported by Comision Nacional de Seguridad Nuclear y Salvaguardias of Mexico on 10 Nov 2026. Last update on 10 Nov 2026",
+          "source": "IAEA NEWS"
+        },
         {
           "title": "Worker Exceeded Annual Dose Limit",
           "url": "https://www-news.iaea.org/ErfView.aspx?mId=1c8db75f-7758-4e8d-80be-6a64b2aefc31",
@@ -10357,6 +10366,70 @@
           "source": "USGS"
         },
         {
+          "id": "ci41360623",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1794335237970,
+          "magnitude": 1.72,
+          "magnitude_type": "ml",
+          "event_type": "earthquake",
+          "place": "15 km ENE of Ridgecrest, CA",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41360623",
+          "lon": -117.528833333333,
+          "lat": 35.6768333333333,
+          "depth_km": 9.8,
+          "source": "USGS"
+        },
+        {
+          "id": "nn00926860",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1794332698180,
+          "magnitude": 1.68,
+          "magnitude_type": "ml",
+          "event_type": "earthquake",
+          "place": "28 km SSW of Alamo, Nevada",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00926860",
+          "lon": -115.2902,
+          "lat": 37.1304,
+          "depth_km": 0,
+          "source": "USGS"
+        },
+        {
+          "id": "nn00926858",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1794331683891,
+          "magnitude": 1.66,
+          "magnitude_type": "ml",
+          "event_type": "earthquake",
+          "place": "28 km SSW of Alamo, Nevada",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00926858",
+          "lon": -115.3166,
+          "lat": 37.1341,
+          "depth_km": 5.9601,
+          "source": "USGS"
+        },
+        {
+          "id": "ci41360495",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1794300962810,
+          "magnitude": 1.52,
+          "magnitude_type": "ml",
+          "event_type": "earthquake",
+          "place": "6 km SSE of Coso Junction, CA",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41360495",
+          "lon": -117.909833333333,
+          "lat": 35.9965,
+          "depth_km": 2.21,
+          "source": "USGS"
+        },
+        {
           "id": "ci41360455",
           "site": "Nevada National Security Site",
           "site_lat": 37.12,
@@ -10402,6 +10475,22 @@
           "lon": -115.7468,
           "lat": 36.7269,
           "depth_km": 8.1808,
+          "source": "USGS"
+        },
+        {
+          "id": "uu80163896",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1794249610130,
+          "magnitude": 1.68,
+          "magnitude_type": "ml",
+          "event_type": "earthquake",
+          "place": "2 km NNE of Toquerville, Utah",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uu80163896",
+          "lon": -113.275833333333,
+          "lat": 37.2775,
+          "depth_km": 9.15,
           "source": "USGS"
         },
         {
@@ -38322,9 +38411,15 @@
       "weight": 1.0
     },
     {
-      "title": "International Cooperation Strengthens Radioactive Waste Characterization",
-      "url": null,
-      "date": "2026-11-06",
+      "title": "Theft of the Medical isotopes during transport",
+      "url": "https://www-news.iaea.org/ErfView.aspx?mId=cd29abb4-2d07-4d89-9e97-0acaa6fb258d",
+      "country": "Mexico",
+      "event_date": "07 Nov 2026",
+      "ines": "1",
+      "reported_by": "Comision Nacional de Seguridad Nuclear y Salvaguardias",
+      "reported_date": "10 Nov 2026",
+      "description": "On November the 7th, 2026, at approximately 00:46 (UTC-6), the National Commission for Nuclear Safety and Safeguards (CNSNS) received a notification from the National Institute of Nuclear Research (ININ) telling of the theft of medical radioisotopes. The incident occurred during the early hours of... Reported by Comision Nacional de Seguridad Nuclear y Salvaguardias of Mexico on 10 Nov 2026. Last update on 10 Nov 2026",
+      "source": "IAEA NEWS",
       "weight": 0.8
     }
   ]
