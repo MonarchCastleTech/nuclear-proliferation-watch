@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "nuclear-proliferation-watch",
-    "generated": "2026-11-11T07:10:44.011441+00:00",
+    "generated": "2026-11-11T19:52:45.925619+00:00",
     "mode": "live",
     "sources": [
       "IAEA official pages",
@@ -14,10 +14,10 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-11-11T07:10:43.998312+00:00",
+    "issued_at": "2026-11-11T19:52:45.921244+00:00",
     "horizon": "0-30 days",
     "classification": "nuclear-escalation-pressure-not-test-or-weapon-probability",
-    "score": 5.4,
+    "score": 6.3,
     "level": "BASELINE",
     "confidence": "HIGH",
     "confidence_score": 100.0,
@@ -26,12 +26,12 @@
         "id": "iaea_safeguards_strain",
         "label": "IAEA safeguards and access strain",
         "available": true,
-        "score": 14.3,
+        "score": 16.7,
         "current_14d_weight": 4.0,
-        "current_14d_titles": 12,
+        "current_14d_titles": 14,
         "baseline_periods": 8,
-        "baseline_median": 2.5,
-        "anomaly_z": 0.56,
+        "baseline_median": 2.0,
+        "anomaly_z": 0.9,
         "evidence": [
           {
             "title": "IAEA Safeguards Symposium 2026: Programme Now Available",
@@ -106,7 +106,7 @@
         "available": true,
         "score": 0.0,
         "current_30d_diagnostic_weight": 0.0,
-        "events_considered": 1760,
+        "events_considered": 1763,
         "sites_monitored": 8,
         "anomaly_z": 0.0,
         "evidence": [],
@@ -122,17 +122,6 @@
     },
     "alerts": [],
     "history": [
-      {
-        "timestamp": "2026-09-17T17:16:43.576777+00:00",
-        "score": 4.1,
-        "level": "BASELINE",
-        "components": {
-          "iaea_safeguards_strain": 0.0,
-          "npwmd_designation_delta": 0.0,
-          "facility_security_incidents": 20.7,
-          "test_site_seismicity": 0.0
-        }
-      },
       {
         "timestamp": "2026-09-17T21:47:15.753871+00:00",
         "score": 11.4,
@@ -2101,12 +2090,23 @@
           "facility_security_incidents": 2.2,
           "test_site_seismicity": 0.0
         }
+      },
+      {
+        "timestamp": "2026-11-11T19:52:45.921244+00:00",
+        "score": 6.3,
+        "level": "BASELINE",
+        "components": {
+          "iaea_safeguards_strain": 16.7,
+          "npwmd_designation_delta": 0.0,
+          "facility_security_incidents": 2.2,
+          "test_site_seismicity": 0.0
+        }
       }
     ],
     "data_health": {
       "available_components": 4,
       "retained_components": [],
-      "iaea_titles": 52,
+      "iaea_titles": 55,
       "npwmd_entries": 1205,
       "iaea_events": 24,
       "test_sites": 8
@@ -2148,12 +2148,12 @@
   "stats": [
     {
       "label": "Escalation Pressure",
-      "value": "5.4/100",
+      "value": "6.3/100",
       "delta": "BASELINE"
     },
     {
       "label": "IAEA Signals",
-      "value": "52",
+      "value": "55",
       "delta": "official indexed pages"
     },
     {
@@ -2198,12 +2198,12 @@
           "source": "GoogleNews"
         },
         {
-          "title": "IAEA Mission Reviews the Russian Federation’s Regulatory Framework for Nuclear and Radiation Safety",
-          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOQTNTS084QnZnOU5McFYwVk54UjJ1ZUtzWC02bEtOVXVVQU8wLWVhMHRId3d6dnRURnFRMW4yZXI4WFBoMHB2VEttYWVDbk5OSHRScHlHR29fc3ZDOGcycUZtUmJ5Uk8yUnR5SkVhRndZNkUtcGxhYzFtdVdQVzg2NVRPTWRVa2h0eV93bE5CYmIzOEt5Q2lGdW5taVZOVGlxNG9rVHZLVGs4aGpIZnVwY2RuNTZHTGFBSlZ5VFFrU093RlRFMXNJOEFBMGtucVR6bk1Ba1VlVjBWYjA?oc=5",
+          "title": "Symposium on International Safeguards: Innovation and Resilience in a Changing World - Safeguards as a Shared Responsibility - Programme",
+          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE84dGdaZHF5NGVkRFhyTnN4cUNqUGFkNFRHTXNoQm9lX1lJUkd0NW9pUktiSmsteF9UQmVFWl9uVjVMSld5UlZ6TU9KcTFOUzJ1djNLekV6QQ?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
-          "seendate": "20261106T063058Z",
+          "seendate": "20260224T081647Z",
           "source": "GoogleNews"
         },
         {
@@ -2213,15 +2213,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20261030T070000Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "Symposium on International Safeguards: Innovation and Resilience in a Changing World - Safeguards as a Shared Responsibility - Programme",
-          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE84dGdaZHF5NGVkRFhyTnN4cUNqUGFkNFRHTXNoQm9lX1lJUkd0NW9pUktiSmsteF9UQmVFWl9uVjVMSld5UlZ6TU9KcTFOUzJ1djNLekV6QQ?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260224T081647Z",
           "source": "GoogleNews"
         },
         {
@@ -2270,15 +2261,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "Italy and Romania Establish New Member State Support Programmes to Strengthen IAEA Safeguards",
-          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxObFR5dkV1RHJhc1lzZzVLUjlJMWIyWFNaeWJtVU83cmRCUVdTNDc0aFhRdTFsczJTQWg1SVFJQ1VfSHdRek9LRTZyU2lqRU92T3pBcFoxQldzRURFOVcwVU5zUkl4MGtkaXl6OWtxMVBPT2ZYVmkyV1c5Yk13eHhSQVoxbE9MYzcwbDFQbnZaYnZ4UnZWOWlxSENBbmd4QkJuaHMtUzlOTWxhVDFxWFFKZTdVRnlHMmFnR0pJMkpoTmtRV0dmeU1HZQ?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20261023T070000Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "IAEA to Host Symposium on International Safeguards, 9 to 12 November",
           "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9jd210Y0FUXzVXQ19kQUFFS0hqVkdpSFhCdlRsTVlIRFpHNG1ZV0FzT09iQ293WVR0MmI4Q1lzb3RLdlFFck1IWV9vMA?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -2288,12 +2270,12 @@
           "source": "GoogleNews"
         },
         {
-          "title": "Event Schedule Draft Overview",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQazQ4WUVxcEwwamtvZlhFZjNlOXV4US02MHY1NlRHZW1BUHQ2YzhkeWtVekVKNTJKYzc5dkJ6WDdDQmFPUTRBTmNsUjVfVGpCVXhnbXR1Mkp6dDFNcGMyRkJjcTZ2Uk5xTURFc2N3enlIS2hyVkZxTmxSM3IxenhqWjJOVmFvTnVRNXdwSUdwWWhDMnBtUVJ3TFlITWFzaURsWTdvZ0xDWQ?oc=5",
+          "title": "Italy and Romania Establish New Member State Support Programmes to Strengthen IAEA Safeguards",
+          "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1pamY3QUduT3lkZWVKTjNWSEhLT3VNZ1VKXzNva2JidkozRjFpT1VyQWpiRElfb0xsSGFOWW9wYU5GVXJIRHllc3p5VQ?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
-          "seendate": "20261013T070000Z",
+          "seendate": "20261023T060000Z",
           "source": "GoogleNews"
         },
         {
@@ -2504,15 +2486,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "Application of IAEA Safeguards in the Middle East",
-          "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1zUmlKdTlZM1lPOUkxanBRdk5XVG5oTnhTWjduRzVzWi1TamhGZmYtZFh0c0NHLWJTSmtJOEZOekM2NEFZNmc?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260726T070000Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "Nuclear Safety, Security and Safeguards in Ukraine",
           "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBFWDZ0ZzQ0Zlpha1hqWWJsTkxhUTdiMG1hYmdIZXFxaHh6V1FPSHNPOGRHdWduZ3dHS3FVYXF5V0hKT3g1QU9EQzRfXzlsRXhlNTVKS3d6QVctRldzM0NRWjVNRWxNWTBuZE1vSEVCU29JNUE?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -2558,6 +2531,15 @@
           "source": "GoogleNews"
         },
         {
+          "title": "Rafael Mariano Grossi | IAEA",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE55OXJZWUVIRFBqSFJtNXRubUVQWEg0TXNZdG9CdzZWUTBFcUx1MkVOMUEyeXlCMXRDS0dFSXFfMjRrdGZoSEpDaDdhc18yOWpOTzhCY2UyMmQ3T0U?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260313T194636Z",
+          "source": "GoogleNews"
+        },
+        {
           "title": "Services Series",
           "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9kcDRHQUJLbjVjLU5OZkdsR0hwS1JoSW1ZTkdSRFpVeks0RTctTEI0VldYS1V0MllwampPMHlxVzl0SHNCazZVUmZyNDZZMmFTd1k1elBqOVJocngxc2lRdXU5ZWNfeV8wT0p0aW91T3I?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -2582,6 +2564,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20160906T012238Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "TECDOC Series",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5QanRtZVdBX0V2VGRfZE9zajdTeU1pQ0dhQnEyQkJEVDZqVTZJcG5Ec0hJcEEwdXhCaW1XR3hiRDFrT28wekswNnEyQVNYZzhacmRoRzdoZXhvZFIxLTFPZEpDMA?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260801T001021Z",
           "source": "GoogleNews"
         },
         {
@@ -2612,6 +2603,15 @@
           "source": "GoogleNews"
         },
         {
+          "title": "The IAEA Holds its First Advanced Training Course on Nuclear Law in Russian",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOUTN5VnNDUEVIcjlCOEtEbnp0XzNwWHJRWEZnTHJMT25wcVdranZlM01DSWE4SVJfN2RJYlNwd1R6d1JfUEdTcm1rOF9XSXRNNEcySFVIQnBaVVVMdklVNzhIVjMtVWpyUTVQRDZlMjR6OVZQZ3E0X1JiZnlXQjVVVmVnUGJiTFAtNEFQelNEUWNuVFV6ODgyX3NZR2M4M3VXZm02aEliek1YQmJxSElJZjNR?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20261111T113000Z",
+          "source": "GoogleNews"
+        },
+        {
           "title": "Powering the Future: Nuclear Fuel Supply Chain Conference Held in Vienna",
           "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNd3N5Tk5oN0FFNjA1dkw5UzhWWV9WdGNTSnUxVGpOc3daaFg2aXFiN0Y0a0h4MzFzM2JYaFl0WnZZZzQ2d1lhNHBldXh2Z2s1X255NXVaM1FUSk1SZFZQSFc2Qkx5NzVhOTJlN01ZY3FoX1Q4VDdFLWJrS1JxMGxNZW45dkJ0NnhUcGtUQ3BZcVIxOWZyVlhHOTNYT0o0WHlvZTkya2tqSk9ReGdF?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -2627,6 +2627,33 @@
           "language": "",
           "tone": 0,
           "seendate": "20261110T080000Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "New Research on Growing Resilient and Nutritious Crops",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOdnh1MXN4Vlk1S09nN3hXM0tONjVmYzlsVGZxM1FWbk5YVjdRSmZaMDNyZ19vUXdhNVhNOXZnZTB3RHRBVzExdVZkVDlFSkdURkp4ZGZSTS1ydkNwa294LWwtdmQ1Z011ZDB3Rl9mSHppN1FEX2MzTWc2c1JheDVlQlI1dDd4R0FkR2lqdVpIMC1PN245?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20261029T070000Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Putting Biodiversity to Work for Food Security",
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNSm8xcVNqMFN6bVVqd3VXNlk0T2tGS3dpaXY4UUlmeUwxMV9iLXoyUDRHQnZka0gzandleTExNkx2SmhkdDB3bWlrRjZ6TUdOdE9MaWFMNmcyeDlDQlpyLVBTeGczLU5zb1Ytam5jbWtYT3JWLU1VQlA1Q29RVHRVaXF6YjlxQzdFZlE?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20261019T070000Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Seven Ways Nuclear Science and Technology Help Protect the Environment",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOSVNYbkIxbWZHM0t2RmV6NlRnRE9ReDV5bkpIbEo5VkNMTXBCa19MMnVqMEhUNGpxcGE5TWNlWkxmSHFQNjQtSVRJRC0wWENvbDR1bkpIS3VCSkpQMS1pQVY1cHR2WjNsekVic3Frb2FIRVdnXzdodkc1Vzk1Y1B3OGpFTkY3Q0RLVG1GOEYzZTRMeVdlWWtEdkdXcE1sYlI1Y3cydHFlT3owZw?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20261109T144500Z",
           "source": "GoogleNews"
         },
         {
@@ -10357,6 +10384,54 @@
           "lon": 89.0912,
           "lat": 43.7287,
           "depth_km": 10,
+          "source": "USGS"
+        },
+        {
+          "id": "ci41360935",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1794392731800,
+          "magnitude": 1.61,
+          "magnitude_type": "ml",
+          "event_type": "earthquake",
+          "place": "14 km SW of Searles Valley, CA",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41360935",
+          "lon": -117.527333333333,
+          "lat": 35.6931666666667,
+          "depth_km": 6.45,
+          "source": "USGS"
+        },
+        {
+          "id": "nn00926897",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1794383823735,
+          "magnitude": 1.76,
+          "magnitude_type": "ml",
+          "event_type": "earthquake",
+          "place": "59 km W of Rachel, Nevada",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00926897",
+          "lon": -116.4136,
+          "lat": 37.6937,
+          "depth_km": 2.902,
+          "source": "USGS"
+        },
+        {
+          "id": "nn00926895",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1794382169891,
+          "magnitude": 1.76,
+          "magnitude_type": "ml",
+          "event_type": "earthquake",
+          "place": "91 km SE of Kingston, Nevada",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00926895",
+          "lon": -116.3133,
+          "lat": 38.6409,
+          "depth_km": 11.1886,
           "source": "USGS"
         },
         {
