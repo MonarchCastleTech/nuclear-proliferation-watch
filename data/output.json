@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "nuclear-proliferation-watch",
-    "generated": "2026-11-11T19:52:45.925619+00:00",
+    "generated": "2026-11-12T07:44:47.420199+00:00",
     "mode": "live",
     "sources": [
       "IAEA official pages",
@@ -14,10 +14,10 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-11-11T19:52:45.921244+00:00",
+    "issued_at": "2026-11-12T07:44:47.412516+00:00",
     "horizon": "0-30 days",
     "classification": "nuclear-escalation-pressure-not-test-or-weapon-probability",
-    "score": 6.3,
+    "score": 6.6,
     "level": "BASELINE",
     "confidence": "HIGH",
     "confidence_score": 100.0,
@@ -26,12 +26,12 @@
         "id": "iaea_safeguards_strain",
         "label": "IAEA safeguards and access strain",
         "available": true,
-        "score": 16.7,
+        "score": 17.7,
         "current_14d_weight": 4.0,
         "current_14d_titles": 14,
         "baseline_periods": 8,
         "baseline_median": 2.0,
-        "anomaly_z": 0.9,
+        "anomaly_z": 1.04,
         "evidence": [
           {
             "title": "IAEA Safeguards Symposium 2026: Programme Now Available",
@@ -106,7 +106,7 @@
         "available": true,
         "score": 0.0,
         "current_30d_diagnostic_weight": 0.0,
-        "events_considered": 1763,
+        "events_considered": 1760,
         "sites_monitored": 8,
         "anomaly_z": 0.0,
         "evidence": [],
@@ -122,17 +122,6 @@
     },
     "alerts": [],
     "history": [
-      {
-        "timestamp": "2026-09-17T21:47:15.753871+00:00",
-        "score": 11.4,
-        "level": "BASELINE",
-        "components": {
-          "iaea_safeguards_strain": 20.8,
-          "npwmd_designation_delta": 0.0,
-          "facility_security_incidents": 20.7,
-          "test_site_seismicity": 0.0
-        }
-      },
       {
         "timestamp": "2026-09-18T05:14:32.174827+00:00",
         "score": 11.4,
@@ -2101,12 +2090,23 @@
           "facility_security_incidents": 2.2,
           "test_site_seismicity": 0.0
         }
+      },
+      {
+        "timestamp": "2026-11-12T07:44:47.412516+00:00",
+        "score": 6.6,
+        "level": "BASELINE",
+        "components": {
+          "iaea_safeguards_strain": 17.7,
+          "npwmd_designation_delta": 0.0,
+          "facility_security_incidents": 2.2,
+          "test_site_seismicity": 0.0
+        }
       }
     ],
     "data_health": {
       "available_components": 4,
       "retained_components": [],
-      "iaea_titles": 55,
+      "iaea_titles": 58,
       "npwmd_entries": 1205,
       "iaea_events": 24,
       "test_sites": 8
@@ -2148,12 +2148,12 @@
   "stats": [
     {
       "label": "Escalation Pressure",
-      "value": "6.3/100",
+      "value": "6.6/100",
       "delta": "BASELINE"
     },
     {
       "label": "IAEA Signals",
-      "value": "55",
+      "value": "58",
       "delta": "official indexed pages"
     },
     {
@@ -2225,12 +2225,12 @@
           "source": "GoogleNews"
         },
         {
-          "title": "Event Schedule Draft Overview",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNUVRaX0t1ZGgwSXhqODdPMUU1Y0FmdGx6c2hIb0F3X1c0ZWY0aVU5MkRjMzlEdXhIYVFOdlBPajduckhLcHJHQmNqc0o0V3FoYnM1d3hNXzM5YlhQTERHcF9jTmlnRWs2OWZrd09UVmwxaXNWUTM1VXhyMjRXZVRvSVBPeG52UEVJRl9SNlB5ZTFCaTlES1o2YjdXUnl1Z3ZsMWlOejBSc0E3QQ?oc=5",
+          "title": "ConnectNews",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPX3V1cVFMZkUxR1JSRVNKTXZ6Y2pNLU1GdG9OYkZCd2pzVURWVTdxTldrbm15NWdOSkJXSlhNNmlMT1lDSDJhZ1N5WmVwY0NNQzNOZjhkWmZBUlJQQm9DcFRlcGFSbS02REJFREFld2ZlR2hFYXpaZUhKbjVmbjFzMVV2ZGc?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
-          "seendate": "20261027T021157Z",
+          "seendate": "20261031T070000Z",
           "source": "GoogleNews"
         },
         {
@@ -2276,6 +2276,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20261023T060000Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Event Schedule Draft Overview",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNUVRaX0t1ZGgwSXhqODdPMUU1Y0FmdGx6c2hIb0F3X1c0ZWY0aVU5MkRjMzlEdXhIYVFOdlBPajduckhLcHJHQmNqc0o0V3FoYnM1d3hNXzM5YlhQTERHcF9jTmlnRWs2OWZrd09UVmwxaXNWUTM1VXhyMjRXZVRvSVBPeG52UEVJRl9SNlB5ZTFCaTlES1o2YjdXUnl1Z3ZsMWlOejBSc0E3QQ?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20261027T021157Z",
           "source": "GoogleNews"
         },
         {
@@ -2410,7 +2419,7 @@
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
-          "seendate": "20261023T070000Z",
+          "seendate": "20260715T070000Z",
           "source": "GoogleNews"
         },
         {
@@ -2576,6 +2585,15 @@
           "source": "GoogleNews"
         },
         {
+          "title": "Country Programme Frameworks",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPODFocUhzR1N3dVJiMnJRSXpGdjhXMk9LZWpLTFZkR2lsTDdhaHowQkYxd096aTZWV3NXYXgyVWtvR2NHQnlIbmpKVEdJMVJXdldaOERyUDAyNlB5NDBueTV1R2x4OG1YWTVpNmhtbmdoY3ltZHpqQVFKUWNGZ2VKSkYzYzNOLXpRUWZmZmVDXzBSZlU?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20180618T183815Z",
+          "source": "GoogleNews"
+        },
+        {
           "title": "Resolutions and Other Decisions of the General Conference | IAEA",
           "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1oazMzcGoyWlZRYkY1cW1HRmJnRi0xZXBxcUk0RmpvbnBKajhZeTlBSEd0SUJLaVRwSmhGNVZVNDVJYlhmUzk0R0J2WEpKVnJy?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -2612,6 +2630,15 @@
           "source": "GoogleNews"
         },
         {
+          "title": "IAEA World Fusion Outlook 2026",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBYbDRkeFRSTEtCVkNiMllTX2o5ZFRNLVk3SE9EUjdKc2wxSzN5eUFGWWNSNW1feVlQTnFiQmRjZG50cS1TWTBLZWhPRFR3UDVKZzRyN2g1YUF1RDB1MExfcG5tR1lyXzA0TXJfbHp3c096QWxZQS13TzV3?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20261112T061514Z",
+          "source": "GoogleNews"
+        },
+        {
           "title": "Powering the Future: Nuclear Fuel Supply Chain Conference Held in Vienna",
           "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNd3N5Tk5oN0FFNjA1dkw5UzhWWV9WdGNTSnUxVGpOc3daaFg2aXFiN0Y0a0h4MzFzM2JYaFl0WnZZZzQ2d1lhNHBldXh2Z2s1X255NXVaM1FUSk1SZFZQSFc2Qkx5NzVhOTJlN01ZY3FoX1Q4VDdFLWJrS1JxMGxNZW45dkJ0NnhUcGtUQ3BZcVIxOWZyVlhHOTNYT0o0WHlvZTkya2tqSk9ReGdF?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -2622,7 +2649,7 @@
         },
         {
           "title": "IAEA at COP31: Nuclear for Energy Security",
-          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOLVU2blNrYWx0d1ctOHVObUpSdkt1b2ZiTzJPTnNUdkVKUEI0NS0yN1R3N3pDX3lrZG84czdIbHlEa0ZoTDQyWXdEY0J0ZWlGNGdNS05iMF9QeS11MS1WVWZYbU9sRUlMOFNKeTgwcmZkUkpoWm1GazFaMDFkZXRRWHB4SEw?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNNnNYWXJwbGZhQkVlUGdrNWRKNVlrUzRzamQ2LTJmdXVTS1NoQmlqenRDRFRVQ0ZqaWdNSHBJMmhHd2w3Wm15VXhQN0RkcEhWTENOcF9sUUg1aGo3Y3hESE9tM2pDSlVRbGN5ZzE5WU1EZ2RsUnNxNXdlNGdEeFQwZnduVQ?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
@@ -38192,54 +38219,6 @@
           "lon": -114.2337,
           "lat": 35.8435,
           "depth_km": 0.0212,
-          "source": "USGS"
-        },
-        {
-          "id": "ci40483962",
-          "site": "Nevada National Security Site",
-          "site_lat": 37.12,
-          "site_lon": -116.05,
-          "time": 1762903746370,
-          "magnitude": 2.5,
-          "magnitude_type": "ml",
-          "event_type": "earthquake",
-          "place": "14 km W of Searles Valley, CA",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40483962",
-          "lon": -117.5598333,
-          "lat": 35.7441667,
-          "depth_km": 7.29,
-          "source": "USGS"
-        },
-        {
-          "id": "nn00907197",
-          "site": "Nevada National Security Site",
-          "site_lat": 37.12,
-          "site_lon": -116.05,
-          "time": 1762897755254,
-          "magnitude": 1.76,
-          "magnitude_type": "ml",
-          "event_type": "earthquake",
-          "place": "26 km NNW of Dyer, Nevada",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00907197",
-          "lon": -118.1346,
-          "lat": 37.9018,
-          "depth_km": 1.4375,
-          "source": "USGS"
-        },
-        {
-          "id": "nn00907175",
-          "site": "Nevada National Security Site",
-          "site_lat": 37.12,
-          "site_lon": -116.05,
-          "time": 1762854030228,
-          "magnitude": 1.56,
-          "magnitude_type": "ml",
-          "event_type": "earthquake",
-          "place": "77 km ENE of Tonopah, Nevada",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00907175",
-          "lon": -116.4938,
-          "lat": 38.4542,
-          "depth_km": 4.9396,
           "source": "USGS"
         },
         {
