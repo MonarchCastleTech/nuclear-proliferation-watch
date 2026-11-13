@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "nuclear-proliferation-watch",
-    "generated": "2026-11-12T20:28:29.306847+00:00",
+    "generated": "2026-11-13T07:20:39.862729+00:00",
     "mode": "live",
     "sources": [
       "IAEA official pages",
@@ -14,10 +14,10 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-11-12T20:28:29.301175+00:00",
+    "issued_at": "2026-11-13T07:20:39.855130+00:00",
     "horizon": "0-30 days",
     "classification": "nuclear-escalation-pressure-not-test-or-weapon-probability",
-    "score": 8.1,
+    "score": 4.8,
     "level": "BASELINE",
     "confidence": "HIGH",
     "confidence_score": 100.0,
@@ -26,19 +26,13 @@
         "id": "iaea_safeguards_strain",
         "label": "IAEA safeguards and access strain",
         "available": true,
-        "score": 21.9,
-        "current_14d_weight": 4.0,
-        "current_14d_titles": 16,
+        "score": 12.5,
+        "current_14d_weight": 3.0,
+        "current_14d_titles": 13,
         "baseline_periods": 8,
-        "baseline_median": 2.3,
-        "anomaly_z": 1.64,
+        "baseline_median": 1.8,
+        "anomaly_z": 0.67,
         "evidence": [
-          {
-            "title": "IAEA Safeguards Symposium 2026: Programme Now Available",
-            "url": null,
-            "date": "2026-10-30",
-            "weight": 1.0
-          },
           {
             "title": "IAEA to Host Symposium on International Safeguards, 9 to 12 November",
             "url": null,
@@ -106,7 +100,7 @@
         "available": true,
         "score": 0.0,
         "current_30d_diagnostic_weight": 0.0,
-        "events_considered": 1761,
+        "events_considered": 1759,
         "sites_monitored": 8,
         "anomaly_z": 0.0,
         "evidence": [],
@@ -122,17 +116,6 @@
     },
     "alerts": [],
     "history": [
-      {
-        "timestamp": "2026-09-18T11:51:13.121594+00:00",
-        "score": 11.4,
-        "level": "BASELINE",
-        "components": {
-          "iaea_safeguards_strain": 20.8,
-          "npwmd_designation_delta": 0.0,
-          "facility_security_incidents": 20.7,
-          "test_site_seismicity": 0.0
-        }
-      },
       {
         "timestamp": "2026-09-18T16:44:20.827581+00:00",
         "score": 11.4,
@@ -2101,12 +2084,23 @@
           "facility_security_incidents": 2.2,
           "test_site_seismicity": 0.0
         }
+      },
+      {
+        "timestamp": "2026-11-13T07:20:39.855130+00:00",
+        "score": 4.8,
+        "level": "BASELINE",
+        "components": {
+          "iaea_safeguards_strain": 12.5,
+          "npwmd_designation_delta": 0.0,
+          "facility_security_incidents": 2.2,
+          "test_site_seismicity": 0.0
+        }
       }
     ],
     "data_health": {
       "available_components": 4,
       "retained_components": [],
-      "iaea_titles": 55,
+      "iaea_titles": 53,
       "npwmd_entries": 1205,
       "iaea_events": 24,
       "test_sites": 8
@@ -2148,12 +2142,12 @@
   "stats": [
     {
       "label": "Escalation Pressure",
-      "value": "8.1/100",
+      "value": "4.8/100",
       "delta": "BASELINE"
     },
     {
       "label": "IAEA Signals",
-      "value": "55",
+      "value": "53",
       "delta": "official indexed pages"
     },
     {
@@ -2177,15 +2171,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20261112T061514Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "IAEA Mission says Slovakia is Committed to Strengthening Nuclear and Radiation Safety Regulatory Framework",
-          "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPRmJSMWI1bDk2Y1dPZkhNanJycHNYS1JtZUVVY3BhLVN5bERoQXdjLXlFZ20waE9zTjRrZFlPNFo0TlNTODhtMlNCQUNXa3VPWXJNbDB0ZlN1LURweVl5NHV0VlFNX3hlUW9hbW80VjJvYW9TT3R2YnN3LUo4N1JnWDlrWXN2NnFOYm9SakZfd3lSUEtDaTVpUXRleHZIaUg5WTVpcHNXeUtnVENzY1RGQnFxek04eGhpVk9SbHpidkFVZXRyamZGZkVpZ0RVT1pRLUF1S05tVEZLRkxGS2lfa0ZybjA1QQ?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20261109T114015Z",
           "source": "GoogleNews"
         },
         {
@@ -2432,15 +2417,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "Communication from the PM of the United States of America regarding the request to include in the agenda of the Conference an item entitled “Transfer of the nuclear materials in the context of AUKUS and its safeguards in all aspects under the NPT\" | IAEA",
-          "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFBnYUpsb0h6MWx3NHJGdjdCUmdZQXUyU1MyQlc1d0VPckNxeUhPM0RzZ3l6WXkyaXdwS2RlNU5XOExpQmtuTVE?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260913T070000Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "Agenda",
           "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1HMjRmZ282VjdaazFlRmtZUWdBZFpMOUZ3WGt6dU1sc2h3dUhBSzlMUG1yYlJxS0R6OEFHV0YyWFdUZFlYWllJOUN0SUstUWQxQjNuSEFFVkx5UThGZ0ZkeHllU2lfZw?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -2558,6 +2534,15 @@
           "source": "GoogleNews"
         },
         {
+          "title": "TECDOC Series",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5QanRtZVdBX0V2VGRfZE9zajdTeU1pQ0dhQnEyQkJEVDZqVTZJcG5Ec0hJcEEwdXhCaW1XR3hiRDFrT28wekswNnEyQVNYZzhacmRoRzdoZXhvZFIxLTFPZEpDMA?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260801T001021Z",
+          "source": "GoogleNews"
+        },
+        {
           "title": "Country Programme Frameworks",
           "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPODFocUhzR1N3dVJiMnJRSXpGdjhXMk9LZWpLTFZkR2lsTDdhaHowQkYxd096aTZWV3NXYXgyVWtvR2NHQnlIbmpKVEdJMVJXdldaOERyUDAyNlB5NDBueTV1R2x4OG1YWTVpNmhtbmdoY3ltZHpqQVFKUWNGZ2VKSkYzYzNOLXpRUWZmZmVDXzBSZlU?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -2591,15 +2576,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20150125T160401Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "The IAEA Holds its First Advanced Training Course on Nuclear Law in Russian",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOUTN5VnNDUEVIcjlCOEtEbnp0XzNwWHJRWEZnTHJMT25wcVdranZlM01DSWE4SVJfN2RJYlNwd1R6d1JfUEdTcm1rOF9XSXRNNEcySFVIQnBaVVVMdklVNzhIVjMtVWpyUTVQRDZlMjR6OVZQZ3E0X1JiZnlXQjVVVmVnUGJiTFAtNEFQelNEUWNuVFV6ODgyX3NZR2M4M3VXZm02aEliek1YQmJxSElJZjNR?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20261111T113000Z",
           "source": "GoogleNews"
         },
         {
@@ -10387,6 +10363,54 @@
           "source": "USGS"
         },
         {
+          "id": "ci41361623",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1794550378710,
+          "magnitude": 2.16,
+          "magnitude_type": "ml",
+          "event_type": "earthquake",
+          "place": "37 km S of Stovepipe Wells, CA",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41361623",
+          "lon": -117.2125,
+          "lat": 36.27667,
+          "depth_km": 1.61,
+          "source": "USGS"
+        },
+        {
+          "id": "nc75465957",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1794529234300,
+          "magnitude": 1.55,
+          "magnitude_type": "md",
+          "event_type": "earthquake",
+          "place": "18 km SW of Toms Place, CA",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75465957",
+          "lon": -118.839996337891,
+          "lat": 37.4609985351562,
+          "depth_km": -0.319999992847443,
+          "source": "USGS"
+        },
+        {
+          "id": "nn00926935",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1794524483796,
+          "magnitude": 1.64,
+          "magnitude_type": "ml",
+          "event_type": "explosion",
+          "place": "36 km S of Goodsprings, Nevada",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00926935",
+          "lon": -115.4842,
+          "lat": 35.5052,
+          "depth_km": 3.8858,
+          "source": "USGS"
+        },
+        {
           "id": "ci41361311",
           "site": "Nevada National Security Site",
           "site_lat": 37.12,
@@ -10903,15 +10927,15 @@
           "site": "Nevada National Security Site",
           "site_lat": 37.12,
           "site_lon": -116.05,
-          "time": 1793681067930,
-          "magnitude": 1.55,
+          "time": 1793681067920,
+          "magnitude": 1.5,
           "magnitude_type": "md",
           "event_type": "earthquake",
           "place": "16 km SW of Toms Place, CA",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75461882",
-          "lon": -118.814666748047,
-          "lat": 37.4686660766602,
-          "depth_km": 4.25,
+          "lon": -118.815,
+          "lat": 37.4691666666667,
+          "depth_km": 5.09,
           "source": "USGS"
         },
         {
@@ -38131,86 +38155,6 @@
           "source": "USGS"
         },
         {
-          "id": "nn00907230",
-          "site": "Nevada National Security Site",
-          "site_lat": 37.12,
-          "site_lon": -116.05,
-          "time": 1762986029484,
-          "magnitude": 2.12,
-          "magnitude_type": "ml",
-          "event_type": "earthquake",
-          "place": "14 km SSE of Enterprise, Nevada",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00907230",
-          "lon": -115.1837,
-          "lat": 35.9038,
-          "depth_km": 6.8668,
-          "source": "USGS"
-        },
-        {
-          "id": "ci40484258",
-          "site": "Nevada National Security Site",
-          "site_lat": 37.12,
-          "site_lon": -116.05,
-          "time": 1762957060460,
-          "magnitude": 1.98,
-          "magnitude_type": "ml",
-          "event_type": "earthquake",
-          "place": "14 km SW of Searles Valley, CA",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40484258",
-          "lon": -117.5278333,
-          "lat": 35.6873333,
-          "depth_km": 7.36,
-          "source": "USGS"
-        },
-        {
-          "id": "ci40484170",
-          "site": "Nevada National Security Site",
-          "site_lat": 37.12,
-          "site_lon": -116.05,
-          "time": 1762942213850,
-          "magnitude": 1.95,
-          "magnitude_type": "ml",
-          "event_type": "earthquake",
-          "place": "20 km ESE of Little Lake, CA",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40484170",
-          "lon": -117.6986667,
-          "lat": 35.8638333,
-          "depth_km": 7.42,
-          "source": "USGS"
-        },
-        {
-          "id": "ci40484050",
-          "site": "Nevada National Security Site",
-          "site_lat": 37.12,
-          "site_lon": -116.05,
-          "time": 1762915167880,
-          "magnitude": 1.51,
-          "magnitude_type": "ml",
-          "event_type": "earthquake",
-          "place": "18 km E of Little Lake, CA",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40484050",
-          "lon": -117.7108333,
-          "lat": 35.9155,
-          "depth_km": 3.72,
-          "source": "USGS"
-        },
-        {
-          "id": "nn00907210",
-          "site": "Nevada National Security Site",
-          "site_lat": 37.12,
-          "site_lon": -116.05,
-          "time": 1762914529093,
-          "magnitude": 1.8,
-          "magnitude_type": "ml",
-          "event_type": "earthquake",
-          "place": "18 km NE of White Hills, Arizona",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00907210",
-          "lon": -114.2337,
-          "lat": 35.8435,
-          "depth_km": 0.0212,
-          "source": "USGS"
-        },
-        {
           "id": "us6000u48b",
           "site": "Chagai",
           "site_lat": 28.9,
@@ -38401,12 +38345,6 @@
     }
   },
   "events": [
-    {
-      "title": "IAEA Safeguards Symposium 2026: Programme Now Available",
-      "url": null,
-      "date": "2026-10-30",
-      "weight": 1.0
-    },
     {
       "title": "IAEA to Host Symposium on International Safeguards, 9 to 12 November",
       "url": null,
