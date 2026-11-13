@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "nuclear-proliferation-watch",
-    "generated": "2026-11-13T07:20:39.862729+00:00",
+    "generated": "2026-11-13T20:03:50.732015+00:00",
     "mode": "live",
     "sources": [
       "IAEA official pages",
@@ -14,10 +14,10 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-11-13T07:20:39.855130+00:00",
+    "issued_at": "2026-11-13T20:03:50.726969+00:00",
     "horizon": "0-30 days",
     "classification": "nuclear-escalation-pressure-not-test-or-weapon-probability",
-    "score": 4.8,
+    "score": 4.4,
     "level": "BASELINE",
     "confidence": "HIGH",
     "confidence_score": 100.0,
@@ -26,12 +26,12 @@
         "id": "iaea_safeguards_strain",
         "label": "IAEA safeguards and access strain",
         "available": true,
-        "score": 12.5,
+        "score": 11.4,
         "current_14d_weight": 3.0,
-        "current_14d_titles": 13,
+        "current_14d_titles": 12,
         "baseline_periods": 8,
-        "baseline_median": 1.8,
-        "anomaly_z": 0.67,
+        "baseline_median": 2.0,
+        "anomaly_z": 0.52,
         "evidence": [
           {
             "title": "IAEA to Host Symposium on International Safeguards, 9 to 12 November",
@@ -65,8 +65,8 @@
         "removed_count": 0,
         "added": [],
         "removed": [],
-        "publish_date": "2026-11-09",
-        "sha256": "7f43332dae0d1b78ce44c31692d87a3c66e4075bcd97e36d3f18585572ff55b8",
+        "publish_date": "2026-11-12",
+        "sha256": "850ef744932d60f960045c9a4cd37ebf6237f8c32c0b163801e14fbcba6d9ce3",
         "retained": false
       },
       {
@@ -100,7 +100,7 @@
         "available": true,
         "score": 0.0,
         "current_30d_diagnostic_weight": 0.0,
-        "events_considered": 1759,
+        "events_considered": 1763,
         "sites_monitored": 8,
         "anomaly_z": 0.0,
         "evidence": [],
@@ -116,17 +116,6 @@
     },
     "alerts": [],
     "history": [
-      {
-        "timestamp": "2026-09-18T16:44:20.827581+00:00",
-        "score": 11.4,
-        "level": "BASELINE",
-        "components": {
-          "iaea_safeguards_strain": 20.8,
-          "npwmd_designation_delta": 0.0,
-          "facility_security_incidents": 20.7,
-          "test_site_seismicity": 0.0
-        }
-      },
       {
         "timestamp": "2026-09-18T21:16:18.704499+00:00",
         "score": 12.7,
@@ -2095,12 +2084,23 @@
           "facility_security_incidents": 2.2,
           "test_site_seismicity": 0.0
         }
+      },
+      {
+        "timestamp": "2026-11-13T20:03:50.726969+00:00",
+        "score": 4.4,
+        "level": "BASELINE",
+        "components": {
+          "iaea_safeguards_strain": 11.4,
+          "npwmd_designation_delta": 0.0,
+          "facility_security_incidents": 2.2,
+          "test_site_seismicity": 0.0
+        }
       }
     ],
     "data_health": {
       "available_components": 4,
       "retained_components": [],
-      "iaea_titles": 53,
+      "iaea_titles": 52,
       "npwmd_entries": 1205,
       "iaea_events": 24,
       "test_sites": 8
@@ -2142,12 +2142,12 @@
   "stats": [
     {
       "label": "Escalation Pressure",
-      "value": "4.8/100",
+      "value": "4.4/100",
       "delta": "BASELINE"
     },
     {
       "label": "IAEA Signals",
-      "value": "53",
+      "value": "52",
       "delta": "official indexed pages"
     },
     {
@@ -2174,25 +2174,7 @@
           "source": "GoogleNews"
         },
         {
-          "title": "IAEA Mission says Jordan is Committed to Strengthening Radiation and Nuclear Safety Oversight",
-          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOT2JZMFZNYm5tZ1RDWVR5aVFQNUpSWTNBZTdfZ0dhY0RRYTlDRmU2Mm0zQ2tEakhrSW83c00zOUFGSVdiUDlYc19raTB1akw2aTVHZ21XSFdabE9keWZVSmZLemFqQ3IxZHpTbGFDWnNHOWxBUkJYWHdUVldOLWJTVEEtWUJsRmNVdlBFaHd2eGdReDA4RHJwTkNNLThxSm96Qk9WWDd0a1Q2T1A1WGpnc0V1bjdMTEtsZGZNSE15T3p5dmtWMXN0TlJrX1dLS09STWJwSA?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20261110T054807Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "Update 374 – IAEA Director General Statement on Situation in Ukraine",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOdmpXUndtUVBBX3ZiN04wOGREb1pCaUNBbnAzMjVZc1NpY0h4YmFlVW8ydnFsUUtmdUJRZHF6bG9RdWs4YXZGVEFlZ2JzczA1YThWYThhckVFWEpibjJza3VXTllDYmVDZzdGbVBzQ2NuWTRaa2UzekNTVlIyWTFxRTFMLWNGNW51bUxpM212OHlnQVB1TURsbU1YaWt1WnZMaFdmUFFaZW9vbGhHN3BhdUxB?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20261106T134654Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "Symposium on International Safeguards: Innovation and Resilience in a Changing World - Safeguards as a Shared Responsibility - Programme",
+          "title": "Symposium on International Safeguards: Innovation and Resilience in a Changing World - Safeguards as a Shared Responsibility - Programme | IAEA",
           "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE84dGdaZHF5NGVkRFhyTnN4cUNqUGFkNFRHTXNoQm9lX1lJUkd0NW9pUktiSmsteF9UQmVFWl9uVjVMSld5UlZ6TU9KcTFOUzJ1djNLekV6QQ?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
@@ -2201,12 +2183,21 @@
           "source": "GoogleNews"
         },
         {
-          "title": "IAEA Safeguards Symposium 2026: Programme Now Available",
-          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOY3BmUk0tWnFsVVREWE1IQnlUZDJFeHZ5Um83RF9YU1JaTU93MU96bFdvdlRkbWRXUWhSOFdPdmgwYWhBQUxFY2Y1aTNYRXBfa1cxMXRweFJZay1VVVAxZ0l4c0tNYlFQR001QXYzamZaQUlhN3RPaTgtTHFxeTNtVEhyeW91QTdmckkyUjBOTXJjVW1J?oc=5",
+          "title": "Upcoming events",
+          "url": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE5KM2gxMjlYeFVlanRvdTNOc2dkMENIZ0l1R3pmUG1nOFpsWklBZlNyX01OOThMQU9JTnRHN2xMOA?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
-          "seendate": "20261030T070000Z",
+          "seendate": "20160827T061834Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Update 374 – IAEA Director General Statement on Situation in Ukraine",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQcnVrM0hLMFZuMU10WVpiUVE0UDZoSnVRR2E2d0ZSeENFRFd1OVM5LXdnZmxpZXFSSkFtb2tvUmpQdzV5dlBIX1FBc1pzUkdNdlgwdUluU2w3dzItYlIwWjhnSXZVYlpxNXZ6a1Z4OXFjeTh2cGxTT3BrRXA3RG5rZzFfVGtrRExDaUJoT0wzZk9fbDJwd2htbmQ5dnUzamRIekQybUJBZmVlVmcyYm5YOA?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20261106T134654Z",
           "source": "GoogleNews"
         },
         {
@@ -2252,6 +2243,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20261028T060934Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "IAEA Safeguards Symposium 2026: Programme Now Available",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOY3BmUk0tWnFsVVREWE1IQnlUZDJFeHZ5Um83RF9YU1JaTU93MU96bFdvdlRkbWRXUWhSOFdPdmgwYWhBQUxFY2Y1aTNYRXBfa1cxMXRweFJZay1VVVAxZ0l4c0tNYlFQR001QXYzamZaQUlhN3RPaTgtTHFxeTNtVEhyeW91QTdmckkyUjBOTXJjVW1J?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20261030T070000Z",
           "source": "GoogleNews"
         },
         {
@@ -2417,6 +2417,15 @@
           "source": "GoogleNews"
         },
         {
+          "title": "Communication from the PM of the United States of America regarding the request to include in the agenda of the Conference an item entitled “Transfer of the nuclear materials in the context of AUKUS and its safeguards in all aspects under the NPT\" | IAEA",
+          "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFBnYUpsb0h6MWx3NHJGdjdCUmdZQXUyU1MyQlc1d0VPckNxeUhPM0RzZ3l6WXkyaXdwS2RlNU5XOExpQmtuTVE?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260913T070000Z",
+          "source": "GoogleNews"
+        },
+        {
           "title": "Agenda",
           "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1HMjRmZ282VjdaazFlRmtZUWdBZFpMOUZ3WGt6dU1sc2h3dUhBSzlMUG1yYlJxS0R6OEFHV0YyWFdUZFlYWllJOUN0SUstUWQxQjNuSEFFVkx5UThGZ0ZkeHllU2lfZw?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -2534,15 +2543,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "TECDOC Series",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5QanRtZVdBX0V2VGRfZE9zajdTeU1pQ0dhQnEyQkJEVDZqVTZJcG5Ec0hJcEEwdXhCaW1XR3hiRDFrT28wekswNnEyQVNYZzhacmRoRzdoZXhvZFIxLTFPZEpDMA?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260801T001021Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "Country Programme Frameworks",
           "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPODFocUhzR1N3dVJiMnJRSXpGdjhXMk9LZWpLTFZkR2lsTDdhaHowQkYxd096aTZWV3NXYXgyVWtvR2NHQnlIbmpKVEdJMVJXdldaOERyUDAyNlB5NDBueTV1R2x4OG1YWTVpNmhtbmdoY3ltZHpqQVFKUWNGZ2VKSkYzYzNOLXpRUWZmZmVDXzBSZlU?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -2558,15 +2558,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20260826T070000Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "International Ministerial Conference on Nuclear Power | IAEA",
-          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1ZeFl3dXN6UGlBTEZiSy1iNldraTZHcnBOV1gtS1hRcmwxSVhkTHJFd1R4RzJRSm1Band3SWVST3IxZnFBcUdIbllwX1AzbnR4N0tHaXNSV0JIVHJZeTU4U2xtdzJaeU00anVCMXdIelQwNTYwanEw?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20261029T070000Z",
           "source": "GoogleNews"
         },
         {
@@ -2588,6 +2579,15 @@
           "source": "GoogleNews"
         },
         {
+          "title": "IAEA Concludes Long Term Operation Safety Review at Japan’s Mihama Nuclear Power Plant",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOSjVrbGNIbWRKSFFRR3FPRFRpWE4tYWphdmNBN0VjMkh1Y3Q5Sm5GZUFLVjZReC1fUWJELUNFZzlSTWJhdWZTUmh6WW1rd241QkFudHlYNlhkbU9JSW5YNVZac3RLQUNNMEpBNVVSRmViNVpaMnhDeGNNSDV4MXpGendpSTFQeXpOb0tmUXI4SGhucWNLUEJrVWJTV1htX3ZxT3R4VTFWTFBPTVlaM3dIWGV2cUMyaW1sSnBPQkk4VjMtZ2ZrdENkazhhbw?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20261113T150458Z",
+          "source": "GoogleNews"
+        },
+        {
           "title": "IAEA Sees Commitment to Operational Safety at Unit 2 of Kori Nuclear Power Plant in Republic of Korea",
           "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNSm1XZVl1QlBOWVVNaVJ4MzNaTk1RenN5STI2YXJ0VWpBa214VDVFcDRwMDE2Y0ptbV9zWlVlTDlKT00tTU9PRktfT1QwaUlrd1RHZWVxUzFrUk00eUx1RmNJNUZZUWV0X0pRY3dqRHFhVmczSE1meXF6Q0tDcnF0Wkd2OHlKRDBVejM3RG51UEtVdDlObzVXdW9OZTdxWFg0NzBtcGpad0cyaWJUWlI0UEN0b2lxQWRCUklicWxWOUhFNkFETk9QeDdjVFZQaE5hZUk1dVkyOHpuNTZkdlhQbA?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -2597,21 +2597,21 @@
           "source": "GoogleNews"
         },
         {
-          "title": "Putting Biodiversity to Work for Food Security",
-          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNSm8xcVNqMFN6bVVqd3VXNlk0T2tGS3dpaXY4UUlmeUwxMV9iLXoyUDRHQnZka0gzandleTExNkx2SmhkdDB3bWlrRjZ6TUdOdE9MaWFMNmcyeDlDQlpyLVBTeGczLU5zb1Ytam5jbWtYT3JWLU1VQlA1Q29RVHRVaXF6YjlxQzdFZlE?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20261019T070000Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "World Fusion Outlook 2026: AI, the US $80 Billion Financing Challenge and Future Deployment Scenarios",
           "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQUjV6QVRTMG9lX3dWYm9wV2F6RWJrUFZvZ2tpOUN1WU9VcFRfd2lySGxNbXExTTlXVzZwSWNTMHdSY3N1QWx4RE5ESzBLeGhsQ1VLYkVDNFQ3OGJiYlJTZGNPOTdCTi03ZUM2QzFKRmtnZDJzNC1hbVVNVmt6emg1aW9nVjMyekV3bzNqNEdIaWl2MDZHWTd6V3NKalNQNkJYWjJqcDZDUWkxVm1SN0xfaWxlU3NQay1zNkdJdGFmR0ZRTHl2RV9hbGZULUtFR013?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
           "seendate": "20261112T080000Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Putting Biodiversity to Work for Food Security",
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNSm8xcVNqMFN6bVVqd3VXNlk0T2tGS3dpaXY4UUlmeUwxMV9iLXoyUDRHQnZka0gzandleTExNkx2SmhkdDB3bWlrRjZ6TUdOdE9MaWFMNmcyeDlDQlpyLVBTeGczLU5zb1Ytam5jbWtYT3JWLU1VQlA1Q29RVHRVaXF6YjlxQzdFZlE?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20261019T070000Z",
           "source": "GoogleNews"
         },
         {
@@ -2630,15 +2630,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20261109T144500Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "IAEA 4TH EDITION",
-          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNVlM1SHRRem1NSm0yenFYbmJhb0tfbzNNMTRoeU5ncEtmazl0TW5qQWRVY1c5dWJjTk9PUjMyNjlwWjY1ZV8wWGpQZnpXbzVtc1ZqU3hjVGhWeldmNHNVbkVuOVNlT2JiUnp2WXYxUlpoeFY1YzFkSk8zMWJrOWRpa2FRSThWNk03OVZ5Yg?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20261112T120210Z",
           "source": "GoogleNews"
         }
       ],
@@ -10148,8 +10139,8 @@
         }
       ],
       "count": 1205,
-      "publish_date": "2026-11-09",
-      "sha256": "7f43332dae0d1b78ce44c31692d87a3c66e4075bcd97e36d3f18585572ff55b8",
+      "publish_date": "2026-11-12",
+      "sha256": "850ef744932d60f960045c9a4cd37ebf6237f8c32c0b163801e14fbcba6d9ce3",
       "cached": false
     },
     "test_site_seismicity": {
@@ -10360,6 +10351,70 @@
           "lon": 89.0912,
           "lat": 43.7287,
           "depth_km": 10,
+          "source": "USGS"
+        },
+        {
+          "id": "nc75466137",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1794588027680,
+          "magnitude": 1.86,
+          "magnitude_type": "md",
+          "event_type": "earthquake",
+          "place": "7 km E of Round Valley, CA",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75466137",
+          "lon": -118.519500732422,
+          "lat": 37.4104995727539,
+          "depth_km": 0.230000004172325,
+          "source": "USGS"
+        },
+        {
+          "id": "nn00926962",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1794584073470,
+          "magnitude": 3.38,
+          "magnitude_type": "ml",
+          "event_type": "earthquake",
+          "place": "22 km WNW of Preston, Nevada",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00926962",
+          "lon": -115.3039,
+          "lat": 38.9792,
+          "depth_km": 5.716,
+          "source": "USGS"
+        },
+        {
+          "id": "nn00926957",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1794582628133,
+          "magnitude": 3.55,
+          "magnitude_type": "ml",
+          "event_type": "earthquake",
+          "place": "16 km W of Preston, Nevada",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00926957",
+          "lon": -115.2534,
+          "lat": 38.901,
+          "depth_km": 1.0409,
+          "source": "USGS"
+        },
+        {
+          "id": "nn00926953",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1794554557943,
+          "magnitude": 1.84,
+          "magnitude_type": "ml",
+          "event_type": "earthquake",
+          "place": "89 km NNW of Rachel, Nevada",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00926953",
+          "lon": -116.1508,
+          "lat": 38.3804,
+          "depth_km": 5.2094,
           "source": "USGS"
         },
         {
@@ -10831,15 +10886,15 @@
           "site": "Nevada National Security Site",
           "site_lat": 37.12,
           "site_lon": -116.05,
-          "time": 1793822455550,
-          "magnitude": 2.15,
+          "time": 1793822455750,
+          "magnitude": 2.07,
           "magnitude_type": "md",
           "event_type": "earthquake",
           "place": "41 km N of Toms Place, CA",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75462502",
-          "lon": -118.617500305176,
-          "lat": 37.9303321838379,
-          "depth_km": 14.6300001144409,
+          "lon": -118.623666666667,
+          "lat": 37.9313333333333,
+          "depth_km": 9.73,
           "source": "USGS"
         },
         {
@@ -10895,15 +10950,15 @@
           "site": "Nevada National Security Site",
           "site_lat": 37.12,
           "site_lon": -116.05,
-          "time": 1793794652890,
-          "magnitude": 1.69,
+          "time": 1793794652920,
+          "magnitude": 1.68,
           "magnitude_type": "md",
           "event_type": "earthquake",
-          "place": "18 km SW of Toms Place, CA",
+          "place": "19 km SW of Toms Place, CA",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75462342",
-          "lon": -118.83032989502,
-          "lat": 37.4501647949219,
-          "depth_km": 0.189999997615814,
+          "lon": -118.835166666667,
+          "lat": 37.4485,
+          "depth_km": 3.23,
           "source": "USGS"
         },
         {
