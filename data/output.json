@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "nuclear-proliferation-watch",
-    "generated": "2026-11-14T22:45:04.101241+00:00",
+    "generated": "2026-11-15T07:13:21.516721+00:00",
     "mode": "live",
     "sources": [
       "IAEA official pages",
@@ -14,7 +14,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-11-14T22:45:04.096765+00:00",
+    "issued_at": "2026-11-15T07:13:21.510676+00:00",
     "horizon": "0-30 days",
     "classification": "nuclear-escalation-pressure-not-test-or-weapon-probability",
     "score": 4.8,
@@ -28,7 +28,7 @@
         "available": true,
         "score": 12.5,
         "current_14d_weight": 3.0,
-        "current_14d_titles": 11,
+        "current_14d_titles": 12,
         "baseline_periods": 8,
         "baseline_median": 2.0,
         "anomaly_z": 0.67,
@@ -100,7 +100,7 @@
         "available": true,
         "score": 0.0,
         "current_30d_diagnostic_weight": 0.0,
-        "events_considered": 1762,
+        "events_considered": 1766,
         "sites_monitored": 8,
         "anomaly_z": 0.0,
         "evidence": [],
@@ -116,17 +116,6 @@
     },
     "alerts": [],
     "history": [
-      {
-        "timestamp": "2026-09-19T16:05:30.270884+00:00",
-        "score": 6.4,
-        "level": "BASELINE",
-        "components": {
-          "iaea_safeguards_strain": 0.0,
-          "npwmd_designation_delta": 0.0,
-          "facility_security_incidents": 20.7,
-          "test_site_seismicity": 0.0
-        }
-      },
       {
         "timestamp": "2026-09-19T21:03:28.430420+00:00",
         "score": 13.6,
@@ -2095,12 +2084,23 @@
           "facility_security_incidents": 2.2,
           "test_site_seismicity": 0.0
         }
+      },
+      {
+        "timestamp": "2026-11-15T07:13:21.510676+00:00",
+        "score": 4.8,
+        "level": "BASELINE",
+        "components": {
+          "iaea_safeguards_strain": 12.5,
+          "npwmd_designation_delta": 0.0,
+          "facility_security_incidents": 2.2,
+          "test_site_seismicity": 0.0
+        }
       }
     ],
     "data_health": {
       "available_components": 4,
       "retained_components": [],
-      "iaea_titles": 52,
+      "iaea_titles": 53,
       "npwmd_entries": 1205,
       "iaea_events": 24,
       "test_sites": 8
@@ -2147,7 +2147,7 @@
     },
     {
       "label": "IAEA Signals",
-      "value": "52",
+      "value": "53",
       "delta": "official indexed pages"
     },
     {
@@ -2219,12 +2219,12 @@
           "source": "GoogleNews"
         },
         {
-          "title": "Upcoming events",
-          "url": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE5KM2gxMjlYeFVlanRvdTNOc2dkMENIZ0l1R3pmUG1nOFpsWklBZlNyX01OOThMQU9JTnRHN2xMOA?oc=5",
+          "title": "IAEA Mission says Jordan is Committed to Strengthening Radiation and Nuclear Safety Oversight",
+          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOT2JZMFZNYm5tZ1RDWVR5aVFQNUpSWTNBZTdfZ0dhY0RRYTlDRmU2Mm0zQ2tEakhrSW83c00zOUFGSVdiUDlYc19raTB1akw2aTVHZ21XSFdabE9keWZVSmZLemFqQ3IxZHpTbGFDWnNHOWxBUkJYWHdUVldOLWJTVEEtWUJsRmNVdlBFaHd2eGdReDA4RHJwTkNNLThxSm96Qk9WWDd0a1Q2T1A1WGpnc0V1bjdMTEtsZGZNSE15T3p5dmtWMXN0TlJrX1dLS09STWJwSA?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
-          "seendate": "20160827T061834Z",
+          "seendate": "20261110T054807Z",
           "source": "GoogleNews"
         },
         {
@@ -2234,6 +2234,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20261106T080000Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Upcoming events",
+          "url": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE5KM2gxMjlYeFVlanRvdTNOc2dkMENIZ0l1R3pmUG1nOFpsWklBZlNyX01OOThMQU9JTnRHN2xMOA?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20160827T061834Z",
           "source": "GoogleNews"
         },
         {
@@ -2291,12 +2300,12 @@
           "source": "GoogleNews"
         },
         {
-          "title": "Italy and Romania Establish New Member State Support Programmes to Strengthen IAEA Safeguards",
-          "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1pamY3QUduT3lkZWVKTjNWSEhLT3VNZ1VKXzNva2JidkozRjFpT1VyQWpiRElfb0xsSGFOWW9wYU5GVXJIRHllc3p5VQ?oc=5",
+          "title": "APPLICATION OF SAFEGUARDS IN THE DEMOCRATIC PEOPLE’S REPUBLIC OF KOREA",
+          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE92Umk1WEFHSmY3MU5Odnc1UHdrcWdPWTFpUDRyZktSWHhLVDQyTDVJUkJMMnN4MGtsOXdNYl9PaXhRZlNNLThpYkd6WnN3LXhZRUlJREdZRGlLeXdaSFR5Mjg0YVE2dw?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
-          "seendate": "20261023T060000Z",
+          "seendate": "20260828T070000Z",
           "source": "GoogleNews"
         },
         {
@@ -2306,6 +2315,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20261027T021157Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Italy and Romania Establish New Member State Support Programmes to Strengthen IAEA Safeguards",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxObFR5dkV1RHJhc1lzZzVLUjlJMWIyWFNaeWJtVU83cmRCUVdTNDc0aFhRdTFsczJTQWg1SVFJQ1VfSHdRek9LRTZyU2lqRU92T3pBcFoxQldzRURFOVcwVU5zUkl4MGtkaXl6OWtxMVBPT2ZYVmkyV1c5Yk13eHhSQVoxbE9MYzcwbDFQbnZaYnZ4UnZWOWlxSENBbmd4QkJuaHMtUzlOTWxhVDFxWFFKZTdVRnlHMmFnR0pJMkpoTmtRV0dmeU1HZQ?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20261023T070000Z",
           "source": "GoogleNews"
         },
         {
@@ -2489,6 +2507,15 @@
           "source": "GoogleNews"
         },
         {
+          "title": "Application of IAEA Safeguards in the Middle East",
+          "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1zUmlKdTlZM1lPOUkxanBRdk5XVG5oTnhTWjduRzVzWi1TamhGZmYtZFh0c0NHLWJTSmtJOEZOekM2NEFZNmc?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260726T070000Z",
+          "source": "GoogleNews"
+        },
+        {
           "title": "Nuclear Safety, Security and Safeguards in Ukraine",
           "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBFWDZ0ZzQ0Zlpha1hqWWJsTkxhUTdiMG1hYmdIZXFxaHh6V1FPSHNPOGRHdWduZ3dHS3FVYXF5V0hKT3g1QU9EQzRfXzlsRXhlNTVKS3d6QVctRldzM0NRWjVNRWxNWTBuZE1vSEVCU29JNUE?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -2534,15 +2561,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "Rafael Mariano Grossi | IAEA",
-          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE55OXJZWUVIRFBqSFJtNXRubUVQWEg0TXNZdG9CdzZWUTBFcUx1MkVOMUEyeXlCMXRDS0dFSXFfMjRrdGZoSEpDaDdhc18yOWpOTzhCY2UyMmQ3T0U?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260313T194636Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "Services Series",
           "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9kcDRHQUJLbjVjLU5OZkdsR0hwS1JoSW1ZTkdSRFpVeks0RTctTEI0VldYS1V0MllwampPMHlxVzl0SHNCazZVUmZyNDZZMmFTd1k1elBqOVJocngxc2lRdXU5ZWNfeV8wT0p0aW91T3I?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -2567,15 +2585,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20160906T012238Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "TECDOC Series",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5QanRtZVdBX0V2VGRfZE9zajdTeU1pQ0dhQnEyQkJEVDZqVTZJcG5Ec0hJcEEwdXhCaW1XR3hiRDFrT28wekswNnEyQVNYZzhacmRoRzdoZXhvZFIxLTFPZEpDMA?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260801T001021Z",
           "source": "GoogleNews"
         },
         {
@@ -10351,6 +10360,86 @@
           "lon": 89.0912,
           "lat": 43.7287,
           "depth_km": 10,
+          "source": "USGS"
+        },
+        {
+          "id": "ci41362351",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1794716008510,
+          "magnitude": 1.7,
+          "magnitude_type": "ml",
+          "event_type": "earthquake",
+          "place": "14 km ESE of Little Lake, CA",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41362351",
+          "lon": -117.754,
+          "lat": 35.90583,
+          "depth_km": 6.45,
+          "source": "USGS"
+        },
+        {
+          "id": "nc75466587",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1794710088500,
+          "magnitude": 1.76,
+          "magnitude_type": "md",
+          "event_type": "earthquake",
+          "place": "14 km WSW of Round Valley, CA",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75466587",
+          "lon": -118.753829956055,
+          "lat": 37.3896675109863,
+          "depth_km": 12.0900001525879,
+          "source": "USGS"
+        },
+        {
+          "id": "ci41362303",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1794704863430,
+          "magnitude": 1.94,
+          "magnitude_type": "ml",
+          "event_type": "earthquake",
+          "place": "17 km E of Little Lake, CA",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41362303",
+          "lon": -117.71383,
+          "lat": 35.93,
+          "depth_km": 3.33,
+          "source": "USGS"
+        },
+        {
+          "id": "ci41362287",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1794704186970,
+          "magnitude": 2.06,
+          "magnitude_type": "ml",
+          "event_type": "earthquake",
+          "place": "17 km E of Little Lake, CA",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41362287",
+          "lon": -117.71367,
+          "lat": 35.92917,
+          "depth_km": 3.56,
+          "source": "USGS"
+        },
+        {
+          "id": "ci41362231",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1794697085070,
+          "magnitude": 2.2,
+          "magnitude_type": "ml",
+          "event_type": "earthquake",
+          "place": "17 km E of Little Lake, CA",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41362231",
+          "lon": -117.71267,
+          "lat": 35.92883,
+          "depth_km": 3.14,
           "source": "USGS"
         },
         {
@@ -38175,22 +38264,6 @@
           "lon": -115.9067,
           "lat": 38.6846,
           "depth_km": 1.3356,
-          "source": "USGS"
-        },
-        {
-          "id": "ci40485130",
-          "site": "Nevada National Security Site",
-          "site_lat": 37.12,
-          "site_lon": -116.05,
-          "time": 1763139245910,
-          "magnitude": 1.6,
-          "magnitude_type": "ml",
-          "event_type": "earthquake",
-          "place": "8 km NE of Coso Junction, CA",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40485130",
-          "lon": -117.8888333,
-          "lat": 36.0948333,
-          "depth_km": 5.24,
           "source": "USGS"
         },
         {
