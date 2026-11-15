@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "nuclear-proliferation-watch",
-    "generated": "2026-11-15T07:13:21.516721+00:00",
+    "generated": "2026-11-15T19:07:40.329098+00:00",
     "mode": "live",
     "sources": [
       "IAEA official pages",
@@ -14,10 +14,10 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-11-15T07:13:21.510676+00:00",
+    "issued_at": "2026-11-15T19:07:40.324810+00:00",
     "horizon": "0-30 days",
     "classification": "nuclear-escalation-pressure-not-test-or-weapon-probability",
-    "score": 4.8,
+    "score": 4.4,
     "level": "BASELINE",
     "confidence": "HIGH",
     "confidence_score": 100.0,
@@ -26,12 +26,12 @@
         "id": "iaea_safeguards_strain",
         "label": "IAEA safeguards and access strain",
         "available": true,
-        "score": 12.5,
+        "score": 11.4,
         "current_14d_weight": 3.0,
-        "current_14d_titles": 12,
+        "current_14d_titles": 11,
         "baseline_periods": 8,
         "baseline_median": 2.0,
-        "anomaly_z": 0.67,
+        "anomaly_z": 0.52,
         "evidence": [
           {
             "title": "Nuclear Safeguards in a Changing World – 15th Symposium on International Safeguards Opens in Vienna",
@@ -100,7 +100,7 @@
         "available": true,
         "score": 0.0,
         "current_30d_diagnostic_weight": 0.0,
-        "events_considered": 1766,
+        "events_considered": 1770,
         "sites_monitored": 8,
         "anomaly_z": 0.0,
         "evidence": [],
@@ -116,17 +116,6 @@
     },
     "alerts": [],
     "history": [
-      {
-        "timestamp": "2026-09-19T21:03:28.430420+00:00",
-        "score": 13.6,
-        "level": "BASELINE",
-        "components": {
-          "iaea_safeguards_strain": 27.0,
-          "npwmd_designation_delta": 0.0,
-          "facility_security_incidents": 20.7,
-          "test_site_seismicity": 0.0
-        }
-      },
       {
         "timestamp": "2026-09-20T05:26:04.853179+00:00",
         "score": 13.6,
@@ -2095,12 +2084,23 @@
           "facility_security_incidents": 2.2,
           "test_site_seismicity": 0.0
         }
+      },
+      {
+        "timestamp": "2026-11-15T19:07:40.324810+00:00",
+        "score": 4.4,
+        "level": "BASELINE",
+        "components": {
+          "iaea_safeguards_strain": 11.4,
+          "npwmd_designation_delta": 0.0,
+          "facility_security_incidents": 2.2,
+          "test_site_seismicity": 0.0
+        }
       }
     ],
     "data_health": {
       "available_components": 4,
       "retained_components": [],
-      "iaea_titles": 53,
+      "iaea_titles": 50,
       "npwmd_entries": 1205,
       "iaea_events": 24,
       "test_sites": 8
@@ -2142,12 +2142,12 @@
   "stats": [
     {
       "label": "Escalation Pressure",
-      "value": "4.8/100",
+      "value": "4.4/100",
       "delta": "BASELINE"
     },
     {
       "label": "IAEA Signals",
-      "value": "53",
+      "value": "50",
       "delta": "official indexed pages"
     },
     {
@@ -2174,15 +2174,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "Nuclear Safeguards in a Changing World – 15th Symposium on International Safeguards Opens in Vienna",
-          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNNWF1NUxqbVg4UWwzTWZvQVVBYkJSVDl1SDFDTHNvVXRJZlhUZWJPZ1NZdGJIWU44ekRzSjU1dnh5N3JHdVhEVUVDaVpXMC03N2dSOW51VEVNckpadHpfTHNwbFllQloyZjRzXzJFc1lmXzN0OWYzLVNfUmtia0NxcXo4VmRXT3Y1czc5SjNQOTVpd1NRQU5SOEY5NG1KTGF3RkpTQkJSMnZYMjlYVW5WZEhZak5pM2tZM1pkZk5kSFhHUXhRdFFVaGdSaHNfQQ?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20261109T150000Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "IAEA World Fusion Outlook 2026",
           "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBYbDRkeFRSTEtCVkNiMllTX2o5ZFRNLVk3SE9EUjdKc2wxSzN5eUFGWWNSNW1feVlQTnFiQmRjZG50cS1TWTBLZWhPRFR3UDVKZzRyN2g1YUF1RDB1MExfcG5tR1lyXzA0TXJfbHp3c096QWxZQS13TzV3?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -2192,12 +2183,12 @@
           "source": "GoogleNews"
         },
         {
-          "title": "IAEA Sees Commitment to Operational Safety at Unit 2 of Kori Nuclear Power Plant in Republic of Korea",
-          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNSm1XZVl1QlBOWVVNaVJ4MzNaTk1RenN5STI2YXJ0VWpBa214VDVFcDRwMDE2Y0ptbV9zWlVlTDlKT00tTU9PRktfT1QwaUlrd1RHZWVxUzFrUk00eUx1RmNJNUZZUWV0X0pRY3dqRHFhVmczSE1meXF6Q0tDcnF0Wkd2OHlKRDBVejM3RG51UEtVdDlObzVXdW9OZTdxWFg0NzBtcGpad0cyaWJUWlI0UEN0b2lxQWRCUklicWxWOUhFNkFETk9QeDdjVFZQaE5hZUk1dVkyOHpuNTZkdlhQbA?oc=5",
+          "title": "Nuclear Safeguards in a Changing World – 15th Symposium on International Safeguards Opens in Vienna",
+          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNNWF1NUxqbVg4UWwzTWZvQVVBYkJSVDl1SDFDTHNvVXRJZlhUZWJPZ1NZdGJIWU44ekRzSjU1dnh5N3JHdVhEVUVDaVpXMC03N2dSOW51VEVNckpadHpfTHNwbFllQloyZjRzXzJFc1lmXzN0OWYzLVNfUmtia0NxcXo4VmRXT3Y1czc5SjNQOTVpd1NRQU5SOEY5NG1KTGF3RkpTQkJSMnZYMjlYVW5WZEhZak5pM2tZM1pkZk5kSFhHUXhRdFFVaGdSaHNfQQ?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
-          "seendate": "20261112T124427Z",
+          "seendate": "20261109T150000Z",
           "source": "GoogleNews"
         },
         {
@@ -2225,15 +2216,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20261110T054807Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "Update 374 – IAEA Director General Statement on Situation in Ukraine",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQcnVrM0hLMFZuMU10WVpiUVE0UDZoSnVRR2E2d0ZSeENFRFd1OVM5LXdnZmxpZXFSSkFtb2tvUmpQdzV5dlBIX1FBc1pzUkdNdlgwdUluU2w3dzItYlIwWjhnSXZVYlpxNXZ6a1Z4OXFjeTh2cGxTT3BrRXA3RG5rZzFfVGtrRExDaUJoT0wzZk9fbDJwd2htbmQ5dnUzamRIekQybUJBZmVlVmcyYm5YOA?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20261106T080000Z",
           "source": "GoogleNews"
         },
         {
@@ -2507,15 +2489,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "Application of IAEA Safeguards in the Middle East",
-          "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1zUmlKdTlZM1lPOUkxanBRdk5XVG5oTnhTWjduRzVzWi1TamhGZmYtZFh0c0NHLWJTSmtJOEZOekM2NEFZNmc?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260726T070000Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "Nuclear Safety, Security and Safeguards in Ukraine",
           "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBFWDZ0ZzQ0Zlpha1hqWWJsTkxhUTdiMG1hYmdIZXFxaHh6V1FPSHNPOGRHdWduZ3dHS3FVYXF5V0hKT3g1QU9EQzRfXzlsRXhlNTVKS3d6QVctRldzM0NRWjVNRWxNWTBuZE1vSEVCU29JNUE?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -2633,12 +2606,12 @@
           "source": "GoogleNews"
         },
         {
-          "title": "Putting Biodiversity to Work for Food Security",
-          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNSm8xcVNqMFN6bVVqd3VXNlk0T2tGS3dpaXY4UUlmeUwxMV9iLXoyUDRHQnZka0gzandleTExNkx2SmhkdDB3bWlrRjZ6TUdOdE9MaWFMNmcyeDlDQlpyLVBTeGczLU5zb1Ytam5jbWtYT3JWLU1VQlA1Q29RVHRVaXF6YjlxQzdFZlE?oc=5",
+          "title": "IAEA Concludes Long Term Operation Safety Review at Japan’s Mihama Nuclear Power Plant",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOSjVrbGNIbWRKSFFRR3FPRFRpWE4tYWphdmNBN0VjMkh1Y3Q5Sm5GZUFLVjZReC1fUWJELUNFZzlSTWJhdWZTUmh6WW1rd241QkFudHlYNlhkbU9JSW5YNVZac3RLQUNNMEpBNVVSRmViNVpaMnhDeGNNSDV4MXpGendpSTFQeXpOb0tmUXI4SGhucWNLUEJrVWJTV1htX3ZxT3R4VTFWTFBPTVlaM3dIWGV2cUMyaW1sSnBPQkk4VjMtZ2ZrdENkazhhbw?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
-          "seendate": "20261019T070000Z",
+          "seendate": "20261113T140004Z",
           "source": "GoogleNews"
         }
       ],
@@ -10360,6 +10333,70 @@
           "lon": 89.0912,
           "lat": 43.7287,
           "depth_km": 10,
+          "source": "USGS"
+        },
+        {
+          "id": "nn00927021",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1794768299638,
+          "magnitude": 2.43,
+          "magnitude_type": "ml",
+          "event_type": "earthquake",
+          "place": "35 km SE of Mina, Nevada",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00927021",
+          "lon": -117.8154,
+          "lat": 38.1749,
+          "depth_km": 9.1113,
+          "source": "USGS"
+        },
+        {
+          "id": "nn00927017",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1794756680009,
+          "magnitude": 1.95,
+          "magnitude_type": "ml",
+          "event_type": "earthquake",
+          "place": "69 km E of Tonopah, Nevada",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00927017",
+          "lon": -116.4478,
+          "lat": 38.1761,
+          "depth_km": 8.792,
+          "source": "USGS"
+        },
+        {
+          "id": "ci41362479",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1794753820570,
+          "magnitude": 1.96,
+          "magnitude_type": "ml",
+          "event_type": "earthquake",
+          "place": "42 km WSW of Olancha, CA",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41362479",
+          "lon": -118.44083,
+          "lat": 36.13767,
+          "depth_km": 6.39,
+          "source": "USGS"
+        },
+        {
+          "id": "ci41362447",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1794743714420,
+          "magnitude": 1.83,
+          "magnitude_type": "ml",
+          "event_type": "earthquake",
+          "place": "42 km WSW of Olancha, CA",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41362447",
+          "lon": -118.44383,
+          "lat": 36.138,
+          "depth_km": 7.22,
           "source": "USGS"
         },
         {
