@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "nuclear-proliferation-watch",
-    "generated": "2026-11-17T08:30:23.352912+00:00",
+    "generated": "2026-11-17T21:20:48.089300+00:00",
     "mode": "live",
     "sources": [
       "IAEA official pages",
@@ -14,7 +14,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-11-17T08:30:23.345167+00:00",
+    "issued_at": "2026-11-17T21:20:48.084993+00:00",
     "horizon": "0-30 days",
     "classification": "nuclear-escalation-pressure-not-test-or-weapon-probability",
     "score": 9.4,
@@ -28,7 +28,7 @@
         "available": true,
         "score": 25.7,
         "current_14d_weight": 5.0,
-        "current_14d_titles": 15,
+        "current_14d_titles": 16,
         "baseline_periods": 8,
         "baseline_median": 2.3,
         "anomaly_z": 1.82,
@@ -128,17 +128,6 @@
     },
     "alerts": [],
     "history": [
-      {
-        "timestamp": "2026-09-20T21:04:03.781616+00:00",
-        "score": 13.6,
-        "level": "BASELINE",
-        "components": {
-          "iaea_safeguards_strain": 27.0,
-          "npwmd_designation_delta": 0.0,
-          "facility_security_incidents": 20.7,
-          "test_site_seismicity": 0.0
-        }
-      },
       {
         "timestamp": "2026-09-21T05:31:18.858511+00:00",
         "score": 4.1,
@@ -2107,12 +2096,23 @@
           "facility_security_incidents": 2.2,
           "test_site_seismicity": 0.0
         }
+      },
+      {
+        "timestamp": "2026-11-17T21:20:48.084993+00:00",
+        "score": 9.4,
+        "level": "BASELINE",
+        "components": {
+          "iaea_safeguards_strain": 25.7,
+          "npwmd_designation_delta": 0.0,
+          "facility_security_incidents": 2.2,
+          "test_site_seismicity": 0.0
+        }
       }
     ],
     "data_health": {
       "available_components": 4,
       "retained_components": [],
-      "iaea_titles": 48,
+      "iaea_titles": 47,
       "npwmd_entries": 1205,
       "iaea_events": 24,
       "test_sites": 8
@@ -2159,7 +2159,7 @@
     },
     {
       "label": "IAEA Signals",
-      "value": "48",
+      "value": "47",
       "delta": "official indexed pages"
     },
     {
@@ -2195,15 +2195,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "IAEA Sees Commitment to Operational Safety at Unit 2 of Kori Nuclear Power Plant in Republic of Korea",
-          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNSm1XZVl1QlBOWVVNaVJ4MzNaTk1RenN5STI2YXJ0VWpBa214VDVFcDRwMDE2Y0ptbV9zWlVlTDlKT00tTU9PRktfT1QwaUlrd1RHZWVxUzFrUk00eUx1RmNJNUZZUWV0X0pRY3dqRHFhVmczSE1meXF6Q0tDcnF0Wkd2OHlKRDBVejM3RG51UEtVdDlObzVXdW9OZTdxWFg0NzBtcGpad0cyaWJUWlI0UEN0b2lxQWRCUklicWxWOUhFNkFETk9QeDdjVFZQaE5hZUk1dVkyOHpuNTZkdlhQbA?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20261112T124427Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "IAEA World Fusion Outlook 2026",
           "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBYbDRkeFRSTEtCVkNiMllTX2o5ZFRNLVk3SE9EUjdKc2wxSzN5eUFGWWNSNW1feVlQTnFiQmRjZG50cS1TWTBLZWhPRFR3UDVKZzRyN2g1YUF1RDB1MExfcG5tR1lyXzA0TXJfbHp3c096QWxZQS13TzV3?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -2228,15 +2219,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20261109T144500Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "IAEA Mission says Jordan is Committed to Strengthening Radiation and Nuclear Safety Oversight",
-          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOT2JZMFZNYm5tZ1RDWVR5aVFQNUpSWTNBZTdfZ0dhY0RRYTlDRmU2Mm0zQ2tEakhrSW83c00zOUFGSVdiUDlYc19raTB1akw2aTVHZ21XSFdabE9keWZVSmZLemFqQ3IxZHpTbGFDWnNHOWxBUkJYWHdUVldOLWJTVEEtWUJsRmNVdlBFaHd2eGdReDA4RHJwTkNNLThxSm96Qk9WWDd0a1Q2T1A1WGpnc0V1bjdMTEtsZGZNSE15T3p5dmtWMXN0TlJrX1dLS09STWJwSA?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20261110T054807Z",
           "source": "GoogleNews"
         },
         {
@@ -2402,15 +2384,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "Implementation of the NPT safeguards agreement between the Agency and the Democratic People's Republic of Korea",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBTMWo5MUlvNEVhOUdEemFBb1FrdXhGQm1lSFkwb2JSTXhKSGRHVFBLVVJ5Nl9MTTdWaFd0R1ZfSHZ6QmVCM08weHVWcjdaMWlqVmlZTHlEV1lPWTQxNTFVcC1raHRyMWZs?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260917T070000Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "Implementation of the NPT Safeguards Agreement in the Syrian Arab Republic",
           "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFA1aWxESXpNcFhwOVR2YXVOZTc5MUxDQXVsX0VaUjVPZWZFcUpWU0RKN1RiNHlEaWJpQ2ZnVHpXWkJybU5OUXJnWExmOHk3S1BMa3BONlJodlNwYTh2TzZNd1NLUFNpQQ?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -2444,15 +2417,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20260820T083335Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "Application of Safeguards in the Democratic People's Republic of Korea",
-          "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFBnV1Fhc3JZZXUzdVRDcmZ0LU95SzhRY0JZSUhqREdCcVoyZWFWWW1Bby1EbmVSaWdURzdBbmVHSFZtdy03NVE?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260827T070000Z",
           "source": "GoogleNews"
         },
         {
@@ -2582,6 +2546,15 @@
           "source": "GoogleNews"
         },
         {
+          "title": "A Guide to eQUANUM Audits Using QUANUM Methodology",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOdVZhQ0xlUktpeHdqQWJTTTJQSEVMc2VVaWRRTTNQMUFzS0ktSU1NQ0NKUzJXU2VBcDRjRkVEMGJzb0Y3bzF0R3kyQ2xmMk95am03M1FnUXJTMVhOcWEyODJuVFNvNVFBRjBGUUZ2QmljdHRKdVlxQUNYUjczRm9KRjZSSXJHdTF0WGxHMHltOEhNT0V5?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20261117T101423Z",
+          "source": "GoogleNews"
+        },
+        {
           "title": "Update 374 – IAEA Director General Statement on Situation in Ukraine",
           "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQcnVrM0hLMFZuMU10WVpiUVE0UDZoSnVRR2E2d0ZSeENFRFd1OVM5LXdnZmxpZXFSSkFtb2tvUmpQdzV5dlBIX1FBc1pzUkdNdlgwdUluU2w3dzItYlIwWjhnSXZVYlpxNXZ6a1Z4OXFjeTh2cGxTT3BrRXA3RG5rZzFfVGtrRExDaUJoT0wzZk9fbDJwd2htbmQ5dnUzamRIekQybUJBZmVlVmcyYm5YOA?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -2597,6 +2570,24 @@
           "language": "",
           "tone": 0,
           "seendate": "20261110T080000Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Improving Mosquito Diets to Boost Sterile Insect Technique",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNNUVLY2prc01YT3RtT0FyX09fZmtBMkxtNUVjNzMwcmt6QmlsNHZqN1ktWjEzSFJZVGlqYzdGMzdyYVgxRzktQjFFcmUzejhfelYteHppY3BaREw0eVdRSkZHVTJjUTZydkVrdXBmNzJfZklfLTQ3OEhqSVMyZVdidzZCOGdOVWJaOXRsdG90NnJDTTV0YXoyRW1B?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20261117T111947Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "IAEA Reviews Progress of Zambia’s Infrastructure Development for Nuclear Power",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQSENtRFVqLVBQLUp2NEF3Sm81ekE1eUlxTHNRVmFPdUdMb2k4X3FfMmVJd2R3cGduUkp5SHNicVVBbUVMN0ZiRm1yNGxCOUoxT3NsdTdtYzU4bEFvdjJNOGFjcW5iLVFyeEx4YmJ0enRxaEdoclBYQ2oxM0NISnFLQ0p3T2loMU9PZFJRdFhnVWxIZkhmRUd0d1UwZW81ZzItZ0ZJWG03bE8zdEZIVnBCU3ZxR0RFNUR5Q0ttVDV0OA?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20261117T155446Z",
           "source": "GoogleNews"
         },
         {
@@ -10334,15 +10325,15 @@
           "site": "Nevada National Security Site",
           "site_lat": 37.12,
           "site_lon": -116.05,
-          "time": 1794899851430,
-          "magnitude": 1.9,
+          "time": 1794899851380,
+          "magnitude": 2.09,
           "magnitude_type": "ml",
           "event_type": "earthquake",
           "place": "30 km NE of Trona, CA",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41362951",
-          "lon": -117.107,
-          "lat": 35.91733,
-          "depth_km": 2.32,
+          "lon": -117.10783,
+          "lat": 35.91767,
+          "depth_km": 2.38,
           "source": "USGS"
         },
         {
