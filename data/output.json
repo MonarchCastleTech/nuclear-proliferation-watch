@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "nuclear-proliferation-watch",
-    "generated": "2026-11-18T07:57:50.308204+00:00",
+    "generated": "2026-11-18T20:54:33.698642+00:00",
     "mode": "live",
     "sources": [
       "IAEA official pages",
@@ -14,7 +14,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-11-18T07:57:50.304155+00:00",
+    "issued_at": "2026-11-18T20:54:33.694008+00:00",
     "horizon": "0-30 days",
     "classification": "nuclear-escalation-pressure-not-test-or-weapon-probability",
     "score": 9.9,
@@ -28,10 +28,10 @@
         "available": true,
         "score": 27.0,
         "current_14d_weight": 5.0,
-        "current_14d_titles": 12,
+        "current_14d_titles": 14,
         "baseline_periods": 8,
-        "baseline_median": 2.3,
-        "anomaly_z": 2.6,
+        "baseline_median": 2.0,
+        "anomaly_z": 2.02,
         "evidence": [
           {
             "title": "Nuclear Safeguards in a Changing World – 15th Symposium on International Safeguards Opens in Vienna",
@@ -77,8 +77,8 @@
         "removed_count": 0,
         "added": [],
         "removed": [],
-        "publish_date": "2026-11-12",
-        "sha256": "850ef744932d60f960045c9a4cd37ebf6237f8c32c0b163801e14fbcba6d9ce3",
+        "publish_date": "2026-11-17",
+        "sha256": "0cec66d585e32ca579f9fbe5392834d01536d658ed3a5f6407c61d23ed501eb4",
         "retained": false
       },
       {
@@ -112,7 +112,7 @@
         "available": true,
         "score": 0.0,
         "current_30d_diagnostic_weight": 0.0,
-        "events_considered": 1768,
+        "events_considered": 1771,
         "sites_monitored": 8,
         "anomaly_z": 0.0,
         "evidence": [],
@@ -128,17 +128,6 @@
     },
     "alerts": [],
     "history": [
-      {
-        "timestamp": "2026-09-21T13:22:25.583653+00:00",
-        "score": 14.5,
-        "level": "BASELINE",
-        "components": {
-          "iaea_safeguards_strain": 29.6,
-          "npwmd_designation_delta": 0.0,
-          "facility_security_incidents": 20.7,
-          "test_site_seismicity": 0.0
-        }
-      },
       {
         "timestamp": "2026-09-21T22:15:43.838863+00:00",
         "score": 14.5,
@@ -2107,12 +2096,23 @@
           "facility_security_incidents": 2.2,
           "test_site_seismicity": 0.0
         }
+      },
+      {
+        "timestamp": "2026-11-18T20:54:33.694008+00:00",
+        "score": 9.9,
+        "level": "BASELINE",
+        "components": {
+          "iaea_safeguards_strain": 27.0,
+          "npwmd_designation_delta": 0.0,
+          "facility_security_incidents": 2.2,
+          "test_site_seismicity": 0.0
+        }
       }
     ],
     "data_health": {
       "available_components": 4,
       "retained_components": [],
-      "iaea_titles": 42,
+      "iaea_titles": 46,
       "npwmd_entries": 1205,
       "iaea_events": 24,
       "test_sites": 8
@@ -2159,7 +2159,7 @@
     },
     {
       "label": "IAEA Signals",
-      "value": "42",
+      "value": "46",
       "delta": "official indexed pages"
     },
     {
@@ -2177,12 +2177,12 @@
     "iaea_titles": {
       "signals": [
         {
-          "title": "Update 375 – IAEA Director General Statement on Situation in Ukraine",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNS2tzZ1dPVS1HZUdJTUxzdzhtOF9pSmc3a3Jia3BxNzdjYzhGTGh5d1YyMTlmYUt5UDZtWFE2eVZKYnVyNnJTZmlocUhvdks2eVlUUzJQRU9CZjJjZUN4VjhWWVlYX1BJaDhBMk9RbnF5cFFsWEVaNUx5ay1UdUhiMEJqZkh6MzFSR2FleTJQZ2ZkNXk1NTk1ZkFhakFvZjZUbTlxZEVLbVM0T1RfaWloZQ?oc=5",
+          "title": "IAEA Director General's Introductory Statement to the Board of Governors",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNSEwzMzYwQjVRakYxQnZmM0ppam5zLUdOSlZnMzMxeXk4b25DYnZGb3Zfa0lEd3A2ZFNCUWx0U0NmSFBIbXo3bWQyT0FJQlZYUkU3bVA3RTZ0UHY4NzM3OExDb2prXzlSZzltcUMxUFVSVURZMHJkbDY5MmRSYW95T2ZXbXh2M2tORG9fMmdNcVVSZ1FEbm5RbGx4TF9DM29INl9nMzhkYUFXaDg4dGMtcG1SMWwxTDdVQmhlMklSY3NEUmNMOEl2Vkxn?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
-          "seendate": "20261114T083010Z",
+          "seendate": "20261118T095224Z",
           "source": "GoogleNews"
         },
         {
@@ -2192,6 +2192,33 @@
           "language": "",
           "tone": 0,
           "seendate": "20261112T061514Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Update 375 – IAEA Director General Statement on Situation in Ukraine",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNS2tzZ1dPVS1HZUdJTUxzdzhtOF9pSmc3a3Jia3BxNzdjYzhGTGh5d1YyMTlmYUt5UDZtWFE2eVZKYnVyNnJTZmlocUhvdks2eVlUUzJQRU9CZjJjZUN4VjhWWVlYX1BJaDhBMk9RbnF5cFFsWEVaNUx5ay1UdUhiMEJqZkh6MzFSR2FleTJQZ2ZkNXk1NTk1ZkFhakFvZjZUbTlxZEVLbVM0T1RfaWloZQ?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20261114T083010Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "IAEA Reviews Progress of Zambia’s Infrastructure Development for Nuclear Power",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQSENtRFVqLVBQLUp2NEF3Sm81ekE1eUlxTHNRVmFPdUdMb2k4X3FfMmVJd2R3cGduUkp5SHNicVVBbUVMN0ZiRm1yNGxCOUoxT3NsdTdtYzU4bEFvdjJNOGFjcW5iLVFyeEx4YmJ0enRxaEdoclBYQ2oxM0NISnFLQ0p3T2loMU9PZFJRdFhnVWxIZkhmRUd0d1UwZW81ZzItZ0ZJWG03bE8zdEZIVnBCU3ZxR0RFNUR5Q0ttVDV0OA?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20261117T155446Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "IAEA Mission to United Republic of Tanzania Finds Commitment to Strengthening Nuclear Security",
+          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQd1B2Ujd5R3psY1FveG96Vzc0X0dMRF85Z3h2Z0tUYlJabVJuTjJpdGdVZ1k1MDJDYjRPWFJHQlJFd014Z2p6eXUwSG12OHBsck4tSWwwZi1IXzhKWmdQM19JOG9GX0ZNbVpweVV1VXVfMzBZQkRtMXVkMlZEVzlRdHAwUktndmQ4YkRySkUzbFNrMFJQblVkUGhRVGZEWlFzckJORnNjallhOUZ6X1dhMmNyLS1CTWlJbVJaeXdNMW5oYkpmcDNqdW9jbk1YWE5DczlvTkxB?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20261118T073418Z",
           "source": "GoogleNews"
         },
         {
@@ -2267,21 +2294,21 @@
           "source": "GoogleNews"
         },
         {
-          "title": "Introductory Course on Agency Safeguards (ICAS) 72",
-          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQS0xaUUNiQVp2Y000RHJIQWtac0EyZTNQVWlyTTNfNTNBQkxWSk5VRXF6Y0xYNkllZ0lXeUZyVzJhN2ctWnAxOGd6cUMtZXRtZWdweUM1WWxVN0ZDN1I5WHRhS0c2N2hZNW1mQS1WUzdjdkV3T09ldEtLVEhHOGFiSlRjbmg2NzlhNl9mNUg0QmtZUTNNeGw1VFlhc2c4dw?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20261028T060934Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "Italy and Romania Establish New Member State Support Programmes to Strengthen IAEA Safeguards",
           "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxObFR5dkV1RHJhc1lzZzVLUjlJMWIyWFNaeWJtVU83cmRCUVdTNDc0aFhRdTFsczJTQWg1SVFJQ1VfSHdRek9LRTZyU2lqRU92T3pBcFoxQldzRURFOVcwVU5zUkl4MGtkaXl6OWtxMVBPT2ZYVmkyV1c5Yk13eHhSQVoxbE9MYzcwbDFQbnZaYnZ4UnZWOWlxSENBbmd4QkJuaHMtUzlOTWxhVDFxWFFKZTdVRnlHMmFnR0pJMkpoTmtRV0dmeU1HZQ?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
           "seendate": "20261023T070000Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Strengthening the Effectiveness and Improving the Efficiency of Agency Safeguards",
+          "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE10ejJPRmtGUjEtSjJmdWc0aHRXTlhJSHRnbWI0enlqNHk0MFF1eHNQZy00YlpVWnVsSHpSZUpsYUNWQjhUZ0E?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260818T070000Z",
           "source": "GoogleNews"
         },
         {
@@ -2294,21 +2321,21 @@
           "source": "GoogleNews"
         },
         {
-          "title": "Application of IAEA safeguards in the Middle East",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE83aU96bWZ4QWxkeDlESVdLUWctaXZkOUdpaW1DeTY3UUtTak1mYjVPZFlubDdqUlltTTBaYmNsRkFGSlZ4LVd1bEpjcUwwdG5nZTlRU1YtS0c0SFFNM3EyeDVlYlRlakh0dGc?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260917T070000Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "Implementation of the NPT Safeguards Agreement and relevant provisions of the United Nations Security Council resolutions in the",
           "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5ycHNHQkFQbFNWWGpWZVJJX2FfcFVyRUlwRk5KYVliOVdfenM3MDNqZHFUQWdjMGNBdkJlWHpqMGo1dnpLNlJUZmtVMFo0Z3RNYldWWjVxVDJZSEsyMWdJRzNyUFZPZw?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
           "seendate": "20260901T070000Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Application of IAEA safeguards in the Middle East",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1qc0lJeUVHdWY3b2FCSWFfek9yS2dSS3NGZjBlZmdqc2dvMWYwbVIxYW5tWXp0bFUtWkVGQTZDR29rbG5OdU9hbmtmeWtZNTVKSHhpQy1zbXVtWlJoc1pUdk5mRWNBQXIt?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260917T070000Z",
           "source": "GoogleNews"
         },
         {
@@ -2336,6 +2363,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20260727T070000Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "IAEA Director General's Introductory Statement to the Board of Governors",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPbW9JcGhHaGhiMTQ0X2lDWXBtclkxaU9fSTRZSmxwQWN5NnMycTdZQlM3NHcxN0JGT1RvUnVKRkdSWFhzQk5oTEtPbWttSDlvRFgyZWtiV3VHRGZQWmR6TmhjT0dxMHR0QXktUXVZSlJodzZMb3NhTnJRd0xBTm5kOHQ3S1BDTkNWdFpvZGpkX2Jpd3hUZ3A2SFdXZFMwRXpmR1ZYdTcyYmloRGFzWWxlZVhjekczdmJ6RUdGMjFEZDhSVjFpUnlKYnNn?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260907T070000Z",
           "source": "GoogleNews"
         },
         {
@@ -2501,12 +2537,21 @@
           "source": "GoogleNews"
         },
         {
-          "title": "IAEA Director General's Introductory Statement to the Board of Governors",
-          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPbW9JcGhHaGhiMTQ0X2lDWXBtclkxaU9fSTRZSmxwQWN5NnMycTdZQlM3NHcxN0JGT1RvUnVKRkdSWFhzQk5oTEtPbWttSDlvRFgyZWtiV3VHRGZQWmR6TmhjT0dxMHR0QXktUXVZSlJodzZMb3NhTnJRd0xBTm5kOHQ3S1BDTkNWdFpvZGpkX2Jpd3hUZ3A2SFdXZFMwRXpmR1ZYdTcyYmloRGFzWWxlZVhjekczdmJ6RUdGMjFEZDhSVjFpUnlKYnNn?oc=5",
+          "title": "IAEA Launches ATLAS as Countries Explore Nuclear Power for Shipping and Offshore Energy",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOMkFxQ0tKejgtSkszMlpJSjQwRnFHUGpUUUk5d1YtQnpjMWFHOTk0eHQ1dWJ1LW1LcG4yb0wwYUtVM3VjTWdfQVFUcXpkUXRubUJOUGtjU05haW4wcnhBSXJKc1dqb2FVWkJJdmpfZTdsaDF1TjhKaEd3ZmU2dl9iVUpseFFlemtWRG85cm1DQzFjRnU2R05wSV8yY1RmNmRLa053RkdpUWRRdDJudDdLdjVwSnBaOWItX0lqWExzOHFzbTVuN1NyRG5ZVGE?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
-          "seendate": "20260907T070000Z",
+          "seendate": "20260826T070000Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "TECDOC Series",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5QanRtZVdBX0V2VGRfZE9zajdTeU1pQ0dhQnEyQkJEVDZqVTZJcG5Ec0hJcEEwdXhCaW1XR3hiRDFrT28wekswNnEyQVNYZzhacmRoRzdoZXhvZFIxLTFPZEpDMA?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260801T001021Z",
           "source": "GoogleNews"
         },
         {
@@ -2519,30 +2564,12 @@
           "source": "GoogleNews"
         },
         {
-          "title": "A Guide to eQUANUM Audits Using QUANUM Methodology",
-          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOdVZhQ0xlUktpeHdqQWJTTTJQSEVMc2VVaWRRTTNQMUFzS0ktSU1NQ0NKUzJXU2VBcDRjRkVEMGJzb0Y3bzF0R3kyQ2xmMk95am03M1FnUXJTMVhOcWEyODJuVFNvNVFBRjBGUUZ2QmljdHRKdVlxQUNYUjczRm9KRjZSSXJHdTF0WGxHMHltOEhNT0V5?oc=5",
+          "title": "IAEA Reviews Bangladesh’s Nuclear and Radiological Emergency Preparedness and Response",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQUmVLOVlzZll5eklyVE9UV2Uxem1YNGpsb3d4X3FMVnc3WjVQaUlpS1lKNHlSQWR6dGNMdWRKNWphWHp3cmRiNjJLaXdWNzY2X0JSNFEyS1kzZmtJS1ppaFNZYUx3M2ZhaXgwVHloWVZ2QXdPU3BwckJIT0ZjcDVleHM4aEdVTnVJQXA5clZiWXh4SWl5elNuQmRuX0c2RWozRkdhWEhOLVBhSk9oU0NYaEFTUmpheWxNQkY4Q0JlUW56SXE4Y1hOWm1uOA?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
-          "seendate": "20261117T101423Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "Improving Mosquito Diets to Boost Sterile Insect Technique",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNNUVLY2prc01YT3RtT0FyX09fZmtBMkxtNUVjNzMwcmt6QmlsNHZqN1ktWjEzSFJZVGlqYzdGMzdyYVgxRzktQjFFcmUzejhfelYteHppY3BaREw0eVdRSkZHVTJjUTZydkVrdXBmNzJfZklfLTQ3OEhqSVMyZVdidzZCOGdOVWJaOXRsdG90NnJDTTV0YXoyRW1B?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20261117T111947Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "IAEA Reviews Progress of Zambia’s Infrastructure Development for Nuclear Power",
-          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQSENtRFVqLVBQLUp2NEF3Sm81ekE1eUlxTHNRVmFPdUdMb2k4X3FfMmVJd2R3cGduUkp5SHNicVVBbUVMN0ZiRm1yNGxCOUoxT3NsdTdtYzU4bEFvdjJNOGFjcW5iLVFyeEx4YmJ0enRxaEdoclBYQ2oxM0NISnFLQ0p3T2loMU9PZFJRdFhnVWxIZkhmRUd0d1UwZW81ZzItZ0ZJWG03bE8zdEZIVnBCU3ZxR0RFNUR5Q0ttVDV0OA?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20261117T155446Z",
+          "seendate": "20261118T134545Z",
           "source": "GoogleNews"
         },
         {
@@ -2552,6 +2579,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20261113T140004Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "El Salvador seeks to Strengthen its Nuclear Liability Framework",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNVjZsUWFnaHZjUkZFRlJ1TC1TSTVodFRFVllJdHBlUnYwa2pkcUl4ODZRRFQxTGxrUS1TYXl3U2dydXpXaFdTb042bEh6bG5qeFlRejFkS2F2a2xSLXZSOEhFWDlpXzlfZzRLUGpfaV9ZRXUwcEswbDNMTnpCNXRTc09VTHR5ZmpEaTh0OVVjb1hNZTFwRnRfQkhpZ3F0QTdScUE?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20261118T134500Z",
           "source": "GoogleNews"
         }
       ],
@@ -10061,8 +10097,8 @@
         }
       ],
       "count": 1205,
-      "publish_date": "2026-11-12",
-      "sha256": "850ef744932d60f960045c9a4cd37ebf6237f8c32c0b163801e14fbcba6d9ce3",
+      "publish_date": "2026-11-17",
+      "sha256": "0cec66d585e32ca579f9fbe5392834d01536d658ed3a5f6407c61d23ed501eb4",
       "cached": false
     },
     "test_site_seismicity": {
@@ -10273,6 +10309,54 @@
           "lon": 89.0912,
           "lat": 43.7287,
           "depth_km": 10,
+          "source": "USGS"
+        },
+        {
+          "id": "ci41363415",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1795025845730,
+          "magnitude": 1.53,
+          "magnitude_type": "ml",
+          "event_type": "earthquake",
+          "place": "9 km NE of Coso Junction, CA",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41363415",
+          "lon": -117.866,
+          "lat": 36.0985,
+          "depth_km": 3.66,
+          "source": "USGS"
+        },
+        {
+          "id": "nn00927112",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1795010209271,
+          "magnitude": 2.85,
+          "magnitude_type": "ml",
+          "event_type": "earthquake",
+          "place": "33 km SE of Mina, Nevada",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00927112",
+          "lon": -117.8467,
+          "lat": 38.1669,
+          "depth_km": 7.1777,
+          "source": "USGS"
+        },
+        {
+          "id": "nn00927110",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1795000742890,
+          "magnitude": 2.12,
+          "magnitude_type": "ml",
+          "event_type": "earthquake",
+          "place": "48 km ENE of Beatty, Nevada",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00927110",
+          "lon": -116.297,
+          "lat": 37.1419,
+          "depth_km": 5.6114,
           "source": "USGS"
         },
         {
