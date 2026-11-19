@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "nuclear-proliferation-watch",
-    "generated": "2026-11-19T07:57:35.268911+00:00",
+    "generated": "2026-11-19T20:59:28.321248+00:00",
     "mode": "live",
     "sources": [
       "IAEA official pages",
@@ -14,10 +14,10 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-11-19T07:57:35.262976+00:00",
+    "issued_at": "2026-11-19T20:59:28.316677+00:00",
     "horizon": "0-30 days",
     "classification": "nuclear-escalation-pressure-not-test-or-weapon-probability",
-    "score": 9.9,
+    "score": 10.6,
     "level": "BASELINE",
     "confidence": "HIGH",
     "confidence_score": 100.0,
@@ -26,12 +26,12 @@
         "id": "iaea_safeguards_strain",
         "label": "IAEA safeguards and access strain",
         "available": true,
-        "score": 27.0,
-        "current_14d_weight": 5.0,
-        "current_14d_titles": 14,
+        "score": 29.1,
+        "current_14d_weight": 5.8,
+        "current_14d_titles": 16,
         "baseline_periods": 8,
         "baseline_median": 2.0,
-        "anomaly_z": 2.02,
+        "anomaly_z": 2.56,
         "evidence": [
           {
             "title": "Nuclear Safeguards in a Changing World – 15th Symposium on International Safeguards Opens in Vienna",
@@ -48,7 +48,7 @@
           {
             "title": "Safeguards: Our Shared Responsibility",
             "url": null,
-            "date": "2026-11-09",
+            "date": "2026-11-10",
             "weight": 1.0
           },
           {
@@ -62,6 +62,12 @@
             "url": null,
             "date": "2026-11-12",
             "weight": 1.0
+          },
+          {
+            "title": "IAEA and Global Partnership of Nuclear Communities Strengthen Cooperation on Local Engagement",
+            "url": null,
+            "date": "2026-11-19",
+            "weight": 0.8
           }
         ],
         "retained": false
@@ -77,8 +83,8 @@
         "removed_count": 0,
         "added": [],
         "removed": [],
-        "publish_date": "2026-11-17",
-        "sha256": "0cec66d585e32ca579f9fbe5392834d01536d658ed3a5f6407c61d23ed501eb4",
+        "publish_date": "2026-11-18",
+        "sha256": "abcd9f0e6ae5d90802a6ef2cf16c2318264f41521067eb3c8a5420c33bd7db62",
         "retained": false
       },
       {
@@ -112,7 +118,7 @@
         "available": true,
         "score": 0.0,
         "current_30d_diagnostic_weight": 0.0,
-        "events_considered": 1775,
+        "events_considered": 1789,
         "sites_monitored": 8,
         "anomaly_z": 0.0,
         "evidence": [],
@@ -128,17 +134,6 @@
     },
     "alerts": [],
     "history": [
-      {
-        "timestamp": "2026-09-22T05:24:44.430519+00:00",
-        "score": 14.5,
-        "level": "BASELINE",
-        "components": {
-          "iaea_safeguards_strain": 29.6,
-          "npwmd_designation_delta": 0.0,
-          "facility_security_incidents": 20.7,
-          "test_site_seismicity": 0.0
-        }
-      },
       {
         "timestamp": "2026-09-22T12:03:40.050918+00:00",
         "score": 14.5,
@@ -2107,12 +2102,23 @@
           "facility_security_incidents": 2.2,
           "test_site_seismicity": 0.0
         }
+      },
+      {
+        "timestamp": "2026-11-19T20:59:28.316677+00:00",
+        "score": 10.6,
+        "level": "BASELINE",
+        "components": {
+          "iaea_safeguards_strain": 29.1,
+          "npwmd_designation_delta": 0.0,
+          "facility_security_incidents": 2.2,
+          "test_site_seismicity": 0.0
+        }
       }
     ],
     "data_health": {
       "available_components": 4,
       "retained_components": [],
-      "iaea_titles": 46,
+      "iaea_titles": 49,
       "npwmd_entries": 1205,
       "iaea_events": 24,
       "test_sites": 8
@@ -2154,12 +2160,12 @@
   "stats": [
     {
       "label": "Escalation Pressure",
-      "value": "9.9/100",
+      "value": "10.6/100",
       "delta": "BASELINE"
     },
     {
       "label": "IAEA Signals",
-      "value": "46",
+      "value": "49",
       "delta": "official indexed pages"
     },
     {
@@ -2213,6 +2219,15 @@
           "source": "GoogleNews"
         },
         {
+          "title": "IAEA Reviews Bangladesh’s Nuclear and Radiological Emergency Preparedness and Response",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQd1NiOHpJRW8wOThvTnZFM0pOYXRJSnJpVWhfY1pBOXpLUm5PVUhvbHBrek51c3BZUmdxa093NGQxZEpIZnlyb0dwdE8waU5DbXZKN2RPYXFRbE96Nzdtb1BYU2ZmZWg5OUtnVG9iOGpaWGFnbGhibTNhN29rYmdmU2g1WjFwZFZHR2FNZ2JURkxMNDY0Z3JDWl9WVDAxbV8ydy0tQ2tkcFcxSm5paVIwaWQ3MU92dzVXTnlwRE5WMDloMS02SFItT3lB?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20261118T134545Z",
+          "source": "GoogleNews"
+        },
+        {
           "title": "IAEA Mission to United Republic of Tanzania Finds Commitment to Strengthening Nuclear Security",
           "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQd1B2Ujd5R3psY1FveG96Vzc0X0dMRF85Z3h2Z0tUYlJabVJuTjJpdGdVZ1k1MDJDYjRPWFJHQlJFd014Z2p6eXUwSG12OHBsck4tSWwwZi1IXzhKWmdQM19JOG9GX0ZNbVpweVV1VXVfMzBZQkRtMXVkMlZEVzlRdHAwUktndmQ4YkRySkUzbFNrMFJQblVkUGhRVGZEWlFzckJORnNjallhOUZ6X1dhMmNyLS1CTWlJbVJaeXdNMW5oYkpmcDNqdW9jbk1YWE5DczlvTkxB?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -2222,21 +2237,21 @@
           "source": "GoogleNews"
         },
         {
-          "title": "World Fusion Outlook 2026: AI, the US $80 Billion Financing Challenge and Future Deployment Scenarios",
-          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNOVRIMmtHMTlGUWRlWVdrUlZzd1hScG1fQ2QzV19nWEkzRDJIWmlXYVhyT3lfYkZ0YmQ4b08yd0ZMTjA2dkE0b2ZLbzNCSDU0MG5WN2s0NzFHX2tiNmM4bUtybGRUa3U4MExlM2lMVWg4aE5KNW1jNFVlbl9ZUmVpeW9nYzYtcDNGNVBScC13anhXVVFCLTRPVGdlOXQtN2NiU2JLa1VfWG1NUTBZMHc4WUVYdW9GdVFJMG5QQ2VGVGJDRlAtQ010UkpfQjladVk?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20261112T080000Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "Nuclear Safeguards in a Changing World – 15th Symposium on International Safeguards Opens in Vienna",
           "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNNWF1NUxqbVg4UWwzTWZvQVVBYkJSVDl1SDFDTHNvVXRJZlhUZWJPZ1NZdGJIWU44ekRzSjU1dnh5N3JHdVhEVUVDaVpXMC03N2dSOW51VEVNckpadHpfTHNwbFllQloyZjRzXzJFc1lmXzN0OWYzLVNfUmtia0NxcXo4VmRXT3Y1czc5SjNQOTVpd1NRQU5SOEY5NG1KTGF3RkpTQkJSMnZYMjlYVW5WZEhZak5pM2tZM1pkZk5kSFhHUXhRdFFVaGdSaHNfQQ?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
           "seendate": "20261109T150000Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "World Fusion Outlook 2026: AI, the US $80 Billion Financing Challenge and Future Deployment Scenarios",
+          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNOVRIMmtHMTlGUWRlWVdrUlZzd1hScG1fQ2QzV19nWEkzRDJIWmlXYVhyT3lfYkZ0YmQ4b08yd0ZMTjA2dkE0b2ZLbzNCSDU0MG5WN2s0NzFHX2tiNmM4bUtybGRUa3U4MExlM2lMVWg4aE5KNW1jNFVlbl9ZUmVpeW9nYzYtcDNGNVBScC13anhXVVFCLTRPVGdlOXQtN2NiU2JLa1VfWG1NUTBZMHc4WUVYdW9GdVFJMG5QQ2VGVGJDRlAtQ010UkpfQjladVk?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20261112T080000Z",
           "source": "GoogleNews"
         },
         {
@@ -2250,20 +2265,11 @@
         },
         {
           "title": "Safeguards: Our Shared Responsibility",
-          "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBvRjBOY3RHenRzZHluNlJtZGtWdW1lQ3FYcllocjVyb3lxNnJXX0pTczZrN3BER0ROZ01LZlJzTDU3ZEI3dWpTa1ZvQQ?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1CMFdTc3dCVnB4Nk9xMVBOTXZKcy1fWVk2YUJJMS1yOVRyS09ZVUhWMkE3c1FmM1JTY0Z2SHhvRF90amZQckg2NkRtdw?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
-          "seendate": "20261109T080000Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "IAEA Safeguards Symposium 2026: Programme Now Available",
-          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOY3BmUk0tWnFsVVREWE1IQnlUZDJFeHZ5Um83RF9YU1JaTU93MU96bFdvdlRkbWRXUWhSOFdPdmgwYWhBQUxFY2Y1aTNYRXBfa1cxMXRweFJZay1VVVAxZ0l4c0tNYlFQR001QXYzamZaQUlhN3RPaTgtTHFxeTNtVEhyeW91QTdmckkyUjBOTXJjVW1J?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20261030T070000Z",
+          "seendate": "20261110T002506Z",
           "source": "GoogleNews"
         },
         {
@@ -2291,6 +2297,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20261023T070000Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "IAEA Safeguards Symposium 2026: Programme Now Available",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOY3BmUk0tWnFsVVREWE1IQnlUZDJFeHZ5Um83RF9YU1JaTU93MU96bFdvdlRkbWRXUWhSOFdPdmgwYWhBQUxFY2Y1aTNYRXBfa1cxMXRweFJZay1VVVAxZ0l4c0tNYlFQR001QXYzamZaQUlhN3RPaTgtTHFxeTNtVEhyeW91QTdmckkyUjBOTXJjVW1J?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20261030T070000Z",
           "source": "GoogleNews"
         },
         {
@@ -2372,6 +2387,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20260818T070000Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Implementation of the NPT safeguards agreement between the Agency and the Democratic People's Republic of Korea",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBTMWo5MUlvNEVhOUdEemFBb1FrdXhGQm1lSFkwb2JSTXhKSGRHVFBLVVJ5Nl9MTTdWaFd0R1ZfSHZ6QmVCM08weHVWcjdaMWlqVmlZTHlEV1lPWTQxNTFVcC1raHRyMWZs?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260917T070000Z",
           "source": "GoogleNews"
         },
         {
@@ -2528,7 +2552,7 @@
           "source": "GoogleNews"
         },
         {
-          "title": "Symposium on International Safeguards: Innovation and Resilience in a Changing World - Safeguards as a Shared Responsibility - Programme",
+          "title": "Symposium on International Safeguards: Innovation and Resilience in a Changing World - Safeguards as a Shared Responsibility - Programme | IAEA",
           "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE84dGdaZHF5NGVkRFhyTnN4cUNqUGFkNFRHTXNoQm9lX1lJUkd0NW9pUktiSmsteF9UQmVFWl9uVjVMSld5UlZ6TU9KcTFOUzJ1djNLekV6QQ?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
@@ -2564,6 +2588,15 @@
           "source": "GoogleNews"
         },
         {
+          "title": "Update 376 – IAEA Director General Statement on Situation in Ukraine",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOcXJZQ0NxWFpKLUdVMFRGY251dWhOaGs0bDk5bm9CeEZLNkIwUEJDeWlVTF9YVzBUMElpY0piZGJjTDRPZERyNEVSaWN6Z3l0N2w0MFpKcTY5R0h2cVdrbU8wRG5qcHBQNnNreHZoUE1CTUxxYm55TzR2SlhwUHJlZ0Vaalh1WnRVQ3BlM1I2Z0FZcmdqWmJiRFZqM2x2aW1tLXVLLWU0LUJSSUtlRGFMMjRB?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20261119T180236Z",
+          "source": "GoogleNews"
+        },
+        {
           "title": "Jamaica Signs a Country Programme Framework (CPF) for 2026–2031",
           "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOQ0s4R1dsRXdSd3B0OG1vYnhMQ3hFZ0MxSzdJRW9hUURWTk81M3BKa1VPNXFKcC0tUG1LdWdMaWNFcVp3alN5TU43aHBnTlFOLV9iSnB4UURKMDBKQnI1NkxPVTNtMndhR3lNSmhSQjhYVDAtYUhkN3NtMWNwcGkzZXF6dDJkTFJlY0pUZHhMcXlvWGQtSW95NGpxdTVSZw?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -2573,12 +2606,12 @@
           "source": "GoogleNews"
         },
         {
-          "title": "IAEA Reviews Bangladesh’s Nuclear and Radiological Emergency Preparedness and Response",
-          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQUmVLOVlzZll5eklyVE9UV2Uxem1YNGpsb3d4X3FMVnc3WjVQaUlpS1lKNHlSQWR6dGNMdWRKNWphWHp3cmRiNjJLaXdWNzY2X0JSNFEyS1kzZmtJS1ppaFNZYUx3M2ZhaXgwVHloWVZ2QXdPU3BwckJIT0ZjcDVleHM4aEdVTnVJQXA5clZiWXh4SWl5elNuQmRuX0c2RWozRkdhWEhOLVBhSk9oU0NYaEFTUmpheWxNQkY4Q0JlUW56SXE4Y1hOWm1uOA?oc=5",
+          "title": "IAEA and Global Partnership of Nuclear Communities Strengthen Cooperation on Local Engagement",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxONFlZRW5JUnlZUG9wM2xnMzh4aW56cHVuN1ByOWI5emI1VjN5d1dEbGlMTFQ0UUltUXhoWUFybVhielEybXRMQ0x2Z2VwUU5Wb2VoUC10MUNuZ2E3MGlYX1YtYVdTT3hPSHdaNTM4bXpGSi00eWtFc3VmWFhDb3Rtemh1dGJCdGszYjNybWNRQ2VZQXBfMmZJWHV3LU5rdlN1c0J2OUd3cDREUmpQTFFsMEVIbmtjLU5wUFZqeDdYT3dHTDJSeHlxQUN3?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
-          "seendate": "20261118T134545Z",
+          "seendate": "20261119T120000Z",
           "source": "GoogleNews"
         },
         {
@@ -10097,8 +10130,8 @@
         }
       ],
       "count": 1205,
-      "publish_date": "2026-11-17",
-      "sha256": "0cec66d585e32ca579f9fbe5392834d01536d658ed3a5f6407c61d23ed501eb4",
+      "publish_date": "2026-11-18",
+      "sha256": "abcd9f0e6ae5d90802a6ef2cf16c2318264f41521067eb3c8a5420c33bd7db62",
       "cached": false
     },
     "test_site_seismicity": {
@@ -10312,6 +10345,230 @@
           "source": "USGS"
         },
         {
+          "id": "ci41363879",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1795121367500,
+          "magnitude": 2.41,
+          "magnitude_type": "ml",
+          "event_type": "earthquake",
+          "place": "42 km WSW of Olancha, CA",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41363879",
+          "lon": -118.43917,
+          "lat": 36.1375,
+          "depth_km": 7.19,
+          "source": "USGS"
+        },
+        {
+          "id": "ci41363863",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1795110523570,
+          "magnitude": 1.54,
+          "magnitude_type": "ml",
+          "event_type": "earthquake",
+          "place": "14 km ESE of Little Lake, CA",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41363863",
+          "lon": -117.75083,
+          "lat": 35.90583,
+          "depth_km": 6.87,
+          "source": "USGS"
+        },
+        {
+          "id": "ci41363807",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1795098372130,
+          "magnitude": 1.86,
+          "magnitude_type": "ml",
+          "event_type": "earthquake",
+          "place": "42 km N of Kernville, CA",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41363807",
+          "lon": -118.43967,
+          "lat": 36.13433,
+          "depth_km": 4.65,
+          "source": "USGS"
+        },
+        {
+          "id": "ci41363791",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1795097766200,
+          "magnitude": 1.82,
+          "magnitude_type": "ml",
+          "event_type": "earthquake",
+          "place": "42 km N of Kernville, CA",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41363791",
+          "lon": -118.44317,
+          "lat": 36.13183,
+          "depth_km": 5.85,
+          "source": "USGS"
+        },
+        {
+          "id": "nc75468357",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1795096701570,
+          "magnitude": 2.98,
+          "magnitude_type": "md",
+          "event_type": "earthquake",
+          "place": "19 km SW of Toms Place, CA",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75468357",
+          "lon": -118.846168518066,
+          "lat": 37.4558334350586,
+          "depth_km": 3.15000009536743,
+          "source": "USGS"
+        },
+        {
+          "id": "nc75468317",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1795091691140,
+          "magnitude": 2.36,
+          "magnitude_type": "md",
+          "event_type": "earthquake",
+          "place": "19 km SW of Toms Place, CA",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75468317",
+          "lon": -118.844497680664,
+          "lat": 37.4550018310547,
+          "depth_km": 1.96000003814697,
+          "source": "USGS"
+        },
+        {
+          "id": "nc75468302",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1795091066160,
+          "magnitude": 2.75,
+          "magnitude_type": "ml",
+          "event_type": "earthquake",
+          "place": "19 km SW of Toms Place, CA",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75468302",
+          "lon": -118.842666625977,
+          "lat": 37.4536666870117,
+          "depth_km": 3.14000010490417,
+          "source": "USGS"
+        },
+        {
+          "id": "nc75468297",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1795090836630,
+          "magnitude": 2.27,
+          "magnitude_type": "md",
+          "event_type": "earthquake",
+          "place": "12 km SW of Toms Place, CA",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75468297",
+          "lon": -118.792503356934,
+          "lat": 37.4971656799316,
+          "depth_km": 7.46999979019165,
+          "source": "USGS"
+        },
+        {
+          "id": "nc75468292",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1795090042480,
+          "magnitude": 1.93,
+          "magnitude_type": "md",
+          "event_type": "earthquake",
+          "place": "12 km SW of Toms Place, CA",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75468292",
+          "lon": -118.789169311523,
+          "lat": 37.4939994812012,
+          "depth_km": 7.80999994277954,
+          "source": "USGS"
+        },
+        {
+          "id": "nn00927166",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1795088240931,
+          "magnitude": 1.67,
+          "magnitude_type": "ml",
+          "event_type": "earthquake",
+          "place": "1 km NE of West Bishop, California",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00927166",
+          "lon": -118.4486,
+          "lat": 37.3687,
+          "depth_km": 3.0276,
+          "source": "USGS"
+        },
+        {
+          "id": "ci41363687",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1795077437510,
+          "magnitude": 1.94,
+          "magnitude_type": "ml",
+          "event_type": "earthquake",
+          "place": "42 km N of Kernville, CA",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41363687",
+          "lon": -118.444,
+          "lat": 36.13033,
+          "depth_km": 3.6,
+          "source": "USGS"
+        },
+        {
+          "id": "nc75468242",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1795075452880,
+          "magnitude": 2.2,
+          "magnitude_type": "md",
+          "event_type": "earthquake",
+          "place": "16 km SW of Round Valley, CA",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75468242",
+          "lon": -118.747497558594,
+          "lat": 37.333667755127,
+          "depth_km": 17.5,
+          "source": "USGS"
+        },
+        {
+          "id": "nc75468237",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1795075427920,
+          "magnitude": 1.94,
+          "magnitude_type": "md",
+          "event_type": "earthquake",
+          "place": "16 km SW of Round Valley, CA",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75468237",
+          "lon": -118.737998962402,
+          "lat": 37.3233337402344,
+          "depth_km": 10.789999961853,
+          "source": "USGS"
+        },
+        {
+          "id": "nc75468232",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1795074973630,
+          "magnitude": 2.48,
+          "magnitude_type": "md",
+          "event_type": "earthquake",
+          "place": "19 km SW of Toms Place, CA",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75468232",
+          "lon": -118.841667175293,
+          "lat": 37.4544982910156,
+          "depth_km": 2.60999989509583,
+          "source": "USGS"
+        },
+        {
           "id": "ci41363631",
           "site": "Nevada National Security Site",
           "site_lat": 37.12,
@@ -10348,15 +10605,15 @@
           "site": "Nevada National Security Site",
           "site_lat": 37.12,
           "site_lon": -116.05,
-          "time": 1795070411180,
-          "magnitude": 3.44,
+          "time": 1795070411370,
+          "magnitude": 3.51,
           "magnitude_type": "ml",
           "event_type": "earthquake",
           "place": "42 km N of Kernville, CA",
           "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41363599",
-          "lon": -118.43867,
-          "lat": 36.13383,
-          "depth_km": 1.96,
+          "lon": -118.437,
+          "lat": 36.13333,
+          "depth_km": 4.86,
           "source": "USGS"
         },
         {
@@ -38565,7 +38822,7 @@
     {
       "title": "Safeguards: Our Shared Responsibility",
       "url": null,
-      "date": "2026-11-09",
+      "date": "2026-11-10",
       "weight": 1.0
     },
     {
@@ -38579,6 +38836,12 @@
       "url": null,
       "date": "2026-11-12",
       "weight": 1.0
+    },
+    {
+      "title": "IAEA and Global Partnership of Nuclear Communities Strengthen Cooperation on Local Engagement",
+      "url": null,
+      "date": "2026-11-19",
+      "weight": 0.8
     },
     {
       "title": "Theft of the Medical isotopes during transport",
