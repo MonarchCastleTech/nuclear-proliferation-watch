@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "nuclear-proliferation-watch",
-    "generated": "2026-11-21T07:43:49.173285+00:00",
+    "generated": "2026-11-21T19:48:48.051002+00:00",
     "mode": "live",
     "sources": [
       "IAEA official pages",
@@ -14,7 +14,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-11-21T07:43:49.168897+00:00",
+    "issued_at": "2026-11-21T19:48:48.043661+00:00",
     "horizon": "0-30 days",
     "classification": "nuclear-escalation-pressure-not-test-or-weapon-probability",
     "score": 9.7,
@@ -28,10 +28,10 @@
         "available": true,
         "score": 26.5,
         "current_14d_weight": 4.8,
-        "current_14d_titles": 13,
+        "current_14d_titles": 12,
         "baseline_periods": 8,
-        "baseline_median": 2.0,
-        "anomaly_z": 2.36,
+        "baseline_median": 1.5,
+        "anomaly_z": 2.78,
         "evidence": [
           {
             "title": "Nuclear Safeguards in a Changing World – 15th Symposium on International Safeguards Opens in Vienna",
@@ -128,17 +128,6 @@
     },
     "alerts": [],
     "history": [
-      {
-        "timestamp": "2026-09-23T05:13:12.395685+00:00",
-        "score": 6.4,
-        "level": "BASELINE",
-        "components": {
-          "iaea_safeguards_strain": 0.0,
-          "npwmd_designation_delta": 0.0,
-          "facility_security_incidents": 20.7,
-          "test_site_seismicity": 0.0
-        }
-      },
       {
         "timestamp": "2026-09-23T12:14:21.856836+00:00",
         "score": 13.2,
@@ -2107,12 +2096,23 @@
           "facility_security_incidents": 2.2,
           "test_site_seismicity": 0.0
         }
+      },
+      {
+        "timestamp": "2026-11-21T19:48:48.043661+00:00",
+        "score": 9.7,
+        "level": "BASELINE",
+        "components": {
+          "iaea_safeguards_strain": 26.5,
+          "npwmd_designation_delta": 0.0,
+          "facility_security_incidents": 2.2,
+          "test_site_seismicity": 0.0
+        }
       }
     ],
     "data_health": {
       "available_components": 4,
       "retained_components": [],
-      "iaea_titles": 49,
+      "iaea_titles": 45,
       "npwmd_entries": 1205,
       "iaea_events": 24,
       "test_sites": 8
@@ -2159,7 +2159,7 @@
     },
     {
       "label": "IAEA Signals",
-      "value": "49",
+      "value": "45",
       "delta": "official indexed pages"
     },
     {
@@ -2186,12 +2186,12 @@
           "source": "GoogleNews"
         },
         {
-          "title": "IAEA Reviews Progress of Zambia’s Infrastructure Development for Nuclear Power",
-          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQSENtRFVqLVBQLUp2NEF3Sm81ekE1eUlxTHNRVmFPdUdMb2k4X3FfMmVJd2R3cGduUkp5SHNicVVBbUVMN0ZiRm1yNGxCOUoxT3NsdTdtYzU4bEFvdjJNOGFjcW5iLVFyeEx4YmJ0enRxaEdoclBYQ2oxM0NISnFLQ0p3T2loMU9PZFJRdFhnVWxIZkhmRUd0d1UwZW81ZzItZ0ZJWG03bE8zdEZIVnBCU3ZxR0RFNUR5Q0ttVDV0OA?oc=5",
+          "title": "IAEA and Global Partnership of Nuclear Communities Strengthen Cooperation on Local Engagement",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxONFlZRW5JUnlZUG9wM2xnMzh4aW56cHVuN1ByOWI5emI1VjN5d1dEbGlMTFQ0UUltUXhoWUFybVhielEybXRMQ0x2Z2VwUU5Wb2VoUC10MUNuZ2E3MGlYX1YtYVdTT3hPSHdaNTM4bXpGSi00eWtFc3VmWFhDb3Rtemh1dGJCdGszYjNybWNRQ2VZQXBfMmZJWHV3LU5rdlN1c0J2OUd3cDREUmpQTFFsMEVIbmtjLU5wUFZqeDdYT3dHTDJSeHlxQUN3?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
-          "seendate": "20261117T155446Z",
+          "seendate": "20261119T120000Z",
           "source": "GoogleNews"
         },
         {
@@ -2204,6 +2204,15 @@
           "source": "GoogleNews"
         },
         {
+          "title": "IAEA Mission to United Republic of Tanzania Finds Commitment to Strengthening Nuclear Security",
+          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQd1B2Ujd5R3psY1FveG96Vzc0X0dMRF85Z3h2Z0tUYlJabVJuTjJpdGdVZ1k1MDJDYjRPWFJHQlJFd014Z2p6eXUwSG12OHBsck4tSWwwZi1IXzhKWmdQM19JOG9GX0ZNbVpweVV1VXVfMzBZQkRtMXVkMlZEVzlRdHAwUktndmQ4YkRySkUzbFNrMFJQblVkUGhRVGZEWlFzckJORnNjallhOUZ6X1dhMmNyLS1CTWlJbVJaeXdNMW5oYkpmcDNqdW9jbk1YWE5DczlvTkxB?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20261118T073418Z",
+          "source": "GoogleNews"
+        },
+        {
           "title": "Update 375 – IAEA Director General Statement on Situation in Ukraine",
           "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNS2tzZ1dPVS1HZUdJTUxzdzhtOF9pSmc3a3Jia3BxNzdjYzhGTGh5d1YyMTlmYUt5UDZtWFE2eVZKYnVyNnJTZmlocUhvdks2eVlUUzJQRU9CZjJjZUN4VjhWWVlYX1BJaDhBMk9RbnF5cFFsWEVaNUx5ay1UdUhiMEJqZkh6MzFSR2FleTJQZ2ZkNXk1NTk1ZkFhakFvZjZUbTlxZEVLbVM0T1RfaWloZQ?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -2213,21 +2222,21 @@
           "source": "GoogleNews"
         },
         {
-          "title": "Nuclear Safeguards in a Changing World – 15th Symposium on International Safeguards Opens in Vienna",
-          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNNWF1NUxqbVg4UWwzTWZvQVVBYkJSVDl1SDFDTHNvVXRJZlhUZWJPZ1NZdGJIWU44ekRzSjU1dnh5N3JHdVhEVUVDaVpXMC03N2dSOW51VEVNckpadHpfTHNwbFllQloyZjRzXzJFc1lmXzN0OWYzLVNfUmtia0NxcXo4VmRXT3Y1czc5SjNQOTVpd1NRQU5SOEY5NG1KTGF3RkpTQkJSMnZYMjlYVW5WZEhZak5pM2tZM1pkZk5kSFhHUXhRdFFVaGdSaHNfQQ?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20261109T150000Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "IAEA to Host Symposium on International Safeguards, 9 to 12 November",
           "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNMW5KV09KOXNkTGV6NWVMbDFEZXZpZ3ZIejI1azVPY3ZtaDBwVHk1RUNqdkw4Z1UwOVhZc1BEbUZrUzdJZkltYXhTeXlHNjJiYUN6bG1MQkxLZ1FPa0E4Q3kzM2sxeUVSZWJ2SXZCbG1zbnJxdFpVbHhTVjdRM1pfTmtfR1JzcGs0R1VzVUZtMDQtakdiS0pzaVc3WU04c1VnZjItTllmYnVTNVBHdHFmbnZMT2o?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
           "seendate": "20261105T080000Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Nuclear Safeguards in a Changing World – 15th Symposium on International Safeguards Opens in Vienna",
+          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNNWF1NUxqbVg4UWwzTWZvQVVBYkJSVDl1SDFDTHNvVXRJZlhUZWJPZ1NZdGJIWU44ekRzSjU1dnh5N3JHdVhEVUVDaVpXMC03N2dSOW51VEVNckpadHpfTHNwbFllQloyZjRzXzJFc1lmXzN0OWYzLVNfUmtia0NxcXo4VmRXT3Y1czc5SjNQOTVpd1NRQU5SOEY5NG1KTGF3RkpTQkJSMnZYMjlYVW5WZEhZak5pM2tZM1pkZk5kSFhHUXhRdFFVaGdSaHNfQQ?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20261109T150000Z",
           "source": "GoogleNews"
         },
         {
@@ -2245,7 +2254,7 @@
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
-          "seendate": "20261027T021157Z",
+          "seendate": "20261112T080000Z",
           "source": "GoogleNews"
         },
         {
@@ -2375,15 +2384,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "Implementation of the NPT safeguards agreement between the Agency and the Democratic People's Republic of Korea",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBTMWo5MUlvNEVhOUdEemFBb1FrdXhGQm1lSFkwb2JSTXhKSGRHVFBLVVJ5Nl9MTTdWaFd0R1ZfSHZ6QmVCM08weHVWcjdaMWlqVmlZTHlEV1lPWTQxNTFVcC1raHRyMWZs?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260917T070000Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "Implementation of the NPT Safeguards Agreement in the Syrian Arab Republic",
           "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFA1aWxESXpNcFhwOVR2YXVOZTc5MUxDQXVsX0VaUjVPZWZFcUpWU0RKN1RiNHlEaWJpQ2ZnVHpXWkJybU5OUXJnWExmOHk3S1BMa3BONlJodlNwYTh2TzZNd1NLUFNpQQ?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -2417,15 +2417,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20260820T083335Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "Innovation and Resilience in a Changing World - Safeguards as a Shared Responsibility - Training Days | IAEA",
-          "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5mM0h6SEpFeWRoMEZtdHBqWk1UVTZUVmdia0Iza3pVWERzcXZGRTBmUWpyMFlySUtVb3ZQNGQtM3d4MFk4QUZIM0UyYw?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260926T123208Z",
           "source": "GoogleNews"
         },
         {
@@ -2471,15 +2462,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20260909T070000Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "Application of IAEA Safeguards in the Middle East",
-          "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1zUmlKdTlZM1lPOUkxanBRdk5XVG5oTnhTWjduRzVzWi1TamhGZmYtZFh0c0NHLWJTSmtJOEZOekM2NEFZNmc?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260726T070000Z",
           "source": "GoogleNews"
         },
         {
@@ -2546,6 +2528,15 @@
           "source": "GoogleNews"
         },
         {
+          "title": "Services Series",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9kcDRHQUJLbjVjLU5OZkdsR0hwS1JoSW1ZTkdSRFpVeks0RTctTEI0VldYS1V0MllwampPMHlxVzl0SHNCazZVUmZyNDZZMmFTd1k1elBqOVJocngxc2lRdXU5ZWNfeV8wT0p0aW91T3I?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260930T233625Z",
+          "source": "GoogleNews"
+        },
+        {
           "title": "TECDOC Series",
           "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5QanRtZVdBX0V2VGRfZE9zajdTeU1pQ0dhQnEyQkJEVDZqVTZJcG5Ec0hJcEEwdXhCaW1XR3hiRDFrT28wekswNnEyQVNYZzhacmRoRzdoZXhvZFIxLTFPZEpDMA?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -2588,33 +2579,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20150125T160401Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "Safety Aspects of Ageing Management During Design, Construction and Commissioning of Nuclear Power Plants",
-          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPS3l3U3lHZnpMWVF4YkZ0WUZCc3MzUGN3Ri1oSWZDNGFIbGhJVjRlR0dfdXZiUXNMVm8wZWdLbmlvSlRoS1c3OXpUb2V1NUxZUmptZi1mODA3MjdWOG5wcHdCVDBIVW1ac0pqNVdXc2czVzE4b3dFR0pRMy1rMFVOTFN5ZXdpbXpTZ3BfcEtDUTZDWmpDeWJkei13aHpId2RNUmM1QTBFeFV0XzZneG93bUxDMzhhVnZOTDlFSEs2eEcybjQxekZRSkoxY09jQmM5a0dDNC1iRGllb2po?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20261120T110536Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "IAEA and Global Partnership of Nuclear Communities Strengthen Cooperation on Local Engagement",
-          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxONFlZRW5JUnlZUG9wM2xnMzh4aW56cHVuN1ByOWI5emI1VjN5d1dEbGlMTFQ0UUltUXhoWUFybVhielEybXRMQ0x2Z2VwUU5Wb2VoUC10MUNuZ2E3MGlYX1YtYVdTT3hPSHdaNTM4bXpGSi00eWtFc3VmWFhDb3Rtemh1dGJCdGszYjNybWNRQ2VZQXBfMmZJWHV3LU5rdlN1c0J2OUd3cDREUmpQTFFsMEVIbmtjLU5wUFZqeDdYT3dHTDJSeHlxQUN3?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20261119T120000Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "IAEA Concludes Long Term Operation Safety Review at Japan’s Mihama Nuclear Power Plant",
-          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOSjVrbGNIbWRKSFFRR3FPRFRpWE4tYWphdmNBN0VjMkh1Y3Q5Sm5GZUFLVjZReC1fUWJELUNFZzlSTWJhdWZTUmh6WW1rd241QkFudHlYNlhkbU9JSW5YNVZac3RLQUNNMEpBNVVSRmViNVpaMnhDeGNNSDV4MXpGendpSTFQeXpOb0tmUXI4SGhucWNLUEJrVWJTV1htX3ZxT3R4VTFWTFBPTVlaM3dIWGV2cUMyaW1sSnBPQkk4VjMtZ2ZrdENkazhhbw?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20261113T140004Z",
           "source": "GoogleNews"
         }
       ],
