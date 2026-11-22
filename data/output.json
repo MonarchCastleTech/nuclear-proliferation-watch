@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "nuclear-proliferation-watch",
-    "generated": "2026-11-22T07:29:08.473498+00:00",
+    "generated": "2026-11-22T19:58:47.547102+00:00",
     "mode": "live",
     "sources": [
       "IAEA official pages",
@@ -14,7 +14,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-11-22T07:29:08.468910+00:00",
+    "issued_at": "2026-11-22T19:58:47.541415+00:00",
     "horizon": "0-30 days",
     "classification": "nuclear-escalation-pressure-not-test-or-weapon-probability",
     "score": 9.7,
@@ -28,7 +28,7 @@
         "available": true,
         "score": 26.5,
         "current_14d_weight": 4.8,
-        "current_14d_titles": 12,
+        "current_14d_titles": 11,
         "baseline_periods": 8,
         "baseline_median": 1.0,
         "anomaly_z": 2.56,
@@ -112,7 +112,7 @@
         "available": true,
         "score": 0.0,
         "current_30d_diagnostic_weight": 0.0,
-        "events_considered": 1781,
+        "events_considered": 1783,
         "sites_monitored": 8,
         "anomaly_z": 0.0,
         "evidence": [],
@@ -128,17 +128,6 @@
     },
     "alerts": [],
     "history": [
-      {
-        "timestamp": "2026-09-23T17:28:52.909913+00:00",
-        "score": 4.1,
-        "level": "BASELINE",
-        "components": {
-          "iaea_safeguards_strain": 0.0,
-          "npwmd_designation_delta": 0.0,
-          "facility_security_incidents": 20.7,
-          "test_site_seismicity": 0.0
-        }
-      },
       {
         "timestamp": "2026-09-23T21:48:11.432976+00:00",
         "score": 13.2,
@@ -2107,12 +2096,23 @@
           "facility_security_incidents": 2.2,
           "test_site_seismicity": 0.0
         }
+      },
+      {
+        "timestamp": "2026-11-22T19:58:47.541415+00:00",
+        "score": 9.7,
+        "level": "BASELINE",
+        "components": {
+          "iaea_safeguards_strain": 26.5,
+          "npwmd_designation_delta": 0.0,
+          "facility_security_incidents": 2.2,
+          "test_site_seismicity": 0.0
+        }
       }
     ],
     "data_health": {
       "available_components": 4,
       "retained_components": [],
-      "iaea_titles": 45,
+      "iaea_titles": 46,
       "npwmd_entries": 1205,
       "iaea_events": 24,
       "test_sites": 8
@@ -2159,7 +2159,7 @@
     },
     {
       "label": "IAEA Signals",
-      "value": "45",
+      "value": "46",
       "delta": "official indexed pages"
     },
     {
@@ -2187,7 +2187,7 @@
         },
         {
           "title": "IAEA and Global Partnership of Nuclear Communities Strengthen Cooperation on Local Engagement",
-          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxONFlZRW5JUnlZUG9wM2xnMzh4aW56cHVuN1ByOWI5emI1VjN5d1dEbGlMTFQ0UUltUXhoWUFybVhielEybXRMQ0x2Z2VwUU5Wb2VoUC10MUNuZ2E3MGlYX1YtYVdTT3hPSHdaNTM4bXpGSi00eWtFc3VmWFhDb3Rtemh1dGJCdGszYjNybWNRQ2VZQXBfMmZJWHV3LU5rdlN1c0J2OUd3cDREUmpQTFFsMEVIbmtjLU5wUFZqeDdYT3dHTDJSeHlxQUN3?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNekk0LWNPQVBORGhaRndieFg2VnNlRU1lU0ZpSTlYNEVtaDVGSWFhQXNpd1ZUc3oxRU9qczlVNXhqb2xkWnFtdU9wcU11cEU2azlBczF1WWNXTjJaU0pEcElzUVhwdnhxdk0wbnQwU2lvUFNXeXRsaXpjMWNJNlBleEZaRmpydHFINlZxTFdMSEdLX2RZQ1BuT1BsTG41UG5mMnNTSlprNjFIZGVGb0NoMjRpWjdTekJlZ2ZZVXI5clpXRUpxLVUxTQ?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
@@ -2204,21 +2204,12 @@
           "source": "GoogleNews"
         },
         {
-          "title": "IAEA Mission to United Republic of Tanzania Finds Commitment to Strengthening Nuclear Security",
-          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQd1B2Ujd5R3psY1FveG96Vzc0X0dMRF85Z3h2Z0tUYlJabVJuTjJpdGdVZ1k1MDJDYjRPWFJHQlJFd014Z2p6eXUwSG12OHBsck4tSWwwZi1IXzhKWmdQM19JOG9GX0ZNbVpweVV1VXVfMzBZQkRtMXVkMlZEVzlRdHAwUktndmQ4YkRySkUzbFNrMFJQblVkUGhRVGZEWlFzckJORnNjallhOUZ6X1dhMmNyLS1CTWlJbVJaeXdNMW5oYkpmcDNqdW9jbk1YWE5DczlvTkxB?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20261118T073418Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "Update 375 – IAEA Director General Statement on Situation in Ukraine",
           "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNS2tzZ1dPVS1HZUdJTUxzdzhtOF9pSmc3a3Jia3BxNzdjYzhGTGh5d1YyMTlmYUt5UDZtWFE2eVZKYnVyNnJTZmlocUhvdks2eVlUUzJQRU9CZjJjZUN4VjhWWVlYX1BJaDhBMk9RbnF5cFFsWEVaNUx5ay1UdUhiMEJqZkh6MzFSR2FleTJQZ2ZkNXk1NTk1ZkFhakFvZjZUbTlxZEVLbVM0T1RfaWloZQ?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
-          "seendate": "20261114T083010Z",
+          "seendate": "20261114T080000Z",
           "source": "GoogleNews"
         },
         {
@@ -2267,30 +2258,12 @@
           "source": "GoogleNews"
         },
         {
-          "title": "Italy and Romania Establish New Member State Support Programmes to Strengthen IAEA Safeguards",
-          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxObFR5dkV1RHJhc1lzZzVLUjlJMWIyWFNaeWJtVU83cmRCUVdTNDc0aFhRdTFsczJTQWg1SVFJQ1VfSHdRek9LRTZyU2lqRU92T3pBcFoxQldzRURFOVcwVU5zUkl4MGtkaXl6OWtxMVBPT2ZYVmkyV1c5Yk13eHhSQVoxbE9MYzcwbDFQbnZaYnZ4UnZWOWlxSENBbmd4QkJuaHMtUzlOTWxhVDFxWFFKZTdVRnlHMmFnR0pJMkpoTmtRV0dmeU1HZQ?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20261023T070000Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "IAEA Safeguards Symposium 2026: Programme Now Available",
           "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOY3BmUk0tWnFsVVREWE1IQnlUZDJFeHZ5Um83RF9YU1JaTU93MU96bFdvdlRkbWRXUWhSOFdPdmgwYWhBQUxFY2Y1aTNYRXBfa1cxMXRweFJZay1VVVAxZ0l4c0tNYlFQR001QXYzamZaQUlhN3RPaTgtTHFxeTNtVEhyeW91QTdmckkyUjBOTXJjVW1J?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
           "seendate": "20261030T070000Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "Update 376 – IAEA Director General Statement on Situation in Ukraine",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOcXJZQ0NxWFpKLUdVMFRGY251dWhOaGs0bDk5bm9CeEZLNkIwUEJDeWlVTF9YVzBUMElpY0piZGJjTDRPZERyNEVSaWN6Z3l0N2w0MFpKcTY5R0h2cVdrbU8wRG5qcHBQNnNreHZoUE1CTUxxYm55TzR2SlhwUHJlZ0Vaalh1WnRVQ3BlM1I2Z0FZcmdqWmJiRFZqM2x2aW1tLXVLLWU0LUJSSUtlRGFMMjRB?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20261119T180236Z",
           "source": "GoogleNews"
         },
         {
@@ -2408,6 +2381,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20260820T083335Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Italy and Romania Establish New Member State Support Programmes to Strengthen IAEA Safeguards",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxObFR5dkV1RHJhc1lzZzVLUjlJMWIyWFNaeWJtVU83cmRCUVdTNDc0aFhRdTFsczJTQWg1SVFJQ1VfSHdRek9LRTZyU2lqRU92T3pBcFoxQldzRURFOVcwVU5zUkl4MGtkaXl6OWtxMVBPT2ZYVmkyV1c5Yk13eHhSQVoxbE9MYzcwbDFQbnZaYnZ4UnZWOWlxSENBbmd4QkJuaHMtUzlOTWxhVDFxWFFKZTdVRnlHMmFnR0pJMkpoTmtRV0dmeU1HZQ?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20261023T070000Z",
           "source": "GoogleNews"
         },
         {
@@ -2537,6 +2519,15 @@
           "source": "GoogleNews"
         },
         {
+          "title": "For Regulators",
+          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFA0UzdRMU1HTWhobU1HYVVzeFFiRkdxYjBzSXY3Tk5JVjk1eGZFR0hFMGpwMjFYWlczd1BpLVZ3ckJVUzFtcjVSa0VSZjZNbFpOeGpiS0tJWm1HdHE2YWl6ZjFjNnlSY0ZOVjBn?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260910T203847Z",
+          "source": "GoogleNews"
+        },
+        {
           "title": "TECDOC Series",
           "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5QanRtZVdBX0V2VGRfZE9zajdTeU1pQ0dhQnEyQkJEVDZqVTZJcG5Ec0hJcEEwdXhCaW1XR3hiRDFrT28wekswNnEyQVNYZzhacmRoRzdoZXhvZFIxLTFPZEpDMA?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -2579,6 +2570,24 @@
           "language": "",
           "tone": 0,
           "seendate": "20150125T160401Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Update 376 – IAEA Director General Statement on Situation in Ukraine",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxObjJ0T2Fwcm5XcWk2dlJieVN1Yl9nT19lQzVuS2FPOVFOTHNnVkFlMDQybFotcVhqNmRxQmxSVGwyaHh4eFFNSnJCWTRreWlycDNKcm1XRjZuZUxtLU81MTZ4bEFJSDZVdy1WMTlDLTRHQXRua2E0bmVqcmVDbFFFcEdoZm1Vc2xFSGhCX19mU0w3TDZmeVNZbDlWNG1vMDlIRHcySzBKTjAzb0ljREVjSw?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20261119T180236Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "70th IAEA General Conference",
+          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE10UkdkRmdFRXpNOFBiYm9FOG5qel9LazFZYWtTRDRib0poazNMQzZfWXQ2TzhieG9UVzZGM0d3T0ZldE1QX19Zd3FOVEVNMWVHYW81RVRSWE1XaWlMdGpoUUczazBnaWFJbnhoNkpLM3ZkT3M?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260921T070000Z",
           "source": "GoogleNews"
         }
       ],
@@ -10111,6 +10120,22 @@
           "source": "USGS"
         },
         {
+          "id": "us6000ucrp",
+          "site": "Lop Nur",
+          "site_lat": 41.69,
+          "site_lon": 88.42,
+          "time": 1795338508009,
+          "magnitude": 5.1,
+          "magnitude_type": "mb",
+          "event_type": "earthquake",
+          "place": "45 km SE of Ürümqi, China",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ucrp",
+          "lon": 87.9381,
+          "lat": 43.4743,
+          "depth_km": 10,
+          "source": "USGS"
+        },
+        {
           "id": "us6000u0jq",
           "site": "Lop Nur",
           "site_lat": 41.69,
@@ -10284,6 +10309,22 @@
           "lon": 88.1162,
           "lat": 42.5481,
           "depth_km": 10,
+          "source": "USGS"
+        },
+        {
+          "id": "nn00927328",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1795346096253,
+          "magnitude": 1.82,
+          "magnitude_type": "ml",
+          "event_type": "earthquake",
+          "place": "31 km ESE of Big Pine, California",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00927328",
+          "lon": -117.9425,
+          "lat": 37.097,
+          "depth_km": 7.626,
           "source": "USGS"
         },
         {
