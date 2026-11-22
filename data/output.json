@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "nuclear-proliferation-watch",
-    "generated": "2026-11-21T19:48:48.051002+00:00",
+    "generated": "2026-11-22T07:29:08.473498+00:00",
     "mode": "live",
     "sources": [
       "IAEA official pages",
@@ -14,7 +14,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-11-21T19:48:48.043661+00:00",
+    "issued_at": "2026-11-22T07:29:08.468910+00:00",
     "horizon": "0-30 days",
     "classification": "nuclear-escalation-pressure-not-test-or-weapon-probability",
     "score": 9.7,
@@ -30,8 +30,8 @@
         "current_14d_weight": 4.8,
         "current_14d_titles": 12,
         "baseline_periods": 8,
-        "baseline_median": 1.5,
-        "anomaly_z": 2.78,
+        "baseline_median": 1.0,
+        "anomaly_z": 2.56,
         "evidence": [
           {
             "title": "Nuclear Safeguards in a Changing World – 15th Symposium on International Safeguards Opens in Vienna",
@@ -42,7 +42,7 @@
           {
             "title": "Safeguards: Our Shared Responsibility",
             "url": null,
-            "date": "2026-11-10",
+            "date": "2026-11-09",
             "weight": 1.0
           },
           {
@@ -88,8 +88,8 @@
         "score": 2.2,
         "current_30d_weight": 0.8,
         "baseline_months": 11,
-        "baseline_median": 3.2,
-        "anomaly_z": -0.51,
+        "baseline_median": 1.6,
+        "anomaly_z": -0.34,
         "evidence": [
           {
             "title": "Theft of the Medical isotopes during transport",
@@ -112,7 +112,7 @@
         "available": true,
         "score": 0.0,
         "current_30d_diagnostic_weight": 0.0,
-        "events_considered": 1780,
+        "events_considered": 1781,
         "sites_monitored": 8,
         "anomaly_z": 0.0,
         "evidence": [],
@@ -128,17 +128,6 @@
     },
     "alerts": [],
     "history": [
-      {
-        "timestamp": "2026-09-23T12:14:21.856836+00:00",
-        "score": 13.2,
-        "level": "BASELINE",
-        "components": {
-          "iaea_safeguards_strain": 26.0,
-          "npwmd_designation_delta": 0.0,
-          "facility_security_incidents": 20.7,
-          "test_site_seismicity": 0.0
-        }
-      },
       {
         "timestamp": "2026-09-23T17:28:52.909913+00:00",
         "score": 4.1,
@@ -2107,6 +2096,17 @@
           "facility_security_incidents": 2.2,
           "test_site_seismicity": 0.0
         }
+      },
+      {
+        "timestamp": "2026-11-22T07:29:08.468910+00:00",
+        "score": 9.7,
+        "level": "BASELINE",
+        "components": {
+          "iaea_safeguards_strain": 26.5,
+          "npwmd_designation_delta": 0.0,
+          "facility_security_incidents": 2.2,
+          "test_site_seismicity": 0.0
+        }
       }
     ],
     "data_health": {
@@ -2241,11 +2241,11 @@
         },
         {
           "title": "Safeguards: Our Shared Responsibility",
-          "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1CMFdTc3dCVnB4Nk9xMVBOTXZKcy1fWVk2YUJJMS1yOVRyS09ZVUhWMkE3c1FmM1JTY0Z2SHhvRF90amZQckg2NkRtdw?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPNU9BcFVMNVNkbzQ3a05VY3RaWE5TeEU2R1hkRzNMdVpaZWFfRGxZd2ZWN1pKUlJGQzJhZzhPU1VhdW5yaTZpbHZhV1ZhY1Jsc29paEEyY0xNLS1vckg2eENENTJpemhzdm1iRVk2b1JtRmgyYXlxczhNTFdSVG1vMzNjU29FcG9iYW04bjlGWQ?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
-          "seendate": "20261110T002506Z",
+          "seendate": "20261109T080000Z",
           "source": "GoogleNews"
         },
         {
@@ -2339,15 +2339,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "INPRO Methodology for Sustainability Assessments of Nuclear Energy Systems: Proliferation Resistance",
-          "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBoQ2N3Y053TjB5WUZtOGRibXBXUzRLV3hzNnJ0M1hBV2I1RnAxel9ueGhmSkZiVHRmcG4zLVVhaFU0bUVVaDF4dTBBSQ?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260918T184322Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "Symposium on International Safeguards: Innovation and Resilience in a Changing World - Safeguards as a Shared Responsibility | IAEA",
           "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE55UC04dnMwUmJjX0JfSXR0MXBFRFN1RTYzY3h4LTF6YXNENlZmQm5FcHdFdEtRREROWE0zS1RtUnZsa0tKWVZNeWpR?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -2393,12 +2384,12 @@
           "source": "GoogleNews"
         },
         {
-          "title": "International Safeguards in the Design of Radioactive Waste Management Programmes",
-          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPdjNMeng0bFVhT201Rm1ET0cyaktkQlN6SllGMU04eG9JQUJJeEVReXVXaFN1S2RObkh5UjA0NER4TGpwS2JWdXhaUElaWVUtV1dSNm5JOTV1RHYybFFkbFBkSUZKUllJcjdRdzB3YzdIVmsxZ2ZkSkNTTkxvTDRGYlRLUE5oV2dnZ3lXcS16SUlIVDlhY21jOWNOVzY2QmpGcXBVOFpuNm8yYlpTTU1nbGpCbzE3XzY4SXhudQ?oc=5",
+          "title": "INPRO Methodology for Sustainability Assessments of Nuclear Energy Systems: Proliferation Resistance",
+          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQVUNVV3Y4ZFN3eHVTNmc3UFlrV19aemxaM3VPS2tBMGpmc21jYUhMMzgybzRSUDVvNlVEaUlBbEZkb3BydEFjOHhWUzFjWkIxMVdEVVhGU1B5VnVKS21raWlfY1VFUGk2VTk2UndxRk5ZSjJpNW1ZZ2VSR0xDdGxrenplNFZyRWYxaDRQenlGWDRRWkNQd1BIRm9NeDM5MFdBUGlZZW1KRlV2eUxXNXdhelI2QWMxdGpDYjl3U19hOWFSN1cyendKc2pNaFlQYmNkZkoydA?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
-          "seendate": "20250211T061014Z",
+          "seendate": "20260909T132133Z",
           "source": "GoogleNews"
         },
         {
@@ -2525,6 +2516,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20260918T070000Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Rafael Mariano Grossi | IAEA",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE55OXJZWUVIRFBqSFJtNXRubUVQWEg0TXNZdG9CdzZWUTBFcUx1MkVOMUEyeXlCMXRDS0dFSXFfMjRrdGZoSEpDaDdhc18yOWpOTzhCY2UyMmQ3T0U?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260313T194636Z",
           "source": "GoogleNews"
         },
         {
@@ -10284,6 +10284,38 @@
           "lon": 88.1162,
           "lat": 42.5481,
           "depth_km": 10,
+          "source": "USGS"
+        },
+        {
+          "id": "nc75470297",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1795328872740,
+          "magnitude": 1.52,
+          "magnitude_type": "md",
+          "event_type": "earthquake",
+          "place": "18 km SW of Toms Place, CA",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75470297",
+          "lon": -118.833168029785,
+          "lat": 37.4571647644043,
+          "depth_km": -0.620000004768372,
+          "source": "USGS"
+        },
+        {
+          "id": "nn00927274",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1795302247763,
+          "magnitude": 1.53,
+          "magnitude_type": "ml",
+          "event_type": "earthquake",
+          "place": "0 km N of West Bishop, California",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00927274",
+          "lon": -118.4545,
+          "lat": 37.3698,
+          "depth_km": 13.2837,
           "source": "USGS"
         },
         {
@@ -38415,22 +38447,6 @@
           "source": "USGS"
         },
         {
-          "id": "ci41125439",
-          "site": "Nevada National Security Site",
-          "site_lat": 37.12,
-          "site_lon": -116.05,
-          "time": 1763733321150,
-          "magnitude": 1.93,
-          "magnitude_type": "ml",
-          "event_type": "earthquake",
-          "place": "21 km E of Little Lake, CA",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41125439",
-          "lon": -117.678333333333,
-          "lat": 35.9493333333333,
-          "depth_km": 4.35,
-          "source": "USGS"
-        },
-        {
           "id": "us6000u48b",
           "site": "Chagai",
           "site_lat": 28.9,
@@ -38630,7 +38646,7 @@
     {
       "title": "Safeguards: Our Shared Responsibility",
       "url": null,
-      "date": "2026-11-10",
+      "date": "2026-11-09",
       "weight": 1.0
     },
     {
