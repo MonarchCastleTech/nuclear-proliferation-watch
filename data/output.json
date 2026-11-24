@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "nuclear-proliferation-watch",
-    "generated": "2026-11-24T00:23:44.506365+00:00",
+    "generated": "2026-11-24T10:26:34.769987+00:00",
     "mode": "live",
     "sources": [
       "IAEA official pages",
@@ -14,10 +14,10 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-11-24T00:23:44.501385+00:00",
+    "issued_at": "2026-11-24T10:26:34.761981+00:00",
     "horizon": "0-30 days",
     "classification": "nuclear-escalation-pressure-not-test-or-weapon-probability",
-    "score": 6.0,
+    "score": 1.4,
     "level": "BASELINE",
     "confidence": "HIGH",
     "confidence_score": 100.0,
@@ -26,30 +26,18 @@
         "id": "iaea_safeguards_strain",
         "label": "IAEA safeguards and access strain",
         "available": true,
-        "score": 15.8,
-        "current_14d_weight": 2.8,
-        "current_14d_titles": 16,
+        "score": 2.6,
+        "current_14d_weight": 1.0,
+        "current_14d_titles": 14,
         "baseline_periods": 8,
         "baseline_median": 1.0,
-        "anomaly_z": 1.21,
+        "anomaly_z": 0.0,
         "evidence": [
-          {
-            "title": "Symposium on International Safeguards: Innovation and Resilience in a Changing World - Safeguards as a Shared Responsibility | IAEA",
-            "url": null,
-            "date": "2026-11-12",
-            "weight": 1.0
-          },
           {
             "title": "Symposium on International Safeguards: Innovation and Resilience in a Changing World - Safeguards as a Shared Responsibility - Training Days",
             "url": null,
             "date": "2026-11-12",
             "weight": 1.0
-          },
-          {
-            "title": "IAEA and Global Partnership of Nuclear Communities Strengthen Cooperation on Local Engagement",
-            "url": null,
-            "date": "2026-11-19",
-            "weight": 0.8
           }
         ],
         "retained": false
@@ -100,7 +88,7 @@
         "available": true,
         "score": 0.0,
         "current_30d_diagnostic_weight": 0.0,
-        "events_considered": 1784,
+        "events_considered": 1787,
         "sites_monitored": 8,
         "anomaly_z": 0.0,
         "evidence": [],
@@ -116,17 +104,6 @@
     },
     "alerts": [],
     "history": [
-      {
-        "timestamp": "2026-09-24T12:14:19.644066+00:00",
-        "score": 13.2,
-        "level": "BASELINE",
-        "components": {
-          "iaea_safeguards_strain": 26.0,
-          "npwmd_designation_delta": 0.0,
-          "facility_security_incidents": 20.7,
-          "test_site_seismicity": 0.0
-        }
-      },
       {
         "timestamp": "2026-09-24T17:33:40.598727+00:00",
         "score": 4.1,
@@ -2095,12 +2072,23 @@
           "facility_security_incidents": 2.2,
           "test_site_seismicity": 0.0
         }
+      },
+      {
+        "timestamp": "2026-11-24T10:26:34.761981+00:00",
+        "score": 1.4,
+        "level": "BASELINE",
+        "components": {
+          "iaea_safeguards_strain": 2.6,
+          "npwmd_designation_delta": 0.0,
+          "facility_security_incidents": 2.2,
+          "test_site_seismicity": 0.0
+        }
       }
     ],
     "data_health": {
       "available_components": 4,
       "retained_components": [],
-      "iaea_titles": 92,
+      "iaea_titles": 91,
       "npwmd_entries": 1205,
       "iaea_events": 24,
       "test_sites": 8
@@ -2142,12 +2130,12 @@
   "stats": [
     {
       "label": "Escalation Pressure",
-      "value": "6.0/100",
+      "value": "1.4/100",
       "delta": "BASELINE"
     },
     {
       "label": "IAEA Signals",
-      "value": "92",
+      "value": "91",
       "delta": "official indexed pages"
     },
     {
@@ -2171,15 +2159,6 @@
           "language": "",
           "tone": 0,
           "seendate": "20261118T095224Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "IAEA and Global Partnership of Nuclear Communities Strengthen Cooperation on Local Engagement",
-          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNekk0LWNPQVBORGhaRndieFg2VnNlRU1lU0ZpSTlYNEVtaDVGSWFhQXNpd1ZUc3oxRU9qczlVNXhqb2xkWnFtdU9wcU11cEU2azlBczF1WWNXTjJaU0pEcElzUVhwdnhxdk0wbnQwU2lvUFNXeXRsaXpjMWNJNlBleEZaRmpydHFINlZxTFdMSEdLX2RZQ1BuT1BsTG41UG5mMnNTSlprNjFIZGVGb0NoMjRpWjdTekJlZ2ZZVXI5clpXRUpxLVUxTQ?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20261119T120000Z",
           "source": "GoogleNews"
         },
         {
@@ -2318,30 +2297,21 @@
           "source": "GoogleNews"
         },
         {
-          "title": "Symposium on International Safeguards: Innovation and Resilience in a Changing World - Safeguards as a Shared Responsibility | IAEA",
-          "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE55UC04dnMwUmJjX0JfSXR0MXBFRFN1RTYzY3h4LTF6YXNENlZmQm5FcHdFdEtRREROWE0zS1RtUnZsa0tKWVZNeWpR?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20261112T080000Z",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "APPLICATION OF IAEA SAFEGUARDS IN THE MIDDLE EAST",
-          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE44V0p0Z04tWFZsLVhhSzBXbHROMTlZZWIwaWFueWMyMWlMbkhvb09mcmZmYzFyN0lzbktkYmhqUzNaTGR4YUtfek9ONDQxcnpyTV9TNmktU0ZRUlpDVFlpMWpuVU9zdw?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20260727T070000Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "Implementation of the NPT Safeguards Agreement in the Syrian Arab Republic",
           "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE4tZVlxQVdiNXk4cUlrdHVwWmZnMm0xM3BFSnVVVzZZR2Z1V0xDZ0hpZXpnaEc4V1dkVDVGVG9qajBFdHNLUndUMHBSV054eDhyblg5YVBPYmp4RzZjcXRlQk9NS0JMZw?oc=5",
           "domain": "internationalatomicenergyagency",
           "language": "",
           "tone": 0,
           "seendate": "20260909T070000Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "APPLICATION OF SAFEGUARDS IN THE DEMOCRATIC PEOPLE’S REPUBLIC OF KOREA",
+          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE92Umk1WEFHSmY3MU5Odnc1UHdrcWdPWTFpUDRyZktSWHhLVDQyTDVJUkJMMnN4MGtsOXdNYl9PaXhRZlNNLThpYkd6WnN3LXhZRUlJREdZRGlLeXdaSFR5Mjg0YVE2dw?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260828T070000Z",
           "source": "GoogleNews"
         },
         {
@@ -2534,15 +2504,6 @@
           "source": "GoogleNews"
         },
         {
-          "title": "Update 375 – IAEA Director General Statement on Situation in Ukraine",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNS2tzZ1dPVS1HZUdJTUxzdzhtOF9pSmc3a3Jia3BxNzdjYzhGTGh5d1YyMTlmYUt5UDZtWFE2eVZKYnVyNnJTZmlocUhvdks2eVlUUzJQRU9CZjJjZUN4VjhWWVlYX1BJaDhBMk9RbnF5cFFsWEVaNUx5ay1UdUhiMEJqZkh6MzFSR2FleTJQZ2ZkNXk1NTk1ZkFhakFvZjZUbTlxZEVLbVM0T1RfaWloZQ?oc=5",
-          "domain": "internationalatomicenergyagency",
-          "language": "",
-          "tone": 0,
-          "seendate": "20261114T080000Z",
-          "source": "GoogleNews"
-        },
-        {
           "title": "International Ministerial Conference on Nuclear Power - Provisional Programme | IAEA",
           "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOcnZQVUlTS0loZlJOenFISElOWnJaWF9nM0hfeW02akNuOHRKY2dGUDFRcjJ6bEpKSzFnMTFKSUREbVdfdWdYUmtXZ3NieElkSTlvbkhiZHVYMURlcGotYWlIOG83dDhvWWpzNnFRT0pIeFBmZ2RoeUdRcDNRYTFrWU5RTXQ?oc=5",
           "domain": "internationalatomicenergyagency",
@@ -2639,6 +2600,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20260826T070000Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "Update 375 – IAEA Director General Statement on Situation in Ukraine",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNS2tzZ1dPVS1HZUdJTUxzdzhtOF9pSmc3a3Jia3BxNzdjYzhGTGh5d1YyMTlmYUt5UDZtWFE2eVZKYnVyNnJTZmlocUhvdks2eVlUUzJQRU9CZjJjZUN4VjhWWVlYX1BJaDhBMk9RbnF5cFFsWEVaNUx5ay1UdUhiMEJqZkh6MzFSR2FleTJQZ2ZkNXk1NTk1ZkFhakFvZjZUbTlxZEVLbVM0T1RfaWloZQ?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20261114T080000Z",
           "source": "GoogleNews"
         },
         {
@@ -2990,6 +2960,15 @@
           "language": "",
           "tone": 0,
           "seendate": "20261112T103820Z",
+          "source": "GoogleNews"
+        },
+        {
+          "title": "The Week Ahead: IAEA Hosts 70th General Conference",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQRDFMWmxYQkZUOVI0YnBMNEVjeFVYYlJMYmktaU8xaXk3RVdVYUhoOTRreXNncnluNHJ5UXR0aU84Nkc0ZFkwWUg2bVBQOGpJUFRmcHRQZUdnQjhzenJSZHNwR3k0OTFIT3ZqSGEwWWUyX3QwN0tQX3pNUUtsZDRPVkM3RnFQSW5wMzRXc0pR?oc=5",
+          "domain": "internationalatomicenergyagency",
+          "language": "",
+          "tone": 0,
+          "seendate": "20260914T070000Z",
           "source": "GoogleNews"
         }
       ],
@@ -10711,6 +10690,38 @@
           "lon": 88.1162,
           "lat": 42.5481,
           "depth_km": 10,
+          "source": "USGS"
+        },
+        {
+          "id": "nc75471542",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1795508110540,
+          "magnitude": 1.94,
+          "magnitude_type": "md",
+          "event_type": "earthquake",
+          "place": "3 km W of Dixon Lane-Meadow Creek, CA",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75471542",
+          "lon": -118.447830200195,
+          "lat": 37.390998840332,
+          "depth_km": 10.7700004577637,
+          "source": "USGS"
+        },
+        {
+          "id": "nn00927388",
+          "site": "Nevada National Security Site",
+          "site_lat": 37.12,
+          "site_lon": -116.05,
+          "time": 1795504631232,
+          "magnitude": 1.62,
+          "magnitude_type": "ml",
+          "event_type": "earthquake",
+          "place": "17 km S of Tecopa, California",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00927388",
+          "lon": -116.2277,
+          "lat": 35.6872,
+          "depth_km": 14.5751,
           "source": "USGS"
         },
         {
@@ -38906,6 +38917,22 @@
           "source": "USGS"
         },
         {
+          "id": "us6000ud3q",
+          "site": "Chagai",
+          "site_lat": 28.9,
+          "site_lon": 64.95,
+          "time": 1795486585675,
+          "magnitude": 4.3,
+          "magnitude_type": "mb",
+          "event_type": "earthquake",
+          "place": "27 km S of Surab, Pakistan",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ud3q",
+          "lon": 66.2542,
+          "lat": 28.2447,
+          "depth_km": 10,
+          "source": "USGS"
+        },
+        {
           "id": "us6000u48b",
           "site": "Chagai",
           "site_lat": 28.9,
@@ -39097,22 +39124,10 @@
   },
   "events": [
     {
-      "title": "Symposium on International Safeguards: Innovation and Resilience in a Changing World - Safeguards as a Shared Responsibility | IAEA",
-      "url": null,
-      "date": "2026-11-12",
-      "weight": 1.0
-    },
-    {
       "title": "Symposium on International Safeguards: Innovation and Resilience in a Changing World - Safeguards as a Shared Responsibility - Training Days",
       "url": null,
       "date": "2026-11-12",
       "weight": 1.0
-    },
-    {
-      "title": "IAEA and Global Partnership of Nuclear Communities Strengthen Cooperation on Local Engagement",
-      "url": null,
-      "date": "2026-11-19",
-      "weight": 0.8
     },
     {
       "title": "Theft of the Medical isotopes during transport",
